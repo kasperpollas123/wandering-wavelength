@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://expungement-attorneys.com/sitemap.xml

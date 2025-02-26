@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Attorney Silhouette</title>
+    <g id="Attorney-Silhouette" stroke="none" stroke-width="1" fill="#2C5282" fill-rule="evenodd">
+        <!-- Head and shoulders silhouette -->
+        <path d="M400,120 C450,120 490,160 490,220 C490,280 460,320 400,320 C340,320 310,280 310,220 C310,160 350,120 400,120 Z" id="Head"></path>
+        <path d="M320,320 C320,320 280,340 260,380 C240,420 240,480 240,480 L560,480 C560,480 560,420 540,380 C520,340 480,320 480,320 C480,320 450,340 400,340 C350,340 320,320 320,320 Z" id="Shoulders"></path>
+        <!-- Body silhouette -->
+        <path d="M240,480 L240,680 L560,680 L560,480 L240,480 Z" id="Body"></path>
+        <!-- Tie silhouette -->
+        <path d="M380,340 L420,340 L430,480 L400,520 L370,480 L380,340 Z" id="Tie"></path>
+        <!-- Suit jacket outline -->
+        <path d="M240,480 L280,480 L300,580 L300,680 L240,680 Z" id="LeftArm"></path>
+        <path d="M560,480 L520,480 L500,580 L500,680 L560,680 Z" id="RightArm"></path>
+    </g>
+</svg>

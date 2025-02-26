@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>City Silhouette</title>
+    <g id="City-Silhouette" stroke="none" stroke-width="1" fill="#2C5282" fill-rule="evenodd">
+        <!-- City skyline silhouette -->
+        <!-- Base ground -->
+        <rect id="Ground" x="100" y="600" width="600" height="100"></rect>
+        
+        <!-- Buildings -->
+        <rect id="Building1" x="120" y="300" width="80" height="300"></rect>
+        <rect id="Building2" x="220" y="350" width="100" height="250"></rect>
+        <rect id="Building3" x="340" y="200" width="120" height="400"></rect>
+        <rect id="Building4" x="480" y="250" width="90" height="350"></rect>
+        <rect id="Building5" x="590" y="380" width="70" height="220"></rect>
+        
+        <!-- Windows -->
+        <rect id="Window1" x="135" y="330" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window2" x="165" y="330" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window3" x="135" y="370" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window4" x="165" y="370" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window5" x="135" y="410" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window6" x="165" y="410" width="20" height="20" fill="white" opacity="0.7"></rect>
+        
+        <rect id="Window7" x="240" y="380" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window8" x="275" y="380" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window9" x="240" y="425" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window10" x="275" y="425" width="25" height="25" fill="white" opacity="0.7"></rect>
+        
+        <rect id="Window11" x="370" y="230" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window12" x="405" y="230" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window13" x="370" y="275" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window14" x="405" y="275" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window15" x="370" y="320" width="25" height="25" fill="white" opacity="0.7"></rect>
+        <rect id="Window16" x="405" y="320" width="25" height="25" fill="white" opacity="0.7"></rect>
+        
+        <rect id="Window17" x="500" y="280" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window18" x="530" y="280" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window19" x="500" y="320" width="20" height="20" fill="white" opacity="0.7"></rect>
+        <rect id="Window20" x="530" y="320" width="20" height="20" fill="white" opacity="0.7"></rect>
+        
+        <rect id="Window21" x="605" y="410" width="15" height="15" fill="white" opacity="0.7"></rect>
+        <rect id="Window22" x="630" y="410" width="15" height="15" fill="white" opacity="0.7"></rect>
+        <rect id="Window23" x="605" y="440" width="15" height="15" fill="white" opacity="0.7"></rect>
+        <rect id="Window24" x="630" y="440" width="15" height="15" fill="white" opacity="0.7"></rect>
+        
+        <!-- Building tops -->
+        <polygon id="BuildingTop1" points="160,300 180,250 140,250" fill="#2C5282"></polygon>
+        <polygon id="BuildingTop3" points="400,200 430,150 370,150" fill="#2C5282"></polygon>
+    </g>
+</svg>

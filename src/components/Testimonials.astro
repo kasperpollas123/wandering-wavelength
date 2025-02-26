@@ -1,0 +1,63 @@
+---
+interface Testimonial {
+  quote: string;
+  author: string;
+  location: string;
+  image?: string;
+}
+
+interface Props {
+  testimonials: Testimonial[];
+  title?: string;
+  subtitle?: string;
+}
+
+const { 
+  testimonials,
+  title = "Success Stories",
+  subtitle = "Hear from people who have successfully cleared their records with the help of our attorneys."
+} = Astro.props;
+---
+
+<section class="py-16 bg-gray-50">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">{title}</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">{subtitle}</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {testimonials.map((testimonial) => (
+        <div class="bg-white rounded-lg shadow-md p-6 relative">
+          <!-- Quote icon -->
+          <div class="absolute top-6 right-6 text-gray-200">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/>
+            </svg>
+          </div>
+          
+          <p class="text-gray-700 mb-6 relative z-10">{testimonial.quote}</p>
+          
+          <div class="flex items-center">
+            {testimonial.image ? (
+              <img 
+                src={testimonial.image} 
+                alt={testimonial.author} 
+                class="w-12 h-12 rounded-full object-cover mr-4"
+              />
+            ) : (
+              <div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center mr-4">
+                {testimonial.author.charAt(0)}
+              </div>
+            )}
+            
+            <div>
+              <p class="font-semibold">{testimonial.author}</p>
+              <p class="text-sm text-gray-600">{testimonial.location}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

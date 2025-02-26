@@ -1,0 +1,61 @@
+---
+---
+
+<header class="bg-gradient-to-r from-blue-950 to-blue-900 shadow-md" style="background: linear-gradient(to right, #0a1c34, #0f2a4a);">
+  <div class="container py-4">
+    <nav class="flex items-center justify-between">
+      <a href="/" class="text-2xl font-bold text-white hover:text-white">
+        Expungement Attorneys Directory
+      </a>
+      
+      <div class="hidden md:flex space-x-1">
+        <a href="/" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Home</a>
+        <a href="/about" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">About</a>
+        <a href="/cities" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Cities</a>
+        <a href="/resources" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Resources</a>
+        <a href="/contact" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Contact</a>
+        <a href="/search" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          Search
+        </a>
+      </div>
+      
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-300 hover:text-white hover:bg-opacity-70" style="background-color: #0f2a4a;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+    
+    <div id="mobile-menu" class="hidden md:hidden mt-4 pb-2">
+      <div class="flex flex-col space-y-1">
+        <a href="/" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Home</a>
+        <a href="/about" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">About</a>
+        <a href="/cities" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Cities</a>
+        <a href="/resources" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Resources</a>
+        <a href="/contact" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all">Contact</a>
+        <a href="/search" class="px-4 py-2 font-medium text-gray-200 hover:text-white hover:bg-primary rounded transition-all flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          Search
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuButton && mobileMenu) {
+      mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  });
+</script>

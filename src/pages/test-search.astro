@@ -1,0 +1,152 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { cities } from '../data/cities';
+import CityCard from '../components/CityCard.astro';
+
+// Get the search query from URL params
+const { searchQuery } = Astro.url.searchParams;
+
+// Find Oklahoma City for testing
+const oklahomaCity = cities.find(city => 
+  city.name.toLowerCase() === "oklahoma city" && 
+  city.state.toLowerCase() === "ok"
+);
+
+// Get all cities for reference
+const allCities = cities.map(city => `${city.name}, ${city.state}`).join('<br>');
+---
+
+<PageLayout 
+  title="Test Search | Expungement Attorneys Directory"
+  description="Test search functionality"
+  canonicalURL="/test-search"
+>
+  <div class="container py-12">
+    <h1 class="text-3xl font-bold mb-8">Test Search Page</h1>
+    
+    <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+      <h2 class="text-2xl font-bold mb-4">Search Query</h2>
+      <p class="mb-4">Current search query: <strong>{searchQuery || "None"}</strong></p>
+      
+      <form action="/test-search" method="get" class="mb-6">
+        <div class="flex gap-4">
+          <input 
+            type="text" 
+            name="searchQuery" 
+            placeholder="Enter search query" 
+            class="flex-grow px-4 py-2 border rounded text-gray-800"
+            value={searchQuery || ""}
+          />
+          <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Search</button>
+        </div>
+      </form>
+    </div>
+    
+    {searchQuery && (
+      <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+        <h2 class="text-2xl font-bold mb-4">Search Results</h2>
+        
+        <div class="mb-4">
+          <h3 class="text-xl font-bold mb-2">Exact Match (City Name)</h3>
+          {cities.filter(city => 
+            city.name.toLowerCase() === searchQuery.toLowerCase().trim()
+          ).map(city => (
+            <div class="p-4 border rounded mb-2">
+              <p><strong>{city.name}, {city.state}</strong></p>
+              <p>Slug: {city.slug}</p>
+              <p>SEO Slug: {city.seoSlug}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div class="mb-4">
+          <h3 class="text-xl font-bold mb-2">Partial Match (City Name)</h3>
+          {cities.filter(city => 
+            city.name.toLowerCase().includes(searchQuery.toLowerCase().trim())
+          ).map(city => (
+            <div class="p-4 border rounded mb-2">
+              <p><strong>{city.name}, {city.state}</strong></p>
+              <p>Slug: {city.slug}</p>
+              <p>SEO Slug: {city.seoSlug}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div class="mb-4">
+          <h3 class="text-xl font-bold mb-2">State Match</h3>
+          {cities.filter(city => 
+            city.state.toLowerCase() === searchQuery.toLowerCase().trim()
+          ).map(city => (
+            <div class="p-4 border rounded mb-2">
+              <p><strong>{city.name}, {city.state}</strong></p>
+              <p>Slug: {city.slug}</p>
+              <p>SEO Slug: {city.seoSlug}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+    
+    <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+      <h2 class="text-2xl font-bold mb-4">Test Links</h2>
+      <div class="flex flex-col gap-4">
+        <a href="/search?searchQuery=Oklahoma+City" class="px-4 py-2 bg-blue-600 text-white rounded text-center">
+          Search for "Oklahoma City"
+        </a>
+        <a href="/search?searchQuery=Oklahoma+City%2C+OK" class="px-4 py-2 bg-blue-600 text-white rounded text-center">
+          Search for "Oklahoma City, OK"
+        </a>
+        <a href="/search?searchQuery=Oklahoma" class="px-4 py-2 bg-blue-600 text-white rounded text-center">
+          Search for "Oklahoma"
+        </a>
+        <a href="/search?searchQuery=OK" class="px-4 py-2 bg-blue-600 text-white rounded text-center">
+          Search for "OK"
+        </a>
+      </div>
+    </div>
+    
+    <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+      <h2 class="text-2xl font-bold mb-4">Oklahoma City Data</h2>
+      {oklahomaCity ? (
+        <div class="p-4 border rounded">
+          <p><strong>{oklahomaCity.name}, {oklahomaCity.state}</strong></p>
+          <p>Slug: {oklahomaCity.slug}</p>
+          <p>SEO Slug: {oklahomaCity.seoSlug}</p>
+          <p>Attorney Count: {oklahomaCity.attorneyCount}</p>
+          <p>Image: {oklahomaCity.image}</p>
+          <p class="mt-4">
+            <a href={`/cities/${oklahomaCity.seoSlug || oklahomaCity.slug}`} class="px-4 py-2 bg-blue-600 text-white rounded">
+              View Oklahoma City Page
+            </a>
+          </p>
+        </div>
+      ) : (
+        <p class="text-red-600">Oklahoma City not found in cities data!</p>
+      )}
+    </div>
+    
+    <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+      <h2 class="text-2xl font-bold mb-4">Test CityCard Component</h2>
+      {oklahomaCity ? (
+        <div class="max-w-sm mx-auto">
+          <CityCard
+            name={oklahomaCity.name}
+            state={oklahomaCity.state}
+            image={oklahomaCity.image}
+            attorneyCount={oklahomaCity.attorneyCount}
+            slug={oklahomaCity.seoSlug || oklahomaCity.slug}
+          />
+        </div>
+      ) : (
+        <p class="text-red-600">Cannot display CityCard: Oklahoma City not found!</p>
+      )}
+    </div>
+    
+    <div class="bg-white p-8 rounded-lg shadow-md">
+      <h2 class="text-2xl font-bold mb-4">All Cities</h2>
+      <div class="max-h-96 overflow-y-auto">
+        <p set:html={allCities}></p>
+      </div>
+    </div>
+  </div>
+</PageLayout>

@@ -1,0 +1,82 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import CityCard from '../../components/CityCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import { cities } from '../../data/cities';
+
+// Group cities by state
+const cityGroups = cities.reduce((groups, city) => {
+  const state = city.state;
+  if (!groups[state]) {
+    groups[state] = [];
+  }
+  groups[state].push(city);
+  return groups;
+}, {});
+
+// Sort states alphabetically
+const sortedStates = Object.keys(cityGroups).sort();
+---
+
+<PageLayout 
+  title="Expungement Attorneys by City | Find Legal Help Near You"
+  description="Browse our directory of expungement attorneys by city to find qualified legal help for clearing your criminal record in your location."
+  canonicalURL="/cities"
+>
+  <Hero 
+    title="Find Expungement Attorneys by City"
+    subtitle="Browse our directory of qualified expungement attorneys in cities across the United States."
+    backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
+  />
+  
+  <div class="container py-8">
+    <Breadcrumbs 
+      items={[
+        { label: "Cities" }
+      ]}
+    />
+  </div>
+  
+  <section class="py-12 bg-white">
+    <div class="container">
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold mb-6">All Cities</h2>
+        
+        <div class="mb-8">
+          <div class="flex flex-wrap gap-2 mb-6">
+            {sortedStates.map(state => (
+              <a href={`#${state}`} class="px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded-full text-sm font-medium">
+                {state}
+              </a>
+            ))}
+          </div>
+        </div>
+        
+        {sortedStates.map(state => (
+          <div id={state} class="mb-12">
+            <h3 class="text-2xl font-bold mb-6 pb-2 border-b border-gray-200">{state}</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {cityGroups[state].map(city => (
+                <CityCard
+                  name={city.name}
+                  state={city.state}
+                  image={city.image}
+                  attorneyCount={city.attorneyCount}
+                  slug={city.seoSlug || city.slug}
+                />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+  
+  <CallToAction 
+    title="Ready to Clear Your Record?"
+    description="Our directory connects you with experienced expungement attorneys across the country who can help you navigate the legal process and get a fresh start."
+  />
+</PageLayout>

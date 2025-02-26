@@ -1,0 +1,123 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import AttorneyCard from '../../components/AttorneyCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { cities } from '../../data/cities';
+import { getAttorneysByCitySlug } from '../../data/attorneys';
+
+export function getStaticPaths() {
+  return cities.map(city => ({
+    params: { slug: city.seoSlug || city.slug },
+    props: { city }
+  }));
+}
+
+const { city } = Astro.props;
+const attorneys = getAttorneysByCitySlug(city.slug);
+---
+
+<PageLayout 
+  title={`Top Expungement Attorneys in ${city.name}, ${city.state} | Find Record Clearing Lawyers`}
+  description={`Connect with experienced expungement attorneys in ${city.name}, ${city.state} who can help clear your criminal record and give you a fresh start.`}
+  canonicalURL={`/cities/${city.seoSlug || city.slug}`}
+>
+  <Hero 
+    title={`Find Expungement Attorneys in ${city.name}`}
+    subtitle={`Connect with experienced expungement attorneys in ${city.name}, ${city.state} who can help you navigate the legal process and get a fresh start.`}
+    backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
+  />
+  
+  <div class="container py-8">
+    <Breadcrumbs 
+      items={[
+        { label: "Cities", href: "/cities" },
+        { label: `${city.name}, ${city.state}` }
+      ]}
+    />
+  </div>
+  
+  <section class="py-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto mb-12">
+        <h2 class="text-3xl font-bold mb-6">About {city.name}, {city.state}</h2>
+        <p class="text-lg text-gray-700 mb-6">{city.description}</p>
+        
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4">Expungement Laws in {city.state}</h3>
+          <p class="text-gray-700 mb-4">
+            Expungement laws vary by state, and {city.state} has specific requirements and procedures for clearing criminal records. An experienced expungement attorney can help you navigate these laws and determine your eligibility.
+          </p>
+          <p class="text-gray-700">
+            Working with a qualified attorney in {city.name} can significantly increase your chances of successfully clearing your record and opening doors to better employment, housing, and educational opportunities.
+          </p>
+        </div>
+      </div>
+      
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold mb-6">Top Expungement Attorneys in {city.name}</h2>
+        
+        <div class="space-y-8">
+          {attorneys.map(attorney => (
+            <AttorneyCard
+              name={attorney.name}
+              image={attorney.image}
+              rating={attorney.rating}
+              reviewCount={attorney.reviewCount}
+              specialty={attorney.specialty}
+              description={attorney.description}
+              phone={attorney.phone}
+              website={attorney.website}
+              address={attorney.address}
+              slug={attorney.slug}
+              city={city.name}
+            />
+          ))}
+        </div>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6">Why Hire an Expungement Attorney in {city.name}?</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h3 class="text-xl font-semibold mb-3">Local Expertise</h3>
+            <p class="text-gray-700">
+              Attorneys based in {city.name} understand the local court system, judges, and prosecutors, which can be invaluable when navigating the expungement process.
+            </p>
+          </div>
+          
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h3 class="text-xl font-semibold mb-3">Higher Success Rate</h3>
+            <p class="text-gray-700">
+              Professional attorneys know how to properly prepare and file expungement petitions, significantly increasing your chances of having your record cleared.
+            </p>
+          </div>
+        </div>
+        
+        <p class="text-lg text-gray-700 mb-12">
+          The expungement process can be complex and time-consuming. Working with a qualified attorney in {city.name} can help ensure your petition has the best chance of success, potentially saving you time, money, and frustration in the long run.
+        </p>
+        
+        <!-- City Header Image -->
+        <div class="mt-8 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="/images/headers/city-header.jpg" 
+            alt={`Expungement Attorneys in ${city.name}, ${city.state}`}
+            class="w-full h-64 object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <FAQSection limit={3} />
+  
+  <CallToAction 
+    title={`Ready to Clear Your Record in ${city.name}?`}
+    description="Connect with an experienced expungement attorney today to learn about your options and start the process of clearing your criminal record."
+    buttonText="Contact an Attorney Now"
+  />
+</PageLayout>

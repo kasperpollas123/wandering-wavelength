@@ -1,0 +1,105 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CallToAction from '../components/CallToAction.astro';
+---
+
+<PageLayout 
+  title="About Our Expungement Attorney Directory | Find Record Clearing Lawyers"
+  description="Learn about our mission to connect individuals with experienced expungement attorneys who can help clear criminal records and provide a fresh start."
+  canonicalURL="/about"
+>
+  <div class="container py-8">
+    <Breadcrumbs 
+      items={[
+        { label: "Home", href: "/" },
+        { label: "About Us" }
+      ]}
+    />
+  </div>
+  
+  <section class="py-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold mb-6">About Our Expungement Attorney Directory</h1>
+        
+        <div class="prose prose-lg max-w-none">
+          <p>
+            Welcome to the nation's premier directory of expungement attorneys. Our mission is to connect individuals with experienced legal professionals who can help clear criminal records and provide a fresh start.
+          </p>
+          
+          <h2>Our Mission</h2>
+          <p>
+            We believe that past mistakes shouldn't define a person's future. Unfortunately, criminal records can create significant barriers to employment, housing, education, and other opportunities. Our directory aims to make it easier for individuals to find qualified attorneys who can help navigate the complex process of expungement and record clearing.
+          </p>
+          
+          <h2>Why We Created This Directory</h2>
+          <p>
+            Finding the right attorney can be challenging, especially when dealing with something as specific as expungement. We created this directory to:
+          </p>
+          
+          <ul>
+            <li>Simplify the process of finding qualified expungement attorneys in your area</li>
+            <li>Provide educational resources about expungement laws and processes</li>
+            <li>Help more people access the legal help they need to clear their records</li>
+            <li>Promote awareness about the importance of second chances and the legal pathways to achieve them</li>
+          </ul>
+          
+          <h2>How Our Directory Works</h2>
+          <p>
+            Our directory features experienced expungement attorneys across the 50 largest cities in the United States. For each attorney, we provide:
+          </p>
+          
+          <ul>
+            <li>Detailed profiles with information about their experience and specialties</li>
+            <li>Contact information to make it easy to reach out for a consultation</li>
+            <li>Ratings and reviews to help you make an informed decision</li>
+            <li>Information about their practice areas and qualifications</li>
+          </ul>
+          
+          <p>
+            We've organized our directory by city to make it easy to find attorneys in your local area who understand the specific laws and procedures in your jurisdiction.
+          </p>
+          
+          <h2>The Importance of Expungement</h2>
+          <p>
+            Expungement and record clearing can have a profound impact on a person's life. By removing or sealing criminal records, individuals can:
+          </p>
+          
+          <ul>
+            <li>Improve employment prospects and earning potential</li>
+            <li>Access better housing options</li>
+            <li>Qualify for educational opportunities and financial aid</li>
+            <li>Restore certain civil rights</li>
+            <li>Move forward without the stigma of a criminal record</li>
+          </ul>
+          
+          <p>
+            The specific laws and procedures for expungement vary by state, which is why it's essential to work with an attorney who understands the local legal landscape.
+          </p>
+          
+          <h2>Our Commitment to Quality</h2>
+          <p>
+            We are committed to maintaining a high-quality directory that connects individuals with qualified legal professionals. While we don't personally endorse any specific attorney, we strive to provide accurate and up-to-date information to help you make an informed decision.
+          </p>
+          
+          <h2>Contact Us</h2>
+          <p>
+            If you have questions about our directory or suggestions for improvement, please don't hesitate to reach out. We're committed to continuously enhancing our platform to better serve those seeking expungement services.
+          </p>
+          
+          <p>
+            Thank you for using our expungement attorney directory. We hope it helps you find the legal assistance you need to clear your record and move forward with your life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <CallToAction 
+    title="Ready to Clear Your Record?"
+    description="Connect with an experienced expungement attorney today to learn about your options and start the process of clearing your criminal record."
+    buttonText="Find an Attorney Now"
+    buttonLink="/cities"
+  />
+</PageLayout>

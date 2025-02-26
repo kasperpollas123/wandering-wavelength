@@ -1,11 +1,111 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import PageLayout from '../layouts/PageLayout.astro';
+import Hero from '../components/Hero.astro';
+import CityCard from '../components/CityCard.astro';
+import Testimonials from '../components/Testimonials.astro';
+import FAQSection from '../components/FAQSection.astro';
+import CallToAction from '../components/CallToAction.astro';
+import { cities } from '../data/cities';
+import { testimonials } from '../data/testimonials';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// Get top 6 cities by population
+const topCities = [...cities]
+  .sort((a, b) => b.population - a.population)
+  .slice(0, 6);
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<PageLayout 
+  title="Expungement Attorneys Directory | Find Record Clearing Lawyers Near You"
+  description="Connect with experienced expungement attorneys across the United States who can help clear your criminal record and give you a fresh start."
+>
+  <Hero 
+    title="Clear Your Record, Clear Your Future"
+    subtitle="Connect with experienced expungement attorneys who can help you navigate the legal process and get a fresh start."
+    showSearch={true}
+    backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
+  />
+  
+  <section class="py-16 bg-white">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-4">How Expungement Can Help You</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Expungement can open doors to better employment, housing, and educational opportunities by clearing eligible criminal records.
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-6">
+          <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Better Employment</h3>
+          <p class="text-gray-600">
+            Remove barriers to employment and open up new career opportunities that were previously out of reach.
+          </p>
+        </div>
+        
+        <div class="text-center p-6">
+          <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Housing Access</h3>
+          <p class="text-gray-600">
+            Improve your chances of securing housing by removing criminal records that often appear on background checks.
+          </p>
+        </div>
+        
+        <div class="text-center p-6">
+          <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">Educational Opportunities</h3>
+          <p class="text-gray-600">
+            Pursue higher education and professional certifications without the barrier of a criminal record.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-16 bg-gray-50">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-4">Find Expungement Attorneys in Major Cities</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Browse our directory of qualified expungement attorneys in cities across the United States.
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {topCities.map(city => (
+          <CityCard
+            name={city.name}
+            state={city.state}
+            image={city.image}
+            attorneyCount={city.attorneyCount}
+            slug={city.seoSlug || city.slug}
+          />
+        ))}
+      </div>
+      
+      <div class="mt-12 text-center">
+        <a href="/cities" class="btn btn-primary">View All Cities</a>
+      </div>
+    </div>
+  </section>
+  
+  <Testimonials testimonials={testimonials} />
+  
+  <FAQSection limit={4} />
+  
+  <CallToAction />
+</PageLayout>

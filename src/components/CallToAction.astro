@@ -1,0 +1,40 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  buttonText?: string;
+  buttonLink?: string;
+  backgroundImage?: string;
+}
+
+const { 
+  title = "Ready to Clear Your Record?", 
+  description = "Connect with experienced expungement attorneys who can help you navigate the legal process and get a fresh start.", 
+  buttonText = "Find an Attorney Now", 
+  buttonLink = "/cities",
+  backgroundImage = "/images/hero/legal-document-hero.jpg"
+} = Astro.props;
+---
+
+<section class="relative py-16 md:py-24 overflow-hidden">
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img 
+      src={backgroundImage} 
+      alt="Call to Action Background" 
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-secondary to-primary opacity-90"></div>
+  </div>
+  
+  <!-- Content -->
+  <div class="container relative z-10 text-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white drop-shadow-md">{title}</h2>
+      <p class="text-lg md:text-xl mb-8 text-white drop-shadow-sm">{description}</p>
+      <a href={buttonLink} class="btn btn-primary bg-white text-primary border-white hover:bg-gray-100 hover:text-primary-dark">
+        {buttonText}
+      </a>
+    </div>
+  </div>
+</section>

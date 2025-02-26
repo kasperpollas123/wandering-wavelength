@@ -1,0 +1,318 @@
+---
+interface Props {
+  title: string;
+  subtitle: string;
+  showSearch?: boolean;
+  backgroundImage?: string;
+}
+
+const { 
+  title, 
+  subtitle, 
+  showSearch = false,
+  backgroundImage = "/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
+} = Astro.props;
+
+// Import cities data for autocomplete
+import { cities } from '../data/cities';
+
+// Format cities data for autocomplete to ensure it's serializable
+const citiesForAutocomplete = cities.map(city => ({
+  name: city.name,
+  state: city.state,
+  slug: city.seoSlug || city.slug
+}));
+---
+
+<section class="relative py-20 md:py-32 overflow-hidden">
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img 
+      src={backgroundImage} 
+      alt="Expungement Attorneys Background" 
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-85"></div>
+  </div>
+  
+  <!-- Content -->
+  <div class="container relative z-10 text-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-lg">{title}</h1>
+      <p class="text-xl md:text-2xl mb-8 text-white drop-shadow-md">{subtitle}</p>
+      
+      {showSearch && (
+        <div class="bg-white rounded-lg shadow-xl p-5 mt-8 max-w-2xl mx-auto">
+          <form id="search-form" action="/search" method="get" class="w-full max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row gap-4">
+              <div class="flex-grow relative">
+                <label for="city-search" class="sr-only">Search by city</label>
+                <input 
+                  type="text" 
+                  id="city-search" 
+                  name="searchQuery"
+                  placeholder="Enter your city or zip code" 
+                  class="w-full px-4 py-3 rounded-md border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary text-gray-800 bg-white"
+                  required
+                  autocomplete="off"
+                />
+                <div id="search-suggestions" class="absolute z-50 w-full mt-1 rounded-md shadow-lg border border-gray-200 hidden"></div>
+              </div>
+              <button type="submit" class="btn btn-primary whitespace-nowrap">
+                Find Attorneys
+              </button>
+            </div>
+          </form>
+        </div>
+      )}
+      
+      <div class="mt-8">
+        <a href="/cities" class="btn btn-secondary mr-4">Browse by City</a>
+        <a href="/about" class="text-white border border-white hover:bg-white hover:text-primary transition-colors btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Style for the search input placeholder */
+  #city-search::placeholder {
+    color: #6b7280; /* Gray-500 in Tailwind */
+    opacity: 1; /* Firefox */
+  }
+  
+  /* Style for the search suggestions */
+  #search-suggestions div.suggestion-item {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    color: #000000; /* Black text */
+    background-color: #ffffff; /* White background */
+    transition: all 0.2s ease;
+    border-bottom: 1px solid #e5e7eb; /* Gray-200 in Tailwind */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 0.25rem 0;
+  }
+  
+  #search-suggestions div.suggestion-item:first-child {
+    margin-top: 0.5rem;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+  }
+  
+  #search-suggestions div.suggestion-item:last-child {
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+  }
+  
+  #search-suggestions div.suggestion-item:hover {
+    background-color: #f3f4f6; /* Gray-100 in Tailwind */
+    transform: translateX(3px);
+  }
+  
+  #search-suggestions div.suggestion-item .city-name {
+    font-weight: 600;
+    margin-right: 0.25rem;
+    color: #000000; /* Black text */
+  }
+  
+  #search-suggestions div.suggestion-item .state-abbr {
+    opacity: 0.8;
+    font-size: 0.9em;
+    margin-left: 0.25rem;
+    color: #000000; /* Black text */
+  }
+  
+  /* Make sure suggestions are visible */
+  #search-suggestions {
+    z-index: 50;
+    background-color: #f9fafb; /* Gray-50 in Tailwind */
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 15px -3px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+    margin-top: 0.25rem;
+    border: 1px solid #e5e7eb; /* Gray-200 in Tailwind */
+    padding: 0.25rem;
+  }
+  
+  #search-suggestions.hidden {
+    display: none !important;
+  }
+</style>
+
+<script>
+  // Get DOM elements
+  const searchForm = document.getElementById('search-form');
+  const searchInput = document.getElementById('city-search');
+  const suggestionsContainer = document.getElementById('search-suggestions');
+  
+  // Import city data
+  import { cities } from '../data/cities';
+  
+  // Function to show search suggestions
+  function showSuggestions(query) {
+    // Clear previous suggestions
+    suggestionsContainer.innerHTML = '';
+    suggestionsContainer.classList.remove('hidden');
+    
+    if (!query || query.length < 2) {
+      suggestionsContainer.classList.add('hidden');
+      return;
+    }
+    
+    const normalizedQuery = query.toLowerCase().trim();
+    
+    // Filter cities based on the query
+    const cityMatches = cities.filter(city => 
+      city.name.toLowerCase().includes(normalizedQuery) ||
+      `${city.name.toLowerCase()}, ${city.state.toLowerCase()}`.includes(normalizedQuery)
+    ).slice(0, 5); // Limit to 5 city matches
+    
+    // Filter states based on the query (for state abbreviations)
+    const stateMatches = cities.filter(city => 
+      city.state.toLowerCase() === normalizedQuery
+    ).slice(0, 5); // Limit to 5 state matches
+    
+    // Combine results, removing duplicates
+    const combinedResults = [...cityMatches];
+    stateMatches.forEach(stateMatch => {
+      if (!combinedResults.some(city => city.name === stateMatch.name && city.state === stateMatch.state)) {
+        combinedResults.push(stateMatch);
+      }
+    });
+    
+    // Limit to 10 total results
+    const limitedResults = combinedResults.slice(0, 10);
+    
+    if (limitedResults.length > 0) {
+      // Create and append suggestion elements
+      limitedResults.forEach(city => {
+        const suggestionEl = document.createElement('div');
+        suggestionEl.className = 'suggestion-item';
+        
+        // Create a more styled content with city name and state
+        const cityName = document.createElement('span');
+        cityName.className = 'city-name';
+        cityName.textContent = city.name;
+        
+        const stateAbbr = document.createElement('span');
+        stateAbbr.className = 'state-abbr';
+        stateAbbr.textContent = city.state;
+        
+        suggestionEl.appendChild(cityName);
+        suggestionEl.appendChild(document.createTextNode(', '));
+        suggestionEl.appendChild(stateAbbr);
+        
+        suggestionEl.setAttribute('role', 'button');
+        suggestionEl.setAttribute('tabindex', '0');
+        
+        // Handle click event
+        suggestionEl.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          // Set the input value
+          const cityStateValue = `${city.name}, ${city.state}`;
+          searchInput.value = cityStateValue;
+          
+          // Hide suggestions
+          suggestionsContainer.classList.add('hidden');
+          
+          // Log what we're submitting
+          console.log("Submitting search for:", cityStateValue);
+          
+          // Ensure the form has the correct action
+          if (!searchForm.action || searchForm.action === '') {
+            searchForm.action = '/search';
+          }
+          
+          // Ensure the method is GET
+          searchForm.method = 'get';
+          
+          // Auto-submit the form when a suggestion is clicked
+          searchForm.submit();
+        });
+        
+        // Also handle keyboard events (Enter and Space)
+        suggestionEl.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            
+            // Set the input value
+            const cityStateValue = `${city.name}, ${city.state}`;
+            searchInput.value = cityStateValue;
+            
+            // Hide suggestions
+            suggestionsContainer.classList.add('hidden');
+            
+            // Log what we're submitting
+            console.log("Submitting search for:", cityStateValue);
+            
+            // Ensure the form has the correct action
+            if (!searchForm.action || searchForm.action === '') {
+              searchForm.action = '/search';
+            }
+            
+            // Ensure the method is GET
+            searchForm.method = 'get';
+            
+            // Auto-submit the form when a suggestion is selected
+            searchForm.submit();
+          }
+        });
+        
+        suggestionsContainer.appendChild(suggestionEl);
+      });
+      
+      // Show suggestions
+      suggestionsContainer.classList.remove('hidden');
+    } else {
+      // Hide suggestions if no matches
+      suggestionsContainer.classList.add('hidden');
+    }
+  }
+  
+  // Add event listeners
+  if (searchInput) {
+    // Show suggestions as the user types
+    searchInput.addEventListener('input', () => {
+      showSuggestions(searchInput.value);
+    });
+    
+    // Hide suggestions when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!searchInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+        suggestionsContainer.classList.add('hidden');
+      }
+    });
+    
+    // Show suggestions when focusing on the input
+    searchInput.addEventListener('focus', () => {
+      if (searchInput.value.length >= 2) {
+        showSuggestions(searchInput.value);
+      }
+    });
+    
+    // Ensure form has correct action and method
+    if (searchForm) {
+      if (!searchForm.action || searchForm.action === '') {
+        searchForm.action = '/search';
+      }
+      searchForm.method = 'get';
+      
+      // Add submit event listener to log form submission
+      searchForm.addEventListener('submit', (e) => {
+        console.log("Form submitted with value:", searchInput.value);
+      });
+    }
+  }
+</script>

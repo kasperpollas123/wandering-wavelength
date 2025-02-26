@@ -1,0 +1,78 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { cities } from '../data/cities';
+import { attorneys } from '../data/attorneys';
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Sitemap', href: '/sitemap' }
+];
+
+// Group attorneys by city
+const attorneysByCity = {};
+cities.forEach(city => {
+  attorneysByCity[city.slug] = attorneys.filter(attorney => attorney.citySlug === city.slug);
+});
+---
+
+<PageLayout 
+  title="Sitemap | Expungement Attorneys Directory"
+  description="A complete sitemap of our expungement attorney directory, helping you navigate all available resources and attorney listings."
+  canonicalURL="/sitemap"
+>
+  <div class="container py-12">
+    <Breadcrumbs items={breadcrumbs} />
+    
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl md:text-4xl font-bold mb-8">Sitemap</h1>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-xl font-semibold mb-4">Main Pages</h2>
+          <ul class="space-y-2">
+            <li><a href="/" class="text-primary hover:underline">Home</a></li>
+            <li><a href="/about" class="text-primary hover:underline">About</a></li>
+            <li><a href="/cities" class="text-primary hover:underline">Cities</a></li>
+            <li><a href="/resources" class="text-primary hover:underline">Resources</a></li>
+            <li><a href="/contact" class="text-primary hover:underline">Contact</a></li>
+            <li><a href="/privacy-policy" class="text-primary hover:underline">Privacy Policy</a></li>
+            <li><a href="/terms-of-service" class="text-primary hover:underline">Terms of Service</a></li>
+          </ul>
+          
+          <h2 class="text-xl font-semibold mt-8 mb-4">Cities</h2>
+          <ul class="space-y-2">
+            {cities.map(city => (
+              <li>
+                <a href={`/cities/${city.seoSlug || city.slug}`} class="text-primary hover:underline">
+                  {city.name}, {city.state}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        
+        <div>
+          <h2 class="text-xl font-semibold mb-4">Attorneys by City</h2>
+          {Object.entries(attorneysByCity).map(([citySlug, cityAttorneys]) => {
+            const city = cities.find(c => c.slug === citySlug);
+            return (
+              <div class="mb-6">
+                <h3 class="font-medium mb-2">{city.name}, {city.state}</h3>
+                <ul class="space-y-1 ml-4">
+                  {cityAttorneys.map(attorney => (
+                    <li>
+                      <a href={`/attorneys/${attorney.slug}`} class="text-primary hover:underline">
+                        {attorney.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  </div>
+</PageLayout>

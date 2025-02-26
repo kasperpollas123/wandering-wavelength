@@ -1,0 +1,9 @@
+{
+  "framework": "astro",
+  "buildCommand": "./vercel-build.sh",
+  "outputDirectory": "dist",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

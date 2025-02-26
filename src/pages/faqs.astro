@@ -1,0 +1,48 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { faqs } from '../data/faqs';
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'FAQs', href: '/faqs' }
+];
+---
+
+<PageLayout 
+  title="Frequently Asked Questions | Expungement Attorneys Directory"
+  description="Find answers to common questions about expungement, record sealing, and the process of clearing your criminal record."
+  canonicalURL="/faqs"
+>
+  <div class="container py-12">
+    <Breadcrumbs items={breadcrumbs} />
+    
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl md:text-4xl font-bold mb-8">Frequently Asked Questions</h1>
+      
+      <p class="text-lg mb-8">
+        Find answers to common questions about expungement, record sealing, and the process of clearing your criminal record. If you don't see your question answered here, please <a href="/contact" class="text-primary hover:underline">contact us</a> for more information.
+      </p>
+      
+      <div class="space-y-8">
+        {faqs.map((faq, index) => (
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-3">{faq.question}</h3>
+            <p class="text-gray-700">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+      
+      <div class="mt-12 bg-gray-100 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-bold mb-4">Still Have Questions?</h2>
+        <p class="text-lg mb-6">
+          Our network of experienced expungement attorneys can provide personalized answers to your specific situation.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/cities" class="btn btn-primary">Find an Attorney</a>
+          <a href="/contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</PageLayout>

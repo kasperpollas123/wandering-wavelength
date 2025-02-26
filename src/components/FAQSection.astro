@@ -1,0 +1,112 @@
+---
+import { faqs } from '../data/faqs';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  limit?: number;
+}
+
+const { 
+  title = "Frequently Asked Questions", 
+  subtitle = "Get answers to common questions about expungement and the record clearing process.",
+  limit
+} = Astro.props;
+
+const displayFaqs = limit ? faqs.slice(0, limit) : faqs;
+---
+
+<section class="py-16 bg-white">
+  <div class="container">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">{title}</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">{subtitle}</p>
+    </div>
+    
+    <div class="max-w-4xl mx-auto">
+      <div class="space-y-6">
+        {displayFaqs.map((faq, index) => (
+          <div class="bg-gray-50 rounded-lg p-6 shadow-sm" x-data="{open: false}">
+            <button 
+              class="flex justify-between items-center w-full text-left focus:outline-none" 
+              @click="open = !open"
+              aria-expanded="false"
+              :aria-expanded="open"
+              aria-controls={`faq-answer-${index}`}
+            >
+              <h3 class="text-lg font-semibold pr-8">{faq.question}</h3>
+              <svg 
+                class="w-6 h-6 text-gray-500 transform transition-transform duration-200" 
+                :class="{'rotate-180': open}"
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            
+            <div 
+              id={`faq-answer-${index}`}
+              class="mt-4 text-gray-600 hidden"
+              x-show="open"
+              x-cloak
+              x-transition:enter="transition ease-out duration-200"
+              x-transition:enter-start="opacity-0 transform -translate-y-2"
+              x-transition:enter-end="opacity-100 transform translate-y-0"
+            >
+              <p>{faq.answer}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      {limit && (
+        <div class="mt-8 text-center">
+          <a href="/faqs" class="btn btn-secondary">View All FAQs</a>
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<script>
+  // Simple accordion functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const faqButtons = document.querySelectorAll('[aria-controls^="faq-answer-"]');
+    
+    faqButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const expanded = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', (!expanded).toString());
+        
+        const controlsId = button.getAttribute('aria-controls');
+        const content = document.getElementById(controlsId);
+        
+        if (content) {
+          if (expanded) {
+            content.classList.add('hidden');
+          } else {
+            content.classList.remove('hidden');
+          }
+        }
+        
+        // Toggle the rotation of the arrow
+        const arrow = button.querySelector('svg');
+        if (arrow) {
+          if (expanded) {
+            arrow.classList.remove('rotate-180');
+          } else {
+            arrow.classList.add('rotate-180');
+          }
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+</style>
