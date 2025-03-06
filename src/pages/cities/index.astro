@@ -69,7 +69,7 @@ const formatCityName = (name: string) => {
                       href={`/cities/${city.seoSlug || city.slug}`} 
                       class="text-blue-950 hover:text-blue-900 hover:underline"
                     >
-                      Expungement Attorneys in {formatCityName(city.name)}
+                      {formatCityName(city.name)}
                       <span class="text-gray-500 text-sm ml-2">({city.attorneyCount})</span>
                     </a>
                   </li>
