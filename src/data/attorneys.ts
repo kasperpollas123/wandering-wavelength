@@ -716,11 +716,37 @@ function getStateAbbreviation(stateName: string): string {
 // Function to load attorneys from the JSON file
 export function loadAttorneysFromJson(): Attorney[] {
   try {
-    // Path to the JSON file (relative to project root)
-    const jsonPath = path.resolve(process.cwd(), '..', 'attorney_enriched_reviews.json');
+    // Try multiple possible paths for the JSON file
+    const possiblePaths = [
+      // Vercel root directory
+      '/vercel/attorney_enriched_reviews.json',
+      // Project root directory
+      path.resolve(process.cwd(), 'attorney_enriched_reviews.json'),
+      // One level up from project root (original path)
+      path.resolve(process.cwd(), '..', 'attorney_enriched_reviews.json')
+    ];
     
-    // Read and parse the JSON file
-    const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+    let jsonData;
+    let loadedPath = '';
+    
+    // Try each path until we find the file
+    for (const jsonPath of possiblePaths) {
+      try {
+        if (fs.existsSync(jsonPath)) {
+          jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+          loadedPath = jsonPath;
+          console.log(`Successfully loaded JSON from: ${jsonPath}`);
+          break;
+        }
+      } catch (err) {
+        // Continue to the next path
+      }
+    }
+    
+    if (!jsonData) {
+      console.error('Could not find attorney_enriched_reviews.json in any of the expected locations');
+      return []; // Return empty array to prevent build failure
+    }
     
     // Array to store attorneys
     const jsonAttorneys: Attorney[] = [];
