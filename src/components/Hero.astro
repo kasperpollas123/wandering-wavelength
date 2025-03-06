@@ -10,7 +10,7 @@ const {
   title, 
   subtitle, 
   showSearch = false,
-  backgroundImage = "/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
+  backgroundImage = "/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
 } = Astro.props;
 
 // Import cities data for autocomplete
@@ -30,10 +30,8 @@ const citiesForAutocomplete = cities.map(city => ({
     <img 
       src={backgroundImage} 
       alt="Expungement Attorneys Background" 
-      class="w-full h-full object-cover"
-      loading="lazy"
-      decoding="async"
-      fetchpriority={backgroundImage.includes("hero") ? "high" : "auto"}
+      class="w-full h-full object-cover astro-BBE6DXRZ"
+      fetchpriority="high"
     />
     <div class="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-85"></div>
   </div>

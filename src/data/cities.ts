@@ -159,7 +159,7 @@ export const hardcodedCities: City[] = [
     slug: "houston",
     seoSlug: "expungement-attorneys-houston",
     population: 2304580,
-    image: "/images/cities/houston.jpg",
+    image: "/images/cities/houston.webp",
     description: "Houston offers many qualified expungement attorneys who can navigate Texas' strict but improving expungement laws. These professionals can help determine eligibility and guide clients through the process of clearing their records.",
     attorneyCount: 2
   },
@@ -169,8 +169,8 @@ export const hardcodedCities: City[] = [
     slug: "phoenix",
     seoSlug: "expungement-attorneys-phoenix",
     population: 1608139,
-    image: "/images/cities/phoenix.jpg",
-    description: "Phoenix has experienced attorneys who can help with Arizona's 'set aside' provisions, which don't completely expunge records but can help mitigate the impact of past convictions on employment and housing opportunities.",
+    image: "/images/cities/phoenix.webp",
+    description: "Phoenix expungement attorneys are well-versed in Arizona's 'set aside' laws, which don't completely expunge records but can help mitigate their impact on employment and housing opportunities.",
     attorneyCount: 2
   },
   {

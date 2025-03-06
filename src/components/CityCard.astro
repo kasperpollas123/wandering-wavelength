@@ -11,20 +11,28 @@ const { name, state, image, attorneyCount, slug } = Astro.props;
 
 // Create a more descriptive alt text for the city image
 const altText = `Skyline of ${name}, ${state} - Find ${attorneyCount} expungement attorneys in this city`;
+
+// Convert image path to WebP if it's a local image
+const webpImage = image.startsWith('/') ? image.replace(/\.(jpg|jpeg|png)$/, '.webp') : image;
 ---
 
 <a href={`/cities/${slug}`} class="group">
   <div class="card h-full overflow-hidden">
     <div class="relative h-48 overflow-hidden">
-      <img 
-        src={image} 
-        alt={altText} 
-        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
-        loading="lazy"
-        decoding="async"
-        width="400"
-        height="192"
-      />
+      <picture>
+        {image.startsWith('/') && (
+          <source srcset={webpImage} type="image/webp" />
+        )}
+        <img 
+          src={image} 
+          alt={altText} 
+          class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+          loading="lazy"
+          decoding="async"
+          width="400"
+          height="192"
+        />
+      </picture>
       <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
       <div class="absolute bottom-0 left-0 right-0 p-4 text-white">
         <h3 class="text-xl font-bold drop-shadow-lg text-white">{name}, {state}</h3>

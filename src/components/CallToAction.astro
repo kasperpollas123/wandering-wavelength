@@ -12,7 +12,7 @@ const {
   description = "Connect with experienced expungement attorneys who can help you navigate the legal process and get a fresh start.", 
   buttonText = "Find an Attorney Now", 
   buttonLink = "/cities",
-  backgroundImage = "/images/hero/legal-document-hero.jpg"
+  backgroundImage = "/images/hero/legal-document-hero.webp"
 } = Astro.props;
 ---
 
@@ -23,6 +23,7 @@ const {
       src={backgroundImage} 
       alt="Call to Action Background" 
       class="w-full h-full object-cover"
+      fetchpriority="high"
     />
     <div class="absolute inset-0 bg-gradient-to-r from-secondary to-primary opacity-90"></div>
   </div>
