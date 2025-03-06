@@ -718,34 +718,34 @@ export function loadAttorneysFromJson(): Attorney[] {
   try {
     // Try multiple possible paths for the JSON file
     const possiblePaths = [
-      // Vercel root directory
-      '/vercel/attorney_enriched_reviews.json',
       // Project root directory
       path.resolve(process.cwd(), 'attorney_enriched_reviews.json'),
-      // One level up from project root (original path)
+      // Dist directory
+      path.resolve(process.cwd(), 'dist', 'attorney_enriched_reviews.json'),
+      // One level up from project root
       path.resolve(process.cwd(), '..', 'attorney_enriched_reviews.json')
     ];
     
-    let jsonData;
+    let jsonData = { listings: [] };
     let loadedPath = '';
     
     // Try each path until we find the file
     for (const jsonPath of possiblePaths) {
       try {
         if (fs.existsSync(jsonPath)) {
-          jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-          loadedPath = jsonPath;
-          console.log(`Successfully loaded JSON from: ${jsonPath}`);
-          break;
+          const fileContent = fs.readFileSync(jsonPath, 'utf8');
+          const parsedData = JSON.parse(fileContent);
+          if (parsedData && typeof parsedData === 'object') {
+            jsonData = parsedData;
+            loadedPath = jsonPath;
+            console.log(`Successfully loaded JSON from: ${jsonPath}`);
+            break;
+          }
         }
       } catch (err) {
         // Continue to the next path
+        console.error(`Error loading from ${jsonPath}:`, err);
       }
-    }
-    
-    if (!jsonData) {
-      console.error('Could not find attorney_enriched_reviews.json in any of the expected locations');
-      return []; // Return empty array to prevent build failure
     }
     
     // Array to store attorneys
