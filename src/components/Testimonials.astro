@@ -15,7 +15,7 @@ interface Props {
 const { 
   testimonials,
   title = "Success Stories",
-  subtitle = "Hear from people who have successfully cleared their records with the help of our attorneys."
+  subtitle = "Hear from people who have successfully cleared their records with the help of attorneys in our directory."
 } = Astro.props;
 ---
 
@@ -39,18 +39,6 @@ const {
           <p class="text-gray-700 mb-6 relative z-10">{testimonial.quote}</p>
           
           <div class="flex items-center">
-            {testimonial.image ? (
-              <img 
-                src={testimonial.image} 
-                alt={testimonial.author} 
-                class="w-12 h-12 rounded-full object-cover mr-4"
-              />
-            ) : (
-              <div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center mr-4">
-                {testimonial.author.charAt(0)}
-              </div>
-            )}
-            
             <div>
               <p class="font-semibold">{testimonial.author}</p>
               <p class="text-sm text-gray-600">{testimonial.location}</p>

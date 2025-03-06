@@ -1,16 +1,21 @@
 ---
 import '../styles/base.css';
+import SchemaMarkup from '../components/SchemaMarkup.astro';
 
 interface Props {
 	title: string;
 	description: string;
 	canonicalURL?: string;
+	schemaType?: 'attorney' | 'city' | 'organization' | 'website';
+	schemaData?: any;
 }
 
 const { 
 	title, 
 	description, 
-	canonicalURL = Astro.url.pathname 
+	canonicalURL = Astro.url.pathname,
+	schemaType = 'website',
+	schemaData
 } = Astro.props;
 
 const fullCanonicalURL = new URL(canonicalURL, Astro.site);
@@ -22,6 +27,9 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="manifest" href="/manifest.json" />
+		<meta name="theme-color" content="#0f2a4a" />
 		<meta name="generator" content={Astro.generator} />
 		
 		<!-- Primary Meta Tags -->
@@ -48,9 +56,51 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		
+		<!-- Preload critical resources -->
+		<link rel="preload" href="/styles/base.css" as="style">
+		
+		<!-- Image optimization script -->
+		<script is:inline>
+			// Progressive image loading
+			document.addEventListener('DOMContentLoaded', function() {
+				const lazyImages = [].slice.call(document.querySelectorAll('img[loading="lazy"]'));
+				
+				if ('IntersectionObserver' in window) {
+					let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+						entries.forEach(function(entry) {
+							if (entry.isIntersecting) {
+								let lazyImage = entry.target;
+								lazyImage.src = lazyImage.dataset.src || lazyImage.src;
+								lazyImageObserver.unobserve(lazyImage);
+							}
+						});
+					});
+					
+					lazyImages.forEach(function(lazyImage) {
+						lazyImageObserver.observe(lazyImage);
+					});
+				}
+			});
+		</script>
+		
+		<!-- Schema Markup -->
+		<SchemaMarkup type={Astro.props.schemaType || 'website'} data={Astro.props.schemaData} />
 	</head>
 	<body>
 		<slot />
+		
+		<!-- Defer non-critical JavaScript -->
+		<script>
+			// Function to load non-critical resources after page load
+			window.addEventListener('load', function() {
+				// Example: Load analytics or other non-critical scripts
+				setTimeout(function() {
+					// Add any deferred script loading here
+					console.log('Deferred resources loaded');
+				}, 1000);
+			});
+		</script>
 	</body>
 </html>
 

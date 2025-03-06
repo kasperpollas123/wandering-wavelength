@@ -5,6 +5,7 @@ import AttorneyCard from '../../components/AttorneyCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
 import FAQSection from '../../components/FAQSection.astro';
+import SchemaMarkup from '../../components/SchemaMarkup.astro';
 import { cities } from '../../data/cities';
 import { getAttorneysByCitySlug } from '../../data/attorneys';
 
@@ -17,16 +18,37 @@ export function getStaticPaths() {
 
 const { city } = Astro.props;
 const attorneys = getAttorneysByCitySlug(city.slug);
+
+// Format city name for display (capitalize first letter of each word)
+const formatCityName = (name: string) => {
+  return name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+};
+
+const cityName = formatCityName(city.name);
+
+// Enhanced meta description with more specific details about the city
+const metaDescription = `Find top-rated expungement attorneys in ${cityName}, ${city.state} who specialize in clearing criminal records. ${attorneys.length > 0 ? `Choose from ${attorneys.length} qualified lawyers` : 'Our directory features experienced attorneys'} who understand ${city.state}'s specific expungement laws and can help you get a fresh start.`;
+
+// Find nearby cities in the same state (excluding current city)
+const nearbyCities = cities
+  .filter(c => c.state === city.state && c.slug !== city.slug)
+  .sort((a, b) => b.attorneyCount - a.attorneyCount) // Sort by attorney count
+  .slice(0, 5); // Limit to 5 nearby cities
 ---
 
 <PageLayout 
-  title={`Top Expungement Attorneys in ${city.name}, ${city.state} | Find Record Clearing Lawyers`}
-  description={`Connect with experienced expungement attorneys in ${city.name}, ${city.state} who can help clear your criminal record and give you a fresh start.`}
-  canonicalURL={`/cities/${city.seoSlug || city.slug}`}
+  title={`Expungement Attorneys in ${city.name}, ${city.state} | Record Clearing Lawyers`}
+  description={metaDescription}
+  canonicalURL={`/cities/${city.slug}`}
+  schemaType="city"
+  schemaData={city}
 >
+  <!-- Add Schema.org markup for City -->
+  <SchemaMarkup type="city" data={city} />
+  
   <Hero 
-    title={`Find Expungement Attorneys in ${city.name}`}
-    subtitle={`Connect with experienced expungement attorneys in ${city.name}, ${city.state} who can help you navigate the legal process and get a fresh start.`}
+    title={`Find Expungement Attorneys in ${cityName}`}
+    subtitle={`Connect with experienced expungement attorneys in ${cityName}, ${city.state} who can help you navigate the legal process and get a fresh start.`}
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
   />
   
@@ -34,7 +56,7 @@ const attorneys = getAttorneysByCitySlug(city.slug);
     <Breadcrumbs 
       items={[
         { label: "Cities", href: "/cities" },
-        { label: `${city.name}, ${city.state}` }
+        { label: `${cityName}, ${city.state}` }
       ]}
     />
   </div>
@@ -42,50 +64,62 @@ const attorneys = getAttorneysByCitySlug(city.slug);
   <section class="py-12 bg-white">
     <div class="container">
       <div class="max-w-4xl mx-auto mb-12">
-        <h2 class="text-3xl font-bold mb-6">About {city.name}, {city.state}</h2>
+        <h2 class="text-3xl font-bold mb-6">About {cityName}, {city.state}</h2>
         <p class="text-lg text-gray-700 mb-6">{city.description}</p>
         
         <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
           <h3 class="text-xl font-semibold mb-4">Expungement Laws in {city.state}</h3>
           <p class="text-gray-700 mb-4">
-            Expungement laws vary by state, and {city.state} has specific requirements and procedures for clearing criminal records. An experienced expungement attorney can help you navigate these laws and determine your eligibility.
+            {city.expungementInfo ? 
+              city.expungementInfo : 
+              `Expungement laws vary by state, and ${city.state} has specific requirements and procedures for clearing criminal records. An experienced expungement attorney can help you navigate these laws and determine your eligibility.`
+            }
           </p>
           <p class="text-gray-700">
-            Working with a qualified attorney in {city.name} can significantly increase your chances of successfully clearing your record and opening doors to better employment, housing, and educational opportunities.
+            Working with a qualified attorney in {cityName} can significantly increase your chances of successfully clearing your record and opening doors to better employment, housing, and educational opportunities.
           </p>
         </div>
       </div>
       
       <div class="mb-12">
-        <h2 class="text-3xl font-bold mb-6">Top Expungement Attorneys in {city.name}</h2>
+        <h2 class="text-3xl font-bold mb-6">Top Expungement Attorneys in {cityName}</h2>
         
-        <div class="space-y-8">
-          {attorneys.map(attorney => (
-            <AttorneyCard
-              name={attorney.name}
-              image={attorney.image}
-              rating={attorney.rating}
-              reviewCount={attorney.reviewCount}
-              specialty={attorney.specialty}
-              description={attorney.description}
-              phone={attorney.phone}
-              website={attorney.website}
-              address={attorney.address}
-              slug={attorney.slug}
-              city={city.name}
-            />
-          ))}
-        </div>
+        {attorneys.length > 0 ? (
+          <div class="space-y-8">
+            {attorneys.map(attorney => (
+              <AttorneyCard
+                name={attorney.name}
+                image={attorney.image}
+                rating={attorney.rating}
+                reviewCount={attorney.reviewCount}
+                specialty={attorney.specialty}
+                description={attorney.description}
+                phone={attorney.phone}
+                website={attorney.website}
+                address={attorney.address}
+                slug={attorney.slug}
+                city={cityName}
+              />
+            ))}
+          </div>
+        ) : (
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
+            <p class="text-lg text-gray-700">
+              We're currently updating our database of expungement attorneys in {cityName}. 
+              Please check back soon or contact us for recommendations.
+            </p>
+          </div>
+        )}
       </div>
       
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6">Why Hire an Expungement Attorney in {city.name}?</h2>
+        <h2 class="text-3xl font-bold mb-6">Why Hire an Expungement Attorney in {cityName}?</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
             <h3 class="text-xl font-semibold mb-3">Local Expertise</h3>
             <p class="text-gray-700">
-              Attorneys based in {city.name} understand the local court system, judges, and prosecutors, which can be invaluable when navigating the expungement process.
+              Attorneys based in {cityName} understand the local court system, judges, and prosecutors, which can be invaluable when navigating the expungement process.
             </p>
           </div>
           
@@ -98,25 +132,55 @@ const attorneys = getAttorneysByCitySlug(city.slug);
         </div>
         
         <p class="text-lg text-gray-700 mb-12">
-          The expungement process can be complex and time-consuming. Working with a qualified attorney in {city.name} can help ensure your petition has the best chance of success, potentially saving you time, money, and frustration in the long run.
+          The expungement process can be complex and time-consuming. Working with a qualified attorney in {cityName} can help ensure your petition has the best chance of success, potentially saving you time, money, and frustration in the long run.
         </p>
-        
-        <!-- City Header Image -->
-        <div class="mt-8 rounded-lg overflow-hidden shadow-lg">
-          <img 
-            src="/images/headers/city-header.jpg" 
-            alt={`Expungement Attorneys in ${city.name}, ${city.state}`}
-            class="w-full h-64 object-cover"
-          />
-        </div>
       </div>
     </div>
   </section>
   
+  {nearbyCities.length > 0 && (
+    <section class="py-12 bg-gray-50">
+      <div class="container">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-2xl font-bold mb-6">Other Cities in {city.state}</h2>
+          <p class="text-gray-700 mb-6">
+            Looking for expungement attorneys in other cities in {city.state}? Check out these nearby locations:
+          </p>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {nearbyCities.map(nearbyCity => (
+              <a 
+                href={`/cities/${nearbyCity.seoSlug || nearbyCity.slug}`}
+                class="flex items-center p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow"
+              >
+                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                  <span class="text-blue-800 font-bold">{nearbyCity.attorneyCount}</span>
+                </div>
+                <div>
+                  <h3 class="font-semibold">{formatCityName(nearbyCity.name)}, {nearbyCity.state}</h3>
+                  <p class="text-sm text-gray-600">{nearbyCity.attorneyCount} Expungement Attorneys</p>
+                </div>
+                <div class="ml-auto">
+                  <span class="text-secondary">→</span>
+                </div>
+              </a>
+            ))}
+          </div>
+          
+          <div class="mt-8 text-center">
+            <a href="/cities" class="btn btn-secondary">
+              View All Cities
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+  
   <FAQSection limit={3} />
   
   <CallToAction 
-    title={`Ready to Clear Your Record in ${city.name}?`}
+    title={`Ready to Clear Your Record in ${cityName}?`}
     description="Connect with an experienced expungement attorney today to learn about your options and start the process of clearing your criminal record."
     buttonText="Contact an Attorney Now"
   />

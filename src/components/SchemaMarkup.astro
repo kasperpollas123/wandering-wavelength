@@ -1,0 +1,147 @@
+---
+interface Props {
+  type: 'attorney' | 'city' | 'organization' | 'website';
+  data?: any;
+}
+
+const { type, data } = Astro.props;
+
+// Base organization schema that will be included in all pages
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Expungement Attorneys Directory",
+  "url": Astro.site?.toString() || "https://expungementattorneys.com",
+  "logo": new URL("/images/logo.svg", Astro.site).toString(),
+  "description": "Connect with experienced expungement attorneys who can help clear your criminal record and give you a fresh start."
+};
+
+// Website schema
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Expungement Attorneys Directory",
+  "url": Astro.site?.toString() || "https://expungementattorneys.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${Astro.site?.toString() || "https://expungementattorneys.com"}/search?q={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+
+// Generate attorney schema
+function generateAttorneySchema(attorney: any) {
+  if (!attorney) return null;
+  
+  const reviewSchema = attorney.reviews && attorney.reviews.length > 0 ? {
+    "@type": "AggregateRating",
+    "ratingValue": attorney.rating.toString(),
+    "reviewCount": attorney.reviewCount.toString()
+  } : null;
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": attorney.name,
+    "image": attorney.image.startsWith('http') ? attorney.image : new URL(attorney.image, Astro.site).toString(),
+    "description": attorney.description,
+    "telephone": attorney.phone,
+    "url": attorney.website,
+    "email": attorney.email,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": attorney.address?.split(',')[0] || "",
+      "addressLocality": attorney.address?.split(',')[1]?.trim() || "",
+      "addressRegion": attorney.address?.split(',')[2]?.trim() || "",
+      "postalCode": attorney.address?.split(',')[3]?.trim() || ""
+    },
+    "priceRange": "$$",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Legal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Expungement Services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Criminal Record Clearing"
+          }
+        }
+      ]
+    },
+    "sameAs": [
+      attorney.website
+    ],
+    ...(reviewSchema ? { "aggregateRating": reviewSchema } : {}),
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "0",
+        "longitude": "0"
+      },
+      "geoRadius": "50000"
+    }
+  };
+}
+
+// Generate city schema
+function generateCitySchema(city: any) {
+  if (!city) return null;
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    "name": `${city.name}, ${city.state}`,
+    "description": city.description,
+    "image": city.image.startsWith('http') ? city.image : new URL(city.image, Astro.site).toString(),
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": city.name,
+      "addressRegion": city.state,
+      "addressCountry": "US"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": new URL(`/cities/${city.seoSlug || city.slug}`, Astro.site).toString()
+    }
+  };
+}
+
+// Determine which schema to use based on the type
+let schema;
+switch (type) {
+  case 'attorney':
+    schema = generateAttorneySchema(data);
+    break;
+  case 'city':
+    schema = generateCitySchema(data);
+    break;
+  case 'organization':
+    schema = organizationSchema;
+    break;
+  case 'website':
+    schema = websiteSchema;
+    break;
+  default:
+    schema = null;
+}
+---
+
+{schema && (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+)}
+
+{type === 'website' && (
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+)} 

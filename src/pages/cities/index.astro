@@ -1,33 +1,39 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import Hero from '../../components/Hero.astro';
-import CityCard from '../../components/CityCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
 import { cities } from '../../data/cities';
 
+// Sort cities by name
+const sortedCities = [...cities].sort((a, b) => a.name.localeCompare(b.name));
+
 // Group cities by state
-const cityGroups = cities.reduce((groups, city) => {
-  const state = city.state;
-  if (!groups[state]) {
-    groups[state] = [];
+const citiesByState = sortedCities.reduce((acc, city) => {
+  if (!acc[city.state]) {
+    acc[city.state] = [];
   }
-  groups[state].push(city);
-  return groups;
-}, {});
+  acc[city.state].push(city);
+  return acc;
+}, {} as Record<string, typeof cities>);
 
 // Sort states alphabetically
-const sortedStates = Object.keys(cityGroups).sort();
+const sortedStates = Object.keys(citiesByState).sort();
+
+// Format city name for display (capitalize first letter of each word)
+const formatCityName = (name: string) => {
+  return name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+};
 ---
 
 <PageLayout 
-  title="Expungement Attorneys by City | Find Legal Help Near You"
-  description="Browse our directory of expungement attorneys by city to find qualified legal help for clearing your criminal record in your location."
+  title="Find Expungement Attorneys by City | Record Clearing Lawyers Near You"
+  description="Browse our directory of expungement attorneys by city to find experienced legal help for clearing your criminal record in your area."
   canonicalURL="/cities"
 >
   <Hero 
     title="Find Expungement Attorneys by City"
-    subtitle="Browse our directory of qualified expungement attorneys in cities across the United States."
+    subtitle="Browse our directory of expungement attorneys across the United States to find experienced legal help in your area."
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg"
   />
   
@@ -41,42 +47,68 @@ const sortedStates = Object.keys(cityGroups).sort();
   
   <section class="py-12 bg-white">
     <div class="container">
+      <div class="max-w-4xl mx-auto mb-12">
+        <h2 class="text-3xl font-bold mb-6">Find Expungement Attorneys in Your City</h2>
+        <p class="text-lg text-gray-700 mb-6">
+          Expungement laws vary by state and navigating the process can be complex. Working with an experienced local attorney who understands your state's specific laws and procedures can significantly increase your chances of successfully clearing your record.
+        </p>
+        <p class="text-lg text-gray-700 mb-6">
+          Browse our directory below to find expungement attorneys in your city who can help you get a fresh start.
+        </p>
+      </div>
+      
       <div class="mb-12">
-        <h2 class="text-3xl font-bold mb-6">All Cities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {sortedStates.map(state => (
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 class="text-xl font-semibold mb-4">{state}</h3>
+              <ul class="space-y-2">
+                {citiesByState[state].map(city => (
+                  <li>
+                    <a 
+                      href={`/cities/${city.seoSlug || city.slug}`} 
+                      class="text-blue-950 hover:text-blue-900 hover:underline"
+                    >
+                      Expungement Attorneys in {formatCityName(city.name)}
+                      <span class="text-gray-500 text-sm ml-2">({city.attorneyCount})</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6">Why Hire a Local Expungement Attorney?</h2>
         
-        <div class="mb-8">
-          <div class="flex flex-wrap gap-2 mb-6">
-            {sortedStates.map(state => (
-              <a href={`#${state}`} class="px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded-full text-sm font-medium">
-                {state}
-              </a>
-            ))}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h3 class="text-xl font-semibold mb-3">Local Court Knowledge</h3>
+            <p class="text-gray-700">
+              Local attorneys understand the specific procedures and preferences of judges and prosecutors in your area, which can be invaluable when navigating the expungement process.
+            </p>
+          </div>
+          
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h3 class="text-xl font-semibold mb-3">State-Specific Expertise</h3>
+            <p class="text-gray-700">
+              Expungement laws vary significantly by state. A local attorney will have in-depth knowledge of your state's specific requirements and eligibility criteria.
+            </p>
           </div>
         </div>
         
-        {sortedStates.map(state => (
-          <div id={state} class="mb-12">
-            <h3 class="text-2xl font-bold mb-6 pb-2 border-b border-gray-200">{state}</h3>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {cityGroups[state].map(city => (
-                <CityCard
-                  name={city.name}
-                  state={city.state}
-                  image={city.image}
-                  attorneyCount={city.attorneyCount}
-                  slug={city.seoSlug || city.slug}
-                />
-              ))}
-            </div>
-          </div>
-        ))}
+        <p class="text-lg text-gray-700 mb-12">
+          The expungement process can be complex and time-consuming. Working with a qualified local attorney can help ensure your petition has the best chance of success, potentially saving you time, money, and frustration in the long run.
+        </p>
       </div>
     </div>
   </section>
   
   <CallToAction 
     title="Ready to Clear Your Record?"
-    description="Our directory connects you with experienced expungement attorneys across the country who can help you navigate the legal process and get a fresh start."
+    description="Connect with an experienced expungement attorney today to learn about your options and start the process of clearing your criminal record."
+    buttonText="Find an Attorney Now"
   />
 </PageLayout>

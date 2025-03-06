@@ -1,0 +1,16 @@
+{
+  "name": "Expungement Attorneys Online",
+  "short_name": "Expungement",
+  "description": "Find experienced expungement attorneys to help clear your criminal record",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f2a4a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+} 

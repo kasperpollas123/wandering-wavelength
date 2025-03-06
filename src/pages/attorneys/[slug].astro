@@ -2,6 +2,7 @@
 import PageLayout from '../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
+import SchemaMarkup from '../../components/SchemaMarkup.astro';
 import { attorneys, getAttorneyBySlug } from '../../data/attorneys';
 import { cities } from '../../data/cities';
 
@@ -15,17 +16,40 @@ export function getStaticPaths() {
 const { attorney } = Astro.props;
 const city = cities.find(city => city.slug === attorney.citySlug);
 
+// Check if image is a local path
+const isLocalImage = attorney.image.startsWith('/');
+
 // Generate star rating
 const fullStars = Math.floor(attorney.rating);
 const hasHalfStar = attorney.rating % 1 >= 0.5;
 const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+// Access additional information directly from the attorney object
+const yearsExperience = attorney.yearsExperience;
+const formerProsecutor = attorney.formerProsecutor;
+const available24_7 = attorney.available24_7;
+const freeConsultation = attorney.freeConsultation;
+const reviews = attorney.reviews || [];
+
+// Enhanced meta description with more specific details
+const metaDescription = `${attorney.name} is an experienced expungement attorney in ${city?.name}, ${city?.state} with ${yearsExperience ? `${yearsExperience}+ years of experience` : 'extensive experience'} specializing in criminal record clearing${freeConsultation ? ' and offers free consultations' : ''}. Contact now to discuss your case.`;
+
+// Find related attorneys in the same city (excluding current attorney)
+const relatedAttorneys = attorneys
+  .filter(a => a.citySlug === attorney.citySlug && a.slug !== attorney.slug)
+  .slice(0, 3); // Limit to 3 related attorneys
 ---
 
 <PageLayout 
-  title={`${attorney.name} - Expungement Attorney in ${city?.name}, ${city?.state}`}
-  description={`${attorney.name} is an experienced expungement attorney in ${city?.name}, ${city?.state} specializing in criminal record clearing. Contact for a consultation.`}
+  title={`${attorney.name} - Expungement Attorney in ${attorney.city}, ${attorney.state}`}
+  description={metaDescription}
   canonicalURL={`/attorneys/${attorney.slug}`}
+  schemaType="attorney"
+  schemaData={attorney}
 >
+  <!-- Add Schema.org markup for Attorney -->
+  <SchemaMarkup type="attorney" data={attorney} />
+  
   <div class="container py-8 mt-8">
     <Breadcrumbs 
       items={[
@@ -47,7 +71,13 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
               <img 
                 src={attorney.image} 
                 alt={`${attorney.name} - Expungement Attorney in ${city?.name}, ${city?.state}`} 
-                class="w-full h-64 object-contain bg-blue-50 p-4"
+                class="w-full h-64 object-cover bg-blue-50 p-4"
+                loading="eager"
+                fetchpriority="high"
+                width="400"
+                height="256"
+                decoding="async"
+                onerror="this.onerror=null; this.src='/images/default-attorney.svg'; this.classList.add('object-contain', 'p-8');"
               />
               
               <div class="p-6">
@@ -98,32 +128,60 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
                   
                   <p class="flex items-start">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    <a href={`mailto:${attorney.email}`} class="text-secondary hover:underline break-all text-sm sm:text-base overflow-hidden text-ellipsis max-w-[180px] sm:max-w-[220px] inline-block">{attorney.email}</a>
-                  </p>
-                  
-                  <p class="flex items-start">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                     </svg>
                     <a href={attorney.website} target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline break-all text-sm sm:text-base overflow-hidden text-ellipsis max-w-[180px] sm:max-w-[220px] inline-block">{attorney.website.replace(/^https?:\/\//, '')}</a>
                   </p>
                 </div>
                 
+                <!-- Additional Attorney Information -->
+                {(yearsExperience || formerProsecutor || available24_7 || freeConsultation) && (
+                  <div class="mt-6 pt-4 border-t border-gray-200">
+                    <h3 class="text-lg font-semibold mb-3">Attorney Details</h3>
+                    <ul class="space-y-2">
+                      {yearsExperience && (
+                        <li class="flex items-start">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          <span>{yearsExperience} Years Experience</span>
+                        </li>
+                      )}
+                      
+                      {formerProsecutor && (
+                        <li class="flex items-start">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                          </svg>
+                          <span>Former Prosecutor</span>
+                        </li>
+                      )}
+                      
+                      {available24_7 && (
+                        <li class="flex items-start">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          <span>Available 24/7</span>
+                        </li>
+                      )}
+                      
+                      {freeConsultation && (
+                        <li class="flex items-start">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                          </svg>
+                          <span>Free Consultation</span>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                )}
+                
                 <div class="mt-6">
                   <a href={`tel:${attorney.phone.replace(/[^0-9]/g, '')}`} class="btn btn-primary w-full mb-3">Call Now</a>
-                  <a href={`mailto:${attorney.email}`} class="btn btn-secondary w-full">Email</a>
+                  <a href={attorney.website} target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">Visit Website</a>
                 </div>
-              </div>
-            </div>
-            
-            <div class="bg-white rounded-lg shadow-md p-6">
-              <h3 class="text-lg font-semibold mb-4">Languages</h3>
-              <div class="flex flex-wrap gap-2">
-                {attorney.languages?.map(language => (
-                  <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">{language}</span>
-                ))}
               </div>
             </div>
           </div>
@@ -134,76 +192,93 @@ const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
           <h1 class="text-4xl font-bold mb-4">{attorney.name}</h1>
           <p class="text-xl text-gray-600 mb-8">Expungement Attorney in {city?.name}, {city?.state}</p>
           
-          <div class="prose prose-lg max-w-none mb-12">
-            <p>{attorney.longDescription}</p>
-          </div>
-          
+          <!-- Languages Spoken Section -->
           <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">Practice Areas</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {attorney.practiceAreas?.map(area => (
-                <div class="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span>{area}</span>
-                </div>
-              ))}
+            <h2 class="text-2xl font-bold mb-6">Languages Spoken</h2>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">English</span>
+              {attorney.languages && attorney.languages.length > 0 && 
+                attorney.languages.map(language => (
+                  language.toLowerCase() !== 'english' && 
+                  <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">{language}</span>
+                ))
+              }
             </div>
           </div>
           
-          <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">Education</h2>
-            <ul class="space-y-3">
-              {attorney.education?.map(edu => (
-                <li class="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                  </svg>
-                  <span>{edu}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">Bar Admissions</h2>
-            <ul class="space-y-3">
-              {attorney.barAdmissions?.map(admission => (
-                <li class="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                  <span>{admission}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">Awards & Recognition</h2>
-            <ul class="space-y-3">
-              {attorney.awards?.map(award => (
-                <li class="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                  </svg>
-                  <span>{award}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <!-- Client Reviews Section -->
+          {reviews && reviews.length > 0 && (
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6">Expungement Related Client Reviews</h2>
+              <div class="space-y-6">
+                {reviews.map(review => (
+                  <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                      <div class="flex text-yellow-400">
+                        {Array(Math.floor(review.rating)).fill(null).map(() => (
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span class="ml-2 font-medium">{review.author}</span>
+                    </div>
+                    <p class="text-gray-700 whitespace-pre-line">{review.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
   </section>
   
+  {relatedAttorneys.length > 0 && (
+    <section class="py-12 bg-gray-50">
+      <div class="container">
+        <h2 class="text-2xl font-bold mb-6">Other Expungement Attorneys in {city?.name}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {relatedAttorneys.map(relatedAttorney => (
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+              <a href={`/attorneys/${relatedAttorney.slug}`} class="block hover:opacity-90 transition-opacity">
+                <img 
+                  src={relatedAttorney.image} 
+                  alt={`${relatedAttorney.name} - Expungement Attorney in ${city?.name}`}
+                  class="w-full h-48 object-cover bg-blue-50"
+                  loading="lazy"
+                  decoding="async"
+                  onerror="this.onerror=null; this.src='/images/default-attorney.svg'; this.classList.add('object-contain', 'p-4');"
+                />
+                <div class="p-4">
+                  <h3 class="font-bold text-lg mb-2">{relatedAttorney.name}</h3>
+                  <div class="flex items-center text-yellow-400 mb-2">
+                    {Array(Math.floor(relatedAttorney.rating)).fill(null).map(() => (
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                    <span class="ml-1 text-sm text-gray-600">{relatedAttorney.rating} ({relatedAttorney.reviewCount})</span>
+                  </div>
+                  <p class="text-gray-600 text-sm mb-3 line-clamp-2">{relatedAttorney.specialty}</p>
+                  <span class="text-secondary font-medium text-sm">View Profile →</span>
+                </div>
+              </a>
+            </div>
+          ))}
+        </div>
+        <div class="mt-8 text-center">
+          <a href={`/cities/${city?.seoSlug || city?.slug}`} class="btn btn-secondary">
+            View All Attorneys in {city?.name}
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+  
   <CallToAction 
     title="Ready to Clear Your Record?"
-    description={`Contact ${attorney.name} today to discuss your expungement options and start the process of clearing your criminal record.`}
+    description="Contact this attorney today to learn about your options and start the process of clearing your criminal record."
     buttonText="Contact Now"
-    buttonLink={`mailto:${attorney.email}`}
   />
 </PageLayout>

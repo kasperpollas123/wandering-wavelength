@@ -31,6 +31,9 @@ const citiesForAutocomplete = cities.map(city => ({
       src={backgroundImage} 
       alt="Expungement Attorneys Background" 
       class="w-full h-full object-cover"
+      loading="lazy"
+      decoding="async"
+      fetchpriority={backgroundImage.includes("hero") ? "high" : "auto"}
     />
     <div class="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-85"></div>
   </div>

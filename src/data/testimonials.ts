@@ -7,39 +7,39 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    quote: "After struggling for years with employment rejections due to my record, I finally decided to seek help. The attorney I found through this directory helped me get my record expunged, and I've since secured a great job that has changed my life.",
-    author: "Michael T.",
-    location: "Chicago, IL",
-    image: "/images/testimonials/testimonial-1.jpg"
+    quote: "Mr. Guillermo did a fantastic job. He was my attorney and I could not be happier. He did exactly what he said he would do. He took care of my legal issues quickly. He said he would get my record expunged and he delivered. If you have any legal issues, hire Mr. Guillermo, rest assured he will handle it.",
+    author: "Jack",
+    location: "Sacramento, CA",
+    image: "/images/attorneys/attorney-silhouette.svg"
   },
   {
-    quote: "I was hesitant to pursue expungement because I thought the process would be complicated and expensive. The attorney I connected with through this site made everything straightforward and affordable. Now my record is clean, and I can finally move forward.",
-    author: "Jessica R.",
-    location: "Houston, TX",
-    image: "/images/testimonials/testimonial-2.jpg"
+    quote: "Spodek Law showed the utmost professionalism while handling my case. They got my charges marked down significantly, and the case ended with an expunged record. Alexander Zhik and Ralph Franco are top-notch lawyers.",
+    author: "Spencer L.",
+    location: "New York, NY",
+    image: "/images/attorneys/attorney-silhouette.svg"
   },
   {
-    quote: "As a single parent, having a criminal record made it difficult to find housing and employment to support my family. Thanks to the expungement attorney I found here, my record has been cleared, and doors that were once closed are now open to me.",
-    author: "David M.",
-    location: "Phoenix, AZ",
-    image: "/images/testimonials/testimonial-3.jpg"
+    quote: "Constantine was an amazing lawyer and helped me majorly with my life. They got my record cleared and everything. They are just an amazing law firm.",
+    author: "Cam",
+    location: "Dallas, TX",
+    image: "/images/attorneys/attorney-silhouette.svg"
   },
   {
-    quote: "I made a mistake when I was young that followed me for over a decade. The attorney I found through this directory helped me navigate the expungement process, and now I finally feel free from my past. I'm grateful every day for the fresh start.",
-    author: "Sarah L.",
-    location: "Philadelphia, PA",
-    image: "/images/testimonials/testimonial-4.jpg"
+    quote: "I highly recommend contacting Mr. Mike Howard if you are looking for an attorney. My case was successfully dismissed after serving probation, and he is working on the expungement so that my background records stay clean. Mr. Howard clearly explained his plan to dismiss my case from the beginning.",
+    author: "M.P.",
+    location: "Dallas, TX",
+    image: "/images/attorneys/attorney-silhouette.svg"
   },
   {
-    quote: "After being denied a professional license due to a 15-year-old conviction, I was devastated. The expungement attorney I connected with through this site not only helped clear my record but also assisted with my license application. I'm now running my own business.",
-    author: "James W.",
+    quote: "I recently had the pleasure of working with Attorney Jeff Voll, and I am beyond impressed with his exceptional legal services. Jeff successfully handled my case, leading to my charge being expunged. From the start, he was professional, knowledgeable, and genuinely committed to achieving the best outcome for me.",
+    author: "Sarah K.",
     location: "Los Angeles, CA",
-    image: "/images/testimonials/testimonial-5.jpg"
+    image: "/images/attorneys/attorney-silhouette.svg"
   },
   {
-    quote: "I had given up hope that I could ever escape my past mistakes. The attorney I found here explained that I was eligible for expungement under new laws. The process was smoother than I expected, and now I have a clean slate. I can't express how much this has changed my outlook on life.",
-    author: "Maria G.",
-    location: "Miami, FL",
-    image: "/images/testimonials/testimonial-6.jpg"
+    quote: "It was wonderful working with Jonathan and Andrew! They really took care of me as I got my record cleared. Would definitely recommend anyone in California use these guys!",
+    author: "Michael R.",
+    location: "San Francisco, CA",
+    image: "/images/attorneys/attorney-silhouette.svg"
   }
 ];

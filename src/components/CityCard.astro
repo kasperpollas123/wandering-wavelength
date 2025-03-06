@@ -8,6 +8,9 @@ interface Props {
 }
 
 const { name, state, image, attorneyCount, slug } = Astro.props;
+
+// Create a more descriptive alt text for the city image
+const altText = `Skyline of ${name}, ${state} - Find ${attorneyCount} expungement attorneys in this city`;
 ---
 
 <a href={`/cities/${slug}`} class="group">
@@ -15,9 +18,12 @@ const { name, state, image, attorneyCount, slug } = Astro.props;
     <div class="relative h-48 overflow-hidden">
       <img 
         src={image} 
-        alt={`${name}, ${state}`} 
+        alt={altText} 
         class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
         loading="lazy"
+        decoding="async"
+        width="400"
+        height="192"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
       <div class="absolute bottom-0 left-0 right-0 p-4 text-white">

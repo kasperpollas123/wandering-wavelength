@@ -1,4 +1,6 @@
+# Allow all web crawlers
 User-agent: *
 Allow: /
 
-Sitemap: https://expungement-attorneys.com/sitemap.xml
+# Sitemap location
+Sitemap: https://expungementattorneys.online/sitemap.xml
