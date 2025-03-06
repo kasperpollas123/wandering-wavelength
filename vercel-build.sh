@@ -17,6 +17,15 @@ fi
 # Install dependencies
 npm install
 
+# Create public directory if it doesn't exist
+mkdir -p public
+
+# Ensure the JSON file is in the public directory
+if [ -f "attorney_enriched_reviews.json" ]; then
+  echo "Copying JSON file to public directory..."
+  cp attorney_enriched_reviews.json public/
+fi
+
 # Build the site
 npm run build
 
@@ -30,7 +39,7 @@ fi
 echo "Final file locations:"
 echo "Project root:"
 ls -la attorney_enriched_reviews.json 2>/dev/null || echo "Not found in project root"
-echo "Vercel root:"
-ls -la /vercel/attorney_enriched_reviews.json 2>/dev/null || echo "Not found in Vercel root"
+echo "Public directory:"
+ls -la public/attorney_enriched_reviews.json 2>/dev/null || echo "Not found in public directory"
 echo "Dist directory:"
 ls -la dist/attorney_enriched_reviews.json 2>/dev/null || echo "Not found in dist directory"

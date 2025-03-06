@@ -57,8 +57,5 @@
     }
   ],
   "trailingSlash": false,
-  "cleanUrls": true,
-  "includeFiles": [
-    "attorney_enriched_reviews.json"
-  ]
+  "cleanUrls": true
 }
