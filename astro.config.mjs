@@ -13,6 +13,6 @@ export default defineConfig({
       lastmod: new Date(),
     }),
   ],
-  site: 'https://www.expungementattorneys.online',
+  site: 'https://www.expungementattorneys.org',
   compressHTML: true,
 });
