@@ -17,6 +17,8 @@ export function getStaticPaths() {
 }
 
 const { city } = Astro.props;
+
+// Use the base slug (not SEO slug) for fetching attorneys
 const attorneys = getAttorneysByCitySlug(city.slug);
 
 // Format city name for display (capitalize first letter of each word)
