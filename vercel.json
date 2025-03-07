@@ -2,6 +2,13 @@
   "framework": "astro",
   "buildCommand": "./vercel-build.sh",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "https://expungementattorneys.online/:path*",
+      "destination": "https://www.expungementattorneys.online/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

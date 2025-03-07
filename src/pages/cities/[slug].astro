@@ -39,7 +39,7 @@ const nearbyCities = cities
 <PageLayout 
   title={`Expungement Attorneys in ${city.name}, ${city.state} | Record Clearing Lawyers`}
   description={metaDescription}
-  canonicalURL={`/cities/${city.slug}`}
+  canonicalURL={`/cities/${city.seoSlug || city.slug}`}
   schemaType="city"
   schemaData={city}
 >
