@@ -28,8 +28,8 @@ const formatCityName = (name: string) => {
 
 const cityName = formatCityName(city.name);
 
-// Enhanced meta description with more specific details about the city
-const metaDescription = `Find top-rated expungement attorneys in ${cityName}, ${city.state} who specialize in clearing criminal records. ${attorneys.length > 0 ? `Choose from ${attorneys.length} qualified lawyers` : 'Our directory features experienced attorneys'} who understand ${city.state}'s specific expungement laws and can help you get a fresh start.`;
+// Concise meta description within 155 characters
+const metaDescription = `Find experienced expungement attorneys in ${cityName}, ${city.state} who can help clear your criminal record and navigate ${city.state}'s legal process.`;
 
 // Find nearby cities in the same state (excluding current city)
 const nearbyCities = cities

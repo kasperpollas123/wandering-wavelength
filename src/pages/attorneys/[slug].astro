@@ -31,8 +31,8 @@ const available24_7 = attorney.available24_7;
 const freeConsultation = attorney.freeConsultation;
 const reviews = attorney.reviews || [];
 
-// Enhanced meta description with more specific details
-const metaDescription = `${attorney.name} is an experienced expungement attorney in ${city?.name}, ${city?.state} with ${yearsExperience ? `${yearsExperience}+ years of experience` : 'extensive experience'} specializing in criminal record clearing${freeConsultation ? ' and offers free consultations' : ''}. Contact now to discuss your case.`;
+// Concise meta description within 155 characters
+const metaDescription = `${attorney.name} is an expungement attorney in ${attorney.city || city?.name || ''}, ${attorney.state || city?.state || ''} specializing in clearing criminal records. Contact for a${freeConsultation ? ' free' : ''} consultation.`;
 
 // Find related attorneys in the same city (excluding current attorney)
 const relatedAttorneys = attorneys
@@ -41,7 +41,7 @@ const relatedAttorneys = attorneys
 ---
 
 <PageLayout 
-  title={`${attorney.name} - Expungement Attorney in ${attorney.city}, ${attorney.state}`}
+  title={`${attorney.name} - Expungement Attorney in ${attorney.city || city?.name || ''}, ${attorney.state || city?.state || ''}`}
   description={metaDescription}
   canonicalURL={`/attorneys/${attorney.slug}`}
   schemaType="attorney"
@@ -70,7 +70,7 @@ const relatedAttorneys = attorneys
             <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
               <img 
                 src={attorney.image} 
-                alt={`${attorney.name} - Expungement Attorney in ${city?.name}, ${city?.state}`} 
+                alt={`${attorney.name} - Expungement Attorney in ${attorney.city || city?.name || ''}, ${attorney.state || city?.state || ''}`} 
                 class="w-full h-64 object-cover bg-blue-50 p-4"
                 loading="eager"
                 fetchpriority="high"
@@ -190,7 +190,7 @@ const relatedAttorneys = attorneys
         <!-- Main Content -->
         <div class="lg:col-span-2 order-1 lg:order-2">
           <h1 class="text-4xl font-bold mb-4">{attorney.name}</h1>
-          <p class="text-xl text-gray-600 mb-8">Expungement Attorney in {city?.name}, {city?.state}</p>
+          <p class="text-xl text-gray-600 mb-8">Expungement Attorney in {attorney.city || city?.name || ''}, {attorney.state || city?.state || ''}</p>
           
           <!-- Languages Spoken Section -->
           <div class="mb-12">
@@ -237,14 +237,14 @@ const relatedAttorneys = attorneys
   {relatedAttorneys.length > 0 && (
     <section class="py-12 bg-gray-50">
       <div class="container">
-        <h2 class="text-2xl font-bold mb-6">Other Expungement Attorneys in {city?.name}</h2>
+        <h2 class="text-2xl font-bold mb-6">Other Expungement Attorneys in {attorney.city || city?.name || ''}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {relatedAttorneys.map(relatedAttorney => (
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
               <a href={`/attorneys/${relatedAttorney.slug}`} class="block hover:opacity-90 transition-opacity">
                 <img 
                   src={relatedAttorney.image} 
-                  alt={`${relatedAttorney.name} - Expungement Attorney in ${city?.name}`}
+                  alt={`${relatedAttorney.name} - Expungement Attorney in ${attorney.city || city?.name || ''}`}
                   class="w-full h-48 object-cover bg-blue-50"
                   loading="lazy"
                   decoding="async"
@@ -268,9 +268,11 @@ const relatedAttorneys = attorneys
           ))}
         </div>
         <div class="mt-8 text-center">
-          <a href={`/cities/${city?.seoSlug || city?.slug}`} class="btn btn-secondary">
-            View All Attorneys in {city?.name}
-          </a>
+          {city && (
+            <a href={`/cities/${city?.seoSlug || city?.slug}`} class="btn btn-secondary">
+              View All Attorneys in {city.name}
+            </a>
+          )}
         </div>
       </div>
     </section>
