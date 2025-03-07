@@ -1,6 +1,5 @@
-// Remove Node.js imports that cause browser compatibility issues
-// import fs from 'fs';
-// import path from 'path';
+import fs from 'fs';
+import path from 'path';
 
 export interface City {
   name: string;
@@ -640,16 +639,97 @@ export function createSeoSlug(cityName: string): string {
 
 // Function to load cities from the JSON file
 export function loadCitiesFromJson(): City[] {
-  // In a browser environment, we can't use fs to read files
-  // Instead, we'll return an empty array or mock data
-  console.log('Note: loadCitiesFromJson called in browser environment - returning empty array');
-  return [];
-  
-  // In a real application, you would fetch this data from an API endpoint
-  // or import it directly as a JSON module
-  // Example:
-  // import citiesData from '../data/cities-data.json';
-  // return citiesData;
+  try {
+    // Try multiple possible paths for the JSON file
+    const possiblePaths = [
+      // Project root directory
+      path.resolve(process.cwd(), 'attorney_enriched_reviews.json'),
+      // Dist directory
+      path.resolve(process.cwd(), 'dist', 'attorney_enriched_reviews.json'),
+      // One level up from project root
+      path.resolve(process.cwd(), '..', 'attorney_enriched_reviews.json')
+    ];
+    
+    let jsonData = { listings: [] };
+    let loadedPath = '';
+    
+    // Try each path until we find the file
+    for (const jsonPath of possiblePaths) {
+      try {
+        if (fs.existsSync(jsonPath)) {
+          const fileContent = fs.readFileSync(jsonPath, 'utf8');
+          const parsedData = JSON.parse(fileContent);
+          if (parsedData && typeof parsedData === 'object') {
+            jsonData = parsedData;
+            loadedPath = jsonPath;
+            console.log(`Successfully loaded JSON from: ${jsonPath}`);
+            break;
+          }
+        }
+      } catch (err) {
+        // Continue to the next path
+        console.error(`Error loading from ${jsonPath}:`, err);
+      }
+    }
+    
+    // Map to store unique cities
+    const uniqueCities = new Map<string, City>();
+    
+    // Process each listing
+    if (jsonData.listings && Array.isArray(jsonData.listings)) {
+      jsonData.listings.forEach((listing: any) => {
+        if (listing.city) {
+          // Extract city and state from "city, state" format
+          const cityStateParts = listing.city.split(',');
+          if (cityStateParts.length >= 2) {
+            const cityName = cityStateParts[0].trim();
+            const stateName = cityStateParts[1].trim();
+            
+            // Create a key for the map
+            const key = `${cityName.toLowerCase()}-${stateName.toLowerCase()}`;
+            
+            // If this city isn't in our map yet, add it
+            if (!uniqueCities.has(key)) {
+              // Convert state name to abbreviation (simplified version)
+              const stateAbbr = getStateAbbreviation(stateName);
+              
+              // Create slug and seoSlug
+              const slug = cityToSlug(cityName, stateName);
+              const seoSlug = createSeoSlug(cityName);
+              
+              // Get state-specific expungement information
+              const expungementInfo = stateExpungementInfo[stateAbbr] || undefined;
+              
+              // Create city object
+              uniqueCities.set(key, {
+                name: cityName,
+                state: stateAbbr,
+                slug,
+                seoSlug,
+                population: 0, // Default population
+                image: "/images/headers/city-header.jpg", // Default image
+                description: `Find experienced expungement attorneys in ${cityName}, ${stateAbbr} who can help clear your criminal record and give you a fresh start.`, // Default description
+                attorneyCount: 0, // Will be updated later
+                expungementInfo
+              });
+            }
+            
+            // Increment attorney count for this city
+            const city = uniqueCities.get(key);
+            if (city) {
+              city.attorneyCount++;
+            }
+          }
+        }
+      });
+    }
+    
+    // Convert map to array
+    return Array.from(uniqueCities.values());
+  } catch (error) {
+    console.error('Error loading cities from JSON:', error);
+    return hardcodedCities; // Fallback to hardcoded cities
+  }
 }
 
 // Helper function to get state abbreviation
@@ -711,5 +791,5 @@ function getStateAbbreviation(stateName: string): string {
   return stateMap[stateName.toLowerCase()] || stateName;
 }
 
-// Export only the hardcoded cities to avoid browser compatibility issues
-export const cities: City[] = hardcodedCities;
+// Export cities - combine hardcoded cities with those from JSON
+export const cities: City[] = [...hardcodedCities, ...loadCitiesFromJson()];
