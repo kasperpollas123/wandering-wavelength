@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://expungementattorneys.online/sitemap.xml
+Sitemap: https://www.expungementattorneys.online/sitemap.xml
