@@ -1,6 +1,3 @@
-import { cities } from '../data/cities';
-import { attorneys } from '../data/attorneys';
-
 export async function get() {
   try {
     // Base URL for the site
@@ -22,27 +19,10 @@ export async function get() {
       { url: '/faqs', priority: '0.6', changefreq: 'monthly' },
     ];
     
-    // City pages
-    const cityPages = cities.map(city => ({
-      url: `/cities/${city.seoSlug || city.slug}`,
-      priority: '0.8',
-      changefreq: 'weekly'
-    }));
-    
-    // Attorney pages
-    const attorneyPages = attorneys.map(attorney => ({
-      url: `/attorneys/${attorney.slug}`,
-      priority: '0.7',
-      changefreq: 'weekly'
-    }));
-    
-    // Combine all pages
-    const allPages = [...mainPages, ...cityPages, ...attorneyPages];
-    
-    // Generate XML
+    // Generate XML with just the main pages for now
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allPages.map(page => `  <url>
+${mainPages.map(page => `  <url>
     <loc>${baseUrl}${page.url}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${page.changefreq}</changefreq>
