@@ -3,7 +3,7 @@ import { attorneys } from '../data/attorneys';
 
 export async function get() {
   // Base URL for the site
-  const baseUrl = 'https://expungementattorneys.online';
+  const baseUrl = 'https://www.expungementattorneys.online';
   
   // Current date for lastmod
   const today = new Date().toISOString().split('T')[0];
