@@ -32,8 +32,15 @@ const cityName = formatCityName(city.name);
 const metaDescription = `Find experienced expungement attorneys in ${cityName}, ${city.state} who can help clear your criminal record and navigate ${city.state}'s legal process.`;
 
 // Find nearby cities in the same state (excluding current city)
-const nearbyCities = cities
+const nearbyCitiesWithCounts = cities
   .filter(c => c.state === city.state && c.slug !== city.slug)
+  .map(c => {
+    const cityAttorneys = getAttorneysByCitySlug(c.slug);
+    return {
+      ...c,
+      attorneyCount: cityAttorneys.length
+    };
+  })
   .sort((a, b) => b.attorneyCount - a.attorneyCount) // Sort by attorney count
   .slice(0, 5); // Limit to 5 nearby cities
 ---
@@ -140,7 +147,7 @@ const nearbyCities = cities
     </div>
   </section>
   
-  {nearbyCities.length > 0 && (
+  {nearbyCitiesWithCounts.length > 0 && (
     <section class="py-12 bg-gray-50">
       <div class="container">
         <div class="max-w-4xl mx-auto">
@@ -150,7 +157,7 @@ const nearbyCities = cities
           </p>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {nearbyCities.map(nearbyCity => (
+            {nearbyCitiesWithCounts.map(nearbyCity => (
               <a 
                 href={`/cities/${nearbyCity.seoSlug || nearbyCity.slug}`}
                 class="flex items-center p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow"

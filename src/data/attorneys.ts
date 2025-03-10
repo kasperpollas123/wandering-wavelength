@@ -877,9 +877,58 @@ export const attorneys: Attorney[] = [...baseAttorneys, ...jsonAttorneys];
 // Function to get attorneys by city slug
 export const getAttorneysByCitySlug = (citySlug: string): Attorney[] => {
   // Special case for New York City
-  if (citySlug === "new-york-city") {
-    return attorneys.filter(attorney => attorney.citySlug === "new-york");
+  if (citySlug === "new-york" || citySlug === "new-york-city") {
+    return attorneys.filter(attorney => attorney.citySlug === "new-york" || attorney.citySlug === "new-york-city");
   }
+  
+  // Special case for Washington DC
+  if (citySlug === "washington-dc") {
+    return attorneys.filter(attorney => 
+      attorney.citySlug === "washington" || 
+      attorney.citySlug === "washington-dc" || 
+      (attorney.address && attorney.address.includes("Washington, DC"))
+    );
+  }
+  
+  // Special case for Miami
+  if (citySlug === "miami") {
+    return attorneys.filter(attorney => 
+      attorney.citySlug === "miami" || 
+      (attorney.address && attorney.address.includes("Miami, FL"))
+    );
+  }
+  
+  // Special case for Boston
+  if (citySlug === "boston") {
+    return attorneys.filter(attorney => 
+      attorney.citySlug === "boston" || 
+      (attorney.address && attorney.address.includes("Boston, MA"))
+    );
+  }
+  
+  // Special case for Portland
+  if (citySlug === "portland") {
+    return attorneys.filter(attorney => 
+      attorney.citySlug === "portland" || 
+      (attorney.address && (
+        attorney.address.includes("Portland, OR") || 
+        attorney.address.includes("Salem, OR") || 
+        attorney.address.includes("Eugene, OR") || 
+        attorney.address.includes("Bend, OR") || 
+        attorney.address.includes(", OR")
+      ))
+    );
+  }
+  
+  // Special case for Omaha
+  if (citySlug === "omaha") {
+    return attorneys.filter(attorney => 
+      attorney.citySlug === "omaha" || 
+      attorney.citySlug === "lincoln" || 
+      (attorney.address && (attorney.address.includes("Omaha, NE") || attorney.address.includes("Lincoln, NE")))
+    );
+  }
+  
   return attorneys.filter(attorney => attorney.citySlug === citySlug);
 };
 

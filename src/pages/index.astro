@@ -6,10 +6,20 @@ import Testimonials from '../components/Testimonials.astro';
 import FAQSection from '../components/FAQSection.astro';
 import CallToAction from '../components/CallToAction.astro';
 import { cities } from '../data/cities';
+import { getAttorneysByCitySlug } from '../data/attorneys';
 import { testimonials } from '../data/testimonials';
 
+// Calculate actual attorney counts for each city
+const citiesWithActualCounts = cities.map(city => {
+  const attorneys = getAttorneysByCitySlug(city.slug);
+  return {
+    ...city,
+    attorneyCount: attorneys.length
+  };
+});
+
 // Get top 6 cities by population
-const topCities = [...cities]
+const topCities = [...citiesWithActualCounts]
   .sort((a, b) => b.population - a.population)
   .slice(0, 6);
 ---
@@ -19,7 +29,7 @@ const topCities = [...cities]
   description="Connect with experienced expungement attorneys across the United States who can help clear your criminal record and give you a fresh start."
 >
   <Hero 
-    title="Clear Your Record, Clear Your Future"
+    title="Clear Your Record, Claim Your Future"
     subtitle="Connect with experienced expungement attorneys who can help you navigate the legal process and get a fresh start."
     showSearch={false}
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
