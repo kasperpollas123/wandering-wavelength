@@ -1,0 +1,45 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+---
+
+<PageLayout 
+  title="Thank You | Expungement Attorney Directory"
+  description="Thank you for contacting us. We've received your message."
+  canonicalURL="/thank-you"
+>
+  <div class="container py-8">
+    <Breadcrumbs 
+      items={[
+        { label: "Home", href: "/" },
+        { label: "Contact", href: "/contact" },
+        { label: "Thank You" }
+      ]}
+    />
+  </div>
+  
+  <section class="py-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="mb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-green-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        
+        <h1 class="text-4xl font-bold mb-6">Thank You!</h1>
+        
+        <div class="prose prose-lg max-w-none mb-10 mx-auto">
+          <p>
+            Your message has been successfully sent. We appreciate you contacting us and will respond as soon as possible.
+          </p>
+          
+          <p class="mt-8">
+            <a href="/" class="btn btn-primary">Return to Home</a>
+            <a href="/contact" class="btn btn-outline ml-4">Back to Contact</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout> 
