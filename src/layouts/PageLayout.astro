@@ -9,9 +9,10 @@ interface Props {
   canonicalURL?: string;
   schemaType?: 'attorney' | 'city' | 'organization' | 'website';
   schemaData?: any;
+  noindex?: boolean;
 }
 
-const { title, description, canonicalURL, schemaType, schemaData } = Astro.props;
+const { title, description, canonicalURL, schemaType, schemaData, noindex } = Astro.props;
 ---
 
 <Layout 
@@ -20,6 +21,7 @@ const { title, description, canonicalURL, schemaType, schemaData } = Astro.props
   canonicalURL={canonicalURL}
   schemaType={schemaType}
   schemaData={schemaData}
+  noindex={noindex}
 >
   <div class="flex flex-col min-h-screen">
     <Header />

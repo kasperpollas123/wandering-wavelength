@@ -5,7 +5,9 @@ import CityCard from '../components/CityCard.astro';
 import FAQSection from '../components/FAQSection.astro';
 import CallToAction from '../components/CallToAction.astro';
 import { cities } from '../data/cities';
-import { getAttorneysForCity } from '../data/attorneys';
+import { getAttorneysForCity, attorneys, getAttorneysByState } from '../data/attorneys';
+import { stateNames, stateSlug } from '../data/cities';
+import { helpStates } from '../data/freeHelp';
 
 // Calculate actual attorney counts for each city
 const citiesWithActualCounts = cities.map(city => {
@@ -16,6 +18,12 @@ const citiesWithActualCounts = cities.map(city => {
   };
 });
 
+const states = Object.keys(stateNames)
+  .map(code => ({ code, name: stateNames[code], count: getAttorneysByState(code).length }))
+  .filter(st => st.count > 0)
+  .sort((a, b) => a.name.localeCompare(b.name));
+const helpTotal = helpStates.reduce((n, st) => n + st.count, 0);
+
 // Get top 6 cities by population
 const topCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0)
   .sort((a, b) => b.population - a.population)
@@ -23,16 +31,47 @@ const topCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0)
 ---
 
 <PageLayout 
-  title="Expungement Attorneys Directory | Find Record Clearing Lawyers Near You"
-  description="Connect with experienced expungement attorneys across the United States who can help clear your criminal record and give you a fresh start."
+  title="Expungement Attorneys and Free Legal Help by State"
+  description={`Find attorneys who clear criminal records in ${states.length} states, free legal aid and clinics in every state, and each state's expungement rules in plain English.`}
 >
   <Hero 
-    title="Clear Your Record, Claim Your Future"
-    subtitle="Connect with experienced expungement attorneys who can help you navigate the legal process and get a fresh start."
+    title="Find an Expungement Attorney or Free Legal Help"
+    subtitle={`${attorneys.length} attorneys in ${states.length} states who clear criminal records, ${helpTotal} free legal aid programmes, and each state's rules in plain English.`}
     showSearch={false}
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
   />
   
+  <section class="py-16 bg-white">
+    <div class="container">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
+        <a href="/states" class="p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+          <h2 class="text-xl font-bold mb-2">Your State's Rules</h2>
+          <p class="text-gray-600">What can be cleared, how long you wait, and what the process is called where you live. Checked against official sources.</p>
+        </a>
+        <a href="/free-expungement-help" class="p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+          <h2 class="text-xl font-bold mb-2">Free Legal Help</h2>
+          <p class="text-gray-600">{`${helpTotal} legal aid offices, law school clinics and court programmes, with who qualifies for each.`}</p>
+        </a>
+        <a href="/cities" class="p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+          <h2 class="text-xl font-bold mb-2">Attorneys Near You</h2>
+          <p class="text-gray-600">{`${attorneys.length} law firms that handle expungement and record sealing, with what each one offers.`}</p>
+        </a>
+      </div>
+
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6 text-center">Expungement by State</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          {states.map(st => (
+            <a href={`/states/${stateSlug(st.code)}`} class="flex items-center justify-between px-4 py-3 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+              <span class="font-medium">{st.name}</span>
+              <span class="text-sm text-gray-500">{`${st.count}`}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="py-16 bg-white">
     <div class="container">
       <div class="text-center mb-12">

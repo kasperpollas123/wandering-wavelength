@@ -21,15 +21,7 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Expungement Attorneys Directory",
-  "url": Astro.site?.toString() || "https://www.expungementattorneys.org",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": `${Astro.site?.toString() || "https://www.expungementattorneys.org"}/search?q={search_term_string}`
-    },
-    "query-input": "required name=search_term_string"
-  }
+  "url": Astro.site?.toString() || "https://www.expungementattorneys.org"
 };
 
 // Generate attorney schema

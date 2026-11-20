@@ -171,6 +171,11 @@ const relatedAttorneys = attorneys
           <h1 class="text-4xl font-bold mb-4">{attorney.name}</h1>
           <p class="text-xl text-gray-600 mb-8">{clearsRecords ? 'Expungement Attorney' : 'Law Firm'} in {attorney.city}, {attorney.state}</p>
           
+          <div class="lg:hidden flex gap-3 mb-8">
+            {attorney.phone && <a href={`tel:${attorney.phone.replace(/[^0-9+]/g, '')}`} data-track="top" class="btn btn-primary flex-1 text-center">Call</a>}
+            {attorney.website !== '#' && <a href={attorney.website} target="_blank" rel="noopener noreferrer" data-track="top" class="btn btn-secondary flex-1 text-center">Website</a>}
+          </div>
+
           <!-- Profile written from the firm's own website -->
           <div class="mb-10">
             {profile ? (

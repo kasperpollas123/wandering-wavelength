@@ -8,6 +8,7 @@ interface Props {
 	canonicalURL?: string;
 	schemaType?: 'attorney' | 'city' | 'organization' | 'website';
 	schemaData?: any;
+	noindex?: boolean;
 }
 
 const { 
@@ -15,7 +16,8 @@ const {
 	description, 
 	canonicalURL = Astro.url.pathname,
 	schemaType = 'website',
-	schemaData
+	schemaData,
+	noindex = false
 } = Astro.props;
 
 const fullCanonicalURL = new URL(canonicalURL, Astro.site);
@@ -36,6 +38,7 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 		<title>{title}</title>
 		<meta name="title" content={title} />
 		<meta name="description" content={description} />
+		{noindex && <meta name="robots" content="noindex, follow" />}
 		
 		<!-- Canonical URL -->
 		<link rel="canonical" href={fullCanonicalURL} />
@@ -45,9 +48,12 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 		<meta property="og:url" content={fullCanonicalURL} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
+		<meta property="og:image" content={new URL("/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg", Astro.site)} />
+		<meta property="og:site_name" content="Expungement Attorneys Directory" />
 		
 		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content={new URL("/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.jpeg", Astro.site)} />
 		<meta property="twitter:url" content={fullCanonicalURL} />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
@@ -61,35 +67,9 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 		</noscript>
 		
-		<!-- Preload critical resources -->
-		<link rel="preload" href="/styles/base.css" as="style">
 		
 		<!-- Preload critical images -->
 		<link rel="preload" href="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp" as="image" type="image/webp" fetchpriority="high">
-		
-		<!-- Image optimization script -->
-		<script is:inline>
-			// Progressive image loading
-			document.addEventListener('DOMContentLoaded', function() {
-				const lazyImages = [].slice.call(document.querySelectorAll('img[loading="lazy"]'));
-				
-				if ('IntersectionObserver' in window) {
-					let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-						entries.forEach(function(entry) {
-							if (entry.isIntersecting) {
-								let lazyImage = entry.target;
-								lazyImage.src = lazyImage.dataset.src || lazyImage.src;
-								lazyImageObserver.unobserve(lazyImage);
-							}
-						});
-					});
-					
-					lazyImages.forEach(function(lazyImage) {
-						lazyImageObserver.observe(lazyImage);
-					});
-				}
-			});
-		</script>
 		
 		<!-- Schema Markup -->
 		<SchemaMarkup type={Astro.props.schemaType || 'website'} data={Astro.props.schemaData} />
@@ -106,16 +86,47 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 	<body>
 		<slot />
 		
-		<!-- Defer non-critical JavaScript -->
-		<script>
-			// Function to load non-critical resources after page load
-			window.addEventListener('load', function() {
-				// Example: Load analytics or other non-critical scripts
-				setTimeout(function() {
-					// Add any deferred script loading here
-					console.log('Deferred resources loaded');
-				}, 1000);
-			});
+		<!-- First-party visit statistics: page views, time on page and clicks on phone, website and
+		     free-help links. No cookies and nothing personal: a random ID per browser tab.
+		     Switched off until a receiving address is set in URL_ below. Visit /?exp_notrack=1 once to exclude your own browser. -->
+		<script is:inline>
+			(function () {
+				try {
+					var host = location.hostname;
+					if (host === 'localhost' || host === '127.0.0.1' || navigator.webdriver) return;
+					var q = new URLSearchParams(location.search), flag = q.get('exp_notrack');
+					if (flag === '1') localStorage.setItem('exp_notrack', '1');
+					if (flag === '0') localStorage.removeItem('exp_notrack');
+					if (localStorage.getItem('exp_notrack') === '1') return;
+					// Where the statistics are sent. Empty = switched off (nothing is sent anywhere).
+					var URL_ = '';
+					if (!URL_) return;
+					var id = function () { try { return crypto.randomUUID(); } catch (e) { return Math.random().toString(36).slice(2) + Date.now().toString(36); } };
+					var visit = '', entry = false;
+					try { visit = sessionStorage.getItem('exp_visit') || ''; if (!visit) { visit = id(); sessionStorage.setItem('exp_visit', visit); entry = true; } } catch (e) { visit = id(); entry = true; }
+					var page = id();
+					var send = function (d) {
+						try {
+							d.visit_id = visit; d.page_id = page; d.path = location.pathname;
+							var body = JSON.stringify(d);
+							if (!(navigator.sendBeacon && navigator.sendBeacon(URL_, new Blob([body], { type: 'text/plain' })))) fetch(URL_, { method: 'POST', body: body, keepalive: true, mode: 'no-cors' }).catch(function () {});
+						} catch (e) {}
+					};
+					var ref = '';
+					try { if (document.referrer) { var u = new URL(document.referrer); if (u.host !== location.host) ref = u.origin + u.pathname; } } catch (e) {}
+					send({ kind: 'view', entry: entry, referrer: ref, campaign: q.get('ref') || '', utm: q.get('utm_source') || '' });
+					var since = document.visibilityState === 'visible' ? Date.now() : 0, ms = 0;
+					var flush = function () { if (since) { ms += Date.now() - since; since = 0; } var s = Math.round(ms / 1000); if (s >= 1) { send({ kind: 'time', seconds: Math.min(s, 1800) }); ms = 0; } };
+					document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') flush(); else if (!since) since = Date.now(); });
+					window.addEventListener('pagehide', flush);
+					document.addEventListener('click', function (e) {
+						var a = e.target && e.target.closest ? e.target.closest('a[href]') : null; if (!a) return;
+						var href = a.getAttribute('href') || '', where = a.getAttribute('data-track') || '';
+						if (href.indexOf('tel:') === 0) send({ kind: 'action', action: 'phone_click', placement: where });
+						else if (/^https?:/.test(href) && a.host !== location.host) send({ kind: 'action', action: location.pathname.indexOf('/free-expungement-help') === 0 ? 'help_click' : 'website_click', placement: where || a.host.replace(/^www\./, '').slice(0, 55) });
+					}, true);
+				} catch (e) {}
+			})();
 		</script>
 	</body>
 </html>
