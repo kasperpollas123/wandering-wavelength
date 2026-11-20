@@ -6,7 +6,7 @@ import { stateNames, stateSlug } from '../../data/cities';
 
 const rows = [...allCosts].filter(c => stateNames[c.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state]));
 // States where an official source confirms no court filing fee for the main petition (checked by hand)
-const NO_FEE = ['AZ', 'AR', 'CA', 'ID', 'MA', 'NY', 'OR', 'VA'];
+const NO_FEE = ['AZ', 'AR', 'CA', 'ID', 'MA', 'NJ', 'NY', 'OR', 'VA'];
 const noFee = rows.filter(c => NO_FEE.includes(c.state)).map(c => stateNames[c.state]);
 ---
 

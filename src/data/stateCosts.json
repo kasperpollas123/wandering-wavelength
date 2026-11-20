@@ -573,7 +573,7 @@
    "https://dojmt.gov/dci-home/conviction-expungement-process/",
    "https://archive.legmt.gov/bills/MCA/title_0460/chapter_0180/part_0110/section_0040/0460-0180-0110-0040.html"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "notes": "The Montana Clerks of District Courts civil fee schedule (updated May 2024) lists $120 for civil commencement of action by a petitioner; no expungement-specific fee is listed and the 2025 court packet does not state the filing fee, so the $120 amount is an inference; check with the county clerk. Getting your own criminal background check from MT DOJ (estimated $10-$30 per the court packet) is a recommended step, not a required fee. Fingerprint card itself is free from MT DOJ. No clean-slate automatic process found; felony records are not covered by this law."
  },
  {
@@ -650,6 +650,24 @@
   ],
   "confidence": "high",
   "notes": "$125 court fee is from the Superior Court fee schedule effective 07/01/2025 (seen via search summary; direct fetch of courts.nh.gov was blocked). Circuit Court fee assumed the same per court rules mirrors; confirm with the clerk. The NH State Police page is inconsistent (mentions both $100 and $125 for the court fee). A 2025 rules memo proposed fee increases; adoption not confirmed. Statute text (RSA 651:5) was read directly on gc.nh.gov."
+ },
+ {
+  "state": "NJ",
+  "main_process": "expungement (petition filed online through the eCourts Expungement System), including regular, clean slate (after 10 years) and expedited expungement",
+  "court_fee": "no fee; the New Jersey Courts say applying through the eCourts Expungement System is free (the former $75 filing fee was eliminated by P.L. 2019, c.269)",
+  "other_fees": [],
+  "fee_waiver": "Not needed: the New Jersey Courts say filing an expungement online is free.",
+  "free_automatic": "Yes, for certain marijuana and hashish offenses (such as possession, or distribution of under 1 ounce of marijuana or under 5 grams of hash, plus some related offenses), which were expunged automatically with no petition needed; people can request a free certification from the court. Dismissed or acquitted cases can be expunged immediately by the court (expedited expungement). A fully automated clean-slate process for other convictions was not confirmed as operating; the clean slate expungement after 10 years is still filed through the online system.",
+  "time": null,
+  "summary": "In New Jersey you apply for expungement online through the courts' eCourts Expungement System, and the courts say it is free. Some marijuana and hashish records were expunged automatically, and people with older records may use the clean slate path after 10 years. After a judge signs the order, you can track the State Police's processing on its Expungement Status Portal.",
+  "sources": [
+   "https://www.njcourts.gov/self-help/expunge-record",
+   "https://www.nj.gov/defender/community-events/Expungement_Pamphlet_12-2025.pdf",
+   "https://www.nj.gov/cannabis/documents/Resources/2023-1-6%20Automatic%20Expungement%20of%20Marijuana%20Record.pdf",
+   "https://lsnjlaw.org/legal-topics/criminal-charges-and-convictions/reentry/expungement/pages/changes-law-opportunities-aspx"
+  ],
+  "confidence": "high",
+  "notes": "njcourts.gov states 'It's free' for applying via the eCourts Expungement System. Elimination of the $75 filing fee by P.L. 2019, c.269 is from a legal aid (LSNJ) summary and search summaries of the enacted bill. No official processing time found; NJSP processing can be tracked at expungement.njsp.gov. Paying fines is an eligibility requirement but not a filing fee. Status of the statutory automated clean slate system (N.J.S.A. 2C:52-5.4) not confirmed."
  },
  {
   "state": "NM",
