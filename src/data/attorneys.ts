@@ -1,5 +1,22 @@
 import { cities, cityToSlug } from './cities';
 import type { City } from './cities';
+import profilesData from './attorneyProfiles.json';
+
+// Profile written from the firm's own website (scripts in the research notes; see README)
+export interface AttorneyProfile {
+  description: string;
+  mentions_record_clearing: boolean;
+  record_clearing_services: string[];
+  other_practice_areas: string[];
+  free_consultation: boolean | null;
+  fees: string | null;
+  payment_plans: boolean | null;
+  languages: string[];
+  attorneys: string[];
+  founded_or_experience: string | null;
+  areas_served: string | null;
+}
+const profiles = profilesData as Record<string, AttorneyProfile>;
 import fs from 'fs';
 import path from 'path';
 
@@ -30,6 +47,7 @@ export interface Attorney {
   available24_7?: boolean;
   freeConsultation?: boolean;
   reviews?: any[];
+  profile?: AttorneyProfile;
 }
 
 // Function to generate a random phone number
@@ -841,7 +859,9 @@ export function loadAttorneysFromJson(): Attorney[] {
             rating: Number(listing.rating) || 0,
             reviewCount: Number(listing.votes_count) || (listing.reviews ? listing.reviews.length : 0),
             specialty: "Expungement Attorney",
-            description: `${listing.name} is an experienced expungement attorney in ${cityName}, helping clients clear their criminal records and get a fresh start.`,
+            description: (profiles[`${listing.name}|${listing.domain || ''}`]?.description || '').split('\n')[0]
+              || `${listing.name} is a law firm in ${cityName.split(' ').map((w: string) => w ? w.charAt(0).toUpperCase() + w.slice(1) : w).join(' ')}, ${stateName}.`,
+            profile: profiles[`${listing.name}|${listing.domain || ''}`],
             longDescription: uniqueDescription, // Use the unique description as the long description
             phone: listing.phone || '',
             website: listing.domain ? `https://${listing.domain}` : "#",

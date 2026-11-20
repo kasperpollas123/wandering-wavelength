@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
 import { cities, stateNames, stateSlug, stateExpungementInfo } from '../../data/cities';
 import { getAttorneysByState, getAttorneysForCity, getCityForAttorney } from '../../data/attorneys';
+import { getHelpForState } from '../../data/freeHelp';
 
 // One page for every state that has at least one attorney in the directory
 export function getStaticPaths() {
@@ -17,6 +18,7 @@ const { code } = Astro.props;
 const stateName = stateNames[code];
 const attorneys = getAttorneysByState(code).sort((a, b) => a.city.localeCompare(b.city) || a.name.localeCompare(b.name));
 const lawInfo = stateExpungementInfo[code];
+const helpCount = getHelpForState(code).length;
 
 // City pages in this state
 const stateCities = cities
@@ -59,6 +61,13 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
               This is a general summary, not legal advice. Laws change, and eligibility depends on the details of a case. An attorney in {stateName} can confirm what applies to you.
             </p>
           </div>
+        )}
+
+        {helpCount > 0 && (
+          <a href={`/free-expungement-help/${stateSlug(code)}`} class="block p-6 mb-12 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+            <h2 class="text-xl font-semibold mb-1">Free and Low-Cost Help in {stateName} →</h2>
+            <p class="text-gray-700">{helpCount} legal aid offices, law school clinics and other programmes, with who qualifies for each.</p>
+          </a>
         )}
 
         {stateCities.length > 0 && (

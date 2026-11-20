@@ -1,0 +1,79 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { stateNames, stateSlug, stateExpungementInfo } from '../../data/cities';
+import { helpStates, getHelpForState, helpChecked } from '../../data/freeHelp';
+import { getAttorneysByState } from '../../data/attorneys';
+
+export function getStaticPaths() {
+  return helpStates.map(s => ({ params: { slug: stateSlug(s.code) }, props: { code: s.code } }));
+}
+
+const { code } = Astro.props;
+const stateName = stateNames[code];
+const orgs = getHelpForState(code);
+const attorneyCount = getAttorneysByState(code).length;
+const title = `Free Expungement Help in ${stateName} | Legal Aid and Record Clearing Clinics`;
+const description = `${orgs.length} legal aid offices, law school clinics and other programmes that help clear a criminal record in ${stateName} for free or at low cost, with who qualifies and how to reach them.`;
+---
+
+<PageLayout title={title} description={description} canonicalURL={`/free-expungement-help/${stateSlug(code)}`}>
+  <Hero
+    title={`Free Expungement Help in ${stateName}`}
+    subtitle={`Legal aid offices, law school clinics and other programmes that help people in ${stateName} clear a criminal record for free or at low cost.`}
+    backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
+  />
+
+  <div class="container py-8">
+    <Breadcrumbs items={[{ label: "Free Help", href: "/free-expungement-help" }, { label: stateName }]} />
+  </div>
+
+  <section class="py-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <p class="text-lg text-gray-700 mb-4">
+          Most free programmes have rules about who they can help. Many set an income limit, serve only certain counties, or take only certain kinds of cases. Check with the organisation before you rely on it, because clinic dates and intake rules change.
+        </p>
+        {helpChecked && <p class="text-sm text-gray-500 mb-10">Each entry comes from the organisation's own page or an official listing, checked {helpChecked}.</p>}
+
+        <div class="space-y-6 mb-12">
+          {orgs.map(org => (
+            <div class="p-6 bg-gray-50 rounded-lg border border-gray-200">
+              <h2 class="text-xl font-semibold mb-1">{org.name}</h2>
+              <p class="text-sm text-gray-500 mb-3">
+                {org.type.charAt(0).toUpperCase() + org.type.slice(1)}{org.area_served && ` · ${org.area_served}`}
+              </p>
+              <p class="text-gray-700 mb-3">{org.what_they_offer}</p>
+              <ul class="text-gray-700 space-y-1 mb-3">
+                {org.who_qualifies && <li><span class="font-medium">Who qualifies:</span> {org.who_qualifies}</li>}
+                {org.cost && <li><span class="font-medium">Cost:</span> {org.cost}</li>}
+                {org.phone && <li><span class="font-medium">Phone:</span> {org.phone}</li>}
+              </ul>
+              <a href={org.url} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-medium break-all">
+                Go to the programme's page →
+              </a>
+            </div>
+          ))}
+        </div>
+
+        {attorneyCount > 0 && (
+          <div class="p-6 rounded-lg border border-gray-200 mb-12">
+            <h2 class="text-2xl font-bold mb-3">If You Don't Qualify for Free Help</h2>
+            <p class="text-gray-700 mb-4">
+              If your income is over a programme's limit, the programme is full, or it doesn't take your kind of case, a private attorney is the other route. We list {attorneyCount} {attorneyCount === 1 ? 'attorney' : 'attorneys'} in {stateName} who handle expungement and record sealing. Some publish their fees or offer a free first consultation.
+            </p>
+            <a href={`/states/${stateSlug(code)}`} class="btn btn-primary">Expungement Attorneys in {stateName}</a>
+          </div>
+        )}
+
+        {stateExpungementInfo[code] && (
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h2 class="text-xl font-semibold mb-3">Expungement Law in {stateName}</h2>
+            <p class="text-gray-700">{stateExpungementInfo[code]}</p>
+          </div>
+        )}
+      </div>
+    </div>
+  </section>
+</PageLayout>

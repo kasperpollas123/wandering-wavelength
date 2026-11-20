@@ -1,0 +1,167 @@
+{
+ "checked": "November 2026",
+ "states": {
+  "TX": [
+   {
+    "name": "Legal Aid of NorthWest Texas - Statewide Expunction Project",
+    "type": "legal aid",
+    "url": "https://legalaidtx.org/community-projects/statewide-expunction-project/",
+    "area_served": "North Texas & Panhandle (114 counties)",
+    "what_they_offer": "Helps clear eligible criminal records through expunctions and nondisclosure orders via direct representation, recurring virtual clinics, and library outreach events.",
+    "who_qualifies": "Financially eligible residents within their North Texas and Panhandle service area (income at or below 200% of the federal poverty guidelines).",
+    "cost": "Free",
+    "phone": "888-676-6176"
+   },
+   {
+    "name": "ClearPath Texas",
+    "type": "legal aid",
+    "url": "https://texaslawhelp.org/event/statewide-expunction-clinic-day",
+    "area_served": "Statewide",
+    "what_they_offer": "Coordinates free in-person, remote, and live-chat expunction and nondisclosure clinics connecting residents with legal aid attorneys across Texas.",
+    "who_qualifies": "Income-eligible Texans whose cases were dismissed, resulted in acquittal, or completed deferred adjudication for certain offenses.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Texas State Law Library",
+    "type": "court self-help",
+    "url": "https://guides.sll.texas.gov/expunctions-and-non-disclosure/general-information",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides self-help legal guides explaining Texas expunction, adult nondisclosure, and juvenile record sealing laws along with links to common court forms.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Lone Star Legal Aid - Civil Matters in Criminal Justice Project",
+    "type": "legal aid",
+    "url": "https://www.lonestarlegal.org/services/civil-matters-in-criminal-justice-project/",
+    "area_served": "East Texas & Houston Area",
+    "what_they_offer": "Provides civil legal representation to file applications for expungements and nondisclosure orders, repair inaccurate background checks, and access criminal records.",
+    "who_qualifies": "Residents in their East Texas and Houston service area whose income is at or below 125% of the Federal Poverty Line.",
+    "cost": "Free",
+    "phone": "(800) 733-8394"
+   },
+   {
+    "name": "University of Texas School of Law - Expunction Project",
+    "type": "law school clinic",
+    "url": "https://law.utexas.edu/probono/projects/special-projects/texas-law-expunction-project/",
+    "area_served": "Statewide",
+    "what_they_offer": "Pro bono law school program with intakes in September and February that helps determine eligibility and prepare court paperwork to expunge or seal criminal records.",
+    "who_qualifies": "People who cannot afford to hire an attorney.",
+    "cost": "Free",
+    "phone": "(512) 471-5151"
+   },
+   {
+    "name": "Texas Fair Defense Project",
+    "type": "nonprofit",
+    "url": "https://www.fairdefense.org/what-we-do/record-clearing",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides legal assistance to seal or destroy eligible Texas criminal records through nondisclosures and expunctions; note that intake is currently closed to new applicants.",
+    "who_qualifies": "Applicants entitled to record clearing under Texas law whose income is within 200% of the federal poverty guidelines and who submit a DPS Criminal History Report.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Justice Reform Foundation - Expungement Program",
+    "type": "nonprofit",
+    "url": "https://justicereformfoundation.org/expungement-program/",
+    "area_served": "Statewide",
+    "what_they_offer": "Screens criminal records, prepares expunction or nondisclosure petitions with supervised law students, and files petitions with the court.",
+    "who_qualifies": "Texans with qualifying dismissed charges, acquittals, uncharged arrests, certain Class C misdemeanors, or completed deferred adjudications who could not otherwise afford legal help.",
+    "cost": "Free (including court filing costs)",
+    "phone": null
+   },
+   {
+    "name": "University of Houston Law Center - Records Sealing and Expunction Clinic",
+    "type": "law school clinic",
+    "url": "https://www.law.uh.edu/clinic/rse.asp",
+    "area_served": null,
+    "what_they_offer": "Law school clinic where students assist clients with juvenile records sealing, adult criminal record expunctions, and adult nondisclosure orders.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "713-743-2094"
+   },
+   {
+    "name": "Texas A&M University School of Law - Criminal Defense Clinic",
+    "type": "law school clinic",
+    "url": "https://justicereformfoundation.org/expungement-program/",
+    "area_served": "Tarrant County and statewide via JRF Expungement Program",
+    "what_they_offer": "Student interns screen records and prepare expunction and nondisclosure petitions in partnership with the Justice Reform Foundation.",
+    "who_qualifies": "Eligible Texans who cannot afford legal representation.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Texas Legal Services Center",
+    "type": "legal aid",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free legal assistance to help Texans seal or expunge eligible criminal records.",
+    "who_qualifies": "Generally requires applicants to meet income guidelines.",
+    "cost": "Free",
+    "phone": "800.622.2520"
+   },
+   {
+    "name": "Texas RioGrande Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Central & West Texas, Rio Grande Valley",
+    "what_they_offer": "Legal aid organization providing free legal assistance with criminal record sealing and expunctions.",
+    "who_qualifies": "Income-eligible residents living within their Central Texas, West Texas, and Rio Grande Valley service area.",
+    "cost": "Free",
+    "phone": "833-329-8752"
+   },
+   {
+    "name": "Travis County Law Library",
+    "type": "court self-help",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Austin & Central Texas",
+    "what_they_offer": "Listed resource offering free assistance with criminal record sealing and expunctions.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "(512) 854–1631"
+   },
+   {
+    "name": "Volunteer Legal Services of Central Texas",
+    "type": "nonprofit",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Travis, Hays, Bastrop & Williamson counties",
+    "what_they_offer": "Offers free legal assistance with record sealing and expunctions, including monthly in-person legal advice clinics by appointment.",
+    "who_qualifies": "Residents of Travis, Hays, Bastrop, and Williamson counties who meet income eligibility requirements.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Jefferson County Bar Association Pro Bono Program",
+    "type": "bar association",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Jefferson, Hardin & Orange counties",
+    "what_they_offer": "Provides pro bono legal assistance for criminal record sealing and expunctions in Southeast Texas.",
+    "who_qualifies": "Qualifying residents of Jefferson, Hardin, and Orange counties.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Dallas Volunteer Attorney Program",
+    "type": "bar association",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Dallas/Fort Worth & Surrounding Area",
+    "what_they_offer": "Provides free legal help and ongoing in-person legal clinics for criminal record sealing and expunctions.",
+    "who_qualifies": "Residents in the Dallas area meeting program income and service area requirements.",
+    "cost": "Free",
+    "phone": "214-243-2236"
+   },
+   {
+    "name": "Unlocking Doors",
+    "type": "nonprofit",
+    "url": "https://www.cleanslatetexas.org/expunction-clinics-record-sealing",
+    "area_served": "Dallas, Collin, Denton, Kaufman, Rockwall, Tarrant, and Ellis counties",
+    "what_they_offer": "Assists individuals in the Dallas and Fort Worth areas (in partnership with Cornerstone Assistance Center in Fort Worth) with record sealing and expunction services.",
+    "who_qualifies": "Qualifying residents of Dallas, Collin, Denton, Kaufman, Rockwall, Tarrant, and Ellis counties.",
+    "cost": "Free",
+    "phone": "214-296-9258"
+   }
+  ]
+ }
+}

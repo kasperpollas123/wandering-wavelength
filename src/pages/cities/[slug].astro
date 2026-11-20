@@ -8,6 +8,7 @@ import FAQSection from '../../components/FAQSection.astro';
 import SchemaMarkup from '../../components/SchemaMarkup.astro';
 import { cities, stateNames, stateSlug } from '../../data/cities';
 import { getAttorneysForCity } from '../../data/attorneys';
+import { getHelpForState } from '../../data/freeHelp';
 
 export function getStaticPaths() {
   return cities.map(city => ({
@@ -21,6 +22,7 @@ const { city } = Astro.props;
 // Use the base slug (not SEO slug) for fetching attorneys
 const attorneys = getAttorneysForCity(city);
 const stateName = stateNames[city.state] || city.state;
+const helpCount = getHelpForState(city.state).length;
 
 // Format city name for display (capitalize first letter of each word)
 const formatCityName = (name: string) => {
@@ -89,6 +91,11 @@ const nearbyCitiesWithCounts = cities
           <a href={`/states/${stateSlug(city.state)}`} class="text-primary hover:underline font-medium">
             More about expungement in {stateName} and attorneys elsewhere in the state →
           </a>
+          {helpCount > 0 && (
+            <a href={`/free-expungement-help/${stateSlug(city.state)}`} class="block mt-3 text-primary hover:underline font-medium">
+              Free and low-cost help in {stateName}: {helpCount} legal aid and clinic programmes →
+            </a>
+          )}
         </div>
       </div>
       
