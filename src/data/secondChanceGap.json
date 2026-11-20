@@ -1,0 +1,142 @@
+[
+ {
+  "state": "CO",
+  "eligible_not_cleared": 873000,
+  "share": 94.5,
+  "what_it_counts": "people with conviction records estimated eligible for sealing under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The Colorado Second Chance Sealing Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/CO.html",
+  "notes": "Published as '~873K'. Also '~1.4M people with any records that are eligible for relief but haven't received it'. 94.5% = 'remaining ... in Colorado's second chance sealing gap' (uptake ~5.5%), stated for people with any records. Report undated; latest data year 2019, cites law effective Sept 2021; year approximate. A 2022 update on the proposed Clean Slate bill also exists."
+ },
+ {
+  "state": "DE",
+  "eligible_not_cleared": 61000,
+  "share": 94.0,
+  "what_it_counts": "people with conviction records estimated eligible for expungement under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The Delaware Second Chance Expungement Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/DE.html",
+  "notes": "Published as '~61K'. Also 153K with records eligible for any relief that haven't received it. 94% = 'leaving behind 94% of people with records' (uptake ~6%). Report undated; latest data year 2019; year approximate."
+ },
+ {
+  "state": "IL",
+  "eligible_not_cleared": 921000,
+  "share": 90.0,
+  "what_it_counts": "people with conviction records estimated eligible for sealing under current law who have not received it (conviction 'second chance gap')",
+  "year": 2022,
+  "source_title": "The Illinois Second Chance Expungement and Sealing Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/IL.html",
+  "notes": "Published as '~921K'. Also ~2.2M people with criminal records eligible for any relief (not explicitly stated as un-relieved). 90% of eligible people with conviction records in the gap (uptake ~10%). Uses 2021 sealing data; report undated, year approximate."
+ },
+ {
+  "state": "KY",
+  "eligible_not_cleared": 1100000,
+  "share": 96.0,
+  "what_it_counts": "people with conviction records estimated eligible for sealing/expungement under current law who have not received it (conviction 'second chance gap')",
+  "year": 2023,
+  "source_title": "The Kentucky Second Chance Expungement Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/KY.html",
+  "notes": "Key findings table: '~1.1M' (91% of ~1.2M with conviction records); the abstract text on the same page says '1.2M people with conviction records that are eligible' - internal inconsistency. Also ~1.4M with any record eligible. 96% left in the gap (uptake ~4.0%). PDF created March 2023."
+ },
+ {
+  "state": "LA",
+  "eligible_not_cleared": 600000,
+  "share": null,
+  "what_it_counts": "people with conviction records estimated eligible for expungement under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The Louisiana Second Chance Expungement Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/LA.html",
+  "notes": "Published as '~600K'. Also 878K with records eligible for any relief that haven't received it. No uptake rate or un-relieved share published. Report undated; year approximate."
+ },
+ {
+  "state": "MD",
+  "eligible_not_cleared": 300000,
+  "share": 98.0,
+  "what_it_counts": "people with conviction records estimated eligible for expungement under current law who have not received it (conviction 'second chance gap')",
+  "year": 2023,
+  "source_title": "The Maryland Second Chance Expungement Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/pdfs/reports/The%20Maryland%20Second%20Chance%20Expungement%20Gap.pdf",
+  "notes": "Published as '~300K ... eligible for expungement relief that haven't received it'. 98% in the gap (uptake 2%). Uses 2022 data and cites Oct 2024 law; report undated, year approximate. 177K could clear all convictions."
+ },
+ {
+  "state": "MA",
+  "eligible_not_cleared": 178000,
+  "share": 86.0,
+  "what_it_counts": "people with conviction records estimated eligible for sealing under current law who have not received it (conviction 'second chance gap')",
+  "year": 2023,
+  "source_title": "The Massachusetts Second Chance Sealing Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/pdfs/reports/The%20Massachusetts%20Second%20Chance%20Sealing%20Gap.pdf",
+  "notes": "Published as '178K'. Also 560K with any criminal record eligible (uptake of any relief 17%). 86% of eligible people with conviction records in the sealing gap (uptake 14%). Uses 2022 data / 2023 population estimate; year approximate."
+ },
+ {
+  "state": "MO",
+  "eligible_not_cleared": 518000,
+  "share": 99.0,
+  "what_it_counts": "people with conviction records estimated eligible for expungement under current law who have not received it (conviction 'second chance gap')",
+  "year": 2022,
+  "source_title": "The Missouri Second Chance Expungement Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/MO.html",
+  "notes": "Published as '~518K'. Also 1.2M with records eligible for any relief that haven't received it. 99% ('~99%+') in the gap (uptake <1%). Uses 2021 data; year approximate."
+ },
+ {
+  "state": "NC",
+  "eligible_not_cleared": 271000,
+  "share": 96.0,
+  "what_it_counts": "people with conviction records estimated eligible for expunction under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The North Carolina Second Chance Expunction Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/NC.html",
+  "notes": "Published as '~271K'. Also 1.1M with records eligible for any relief that haven't received it. 96% of people in the gap; uptake given as 6% on the web page abstract but ~4% in key findings/PDF. Latest data year 2019; year approximate. NC Second Chance Act (2020) since expanded relief."
+ },
+ {
+  "state": "OR",
+  "eligible_not_cleared": 314000,
+  "share": 96.0,
+  "what_it_counts": "people with conviction records estimated eligible for set-aside under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The Oregon Second Chance Set-Aside Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/OR.html",
+  "notes": "Published as '~314K'. Share published as 'over 96% of ... those eligible without relief' (uptake ~3.8%). Latest data year 2019; year approximate."
+ },
+ {
+  "state": "SC",
+  "eligible_not_cleared": 300000,
+  "share": null,
+  "what_it_counts": "people with conviction records estimated eligible for expungement under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The South Carolina Second Chance Expungement Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/SC.html",
+  "notes": "Published as '~300K'. Also 570K with records eligible for any relief that haven't received it. No uptake/share published. Report undated; year approximate."
+ },
+ {
+  "state": "TX",
+  "eligible_not_cleared": 677000,
+  "share": 95.0,
+  "what_it_counts": "people with conviction records estimated eligible for order of nondisclosure (sealing) under current law who have not received it (conviction 'second chance gap')",
+  "year": 2021,
+  "source_title": "The Texas Second Chance Non-Disclosure/Sealing Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/TX.html",
+  "notes": "Published as '~677,000'. Also 'another 1.5M could get relief from non-convictions, but haven't'. 95% in the gap (uptake ~5.0%). Full report PDF link returned no PDF; figures from the state page (key findings + abstract). Latest data year 2019; year approximate."
+ },
+ {
+  "state": "WA",
+  "eligible_not_cleared": 1000000,
+  "share": 97.0,
+  "what_it_counts": "people with convictions eligible to apply for vacatur who have not received it",
+  "year": 2021,
+  "source_title": "The Washington State Second Chance Vacatur Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/WA.html",
+  "notes": "Published as '1M+' / '~1M+'. 97% of eligible people with conviction records in the gap (uptake 3%); abstract also says '97-99% second chance gap'. 58% of eligible owe fines/fees. Year approximate (mentions COVID 2020-21)."
+ },
+ {
+  "state": "WV",
+  "eligible_not_cleared": 171000,
+  "share": 99.3,
+  "what_it_counts": "people with conviction records estimated eligible for expungement/sealing under current law who have not received it (conviction 'second chance gap')",
+  "year": 2022,
+  "source_title": "The West Virginia Second Chance Sealing Gap (Paper Prisons Initiative)",
+  "source_url": "https://paperprisons.org/states/WV.html",
+  "notes": "Published as '~171K'. Also 356K people with any criminal record eligible that haven't received relief. 99.3% = 'leaving behind 99.3% of people with records' (uptake ~0.7%). Uses 2022 population; year approximate. Note PDF says earnings loss of '227K people' in one bullet, apparently a typo."
+ }
+]

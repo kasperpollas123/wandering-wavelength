@@ -1,0 +1,1079 @@
+[
+ {
+  "state": "AL",
+  "main_process": "expungement (petition for expungement of records)",
+  "court_fee": "$500 administrative filing fee per arrest (one fee covers multiple charges from the same arrest), plus the circuit court's regular docket fee/court costs, which were not confirmed",
+  "other_fees": [
+   {
+    "item": "Certified criminal history record from ALEA (with fingerprints), required to file",
+    "amount": "$25 ($5 for each additional copy)"
+   }
+  ],
+  "fee_waiver": "The $500 filing fee can be waived if the court finds the petitioner indigent (Affidavit of Substantial Hardship filed with the petition); for some non-conviction cases docket fees and court costs are waived.",
+  "free_automatic": null,
+  "time": "The district attorney (and victim) have 45 days after service to file a written objection; ALEA says to allow at least 5-10 business days to process a certified record request.",
+  "summary": "In Alabama you clear a record by filing a petition for expungement in circuit court. The administrative filing fee is $500 per arrest on top of regular court docket fees, and you first need a $25 certified record from the Alabama Law Enforcement Agency. A judge can waive the $500 fee if you cannot afford it.",
+  "sources": [
+   "https://leecountyda.org/wp-content/uploads/2025/10/Expungement-Kit_2025.pdf",
+   "https://alea.gov/criminal-record-expungement",
+   "https://law.justia.com/codes/alabama/title-15/chapter-27/section-15-27-4/"
+  ],
+  "confidence": "medium",
+  "notes": "Statute text (Ala. Code 15-27-4) could not be fetched directly; the $500 waivable fee comes from the 2025 Lee County DA expungement kit petition form (which also reproduces an older statute version saying $300, non-waivable) and search snippets of the 2023 code as amended by Act 2021-286. Court docket fee amount varies and was not confirmed. No automatic clearing found."
+ },
+ {
+  "state": "AK",
+  "main_process": "set aside (motion to set aside a conviction after a suspended imposition of sentence, AS 12.55.085); sealing is limited to records from mistaken identity or false accusation",
+  "court_fee": "No specific fee found for a motion to set aside; Alaska court rules say there is no fee for filing a criminal action, and the motion is filed in the existing criminal case",
+  "other_fees": [],
+  "fee_waiver": "Court rules provide that no filing, certifying or copying fee is charged to a person found indigent under Administrative Rule 10.",
+  "free_automatic": "By law (AS 22.35.030) the court system may not publish criminal cases on its public website (CourtView) once 60 days have passed after an acquittal or dismissal of all charges; these are meant to be removed automatically, and form TF-810 can be used to report one that was missed. Some old minor marijuana possession convictions are also removed from the public index. This hides the case online but is not expungement.",
+  "time": null,
+  "summary": "Alaska has no general expungement; the main relief is asking the court to set aside a conviction after a suspended imposition of sentence, and the conviction and set-aside order stay public. No filing fee for this motion was found, and court rules say criminal filings carry no fee. Cases ending in acquittal or full dismissal are removed from the public court website at no cost after 60 days.",
+  "sources": [
+   "https://courts.alaska.gov/trialcourts/cvinfo.htm",
+   "https://www.courtrules.net/alaska/alaska-administration/rule-9",
+   "https://courts.alaska.gov/shc/courtfees.htm",
+   "https://ccresourcecenter.org/state-restoration-profiles/alaska-expungment-pardon-sealing/"
+  ],
+  "confidence": "low",
+  "notes": "No official page states a fee (or no fee) specifically for a motion to set aside; the 'no fee for a criminal action' rule text was read on a third-party copy of Administrative Rule 9 (courtrules.net), not the official PDF. The court's self-help pages are being updated for TrueFiling. The DPS sealing request form link was dead (404). No time frame found."
+ },
+ {
+  "state": "AZ",
+  "main_process": "petition to seal criminal case records (A.R.S. 13-911); set aside (A.R.S. 13-905) is a separate, older remedy",
+  "court_fee": "No fee: the court clerk may not charge a fee for filing a petition to seal (one petition per case number)",
+  "other_fees": [
+   {
+    "item": "Arizona Department of Public Safety fee to investigate the petition and to research and correct the criminal history record after sealing is granted",
+    "amount": "set by the DPS director; no published amount found (not charged if indigent, found not guilty, or the case was dismissed/not prosecuted)"
+   }
+  ],
+  "fee_waiver": "There is no court filing fee. The DPS fees allowed by law may not be charged to a petitioner who is indigent, was found not guilty, or whose case was dismissed or not prosecuted.",
+  "free_automatic": null,
+  "time": "By statute the court may not grant or deny the petition until 60 calendar days after receiving it (shorter if the prosecutor and victims do not object); Maricopa County Justice Courts say many cases take 30 or more calendar days before a ruling.",
+  "summary": "In Arizona you file a petition to seal criminal case records in each court where you have a case, and the court may not charge a filing fee. The state Department of Public Safety may charge a fee it sets to process a sealed conviction record, but not if you are indigent or your case ended without a conviction. All court-ordered fines, fees and restitution must be paid before sealing.",
+  "sources": [
+   "https://www.azleg.gov/ars/13/00911.htm",
+   "https://www.courtrules.net/arizona/arizona-criminal-procedure/rule-36-1",
+   "https://justicecourts.maricopa.gov/i-want-to/clear-my-record",
+   "https://azcourts.gov/selfservicecenter/Criminal-Law/Sealing-records/Requesting-a-Hearing"
+  ],
+  "confidence": "high",
+  "notes": "No-filing-fee rule (Ariz. R. Crim. P. 36.1(c)(3)(E)) was read on a third-party copy of the rule; county court instructions (Maricopa, Tempe) also say no filing fee. DPS fee amount not published anywhere found. No automatic sealing for adult records under 13-911."
+ },
+ {
+  "state": "AR",
+  "main_process": "petition to seal (Comprehensive Criminal Record Sealing Act of 2013)",
+  "court_fee": "No fee: since Act 680 of 2019, circuit and district court clerks may not collect a fee for filing the uniform petition to seal",
+  "other_fees": [],
+  "fee_waiver": "Not needed for the filing itself, since there is no filing fee; before 2019 the $50 fee could be waived for indigent petitioners.",
+  "free_automatic": null,
+  "time": "After the judge signs and files the order, the clerk forwards it to the Arkansas Crime Information Center, which by state law has 30 days from receipt to complete it.",
+  "summary": "In Arkansas you clear a record by filing a petition to seal with the court where you were sentenced, using state uniform forms. Since 2019 the court clerk cannot charge a fee to file the petition. After a judge approves, the state crime information center has 30 days to update its records.",
+  "sources": [
+   "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2F&file=680.pdf&ddBienniumSession=2019%2F2019R",
+   "https://dps.arkansas.gov/crime-info-support/arkansas-crime-information-center/forms/criminal-history/",
+   "https://law.justia.com/codes/arkansas/2015/title-16/subtitle-6/chapter-90/subchapter-14/section-16-90-1419/"
+  ],
+  "confidence": "high",
+  "notes": "No-fee rule confirmed in the text of Act 680 of 2019 (HB1831, approved 4/3/2019) amending Ark. Code 16-90-1419; some state petition forms still say the petitioner has paid fees 'mandated by' 16-90-1419, which appears to be outdated wording. Fines, fees and costs from the original case generally must be paid before sealing. No automatic sealing statute was confirmed."
+ },
+ {
+  "state": "CA",
+  "main_process": "petition for dismissal (commonly called expungement) under Penal Code 1203.4 / 1203.4a / 1203.41; record sealing for arrests under 1000.4/851.91",
+  "court_fee": "Generally no filing fee now: the current text of Penal Code 1203.4 (amended 2023) contains no fee provision, and courts such as Sacramento and Tulare say there is no fee; older local forms listed $60 (misdemeanor) to $150 (felony) and some court pages may still show these",
+  "other_fees": [],
+  "fee_waiver": "Where a court still lists a fee, local court pages say a fee waiver can be requested if you cannot afford it, and the court decides how much, if any, you must pay.",
+  "free_automatic": "Yes: under Penal Code 1203.425 the California Department of Justice automatically grants relief for many eligible convictions and arrests that did not lead to conviction, at no cost; the state court self-help site says your conviction may already have been dismissed this way.",
+  "time": null,
+  "summary": "In California the main way to clear an adult conviction is a petition for dismissal (often called expungement), filed in the court where you were convicted. Under current law there is generally no filing fee, though some older local court forms still list fees of about $60 to $150, and a fee waiver is available where a fee is charged. Many eligible records are also cleared automatically by the state at no cost.",
+  "sources": [
+   "https://selfhelp.courts.ca.gov/clean-your-record/misdemeanors",
+   "https://www.courtrules.net/california/california-penal-code-procedure/section-1203-4",
+   "https://courts.ca.gov/sites/default/files/courts/default/2024-10/resources-and-contacts.pdf",
+   "https://sdcourt.ca.gov/sdcourt/criminal2/criminalexpungement"
+  ],
+  "confidence": "medium",
+  "notes": "Could not load the official leginfo statute page or the Sacramento/Tulare court packets directly (blocked or 404); 'no fee' rests on search snippets of those court packets, a third-party copy of PC 1203.4 (last amended by AB 134, Stats. 2023 ch. 47) showing no reimbursement provision, and Judicial Council material showing AB 177 ended the 1203.4a(e) dismissal processing fee as of Jan 1, 2022. Some county pages (San Diego Public Defender FAQ, San Luis Obispo, Monterey 2015) still list $60/$120/$150 fees and may be outdated. Confirm with the local court."
+ },
+ {
+  "state": "CO",
+  "main_process": "sealing of criminal justice records (motion to seal criminal conviction records; separate procedures for non-conviction and arrest-only records)",
+  "court_fee": "$65 per motion to seal conviction records (one case, or several cases filed together under the multiple-convictions procedure); no fee to seal dismissed, acquitted, completed-diversion or completed-deferred-judgment cases in an existing court case; $224 to file a new civil case to seal an arrest where no charges were filed",
+  "other_fees": [
+   {
+    "item": "Verified Colorado Bureau of Investigation criminal history report (required for conviction sealing, obtained within 20 days before or 10 days after filing)",
+    "amount": "$6.00 (name-based check at cbirecordscheck.com, per court training slides)"
+   }
+  ],
+  "fee_waiver": "Yes: you can ask the court to waive the filing fee by filing a Motion to Waive Fees / proceed without payment (JDF 205) with the proposed order (JDF 206).",
+  "free_automatic": "Records of cases that ended in acquittal, full dismissal, completed diversion or completed deferred judgment are meant to be sealed automatically by the court at no cost (with exceptions such as Victim Rights Act charges); if missed you can file a motion with no fee. Court materials also mention sealing of certain convictions initiated by the State Court Administrator's Office.",
+  "time": "For non-conviction motions set for hearing, the court sets a return date no later than 35 days after the motion is filed (per 12th Judicial District court training slides).",
+  "summary": "In Colorado you ask the court to seal conviction records by filing a motion, which costs $65 plus about $6 for a required state criminal history report. The court can waive the filing fee if you cannot afford it. Dismissed, acquitted and similar non-conviction cases are meant to be sealed automatically at no cost.",
+  "sources": [
+   "https://coloradojudicial.gov/sites/default/files/2023-07/JDF611.pdf",
+   "https://www.coloradojudicial.gov/sites/default/files/2026-08/Sealing%20Criminal%20Records%20-%20January%202026.pdf",
+   "https://cbi.colorado.gov/sections/biometric-identification-and-records-unit/court-order-sealing-of-arrests"
+  ],
+  "confidence": "high",
+  "notes": "$65 fee confirmed in Judicial Branch guide JDF 611 (rev. July 1, 2023) and 12th Judicial District slides (rev. Jan. 2026). CBI page (could not be fetched directly; seen in search snippet) says CBI stopped charging a sealing fee as of July 1, 2024. The $6 CBI report price comes from court training slides, not a CBI fee schedule. Municipal courts set their own fees. Details of automatic sealing of convictions by the State Court Administrator were not confirmed."
+ },
+ {
+  "state": "CT",
+  "main_process": "absolute pardon (which erases convictions) from the Board of Pardons and Paroles; Clean Slate erasure (automatic, or by court petition for pre-2000 convictions)",
+  "court_fee": "No fee: the Board of Pardons and Paroles does not currently charge a fee to apply for a pardon; the court petition for Clean Slate erasure of pre-2000 convictions (JD-CR-202) lists no fee",
+  "other_fees": [
+   {
+    "item": "State Police (DESPP) criminal history report, with fingerprints, required for a pardon application",
+    "amount": "$75"
+   }
+  ],
+  "fee_waiver": "If you cannot afford the $75 State Police report fee, you can apply to the State Police for a fee waiver (DESPP Fee Waiver Request, mailed with the request form and fingerprints).",
+  "free_automatic": "Yes: under Clean Slate, eligible convictions imposed on or after January 1, 2000 are erased automatically at no cost after 7 years for misdemeanors or 10 years for class D, E or unclassified felonies (and certain OUI convictions), once all sentence parts are complete and with no new conviction in that time.",
+  "time": null,
+  "summary": "In Connecticut, convictions are cleared either automatically under the Clean Slate law or by getting an absolute pardon from the Board of Pardons and Paroles. The Board charges no application fee, but a pardon application needs a $75 State Police criminal history report, which can be waived if you cannot afford it. Eligible convictions from 2000 onward are erased automatically at no cost after 7 or 10 years.",
+  "sources": [
+   "https://portal.ct.gov/bopp/pardon-division/pardon/pardon-faqs",
+   "https://portal.ct.gov/bopp/pardon-division/pardon/documents-required-for-absolute-pardon-application",
+   "https://portal.ct.gov/cleanslate/clean-slate-eligibility",
+   "https://portal.ct.gov/cleanslate/petition-for-clean-slate-erasure",
+   "https://www.jud.ct.gov/webforms/forms/Flat/CR202_FLAT.pdf"
+  ],
+  "confidence": "high",
+  "notes": "The $75 State Police report fee has been in effect since December 1, 2017 per the Board page. The Board says the pardon timeline varies with application volume; no official processing time given. A third-party form site claims a $50 fee for JD-CR-202, but the official Rev. 11-23 form shows no fee; not confirmed with a clerk. Fee for police report copies varies by department."
+ },
+ {
+  "state": "DE",
+  "main_process": "expungement (mandatory expungement through the State Bureau of Identification, or discretionary expungement by petition to Superior Court or Family Court)",
+  "court_fee": "$75 Superior Court filing fee for a discretionary expungement petition; $75 fee to the State Bureau of Identification (SBI) for a mandatory expungement",
+  "other_fees": [
+   {
+    "item": "Certified criminal history from SBI with fingerprints (required to apply)",
+    "amount": "about $72 (may be a little more depending on the fingerprinting location)"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": "Yes: since August 1, 2024, SBI reviews cases monthly and automatically expunges cases eligible for mandatory expungement (e.g. cases ending in acquittal or dismissal, and older minor convictions with no other record) without an application; you may still apply if a case has not been cleared yet.",
+  "time": "SBI sends a letter within about 2 weeks saying whether you qualify for mandatory expungement; for a discretionary petition the Attorney General has 120 days to respond, and you then have 30 days to reply.",
+  "summary": "Delaware has two kinds of expungement: mandatory, handled by the State Bureau of Identification, and discretionary, decided by the Superior Court. Each costs $75 to file, plus about $72 for the required certified criminal history. Many cases that qualify for mandatory expungement are now cleared automatically each month at no cost.",
+  "sources": [
+   "https://courts.delaware.gov/Forms/Download.aspx?id=118768",
+   "https://courts.delaware.gov/Forms/Download.aspx?id=118548",
+   "https://delcode.delaware.gov/title11/c043/sc07/"
+  ],
+  "confidence": "high",
+  "notes": "Fees come from the Superior Court expungement instructions (CIV_EXP_07_A, updated 10/4/2024). The statute leaves fee amounts to SBI and the courts. No fee-waiver procedure for the $75 filing fees was found; the statute only lets a court waive unpaid fines and fees from the original case when non-payment was not willful. News reports describe delays in the automatic process through mid-2026."
+ },
+ {
+  "state": "DC",
+  "main_process": "motion to seal (or expunge) criminal records in D.C. Superior Court (Second Chance Amendment Act)",
+  "court_fee": "No filing fee is listed in the Superior Court's official instructions for filing a motion to seal/expunge (rev. June 30, 2026); no official statement that it is free was found",
+  "other_fees": [
+   {
+    "item": "Metropolitan Police Department arrest history report for sealing/expungement (Option A), required to file",
+    "amount": "$7"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": "The Second Chance Amendment Act provides for automatic sealing or expungement of some records, but the D.C. Courts sealing page (updated Feb. 2, 2026) said those automatic provisions were not yet in effect and no cases were being sealed automatically.",
+  "time": "The Superior Court says the entire motion process can take up to six months; MPD says the arrest history report takes up to 10 business days.",
+  "summary": "In D.C. you ask the Superior Court to seal or expunge your record by filing a motion, along with your police arrest history and case disposition. The court's instructions list no filing fee, and the police arrest history report costs $7. The court says the whole process can take up to six months.",
+  "sources": [
+   "https://www.dccourts.gov/sites/default/files/pdf-forms/How_to_file_a_motion_to_seal.pdf",
+   "https://mpdc.dc.gov/node/187552",
+   "https://www.dccourts.gov/services/criminal-matters/sealing-criminal-records",
+   "https://www.legalaiddc.org/legal-info/expungementrecord-sealing"
+  ],
+  "confidence": "medium",
+  "notes": "No fee schedule or explicit 'no fee' statement was found; the official instructions simply mention no fee. An archived 2009 court page listed a $20 motion-to-seal fee, which is outdated. Status of automatic sealing is uncertain: a 2025 administrative order refers to automatic sealing taking effect March 1, 2025, while the court's sealing page (seen only in a search snippet, last updated 02/02/2026) said it was not yet in effect."
+ },
+ {
+  "state": "FL",
+  "main_process": "petition to seal or expunge a criminal history record (court-ordered sealing or expunction, after getting a certificate of eligibility from FDLE)",
+  "court_fee": "About $42 clerk filing fee for the petition in counties checked (Brevard: $42; Orange: 'starts at $42 and could increase, plus processing fees'), plus copy and certification charges; counties set their own add-on charges",
+  "other_fees": [
+   {
+    "item": "FDLE certificate of eligibility processing fee (non-refundable)",
+    "amount": "$75"
+   },
+   {
+    "item": "Certified disposition of the charge from the clerk (required for the FDLE application)",
+    "amount": "varies by county"
+   },
+   {
+    "item": "Fingerprint card taken by a law enforcement agency (required for the FDLE application)",
+    "amount": "varies by agency; not stated"
+   },
+   {
+    "item": "Certified copies of the sealing/expunction order for agencies (Brevard County)",
+    "amount": "about $12 to $20, plus $2 certification"
+   }
+  ],
+  "fee_waiver": "By statute the $75 FDLE fee can be waived by the FDLE executive director, on a written request; no court fee waiver was found on the clerk pages checked.",
+  "free_automatic": "Yes: under s. 943.0595, FDLE automatically seals, at no cost, records of arrests where no charges were filed, all charges were dismissed or dropped, or the person was acquitted or found not guilty on all counts (excluding certain serious offenses).",
+  "time": null,
+  "summary": "In Florida you first apply to the Florida Department of Law Enforcement for a certificate of eligibility, which costs $75, and then file a petition to seal or expunge with the court clerk, which costs about $42 plus copy fees. FDLE can waive its $75 fee on written request. Arrests that ended without charges, with dismissal or with acquittal are sealed automatically at no cost.",
+  "sources": [
+   "https://www.flsenate.gov/Laws/Statutes/2025/943.059",
+   "https://www.flsenate.gov/Laws/Statutes/2025/943.0595",
+   "https://www.brevardclerk.us/seal-or-expunge",
+   "https://myorangeclerk.com/Divisions/Criminal/Sealing-and-Expungement"
+  ],
+  "confidence": "high",
+  "notes": "FDLE's seal/expunge pages had moved and could not be loaded; the $75 fee and waiver are confirmed in the 2025 statute. The $42 clerk fee is confirmed on two county clerk sites and may differ in other counties. A search snippet of a former FDLE page said eligibility review typically takes about 12 weeks from receipt of a complete packet, but this could not be confirmed on a live official page, so time is left null."
+ },
+ {
+  "state": "GA",
+  "main_process": "record restriction (often called expungement); arrest records are restricted through the prosecutor or arresting agency, and certain convictions by petition to the sentencing court (O.C.G.A. 35-3-37)",
+  "court_fee": "No court fee for an arrest-record restriction request (it goes to the prosecutor or arresting agency, which may charge up to $50 to process it); the superior court clerk's filing fee for a petition to restrict a conviction was not found and likely varies by county",
+  "other_fees": [
+   {
+    "item": "Georgia Bureau of Investigation / Georgia Crime Information Center fee to restrict the record in the state database",
+    "amount": "$25"
+   },
+   {
+    "item": "Arresting agency or prosecuting attorney processing fee",
+    "amount": "up to $50"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": "The prosecuting attorney's office approves or denies a restriction request within 90 days; GCIC usually processes complete applications within 2-3 weeks; if a hearing is requested on a petition, it must be held within 90 days of filing.",
+  "summary": "In Georgia, clearing a record is called record restriction. For arrests, you ask the prosecutor or arresting agency, which may charge up to $50, and the GBI charges $25 to restrict the record in the state database. Restricting an eligible conviction requires a petition to the sentencing court, and the court filing fee for that was not confirmed.",
+  "sources": [
+   "https://georgia.gov/file-request-expunge-criminal-record",
+   "https://georgiacourts.gov/record-restrictions-expungement/",
+   "https://gbi.georgia.gov/node/2031",
+   "https://law.georgia.gov/document/document/pro-se-restriction-form-2021-pdf/download"
+  ],
+  "confidence": "medium",
+  "notes": "$25 GBI fee confirmed on the Judicial Council (georgiacourts.gov) page; georgia.gov says agencies may charge up to $50. Court filing fee for conviction-restriction petitions (under SB 288 of 2020) varies by county clerk and was not found. No fee-waiver provision found. The GBI page refers to 'time expired' restriction notifications, suggesting some non-conviction records are restricted without an application, but this was not confirmed, so free_automatic is null. The GBI application PDF could not be loaded."
+ },
+ {
+  "state": "HI",
+  "main_process": "expungement (of non-conviction arrest records, by application to the Hawaii Criminal Justice Data Center)",
+  "court_fee": "$35 for a first-time expungement; $50 for a non-first-time expungement (paid to the Hawaii Criminal Justice Data Center, not a court; includes a non-refundable $10 processing fee)",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": "A pilot project (Act 62, 2024, expanded by Act 5, 2025) expunges certain marijuana possession arrests under HRS 712-1249 that did not end in conviction without an application or fee.",
+  "time": "The expungement certificate is mailed within 120 days (HRS 831-3.2(a)), per the HCJDC application and FAQ.",
+  "summary": "In Hawaii, arrests that did not lead to a conviction can be expunged by applying to the Hawaii Criminal Justice Data Center. The fee is $35 for a first expungement and $50 after that, of which $10 is not refunded if the application is denied, and the certificate is mailed within 120 days. Some old marijuana possession arrests are being expunged at no cost under a state pilot project.",
+  "sources": [
+   "https://ag.hawaii.gov/hcjdc/files/2026/06/EXPUNGEMENT_APPLICATION_Rev-2026-06.pdf",
+   "https://ag.hawaii.gov/hcjdc/?p=156",
+   "https://data.capitol.hawaii.gov/CommitteeFiles/House/JHA/JHAfiles/2025_Hawaii_Expungement_Pilot_Project_ACT62.pdf"
+  ],
+  "confidence": "high",
+  "notes": "Fee is an HCJDC application fee, not a court filing fee. Payment by U.S.-issued money order or cashier's check only; a duplicate certificate costs $20. Certain convictions (e.g., first-time drug or property offenders, under-21 DUI) need a court order first; court filing fees for those motions were not confirmed. No fee waiver found on the HCJDC pages."
+ },
+ {
+  "state": "ID",
+  "main_process": "petition to shield records from public disclosure (Clean Slate Act, Idaho Code 67-3004(11)); also written request to Idaho State Police to expunge non-conviction fingerprint and criminal history records (67-3004(10))",
+  "court_fee": "no fee (Idaho Supreme Court instructions: \"There is no filing fee to file your Petition\" to shield records)",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": null,
+  "summary": "In Idaho, people with certain eligible convictions can petition the court to shield the record from public view under the Clean Slate Act, at least five years after finishing their sentence. The Idaho Supreme Court's instructions say there is no filing fee for this petition, and the court sets a hearing after it is filed. Arrests that did not lead to charges, or ended in dismissal or acquittal, can be expunged by written request to the state's criminal records department.",
+  "sources": [
+   "https://isc.idaho.gov/Clean-Slate-Act",
+   "https://api.isc.idaho.gov/uploads/Generic_Files/1778008446796-Clean-Slate-Instructions.pdf",
+   "https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH30/SECT67-3004/"
+  ],
+  "confidence": "high",
+  "notes": "Shielding hides records from the public but does not destroy them, and only one shielding petition may be granted per lifetime. Statute 67-3004 does not state a fee for the non-conviction expungement request to the department, and no fee was confirmed for it. Idaho also has other relief (withdrawal of plea and dismissal under 19-2604, sealing under court rule) whose fees were not researched. No fee waiver is needed for the no-fee shielding petition; none was researched. No official processing time found."
+ },
+ {
+  "state": "IL",
+  "main_process": "petition to expunge or seal (Criminal Identification Act, 20 ILCS 2630/5.2)",
+  "court_fee": "varies by county; set by each circuit clerk (Cook County: $151.50 per petition, which can list all qualifying cases in one municipal district). No fee for an expungement petition on a record that was previously sealed.",
+  "other_fees": [
+   {
+    "item": "Illinois State Police fee for processing a court order to expunge or seal (collected by the circuit clerk with the filing fee)",
+    "amount": "$60"
+   }
+  ],
+  "fee_waiver": "Yes. Under 20 ILCS 2630/5.2, no fee is required if the court waives fees under Supreme Court Rule 298; people with no or very low income can file a fee waiver application with the clerk where the petition is filed, and a judge decides.",
+  "free_automatic": "Minor cannabis offense records from before June 25, 2019 are expunged automatically by law. Under the Clean Slate Act, automatic sealing of eligible records without a petition is set to begin January 1, 2029 (20 ILCS 2630/5.2(k)).",
+  "time": "The State's Attorney and other agencies have 60 days from the filing of the petition to object, and agencies must comply with a granted order within 60 days of service (20 ILCS 2630/5.2). The Cook County Clerk says the whole process usually takes about 4 to 6 months in the suburban districts.",
+  "summary": "In Illinois, you clear a record by filing a petition to expunge or seal with the circuit clerk in the county where the case was handled. The filing fee is set by each county (about $151.50 in Cook County), and the Illinois State Police charges $60 to process the court order, but both can be waived by a judge for people who cannot afford them. Prosecutors have 60 days to object, and automatic sealing of many eligible records is scheduled to start in 2029.",
+  "sources": [
+   "https://isp.illinois.gov/BureauOfIdentification/FeeSchedule",
+   "https://ilga.gov/legislation/ilcs/documents/002026300K5.2.htm",
+   "https://www.cookcountyclerkofcourt.org/sites/g/files/ywwepo221/files/document/file/2023-12/NL_A%20Guide%20to%20Expungements.pdf",
+   "https://www.illinoislegalaid.org/legal-information/expungement-and-sealing-court-process-common-questions",
+   "https://ilhousedems.com/2026/01/16/lilly-backed-legislation-offers-a-fresh-start-after-certain-minor-offenses/"
+  ],
+  "confidence": "high",
+  "notes": "Clerk filing fees vary by county; the only county figure confirmed is Cook County's $151.50 (guide dated 2023), and it is not clear whether that total includes the $60 State Police fee. The ISP $60 fee has been in effect since July 1, 2004 per the ISP fee schedule. A separate petition must be filed in each county (and in Cook County, each district). The Clean Slate Act (signed January 2026) took effect June 1, 2026; automatic sealing starts January 1, 2029 under the statute text, subject to appropriations. A Chicago Police rap sheet ($16) is needed for Chicago filings per the Cook County guide."
+ },
+ {
+  "state": "IN",
+  "main_process": "petition for expungement (Indiana Code 35-38-9)",
+  "court_fee": "Conviction expungements: the civil case filing fee, about $157 (e.g., Clark County Clerk lists \"Expungement - Conviction\" at $157), paid once per county petition. Arrests and charges without a conviction: no filing fee (I.C. 35-38-9-1(e)).",
+  "other_fees": [],
+  "fee_waiver": "Yes. The court may reduce or waive the civil filing fee if the petitioner is indigent (I.C. 35-38-9-8(d)).",
+  "free_automatic": "Since July 1, 2022, when criminal charges are dismissed, not prosecuted, or end in acquittal, the court must order the records expunged automatically, with no petition and no fee (I.C. 35-38-9-1(b)); most such orders take effect 60 days after the dismissal or acquittal.",
+  "time": "The prosecuting attorney must respond within 30 days of receiving the petition; if the prosecutor objects, the court sets a hearing no sooner than 60 days after the petition is served (I.C. 35-38-9-8 and 35-38-9-9).",
+  "summary": "In Indiana, expunging a conviction means filing a petition in court and paying the civil filing fee, which is about $157 per county, though a court can reduce or waive it for people who are indigent. Arrests and charges that did not end in a conviction can be expunged with no filing fee, and since 2022 courts expunge dismissed or acquitted charges automatically. Prosecutors have 30 days to respond to a petition.",
+  "sources": [
+   "https://www.in.gov/judiciary/iocs/files/pubs-trial-court-courtmgmt-expungement-detailed.pdf",
+   "https://secure.in.gov/counties/clarkcountyclerkofcourts/filing-fees-and-costs"
+  ],
+  "confidence": "medium",
+  "notes": "The fee rule (civil filing fee for convictions, none for non-convictions, waiver for indigent) is confirmed in the Indiana courts' expungement guide updated 7/1/2026. The $157 amount comes from the Clark County Clerk's fee page, which says fees were effective July 1, 2017 and may be revised each July 1, so the current amount may differ slightly; confirm with the county clerk. A separate petition is needed in each county where convictions occurred."
+ },
+ {
+  "state": "IA",
+  "main_process": "application to expunge (Iowa Code chapter 901C: dismissals and acquittals under 901C.2; one misdemeanor conviction expungement per lifetime under 901C.3)",
+  "court_fee": "no filing fee found; Iowa Code chapter 901C does not set one, and University of Iowa Student Legal Services says there is no filing fee for the request (applies to both dismissal/acquittal and misdemeanor conviction applications)",
+  "other_fees": [
+   {
+    "item": "Iowa Division of Criminal Investigation criminal history record check (dated within 30 days), required to attach to a misdemeanor conviction expungement application",
+    "amount": "$15 per last name"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": "Court records of a successfully completed deferred judgment are expunged at the court level without a separate application (per University of Iowa Student Legal Services; the Iowa DCI notes such cases stay on its own record as a discharged deferred judgment).",
+  "time": null,
+  "summary": "In Iowa, you apply to the district court in the case to expunge dismissed or acquitted charges, or one eligible misdemeanor conviction in your lifetime. Iowa law does not set a filing fee for the application, but all court costs, fines and other money owed in the case must be paid first. For a misdemeanor conviction, you must attach a state criminal history check, which costs $15.",
+  "sources": [
+   "https://www.iowacourts.gov/collections/738/files/1572/embedDocument",
+   "https://www.iowacourts.gov/collections/762/files/1680/embedDocument",
+   "https://www.legis.iowa.gov/docs/code/901C.pdf",
+   "https://dps.iowa.gov/divisions/criminal-investigation/criminal-history/record-check-forms",
+   "https://studentlegal.uiowa.edu/node/171"
+  ],
+  "confidence": "medium",
+  "notes": "No official court page states the filing fee; the 'no fee' finding rests on the absence of a fee in Iowa Code 901C and a University of Iowa Student Legal Services page. Confirm with the clerk of district court. Paying all court costs, fees, fines and restitution is an eligibility requirement. Dismissal/acquittal expungement generally requires 180 days to have passed (the court can waive this); misdemeanor conviction expungement requires 8 years. The application must be filed separately in each case. No fee waiver or official processing time found."
+ },
+ {
+  "state": "KS",
+  "main_process": "petition for expungement (K.S.A. 21-6614 for convictions and diversions; K.S.A. 22-2410 for arrest records)",
+  "court_fee": "$176 docket fee set by statute, plus a Kansas Supreme Court charge of up to $19 authorized from July 1, 2026 through June 30, 2030 (so up to about $195). For arrest records, no fee is charged if the charges were dismissed, the person was found not guilty, there was no probable cause, or the arrest resulted from identity theft (K.S.A. 22-2410).",
+  "other_fees": [],
+  "fee_waiver": "Partly. The statute lets the court waive all or part of the docket fee for petitions after completing a specialty court program (K.S.A. 21-6614). Shawnee County District Court accepts a poverty affidavit for the filing fee and a hardship affidavit for the surcharge, and the judge decides at the hearing whether to waive them.",
+  "free_automatic": null,
+  "time": "The court must set a hearing on each petition (K.S.A. 21-6614 and 22-2410). In Shawnee County, the hearing is set on the next available docket 60 days after the petition is filed.",
+  "summary": "In Kansas, you file a petition for expungement in the district court, which then holds a hearing. The fee is a $176 docket fee plus a court charge of up to $19, so up to about $195, but there is no fee to expunge an arrest that ended in dismissal or a not-guilty finding. Some courts let people who cannot afford the fee file a poverty affidavit, and the judge decides whether to waive it.",
+  "sources": [
+   "https://www.ksrevisor.gov/statutes/chapters/ch21/021_066_0014.html",
+   "https://www.ksrevisor.gov/statutes/chapters/ch22/022_024_0010.html",
+   "https://www.shawneecourt.org/389/Expungement",
+   "https://kjc.ks.gov/home/showpublisheddocument/170/638623685499900000"
+  ],
+  "confidence": "high",
+  "notes": "The $176 docket fee is confirmed in the current statutes (amended in 2026). Whether the Supreme Court is currently imposing the full $19 charge was not confirmed, so the total may be $176 to $195. The statutory fee waiver covers only specialty-court petitions; the poverty/hardship affidavit process is confirmed only for Shawnee County and other counties may differ. The 60-day hearing timing is Shawnee County's practice, not a statewide rule. No automatic or clean slate process found."
+ },
+ {
+  "state": "KY",
+  "main_process": "expungement (petition to expunge misdemeanor/violation records under KRS 431.078; application to vacate and expunge felony conviction under KRS 431.073)",
+  "court_fee": "Felony conviction: $300 total ($50 non-refundable filing fee when the application is filed, plus a $250 expungement fee if it is granted). Misdemeanor, violation or traffic petition: $100 filing fee ($50 of it non-refundable). Felony charges never indicted: no filing fee.",
+  "other_fees": [
+   {
+    "item": "Expungement certification of eligibility (Administrative Office of the Courts and Kentucky State Police), required with every petition",
+    "amount": "$40"
+   }
+  ],
+  "fee_waiver": "No waiver provision was found in KRS 431.073 or 431.078. The $250 felony expungement fee can be paid in installments (KRS 431.073(11)), but the expungement is not completed until it is paid in full.",
+  "free_automatic": "Cases dismissed with prejudice or ending in acquittal on or after July 15, 2020 (excluding traffic cases) are automatically expunged after 30 days, with no action or fee required.",
+  "time": null,
+  "summary": "In Kentucky, you first buy a $40 expungement certification from the courts, then file a petition with the circuit court clerk in the county where the charge was filed. A misdemeanor petition costs $100, and a felony expungement costs $300 in total, with $250 of that due only if it is granted and payable in installments. Cases dismissed with prejudice or ending in acquittal since July 2020 are expunged automatically at no cost.",
+  "sources": [
+   "https://kycourts.gov/AOC/Information-and-Technology/Pages/Expungement.aspx",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=45221",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53904",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58307"
+  ],
+  "confidence": "high",
+  "notes": "Fees confirmed on kycourts.gov and in KRS 431.073 (version effective June 29, 2023; an amended version takes effect April 30, 2027 with the same fees) and KRS 431.078 (effective July 15, 2016). The certification must be filed within 30 days of issue. If the prosecutor objects within 60 days of a felony application, the court schedules a hearing. A secondary source (National Reentry Resource Center) says the misdemeanor fee can be waived for a 'poor person' under KRS 453.190, but this was not confirmed in the statute text. No official overall processing time found."
+ },
+ {
+  "state": "LA",
+  "main_process": "motion for expungement (Louisiana Code of Criminal Procedure Title XXXIV)",
+  "court_fee": "Total cost capped at $550 per court order (C.Cr.P. art. 983), all collected by the clerk of court at filing and non-refundable even if denied. Of this, the clerk of court may charge up to $200.",
+  "other_fees": [
+   {
+    "item": "Louisiana Bureau of Criminal Identification and Information (State Police) processing fee, by money order",
+    "amount": "$250"
+   },
+   {
+    "item": "Sheriff processing fee",
+    "amount": "$50"
+   },
+   {
+    "item": "District attorney processing fee",
+    "amount": "$50"
+   }
+  ],
+  "fee_waiver": "Yes, but not based on income. All fees are waived if the district attorney certifies that the applicant has no felony convictions and no pending felony charges and the arrest ended in acquittal, a dismissal with the DA's consent, a decision not to prosecute, or was not prosecuted in time (art. 983(F)); the DA's fee waiver form is attached to the motion. Anyone ever convicted of a felony is ineligible for this waiver. Human trafficking victims and some others are also exempt.",
+  "free_automatic": "Article 999 (Act 270 of 2024) gives a no-cost expedited expungement of arrest records for people arrested at age 17 whose charges were not prosecuted, dismissed or acquitted. Article 985.2 provides an automated process, starting January 1, 2025, in which a person can ask the State Police to expunge eligible records; it is subject to funding, and the law does not say whether it is free.",
+  "time": "Under the automated process, the State Police must expunge eligible records within 30 days of receiving a request (C.Cr.P. art. 985.2(B)).",
+  "summary": "In Louisiana, you file a motion for expungement with the clerk of court in the parish of arrest or conviction. The total cost can be up to $550, including $250 to the State Police, $50 each to the sheriff and district attorney, and up to $200 to the clerk, and these fees are not refunded if the motion is denied. People with no felony record whose arrest did not end in a conviction may get all fees waived with a district attorney certification.",
+  "sources": [
+   "https://legis.la.gov/legis/Law.aspx?d=919675",
+   "https://lsp.org/services/background-checks/expungements/",
+   "https://www.legis.la.gov/LEGIS/Law.aspx?d=1386722",
+   "https://legis.la.gov/LEGIS/Law.aspx?d=1335802"
+  ],
+  "confidence": "high",
+  "notes": "Fees confirmed in the current text of C.Cr.P. art. 983 and on the Louisiana State Police page. The clerk fee is a maximum ('not to exceed $200'), so actual clerk charges may vary by parish. Article 984 allows an extra fee for some DWI expungements, and art. 894 expungements may differ. There is no income-based fee waiver in art. 983. The automated process under art. 985.2 depends on funding; whether it is operating and free was not confirmed."
+ },
+ {
+  "state": "ME",
+  "main_process": "post-judgment motion to seal criminal history record (15 M.R.S. ch. 310-A; Maine has no expungement)",
+  "court_fee": null,
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": null,
+  "summary": "In Maine, you clear an eligible conviction (mainly Class E crimes and certain older marijuana crimes) by filing a Motion to Seal Criminal History (form CR-218) in the original criminal case, at least four years after finishing the sentence. The court holds a hearing and, if the motion is granted, the State Bureau of Identification seals the record. The court's current fee schedule does not list a fee for this motion, but no official page confirms whether any fee applies.",
+  "sources": [
+   "https://www.courts.maine.gov/help/criminal/sealing.html",
+   "https://legislature.maine.gov/statutes/15/title15ch310-Asec0.html",
+   "https://legislature.maine.gov/statutes/15/title15sec2264.html",
+   "https://www.courts.maine.gov/adminorders/jb-05-26.pdf"
+  ],
+  "confidence": "low",
+  "notes": "No filing fee for the motion to seal is stated on the Judicial Branch sealing page or in 15 M.R.S. 2264, and the Judicial Branch fee schedule (Administrative Order JB-05-26, effective March 9, 2026) lists no fee for a motion to seal in a criminal case. The motion appears to be free, but this could not be confirmed, so court_fee is null; confirm with the clerk. Sealing is not automatic, according to the Judicial Branch. There is no right to appointed counsel. Victims of sex trafficking and people with former 'engaging in prostitution' convictions have separate processes. No official processing time found."
+ },
+ {
+  "state": "MD",
+  "main_process": "petition for expungement of records (Maryland also offers shielding of some records)",
+  "court_fee": "$30 per case for a petition based on a guilty disposition (non-refundable, even if denied); no fee for acquittal, not guilty, dismissal, probation before judgment (PBJ), nolle prosequi, stet, no finding, or not criminally responsible dispositions",
+  "other_fees": [],
+  "fee_waiver": "Yes. If you cannot afford the $30 fee, you can ask the court to waive it by filing a Request for Waiver of Prepaid Costs (form CC-DC-089).",
+  "free_automatic": "Cases where all charges ended in acquittal, not guilty, dismissal, or nolle prosequi on or after October 1, 2021 are expunged automatically after 3 years at no cost; you can file a free petition to expunge sooner.",
+  "time": "The Maryland Judiciary says the process takes about 90 days from filing: the State's Attorney has 30 days to object, and if there is no objection, agencies have 60 days to comply with the court's order (state criminal records compliance may take longer).",
+  "summary": "In Maryland, you file a petition for expungement in the court that heard the case. There is no fee for cases that ended without a conviction, such as acquittals, dismissals, PBJ or stet, and a $30 non-refundable fee per case for eligible guilty dispositions, which the court can waive if you cannot afford it. The process takes about 90 days, and cases dismissed or acquitted since October 2021 are expunged automatically after three years.",
+  "sources": [
+   "https://mdcourts.gov/legalhelp/expungement",
+   "https://www.mdcourts.gov/sites/default/files/court-forms/ccdccr072br.pdf"
+  ],
+  "confidence": "high",
+  "notes": "Fees and timing confirmed on the Maryland Judiciary expungement page and brochure CC-DC-CR-072BR (Rev. 10/2026). The fee is per case, not per charge. Some cannabis-related convictions have separate petition forms and rules not detailed here. Shielding is a separate process that hides records from public view."
+ },
+ {
+  "state": "MA",
+  "main_process": "sealing (petition to seal); expungement is available in narrower cases",
+  "court_fee": "no fee to request sealing (conviction records go to the Probation Service; non-conviction cases to the court clerk); expungement petitions are also free",
+  "other_fees": [],
+  "fee_waiver": "Not needed: the state says there is no fee to request sealing or expungement.",
+  "free_automatic": null,
+  "time": null,
+  "summary": "Massachusetts lets people ask to seal their criminal records, and the state says there is no fee to file the request. Conviction records are filed with the Massachusetts Probation Service, and cases without a conviction are filed with the court where the case started. Expungement, which destroys the record, is narrower and is also free.",
+  "sources": [
+   "https://www.mass.gov/how-to/request-to-seal-your-criminal-record",
+   "https://www.mass.gov/how-to/request-a-time-based-expungement-of-your-criminal-record"
+  ],
+  "confidence": "high",
+  "notes": "Mass.gov states 'There is no fee to request to seal your criminal record' and that time-based expungement 'is free'. A copy of your record (CORI) from DCJIS is recommended but not required, so its cost is not listed. No official processing time found. Massachusetts has no general clean-slate automatic sealing found in sources used."
+ },
+ {
+  "state": "MI",
+  "main_process": "application to set aside conviction (expungement)",
+  "court_fee": "no court filing fee found on current official forms; the required charge is a $50 application/processing fee paid to the State of Michigan and sent to the Michigan State Police with the application (one fee per application; not required for juvenile set-aside applications)",
+  "other_fees": [
+   {
+    "item": "Michigan State Police application/processing fee (check or money order to the State of Michigan)",
+    "amount": "$50"
+   },
+   {
+    "item": "Fingerprinting on applicant card (RI-008) at local law enforcement",
+    "amount": "may be a fee (amount set by the agency)"
+   },
+   {
+    "item": "Certified copy of each conviction from the court clerk",
+    "amount": "may be a fee (amount set by the court)"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": "Michigan Clean Slate, the automatic set-aside process, took effect in April 2023 for eligible convictions; no application is filed for automatic set-asides.",
+  "time": "The Michigan State Police says to allow 8 weeks for processing and mail delivery of its criminal history record search, which is sent to the court, prosecutor, attorney general and applicant.",
+  "summary": "In Michigan you apply to the court where you were convicted to set aside the conviction, and you send a $50 processing fee to the State of Michigan with your packet to the Michigan State Police. You may also pay small local fees for fingerprinting and certified court copies. Some convictions are set aside automatically under Michigan Clean Slate, which began in April 2023.",
+  "sources": [
+   "https://www.michigan.gov/msp/services/chr/conviction-set-aside-public-information",
+   "https://www.courts.michigan.gov/49bf5e/siteassets/forms/scao-approved/mc227.pdf",
+   "https://www.courts.michigan.gov/4a84e5/siteassets/court-administration/scao-communications/2021-11.pdf"
+  ],
+  "confidence": "high",
+  "notes": "$50 fee confirmed on MSP page and SCAO form MC 227 instructions (Rev. 3/25). The current MC 227 instructions do not mention any separate court filing fee; older court instructions (2013) said there is no fee to file the application with the court, so the absence of a court fee is not explicitly confirmed on a current official page. No official source found on waiving the $50 fee for adults. Clean Slate automatic set-aside is described as automatic; an official statement that it is free was not separately located."
+ },
+ {
+  "state": "MN",
+  "main_process": "petition for expungement (order sealing records); automatic expungement for some records",
+  "court_fee": "$310 criminal expungement filing fee (state base fee), plus any county law library fee, which varies by county",
+  "other_fees": [],
+  "fee_waiver": "The fee may be waived if you cannot afford it (indigency); you file a fee waiver request with financial information. The fee must be waived when all pending actions were resolved in your favor (for example, charges dismissed or acquittal).",
+  "free_automatic": "Yes. Under Minn. Stat. 609A.015 (Clean Slate), certain dismissed cases, completed diversions or stays of adjudication, and some convictions after a waiting period (2 years for misdemeanors, 3 for gross misdemeanors, 4 or 5 for eligible felonies) are expunged without a petition; the statute mentions no fee.",
+  "time": "For petitions, the hearing is held no sooner than 60 days after the petition is served, and a granted order is automatically stayed for 60 days after filing. For automatic expungement, the BCA makes an eligibility determination within 30 days after the waiting period ends, and records are sealed 60 days after notice is sent to the courts.",
+  "summary": "In Minnesota you file a petition for expungement in district court, and the state filing fee is $310, plus any county law library fee. The fee can be waived if you cannot afford it, and it must be waived if your case ended in your favor. Many records, including dismissed cases and some older convictions, are now expunged automatically with no petition.",
+  "sources": [
+   "https://mncourts.gov/Help-Topics/Court-Fees/District-Court-Fees.aspx",
+   "https://www.revisor.mn.gov/statutes/cite/609A.03",
+   "https://www.revisor.mn.gov/statutes/cite/609A.02",
+   "https://www.revisor.mn.gov/statutes/cite/609A.015"
+  ],
+  "confidence": "high",
+  "notes": "$310 base fee from the Minnesota Judicial Branch district court fee list (excludes county law library fees, which vary). Mandatory waiver applies under 609A.03 subd. 1 for cases described in 609A.02 subd. 3(a)(1) (all proceedings resolved in petitioner's favor). Automatic expungement applies retroactively to records in the BCA system as of January 1, 2025."
+ },
+ {
+  "state": "MS",
+  "main_process": "petition for expunction (expungement)",
+  "court_fee": "$150 statutory filing fee for a petition to expunge a conviction under Miss. Code 99-19-71 (collected by the circuit clerk). If the clerk files the petition as a new civil case, regular civil filing fees are added (an $85 filing fee, a $10 electronic court systems fee, a $40 Judicial System Operation Fund fee and a $2 court education fee), so about $287 total.",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": null,
+  "summary": "In Mississippi you petition the court to expunge a conviction, and state law sets a $150 filing fee for the petition. If the clerk treats the petition as a new civil case, normal civil filing fees are added, bringing the total to about $287. No official source was found on waiving the fee or on automatic clearing.",
+  "sources": [
+   "https://attorneygenerallynnfitch.com/wp-content/uploads/2023/01/C.Bounds-January-19-2023-Fees-to-be-Collected-Upon-Filing-Petition-for-Expungement.pdf",
+   "https://law.justia.com/codes/mississippi/2019/title-99/chapter-19/in-general/section-99-19-72"
+  ],
+  "confidence": "high",
+  "notes": "The $150 fee is quoted from Miss. Code 99-19-72(1) in a January 2023 official Attorney General opinion. The AG opinion says civil filing fees also apply when the petition is filed as a new civil case; a 2023 Administrative Office of Courts directive reportedly told clerks to file expungement petitions as civil actions, so actual totals vary by county (for example, one county lists $311). The current statute text was not fetched from the official legislature site. Separate fees apply to other expungement statutes (for example arrest/dismissal expungement under 99-15-26 and justice court expungements, which may charge up to $50). No adult fee waiver provision or clean-slate law was confirmed; bills on these topics were introduced in 2024-2026 but none was confirmed as law."
+ },
+ {
+  "state": "MO",
+  "main_process": "petition for expungement (section 610.140, RSMo)",
+  "court_fee": "the regular circuit court civil filing fee, which varies by county (no statewide amount published); the former $250 state expungement surcharge (section 488.650) was repealed effective August 28, 2023",
+  "other_fees": [],
+  "fee_waiver": "Yes. Missouri Supreme Court Rule 155.02 says the court shall waive the fees and costs if the petitioner is found to be indigent; this is usually requested with a motion and affidavit to proceed as a poor person.",
+  "free_automatic": "Some marijuana offenses are expunged automatically under Article XIV, section 2 of the Missouri Constitution (Amendment 3, effective December 8, 2022) for people no longer incarcerated or supervised; no petition is needed. No general clean-slate law for other offenses was found.",
+  "time": "Under section 610.140, a prosecutor has 30 days after service to object in writing; if there is an objection, a hearing is held within 60 days; and the court must issue an order of expungement or dismissal within six months of the filing of the petition.",
+  "summary": "In Missouri you file a petition for expungement in circuit court and pay the local civil filing fee, which varies by county; the state's former $250 surcharge was repealed in 2023. The court must waive fees and costs if it finds you cannot afford them. The court must decide within six months of filing, and some marijuana offenses are expunged automatically without a petition.",
+  "sources": [
+   "https://www.revisor.mo.gov/main/OneSection.aspx?section=610.140",
+   "https://www.revisor.mo.gov/main/OneSection.aspx?section=488.650",
+   "https://www.courts.mo.gov/page.jsp?id=200218",
+   "https://www.courts.mo.gov/page.jsp?id=191585",
+   "https://senate.mo.gov/FiscalNotes/2023-1/0795H.04T.ORG.pdf"
+  ],
+  "confidence": "medium",
+  "notes": "No official statewide filing fee amount for 610.140 petitions was found; fees are set by county court cost schedules (secondary sources mention, for example, $112.50 in Jackson County and totals around $160 with service). The Revisor shows 488.650 ($250 surcharge) repealed by SB 103 (2023). Many secondary sources still list the outdated $250 fee. Sheriff/service costs may also apply. Clean-slate bills for automatic expungement were introduced in 2023-2026 but none was confirmed enacted."
+ },
+ {
+  "state": "MT",
+  "main_process": "petition for misdemeanor expungement (one time in a person's life; felonies are not covered)",
+  "court_fee": "about $120, the district court clerk's civil fee for commencing an action or proceeding by a petitioner; the court's expungement packet says a filing fee applies but does not state the amount",
+  "other_fees": [
+   {
+    "item": "Fingerprinting on a blue applicant card (FD-258) after the order is granted, required for the Montana DOJ CRISS step",
+    "amount": "usually a fee charged by local law enforcement or a private company (amount not stated)"
+   }
+  ],
+  "fee_waiver": "Yes. If you cannot afford the filing fee you may ask for a waiver by filing a Statement of Inability to Pay Court Costs and Fees with financial information.",
+  "free_automatic": null,
+  "time": "After a court grants expungement, the Montana DOJ Criminal Records and Identification Services Section says to allow 30 days for processing.",
+  "summary": "In Montana you can petition a district court once in your life to expunge misdemeanor records. The filing fee is likely about $120, the standard district court fee to start a petition, and you can ask to have it waived if you cannot afford it. After the order, you send fingerprints and a form to the state Department of Justice, which says to allow about 30 days for processing.",
+  "sources": [
+   "https://courts.mt.gov/external/forms/misexpcon/srmisexp2025.pdf",
+   "https://courts.mt.gov/External/dcourt/docs/feeschedule.pdf",
+   "https://dojmt.gov/dci-home/conviction-expungement-process/",
+   "https://archive.legmt.gov/bills/MCA/title_0460/chapter_0180/part_0110/section_0040/0460-0180-0110-0040.html"
+  ],
+  "confidence": "medium",
+  "notes": "The Montana Clerks of District Courts civil fee schedule (updated May 2024) lists $120 for civil commencement of action by a petitioner; no expungement-specific fee is listed and the 2025 court packet does not state the filing fee, so the $120 amount is an inference; check with the county clerk. Getting your own criminal background check from MT DOJ (estimated $10-$30 per the court packet) is a recommended step, not a required fee. Fingerprint card itself is free from MT DOJ. No clean-slate automatic process found; felony records are not covered by this law."
+ },
+ {
+  "state": "NE",
+  "main_process": "set-aside of a criminal conviction (petition under Neb. Rev. Stat. 29-2264); motion to seal for non-conviction records",
+  "court_fee": null,
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": "Yes, for non-conviction records: cases with charges dismissed or ending in acquittal after December 31, 2016, are sealed automatically. Older dismissals or acquittals require a motion to seal.",
+  "time": "The Nebraska Judicial Branch says it takes a few days after the hearing for the court record to be updated.",
+  "summary": "In Nebraska, people with a conviction can petition the sentencing court to have it set aside, and people whose charges were dismissed or who were acquitted can ask to have the record sealed. No court filing fee for these petitions was found in official sources, so check with the court clerk. Dismissed or acquitted cases after 2016 are sealed automatically.",
+  "sources": [
+   "https://supremecourt.nebraska.gov/node/16082",
+   "https://nebraskajudicial.gov/self-help/clean-slate-criminal-record-rehabilitation/set-aside-criminal-conviction",
+   "https://www.nebraskalegislature.gov/laws/statutes.php?statute=29-2264"
+  ],
+  "confidence": "low",
+  "notes": "Official Nebraska Judicial Branch self-help pages for set-aside and adult record sealing describe the process but state no filing fee and say nothing about fee waivers; a secondary source (National Reentry Resource Center) says the set-aside statute has no fee language. The petition is filed in the existing case in the sentencing court, and local court rules may apply; confirm any cost with the clerk. Getting your criminal history from the Nebraska State Patrol or a court record search has a small charge (amount not stated), but it is optional. A set-aside does not by itself remove the conviction from public view."
+ },
+ {
+  "state": "NV",
+  "main_process": "petition to seal records",
+  "court_fee": "set by each court; examples on official court sites: Washoe County court $71, Las Vegas Municipal Court $50, Henderson Municipal Court $50, Reno Municipal Court $100. The state records agency tells petitioners to ask the court clerk whether there is a filing fee.",
+  "other_fees": [
+   {
+    "item": "Current, verified Nevada criminal history from the Central Repository (required to accompany the petition)",
+    "amount": "state fee charged (about $27 for a fingerprint-based state check per the RCCD fee schedule effective October 1, 2026; confirm the exact charge for a sealing request)"
+   },
+   {
+    "item": "Fingerprinting at a local police department or sheriff's office",
+    "amount": "varies by agency"
+   }
+  ],
+  "fee_waiver": "State law bars any court or criminal justice agency fee (filing, fingerprints, records, copies) for people sealing a conviction for a crime committed while they were being sex trafficked (NRS 179.245(9)). No general low-income waiver specific to sealing was confirmed.",
+  "free_automatic": "Records of a conviction for which a person received an unconditional pardon are sealed automatically with no fee (NRS 179.273). Other sealing requires a petition.",
+  "time": "The prosecutor has 30 days after notice to object; if there is no objection, the court may seal without a hearing. The Nevada Records, Communications and Compliance Division says it can take up to 6 months to complete the sealing once it receives the final order.",
+  "summary": "In Nevada you petition the court to seal your records, and you must attach a current, verified Nevada criminal history, which has a state fee of about $27 plus a local fingerprinting fee. Court filing fees vary by court, from about $50 to $100 on official court sites. The prosecutor has 30 days to object, and the state records agency says sealing can take up to 6 months to complete after the order.",
+  "sources": [
+   "https://prod.rccd.nv.gov/siteassets/content/feesforms/sealing-of-criminal-history-records-general-information.pdf",
+   "https://www.rccd.nv.gov/siteassets/content/resources/fingerprint-fees-10.1.26.pdf",
+   "https://www.leg.state.nv.us/NRS/NRS-179.html",
+   "https://www.washoecounty.gov/rjc/files/forms/form_records-seal-packet.pdf",
+   "https://files.lasvegasnevada.gov/municourt/Record-Sealing-Forms-Pro-Per.pdf",
+   "https://cityofhenderson.com/home/showpublisheddocument/716/637871051961800000",
+   "https://reno.gov/home/showdocument?id=71893"
+  ],
+  "confidence": "medium",
+  "notes": "No statewide court filing fee; local court amounts came from search-result summaries of official local court documents (not individually opened) and may change. The $27 state fee is from the RCCD fingerprint fee schedule (effective 10/1/2026, total $40 with the FBI fee); the RCCD sealing guide (rev. 8/2025) says only 'there is a fee for this service' for the verified record, so the exact charge for a sealing request was not confirmed. The automatic sealing for unconditional pardons is based on the NRS 179.273 section title; its full text was not read."
+ },
+ {
+  "state": "NH",
+  "main_process": "petition to annul criminal record (annulment)",
+  "court_fee": "$125 per petition to annul a criminal record (Superior Court fee schedule effective July 1, 2025; Superior Court charges one $125 fee per defendant for petitions filed in the same court); court rules indicate no fee for annulling an arrest-only record",
+  "other_fees": [
+   {
+    "item": "Department of Corrections investigation/report fee (RSA 651:5, IX)",
+    "amount": "$100"
+   },
+   {
+    "item": "State police fee for researching and correcting the criminal history record after a successful petition (RSA 651:5, IX and X(d))",
+    "amount": "$100 (state police page describes it as per court for a guilty conviction)"
+   }
+  ],
+  "fee_waiver": "Yes. The court may waive the filing fee for people found indigent (using an affidavit of assets and liabilities) or whose case ended in a not guilty finding, dismissal or no prosecution. By statute the $100 Department of Corrections and $100 state police fees are also not charged if the person shows indigency (state police waiver requires an affidavit of income and assets) or the case ended in not guilty, dismissal or no prosecution.",
+  "free_automatic": "Yes. For offenses disposed of on or after January 1, 2019, arrest and court records are annulled automatically 30 days after a not guilty finding or dismissal (or after an appeal affirming dismissal), and vacated convictions are annulled. A 2026 amendment effective January 1, 2027 states that no filing fee is charged for petitions under this provision.",
+  "time": "For violations and class B misdemeanors convicted on or after January 1, 2019 (as the most serious offense), the prosecutor has 20 days after notice to object, and if there is no timely objection the court shall annul the conviction. No general processing time is stated for other annulments.",
+  "summary": "In New Hampshire you petition the court to annul your record, and the court filing fee is $125. Required state charges can add $100 for the Department of Corrections report and $100 for the state police, so a conviction annulment costs about $325 in total. These fees can be waived if you cannot afford them or your case was dismissed or ended in a not guilty finding, and dismissed or acquitted cases since 2019 are annulled automatically.",
+  "sources": [
+   "https://gc.nh.gov/rsa/html/LXII/651/651-5.htm",
+   "https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2021-06/filing_fees_superior.pdf",
+   "https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2021-07/how-to-file-petitions-to-annul.pdf",
+   "https://www.nhsp.dos.nh.gov/our-services/criminal-records/criminal-record-annulments",
+   "https://www.courts.nh.gov/new-hampshire-rules-criminal-procedure"
+  ],
+  "confidence": "high",
+  "notes": "$125 court fee is from the Superior Court fee schedule effective 07/01/2025 (seen via search summary; direct fetch of courts.nh.gov was blocked). Circuit Court fee assumed the same per court rules mirrors; confirm with the clerk. The NH State Police page is inconsistent (mentions both $100 and $125 for the court fee). A 2025 rules memo proposed fee increases; adoption not confirmed. Statute text (RSA 651:5) was read directly on gc.nh.gov."
+ },
+ {
+  "state": "NM",
+  "main_process": "petition for expungement (Criminal Record Expungement Act)",
+  "court_fee": "$132 district court civil filing fee (Second Judicial District instructions; same fee for conviction and no-conviction petitions)",
+  "other_fees": [
+   {
+    "item": "NM Department of Public Safety arrest record check (must be attached to petition)",
+    "amount": "$15 per record check"
+   }
+  ],
+  "fee_waiver": "Yes. People who are indigent can file an Affidavit for Free Process and Affidavit of Indigency (Form 4-222 NMRA); if free process is granted, the filing fee is not charged.",
+  "free_automatic": "Cannabis arrest and conviction records made legal by the Cannabis Regulation Act are expunged automatically under NMSA 29-3A-8, with no filing fee.",
+  "time": "Notified agencies have 60 days after receiving the petition to object; the court must issue a written order within 60 days of the hearing (Rule 1-077.1 NMRA).",
+  "summary": "In New Mexico you ask the district court to expunge your record by filing a petition, which costs about $132, plus $15 for the state arrest record you must attach. People who cannot afford the fee can ask for free process. Agencies get 60 days to object, and the court has 60 days after a hearing to rule; some cannabis records are cleared automatically for free.",
+  "sources": [
+   "https://nmcourts.gov/wp-content/uploads/sites/21/2023/11/STEPS-TO-FILING-YOUR-PETITION-FOR-EXPUNGEMENT_Conviction_Jan-2022.pdf",
+   "https://supremecourt.nmcourts.gov/wp-content/uploads/sites/2/2025/10/Rule-1-077.1-NMRA.pdf",
+   "https://seconddistrict.nmcourts.gov/about-this-district/clerks-office/",
+   "https://www.dps.nm.gov/wp-content/uploads/2026/02/DPS-ROI_ENG.pdf"
+  ],
+  "confidence": "high",
+  "notes": "$132 is from the Second Judicial District instructions (rev. 4/2022) and clerk page citing NMSA 34-6-40; other districts should charge the same statutory docket fee but confirm with the clerk. An FBI identity history summary must also be attached; that federal fee was not verified. Copy charges ($0.35/page) and mailing costs extra."
+ },
+ {
+  "state": "NY",
+  "main_process": "sealing (application to seal under CPL 160.59; automatic sealing under the Clean Slate Act, CPL 160.57)",
+  "court_fee": "No court filing fee for a CPL 160.59 sealing application (CPL 160.59 sets no fee; NY Courts help page describes no fee to file)",
+  "other_fees": [
+   {
+    "item": "Certificate of disposition for each conviction (required attachment)",
+    "amount": "$5 in courts outside New York City, $10 in New York City courts"
+   }
+  ],
+  "fee_waiver": "The NY Courts certificate of disposition page indicates people on public assistance who cannot afford the certificate fee may be able to get a fee waiver.",
+  "free_automatic": "Yes. Under the Clean Slate Act (effective Nov. 16, 2024), eligible convictions are sealed automatically with no fee: misdemeanors 3 years and felonies 8 years after sentencing or release from incarceration; sex offenses and most Class A felonies are excluded. Older eligible convictions must be sealed by Nov. 2027.",
+  "time": "The district attorney has 45 days to notify the court of any objection to a CPL 160.59 application.",
+  "summary": "New York does not charge a court filing fee to apply to seal up to two old convictions after 10 years, but you need a certificate of disposition for each conviction, which costs about $5 outside New York City or $10 inside it. The district attorney has 45 days to object. Under the Clean Slate Act, many convictions are sealed automatically for free after 3 years (misdemeanors) or 8 years (felonies).",
+  "sources": [
+   "https://www.nysenate.gov/legislation/laws/CPL/160.59",
+   "https://www.nysenate.gov/legislation/laws/CPL/160.57",
+   "https://nycourts.gov/COURTHELP/Criminal/sealedAfter10years.shtml",
+   "https://nycourts.gov/courthelp/criminal/CD.shtml",
+   "https://www.brooklynda.org/?p=11730",
+   "https://ag.ny.gov/resources/individuals/civil-rights/sealing-your-criminal-record"
+  ],
+  "confidence": "medium",
+  "notes": "nycourts.gov pages were blocked by bot protection; the 'no fee to file' and $5/$10 figures come from search-result excerpts of the NY Courts help pages and the Brooklyn DA page ($10 per certificate in Brooklyn), not a full read. Fee-waiver detail is from a search excerpt of the NY Courts certificate of disposition page. Brooklyn DA says the process takes about 8-12 weeks (not a court source). Arrests ending in dismissal/acquittal are sealed automatically under CPL 160.50. Clean Slate implementation deadline is 3 years after the effective date (CPL 160.57(6))."
+ },
+ {
+  "state": "NC",
+  "main_process": "expunction (petition for expunction)",
+  "court_fee": "$175 for most expunction petitions (including nonviolent conviction petitions and dismissals after deferred prosecution/conditional discharge); no fee for petitions to expunge dismissed charges or not-guilty verdicts",
+  "other_fees": [],
+  "fee_waiver": "Yes. People who cannot afford the fee can ask to file without paying using the court's indigency form; by statute the $175 fee does not apply to petitions filed by an indigent person.",
+  "free_automatic": "Yes. For cases disposed on or after Dec. 1, 2021 where all charges were dismissed or ended in a not-guilty or not-responsible finding, the charges are expunged automatically at no cost 180 to 210 days after disposition (felonies dismissed under a plea deal excluded).",
+  "time": "NC Courts says expunctions may take several months, depending on the time required for criminal record checks and to schedule a hearing.",
+  "summary": "North Carolina generally charges a $175 filing fee to petition for expunction, but there is no fee to expunge most dismissed or not-guilty charges, and people who cannot afford the fee can ask to file without paying. Charges dismissed or found not guilty on or after December 1, 2021 are cleared automatically for free about six to seven months later. The courts say the process can take several months.",
+  "sources": [
+   "https://www.nccourts.gov/help-topics/court-records/expunctions",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-146.html",
+   "https://www.sog.unc.edu/resources/microsites/relief-criminal-conviction/procedure-obtain-expunction"
+  ],
+  "confidence": "high",
+  "notes": "Of the $175 fee, $122.50 goes to the State Bureau of Investigation and $52.50 to the AOC (G.S. 15A-146(d)); no separate required SBI or fingerprint fee was found. Fee rules differ slightly by expunction statute."
+ },
+ {
+  "state": "ND",
+  "main_process": "petition to seal criminal record (N.D.C.C. ch. 12-60.1); closing of nonconviction court records",
+  "court_fee": "Not stated in statute for a petition to seal a conviction; the courts' self-help guide says a filing fee may be required and to confirm the amount, if any, with the clerk. No filing fee may be charged for a petition to close a nonconviction (dismissal/acquittal) record.",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": "Yes, for nonconvictions: if a court entered an order of nonconviction (dismissal or acquittal of all charges) on or after Aug. 1, 2025, the court closes the court record automatically after 61 days. Older nonconviction records can be closed by a free petition.",
+  "time": "A hearing on a petition to seal may not be held earlier than 45 days after filing. For a nonconviction petition, the court enters an order closing the record within 10 days of filing.",
+  "summary": "In North Dakota you ask the court in your original criminal case to seal a conviction; the law does not set a fee, and the courts advise checking with the clerk about any filing fee. A hearing cannot happen until at least 45 days after you file. Dismissed or acquitted cases can be closed for free, and those decided on or after August 1, 2025 are closed automatically after 61 days.",
+  "sources": [
+   "https://ndlegis.gov/cencode/t12c60-1.pdf",
+   "https://www.ndcourts.gov/Media/Default/legal-resources/legal-self-help/other-forms/Sealing%20Criminal%20Records%20Research%20Guide.pdf",
+   "https://www.ndcourts.gov/Media/Default/legal-resources/legal-self-help/other-forms/Close-Nonconviction-Records.pdf"
+  ],
+  "confidence": "low",
+  "notes": "Could not find a dollar amount for the petition to seal a conviction on any official page; the only ND court fee schedule found is dated 2007 and does not list a sealing fee. No fee-waiver information specific to sealing was found. Municipal court denials can be appealed to district court without a filing fee."
+ },
+ {
+  "state": "OH",
+  "main_process": "application to seal or expunge record of conviction (R.C. 2953.32); application to seal/expunge non-conviction records (R.C. 2953.33)",
+  "court_fee": "$50 state application fee for a conviction application (one fee no matter how many records), plus an optional local court fee of up to $50; the statute for non-conviction (not guilty, dismissal, no bill) applications sets no fee",
+  "other_fees": [],
+  "fee_waiver": "Yes. The $50 application fee is not charged if the applicant files a poverty affidavit showing they are indigent.",
+  "free_automatic": null,
+  "time": "The court must hold the hearing not less than 45 and not more than 90 days after the application is filed; the prosecutor may object up to 30 days before the hearing.",
+  "summary": "Ohio charges a $50 state fee to apply to seal or expunge convictions, and the local court can add up to $50 more, so expect about $50 to $100 per court. The $50 fee is dropped if you file a poverty affidavit, and the statute sets no fee for sealing cases that ended without a conviction. The court must hold a hearing 45 to 90 days after you apply.",
+  "sources": [
+   "https://codes.ohio.gov/ohio-revised-code/section-2953.32",
+   "https://codes.ohio.gov/ohio-revised-code/section-2953.33",
+   "https://www.law.csuohio.edu/sites/default/files/medialib/document/ojpc-nonconviction-sealing-expungement-resource-2025.pdf"
+  ],
+  "confidence": "high",
+  "notes": "Local court fees (up to $50) vary by court. The Ohio Justice & Policy Center (secondary) says non-conviction-only filings have no filing fee. No enacted automatic/clean slate sealing law was found; automatic-sealing bills (HB 460 of the 135th GA, SB 418 of the 136th GA) were not confirmed as enacted."
+ },
+ {
+  "state": "OK",
+  "main_process": "expungement (petition under 22 O.S. §§ 18-19); Clean Slate expungement (22 O.S. §§ 18b, 19d)",
+  "court_fee": null,
+  "other_fees": [
+   {
+    "item": "OSBI processing fee to expunge the arrest record (after the court order; cashier's check or money order)",
+    "amount": "$150"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": "Yes. Under Clean Slate (22 O.S. §§ 18b and 19d), certain eligible records are expunged through a state-initiated process with no court petition; the OSBI opened an expedited Clean Slate portal on Nov. 1, 2026. Records must show a final disposition to qualify.",
+  "time": "OSBI says expunging court records takes about one month after it receives the order, and arrest records take a similar time after it receives the order and fee.",
+  "summary": "In Oklahoma you petition the district court in each county where you have records; the court filing fee is set locally and was not confirmed. After the order, the state police bureau (OSBI) charges $150 to expunge the arrest record and says this takes about a month. Some records are now cleared through the state's Clean Slate process without a petition.",
+  "sources": [
+   "https://oklahoma.gov/osbi/services/expungement-information.html",
+   "https://oklahoma.gov/osbi/cleanslate.html",
+   "https://law.justia.com/codes/oklahoma/title-22/section-22-19"
+  ],
+  "confidence": "low",
+  "notes": "No official source found for the district court petition filing fee; it varies by county (a law-firm site estimates $50-150, not used). A separate petition is needed in each county. Local law enforcement agencies may charge their own expungement fees. OSBI says expunging the court record itself is free. Under 22 O.S. § 19(N), petitioners granted expungement under § 18(A)(3) get filing fees and court costs reimbursed (from search excerpt). No fee-waiver rule confirmed. Clean Slate fees not stated by OSBI; full automatic implementation timing not confirmed."
+ },
+ {
+  "state": "OR",
+  "main_process": "motion to set aside (and seal) under ORS 137.225",
+  "court_fee": "No filing fee (Oregon Judicial Department motion form, Jan. 2026; ORS 137.225 says the movant is not required to pay the ORS 21.135 filing fee)",
+  "other_fees": [
+   {
+    "item": "Oregon State Police fingerprint-based criminal record check, required for set-aside of a conviction",
+    "amount": "$33"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": "The court's instructions say the district attorney typically has 120 days to object; if there is an objection, the court schedules a hearing.",
+  "summary": "Oregon charges no court filing fee to ask the court to set aside and seal a record. If you are setting aside a conviction, you must also send fingerprints and a $33 fee to the Oregon State Police. The district attorney typically has 120 days to object, and a hearing is held only if they do.",
+  "sources": [
+   "https://www.courts.oregon.gov/forms/Documents/CriminalSetAside_AdultCases.pdf",
+   "https://www.oregon.gov/osp/programs/cjis/SiteAssets/Lists/Criminal%20Justice%20Info%20Services/NewForm/Request%20for%20Set%20Aside%20Criminal%20Record%20Check.pdf",
+   "https://www.courtrules.net/oregon/oregon-criminal-procedure/section-137-225"
+  ],
+  "confidence": "high",
+  "notes": "The court filing fee was eliminated by SB 397 (2021), effective Jan. 1, 2022. The OSP $33 fee applies to convictions; the court instructions only require paying it when sealing a conviction. Fingerprinting itself may cost extra at the provider. No waiver of the OSP fee was found. No statewide automatic set-aside was confirmed; HB 2492 (2025) amended ORS 137.225 but its final status was not verified."
+ },
+ {
+  "state": "PA",
+  "main_process": "petition for expungement or petition for limited access (sealing); Clean Slate automatic limited access",
+  "court_fee": "Varies by county: a $132 state fee set by 42 Pa.C.S. § 1725.7 for every expungement or limited access petition, plus county clerk fees; county totals found range from about $137 (Lancaster) to about $265 (Franklin)",
+  "other_fees": [
+   {
+    "item": "Pennsylvania State Police Request for Access and Review (Form SP 4-170) to get your full record for the petition",
+    "amount": "$20"
+   }
+  ],
+  "fee_waiver": null,
+  "free_automatic": "Yes. Under Clean Slate (18 Pa.C.S. § 9122.2), records are sealed (limited access) automatically: non-convictions, summary convictions after 5 years, eligible misdemeanors after 7 years crime-free, and certain qualifying offenses after 10 years, once restitution is paid. The statute mentions a previously authorized fee for conviction records but states no amount.",
+  "time": "For Clean Slate, the courts' administrative office sends non-conviction records within 30 days of disposition and summary records within 30 days of eligibility, and courts issue limited access orders monthly (18 Pa.C.S. § 9122.2). No official timeline found for petitions.",
+  "summary": "In Pennsylvania, filing a petition to expunge or seal a record costs a $132 state fee plus county clerk charges, which together come to about $137 to $265 depending on the county. You also pay $20 to the State Police for a copy of your record to file with the petition. Many records, including non-convictions and older minor convictions, are sealed automatically under Clean Slate.",
+  "sources": [
+   "https://codes.findlaw.com/pa/title-42-pacsa-judiciary-and-judicial-procedure/pa-csa-sect-42-1725-7/",
+   "https://www.pa.gov/services/psp/apply-for-criminal-record-expungement.html",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.001..HTM",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.002..HTM",
+   "https://co.lancaster.pa.us/DocumentCenter/View/16778/Filing-Fees",
+   "https://www.franklincountypa.gov/wp-content/uploads/2025/09/2025-Clerk-of-Courts-Fee-Schedule.pdf"
+  ],
+  "confidence": "high",
+  "notes": "The $132 state fee is confirmed in statute (via FindLaw copy); county totals come from search excerpts of county fee pages (Lancaster $137, Cumberland $155, Fayette $185.20, Lebanon $225, Franklin $265.25) and may change. No official statewide fee-waiver rule was found; some counties may accept in forma pauperis petitions. PSP also sells a $22 individual background check, but the expungement process uses the $20 SP 4-170 request."
+ },
+ {
+  "state": "RI",
+  "main_process": "motion to expunge (or seal) record",
+  "court_fee": "No filing fee stated on current official court pages or forms; the $100 fee formerly charged when a motion for a conviction was granted no longer appears in the current statute (R.I. Gen. Laws §§ 12-1.3-2, 12-1.3-3)",
+  "other_fees": [],
+  "fee_waiver": "Any outstanding court fines, fees, costs and restitution must be paid before expungement, unless the court reduces or waives them.",
+  "free_automatic": "Yes, for marijuana: under the 2022 Cannabis Act, courts automatically expunged eligible decriminalized marijuana possession convictions at no cost (deadline July 1, 2024); people can also file a free notice to have an eligible case expedited.",
+  "time": "The court sets the hearing at least 10 days after the motion is filed, so the Attorney General and police get 10 days' notice. For marijuana expungement, the courts say expedited requests are processed within five business days.",
+  "summary": "Rhode Island's courts do not list a filing fee to ask for expungement, but any fines, fees and restitution you still owe must be paid or waived by the court first. The hearing is set at least 10 days after you file. Eligible old marijuana possession records were expunged automatically for free.",
+  "sources": [
+   "https://www.courts.ri.gov/programs-services/Pages/Judicial-Records-Expungement-Information.aspx",
+   "https://courts.ri.gov/Courts/districtcourt/Documents/Motion and Affidavit to Expunge or Seal Record - Misdemeanor.pdf",
+   "https://webserver.rilegislature.gov/Statutes/TITLE12/12-1.3/12-1.3-2.htm",
+   "https://webserver.rilegislature.gov/Statutes/TITLE12/12-1.3/12-1.3-3.htm",
+   "https://www.courts.ri.gov/Pages/MarijuanaPossessionExpungement.aspx"
+  ],
+  "confidence": "medium",
+  "notes": "Older District Court instructions (seen only as a search excerpt) described a $100 fee charged only if a conviction expungement was granted, and said it was not a filing fee. The current statute (amended through 2026) and current court page/forms show no such fee, but no official notice of its repeal was found; confirm with the clerk. No separate BCI fee found; the petitioner must deliver certified copies of the order to BCI and the police. Marijuana phase-two completion not confirmed."
+ },
+ {
+  "state": "SC",
+  "main_process": "expungement (application through the circuit solicitor's office for an expungement order)",
+  "court_fee": "$35 clerk of court filing fee per order for convictions and other fee-bearing expungements; no clerk fee for general sessions charges dismissed, nolle prossed, discharged, or acquitted (S.C. Code § 17-22-940(G), (H))",
+  "other_fees": [
+   {
+    "item": "Solicitor's administrative fee per order (also charged for dismissals that were part of a plea deal)",
+    "amount": "$250"
+   },
+   {
+    "item": "SLED verification fee per request (not charged for § 17-1-40 dismissal/acquittal expungements)",
+    "amount": "$25"
+   }
+  ],
+  "fee_waiver": "Only in limited cases: fees are waived by law when the person was falsely accused because of identity theft. Charges dismissed, nolle prossed, no-billed, or found not guilty (§ 17-1-40) carry no fees, except a $250 fee if a dismissal was part of a guilty plea deal.",
+  "free_automatic": "Yes, in summary (magistrate and municipal) courts: if a fingerprinted person is found not guilty or the charge is dismissed or nolle prossed, the court must issue an expungement order immediately at no cost, carried out within 30 days after the appeal period ends (§ 17-22-950).",
+  "time": "The 11th Circuit Solicitor's Office says the process may take up to six months from when its expungement office receives the completed application.",
+  "summary": "In South Carolina, expunging a conviction usually costs about $310 per order: $250 to the solicitor's office, $25 to SLED and $35 to the clerk of court. There are no fees for charges that were dismissed or ended in acquittal (unless dismissed as part of a plea deal), and dismissed charges in magistrate or municipal court are expunged automatically for free. One solicitor's office says the process may take up to six months.",
+  "sources": [
+   "https://www.scstatehouse.gov/code/t17c022.php",
+   "https://www.scstatehouse.gov/code/t17c001.php",
+   "https://solicitor11.sc.gov/index.php/expungements/expungement-faqs",
+   "https://www.greenvillecounty.org/solicitor/expungements.asp"
+  ],
+  "confidence": "high",
+  "notes": "Fees are per expungement order and are nonrefundable; solicitor offices require separate money orders. The six-month estimate is from one circuit solicitor's office; other circuits may differ. Fee charts vary slightly by circuit on plea-deal dismissals (Greenville lists all three fees; the 9th Circuit lists only the $250)."
+ },
+ {
+  "state": "SD",
+  "main_process": "expungement (motion for expungement of arrest/non-conviction records; certain minor cases automatically removed from public record)",
+  "court_fee": "$72 (equal to the civil action filing fee), paid to the clerk of courts in the county where the motion is filed",
+  "other_fees": [],
+  "fee_waiver": "Yes. By statute (SDCL 23A-3-28) the court may waive the filing fee if the person shows the court they are indigent and unable to pay.",
+  "free_automatic": "Yes, partly. Under SDCL 23A-3-34, cases where the highest charge was a petty offense, municipal ordinance violation or Class 2 misdemeanor are automatically removed from the public record after five years if all court-ordered conditions are met and there are no new convictions; no petition is needed.",
+  "time": null,
+  "summary": "In South Dakota, filing a motion for expungement costs $72, the same as a civil filing fee, and a judge can waive it for people who cannot afford it. The prosecutor must get a copy at least 14 days before any hearing. Some minor cases (petty offenses, ordinance violations, Class 2 misdemeanors) drop off the public record automatically after five years at no cost.",
+  "sources": [
+   "https://ujs.sd.gov/media/deejvfn3/expungement-print-all-packet_07_2026.pdf",
+   "https://sdlegislature.gov/api/Statutes/23A-3-28.html",
+   "https://sdlegislature.gov/api/Statutes/23A-3-34.html",
+   "https://ujs.sd.gov/self-help/civil-law-help/expungement/"
+  ],
+  "confidence": "high",
+  "notes": "The $72 figure is from the UJS expungement packet dated 07/2026; an older UJS-390 instruction sheet lists $70, so confirm with the county clerk. Expungement in SD mainly covers arrests, dismissals and acquittals; convictions are generally not eligible except via suspended imposition of sentence or pardon (not researched here). No official processing time found."
+ },
+ {
+  "state": "TN",
+  "main_process": "expunction (petition for expunction of records)",
+  "court_fee": "Up to $100 clerk fee for expunction of convictions and diversion cases (Tenn. Code Ann. § 8-21-401); no fee for dismissed charges, nolle prosequi, no true bill or not-guilty verdicts. Municipal courts set their own fee by ordinance.",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": null,
+  "summary": "In Tennessee, court clerks can charge up to $100 to process a petition to expunge a conviction or a diversion case. Expunging charges that were dismissed, not pursued, or ended in a not-guilty verdict is free. City courts set their own expunction fee by local ordinance.",
+  "sources": [
+   "https://www.mtas.tennessee.edu/system/files/mrln/mknowledge/main/MTAS%20Expungement%20Guide%20Dec%202025.pdf",
+   "https://www.capitol.tn.gov/Bills/114/Fiscal/SB1349.pdf",
+   "https://capitol.tn.gov/Bills/114/Fiscal/HB0689.pdf",
+   "https://www.tn.gov/tbi/general-information/diversions-expungements.html",
+   "https://www.ctas.tennessee.edu/eli/expunging-court-records"
+  ],
+  "confidence": "high",
+  "notes": "Expunction statutes were reorganized in 2025 (now T.C.A. §§ 40-32-106 to 110). Older sources citing $180 or $350 state/TBI fees appear outdated; secondary sources say those state fees were repealed in 2019, but I could not read the current statute text to confirm. The $100 is a maximum ('up to'); most state courts charge the full amount per MTAS. TBI says expungement is not automatic; a 2025 automatic-expunction bill (SB1349/HB1391) was found but its enactment was not confirmed. A secondary source (Cornell) says indigent petitioners can ask to proceed as an indigent person, but no official source confirmed a waiver of the clerk fee, so fee_waiver is null. TBI offers expedited processing for certain purposes (jobs needing fingerprinting, gun purchases, adoption) but no standard timeline was found."
+ },
+ {
+  "state": "TX",
+  "main_process": "expunction and order of nondisclosure",
+  "court_fee": "The regular civil filing fee for a new case, which varies by county. Statewide required district-court fees alone total $350 ($213 local consolidated civil fee + $137 state consolidated civil fee), and counties may add optional fees. Petitions for nondisclosure now pay only the general civil filing fee (the old extra $28 was repealed); automatic nondisclosure orders under Gov't Code § 411.072 carry a $28 fee.",
+  "other_fees": [
+   {
+    "item": "Expunction clerk fee for sending a copy of the petition/notice of hearing to each listed agency that cannot receive it electronically (Art. 55A.254(f), effective Jan. 1, 2026)",
+    "amount": "$25 per agency"
+   },
+   {
+    "item": "Expunction clerk fee for sending notice of the final expunction order to each agency that cannot receive it electronically (Art. 55A.351(b-3), effective Jan. 1, 2026)",
+    "amount": "$25 per agency"
+   },
+   {
+    "item": "Automatic order of nondisclosure under Gov't Code § 411.072",
+    "amount": "$28"
+   }
+  ],
+  "fee_waiver": "Yes. A person who cannot afford court costs can file a Statement of Inability to Afford Payment of Court Costs (Texas Rule of Civil Procedure 145), signed under penalty of perjury; the court may hold a hearing if it is challenged. Expunction fees can also be waived for people acquitted who file within 30 days of the acquittal (Code Crim. Proc. art. 102.006).",
+  "free_automatic": "Partly. Certain first-time nonviolent misdemeanor deferred adjudication cases get an automatic order of nondisclosure (Gov't Code § 411.072) without a petition, but a $28 fee applies. After an acquittal, the trial court enters an expunction order within 30 days on request.",
+  "time": "For acquittals, the expunction order must be entered no later than the 30th day after the acquittal (Code Crim. Proc. art. 55A.201).",
+  "summary": "In Texas, a petition for expunction or nondisclosure costs the regular civil filing fee, which is set county by county; required statewide fees alone come to $350, so the total is usually about $350 or more. Clerks charge an extra $25 per agency they must notify on paper rather than electronically. People who cannot afford the fees can file a Statement of Inability to Afford Payment of Court Costs, and some first-time misdemeanor deferred adjudication cases get an automatic nondisclosure order for $28.",
+  "sources": [
+   "https://www.txcourts.gov/media/1461496/dc-civ-fil-fees-2025.pdf",
+   "https://texascourthelp.gov/civil/will-i-have-to-pay-to-file-my-case/",
+   "https://codes.findlaw.com/tx/code-of-criminal-procedure/crim-ptx-crim-pro-art-102-006/",
+   "https://capitol.texas.gov/tlodocs/81R/analysis/html/SB01224F.htm",
+   "https://codes.findlaw.com/tx/code-of-criminal-procedure/crim-ptx-crim-pro-art-55a-201/"
+  ],
+  "confidence": "high",
+  "notes": "Fees are from the OCA District Court Civil Filing Fees schedule revised 11/03/2025. Counties add optional fees, so actual totals vary; confirm with the district or county clerk. Petitions filed in county courts have a different schedule. Expunction statutes were recodified as Code Crim. Proc. ch. 55A. The DPS is not shown charging a separate fee in the sources found. No official general processing time found beyond the 30-day acquittal rule."
+ },
+ {
+  "state": "UT",
+  "main_process": "expungement (petition for expungement with a certificate of eligibility from BCI; Clean Slate automatic expungement for some records)",
+  "court_fee": "$150 per petition in district court; $135 per petition in justice court (Utah courts fee schedule effective May 6, 2026). A separate filing fee applies to each petition.",
+  "other_fees": [
+   {
+    "item": "BCI certificate of eligibility application fee (non-refundable, paid with application and fingerprints)",
+    "amount": "$65"
+   },
+   {
+    "item": "BCI certificate of eligibility issuance fee, per case that qualifies (not charged for dismissals/acquittals/declinations other than plea-in-abeyance or diversion dismissals, or when the court waives fees for indigency)",
+    "amount": "about $65 per case"
+   }
+  ],
+  "fee_waiver": "Yes, through the court: file a Motion to Waive Fees for Expungement (form 1305GE). If the court finds the person indigent, the court filing fee and BCI's certificate issuance fee are waived (Utah Code 77-40a-304), but BCI's $65 application fee is not waived.",
+  "free_automatic": "Yes. Utah's Clean Slate law automatically expunges acquittals, cases dismissed with prejudice, and some misdemeanor and infraction convictions after 5 to 7 crime-free years, with no certificate of eligibility needed and no fee. BCI reported that the courts' batch processing of automatic expungements was paused, with individual requests taken from Oct. 1, 2024 through Jan. 1, 2026.",
+  "time": null,
+  "summary": "In Utah, you first apply to the state Bureau of Criminal Identification for a certificate of eligibility ($65 application fee, plus an issuance fee of about $65 for each eligible conviction case), then file a petition with the court ($150 in district court, $135 in justice court). A judge can waive the court fee and the issuance fee for people who cannot afford them, but not the $65 application fee. Some older minor convictions, dismissals and acquittals are cleared automatically for free under Clean Slate.",
+  "sources": [
+   "https://utcourts.gov/resources/Fees.htm",
+   "https://bci.utah.gov/expungements/expungements-faq/",
+   "https://bci.utah.gov/expungements/",
+   "https://bci.utah.gov/clean-slate-expungement",
+   "https://le.utah.gov/xcode/Title77/Chapter40A/C77-40a-S304_2024100120240501.pdf",
+   "https://legacy.utcourts.gov/resources/forms/waiver/docs/1305GE_Motion_to_Waive_Fees_for_Expungement_Criminal.pdf",
+   "https://murray.utah.gov/1818/Expungement-Information"
+  ],
+  "confidence": "high",
+  "notes": "The $65 per-case issuance fee appeared in a search excerpt attributed to the BCI FAQ (and BCI flyer) but was not visible when I fetched the page, so treat that amount as less certain; the statute confirms an issuance fee exists. Certificates are valid 180 days. BCI processes applications first-come, first-served and gives no standard timeline. Whether Clean Slate batch processing has resumed after Jan. 1, 2026 was not confirmed."
+ },
+ {
+  "state": "VT",
+  "main_process": "petition to seal or expunge a criminal record (sealing for most qualifying convictions; expungement for decriminalized offenses)",
+  "court_fee": "No fee to file a petition to seal or expunge, except a $90 filing fee to seal a DUI conviction under 23 V.S.A. § 1201(a) (per the Judiciary site, for offenses committed at age 25 or older).",
+  "other_fees": [],
+  "fee_waiver": "Yes. The $90 DUI sealing fee can be waived by filing an Application to Waive Filing Fees and Service Costs (form 600-00229).",
+  "free_automatic": "Yes. Under 13 V.S.A. § 7603, charges that end without a conviction (no probable cause at arraignment, dismissal before trial, or acquittal) are sealed automatically by the court within 60 days of final disposition unless a party objects in the interest of justice.",
+  "time": "Automatic sealing of non-conviction charges happens within 60 days of final disposition (13 V.S.A. § 7603, per the Vermont Judiciary).",
+  "summary": "In Vermont, it is free to file a petition to seal or expunge a criminal record. The one exception is sealing an adult DUI conviction, which costs $90, and that fee can be waived for people who cannot afford it. Charges that are dismissed or end in acquittal are sealed automatically, at no cost, within 60 days.",
+  "sources": [
+   "https://www.vtcourts.gov/criminal/expungement",
+   "https://www.vtcourts.gov/sites/default/files/documents/200-00130A%20-%20Filing%20a%20Petition%20to%20Expunge%20or%20Seal%20a%20Criminal%20Record.pdf",
+   "https://legislature.vermont.gov/statutes/section/13/230/07610"
+  ],
+  "confidence": "high",
+  "notes": "Fee from the Vermont Judiciary guide 200-00130A dated 07/2025. Act 60 (effective July 1, 2025) narrowed expungement and widened sealing. Requesting your own criminal record check carries separate fees that are not part of the petition. No official processing time for petitions was found."
+ },
+ {
+  "state": "VA",
+  "main_process": "record sealing (automatic sealing and petition for sealing); expungement for non-convictions",
+  "court_fee": "No fee. Virginia law (§ 19.2-392.12:1) says no court fees or costs are charged to file a sealing petition, and as of July 1, 2026 there is also no fee to file an expungement petition.",
+  "other_fees": [],
+  "fee_waiver": "Not needed for filing: sealing petitions are free by statute and expungement petitions are free as of July 1, 2026.",
+  "free_automatic": "Yes. Since Virginia's sealing laws took effect July 1, 2026, certain misdemeanor convictions (such as petit larceny, shoplifting, trespassing, disorderly conduct) are sealed automatically after 7 years with no new convictions, possession-of-marijuana charges and convictions are sealed automatically, and many misdemeanor acquittals and dismissals are sealed automatically, with no petition or fee. Felony acquittals/dismissals can be sealed at case conclusion on the defendant's verbal request if the prosecutor agrees.",
+  "time": null,
+  "summary": "In Virginia, there is no court fee to file a petition to seal a criminal record, and since July 1, 2026 there is also no fee to file a petition to expunge charges that did not lead to a conviction. Under the state's sealing law that took effect July 1, 2026, many minor misdemeanor convictions, marijuana possession records and misdemeanor dismissals or acquittals are sealed automatically at no cost.",
+  "sources": [
+   "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.12:1/",
+   "https://www.vacourts.gov/static/forms/circuit/crim_sealing/cc1203inst.pdf",
+   "https://vscc.virginia.gov/2026/VSCC%20Sealing%20Overview%20for%20Website%20July%202026.pdf",
+   "https://vscc.virginia.gov/Sealing/Expungement%20Brochure%20-%20VIDC.pdf",
+   "https://www.pwcva.gov/department/circuit-court/criminal-sealing-petitions-and-motions"
+  ],
+  "confidence": "high",
+  "notes": "Sealed records still require payment of any fines, costs or restitution owed. Petition sealing has a lifetime limit of 2 granted petitions. Getting your own criminal record for a petition is free per the Crime Commission; an advocacy source mentioned a $15 State Police record fee and notary costs, likely outdated. Automatic sealing of older records may be rolled out in phases; no official processing time was found."
+ },
+ {
+  "state": "WA",
+  "main_process": "vacating a conviction (motion/petition to vacate record of conviction)",
+  "court_fee": "Generally no filing fee for the motion to vacate, which is filed in the existing criminal case; local practice varies (e.g., Kitsap County District Court charges no fee; a search excerpt reported a $73 fee at Chelan County District Court, not verified). Clerks charge for certified copies of the signed order.",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": null,
+  "summary": "In Washington, people usually ask the court that convicted them to vacate the conviction, and courts generally do not charge a filing fee for that motion, though a few local courts may. Expect small costs for certified copies of the signed order and for any criminal history report you order from the State Patrol.",
+  "sources": [
+   "https://kitsap.gov/dc/Criminal%20Documents/Instructions%20For%20Vacating%20Your%20Conviction.pdf",
+   "https://assets.washingtonlawhelp.org/en/print/pdf/node/451",
+   "https://www.courts.wa.gov/forms/documents/CR08.0900_Mt%20and%20Decl%20for%20Or%20Vacating%20Record%20of%20Felony_2025%2007_KO_FINAL%20(sv).pdf"
+  ],
+  "confidence": "medium",
+  "notes": "No statewide official fee statement found. 'No fee' is confirmed on Kitsap County District Court instructions (revised 08/09/2024) and in Northwest Justice Project's felony guide (reviewed April 11, 2025), which says the superior court clerk should not charge a fee. Some local courts may charge (Chelan County District Court reportedly $73; page could not be loaded). Washington has no general automatic clean-slate law confirmed in this research. A secondary site mentions fee waivers under RCW 36.18.022 and GR 34, not verified on an official page. NJP says the process can take many weeks but gives no official timeline."
+ },
+ {
+  "state": "WV",
+  "main_process": "petition for expungement of criminal records (W. Va. Code §§ 61-11-25, 61-11-26, 61-11-26a)",
+  "court_fee": "The same fee as filing a civil action in circuit court (W. Va. Code § 59-1-11(a)(1)), collected in advance by the circuit clerk; about $200 based on the 2014 enacted amendment.",
+  "other_fees": [
+   {
+    "item": "West Virginia State Police records division fee for processing the expungement order (W. Va. Code § 61-11-26(n)); waived for petitions under § 61-11-26a (treatment/job program route)",
+    "amount": "$100"
+   }
+  ],
+  "fee_waiver": "The $100 State Police fee is waived by statute for petitions filed under § 61-11-26a. Secondary sources (Cornell, Legal Aid of West Virginia) say people who cannot afford the filing fee can file a fee waiver affidavit and application with the clerk; this was not confirmed on an official page.",
+  "free_automatic": null,
+  "time": "If the prosecutor or another served party files a notice of opposition, the petitioner has 10 days after being served with it to reply (per court instructions, W. Va. Code § 61-11-26(e)).",
+  "summary": "In West Virginia, a petition to expunge a conviction costs the same as filing a civil case in circuit court, which is about $200. If the petition is granted, there is also a $100 State Police processing fee, which is waived for people who qualify through an approved treatment or job program. Expungement there requires a petition and is not automatic.",
+  "sources": [
+   "https://nationalreentryresourcecenter.org/cleanslate/states/west-virginia/policies/wv-c-6",
+   "https://www.courtswv.gov/sites/default/pubfilesmnt/2026-05/SCA-C900.pdf",
+   "https://code.wvlegislature.gov/signed_bills/2014/2014-RS-SB458-SUB1%20ENR_signed.pdf",
+   "https://code.wvlegislature.gov/61-11-26/",
+   "https://cjei.cornell.edu/node/879"
+  ],
+  "confidence": "medium",
+  "notes": "The official WV code site was unreachable during research, so § 61-11-26 and § 59-1-11 were confirmed only through search excerpts of the official code and the National Reentry Resource Center (CSG Justice Center). The $200 civil filing fee comes from the 2014 enrolled bill SB 458; I could not confirm it is unchanged today, and counties may add costs. Court instructions SCA-C900 are dated 04/01/2021. No automatic expungement law found."
+ },
+ {
+  "state": "WI",
+  "main_process": "expungement of court record (ordered by the judge at sentencing under Wis. Stat. § 973.015); removal of arrest information from the state criminal history repository via DOJ",
+  "court_fee": "No filing fee found in official materials. There is usually no petition: the judge must approve expungement at sentencing, and the clerk expunges the record after the sentence is completed. People sentenced only to a fine or restitution request it with form CR-266.",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": "Partly. If the judge granted expungement at sentencing (generally for people under 25 at the time of an offense with a maximum penalty of 6 years or less), the clerk expunges the court record once the certificate of discharge is received after the sentence is successfully completed, with no further filing. Removing arrest information from the DOJ criminal history repository (for arrests not leading to conviction) has no fee.",
+  "time": null,
+  "summary": "In Wisconsin, adult court records can only be expunged if the judge approved it at sentencing, mainly for people under 25 at the time of the offense. The clerk then expunges the record after the sentence is finished, and official guides mention no filing fee for this. Asking the state Department of Justice to remove arrest information for charges that did not lead to a conviction is free.",
+  "sources": [
+   "https://waukeshacounty.gov/media/jaqcdvyz/expungement-brochure.pdf",
+   "https://www.wisdoj.gov/Law%20Enforcement%20Services/Remove_Arrest_Information_7-jan-19.pdf",
+   "https://docs.legis.wisconsin.gov/statutes/statutes/973/015"
+  ],
+  "confidence": "medium",
+  "notes": "The Director of State Courts brochure (hosted by Waukesha County) describes the process but does not mention any fee; no official statement of 'no fee' for court expungement was found, and the statute page could not be loaded. Expungement seals only the court record; the DOJ repository keeps convictions. Dismissed or acquitted cases cannot be expunged by the court. DOJ arrest-removal form dated Jan. 2019 states no fee. A pardon does not expunge the record."
+ },
+ {
+  "state": "WY",
+  "main_process": "petition for expungement (of arrest records, misdemeanor convictions, or a first felony conviction)",
+  "court_fee": "$100 per petition for a misdemeanor conviction (W.S. 7-13-1501); $300 per petition for a felony conviction (W.S. 7-13-1502); no filing fee for arrests that did not lead to conviction (W.S. 7-13-1401).",
+  "other_fees": [],
+  "fee_waiver": null,
+  "free_automatic": null,
+  "time": "Prosecutors and victims have 30 days after service to object to a misdemeanor petition (90 days for a felony petition), and no order can be issued before that period ends (W.S. 7-13-1501(e)-(f), 7-13-1502(e)-(f)).",
+  "summary": "In Wyoming, it costs $100 to petition to expunge a misdemeanor conviction and $300 for a felony conviction, while there is no filing fee to expunge an arrest that did not lead to a conviction. The court cannot grant a misdemeanor expungement until 30 days after the prosecutor is served, or 90 days for a felony.",
+  "sources": [
+   "https://statutes.wyoleg.gov/NXT/gateway.dll/2025%20Wyoming%20Statutes/2025%20Titles/316/352/367",
+   "https://wyoleg.gov/NXT/gateway.dll/2022%20Wyoming%20Statutes/2022%20Titles/326/363/377",
+   "https://www.wyocourts.gov/app/uploads/2025/12/Expungement-Handout_07.15.26.pdf",
+   "https://equaljustice.wy.gov/wp-content/uploads/2023/05/Expungement_Handout.pdf"
+  ],
+  "confidence": "high",
+  "notes": "Fees confirmed in the 2025 Wyoming Statutes (Article 15). The no-fee rule for non-conviction petitions (7-13-1401) was confirmed via search excerpts of the statute and an Equal Justice Wyoming handout, not a full page read. No fee waiver provision appears in the statute text; none was found elsewhere. A 2021 bill to cut the misdemeanor fee to $50 does not appear to have become law. Getting a DCI criminal history report may carry a separate fee (not confirmed). No automatic expungement law found."
+ }
+]

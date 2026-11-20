@@ -50,7 +50,8 @@ export async function get() {
 
   const guidePages = [{ url: '/guides', priority: '0.8', changefreq: 'monthly' },
     ...guideTopics.map(t => ({ url: `/guides/${t.slug}`, priority: '0.9', changefreq: 'monthly' })),
-    ...articles.map(a => ({ url: `/guides/${a.slug}`, priority: '0.9', changefreq: 'monthly' }))];
+    ...articles.map(a => ({ url: `/guides/${a.slug}`, priority: '0.9', changefreq: 'monthly' })),
+    { url: '/guides/expungement-cost-by-state', priority: '0.9', changefreq: 'monthly' }];
 
   const allPages = [...mainPages, ...statePages, ...helpPages, ...guidePages, ...cityPages, ...attorneyPages];
   

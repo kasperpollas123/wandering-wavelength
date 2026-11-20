@@ -1,0 +1,46 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { allCosts, costsChecked, hostOf } from '../../data/stateCosts';
+import { stateNames, stateSlug } from '../../data/cities';
+
+const rows = [...allCosts].filter(c => stateNames[c.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state]));
+// States where an official source confirms no court filing fee for the main petition (checked by hand)
+const NO_FEE = ['AZ', 'AR', 'CA', 'ID', 'MA', 'NY', 'OR', 'VA'];
+const noFee = rows.filter(c => NO_FEE.includes(c.state)).map(c => stateNames[c.state]);
+---
+
+<PageLayout
+  title="How Much Does an Expungement Cost? Fees in Every State"
+  description="Court and state fees to expunge or seal a criminal record in all 50 states and DC, whether they can be waived, and where records clear automatically for free."
+  canonicalURL="/guides/expungement-cost-by-state"
+>
+  <div class="container py-8 mt-8">
+    <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: "Expungement cost by state" }]} />
+  </div>
+  <section class="pb-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="!text-3xl md:!text-4xl font-bold !mb-4">How Much Does an Expungement Cost? Fees in Every State</h1>
+        <p class="text-lg text-gray-700 mb-4">Clearing a record costs two kinds of money: what the court and the state charge, and what an attorney charges if you hire one. This page covers the first kind, for every state and the District of Columbia.</p>
+        <p class="text-lg text-gray-700 mb-4">{`Government fees run from nothing to several hundred dollars. In ${noFee.join(', ').replace(/, ([^,]*)$/, ' and $1')}, official sources confirm there is no court filing fee for the main petition, while Alabama charges $500 per arrest. Many add a fee for a state background check or for each agency that must update its files. Many states let people who can't afford the fees ask for a waiver, and a growing number clear some records automatically at no cost. Both are listed per state below.`}</p>
+        <p class="text-sm text-gray-500 mb-10">{`Researched and written by the Expungement Attorneys Directory editors. Checked ${costsChecked} against state statutes, court fee schedules and state agencies; each state lists its sources. Fees change, and counties sometimes add their own, so confirm the amount with the court clerk before you file. `}<a href="/about" class="underline">How we research</a></p>
+
+        <div class="space-y-4">
+          {rows.map(c => (
+            <div id={stateSlug(c.state)} class="rounded-xl border border-gray-200 p-5 scroll-mt-24">
+              <h2 class="!text-xl font-bold !mb-2"><a href={`/states/${stateSlug(c.state)}#cost`}>{stateNames[c.state]}</a></h2>
+              <dl class="text-[15px] space-y-1.5">
+                {c.court_fee && <div><dt class="inline font-semibold">Court fee: </dt><dd class="inline text-gray-700">{c.court_fee}</dd></div>}
+                {c.other_fees.length > 0 && <div><dt class="inline font-semibold">Other fees: </dt><dd class="inline text-gray-700">{c.other_fees.map(f => `${f.amount} (${f.item})`).join('; ')}</dd></div>}
+                {c.fee_waiver && <div><dt class="inline font-semibold">Waiver: </dt><dd class="inline text-gray-700">{c.fee_waiver}</dd></div>}
+                {c.free_automatic && <div><dt class="inline font-semibold">Automatic: </dt><dd class="inline text-gray-700">{c.free_automatic}</dd></div>}
+              </dl>
+              <p class="text-xs text-gray-500 mt-2">{c.confidence === 'low' ? 'Main fee not confirmed on an official page. ' : ''}{'Sources: '}{c.sources.slice(0, 3).map((u, i) => <span>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener noreferrer" class="underline">{hostOf(u)}</a></span>)}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>

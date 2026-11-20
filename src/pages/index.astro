@@ -28,7 +28,7 @@ const helpTotal = helpStates.reduce((n, st) => n + st.count, 0);
 const topCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0)
   .sort((a, b) => b.attorneyCount - a.attorneyCount)
   .slice(0, 12);
-const guides = [...guideTopics.map(t => ({ slug: t.slug, title: t.title, description: t.description })), ...(articles as any[]).map(a => ({ slug: a.slug, title: a.title, description: a.description }))];
+const guides = [{ slug: 'expungement-cost-by-state', title: 'How Much Does an Expungement Cost? Fees in Every State', description: 'Court and state fees to clear a record in every state, fee waivers, and free automatic clearing.' }, ...guideTopics.map(t => ({ slug: t.slug, title: t.title, description: t.description })), ...(articles as any[]).map(a => ({ slug: a.slug, title: a.title, description: a.description }))];
 const titleCase = (s: string) => s.split(' ').map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
 ---
 

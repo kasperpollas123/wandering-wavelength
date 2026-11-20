@@ -6,6 +6,7 @@ import { getAttorneysByState, getAttorneysForCity, getCityForAttorney } from '..
 import { getHelpForState } from '../../data/freeHelp';
 import { badges, BADGE_CLASS, telHref, prettyPhone } from '../../data/attorneyFacts';
 import { getStateFacts, guideTopics, clearableLabel } from '../../data/guides';
+import { getStateCost, getGap, roundPeople, hostOf as costHost, costsChecked } from '../../data/stateCosts';
 
 // One page for every state that has at least one attorney in the directory
 export function getStaticPaths() {
@@ -21,6 +22,8 @@ const lawSources = stateLawSources[code] || [];
 const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const helpCount = getHelpForState(code).length;
 const facts = getStateFacts(code);
+const cost = getStateCost(code);
+const gap = getGap(code);
 
 // City pages in this state
 const stateCities = cities
@@ -72,6 +75,28 @@ const description = attorneys.length > 0 ? `${stateName} expungement rules in pl
                 ))}
               </p>
             )}
+          </div>
+        )}
+
+        {cost && (
+          <div id="cost" class="bg-white p-6 rounded-xl border border-gray-200 mb-10 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-3">{`What it costs to clear a record in ${stateName}`}</h2>
+            <p class="text-[17px] leading-relaxed text-gray-700 mb-5">{cost.summary}</p>
+            <dl class="divide-y divide-gray-100 border-y border-gray-100 text-[15px]">
+              {cost.court_fee && <div class="py-3 grid sm:grid-cols-3 gap-1"><dt class="font-semibold text-gray-900">Court fee</dt><dd class="sm:col-span-2 text-gray-700">{cost.court_fee}</dd></div>}
+              {cost.other_fees.length > 0 && <div class="py-3 grid sm:grid-cols-3 gap-1"><dt class="font-semibold text-gray-900">Other required fees</dt><dd class="sm:col-span-2 text-gray-700"><ul class="space-y-1">{cost.other_fees.map(f => <li>{`${f.amount}: ${f.item}`}</li>)}</ul></dd></div>}
+              {cost.fee_waiver && <div class="py-3 grid sm:grid-cols-3 gap-1"><dt class="font-semibold text-gray-900">If you can't pay</dt><dd class="sm:col-span-2 text-gray-700">{cost.fee_waiver}</dd></div>}
+              {cost.free_automatic && <div class="py-3 grid sm:grid-cols-3 gap-1"><dt class="font-semibold text-gray-900">Free automatic clearing</dt><dd class="sm:col-span-2 text-gray-700">{cost.free_automatic}</dd></div>}
+              {cost.time && <div class="py-3 grid sm:grid-cols-3 gap-1"><dt class="font-semibold text-gray-900">How long it takes</dt><dd class="sm:col-span-2 text-gray-700">{cost.time}</dd></div>}
+            </dl>
+            <p class="text-sm text-gray-500 mt-4">{`Government fees only; an attorney's fee comes on top. ${cost.confidence === 'high' ? 'Confirmed' : 'Checked'} ${costsChecked} against official sources${cost.confidence === 'low' ? ', but the main fee could not be confirmed on an official page, so ask the court clerk' : ''}. Sources: `}{cost.sources.slice(0, 4).map((u, i) => <span>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener noreferrer" class="underline">{costHost(u)}</a></span>)}</p>
+          </div>
+        )}
+
+        {gap && (
+          <div class="mb-10 rounded-xl border border-amber-200 bg-amber-50 p-5">
+            <p class="text-[17px] text-amber-950"><strong>{`${roundPeople(gap.eligible_not_cleared)} people`}</strong>{` in ${stateName} could clear a criminal record but have not done so${gap.share ? `: ${Math.round(gap.share)}% of those eligible` : ''}, according to a ${gap.year} estimate by the Paper Prisons Initiative.`}</p>
+            <p class="text-sm text-amber-900/80 mt-2">{'Source: '}<a href={gap.source_url} target="_blank" rel="noopener noreferrer" class="underline">{gap.source_title}</a></p>
           </div>
         )}
 
