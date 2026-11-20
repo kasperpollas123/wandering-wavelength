@@ -1,0 +1,743 @@
+[
+ {
+  "state": "AK",
+  "term": "DUI",
+  "first_offense": "Class A misdemeanor (AS 28.35.030(b))",
+  "felony_when": "Third offense: two or more prior convictions since Jan 1, 1996 and within the 10 years before the current offense -> class C felony",
+  "other_felony": [
+   "Felony DUI punishment imposed previously within the last 10 years (class C felony)"
+  ],
+  "lookback_years": 10,
+  "citation": "AS 28.35.030(n)",
+  "url": "https://www.akleg.gov/basis/statutes.asp#28.35.030",
+  "confidence": "high",
+  "notes": "Injury/death cases fall under general assault/manslaughter statutes (not checked)."
+ },
+ {
+  "state": "AL",
+  "term": "DUI",
+  "first_offense": "Up to 1 year in county/municipal jail and/or $600-$2,100 fine; 90-day license suspension (32-5A-191(e)); treated as a misdemeanor",
+  "felony_when": "Fourth or subsequent conviction (prior convictions counted if within 10 years of the current offense) -> Class C felony, 1 year and 1 day to 10 years, $4,100-$10,100 fine",
+  "other_felony": [
+   "Any DUI by a person with a previous felony DUI conviction is a Class C felony, regardless of the date of that prior felony (32-5A-191(h), (p)(2))"
+  ],
+  "lookback_years": 10,
+  "citation": "Ala. Code 32-5A-191(e), (h), (p)",
+  "url": "https://alison.legislature.state.al.us/code-of-alabama?section=32-5A-191",
+  "confidence": "high",
+  "notes": "Read from the official ALISON code page (rendered via a JS-capable reader); history note runs through Act 2018-546. Statute does not say 'misdemeanor' for a first offense in so many words, but (h) is the only felony tier and (i) refers to misdemeanor offenses. Felony DUI under (h) does not count under the habitual felony offender law. Injury/death cases fall under other statutes (not checked)."
+ },
+ {
+  "state": "AR",
+  "term": "DWI",
+  "first_offense": "Unclassified misdemeanor: 24 hours to 1 year jail (7 days to 1 year if a passenger under 16 was in the vehicle); public service may be ordered instead (5-65-111(a))",
+  "felony_when": "Fourth offense within 10 years of the first offense -> unclassified felony, 1 to 6 years (2 to 6 years with a passenger under 16)",
+  "other_felony": [
+   "Fifth or subsequent offense within 10 years of the first -> unclassified felony, 2 to 10 years (3 to 10 with passenger under 16) (5-65-111(e))",
+   "Sixth or subsequent offense within 20 years of the first -> Class B felony (5-65-111(f))"
+  ],
+  "lookback_years": 10,
+  "citation": "Ark. Code Ann. 5-65-111 (as amended by Act 274 of 2021)",
+  "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2FACT274.pdf",
+  "confidence": "medium",
+  "notes": "Read from the official text of Act 274 of 2021 (HB1062, approved 3/8/21) on arkleg.state.ar.us, which rewrote 5-65-111 and extended the look-back from 5 to 10 years (20 years for the Class B tier). The compiled code (Lexis public access) was not read, and I could not confirm whether 5-65-111 was amended again in 2023 or 2025. Out-of-state convictions count (5-65-111(g)). 5-65-122 not checked."
+ },
+ {
+  "state": "AZ",
+  "term": "DUI",
+  "first_offense": "Class 1 misdemeanor (A.R.S. 28-1381(C))",
+  "felony_when": "Third or subsequent DUI within 84 months (7 years) -> aggravated DUI, class 4 felony",
+  "other_felony": [
+   "DUI while license suspended/revoked/restricted (class 4 felony)",
+   "DUI with a passenger under 15 (class 6 felony)",
+   "DUI while required to have ignition interlock (class 4 felony)",
+   "DUI while driving the wrong way on a highway (class 4 felony)"
+  ],
+  "lookback_years": 7,
+  "citation": "A.R.S. 28-1381, 28-1383",
+  "url": "https://www.azleg.gov/ars/28/01383.htm",
+  "confidence": "high",
+  "notes": "Look-back is 84 months, measured by offense dates. Injury/death cases are charged under general assault/homicide statutes (not checked)."
+ },
+ {
+  "state": "CA",
+  "term": "DUI",
+  "first_offense": "Misdemeanor, up to 6 months county jail (VC 23152; 23536)",
+  "felony_when": "Fourth DUI within 10 years -> 'wobbler' (can be charged as a felony or misdemeanor), up to 3 years (VC 23550)",
+  "other_felony": [
+   "DUI causing injury (VC 23153): wobbler on 1st and 2nd offense; felony on 3rd+ within 10 years (up to 4 years state prison)",
+   "Gross vehicular manslaughter while intoxicated (PC 191.5(a)) - felony; vehicular manslaughter while intoxicated (PC 191.5(b)) - wobbler"
+  ],
+  "lookback_years": 10,
+  "citation": "Cal. Veh. Code 23152, 23153, 23550, 23566; Penal Code 191.5",
+  "url": "https://stran.senate.ca.gov/media/1323",
+  "confidence": "medium",
+  "notes": "leginfo.legislature.ca.gov blocked automated access, so this comes from the March 2026 'Overview of Criminal Punishments for DUI' by the Committee on Revision of the Penal Code, posted on the CA Senate site. Statute text at https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23550. A child under 14 adds jail time only (VC 23572). The rule that a DUI after a prior felony DUI is a felony (VC 23550.5) is not in that overview - confirm on leginfo."
+ },
+ {
+  "state": "CO",
+  "term": "DUI (also DWAI for impaired)",
+  "first_offense": "Misdemeanor (1st DUI: 5 days-1 year jail; 1st DWAI: 2-180 days)",
+  "felony_when": "DUI or DWAI with three or more previous DUI/DWAI convictions (4th offense) -> class 4 felony; the summary gives no look-back",
+  "other_felony": [
+   "Vehicular assault while DUI (class 4 felony; class 5 if DWAI), C.R.S. 18-3-205",
+   "Vehicular homicide while DUI (class 3 felony; class 4 if DWAI), C.R.S. 18-3-106"
+  ],
+  "lookback_years": null,
+  "citation": "C.R.S. 42-4-1301, 42-4-1307; 18-3-106; 18-3-205",
+  "url": "https://content.leg.colorado.gov/sites/default/files/Colorado%20Drunk%20Driving%20Laws%20-%20Colorado%20Law%20Summary-accessible.pdf",
+  "confidence": "medium",
+  "notes": "Source is the Colorado Legislative Council 'Colorado Law Summary: Colorado Drunk Driving Laws' (official), not the statute text. A look-back for the felony is not stated; secondary sources say none applies, which is not confirmed here."
+ },
+ {
+  "state": "CT",
+  "term": "DUI (statute: operating under the influence)",
+  "first_offense": "Up to 6 months and $500-$1,000 fine (misdemeanor-level)",
+  "felony_when": "Second conviction within 10 years of a prior -> up to 2 years, which the Connecticut Supreme Court treats as a felony (annotation to 14-227a citing 300 Conn. 144); third+ within 10 years -> up to 3 years",
+  "other_felony": [],
+  "lookback_years": 10,
+  "citation": "Conn. Gen. Stat. 14-227a(g)",
+  "url": "https://www.cga.ct.gov/current/pub/chap_248.htm",
+  "confidence": "medium",
+  "notes": "Statute does not use 'felony'; the felony status of a 2nd offense comes from the case annotation on the official page. Assault/manslaughter with a motor vehicle (53a-56b, 53a-60d) and child-passenger penalties were not checked. Read through Jina."
+ },
+ {
+  "state": "DC",
+  "term": "DUI (also OWI)",
+  "first_offense": "Fine $1,000 and/or up to 180 days; statute gives no class label (misdemeanor-level)",
+  "felony_when": "Not a felony under the DUI/OWI sections: even with 2+ prior offenses the maximum is 1 year incarceration",
+  "other_felony": [],
+  "lookback_years": null,
+  "citation": "D.C. Code 50-2206.11 to 50-2206.15, 50-2206.18",
+  "url": "https://code.dccouncil.gov/us/dc/council/code/sections/50-2206.13",
+  "confidence": "medium",
+  "notes": "Repeat offenses get mandatory minimums and higher fines, but the cap stays at 1 year. A minor in the vehicle adds extra penalties (50-2206.18), not a felony. Injury/death cases go under other DC Code sections (not checked)."
+ },
+ {
+  "state": "DE",
+  "term": "DUI",
+  "first_offense": "Fine $500-$1,500 and/or up to 12 months; statute gives no class label but it is not a felony",
+  "felony_when": "Third offense at any time after 2 prior offenses -> class G felony; 4th-5th class E; 6th class D; 7th+ class C",
+  "other_felony": [],
+  "lookback_years": null,
+  "citation": "21 Del. C. 4177(d)",
+  "url": "https://delcode.delaware.gov/title21/c041/sc09/index.html",
+  "confidence": "high",
+  "notes": "No look-back for felony counts (10-year look-back applies only to second-offense sentencing). Child passenger brings extra penalties under 4177(d)(10), not a separate felony. Injury/death cases go under Title 11 (not checked)."
+ },
+ {
+  "state": "FL",
+  "term": "DUI",
+  "first_offense": "Up to 6 months (9 months if BAC 0.15+ or minor passenger) and $500-$1,000 fine; DUI with property damage/injury is a first-degree misdemeanor",
+  "felony_when": "Third DUI within 10 years of a prior conviction -> third-degree felony; fourth or later DUI at any time -> third-degree felony",
+  "other_felony": [
+   "DUI causing serious bodily injury (third-degree felony)",
+   "DUI manslaughter - death (second-degree felony; first-degree if driver left the scene or has a prior DUI manslaughter/vehicular homicide)"
+  ],
+  "lookback_years": 10,
+  "citation": "Fla. Stat. 316.193",
+  "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.193.html",
+  "confidence": "high",
+  "notes": "A third DUI more than 10 years after the prior is a misdemeanor (up to 12 months). A minor passenger raises the penalty but is not a felony."
+ },
+ {
+  "state": "GA",
+  "term": "DUI",
+  "first_offense": null,
+  "felony_when": "Fourth DUI conviction within 10 years -> sentenced as a felony under O.C.G.A. 40-6-391(c)(4)",
+  "other_felony": [
+   "Habitual impaired driving: driving while revoked as a habitual violator after three or more DUI convictions within 5 years (felony, O.C.G.A. 40-5-58(c)(2))"
+  ],
+  "lookback_years": 10,
+  "citation": "O.C.G.A. 40-6-391(c)(4), 40-5-58(c)",
+  "url": "https://dps.georgia.gov/document/document/dps-35-habitual-violators-felony-suspended-license-felony-dui-07-2002/download",
+  "confidence": "medium",
+  "notes": "Source is a Georgia Dept. of Public Safety law-enforcement guideline (2022). Georgia's official code is hosted by LexisNexis and could not be read as text. Secondary sources say a 1st-3rd DUI is a misdemeanor; not confirmed on an official page, so first_offense is null. Homicide by vehicle (40-6-393) and serious injury by vehicle (40-6-394) not checked."
+ },
+ {
+  "state": "HI",
+  "term": "OVUII (operating a vehicle under the influence of an intoxicant)",
+  "first_offense": "Penalties under HRS 291E-61(b)(1); the statute text gives no class label (no felony)",
+  "felony_when": "Habitual OVUII: offense with two or more prior OVUII convictions within 10 years (i.e. 3rd within 10 years) or a prior habitual OVUII conviction -> class C felony",
+  "other_felony": [
+   "Habitual OVUII while a 'highly intoxicated driver' -> class B felony (291E-61.5(d))"
+  ],
+  "lookback_years": 10,
+  "citation": "HRS 291E-61, 291E-61.5",
+  "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291E/HRS_0291E-0061_0005.htm",
+  "confidence": "high",
+  "notes": "A passenger under 15 adds mandatory jail time under 291E-61 (not a felony). A 2026 bill (HB1708) would make highly intoxicated OVUII a class C felony; not confirmed as enacted. Injury/death cases fall under negligent injury/homicide statutes (707-702.5 etc.), not checked."
+ },
+ {
+  "state": "IA",
+  "term": "OWI",
+  "first_offense": "Serious misdemeanor",
+  "felony_when": "Third and each later offense -> class D felony (second offense is an aggravated misdemeanor)",
+  "other_felony": [],
+  "lookback_years": null,
+  "citation": "Iowa Code 321J.2",
+  "url": "https://www.legis.iowa.gov/docs/code/321J.2.pdf",
+  "confidence": "medium",
+  "notes": "321J.2 sets no fixed look-back; prior offenses removed from the driving record under section 321.12 do not count (321.12's period not checked). Injury/death cases fall under other statutes (not checked)."
+ },
+ {
+  "state": "ID",
+  "term": "DUI",
+  "first_offense": "Misdemeanor (Idaho Code 18-8005(1))",
+  "felony_when": "Third DUI within 10 years (two prior DUI convictions or diversion completions) -> felony, up to 10 years",
+  "other_felony": [
+   "Any further DUI within 15 years after a prior felony DUI, aggravated DUI (18-8006) or vehicular manslaughter conviction (18-8005(9))",
+   "Aggravated DUI causing great bodily harm, permanent disability or disfigurement (18-8006) - referenced as a felony in 18-8005(9); 18-8006 itself not read"
+  ],
+  "lookback_years": 10,
+  "citation": "Idaho Code 18-8005",
+  "url": "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH80/SECT18-8005/",
+  "confidence": "high",
+  "notes": "Excessive BAC (18-8004C) has its own penalty scheme."
+ },
+ {
+  "state": "IL",
+  "term": "DUI",
+  "first_offense": "Class A misdemeanor",
+  "felony_when": "Third or subsequent DUI, any time -> aggravated DUI (Class 2 felony for a 3rd; higher classes for later offenses)",
+  "other_felony": [
+   "DUI crash causing great bodily harm or permanent disability/disfigurement (aggravated DUI)",
+   "DUI crash causing death (aggravated DUI, Class 2 felony per (d)(2))",
+   "DUI while license revoked/suspended for DUI or reckless homicide",
+   "Second DUI while transporting a child under 16; DUI crash injuring a child under 16 being transported",
+   "DUI while driving a school bus with passengers, or a for-hire vehicle with passengers",
+   "DUI with no valid license/permit, or knowing the vehicle is uninsured",
+   "DUI in a 20 mph school zone causing bodily harm",
+   "Prior DUI-related reckless homicide or prior aggravated DUI for injury/death"
+  ],
+  "lookback_years": null,
+  "citation": "625 ILCS 5/11-501(c), (d)",
+  "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=062500050K11-501",
+  "confidence": "high",
+  "notes": "No look-back for the third-offense felony. Most aggravated DUI is a Class 4 felony unless a higher class is listed in (d)(2). Read through Jina because of a TLS problem with direct fetch."
+ },
+ {
+  "state": "IN",
+  "term": "OWI",
+  "first_offense": "Class C misdemeanor (operating while intoxicated, BAC 0.08 to <0.15, or schedule I/II controlled substance in blood); Class A misdemeanor if BAC 0.15+ or operated in a manner that endangers a person (IC 9-30-5-1, 9-30-5-2)",
+  "felony_when": "Prior OWI conviction within the 7 years immediately preceding the violation -> Level 6 felony",
+  "other_felony": [
+   "Driver 21+ with BAC 0.15+, schedule I/II substance, or endangerment, and a passenger under 18 -> Level 6 felony (9-30-5-3(a)(2))",
+   "Any OWI with a prior conviction for OWI causing serious bodily injury, death or catastrophic injury -> Level 5 felony (9-30-5-3(b))",
+   "OWI causing serious bodily injury -> Level 5 felony; Level 4 if prior OWI within 5 years (9-30-5-4)",
+   "OWI causing death or catastrophic injury -> Level 4 felony (9-30-5-5(a))",
+   "OWI causing death of a law enforcement animal -> Level 6 felony (9-30-5-5(b))"
+  ],
+  "lookback_years": 7,
+  "citation": "Ind. Code 9-30-5-1, 9-30-5-2, 9-30-5-3, 9-30-5-4, 9-30-5-5",
+  "url": "https://iga.in.gov/ic/2026/Title_9/Article_30/Chapter_5.pdf",
+  "confidence": "high",
+  "notes": "Read from the official Indiana Code 2026 PDF of IC 9-30-5 on iga.in.gov (rendered via a JS-capable reader). Level 6 felony = 6 months to 2.5 years (not checked in IC 35-50-2)."
+ },
+ {
+  "state": "KS",
+  "term": "DUI",
+  "first_offense": "Class B nonperson misdemeanor",
+  "felony_when": "Third conviction if a prior conviction is within the preceding 10 years -> severity level 6 nonperson felony; fourth or later conviction -> severity level 6 felony (counts convictions/diversions on or after July 1, 2001)",
+  "other_felony": [],
+  "lookback_years": 10,
+  "citation": "K.S.A. 8-1567",
+  "url": "https://www.ksrevisor.gov/statutes/chapters/ch08/008_015_0067.html",
+  "confidence": "high",
+  "notes": "Third conviction with no prior in 10 years is a class A misdemeanor. A child under 14/18 in the vehicle raises the sentence (not read in detail). Injury/death cases are under the criminal code (not checked). Read through Jina."
+ },
+ {
+  "state": "KY",
+  "term": "DUI",
+  "first_offense": "Fine $200-$500 and/or 48 hours-30 days county jail; statute gives no class label",
+  "felony_when": "Fourth or subsequent offense within 10 years -> Class D felony",
+  "other_felony": [],
+  "lookback_years": 10,
+  "citation": "KRS 189A.010(5)(d)",
+  "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58145",
+  "confidence": "high",
+  "notes": "Aggravating circumstances (a crash causing death or serious physical injury, BAC 0.15+, wrong-way driving, 30+ mph over the limit, refusal, and others in subsection 11) raise minimum jail terms; they are not separate felonies under 189A.010. Injury/death cases are charged under the KRS 507/508 homicide and assault statutes (not checked)."
+ },
+ {
+  "state": "LA",
+  "term": "OWI (statute now: operating a vehicle while impaired)",
+  "first_offense": "$300-$1,000 fine and 10 days-6 months (R.S. 14:98.1); misdemeanor-level (no hard labor)",
+  "felony_when": "Third offense: $2,000 fine and 1-5 years 'with or without hard labor' (felony-level); priors more than 10 years old do not count",
+  "other_felony": [],
+  "lookback_years": 10,
+  "citation": "La. R.S. 14:98, 14:98.1, 14:98.3, 14:98.4",
+  "url": "https://www.legis.la.gov/Legis/Law.aspx?d=670397&p=y",
+  "confidence": "medium",
+  "notes": "The statute does not use the word felony; felony status follows from the hard-labor exposure (La. R.S. 14:2, not read). The 'Child Endangerment Law' (14:98(B), child 12 or younger) sets mandatory minimum sentences; it is not a separate felony. A 2026 bill (HB 82) amended 14:98.3 - confirm the current text. Vehicular homicide and first-degree vehicular negligent injuring are separate statutes (not checked)."
+ },
+ {
+  "state": "MA",
+  "term": "OUI",
+  "first_offense": "Up to 2.5 years (house of correction) and $500-$5,000 fine; misdemeanor-level (no state prison)",
+  "felony_when": "Third offense (two prior convictions or alcohol-program assignments, any time) -> may be punished by state prison 2.5-5 years (felony-level); 4th+ similar with higher minimums",
+  "other_felony": [],
+  "lookback_years": null,
+  "citation": "M.G.L. c. 90, s. 24(1)(a)(1)",
+  "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24",
+  "confidence": "medium",
+  "notes": "Statute does not say 'felony'; felony status comes from state prison exposure under MA's general definition (c. 274 s. 1, not read here). No look-back period. Serious injury (s. 24L), manslaughter and child endangerment (s. 24V) are separate sections, not checked."
+ },
+ {
+  "state": "MD",
+  "term": "DUI (also DWI for 'impaired')",
+  "first_offense": "Misdemeanor: DUI up to 1 year and/or $1,200 (Transp. 21-902(a)(1)); Vehicle Law violations are misdemeanors unless the law says felony (27-101(a))",
+  "felony_when": "Not a felony under 21-902 at any offense number: second offense up to 2 years ($2,400); with a minor in the vehicle, up to 2 years first and 3 years second offense",
+  "other_felony": [],
+  "lookback_years": null,
+  "citation": "Md. Code, Transp. 21-902, 27-101(a)",
+  "url": "https://mgaleg.maryland.gov/2026RS/Statute_Web/gtr/21-902.pdf",
+  "confidence": "medium",
+  "notes": "21-902 lists only first and second-offense maximums. A 5-year window applies to mandatory minimums for repeat offenders. Homicide or life-threatening injury by motor vehicle while impaired is under the Criminal Law Article (2-503, 3-211), not checked."
+ },
+ {
+  "state": "ME",
+  "term": "OUI",
+  "first_offense": "Class D crime (Maine uses Classes A-E instead of felony/misdemeanor; Class D is misdemeanor-level)",
+  "felony_when": "Third offense: 2 previous OUI offenses within 10 years -> Class C crime (felony-level); 4th+ also Class C",
+  "other_felony": [
+   "OUI causing serious bodily injury (Class C)",
+   "OUI causing death (Class B)",
+   "OUI with a prior Class B or C OUI conviction or prior OUI homicide (Class B)"
+  ],
+  "lookback_years": 10,
+  "citation": "29-A M.R.S. 2411",
+  "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec2411.html",
+  "confidence": "high",
+  "notes": "Maine does not use the words felony/misdemeanor; Class C and above are felony-equivalent (crimes punishable by more than 1 year)."
+ },
+ {
+  "state": "MI",
+  "term": "OWI",
+  "first_offense": "Misdemeanor",
+  "felony_when": "Third offense: violation after 2 or more prior convictions, regardless of how many years have passed -> felony",
+  "other_felony": [
+   "OWI causing death (felony, up to 15 years)",
+   "OWI causing serious impairment of a body function (felony, up to 5 years)",
+   "OWI with passenger under 16 if within 7 years of a prior conviction or after 2+ priors (felony); first offense with child is a misdemeanor"
+  ],
+  "lookback_years": null,
+  "citation": "MCL 257.625",
+  "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625",
+  "confidence": "high",
+  "notes": "No look-back for the felony third offense (second offense within 7 years gets higher penalties only)."
+ },
+ {
+  "state": "MN",
+  "term": "DWI (statute: driving while impaired)",
+  "first_offense": "Fourth-degree DWI is a misdemeanor; a first offense can be gross misdemeanor (third/second degree) when aggravating factors apply",
+  "felony_when": "Fourth offense: violation within 10 years of the first of three or more qualified prior impaired driving incidents -> first-degree DWI, felony (up to 7 years)",
+  "other_felony": [
+   "Any DWI after a prior first-degree (felony) DWI conviction",
+   "Any DWI after a prior felony criminal vehicular homicide/injury conviction (609.2112-609.2114)"
+  ],
+  "lookback_years": 10,
+  "citation": "Minn. Stat. 169A.24, 169A.27",
+  "url": "https://www.revisor.mn.gov/statutes/cite/169A.24",
+  "confidence": "high",
+  "notes": "Aggravating factors (e.g. child under 16 in vehicle, BAC 0.16+) raise the degree but are not felonies on their own. Gross misdemeanor classes 169A.25-.26 not read in detail."
+ },
+ {
+  "state": "MO",
+  "term": "DWI",
+  "first_offense": "Class B misdemeanor (class A if a person under 17 is in the vehicle)",
+  "felony_when": "Persistent offender (two or more prior intoxication-related traffic offenses) -> class E felony; aggravated/chronic/habitual offenders -> class D/C/B felony",
+  "other_felony": [
+   "DWI with criminal negligence causing physical injury (class D felony)",
+   "...causing serious physical injury (class C felony)",
+   "...causing death (class B felony; class A for death of a law-enforcement or emergency worker per (7)(a) wording, or a repeat after a (6) conviction)",
+   "One prior intoxication-related offense where someone was injured or killed counts as persistent offender (class E felony)"
+  ],
+  "lookback_years": null,
+  "citation": "Mo. Rev. Stat. 577.010, 577.001",
+  "url": "https://revisor.mo.gov/main/OneSection.aspx?section=577.010",
+  "confidence": "high",
+  "notes": "The 5-year look-back applies only to 'prior offender' (2nd offense, class A misdemeanor). The persistent-offender (felony) definition has no time limit."
+ },
+ {
+  "state": "MS",
+  "term": "DUI",
+  "first_offense": null,
+  "felony_when": "Third DUI conviction with offenses committed within 5 years -> felony; fourth DUI regardless of time period -> felony",
+  "other_felony": [],
+  "lookback_years": 5,
+  "citation": "Miss. Code Ann. 63-11-30",
+  "url": "https://www.driverservicebureau.dps.ms.gov/DriverRecords/DUI_Department",
+  "confidence": "medium",
+  "notes": "Source is the Mississippi Dept. of Public Safety DUI FAQ, which calls DUI a 'criminal offense' but does not state the class of a first offense; the statute text (Lexis-hosted) was not readable. Injury/death and child-passenger provisions not confirmed."
+ },
+ {
+  "state": "MT",
+  "term": "DUI",
+  "first_offense": "Up to 6 months jail and $600-$1,000 fine (61-8-1007); statute gives no class label",
+  "felony_when": "Fourth or subsequent: a DUI with three or more prior DUI-related convictions -> felony (13 months-2 years DOC plus 5 years suspended, or treatment court); 61-8-1008 sets no look-back",
+  "other_felony": [
+   "Any DUI after a prior conviction for vehicular homicide while under the influence (45-5-106) or 45-5-107 -> felony"
+  ],
+  "lookback_years": null,
+  "citation": "MCA 61-8-1007, 61-8-1008, 61-8-1011",
+  "url": "https://mca.legmt.gov/bills/mca/title_0610/chapter_0080/part_0100/section_0080/0610-0080-0100-0080.html",
+  "confidence": "high",
+  "notes": "Code recodified in 2021 (formerly 61-8-401/61-8-731). A passenger under 16 raises the 1st-3rd offense penalties but they stay under 61-8-1007 (not a felony)."
+ },
+ {
+  "state": "NC",
+  "term": "DWI (statute: impaired driving)",
+  "first_offense": "Misdemeanor (G.S. 20-138.1(d)), sentenced at Levels Five to Aggravated Level One",
+  "felony_when": "Habitual impaired driving: DWI with three or more prior impaired-driving convictions within 10 years (i.e. 4th within 10 years) -> Class F felony, minimum 12 months active",
+  "other_felony": [
+   "Felony serious injury by vehicle / aggravated felony serious injury by vehicle (G.S. 20-141.4)",
+   "Felony death by vehicle / aggravated felony death by vehicle (G.S. 20-141.4)"
+  ],
+  "lookback_years": 10,
+  "citation": "G.S. 20-138.1, 20-138.5, 20-141.4",
+  "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.5.html",
+  "confidence": "high",
+  "notes": "A child under 18 in the vehicle is a grossly aggravating sentencing factor (G.S. 20-179), not a felony."
+ },
+ {
+  "state": "ND",
+  "term": "DUI",
+  "first_offense": "Class B misdemeanor (first or second offense within 7 years)",
+  "felony_when": "Fourth or subsequent offense within 15 years -> class C felony (third within 7 years is class A misdemeanor)",
+  "other_felony": [
+   "DUI with a minor in the vehicle, if the driver has a previous conviction under 39-08-01.4 (class C felony); first such offense is a class A misdemeanor"
+  ],
+  "lookback_years": 15,
+  "citation": "N.D.C.C. 39-08-01(3), 39-08-01.4",
+  "url": "https://ndlegis.gov/cencode/t39c08.pdf",
+  "confidence": "high",
+  "notes": "Injury/death cases fall under criminal vehicular injury/homicide in 39-08-01.2 (not checked)."
+ },
+ {
+  "state": "NE",
+  "term": "DUI",
+  "first_offense": "Class W misdemeanor",
+  "felony_when": "Fourth offense (three prior convictions within 15 years) -> Class IIIA felony; 5th+ Class IIA felony. Third offense with BAC 0.15+ -> Class IIIA felony",
+  "other_felony": [
+   "DUI causing serious bodily injury (Class IIIA felony, 60-6,198)"
+  ],
+  "lookback_years": 15,
+  "citation": "Neb. Rev. Stat. 60-6,197.03, 60-6,197.02, 60-6,198",
+  "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,197.03",
+  "confidence": "high",
+  "notes": "15-year period from 60-6,197.02 ('within the fifteen-year period prior')."
+ },
+ {
+  "state": "NH",
+  "term": "DWI (DUI also used)",
+  "first_offense": "Class B misdemeanor (may be reduced to a violation after 1 year on motion)",
+  "felony_when": "Fourth or subsequent offense with priors within 10 years -> felony (2nd and 3rd are class A misdemeanors)",
+  "other_felony": [
+   "Aggravated DWI causing serious bodily injury (class B felony; RSA 265-A:3, I(b)/II(b))"
+  ],
+  "lookback_years": 10,
+  "citation": "RSA 265-A:18, 265-A:3",
+  "url": "https://www.gencourt.state.nh.us/rsa/html/XXI/265-A/265-A-18.htm",
+  "confidence": "high",
+  "notes": "Carrying a passenger under 16 is aggravated DWI, a class A misdemeanor, not a felony. Read through Jina."
+ },
+ {
+  "state": "NJ",
+  "term": "DWI (DUI also used)",
+  "first_offense": "Not a crime: DWI under N.J.S.A. 39:4-50 is a motor-vehicle (traffic) offense heard in municipal court, without a jury",
+  "felony_when": "Never, on repeat offenses alone: even a 3rd or later DWI stays a motor-vehicle offense (max 180 days), per State v. Denelsbeck (N.J. 2016)",
+  "other_felony": [],
+  "lookback_years": null,
+  "citation": "N.J.S.A. 39:4-50; State v. Denelsbeck, 225 N.J. 103 (2016)",
+  "url": "https://www.njcourts.gov/system/files/court-opinions/2016/a_42_14.pdf",
+  "confidence": "medium",
+  "notes": "NJ uses 'indictable crimes' rather than felonies. Not verified on an official page: driving while suspended for DWI is reportedly a fourth-degree crime (N.J.S.A. 2C:40-26), and DWI-related assault by auto and vehicular homicide (2C:12-1(c), 2C:11-5) are crimes."
+ },
+ {
+  "state": "NM",
+  "term": "DWI",
+  "first_offense": "Up to 90 days imprisonment and/or fine up to $500, plus at least 24 hours community service; aggravated DWI requires at least 48 consecutive hours in jail (66-8-102(E))",
+  "felony_when": "Fourth conviction -> fourth degree felony, 18 months imprisonment (6 months not suspendable)",
+  "other_felony": [
+   "Fifth conviction -> fourth degree felony, 2 years (1 year not suspendable) (66-8-102(H))",
+   "Sixth conviction -> third degree felony, 30 months (18 not suspendable) (66-8-102(I))",
+   "Seventh conviction -> third degree felony, 3 years (2 not suspendable) (66-8-102(J))",
+   "Eighth or subsequent conviction -> second degree felony, 12 years (10 not suspendable) (66-8-102(K))"
+  ],
+  "lookback_years": null,
+  "citation": "NMSA 1978, 66-8-102(E), (G)-(K)",
+  "url": "https://codes.findlaw.com/nm/chapter-66-motor-vehicles/nm-st-sect-66-8-102/",
+  "confidence": "medium",
+  "notes": "Statute text via mirror (FindLaw, marked 'current as of January 01, 2024'); NMOneSource returned 403 and justia was bot-blocked. The text read states no look-back period (lookback_years left null; not confirmed whether that means none). Out-of-state, tribal and municipal convictions count as priors (66-8-102(S)). Did not check for 2025-2026 amendments. Injury/death cases fall under other statutes (not checked)."
+ },
+ {
+  "state": "NV",
+  "term": "DUI",
+  "first_offense": "Misdemeanor (first offense within 7 years)",
+  "felony_when": "Third offense within 7 years -> category B felony",
+  "other_felony": [
+   "Any DUI after a prior felony DUI, DUI causing death/substantial bodily harm, or DUI homicide (category B felony, 2-15 years; NRS 484C.410)",
+   "DUI causing death or substantial bodily harm (category B felony; NRS 484C.430)",
+   "Vehicular homicide with 3+ priors (category A felony; NRS 484C.130/484C.440)"
+  ],
+  "lookback_years": 7,
+  "citation": "NRS 484C.400, 484C.410, 484C.430",
+  "url": "https://www.leg.state.nv.us/NRS/NRS-484C.html",
+  "confidence": "high",
+  "notes": "A third offense may be reduced from a felony after treatment under NRS 484C.340; a later DUI still counts as a felony repeat."
+ },
+ {
+  "state": "NY",
+  "term": "DWI (DWAI for impaired)",
+  "first_offense": "DWI is a misdemeanor (up to 1 year); DWAI-alcohol (1192(1)) is a traffic infraction, not a crime",
+  "felony_when": "Second DWI within 10 years of a prior conviction -> class E felony; third DWI with two priors within 10 years (or 3+ priors within 15 years) -> class D felony",
+  "other_felony": [
+   "DWI with a child 15 or younger in the vehicle (Leandra's Law, 1192(2-a)(b)) -> class E felony even on a first offense",
+   "DWI with a prior vehicular assault or vehicular manslaughter conviction within 10 years -> class E felony",
+   "Impaired driving while license suspended/revoked, as aggravated unlicensed operation 1st degree (class E felony, VTL 511(3))"
+  ],
+  "lookback_years": 10,
+  "citation": "N.Y. Veh. & Traf. Law 1192, 1193(1)(c), 511(3)",
+  "url": "https://www.nysenate.gov/legislation/laws/VAT/1193",
+  "confidence": "high",
+  "notes": "A first DWAI-alcohol is a non-criminal traffic infraction. Serious injury/death cases are vehicular assault/manslaughter under the Penal Law (not checked). Page read through WebFetch."
+ },
+ {
+  "state": "OH",
+  "term": "OVI",
+  "first_offense": "Misdemeanor of the first degree",
+  "felony_when": "Fourth offense: 3 or 4 prior OVI convictions within 10 years, or 5+ priors within 20 years -> fourth-degree felony",
+  "other_felony": [
+   "Any OVI after a prior felony OVI, at any time (third-degree felony)",
+   "Prior repeat-OVI specification under R.C. 2941.1413 (fourth-degree felony)"
+  ],
+  "lookback_years": 10,
+  "citation": "Ohio Rev. Code 4511.19(G)(1)",
+  "url": "https://codes.ohio.gov/ohio-revised-code/section-4511.19",
+  "confidence": "high",
+  "notes": "Third offense within 10 years is an unclassified misdemeanor. Injury/death cases are aggravated vehicular assault/homicide under R.C. 2903.06/.08 (not checked)."
+ },
+ {
+  "state": "OK",
+  "term": "DUI",
+  "first_offense": "Misdemeanor: 10 days-1 year jail and up to $1,000 fine (47 O.S. 11-902(C)(1))",
+  "felony_when": "Second DUI within 10 years of completing the sentence or deferred judgment for a prior -> Class C2 felony (new 2026 classification system)",
+  "other_felony": [
+   "DUI after a prior felony DUI (Class B4 felony; higher after two prior felonies)",
+   "DUI after a prior DUI-caused murder 2nd degree or manslaughter 1st degree conviction",
+   "'Aggravated DUI' labeled a Class B3 felony: DUI plus BAC 0.15+, a reportable crash, certain moving violations, eluding police, speeding 20+ mph over (10+ in an active school zone), a passenger under 18, or reckless driving (11-902(D))"
+  ],
+  "lookback_years": 10,
+  "citation": "47 O.S. 11-902",
+  "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=439901",
+  "confidence": "medium",
+  "notes": "Text read on OSCN shows Version 1 (amended by SB 1627, eff. Apr 13, 2026) and Version 2 (SB 1543, eff. Nov 1, 2026). Both read 'aggravated driving under the influence, which shall be a Class B3 felony', yet 11-902(E) sentences it under subsection C (including the misdemeanor first-offense paragraph). This looks like an artifact of the 2026 crime-reclassification law; have a lawyer check before publishing. A child under 18 in the vehicle also doubles the fine (11-902(L))."
+ },
+ {
+  "state": "OR",
+  "term": "DUII",
+  "first_offense": "Class A misdemeanor",
+  "felony_when": "Third offense: two prior DUII convictions within 10 years -> Class C felony (ORS 813.011); ORS 813.010(5) also makes it a Class C felony with three priors within 10 years",
+  "other_felony": [
+   "After one felony DUII sentence, every later DUII is a Class C felony with no time limit (ORS 813.011(2))"
+  ],
+  "lookback_years": 10,
+  "citation": "ORS 813.010, 813.011",
+  "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors813.html",
+  "confidence": "high",
+  "notes": "A passenger under 18 raises the maximum fine to $10,000 but is not a felony. Injury/death cases fall under assault/manslaughter statutes (not checked)."
+ },
+ {
+  "state": "PA",
+  "term": "DUI",
+  "first_offense": "Ungraded misdemeanor, up to 6 months (also with no more than one prior offense)",
+  "felony_when": "Fourth offense: three or more prior offenses within 10 years -> felony of the third degree. Third offense (two priors) is a third-degree felony when it involves refusal or highest-rate/controlled-substance DUI (3802(c)/(d)); 4th+ of those -> second-degree felony",
+  "other_felony": [
+   "DUI with a minor under 18 in the vehicle and two or more prior offenses (third-degree felony)",
+   "Any DUI after a prior conviction for homicide by vehicle while DUI (sec. 3735) (third-degree felony)",
+   "Two priors where one is a 3802(h)(1) offense (third-degree felony)"
+  ],
+  "lookback_years": 10,
+  "citation": "75 Pa.C.S. 3803, 3806",
+  "url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=75&div=00.&chpt=038.&sctn=003.&subsctn=000.",
+  "confidence": "high",
+  "notes": "A 'prior offense' for grading must be within 10 years (3806(b)). Section 3803 was amended in 2025 and 2026. Injury/death cases are aggravated assault/homicide by vehicle while DUI (3735, 3735.1), not read."
+ },
+ {
+  "state": "RI",
+  "term": "DUI",
+  "first_offense": "Misdemeanor",
+  "felony_when": "Third or subsequent DUI within 10 years -> felony (1-3 years; 3-5 years with high BAC/drugs)",
+  "other_felony": [
+   "DUI while license suspended/revoked/cancelled for a prior DUI (felony, up to 3 years)",
+   "Second or later DUI with a child under 13 in the vehicle (felony, up to 5 years); first such offense is a misdemeanor"
+  ],
+  "lookback_years": 10,
+  "citation": "R.I. Gen. Laws 31-27-2",
+  "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-27/31-27-2.htm",
+  "confidence": "high",
+  "notes": "DUI causing serious bodily injury or death is in separate sections (31-27-2.6, 31-27-2.2), not checked."
+ },
+ {
+  "state": "SC",
+  "term": "DUI",
+  "first_offense": "Fine $400 or 48 hours-30 days (higher with BAC 0.10+); statute does not classify it",
+  "felony_when": null,
+  "other_felony": [
+   "Felony DUI - great bodily injury (30 days-15 years) (56-5-2945)",
+   "Felony DUI - death (1-25 years) (56-5-2945)"
+  ],
+  "lookback_years": 10,
+  "citation": "S.C. Code 56-5-2930, 56-5-2945",
+  "url": "https://www.scstatehouse.gov/code/t56c005.php",
+  "confidence": "medium",
+  "notes": "Priors count within 10 years. Third offense carries up to 3 years and 4th+ 1-5 years, but 56-5-2930 does not say whether these are felonies or misdemeanors; only 56-5-2945 is labeled 'felony driving under the influence'. Check S.C. Code 16-1-10 before saying repeat DUI is a felony."
+ },
+ {
+  "state": "SD",
+  "term": "DUI",
+  "first_offense": "Class 1 misdemeanor (SDCL 32-23-2)",
+  "felony_when": "Third offense within 10 years -> Class 6 felony; 4th Class 5 felony; 5th+ Class 4 felony",
+  "other_felony": [],
+  "lookback_years": 10,
+  "citation": "SDCL 32-23-2, 32-23-4, 32-23-4.1, 32-23-4.6, 32-23-4.7",
+  "url": "https://sdlegislature.gov/Statutes/32-23-4",
+  "confidence": "high",
+  "notes": "10-year look-back in 32-23-4.1 (with an exception in 32-23-4.9, not read). Injury/death cases are vehicular battery/homicide under Title 22 (not checked)."
+ },
+ {
+  "state": "TN",
+  "term": "DUI",
+  "first_offense": "48 hours-11 months 29 days jail and $350-$1,500 fine (misdemeanor-range sentence; no class stated on the form)",
+  "felony_when": "Fourth offense -> Class E felony; 5th Class D; 6th+ Class C",
+  "other_felony": [
+   "DUI where a child under 18 passenger suffers serious bodily injury (Class D felony, punished as vehicular assault under 39-13-106)",
+   "DUI where a child passenger is killed (Class B felony, vehicular homicide by intoxication)"
+  ],
+  "lookback_years": null,
+  "citation": "Tenn. Code Ann. 55-10-401, 55-10-402",
+  "url": "https://montgomerytn.gov/storage/departments/circuit/DUI%20Enhancement%20Form.pdf",
+  "confidence": "medium",
+  "notes": "Source is the Montgomery County Circuit/General Sessions Court 'Notice of DUI Punishment' form, which quotes the statute; the official TN code (Lexis) and the tn.gov DUI outline would not load. The form does not state a look-back period (not confirmed). Vehicular assault/homicide in general (39-13-106, -213) not checked."
+ },
+ {
+  "state": "TX",
+  "term": "DWI",
+  "first_offense": "Class B misdemeanor (min 72 hours); Class A misdemeanor if BAC 0.15+",
+  "felony_when": "Third offense: two prior DWI-type convictions (or one prior intoxication manslaughter) -> third-degree felony; statute sets no time limit",
+  "other_felony": [
+   "DWI with passenger younger than 15 (state jail felony, Sec. 49.045)",
+   "DWI in a school crossing zone while reduced limit applies (state jail felony, Sec. 49.04(e))",
+   "Intoxication assault - serious bodily injury (third-degree felony, Sec. 49.07)",
+   "Intoxication manslaughter - death (second-degree felony, Sec. 49.08)"
+  ],
+  "lookback_years": null,
+  "citation": "Tex. Penal Code 49.04, 49.045, 49.07, 49.08, 49.09",
+  "url": "https://tcss.legis.texas.gov/resources/PE/htm/PE.49.htm",
+  "confidence": "high",
+  "notes": "No look-back in 49.09(b) for felony enhancement."
+ },
+ {
+  "state": "UT",
+  "term": "DUI",
+  "first_offense": "Class B misdemeanor (class A if passenger under 16, passenger under 18 with a driver 21+, or driving the wrong way on a one-way highway)",
+  "felony_when": "Third or subsequent DUI within 10 years -> third-degree felony",
+  "other_felony": [
+   "DUI after any prior felony DUI conviction (third-degree felony)",
+   "DUI after a prior conviction for negligent operation of a vehicle resulting in injury (third-degree felony)"
+  ],
+  "lookback_years": 10,
+  "citation": "Utah Code 41-6a-503, 41-6a-505",
+  "url": "https://justice.utah.gov/wp-content/uploads/2025-DUI-Statutory-Overview.pdf",
+  "confidence": "medium",
+  "notes": "Source is the Utah Commission on Criminal and Juvenile Justice 'Utah DUI Statutory Overview' (current as of May 2025); the le.utah.gov statute page would not load as text. DUI causing serious bodily injury is not shown in this summary; check 41-6a-503 for it. Automobile homicide is 76-5-207."
+ },
+ {
+  "state": "VA",
+  "term": "DUI (DWI also used)",
+  "first_offense": "Class 1 misdemeanor",
+  "felony_when": "Third offense within 10 years -> Class 6 felony",
+  "other_felony": [
+   "Any later DUI after a prior felony DUI, or after a conviction under 18.2-36.1, 18.2-36.2 (involuntary manslaughter), 18.2-51.4 or 18.2-51.5 (maiming while DUI) -> Class 6 felony"
+  ],
+  "lookback_years": 10,
+  "citation": "Va. Code 18.2-266, 18.2-270",
+  "url": "https://law.lis.virginia.gov/vacode/title18.2/chapter7/section18.2-270/",
+  "confidence": "high",
+  "notes": "Carrying a passenger aged 17 or younger adds a fine and 5 days mandatory jail; it is not a felony."
+ },
+ {
+  "state": "VT",
+  "term": "DUI",
+  "first_offense": "Up to 2 years and/or $750 fine (statute gives no class label; misdemeanor-level)",
+  "felony_when": "Third offense: two prior convictions, at least one within the last 20 years -> up to 5 years (felony-level)",
+  "other_felony": [
+   "DUI resulting in death (1-15 years)",
+   "DUI resulting in serious bodily injury to someone other than the driver (up to 15 years)",
+   "Fourth+ offense (up to 10 years)"
+  ],
+  "lookback_years": 20,
+  "citation": "23 V.S.A. 1210",
+  "url": "https://legislature.vermont.gov/statutes/section/23/013/01210",
+  "confidence": "medium",
+  "notes": "The statute does not use 'felony'; classification follows Vermont's general rule that a crime punishable by more than 2 years is a felony (13 V.S.A. 1, not read). Look-back only requires one prior within 20 years."
+ },
+ {
+  "state": "WA",
+  "term": "DUI",
+  "first_offense": "Gross misdemeanor",
+  "felony_when": "Three or more prior offenses within 15 years (i.e. 4th within 15 years) -> class B felony",
+  "other_felony": [
+   "Any DUI after a prior conviction for vehicular homicide or vehicular assault while under the influence, or a prior felony DUI/physical control (class B felony)"
+  ],
+  "lookback_years": 15,
+  "citation": "RCW 46.61.502(6)",
+  "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.502",
+  "confidence": "high",
+  "notes": "'Prior offense' is defined in RCW 46.61.5055."
+ },
+ {
+  "state": "WI",
+  "term": "OWI",
+  "first_offense": "Civil forfeiture ($150-$300), not a crime (346.65(2)(am)1.)",
+  "felony_when": "Fourth offense: total of 4 counted convictions/suspensions/revocations (lifetime count under s. 343.307(1)) -> Class H felony; 5-6 Class G; 7-9 Class F; 10+ Class E",
+  "other_felony": [
+   "Third offense with a passenger under 16 (any offense penalized under (am)3.-7. with a minor under 16 is a felony)"
+  ],
+  "lookback_years": null,
+  "citation": "Wis. Stat. 346.65(2)",
+  "url": "https://docs.legis.wisconsin.gov/statutes/statutes/346/x/65",
+  "confidence": "high",
+  "notes": "Only the 2nd offense uses a 10-year window; the 3rd+ count is lifetime. A first OWI with a minor passenger under 16 is a misdemeanor (346.65(2)(f), not read in detail). Injury/great bodily harm/homicide by intoxicated use (940.09, 940.25) not read. Read through Jina."
+ },
+ {
+  "state": "WV",
+  "term": "DUI",
+  "first_offense": "Misdemeanor: up to 6 months jail and $100-$500 fine; 6-month license revocation or test-and-lock (17C-5-2(e)); BAC 0.15+ adds at least 24 hours jail (17C-5-2(f))",
+  "felony_when": "Third or subsequent offense (two or more prior convictions, counting offenses within the 10 years before the current arrest) -> felony, 2 to 5 years in a state correctional facility, $3,000-$5,000 fine, life revocation or test-and-lock",
+  "other_felony": [
+   "DUI proximately causing death (within 1 year) -> felony, 3 to 15 years (17C-5-2(b))",
+   "DUI proximately causing serious bodily injury to another -> felony, 2 to 10 years (17C-5-2(c))"
+  ],
+  "lookback_years": 10,
+  "citation": "W. Va. Code 17C-5-2(b), (c), (e), (m), (n)",
+  "url": "https://codes.findlaw.com/wv/chapter-17c-traffic-regulations-and-laws-of-the-road/wv-code-sect-17c-5-2/",
+  "confidence": "medium",
+  "notes": "Statute text via mirror (FindLaw, marked 'current as of January 01, 2024'); code.wvlegislature.gov and wvlegislature.gov reset connections/timed out again, and justia was bot-blocked. That text predates 2025 SB 138, which search results say amended 17C-5-2 (reportedly eff. June 2025) regarding second and third offenses; not read, so penalties may have changed. DUI causing bodily injury (non-serious) is a misdemeanor (17C-5-2(d)). Out-of-state/federal convictions count (17C-5-2(n)(2))."
+ },
+ {
+  "state": "WY",
+  "term": "DUI",
+  "first_offense": "Up to 6 months jail and/or $750 fine (misdemeanor)",
+  "felony_when": "Fourth or subsequent offense within 10 years -> up to 7 years prison and $10,000 fine (felony-level)",
+  "other_felony": [
+   "DUI causing serious bodily injury (up to 10 years; 20 years with a prior SBI conviction)",
+   "DUI with a child passenger under 16 after a previous child-passenger DUI conviction (up to 5 years)"
+  ],
+  "lookback_years": 10,
+  "citation": "W.S. 31-5-233",
+  "url": "https://wyoleg.gov/InterimCommittee/2020/01-2020051913-01TopicSummary-Judiciary-DUIStatutes.pdf",
+  "confidence": "medium",
+  "notes": "Source is a 2020 Legislative Service Office memo, not the statute text; laws may have changed since. For a 4th offense the look-back counts from the offense date. 'Felony' is inferred from the more-than-1-year prison exposure."
+ }
+]

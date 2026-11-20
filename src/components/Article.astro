@@ -13,6 +13,7 @@ import { attorneys } from '../data/attorneys';
 import { serviceLabels } from '../data/attorneyFacts';
 import recordChecks from '../data/recordChecks.json';
 import cfpb from '../data/cfpbComplaints.json';
+import duiFelony from '../data/duiFelony.json';
 import { stateNames, stateSlug } from '../data/cities';
 
 interface Props { slug: string; }
@@ -32,11 +33,15 @@ const sections = article.sections.map((s: any) => ({
 }));
 const showRecordChecks = slug === 'how-to-get-a-copy-of-your-criminal-record';
 const showComplaints = slug === 'expunged-record-showing-on-background-check';
+const showDui = slug === 'is-a-dui-a-felony';
+const duiRows = showDui ? [...(duiFelony as any[])].filter(d => stateNames[d.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state])) : [];
+const felonyAt: Record<string, string> = article.felony_at || {};
+const atCount = (k: string) => duiRows.filter(d => felonyAt[d.state] === k).length;
 const cfpbMax = Math.max(...cfpb.companies.flatMap(c => c.counts));
 const checks = showRecordChecks ? [...(recordChecks as any[])].filter(c => stateNames[c.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state])) : [];
 const fpKind = (f: string) => /^required/i.test(f) ? 'required' : /^not required/i.test(f) ? 'not' : /^optional/i.test(f) ? 'optional' : 'depends';
 const fpCount = (k: string) => checks.filter(c => fpKind(c.fingerprints || '') === k).length;
-const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(showRecordChecks ? [{ id: 'every-state', label: 'How to Get Your Record in Every State' }] : []), ...(showComplaints ? [{ id: 'complaints', label: 'How Often Do People Complain About Background Check Companies?' }] : []), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
+const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(showRecordChecks ? [{ id: 'every-state', label: 'How to Get Your Record in Every State' }] : []), ...(showDui ? [{ id: 'every-state', label: 'DUI and Felony Rules in Every State' }] : []), ...(showComplaints ? [{ id: 'complaints', label: 'How Often Do People Complain About Background Check Companies?' }] : []), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
 const words = JSON.stringify(article).split(/\s+/).length;
 const minutes = Math.max(3, Math.round(words / 230));
 
@@ -109,6 +114,30 @@ const gunFirms = attorneys.filter(a => serviceLabels(a, 12).includes('Gun rights
             )}
           </section>
         ))}
+
+        {showDui && (
+          <section id="every-state" class="mb-12 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">DUI and Felony Rules in Every State</h2>
+            <BarChart title="When a repeat DUI alone becomes a felony: number of states" rows={[{ label: 'Second offense', value: atCount('2nd'), tone: 'red' }, { label: 'Third offense', value: atCount('3rd'), tone: 'amber' }, { label: 'Fourth offense', value: atCount('4th'), tone: 'blue' }, { label: 'Fifth offense or later', value: atCount('5th or later'), tone: 'green' }, { label: 'Never on repeat offenses alone', value: atCount('never (repeat offenses alone)'), tone: 'gray' }, { label: 'Unclear from the law we read', value: atCount('unclear'), tone: 'gray' }]} source="Out of 50 states and DC, from each state's DUI statute (look-back periods differ; details below). Injury, death, a child passenger or other factors can make a DUI a felony sooner. Checked November 2026." />
+            <div class="space-y-4">
+              {duiRows.map(d => (
+                <div id={`dui-${stateSlug(d.state)}`} class="rounded-xl border border-gray-200 p-5 scroll-mt-24">
+                  <h3 class="!text-lg font-bold !mb-2">{`${stateNames[d.state]}${d.term ? ` (${d.term})` : ''}`}</h3>
+                  <dl class="text-[15px] space-y-1.5">
+                    {d.first_offense && <div><dt class="inline font-semibold">First offense: </dt><dd class="inline text-gray-700">{d.first_offense}</dd></div>}
+                    {d.felony_when && <div><dt class="inline font-semibold">Becomes a felony: </dt><dd class="inline text-gray-700">{d.felony_when}</dd></div>}
+                    {d.other_felony && d.other_felony.length > 0 && <div><dt class="inline font-semibold">Also a felony: </dt><dd class="inline text-gray-700">{d.other_felony.join('; ')}</dd></div>}
+                  </dl>
+                  <p class="text-sm mt-3">
+                    {d.url && <a href={d.url} target="_blank" rel="noopener noreferrer" class="underline text-gray-600">{d.citation || 'Statute'}</a>}
+                    <span>{' · '}</span><a href={`/states/${stateSlug(d.state)}`} class="text-secondary font-semibold">{`Clearing a record in ${stateNames[d.state]}`}</a>
+                  </p>
+                  {d.confidence !== 'high' && <p class="text-xs text-gray-500 mt-2">{d.confidence === 'low' ? 'We could not read the current official text; check with a local attorney or the court.' : 'Based on an official summary or older statute text; recent changes may not be reflected.'}</p>}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {showComplaints && (
           <section id="complaints" class="mb-12 scroll-mt-24">
