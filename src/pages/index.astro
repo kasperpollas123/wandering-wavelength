@@ -20,7 +20,6 @@ const citiesWithActualCounts = cities.map(city => {
 
 const states = Object.keys(stateNames)
   .map(code => ({ code, name: stateNames[code], count: getAttorneysByState(code).length }))
-  .filter(st => st.count > 0)
   .sort((a, b) => a.name.localeCompare(b.name));
 const helpTotal = helpStates.reduce((n, st) => n + st.count, 0);
 
@@ -73,7 +72,7 @@ const titleCase = (s: string) => s.split(' ').map(w => w ? w[0].toUpperCase() + 
         {states.map(st => (
           <a href={`/states/${stateSlug(st.code)}`} class="flex items-center justify-between px-4 py-3 rounded-lg border border-gray-200 bg-white hover:border-secondary transition-colors">
             <span class="font-medium">{st.name}</span>
-            <span class="text-sm text-gray-500">{`${st.count}`}</span>
+            {st.count > 0 && <span class="text-sm text-gray-500">{`${st.count}`}</span>}
           </a>
         ))}
       </div>

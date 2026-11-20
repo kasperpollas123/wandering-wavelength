@@ -5,6 +5,7 @@ import { attorneys, getCityForAttorney } from '../../data/attorneys';
 import { stateNames, stateSlug } from '../../data/cities';
 import { getHelpForState } from '../../data/freeHelp';
 import { badges, BADGE_CLASS, serviceLabels, initials, hasPhoto, telHref, prettyPhone, prettyHost, otherLanguages, listingOrder, summary } from '../../data/attorneyFacts';
+import RelatedGuides from '../../components/RelatedGuides.astro';
 
 export function getStaticPaths() {
   return attorneys.map(attorney => ({
@@ -220,4 +221,5 @@ const H2 = '!text-xl !mb-3 font-bold text-gray-900 flex items-center gap-2';
       </div>
     </section>
   )}
+  <RelatedGuides state={hasStatePage ? attorney.state : undefined} />
 </PageLayout>

@@ -1,0 +1,36 @@
+---
+// Links to the guides from state, city, attorney and free-help pages, so search engines and readers find them.
+import { stateNames, stateSlug } from '../data/cities';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+
+interface Props { state?: string; title?: string }
+const { state, title } = Astro.props;
+const name = state ? stateNames[state] : undefined;
+
+const exists = (slug: string) => existsSync(join(process.cwd(), 'src/pages/guides', `${slug}.astro`));
+const all = [
+  { slug: 'expungement-cost-by-state', label: name ? `What it costs to clear a record in ${name}` : 'What expungement costs in every state', hash: state ? `#${stateSlug(state)}` : '' },
+  { slug: 'how-long-does-expungement-take', label: 'How long does expungement take?' },
+  { slug: 'what-is-deferred-adjudication', label: 'What is deferred adjudication?' },
+  { slug: 'how-to-get-a-copy-of-your-criminal-record', label: 'How to get a copy of your criminal record' },
+  { slug: 'how-far-back-does-a-background-check-go', label: 'How far back does a background check go?' },
+  { slug: 'expunged-record-showing-on-background-check', label: 'Expunged record still on a background check?' },
+  { slug: 'expunged-vs-sealed-vs-pardoned', label: 'Expunged vs. sealed vs. pardoned' },
+  { slug: 'is-a-dui-a-felony', label: name ? `Is a DUI a felony in ${name}?` : 'Is a DUI a felony?' },
+];
+const guides = all.filter(g => exists(g.slug)).slice(0, 6);
+---
+{guides.length > 0 && (
+  <section class="py-8 bg-white border-t border-gray-200">
+    <div class="container max-w-5xl">
+      <h2 class="!text-xl font-bold !mb-4">{title || 'Guides that can help'}</h2>
+      <ul class="grid gap-2 sm:grid-cols-2">
+        {guides.map(g => (
+          <li><a href={`/guides/${g.slug}${g.hash || ''}`} class="block rounded-lg border border-gray-200 px-4 py-3 text-[15px] font-medium text-secondary hover:border-secondary transition-colors">{g.label}</a></li>
+        ))}
+      </ul>
+      <a href="/guides" class="mt-4 inline-block text-sm font-semibold text-secondary">All guides →</a>
+    </div>
+  </section>
+)}

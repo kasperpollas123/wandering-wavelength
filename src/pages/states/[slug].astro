@@ -8,6 +8,7 @@ import { badges, BADGE_CLASS, telHref, prettyPhone } from '../../data/attorneyFa
 import { getStateFacts, guideTopics, clearableLabel } from '../../data/guides';
 import bjs from '../../data/bjsRecords2022.json';
 import { getStateCost, getGap, roundPeople, hostOf as costHost, costsChecked } from '../../data/stateCosts';
+import RelatedGuides from '../../components/RelatedGuides.astro';
 
 // One page for every state that has at least one attorney in the directory
 export function getStaticPaths() {
@@ -187,4 +188,5 @@ const description = attorneys.length > 0 ? `${stateName} expungement rules in pl
     </div>
   </section>
 
+  <RelatedGuides state={code} title={`Guides for ${stateName}`} />
 </PageLayout>

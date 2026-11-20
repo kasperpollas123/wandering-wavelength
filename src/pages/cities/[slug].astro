@@ -6,6 +6,7 @@ import { cities, stateNames, stateSlug } from '../../data/cities';
 import { getAttorneysForCity } from '../../data/attorneys';
 import { listingOrder, otherLanguages, isFormerProsecutor } from '../../data/attorneyFacts';
 import { getHelpForState } from '../../data/freeHelp';
+import RelatedGuides from '../../components/RelatedGuides.astro';
 
 export function getStaticPaths() {
   return cities.filter(city => getAttorneysForCity(city).length > 0).map(city => ({
@@ -165,4 +166,5 @@ const nearbyCitiesWithCounts = cities
     </section>
   )}
   
+  <RelatedGuides state={city.state} />
 </PageLayout>

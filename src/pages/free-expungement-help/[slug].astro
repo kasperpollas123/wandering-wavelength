@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { stateNames, stateSlug, stateExpungementInfo } from '../../data/cities';
 import { helpStates, getHelpForState, helpChecked } from '../../data/freeHelp';
 import { getAttorneysByState } from '../../data/attorneys';
+import RelatedGuides from '../../components/RelatedGuides.astro';
 
 export function getStaticPaths() {
   return helpStates.map(s => ({ params: { slug: stateSlug(s.code) }, props: { code: s.code } }));
@@ -76,4 +77,5 @@ const description = `${orgs.length} legal aid offices and clinics that help clea
       </div>
     </div>
   </section>
+  <RelatedGuides state={code} />
 </PageLayout>
