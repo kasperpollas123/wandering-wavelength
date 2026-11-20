@@ -2,6 +2,7 @@ import { cities, stateNames, stateSlug } from '../data/cities';
 import { attorneys, getAttorneysByState, getAttorneysForCity } from '../data/attorneys';
 import { helpStates } from '../data/freeHelp';
 import { guideTopics } from '../data/guides';
+import articles from '../data/articles.json';
 
 export async function get() {
   // Base URL for the site
@@ -48,7 +49,8 @@ export async function get() {
     ...helpStates.map(s => ({ url: `/free-expungement-help/${stateSlug(s.code)}`, priority: '0.8', changefreq: 'monthly' }))];
 
   const guidePages = [{ url: '/guides', priority: '0.8', changefreq: 'monthly' },
-    ...guideTopics.map(t => ({ url: `/guides/${t.slug}`, priority: '0.9', changefreq: 'monthly' }))];
+    ...guideTopics.map(t => ({ url: `/guides/${t.slug}`, priority: '0.9', changefreq: 'monthly' })),
+    ...articles.map(a => ({ url: `/guides/${a.slug}`, priority: '0.9', changefreq: 'monthly' }))];
 
   const allPages = [...mainPages, ...statePages, ...helpPages, ...guidePages, ...cityPages, ...attorneyPages];
   

@@ -2,11 +2,12 @@
 import PageLayout from '../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { guideTopics } from '../../data/guides';
+import articles from '../../data/articles.json';
 ---
 
 <PageLayout
   title="Guides to Criminal Records and Clearing Them"
-  description="Plain-English guides on how long a DUI, misdemeanor or felony stays on your record in each state, and whether it can be cleared."
+  description="Plain-English guides: how long a DUI, misdemeanor or felony stays on your record, restoring gun rights, eviction records and background check errors."
   canonicalURL="/guides"
 >
   <div class="container py-8 mt-8">
@@ -22,6 +23,12 @@ import { guideTopics } from '../../data/guides';
             <a href={`/guides/${t.slug}`} class="block p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
               <h2 class="text-xl font-semibold mb-1">{t.title}</h2>
               <p class="text-gray-700">{t.description}</p>
+            </a>
+          ))}
+          {(articles as any[]).map(a => (
+            <a href={`/guides/${a.slug}`} class="block p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+              <h2 class="text-xl font-semibold mb-1">{a.title}</h2>
+              <p class="text-gray-700">{a.description}</p>
             </a>
           ))}
         </div>

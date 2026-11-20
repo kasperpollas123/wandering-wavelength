@@ -1,1 +1,695 @@
-[]
+[
+ {
+  "slug": "restoring-gun-rights-after-a-conviction",
+  "title": "How to Restore Gun Rights After a Felony Conviction",
+  "nav": "Gun Rights Restoration",
+  "description": "How firearm rights can be restored after a conviction: the federal rules, the application process reopened in 2026, and how ten states handle it.",
+  "intro": [
+   "Federal law bars people with certain convictions from having firearms or ammunition. Those rights can be restored in some cases, through state relief, a federal application, or both. Which route applies depends on where the conviction happened and what kind it was.",
+   "The federal application route was unusable from 1992 until recently. The Department of Justice reopened it in 2026 under a new process called Federal Firearm Rights Restoration. Approval is not automatic.",
+   "State and federal rules work separately. Relief under one does not always remove the ban under the other. This page is general information, not legal advice."
+  ],
+  "sections": [
+   {
+    "heading": "Who the federal gun ban covers",
+    "paragraphs": [
+     "The main federal rule is 18 U.S.C. 922(g). It lists nine groups of people who may not possess, ship, transport or receive firearms or ammunition. Two of the groups are based on convictions:"
+    ],
+    "bullets": [
+     "Anyone convicted in any court of a crime punishable by imprisonment for more than one year. The test is the sentence the crime could carry, not the time actually served.",
+     "Anyone convicted of a misdemeanor crime of domestic violence. This is a misdemeanor involving the use or attempted use of physical force, or the threatened use of a deadly weapon, committed by someone in a listed relationship to the victim, such as a current or former spouse, a parent or guardian, a person who shares a child with the victim, or a current or recent former dating partner."
+    ]
+   },
+   {
+    "heading": "When a conviction stops counting under federal law",
+    "paragraphs": [
+     "Federal law says a conviction that has been expunged (cleared from the record), set aside (canceled by a court) or pardoned (officially forgiven), or for which the person has had civil rights restored, is not treated as a conviction. There is one exception. It still counts if the pardon, expungement or restoration expressly says the person may not ship, transport, possess or receive firearms.",
+     "The wording of the relief matters. In Caron v. United States (1998), the Supreme Court held that where a state restored a person's rights but still restricted handguns, the convictions still counted for the federal ban on all firearms.",
+     "The relief must also come from the jurisdiction that entered the conviction. In Beecham v. United States (1994), the Court held that a state restoration of civil rights did not remove the federal ban for a federal conviction.",
+     "A separate 5-year rule covers a single misdemeanor domestic violence conviction based on a dating relationship, with conditions. The 2022 changes on dating relationships do not apply to convictions entered before June 25, 2022."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "The federal application process reopened in 2026",
+    "paragraphs": [
+     "Under 18 U.S.C. 925(c), a barred person may apply to the Attorney General for relief from the federal ban. The Attorney General may grant it if satisfied that the applicant will not be likely to act in a manner dangerous to public safety and that relief would not be contrary to the public interest.",
+     "From 1992, Congress barred the use of federal funds to process these applications. A final rule published on August 20, 2026 and effective September 21, 2026 set up a new process. Applications opened to invited candidates on September 25, 2026 and to the public on November 4, 2026, when the Department said the first 5,000 candidates can apply. The next date listed is January 4, 2027, when 500 more candidates can apply and the application fee will begin.",
+     "It could not be confirmed whether the 5,000 cap has been reached, what the 500 figure means in practice, or how long decisions take. The steps the Department lists are:"
+    ],
+    "bullets": [
+     "An online application. Once started, it must be completed within 30 days.",
+     "A $30 non-refundable fee. Applicants may ask for it to be waived or reduced and must give the reason. The criteria for waivers had not been published.",
+     "Electronic fingerprints, taken at a participating US Post Office after the first part of the application is submitted and a QR code arrives by email.",
+     "Character references, then contact with restoration specialists and a final decision."
+    ]
+   },
+   {
+    "heading": "Applications the 2026 rule says will be denied",
+    "paragraphs": [
+     "The rule lists situations in which an application will be denied, absent extraordinary circumstances. This is a partial summary. The full list is in the rule."
+    ],
+    "bullets": [
+     "With no time limit: felony convictions involving, among others, the death of another person, sexual assault, kidnapping, domestic violence, burglary, robbery, arson, assault, stalking, or brandishing or discharging a firearm.",
+     "Within the last 10 years, counting the conviction or any part of the sentence: felonies involving, among others, drug manufacture or distribution, threats of violence or explosives, and a misdemeanor crime of domestic violence.",
+     "Within the last 5 years: any other felony, and any assault, battery or stalking offense or threatened act of violence.",
+     "Current status: for example, awaiting sentence, serving any part of a sentence, or taking part in a diversion program."
+    ]
+   },
+   {
+    "heading": "What a federal grant does and does not do",
+    "paragraphs": [
+     "A grant removes the federal ban for which relief was sought. The FBI then updates the national background check system (NICS). A person who later becomes subject to a new ban must reapply.",
+     "A grant does not remove a separate ban under state law. After a denial, the person may ask the US district court where they live to review the decision, and can usually reapply after a waiting period."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "How state restoration works in ten states",
+    "paragraphs": [
+     "States use different methods. Some restore rights automatically after a waiting period. Some require a petition (a written request) to a court. Some leave the decision to a pardon or parole board.",
+     "The table shows ten states with a process set out in a state source. Only these ten were checked, so nothing here describes any other state. Each state's rules have exclusions and conditions that are not listed."
+    ],
+    "table": {
+     "headers": [
+      "State",
+      "Who decides",
+      "Main rule in the state source"
+     ],
+     "rows": [
+      [
+       "Arizona",
+       "A judicial officer, at their discretion (A.R.S. 13-910)",
+       "Never available for a dangerous offense. For a serious offense, not until 10 years after absolute discharge."
+      ],
+      [
+       "Georgia",
+       "State Board of Pardons and Paroles",
+       "Restoring civil and political rights does not include firearm rights, which the Board must grant specifically. The Board cannot restore firearm rights for a federal conviction."
+      ],
+      [
+       "Idaho",
+       "Automatic for most felonies; Commission of Pardons and Parole for listed felonies (Idaho Code 18-310)",
+       "Rights return on final discharge for most felonies. For listed felonies, an application is possible no sooner than 5 years after final discharge."
+      ],
+      [
+       "Michigan",
+       "Automatic after a waiting period (MCL 750.224f)",
+       "The ban ends 3 years after fines are paid and imprisonment, probation and parole are completed. For a specified felony, 5 years plus restoration under MCL 28.424. For a misdemeanor involving domestic violence, 8 years."
+      ],
+      [
+       "Minnesota",
+       "A court, by petition (Minn. Stat. 609.165)",
+       "For a person barred because of a crime of violence. The court may restore the right for good cause if the person has been released from physical confinement. After a denial, a 3-year wait unless the court allows earlier."
+      ],
+      [
+       "North Carolina",
+       "District court, by petition (G.S. 14-415.4)",
+       "One nonviolent felony only. Civil rights restored for at least 20 years. One year's residence. $200 filing fee unless indigent."
+      ],
+      [
+       "Ohio",
+       "Court of common pleas in the county of residence (R.C. 2923.14)",
+       "Requires completion of sentence and supervision and a law-abiding life since."
+      ],
+      [
+       "Oregon",
+       "Circuit court in the county of residence (ORS 166.274)",
+       "The petitioner must show by clear and convincing evidence that they are not a threat to public safety or themselves."
+      ],
+      [
+       "Virginia",
+       "Circuit court where the person lives (Va. Code 18.2-308.2(C))",
+       "A person convicted of a felony may petition only after civil rights have been restored by the Governor or other appropriate authority. The court may grant for good cause."
+      ],
+      [
+       "Washington",
+       "Superior court in the county that entered the prohibition (RCW 9.41.041)",
+       "5 crime-free years in the community for a felony and listed misdemeanors; 3 years for other non-felony crimes. Not available for felony sex offenses, class A felonies, or felonies with a maximum sentence of 20 years or more."
+      ]
+     ]
+    },
+    "bullets": []
+   },
+   {
+    "heading": "Why state restoration may not lift the federal ban",
+    "paragraphs": [
+     "The Department of Justice states that state restoration of rights does not remove disabilities (legal bans) imposed by a federal conviction, and that a state restoration of a state conviction also may not remove federal disabilities. The sources give three reasons:"
+    ],
+    "bullets": [
+     "The conviction was federal. Only federal relief counts for it.",
+     "The state relief leaves some firearm restriction in place. That triggers the exception described above.",
+     "For a misdemeanor domestic violence conviction, restored civil rights only help if the law of that jurisdiction takes civil rights away for that offense in the first place."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "18 U.S.C. 922 (who is barred)",
+    "url": "https://www.law.cornell.edu/uscode/text/18/922"
+   },
+   {
+    "label": "18 U.S.C. 921 (definitions)",
+    "url": "https://www.law.cornell.edu/uscode/text/18/921"
+   },
+   {
+    "label": "18 U.S.C. 925 (relief from disabilities)",
+    "url": "https://www.law.cornell.edu/uscode/text/18/925"
+   },
+   {
+    "label": "Caron v. United States (1998)",
+    "url": "https://www.law.cornell.edu/supct/html/97-6270.ZS.html"
+   },
+   {
+    "label": "Beecham v. United States (1994)",
+    "url": "https://www.law.cornell.edu/supct/html/93-445.ZS.html"
+   },
+   {
+    "label": "Federal Register final rule, August 20, 2026",
+    "url": "https://www.federalregister.gov/documents/2026/08/20/2026-16981/application-for-relief-from-disabilities-imposed-by-federal-laws-with-respect-to-the-acquisition"
+   },
+   {
+    "label": "DOJ Federal Firearm Rights Restoration program page",
+    "url": "https://www.justice.gov/ffrr"
+   },
+   {
+    "label": "DOJ program FAQ",
+    "url": "https://www.justice.gov/ffrr/federal-firearm-rights-restoration-frequently-asked-questions"
+   },
+   {
+    "label": "DOJ application fee and fee waiver page",
+    "url": "https://www.justice.gov/ffrr/federal-firearm-rights-restoration-application-fee-fee-waiver-and-fee-reduction"
+   },
+   {
+    "label": "DOJ final decision and next steps",
+    "url": "https://www.justice.gov/ffrr/federal-firearm-rights-restoration-final-decision-and-next-steps"
+   },
+   {
+    "label": "Arizona A.R.S. 13-910",
+    "url": "https://www.azleg.gov/ars/13/00910.htm"
+   },
+   {
+    "label": "Georgia State Board of Pardons and Paroles",
+    "url": "https://pap.georgia.gov/parole-consideration/pardons-restoration-rights"
+   },
+   {
+    "label": "Idaho Code 18-310",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH3/SECT18-310/"
+   },
+   {
+    "label": "Michigan MCL 750.224f",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-750-224f"
+   },
+   {
+    "label": "Minnesota Statutes 609.165",
+    "url": "https://www.revisor.mn.gov/statutes/cite/609.165"
+   },
+   {
+    "label": "North Carolina G.S. 14-415.4",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_14/GS_14-415.4.html"
+   },
+   {
+    "label": "Ohio R.C. 2923.14",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2923.14"
+   },
+   {
+    "label": "Oregon ORS 166.274 (non-government republisher)",
+    "url": "https://oregon.public.law/statutes/ors_166.274"
+   },
+   {
+    "label": "Virginia Code 18.2-308.2",
+    "url": "https://law.lis.virginia.gov/vacode/title18.2/chapter7/section18.2-308.2/"
+   },
+   {
+    "label": "Washington RCW 9.41.041",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.41.041"
+   }
+  ]
+ },
+ {
+  "slug": "how-to-remove-an-eviction-from-your-record",
+  "title": "How to Remove an Eviction From Your Record",
+  "nav": "Eviction Records",
+  "description": "How eviction records can be sealed, expunged or disputed: the federal seven-year limit, state sealing laws in 18 states and DC, and dispute steps.",
+  "intro": [
+   "An eviction case can come off your record in two main ways. A state law can seal or expunge the court record, which means hiding it from the public or removing it. And federal law generally stops screening companies from reporting an eviction after seven years.",
+   "Whether sealing is available depends on the state. Laws of this kind were confirmed in 18 states and the District of Columbia, though South Carolina's does not take effect until January 1, 2027. Some laws work automatically. Others require a request to the court.",
+   "Errors on a tenant screening report are a separate problem. Federal law sets out a way to dispute them."
+  ],
+  "sections": [
+   {
+    "heading": "What an eviction record is and where it shows up",
+    "paragraphs": [
+     "An eviction case creates court records: the complaint, proof of service, the court's orders and other papers. A filing is not the same as a judgment (the court's final decision). A case can be withdrawn, dismissed, settled or decided for the tenant and still leave a court record.",
+     "Tenant screening reports can include eviction records, criminal records, civil judgments and credit history. The Consumer Financial Protection Bureau (CFPB) says the final outcome should be shown, for example dismissed. One eviction should not be listed several times, and sealed or expunged evictions should not appear."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "The federal seven-year limit",
+    "paragraphs": [
+     "The Fair Credit Reporting Act (FCRA) is the federal law covering companies that sell background reports. Under it, these companies may not report civil suits and civil judgments that are more than seven years old, or until the governing statute of limitations (a legal deadline) has expired, whichever is longer. The Federal Trade Commission (FTC) says the limit covers most civil lawsuits and judgments, including housing court cases.",
+     "The limit does not apply to reports used for credit or life insurance of $150,000 or more, or for a job with an annual salary of $75,000 or more. It also limits only the reporting companies. It does not remove the case from the court's own records. That depends on state law."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "State laws that seal or limit eviction records",
+    "paragraphs": [
+     "The table lists every state law that could be confirmed. The list may not be complete. It is not a 50-state survey, and states not listed were not individually checked. Georgia and Texas were looked at, but their rules could not be confirmed. Laws change, and each row gives the year shown in the source.",
+     "Wisconsin has a related law that is not a sealing law. It sets minimum periods that eviction cases stay on the state's online court record site: at least 10 years where a writ of restitution (an eviction order) was granted, and at least 2 years where the case was dismissed with no money judgment.",
+     "These laws bind courts. Some also bind screening companies (Connecticut, Massachusetts, Utah and Washington). How quickly private databases are updated in practice could not be confirmed."
+    ],
+    "table": {
+     "headers": [
+      "State",
+      "What the law does",
+      "Automatic or by request",
+      "Year"
+     ],
+     "rows": [
+      [
+       "Arizona",
+       "Court seals the case when it is dismissed before judgment or decided for the tenant, or when landlord and tenant agree in writing to set aside the eviction order and seal.",
+       "Court order on dismissal or tenant win (no motion mentioned in the text); or by joint agreement",
+       "not shown"
+      ],
+      [
+       "California",
+       "Clerk limits access to the parties and a few others. The record opens to the public only if the landlord prevails within 60 days of filing, or by court order after a later trial judgment for the landlord.",
+       "Automatic",
+       "2016 (later changes not checked)"
+      ],
+      [
+       "Colorado",
+       "Records are suppressed (not publicly available) while the case is open. They become public if the court grants the landlord possession, unless the parties agree otherwise.",
+       "Automatic",
+       "Signed March 20, 2020; effective December 1, 2020"
+      ],
+      [
+       "Connecticut",
+       "The case is removed from the court website within 30 days after withdrawal, dismissal or nonsuit, or a judgment for the tenant. Removed records cannot be used for tenant screening.",
+       "Automatic",
+       "Effective July 1, 2024"
+      ],
+      [
+       "District of Columbia",
+       "Records are sealed 30 days after the case ends if there was no judgment for possession for the landlord, and 3 years after if there was. A tenant can also ask at any time on listed grounds.",
+       "Automatic, plus by motion",
+       "Effective May 18, 2022"
+      ],
+      [
+       "Idaho",
+       "Records are shielded from the public when the whole case was dismissed, no appeal is pending, and either 3 years have passed since filing or the parties file an agreement. Applies to cases filed on or after January 1, 2025.",
+       "Automatic; a separate petition to seal is also possible",
+       "2024"
+      ],
+      [
+       "Illinois",
+       "Court may seal a case that was sufficiently without a basis in fact or law where sealing is clearly in the interests of justice. It must seal certain cases linked to foreclosure and certain dismissed cases.",
+       "Part discretionary, part mandatory; the law does not say whether a motion is needed",
+       "Current text effective January 1, 2026"
+      ],
+      [
+       "Indiana",
+       "Court must order the record sealed when the case is dismissed, and in other listed situations.",
+       "Automatic since July 1, 2025; by request before that",
+       "2022; amended effective July 1, 2025"
+      ],
+      [
+       "Maryland",
+       "In failure-to-pay-rent cases, records are shielded within 60 days after the case ends if there was no judgment of possession. If there was one, the tenant can ask after redeeming and waiting 12 months, or for good cause. Does not apply to cases started before October 1, 2024.",
+       "Automatic without a judgment of possession; by motion otherwise",
+       "2024"
+      ],
+      [
+       "Massachusetts",
+       "Tenant may petition to seal: no-fault evictions at any time after the case ends; dismissed cases or tenant wins at any time; non-payment cases after 4 years; fault cases after 7 years, with conditions.",
+       "By petition",
+       "In effect from May 5, 2025"
+      ],
+      [
+       "Minnesota",
+       "Court must expunge when the tenant won, the case was dismissed, the parties agree, or 3 years have passed since the eviction was ordered, among other grounds.",
+       "Mostly automatic; some grounds need the tenant's motion",
+       "1999; amended 2023 and 2024"
+      ],
+      [
+       "Nevada",
+       "In summary eviction cases, the file is sealed when the case is dismissed, 10 judicial days after it is denied, or 31 days after the tenant's affidavit if the landlord does not follow up.",
+       "Automatic, plus by motion or agreement",
+       "2017; amended 2019 and 2021"
+      ],
+      [
+       "North Dakota",
+       "A person evicted for non-payment or damage, who has resolved all claims, may move to seal 7 years after the eviction order was satisfied if not evicted again in that time. A separate rule covers domestic violence victims.",
+       "By motion",
+       "2025"
+      ],
+      [
+       "Oregon",
+       "Tenant may move to set aside the judgment and seal: after 5 years for a judgment against the tenant if any money award is satisfied, or after a judgment or dismissal in the tenant's favor. Courts also seal eligible cases each year.",
+       "By motion, plus automatic yearly sealing",
+       "2019 and 2023; amended 2025"
+      ],
+      [
+       "Rhode Island",
+       "Court must seal on a party's motion where the case was dismissed, an agreement was satisfied, or any money judgment was paid in full. One request every 5 years.",
+       "By motion",
+       "Effective January 1, 2024"
+      ],
+      [
+       "South Carolina",
+       "Eviction filings must be removed from the public index 7 years after final disposition or filing, if no further filing has been recorded. Not yet in force.",
+       "Appears automatic (no request process in the text)",
+       "Signed May 19, 2026; effective January 1, 2027"
+      ],
+      [
+       "Utah",
+       "Court expunges when the whole case was dismissed, no appeal is pending and 3 years have passed since filing, or when landlord and tenant file an agreement. A tenant can also petition in non-payment and lease-expiry cases once any judgment is satisfied.",
+       "Automatic, plus by petition",
+       "not shown"
+      ],
+      [
+       "Virginia",
+       "In general district court, cases dismissed (after 30 days) or nonsuited (after 6 months) with no order of possession are expunged. For a judgment for the tenant, and for cases started before July 1, 2024, the tenant petitions.",
+       "Automatic for dismissals and nonsuits; by petition otherwise",
+       "2020; amended 2024"
+      ],
+      [
+       "Washington",
+       "Court may issue an order for limited dissemination where the landlord's case lacked sufficient basis, the tenancy was reinstated, or for other good cause. Screening providers must then not disclose the case.",
+       "Court order (the law does not say how it is requested)",
+       "2016"
+      ]
+     ]
+    },
+    "bullets": []
+   },
+   {
+    "heading": "Setting aside a judgment or reaching an agreement",
+    "paragraphs": [
+     "Courts have procedures to set aside (cancel) a judgment in limited circumstances. As one example, California's court system says a tenant can ask only for reasons such as mistake, inadvertence, surprise or excusable neglect, within 6 months of the judgment, and only once. Rules and deadlines differ in every state.",
+     "Several laws allow sealing or expungement when landlord and tenant agree: Arizona, Idaho, Minnesota, Nevada and Utah. The FTC also notes that a tenant can ask a former landlord, in writing, to send updated or correct information to the court."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "Paying the judgment",
+    "paragraphs": [
+     "Paying a money judgment does not by itself remove the record. But several state laws make it a condition of relief: Rhode Island, Oregon, Utah and North Dakota. In Utah, a Satisfaction of Judgment must be filed with the court.",
+     "In Massachusetts, the party who won a non-payment judgment must file a notice of satisfaction within 14 days of being paid. If they do not, the person who paid can ask the court to treat it as satisfied."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "Disputing errors on a tenant screening report",
+    "paragraphs": [
+     "Under the FCRA, when a consumer disputes an item, the screening company must reinvestigate free of charge. It must record the item's current status or delete it within 30 days of receiving the dispute. That can be extended by up to 15 days if the consumer sends more information during the 30 days. An item found to be inaccurate, incomplete or unverifiable must be promptly deleted or modified.",
+     "The FTC says renters can check housing court records before applying and, if the records are wrong or incomplete, can ask the court to correct them. The dispute steps the FTC and CFPB describe are:"
+    ],
+    "bullets": [
+     "Contacting the screening company in writing and describing each error.",
+     "Including copies of supporting documents, such as paperwork showing how the eviction case was resolved.",
+     "Contacting whoever supplied the wrong information. For eviction record errors, this can include the court.",
+     "Telling the landlord about the dispute, then giving the landlord the corrected report or asking the company to send it."
+    ]
+   },
+   {
+    "heading": "Getting your report and filing a complaint",
+    "paragraphs": [
+     "If a landlord turns you down, asks for a co-signer or charges more because of a report, the landlord must give you the screening company's name, address and phone number. You can get a free copy from that company if you ask within 60 days.",
+     "Problems with tenant screening can be reported to the CFPB at consumerfinance.gov/complaint or (855) 411-2372, and to the FTC at ReportFraud.ftc.gov. Legal aid offices and attorneys handle eviction record matters. This page is general information, not legal advice."
+    ],
+    "bullets": []
+   }
+  ],
+  "sources": [
+   {
+    "label": "15 U.S.C. 1681c (seven-year limit)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681c"
+   },
+   {
+    "label": "15 U.S.C. 1681i (disputes)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681i"
+   },
+   {
+    "label": "CFPB: Review your rental background check",
+    "url": "https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/"
+   },
+   {
+    "label": "FTC: Tenant background checks and your rights",
+    "url": "https://consumer.ftc.gov/articles/tenant-background-checks-and-your-rights"
+   },
+   {
+    "label": "CFPB: Rental application denied because of a screening report",
+    "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-my-rental-application-is-denied-because-of-a-tenant-screening-report-en-2105/"
+   },
+   {
+    "label": "Arizona A.R.S. 33-1379",
+    "url": "https://www.azleg.gov/ars/33/01379.htm"
+   },
+   {
+    "label": "California AB 2819 (2016)",
+    "url": "https://www.leginfo.ca.gov/pub/15-16/bill/asm/ab_2801-2850/ab_2819_bill_20160817_enrolled.htm"
+   },
+   {
+    "label": "Colorado HB20-1009",
+    "url": "https://leg.colorado.gov/bills/hb20-1009"
+   },
+   {
+    "label": "Connecticut Public Act 23-207",
+    "url": "https://www.cga.ct.gov/2023/ACT/PA/PDF/2023PA-00207-R00SB-00998-PA.PDF"
+   },
+   {
+    "label": "D.C. Code 42-3505.09",
+    "url": "https://code.dccouncil.gov/us/dc/council/code/sections/42-3505.09"
+   },
+   {
+    "label": "Idaho Code 6-303A",
+    "url": "https://legislature.idaho.gov/statutesrules/idstat/Title6/T6CH3/SECT6-303A/"
+   },
+   {
+    "label": "Indiana Court of Appeals case summary (March 2026)",
+    "url": "https://caseclips.courts.in.gov/2026/03/09/jayla-anderson-v-advantix-development-corporation-no-25a-ev-1738-__-n-e-3d-__-ind-ct-app-mar-6-2026/"
+   },
+   {
+    "label": "Maryland Real Property 8-503",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=grp&section=8-503&enactments=false"
+   },
+   {
+    "label": "Massachusetts General Laws ch. 239, s. 16",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleIII/Chapter239/Section16"
+   },
+   {
+    "label": "Minnesota Statutes 484.014",
+    "url": "https://www.revisor.mn.gov/statutes/cite/484.014"
+   },
+   {
+    "label": "Nevada Revised Statutes ch. 40",
+    "url": "https://www.leg.state.nv.us/nrs/nrs-040.html"
+   },
+   {
+    "label": "Oregon Revised Statutes ch. 105",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors105.html"
+   },
+   {
+    "label": "Rhode Island General Laws 34-18-60",
+    "url": "https://webserver.rilegislature.gov/Statutes/TITLE34/34-18/34-18-60.htm"
+   },
+   {
+    "label": "Utah Courts: expunging an eviction",
+    "url": "https://www.utcourts.gov/en/self-help/case-categories/housing/landlord/expunge.html"
+   },
+   {
+    "label": "Virginia Code 8.01-130.01",
+    "url": "https://law.lis.virginia.gov/vacode/title8.01/chapter3/section8.01-130.01/"
+   },
+   {
+    "label": "Illinois eviction sealing statute",
+    "url": "https://www.ilga.gov/legislation/ilcs/documents/073500050K9-121.htm"
+   },
+   {
+    "label": "North Dakota 2025 eviction records law",
+    "url": "https://ndlegis.gov/assembly/69-2025/regular/documents/25-0519-03000.pdf"
+   },
+   {
+    "label": "South Carolina 2026 eviction records bill",
+    "url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4270.htm"
+   },
+   {
+    "label": "Washington RCW 59.18.367",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=59.18.367"
+   },
+   {
+    "label": "Wisconsin statute 758.20",
+    "url": "https://docs.legis.wisconsin.gov/statutes/statutes/758/20"
+   }
+  ]
+ },
+ {
+  "slug": "expunged-record-showing-on-background-check",
+  "title": "Expunged Record Showing on a Background Check: What to Do",
+  "nav": "Background Check Errors",
+  "description": "What federal law says when an expunged or wrong record shows on a background check: dispute steps, deadlines, employer duties, damages and fees.",
+  "intro": [
+   "An expunged or sealed record is not supposed to show up on a background check. The Consumer Financial Protection Bureau (CFPB) tells consumers that expunged criminal records should not appear on a report. The Federal Trade Commission (FTC) lists sealed or expunged records as a common type of error.",
+   "If one does appear, the Fair Credit Reporting Act (FCRA) lets you dispute it with the background check company at no charge. The company generally has 30 days to reinvestigate. It must delete or correct information that is inaccurate, incomplete or cannot be verified.",
+   "If a dispute does not fix the problem, complaints can be filed with the CFPB or the FTC, and the law also allows lawsuits. This page is general information, not legal advice."
+  ],
+  "sections": [
+   {
+    "heading": "What the law requires of background check companies",
+    "paragraphs": [
+     "The FCRA is the federal law covering background check companies, which it calls consumer reporting agencies. When a company prepares a report, it must follow reasonable procedures to assure maximum possible accuracy of the information about the person.",
+     "A company that reports public records likely to hurt someone's ability to get a job must do one of two things. It must tell the person, at the time, that the information is being reported and to whom. Or it must keep strict procedures so the information is complete and up to date.",
+     "The statute does not mention expunged or sealed records by name. Whether a particular report breaks the reasonable procedures rule is decided case by case. Court decisions on this point were not researched for this page. State laws, some stricter than the FCRA, were not checked either."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "What the FTC and CFPB have said",
+    "paragraphs": [
+     "FTC guidance for screening companies lists reports that include criminal records that have been expunged or otherwise sealed as a sign that a company's procedures may not be reasonable.",
+     "In October 2023, the FTC and CFPB alleged that a tenant screening company failed to put in place reasonable procedures to keep sealed eviction records out of its reports. The settlement was $15 million.",
+     "In January 2024 the CFPB issued a more detailed advisory opinion on expunged and sealed records. It withdrew that opinion on May 12, 2025, and said the withdrawal is not necessarily final. The statute itself is unchanged. No 2026 statement from either agency on this topic was found."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "What employers must do",
+    "paragraphs": [
+     "An employer may not get a report unless it has given you a separate written disclosure and you have authorized the report in writing.",
+     "Before taking adverse action (a negative decision, such as not hiring you) based on the report, the employer must give you a copy of the report and a written description of your rights. The statute sets no number of days the employer must wait.",
+     "After the decision, the employer must give notice of the action, the name, address and phone number of the company that supplied the report, and notice of your right to a free copy within 60 days and to dispute the report. Landlords must give the same notice after turning someone down because of a report."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "The dispute steps",
+    "paragraphs": [
+     "The FTC and CFPB describe these steps:"
+    ],
+    "bullets": [
+     "Getting the report. The employer must hand over a copy before acting on it. The background check company must also provide a free copy if asked no later than 60 days after the adverse action notice.",
+     "Reviewing it. The CFPB says to check that misdemeanors and felonies are listed accurately, that one charge does not appear several times, and that expunged or removed records do not appear.",
+     "Disputing in writing with the background check company. The CFPB says to include copies, not originals, of documents that show the accurate information, and suggests certified mail with return receipt.",
+     "Contacting the source. The CFPB says to contact whoever reported the incorrect information as well. For criminal record errors, this can include the court.",
+     "Checking the result. The FTC says to check that the errors are gone and to ask the company to send the corrected report to the employer."
+    ]
+   },
+   {
+    "heading": "What the company must do, and by when",
+    "paragraphs": [
+     "The FCRA sets these duties and deadlines for the company:"
+    ],
+    "bullets": [
+     "Within 5 business days of receiving the dispute: notify whoever supplied the information and pass on the relevant information you sent.",
+     "Within 30 days of receiving the dispute: complete a reasonable reinvestigation, free of charge, and record the item's current status or delete it. This can be extended by up to 15 days if you send relevant information during the 30 days.",
+     "If the item is found to be inaccurate or incomplete, or cannot be verified: promptly delete or modify it.",
+     "Within 5 business days after finishing: send written results, including a copy of the revised report."
+    ]
+   },
+   {
+    "heading": "If the dispute does not fix it",
+    "paragraphs": [
+     "The company may end a reinvestigation if it reasonably decides the dispute is frivolous or irrelevant, including where it was not given enough information. It must say so within 5 business days, with reasons. The CFPB notes that some states set shorter deadlines.",
+     "If the reinvestigation does not resolve the dispute, you may file a brief statement setting out the dispute. After a deletion or a dispute notation, you can ask the company to notify anyone you name who received the report in the past two years for employment purposes, or the past six months for any other purpose.",
+     "Complaints can be submitted to the CFPB at consumerfinance.gov/complaint or to the FTC at ReportFraud.ftc.gov."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "What the law says about lawsuits, damages and fees",
+    "paragraphs": [
+     "The FCRA allows a person to sue over violations. This is what the statute says. It is not a prediction about any case. The statute does not promise any result and does not say that a case costs nothing to bring. Legal aid offices and attorneys handle FCRA matters."
+    ],
+    "bullets": [
+     "Willful violations (the statute's word for the more serious kind): the violator is liable for any actual damages, or damages of not less than $100 and not more than $1,000, plus such punitive damages (damages meant to punish) as the court may allow.",
+     "Negligent violations (failing to take proper care): the violator is liable for any actual damages. This section has no fixed minimum amount and no punitive damages.",
+     "Costs and attorney's fees: in both sections, the court awards the costs of the action and reasonable attorney's fees only in the case of a successful action, in an amount determined by the court.",
+     "Fees can also go the other way. If the court finds that an unsuccessful pleading, motion or other paper was filed in bad faith or for purposes of harassment, it must award the prevailing party attorney's fees reasonable in relation to the work of responding.",
+     "Time limit: an action must be brought not later than the earlier of 2 years after the person discovers the violation, or 5 years after the violation occurs."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "15 U.S.C. 1681e (accuracy)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681e"
+   },
+   {
+    "label": "15 U.S.C. 1681k (public records for employment)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681k"
+   },
+   {
+    "label": "15 U.S.C. 1681i (disputes and reinvestigation)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681i"
+   },
+   {
+    "label": "15 U.S.C. 1681b (employer disclosure and pre-adverse action)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681b"
+   },
+   {
+    "label": "15 U.S.C. 1681m (adverse action notices)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681m"
+   },
+   {
+    "label": "15 U.S.C. 1681j (free report)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681j"
+   },
+   {
+    "label": "15 U.S.C. 1681n (willful violations)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681n"
+   },
+   {
+    "label": "15 U.S.C. 1681o (negligent violations)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681o"
+   },
+   {
+    "label": "15 U.S.C. 1681p (time limit to sue)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681p"
+   },
+   {
+    "label": "FTC: What tenant screening companies need to know about the FCRA",
+    "url": "https://www.ftc.gov/business-guidance/resources/what-tenant-background-screening-companies-need-know-about-fair-credit-reporting-act"
+   },
+   {
+    "label": "FTC: Using consumer reports, what employers need to know",
+    "url": "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-what-employers-need-know"
+   },
+   {
+    "label": "FTC: Employer background checks and your rights",
+    "url": "https://consumer.ftc.gov/articles/employer-background-checks-your-rights"
+   },
+   {
+    "label": "FTC: Tenant background checks and your rights",
+    "url": "https://consumer.ftc.gov/articles/tenant-background-checks-and-your-rights"
+   },
+   {
+    "label": "CFPB handout on background screening reports (2021)",
+    "url": "https://www.consumerfinance.gov/documents/10037/cfpb_background-screening-report_handout_2021-08.pdf"
+   },
+   {
+    "label": "CFPB: Review your rental background check",
+    "url": "https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/"
+   },
+   {
+    "label": "CFPB: Rental application denied because of a screening report",
+    "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-if-my-rental-application-is-denied-because-of-a-tenant-screening-report-en-2105/"
+   },
+   {
+    "label": "FTC and CFPB settlement announcement, October 2023",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2023/10/ftc-cfpb-settlement-require-trans-union-pay-15-million-over-charges-it-failed-ensure-accuracy-tenant"
+   },
+   {
+    "label": "CFPB advisory opinion, January 23, 2024 (withdrawn)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2024-01-23/html/2024-00788.htm"
+   },
+   {
+    "label": "CFPB withdrawal notice, May 12, 2025",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2025-05-12/html/2025-08286.htm"
+   }
+  ]
+ }
+]
