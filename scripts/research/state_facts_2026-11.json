@@ -1,0 +1,1645 @@
+{
+ "AK": {
+  "remedy_name": "set-aside (no general expungement or sealing)",
+  "misdemeanor": {
+   "clearable": "no",
+   "wait": null,
+   "note": "No general way to expunge or seal a valid conviction. A set-aside after a suspended imposition of sentence does not remove the conviction from the public record."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Same as misdemeanors: no general expungement or sealing. Agency records can be sealed only for mistaken identity or false accusation."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "No expungement or sealing exists, and a suspended imposition of sentence (the route to a set-aside) is not available for DUI."
+  },
+  "non_conviction": "Not expunged, but cases ending in acquittal or dismissal of all charges are not published on the court system's public website. Agency records can be sealed only for mistaken identity or false accusation.",
+  "automatic": null,
+  "dui_driving_record": "A prior DUI or refusal conviction counts toward higher minimum penalties for 15 years. A DUI is a felony with two or more priors since 1996 and within the past 10 years.",
+  "sources": [
+   "https://www.akleg.gov/statutesPDF/Title-28.pdf",
+   "https://courts.alaska.gov/shc/criminal/after-sentencing.htm",
+   "https://courts.alaska.gov/media/docs/bp-sis-faq.pdf"
+  ],
+  "uncertain": [
+   "How long a DUI is shown on the Alaska DMV driving record itself was not confirmed (dmv.alaska.gov page timed out); the dui_driving_record field gives only the statutory lookback from AS 28.35.030 (Title 28 PDF on akleg.gov).",
+   "The 60-day timing for removing acquitted/dismissed cases from the court website is from CCRC only and was left out.",
+   "A 2026 law on low-level marijuana convictions takes effect in 2027 and is not in effect now; details not verified in the statute."
+  ]
+ },
+ "CT": {
+  "remedy_name": "erasure",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "7 years after the most recent conviction (automatic); or an absolute pardon can be requested after 3 years",
+   "note": "Family violence crimes and sex-offender-registration offenses are excluded. Convictions before 2000 need a petition. Sentence must be completed."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years after the most recent conviction for class D, E and unclassified felonies with a maximum of 5 years or less; absolute pardon possible after 5 years",
+   "note": "More serious felonies can be erased only through an absolute pardon. Family violence and sex-registration offenses are excluded from Clean Slate."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "10 years after the most recent conviction",
+   "note": "The Clean Slate law names DUI specifically: erased after 10 years instead of 7, and not if the person was convicted of another DUI within the 10 years after it."
+  },
+  "non_conviction": "Erased automatically: dismissed and acquitted charges are erased, and nolled (dropped) charges are erased after 13 months.",
+  "automatic": "Clean Slate automatically erases most misdemeanors after 7 years and DUI and lower-level felonies after 10 years for offenses from January 1, 2000 onward; the state reported the backlog cleared in July 2026.",
+  "dui_driving_record": "A prior DUI conviction counts toward repeat-offender penalties for 10 years: a second or later DUI within ten years of a prior conviction carries higher penalties.",
+  "sources": [
+   "https://www.cga.ct.gov/current/pub/chap_961a.htm",
+   "https://www.cga.ct.gov/current/pub/chap_248.htm",
+   "https://portal.ct.gov/cleanslate"
+  ],
+  "uncertain": [
+   "How long a DUI is shown on the Connecticut DMV driving history was not checked; the field gives only the statutory 10-year lookback (Sec. 14-227a(g)).",
+   "Pardon waiting periods (3 and 5 years) come from CCRC only; Board of Pardons page could not be opened.",
+   "Whether a DUI erased under Clean Slate is also removed from the DMV driving history was not confirmed.",
+   "Felony-level DUI (third offense) erasure details were not checked; the statute text read covers 'any violation of section 14-227a' at 10 years."
+  ]
+ },
+ "IA": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "8 years after the conviction",
+   "note": "Once in a lifetime, with all court debt paid and no pending charges. Many offenses are excluded, including OWI, domestic abuse assault, sex offenses, harassment, stalking and weapons offenses."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Iowa has no general expungement for felony convictions."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Drunk driving (OWI) convictions are excluded from Iowa's misdemeanor expungement law."
+  },
+  "non_conviction": "Cleared on request: cases where all charges were dismissed or ended in acquittal can be expunged, generally 180 days after the case ended and once court debt in that case is paid.",
+  "automatic": null,
+  "dui_driving_record": "12 years. An OWI conviction or revocation is deleted from the driving record 12 years after the conviction date, and once deleted it no longer counts as a previous offense. Commercial-driver records are kept longer.",
+  "sources": [
+   "https://www.legis.iowa.gov/docs/code/321J.2.pdf",
+   "https://www.legis.iowa.gov/docs/code/321.12.pdf",
+   "https://www.legis.iowa.gov/docs/code/901C.3.pdf"
+  ],
+  "uncertain": [
+   "Whether an OWI deferred judgment (available for some first offenses) can be expunged from court records was not verified; a deferred judgment for OWI still counts as a previous offense under 321J.2.",
+   "Section 901C.2 details (dismissals/acquittals, 180 days) are from CCRC, not read in the Code."
+  ]
+ },
+ "LA": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence, probation or parole ended, with no felony conviction in that time and no pending felony charge",
+   "note": "Expunged records are hidden from the public, not destroyed. Domestic abuse battery, stalking and misdemeanors arising from a sex offense arrest are excluded."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years after the sentence ended, with no other conviction",
+   "note": "Sex offenses, most crimes of violence and most drug distribution offenses are excluded. Convictions set aside under Article 893 can be expunged without the wait."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence or probation ended, the same as other misdemeanors",
+   "note": "A first DWI is a misdemeanor and is not on the list of misdemeanors barred from expungement. No felony conviction in the 5 years. Law enforcement and prosecutors can still see it."
+  },
+  "non_conviction": "Cleared on request: arrests that did not lead to conviction can be expunged at any time by filing a motion.",
+  "automatic": null,
+  "dui_driving_record": "10 years. A prior DWI does not count toward repeat-offender penalties if it was committed more than ten years before the new offense; time on probation, parole or in custody is not counted in the ten years.",
+  "sources": [
+   "https://legis.la.gov/legis/law.aspx?d=919669",
+   "https://legis.la.gov/legis/Law.aspx?d=78751",
+   "https://legis.la.gov/legis/law.aspx?d=919670"
+  ],
+  "uncertain": [
+   "Whether an expunged DWI still counts as a prior offense or stays on the Office of Motor Vehicles record was not confirmed.",
+   "How long a DWI is shown on the OMV driving record itself was not checked; the field gives the 10-year period in R.S. 14:98.",
+   "Any special limit on how often a DWI can be expunged or set aside (older law limited this to once in ten years) was not found in the current Art. 977 text but Art. 894 was not read.",
+   "The automated expungement process (Art. 985.2) is effective only upon funding; not confirmed as operating, so automatic is null."
+  ]
+ },
+ "MO": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "1 year after completing the sentence",
+   "note": "Lifetime limit of three misdemeanors. Domestic assault, sex-registration offenses and intoxication-related driving offenses are excluded from the general law."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "3 years after completing the sentence",
+   "note": "Lifetime limit of two felonies. Class A felonies, dangerous felonies and sex-registration offenses are excluded."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "10 years",
+   "note": "A first misdemeanor DWI falls under a separate law: expungeable after at least 10 years with no other alcohol-related driving offense or contact since. Allowed once only; not for commercial license holders."
+  },
+  "non_conviction": "Cleared on request: arrests without charges can be expunged after 18 months; expunged records are closed to the public.",
+  "automatic": "Most marijuana convictions are expunged automatically under a 2022 constitutional amendment; automatic expungement of some drug possession convictions must be operating by January 1, 2027.",
+  "dui_driving_record": "A DWI within the previous 5 years makes a new one a 'prior offender' case with higher penalties. Two or more earlier offenses count at any time, with no time limit.",
+  "sources": [
+   "https://revisor.mo.gov/main/OneSection.aspx?section=610.130",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=577.001",
+   "https://dor.mo.gov/faq/driver-license/dwi.html",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=610.140"
+  ],
+  "uncertain": [
+   "How long a DWI conviction is shown on the Missouri Department of Revenue driving record if never expunged was not confirmed.",
+   "Rules for expunging dismissed or acquitted charges (as opposed to uncharged arrests) were not verified.",
+   "Whether the 2026 automatic drug-possession expungement is already running before its January 1, 2027 deadline is not confirmed.",
+   "Whether DWI resolved by suspended imposition of sentence is treated the same under 610.130 was not checked."
+  ]
+ },
+ "NH": {
+  "remedy_name": "annulment",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "After the sentence is completed: 2 years for a class B misdemeanor, 3 years for most class A misdemeanors, with no new conviction",
+   "note": "10 years for misdemeanor sexual assault and misdemeanor domestic violence. Annulled records are sealed from the public but courts can use them in later sentencing."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years for most class B felonies and 10 years for class A felonies, after the sentence is completed",
+   "note": "Violent crimes, felony obstruction of justice and offenses that received an extended prison term cannot be annulled."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "10 years after the conviction",
+   "note": "DWI has its own longer wait: no petition to annul a DWI record until 10 years after the date of conviction, compared with 2 or 3 years for other misdemeanors."
+  },
+  "non_conviction": "Arrests and charges that ended in acquittal or dismissal can be annulled; the statute says records in cases decided since 2019 are to be annulled 30 days after the case ends.",
+  "automatic": null,
+  "dui_driving_record": "10 years. A prior DWI conviction within the 10 years before a new offense makes it a second or later offense with higher penalties and longer license revocation.",
+  "sources": [
+   "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-18.htm",
+   "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-21.htm",
+   "https://gc.nh.gov/rsa/html/LXII/651/651-5.htm"
+  ],
+  "uncertain": [
+   "How long a DWI is shown on the NH DMV driving record itself was not checked; the field gives the 10-year lookback in RSA 265-A:18.",
+   "Whether a petition is needed in practice for non-conviction annulment in post-2019 cases is unclear (statute says 'shall' be annulled; CCRC describes a petition).",
+   "RSA 265-A:21 and 651:5 were verified earlier this month by the summary's fact-check; in this pass only 265-A:18 was newly read."
+  ]
+ },
+ "OK": {
+  "remedy_name": "expungement (record sealing)",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence ends if there was jail time, a suspended sentence or a fine over $500; no stated wait if only a fine of $500 or less",
+   "note": "No felony conviction and no pending charges. Records are sealed, not destroyed."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years after completing the sentence for one nonviolent felony; 10 years for up to two felonies",
+   "note": "Listed violent offenses and offenses requiring sex offender registration are excluded. No pending charges."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence ends, under the general misdemeanor rule",
+   "note": "The expungement statute does not list DUI as excluded. A second DUI within 10 years is a felony, which then falls under the felony rules."
+  },
+  "non_conviction": "Cleared on request by court petition: acquittals, uncharged arrests and many dismissed cases. Misdemeanor charges dismissed after a deferred sentence can be expunged 1 year after dismissal.",
+  "automatic": "Not fully in effect: a state online request portal for Clean Slate sealing opened November 1, 2026, and the fully automatic process must begin by November 1, 2027.",
+  "dui_driving_record": "10 years. A new DUI within ten years after completing the sentence or deferred judgment for an earlier one is charged as a felony.",
+  "sources": [
+   "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440214",
+   "https://www.oklegislature.gov/cf_pdf/2025-26%20INT/SB/SB1543%20INT.PDF",
+   "https://oklahoma.gov/service/popular-services/violations--suspensions--and-reinstatements--hub-.html",
+   "https://oklahoma.gov/osbi/cleanslate.html"
+  ],
+  "uncertain": [
+   "How long a DUI conviction is shown on the Service Oklahoma driving record was not confirmed on an official page (third-party sites say 10 years).",
+   "The 10-year DUI lookback was read in the existing-law text of 47 O.S. 11-902 reproduced in a 2026 bill (SB 1543) on oklegislature.gov, not on OSCN; whether that bill or others changed the section in 2026 was not checked.",
+   "Whether a court expungement also removes the DUI from the driving record, and whether DUI qualifies for Clean Slate sealing, were not confirmed.",
+   "Service Oklahoma says first-time DUI arrests from November 1, 2024 do not appear on the driving record if the person completes the Impaired Driver Accountability Program; this concerns the arrest, not a conviction."
+  ]
+ },
+ "TN": {
+  "remedy_name": "expunction",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "5 years after the sentence is completed",
+   "note": "Most misdemeanors qualify unless on the statutory exclusion list (which includes DUI). All fines, costs and restitution must be paid; generally allowed once."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years after the sentence for listed Class E felonies; 10 years for listed Class C and D felonies",
+   "note": "Only felonies on specific statutory lists qualify. Fines, costs and restitution must be paid."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "DUI (55-10-401) is on the list of misdemeanors that cannot be expunged. A 2025 bill to allow it was withdrawn."
+  },
+  "non_conviction": "Cleared on request at no cost: charges dismissed, not prosecuted or ending in a not-guilty verdict, though not usually when the person was convicted of another charge in the same case.",
+  "automatic": null,
+  "dui_driving_record": "10 years. A DUI within 10 years of the previous one makes the person a multiple offender; earlier convictions within 10 years of each preceding one can then also be counted.",
+  "sources": [
+   "https://da.nashville.gov/expungements/",
+   "https://ccc.nashville.gov/wp-content/uploads/2024/05/GS-G.pdf",
+   "https://montgomerytn.gov/storage/departments/circuit/DUI%20Enhancement%20Form.pdf",
+   "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0613&GA=114",
+   "https://www.tncourts.gov/node/7163651",
+   "https://ccresourcecenter.org/state-restoration-profiles/tennessee-restoration-of-rights-pardon-expungement-sealing/"
+  ],
+  "uncertain": [
+   "The statute text (T.C.A. 40-32-101 and 55-10-405) could not be opened on an official site. DUI exclusion is confirmed by the Nashville District Attorney page and a Davidson County court clerk form (2024); the 10-year lookback by a Montgomery County court form (rev. 11/2024).",
+   "tncourts.gov says its expungement information is being updated for changes to 40-32-101. CCRC (Nov 2026) reports a 2026 law letting a person with a prior DUI expunge a later offense after 10 years; it does not report DUI itself becoming expungeable.",
+   "How long a DUI is shown on the Tennessee Department of Safety driving record was not confirmed.",
+   "A possible 20-year outer limit on using prior DUI convictions appeared only in a search summary of older cases; not verified."
+  ]
+ },
+ "WI": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "No waiting period: the judge must order it at sentencing, and it takes effect when the sentence is successfully completed",
+   "note": "Only if the person was under 25 at the time of the offense. Generally cannot be requested later. Covers the court record only."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Same: ordered at sentencing, effective when the sentence is completed",
+   "note": "Only lower-level felonies with a maximum of six years or less (Class H and I), under 25 at the offense, with limits for prior felonies and violent offenses."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "A first OWI is a civil forfeiture, not a crime, and the Legislative Council states it is not eligible for expungement."
+  },
+  "non_conviction": "Court records of charges that did not end in conviction cannot be expunged; the person can ask the Department of Justice to remove the arrest from the state record.",
+  "automatic": null,
+  "dui_driving_record": "For life. OWI convictions are kept on the driving record permanently. A second OWI is a crime only if within 10 years of the first; for a third or later offense all earlier ones count.",
+  "sources": [
+   "https://docs.legis.wisconsin.gov/statutes/statutes/343/ii/23",
+   "https://docs.legis.wisconsin.gov/statutes/statutes/346/x/65",
+   "https://docs.legis.wisconsin.gov/statutes/statutes/343/iii/307",
+   "https://www.wisconsindot.gov/Documents/safety/education/drunk-drv/owipenaltychart.pdf",
+   "https://docs.legis.wisconsin.gov/misc/lc/issue_briefs/2021/courts_and_criminal_law/ib_expungement_ph_2021_01_26",
+   "https://wisconsindot.gov/Pages/safety/education/drunk-drv/ddlaw.aspx"
+  ],
+  "uncertain": [
+   "The statement that first-offense OWI cannot be expunged is from a January 2021 Legislative Council issue brief; no later change was found, and the summary says no expungement reform had become law as of 2026.",
+   "Whether a criminal (second or later) OWI of a person under 25 could be ordered expunged at sentencing was not checked; the state supreme court has reportedly held an expunged OWI still counts as a prior (news source only).",
+   "Statutes say prior offenses are counted from January 1, 1989 for some purposes; that date was not seen in the text read, so the note says only that all earlier ones count.",
+   "Conditions for Department of Justice removal of non-conviction arrest records are from CCRC, not verified on the DOJ site."
+  ]
+ },
+ "AL": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "3 years from the conviction date, with probation or parole finished and all fines, costs and restitution paid.",
+   "note": "Violent offenses, sex offenses, crimes of moral turpitude and serious traffic offenses (including DUI) are excluded. The law limits how many convictions one person can expunge."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "180 days after a pardon with restoration of civil and political rights from the Board of Pardons and Paroles.",
+   "note": "Only pardoned felonies qualify. Violent offenses, sex offenses and serious traffic offenses are excluded."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "A conviction cannot be expunged if it is a 'serious traffic offense' under Article 9 of Chapter 5A of Title 32, the part of the code that contains the DUI law."
+  },
+  "non_conviction": "Cleared on request by petition to the circuit court. The wait depends on how the case ended; the 2021 law set 90 days after an acquittal or dismissal with prejudice, and longer for other dismissals.",
+  "automatic": null,
+  "dui_driving_record": "A prior DUI counts toward a harsher sentence if it happened within 10 years of the new offense. Once a person has a felony DUI, every later DUI is a felony regardless of date.",
+  "sources": [
+   "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/KH7D8UA-1.pdf",
+   "https://alison.legislature.state.al.us/code-of-alabama?section=32-5A-191",
+   "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2017RS/PrintFiles/183159-3.pdf"
+  ],
+  "uncertain": [
+   "DUI exclusion read from a 2026 bill (HB261) that reprints existing Sections 15-27-1 and 15-27-2; the code section pages for Title 15 were not opened. That 32-5A-191 sits in Article 9 was not seen on an official page heading, only inferred from code numbering and a Justia URL.",
+   "Non-conviction waits: the 2026 bill proposed cutting 90 days to 30; trackers say it failed but final status was not confirmed, so treat the 90-day figure as the 2021 law.",
+   "How long ALEA keeps a DUI on the driver record itself was not found; only the 10-year sentencing lookback in 32-5A-191(p) is confirmed.",
+   "Whether a DUI charge that was dismissed after a diversion program can be expunged was not checked."
+  ]
+ },
+ "DC": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence is completed.",
+   "note": "Requires a motion in Superior Court, and the judge must find sealing is in the interests of justice. The prosecutor can waive the waiting period in writing."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "8 years after the sentence is completed.",
+   "note": "The most serious felonies (the top three severity groups in the sentencing grid) cannot be sealed. Sealing is by motion and the judge must find it is in the interests of justice."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence is completed, the same as other misdemeanors.",
+   "note": "The motion-sealing law does not exclude DUI, but the judge decides. Impaired-driving offenses are excluded from the automatic sealing planned for later."
+  },
+  "non_conviction": "Cleared on request: a person can file a motion to seal a case that ended without a conviction, and the judge decides whether sealing is in the interests of justice. Automatic sealing is planned but not yet running.",
+  "automatic": null,
+  "dui_driving_record": "A prior DUI counts as a prior offense unless the jail term, supervised release, parole or probation for it ended more than 15 years before the new arrest.",
+  "sources": [
+   "https://code.dccouncil.gov/us/dc/council/code/sections/16-806",
+   "https://code.dccouncil.gov/us/dc/council/code/sections/16-801",
+   "https://code.dccouncil.gov/us/dc/council/code/sections/16-803",
+   "https://code.dccouncil.gov/us/dc/council/code/sections/50-2206.01",
+   "https://code.dccouncil.gov/us/dc/council/code/sections/50-2206.13"
+  ],
+  "uncertain": [
+   "DUI eligibility is inferred from the text of 16-806, which lists no DUI exclusion for motion sealing; I found no court page stating it outright, and dccourts.gov could not be opened.",
+   "Section 16-805(b), the list of offenses excluded from automatic sealing, was not opened this time; the impaired-driving exclusion comes from the fact-checked summary.",
+   "Effective and applicability dates of the Second Chance Amendment Act conflict between sources (March 1, 2025 vs. later dates); automatic sealing is reported as not yet in effect, with a code deadline of October 1, 2027.",
+   "How long the DC DMV keeps a DUI on the driver record was not checked; only the 15-year prior-offense definition is confirmed."
+  ]
+ },
+ "ID": {
+  "remedy_name": "shielding",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "5 years after the whole sentence is finished, including probation, parole, fines and restitution, with no new convictions or pending cases.",
+   "note": "Assault, battery, domestic violence, stalking, excessive DUI and similar listed misdemeanors are excluded. Only one shielding petition in a lifetime. Police and courts keep access."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years after the whole sentence is finished.",
+   "note": "Only felony drug possession can be shielded. Idaho has no general expungement of adult felony convictions."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "5 years after the whole sentence is finished, including probation, fines and restitution, with no new convictions.",
+   "note": "An ordinary misdemeanor DUI can be shielded; 'excessive' DUI under section 18-8004C cannot. A judge decides, and only one petition is allowed in a lifetime."
+  },
+  "non_conviction": "Cleared on request: a person acquitted, with all charges dismissed, or not charged within one year of arrest can ask the Idaho State Police to expunge the fingerprint and history record; the court file may be sealed.",
+  "automatic": null,
+  "dui_driving_record": "A prior DUI counts toward a harsher penalty for 10 years. A second DUI within 10 years is an enhanced misdemeanor; a prior felony DUI counts for 15 years.",
+  "sources": [
+   "https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH30/SECT67-3004/",
+   "https://legislature.idaho.gov/statutesrules/idstat/Title18/T18CH80/SECT18-8005/"
+  ],
+  "uncertain": [
+   "Section 18-8004C was not opened, so the guide should not state the alcohol level that makes a DUI 'excessive'.",
+   "Whether a shielded DUI still counts as a prior under 18-8005 was not checked; the shielding law keeps records available to law enforcement and courts.",
+   "How long the Idaho Transportation Department keeps a DUI on the driver record was not checked; only the statutory lookback is confirmed.",
+   "Idaho Supreme Court rules on shielding procedure were not reviewed."
+  ]
+ },
+ "MA": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "3 years after the conviction or release from custody, whichever is later, with no new conviction in that time.",
+   "note": "Requested from the Commissioner of Probation. Certain firearms offenses and crimes against public justice can never be sealed. Sex offenses wait 15 years."
+  },
+  "felony": {
+   "clearable": "yes",
+   "wait": "7 years after the conviction or release from custody, whichever is later, with no new conviction in that time.",
+   "note": "Certain firearms offenses and crimes against public justice can never be sealed. Sex offenses wait 15 years and cannot be sealed while registration is required."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "3 years after the conviction or release from custody, whichever is later, as for other misdemeanors.",
+   "note": "The sealing law does not list OUI among offenses that cannot be sealed. Sealing the court record does not change the RMV driving history."
+  },
+  "non_conviction": "Cleared on request: dismissed cases can be sealed by a judge.",
+  "automatic": null,
+  "dui_driving_record": "For life. The RMV says it must consider a driver's entire driving history, and the OUI law counts any earlier conviction or alcohol-program assignment with no time limit.",
+  "sources": [
+   "https://malegislature.gov/laws/generallaws/partiv/titleii/chapter276/section100a",
+   "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXIV/Chapter90/Section24",
+   "https://www.mass.gov/info-details/alcohol-and-drug-suspensions-for-over-21-years-of-age"
+  ],
+  "uncertain": [
+   "OUI sealing eligibility is inferred from the text of G.L. c. 276 s. 100A, which has no OUI exclusion; no official page was found that says so directly.",
+   "That a sealed OUI still counts as a prior offense and stays on the RMV record is inferred from the RMV 'entire driving history' statement, not from a source addressing sealed records.",
+   "Some non-conviction outcomes may be sealed automatically at disposition under s. 100C (per CCRC); not confirmed against the statute.",
+   "Clean Slate automatic sealing bills were pending in 2026; no enactment found."
+  ]
+ },
+ "MS": {
+  "remedy_name": "expunction",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": null,
+   "note": "A first offender convicted of a misdemeanor, other than a traffic violation, can petition the court to expunge it. DUI has its own separate rule."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "3 years after all terms of the sentence are completed, with fines and court costs paid (shortened from 5 years on July 1, 2026).",
+   "note": "One felony in a lifetime. Violent crimes, drug trafficking, third or later DUI, embezzlement and several other listed felonies are excluded."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "5 years after successfully completing all terms of the sentence.",
+   "note": "First offense only, once in a lifetime. Not available with a commercial license, a refused breath or blood test, a test result of .16% or higher, or an earlier DUI nonadjudication. The state keeps a confidential registry."
+  },
+  "non_conviction": "Cleared on request: when the person petitions, the judge must expunge a case that was dismissed, dropped, had no disposition, or ended in a not-guilty verdict. No waiting period was found.",
+  "automatic": null,
+  "dui_driving_record": "A second or third DUI is charged as a repeat offense when the offenses fall within 5 years. A fourth or later DUI is a felony no matter how much time has passed.",
+  "sources": [
+   "https://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2700-2799/SB2792IN.pdf",
+   "https://www.driverservicebureau.dps.ms.gov/node/86",
+   "https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB2792.xml",
+   "https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB2327.xml"
+  ],
+  "uncertain": [
+   "The DUI expunction text (63-11-30(13)) was read from a January 2026 bill (SB 2792, which died) that reprints existing law; the official code site was not opened. I did not check whether HB 1546 (2026, enacted) or another 2026 act changed that subsection.",
+   "The waiting period for expunging a first-offender misdemeanor conviction was not found in the sources.",
+   "How long the Department of Public Safety keeps a DUI on the driving record was not found; only the 5-year repeat-offense window is confirmed."
+  ]
+ },
+ "NJ": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Usually 5 years after the sentence is finished; 10 years after the last conviction for a 'clean slate' expungement of the whole eligible record.",
+   "note": "New Jersey calls misdemeanors disorderly persons offenses. There are limits on how many convictions one person can clear."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Usually 5 years after the sentence is finished; 10 years after the last conviction for a 'clean slate' expungement.",
+   "note": "New Jersey calls felonies indictable offenses. The most serious crimes are excluded, and there are limits on how many convictions can be cleared."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "DWI is a motor vehicle offense under Title 39, not a crime. The expungement law says it does not apply to arrests or convictions for Title 39 motor vehicle offenses."
+  },
+  "non_conviction": "Arrests and charges that end in dismissal or acquittal are expunged by court order at that time, or later on application. No waiting period.",
+  "automatic": "Dismissed and acquitted charges are expunged by court order when the case ends; clean slate expungement of convictions still requires an application.",
+  "dui_driving_record": "The Motor Vehicle Commission lists repeat penalties for a second offense within 10 years and a third within 10 years of the second.",
+  "sources": [
+   "https://www.njcourts.gov/self-help/expunge-record",
+   "https://www.nj.gov/mvc/license/duitable.html",
+   "https://njleg.state.nj.us/2012/Bills/A2000/1686_I1.HTM",
+   "https://www.njcourts.gov/sites/default/files/forms/10557_expunge_kit.pdf"
+  ],
+  "uncertain": [
+   "The Title 39 exclusion (N.J.S. 2C:52-28) was read from a 2012 bill on the Legislature's site that reprints the section; the current statute page could not be opened, and no NJ Courts page mentioning DWI by name was found.",
+   "How long a DWI stays on the MVC driver abstract (widely reported as permanent) was not confirmed with an official source and is left out.",
+   "The '10-year step-down' wording of N.J.S. 39:4-50 was not read; only the MVC penalty table was.",
+   "Numeric limits on convictions conflict between sources and are left out."
+  ]
+ },
+ "OR": {
+  "remedy_name": "set-aside",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "1 year for a Class B or C misdemeanor, 3 years for a Class A misdemeanor, counted from conviction or release from imprisonment, whichever is later.",
+   "note": "Sentence must be fully completed with no new conviction during the wait. Traffic offenses, DUII, most sex crimes and many violent offenses cannot be set aside."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years for a Class C felony and 7 years for a Class B felony, counted from conviction or release from imprisonment, whichever is later.",
+   "note": "Most Class A felonies, most sex crimes and many violent offenses cannot be set aside."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "The Oregon courts state that DUIIs cannot be set aside. A DUII that was dismissed after a diversion program also cannot be set aside."
+  },
+  "non_conviction": "Cleared on request by motion: 60 days after the prosecutor declines to proceed, or any time after an acquittal or dismissal. DUII charges dismissed through diversion are not eligible.",
+  "automatic": null,
+  "dui_driving_record": "A DUII in the past 15 years blocks eligibility for diversion. A DUII becomes a felony with two prior convictions in the past 10 years.",
+  "sources": [
+   "https://www.courts.oregon.gov/courts/marion/help/Pages/setaside.aspx",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors813.html",
+   "https://www.oregonlegislature.gov/bills_laws/ors/ors137.html"
+  ],
+  "uncertain": [
+   "ORS 813.010(5) and 813.011 give two different felony thresholds (three priors or two priors in 10 years); the lower one is reported. Which applies in a given case was not worked out.",
+   "How long Oregon DMV keeps a DUII on the driving record, and the license-revocation rules for repeat convictions (ORS 809.235), were not checked.",
+   "The exact DUII exclusion wording in ORS 137.225 was not located in the chapter text; the 'no' rests on the Oregon Judicial Department page.",
+   "2025 bills HB 2492 and HB 3825: signature, effective dates and content not confirmed."
+  ]
+ },
+ "TX": {
+  "remedy_name": "order of nondisclosure (expunction is mainly for non-convictions)",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "From none up to 2 years after the sentence, depending on the offense; DWI has longer waits.",
+   "note": "Nondisclosure seals the record from the public for some first-offense misdemeanor convictions; police and some agencies keep access. Family violence, stalking and registrable sex offenses are excluded."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Felony convictions generally cannot be sealed or expunged, except in narrow cases such as after a pardon. Felony deferred adjudication, which is not a conviction, can be sealed after 5 years."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "After probation: 2 years with 6 months of ignition interlock, otherwise 5 years. After a sentence without probation: 3 years with interlock, otherwise 5 years.",
+   "note": "Nondisclosure only, not expunction. First offense with no other record; not available if the offense was punished as alcohol level 0.15 or more, or if the crash involved another person. A judge decides."
+  },
+  "non_conviction": "Expunction on request for acquittals and dismissals. Arrests never charged can be expunged after 180 days (Class C), 1 year (Class A or B misdemeanor) or 3 years (felony).",
+  "automatic": "Some nonviolent misdemeanor deferred adjudications qualify for a nondisclosure order without a petition, though court paperwork and a fee are still involved.",
+  "dui_driving_record": "No time limit. Any earlier intoxication conviction, however old, raises a new DWI to a Class A misdemeanor, and two earlier ones make it a felony.",
+  "sources": [
+   "https://tcss.legis.texas.gov/docs/GV/htm/GV.411.htm",
+   "https://tcss.legis.texas.gov/docs/PE/htm/PE.49.htm",
+   "https://tcss.legis.texas.gov/docs/CR/htm/CR.55a.htm"
+  ],
+  "uncertain": [
+   "The 0.15 exclusion is my reading of 'an offense punishable under Subsection (d)' of Penal Code 49.04, which I did not re-read line by line; the general conditions in Gov't Code 411.074 were also not fully read.",
+   "Misdemeanor conviction nondisclosure waits (Gov't Code 411.0735 and related sections) were not re-read; the range comes from the fact-checked summary.",
+   "How long the Department of Public Safety shows a DWI on the driver record was not checked; only the enhancement rule in Penal Code 49.09 is confirmed.",
+   "DWI deferred adjudication (not a conviction) has a separate 2-year nondisclosure rule under 411.0726, not covered above."
+  ]
+ },
+ "WV": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "1 year after the conviction and the end of any jail term or supervision for a single misdemeanor; 2 years for several misdemeanors.",
+   "note": "DUI, domestic violence, offenses with a deadly weapon, sexual offenses, stalking and animal cruelty are among the excluded offenses. Earlier filing is possible after approved treatment or job training."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years after the conviction and the end of any incarceration or supervision.",
+   "note": "Non-violent felonies only. Felony violence against a person, felonies with a child victim, sexual offenses, DUI and burglary of a home are excluded."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "The expungement law excludes any offense of driving under the influence of alcohol or a controlled substance, according to the state Supreme Court's expungement instructions."
+  },
+  "non_conviction": "Cleared on request by petition 60 days after an acquittal or dismissal, under a separate statute. Not available to people with a prior felony conviction.",
+  "automatic": null,
+  "dui_driving_record": null,
+  "sources": [
+   "https://www.courtswv.gov/sites/default/pubfilesmnt/2023-06/SCA-C900-InfoforExpungementPetition.pdf"
+  ],
+  "uncertain": [
+   "Lookback period not confirmed: code.wvlegislature.gov and wvlegislature.gov timed out or returned 503 on every attempt, and the DMV DUI page returned 404. Search snippets of a 2004 enrolled bill indicate priors count for 10 years before the arrest, but the current 17C-5-2 was not read.",
+   "The DUI exclusion rests on the Supreme Court of Appeals instruction sheet (rev. June 2019), not the current text of 61-11-26.",
+   "Whether a first DUI resolved through the state's deferral program can later be expunged was not checked.",
+   "Non-conviction exclusions for DUI and domestic violence cases (per CCRC) were not confirmed officially."
+  ]
+ },
+ "AR": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Most: as soon as the sentence is complete and fines, costs and restitution are paid. Five years for a short list of offenses.",
+   "note": "The five-year list includes third-degree battery, negligent homicide, indecent exposure and third-degree domestic battering."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Non-violent Class C and D felonies and certain drug felonies: on completion of sentence. Violent Class C and D felonies: five years.",
+   "note": "Most Class A and B felonies, sexual offenses and felonies with a maximum sentence of ten years or more cannot be sealed. More than one earlier felony conviction bars felony sealing."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "About 10 years. The state petition form requires more than ten years since the first DWI conviction, plus completed sentence, paid costs and licence reinstatement requirements met.",
+   "note": "Applies to misdemeanor DWI. The statute ties the wait to the DWI lookback period, which was lengthened from 5 to 10 years in 2021."
+  },
+  "non_conviction": "Arrests, dismissals and acquittals can be sealed on request by petition to the court. Not automatic.",
+  "automatic": null,
+  "dui_driving_record": "A DWI counts as a prior offense for 10 years (lookback lengthened from 5 years by Act 274 of 2021). How long it stays visible on the driving record itself was not confirmed.",
+  "sources": [
+   "https://codes.findlaw.com/ar/title-16-practice-procedure-and-courts/ar-code-sect-16-90-1405/",
+   "https://media.ark.org/dps/Petition-to-Seal-DWI-BWI-Form-July2021.pdf",
+   "https://www.dfa.arkansas.gov/office/driver-services/legislative-changes-for-2021/",
+   "https://www.dfa.arkansas.gov/office/driver-services/dui-dwi-information/dui-dwi-bui-bwi-offenses/",
+   "https://www.dfa.arkansas.gov/driver-services/dui-dwi-information/dwi-bwi-drugs",
+   "https://law.onecle.com/arkansas/title-5/5-65-111.html"
+  ],
+  "uncertain": [
+   "Current official text of s. 5-65-111 could not be opened (Justia and LegiScan returned 403; the Onecle copy is the pre-2021 version with a 5-year lookback). The 10-year figure rests on the official ACIC petition form (July 2021) and the DFA 'Legislative changes for 2021' page (Act 274: 'Look Back DWI and BWI 10 Years').",
+   "The DFA DWI pages still describe licence suspensions for repeat offenses 'within a 5-year time span'; this may be out of date or a separate administrative rule.",
+   "The sealing statute refers to 'applicable lookback periods' (plural); a longer period for people with many DWI offenses (reported as 20 years for a sixth offense) was not confirmed.",
+   "No DFA statement found on how long a DWI is shown on the driving record.",
+   "Statute text for 16-90-1405 read on FindLaw, not an official Arkansas site."
+  ]
+ },
+ "DE": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Mandatory track: 5 years from conviction for most single-case misdemeanors with no other convictions. Court track: 3 or 7 years for others.",
+   "note": "Fines, fees and restitution generally must be paid. Some people need a pardon first. Traffic-code (Title 21) offenses are mostly excluded."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Felony drug possession: 5 years. A few listed lower-level felonies: 10 years. One non-violent felony by court petition: 7 years.",
+   "note": "Periods run from conviction or release, whichever is later, for most felonies. Violent felonies generally need a pardon first or are not eligible."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Title 21 (motor vehicle) offenses are not eligible for expungement, and DUI is not on the short list of exceptions. This applies to both the mandatory and court tracks."
+  },
+  "non_conviction": "Cases ending without conviction qualify for mandatory expungement with no waiting period, through the State Bureau of Identification on request or automatically under Clean Slate. Title 21 charges such as DUI are generally excluded.",
+  "automatic": "The Clean Slate Act, in effect since August 2024, automatically clears records that qualify for mandatory expungement; the first automated batch ran in June 2026 after a backlog.",
+  "dui_driving_record": "A DUI counts as a prior for a second offense for 10 years; for a third or later offense all earlier DUIs count with no time limit. A first-offense election also counts as a prior.",
+  "sources": [
+   "https://delcode.delaware.gov/title11/c043/sc07/index.html",
+   "https://delcode.delaware.gov/title21/c041/sc09/index.html"
+  ],
+  "uncertain": [
+   "How long the Delaware DMV shows a DUI on the driving record was not confirmed from an official source (third-party sites say at least five years).",
+   "Whether a pardoned DUI conviction can be expunged was not checked; s. 4372(f)(2) says Title 21 offenses are not eligible, subject only to the short list in s. 4374(i).",
+   "How much of the Clean Slate backlog has been cleared as of November 2026 was not verified."
+  ]
+ },
+ "IL": {
+  "remedy_name": "sealing (expungement mainly for non-convictions)",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Sealing: 2 years after the sentence ends (rule in effect since June 1, 2026).",
+   "note": "Sealing hides the record from most of the public; it is not destroyed. DUI, domestic battery, most sex offenses and animal-cruelty offenses cannot be sealed."
+  },
+  "felony": {
+   "clearable": "yes",
+   "wait": "Sealing: 2 years after the sentence ends if probation was not revoked; 3 years for other felonies.",
+   "note": "Most felonies qualify, with the same excluded offense types. Expungement of a conviction is possible only in limited cases such as a pardon."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "DUI cannot be sealed, and convictions generally cannot be expunged. The Secretary of State says a DUI conviction is a permanent part of the driving record."
+  },
+  "non_conviction": "Arrests and cases without a conviction can be expunged on request by petition. Completed court supervision or qualified probation can be expunged after a 2- or 5-year wait.",
+  "automatic": "Only minor cannabis arrest records are expunged automatically now; automatic sealing under the 2026 Clean Slate Act is not scheduled to begin until 2029.",
+  "dui_driving_record": "Permanent. The Secretary of State's DUI Fact Book says a DUI conviction is a permanent part of the driving record; court supervision for DUI is also recorded and allowed only once in a lifetime.",
+  "sources": [
+   "https://prevention.org/Resources/f2d31f34-bf96-43e4-a435-2298cdf232c9/Illinois_DUI_Fact_Book.pdf"
+  ],
+  "uncertain": [
+   "The 2024 Illinois Secretary of State DUI Fact Book was read as a PDF copy hosted on prevention.org; ilsos.gov returned 403 and isp.illinois.gov could not be reached. A newer edition was not checked.",
+   "Whether DUI court supervision (not a conviction) can ever be expunged was not confirmed from an official source in this pass; the verified summary says DUI cannot be sealed.",
+   "Exact start date of automated Clean Slate sealing (2029 per CCRC)."
+  ]
+ },
+ "MD": {
+  "remedy_name": "expungement (shielding for some misdemeanors)",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "5 years after completing the sentence for most listed misdemeanors; 7 years for second-degree assault; 15 years for domestically related crimes.",
+   "note": "Only convictions on a statutory list of about 100 offenses qualify. If one charge in a case is ineligible, the whole case usually is. Cannabis possession: once the sentence is complete."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "7 years after completing the sentence for most listed felonies; 10 years for felony theft and burglary.",
+   "note": "Only listed felonies qualify, such as felony theft, burglary and drug distribution."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "A DUI/DWI conviction is not among the expungeable convictions. Since October 2024 a probation before judgment for alcohol DUI/DWI can be expunged, but only 15 years after probation ends."
+  },
+  "non_conviction": "Acquittals, dismissals and nolle prosequi dated on or after October 1, 2021 are expunged automatically after 3 years; earlier expungement, and older cases, on request by petition.",
+  "automatic": "Cases that ended in acquittal, dismissal or nolle prosequi on or after October 1, 2021 are expunged automatically after 3 years; convictions are not.",
+  "dui_driving_record": "The MVA says DUI convictions are not eligible for removal from the driving record. A DUI probation before judgment in the past 10 years also blocks driving-record expungement.",
+  "sources": [
+   "https://mgaleg.maryland.gov/2026RS/Statute_Web/gcp/10-105.pdf",
+   "https://dls.maryland.gov/pubs/prod/NoPblTabPDF/Limiting-Access-to-Criminal-Records-Guide-Sheet.pdf",
+   "https://mva.maryland.gov/about-mva/Pages/info/26100/26100-21T.aspx",
+   "https://mgaleg.maryland.gov/2026RS/Statute_Web/gtr/16-117.1.pdf"
+  ],
+  "uncertain": [
+   "That DUI convictions cannot be expunged is inferred from the Department of Legislative Services guide (December 2025), which limits conviction expungement to listed offenses and discusses s. 21-902 only for probation before judgment; the full s. 10-110 list was not read.",
+   "Whether a DUI conviction can be shielded was not checked.",
+   "The lookback period for repeat-offense DUI penalties was not confirmed (not stated on the pages opened).",
+   "The felony theft/burglary 10-year figure comes from the input summary (CCRC); the legislative guide lists 7 years for felonies 'in general'. mdcourts.gov returned 403."
+  ]
+ },
+ "MT": {
+  "remedy_name": "expungement (misdemeanors only)",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Presumed granted 5 years after the sentence is completed with no new convictions and no pending charges.",
+   "note": "One petition in a lifetime, which can cover any number of misdemeanors. Filed in district court."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "No general expungement for felony convictions. Records of a case dismissed after a deferred sentence become confidential."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "No set period; the 5-year presumption does not apply to DUI.",
+   "note": "A misdemeanor DUI can be included in the one-time petition, but expungement is not presumed. The judge decides after weighing age, time passed, rehabilitation and risk of reoffending."
+  },
+  "non_conviction": "No general process to seal court records of dismissals or acquittals. Fingerprints and photographs are returned when a case ends without conviction.",
+  "automatic": null,
+  "dui_driving_record": "A DUI counts as a prior for a second offense for 10 years; from a third offense on, all earlier DUIs count. The Motor Vehicle Division keeps a permanent, lifetime driver record.",
+  "sources": [
+   "https://mca.legmt.gov/bills/mca/title_0460/chapter_0180/part_0110/section_0080/0460-0180-0110-0080.html",
+   "https://mca.legmt.gov/bills/mca/title_0610/chapter_0080/part_0100/section_0110/0610-0080-0100-0110.html",
+   "https://courts.mt.gov/external/forms/misexpcon/srmisexp2025.pdf",
+   "https://dojmt.gov/wp-content/uploads/Law-Enforcement-Lookbacks-and-Legal-Burdens-Quick-Card-1.20.23.pdf",
+   "https://mvdmt.gov/wp-content/uploads/2023/10/MV-Guide-to-Understanding-the-Montana-Driver-Record.pdf"
+  ],
+  "uncertain": [
+   "Whether an expunged DUI is also removed from the Motor Vehicle Division driver record, or still counts as a prior offense, was not confirmed.",
+   "The MVD guide (2023) describes the driver record as permanent and lifetime but does not state a DUI-specific retention rule.",
+   "CCRC reports the state repository removes non-conviction arrest data for cases after July 1, 2017; no official page confirming it was opened."
+  ]
+ },
+ "NM": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "2 years after the sentence is complete with no new convictions; 10 years for domestic violence offenses.",
+   "note": "A judge must find expungement serves justice. Records are removed from public access, not destroyed."
+  },
+  "felony": {
+   "clearable": "yes",
+   "wait": "After the sentence, conviction-free: 4 years for fourth-degree, 6 for third-degree, 8 for second-degree, 10 for first-degree felonies.",
+   "note": "Not eligible: offenses against a child, offenses causing great bodily harm or death, sex offenses and embezzlement."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "DWI convictions are excluded from expungement by the Criminal Record Expungement Act, according to the state courts' information sheet."
+  },
+  "non_conviction": "Arrests and cases that ended without a conviction can be expunged on request by petition one year after the final disposition.",
+  "automatic": "Only certain cannabis records are expunged automatically, under a 2021 law.",
+  "dui_driving_record": "55 years on the driving record for a DWI cited since June 17, 2005 (25 years for citations from July 1990 to June 16, 2005), according to the Motor Vehicle Division.",
+  "sources": [
+   "https://nmcourts.gov/wp-content/uploads/2023/12/General-Information-about-expungement.pdf",
+   "https://www.mvd.newmexico.gov/dwi-faq/"
+  ],
+  "uncertain": [
+   "The lookback period for counting prior DWI convictions at sentencing was not confirmed; the MVD page says only that it counts the convictions on the record when setting revocation periods.",
+   "The courts' information sheet is dated 2023; the outcome of 2025 bill SB 467 was not checked.",
+   "How fully the automatic cannabis expungement has been carried out."
+  ]
+ },
+ "PA": {
+  "remedy_name": "limited access (record sealing); expungement mainly for non-convictions",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "7 years free of conviction for any offense punishable by a year or more, with restitution paid.",
+   "note": "Automatic for second- and third-degree misdemeanors and those punishable by up to two years; some others by petition. Violent, firearms, sexual and family offenses are excluded. Police and courts keep access."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years free of conviction.",
+   "note": "Certain drug felonies are sealed automatically; some theft, forgery and fraud felonies by petition. First- and second-degree felonies are excluded."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "7 years free of conviction for any offense punishable by a year or more, with restitution paid.",
+   "note": "A first DUI is a misdemeanor with a six-month maximum, which fits the sealing law, and DUI is not a listed exception. Sealing does not destroy the record."
+  },
+  "non_conviction": "Sealed automatically under Clean Slate with no waiting period; full expungement (destruction) is available on request by petition.",
+  "automatic": "Clean Slate automatically seals non-convictions, summary convictions after 5 years, many misdemeanors after 7 years and certain drug felonies after 10 years.",
+  "dui_driving_record": "A DUI conviction counts as a prior offense for 10 years. PennDOT keeps a record of a DUI diversion (ARD) for 12 years. How long a conviction shows on the driving record was not confirmed.",
+  "sources": [
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.001..HTM",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.002..HTM",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.003..HTM",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/75/00.038.003.000..HTM",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/75/00.038.006.000..HTM",
+   "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/75/00.015.034.000..HTM",
+   "https://www.lasp.org/record-clearing-options",
+   "https://ccresourcecenter.org/state-restoration-profiles/pennsylvania-restoration-of-rights-pardon-expungement-sealing/"
+  ],
+  "uncertain": [
+   "No official state page was found that names DUI as sealable. The 'yes' is drawn from the statute text on the General Assembly site (18 Pa.C.S. 9122.2 and 9122.3; 75 Pa.C.S. 3803) and a legal aid page (Legal Aid of Southeastern Pennsylvania) that lists DUI among sealable misdemeanors after 7 years.",
+   "Whether a sealed DUI still counts as a prior offense or stays on the PennDOT record was not confirmed from an official source.",
+   "The General Assembly site notes that 75 Pa.C.S. 3806 (prior offenses) was declared unconstitutional in Commonwealth v. Shifflett (2025); the scope (reported to concern counting ARD as a prior offense) was not checked.",
+   "The 12-year ARD retention is from the current text of 75 Pa.C.S. 1534 as summarised by the fetch tool; older sources say 10 years, so a recent amendment is likely but was not traced.",
+   "No PennDOT statement found on how long a DUI conviction remains on the driving record."
+  ]
+ },
+ "UT": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "By petition: 3 or 4 years for lower misdemeanors, 5 years for class A, counted from the end of the sentence. Automatic: 5 to 7 years for qualifying cases.",
+   "note": "Limits apply to the number of convictions. Fines must be paid for automatic expungement. Domestic violence, assault and sex offenses are not cleared automatically."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "7 years after the sentence ends, by petition; 5 years for felony drug possession.",
+   "note": "First-degree, violent and registrable sex offenses are excluded, as is felony DUI. Felonies are never cleared automatically."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "10 years, counted from the latest of the case ending, release from jail or prison, or the end of probation or parole.",
+   "note": "By court petition only; DUI is not cleared automatically. A felony DUI cannot be expunged unless it is first reduced or pardoned."
+  },
+  "non_conviction": "Acquittals and dismissals with prejudice are expunged automatically by the courts; other non-conviction records can be expunged on request by petition.",
+  "automatic": "Courts automatically expunge acquittals, dismissals with prejudice, infractions and class C misdemeanors after 5 years, class B after 6 and class A drug possession after 7; no request form needed since January 1, 2026.",
+  "dui_driving_record": "DUI or drug-related charges are shown on the driving record for 10 years, according to the Driver License Division. A second or third DUI within 10 years brings higher penalties.",
+  "sources": [
+   "https://www.utcourts.gov/en/self-help/case-categories/criminal-justice/expunge.html",
+   "https://dld.utah.gov/?p=1042",
+   "https://highwaysafety.utah.gov/utah-dui-laws"
+  ],
+  "uncertain": [
+   "Whether the automatic process continues unchanged after 2026 (CCRC says a 2024 law extended clean slate authority 'through 2026').",
+   "Waiting period for petitions on non-conviction records that are not cleared automatically was not checked."
+  ]
+ },
+ "WY": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence, probation and any court-ordered program end; 1 year for status offenses such as underage drinking.",
+   "note": "One misdemeanor expungement per person. Not available if a firearm was used. The record is sealed from the public; law enforcement can still see it."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years after the sentence, any court-ordered program and restitution are complete.",
+   "note": "No other felony convictions and no firearm used. Violent felonies, sexual offenses, child abuse, weapons offenses, bribery and other listed felonies are excluded. One felony expungement per person."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "5 years after the sentence and any probation or court-ordered program end.",
+   "note": "The misdemeanor expungement law does not exclude DUI, so a first DUI appears to follow the general rule: one expungement per person, no firearm involved. No official page addresses DUI by name."
+  },
+  "non_conviction": "On request by court petition, 180 days after the arrest or dismissal if no charges are pending. Not automatic.",
+  "automatic": null,
+  "dui_driving_record": "A DUI conviction counts as a prior offense for 10 years, for both criminal penalties and licence suspension. How long it stays on the driving record itself was not confirmed.",
+  "sources": [
+   "https://www.wyocourts.gov/legal-help-by-topic/expungements/",
+   "https://statutes.wyoleg.gov/NXT/gateway.dll/2025%20Wyoming%20Statutes/2025%20Titles/316/352/367",
+   "https://wyoleg.gov/InterimCommittee/2020/01-2020051913-01TopicSummary-Judiciary-DUIStatutes.pdf"
+  ],
+  "uncertain": [
+   "DUI eligibility is inferred from the 2025 text of W.S. 7-13-1501 on the legislature's site (any misdemeanor; only firearm cases and one health-care-provider offense excluded) and the court page; neither names DUI. CCRC describes the statute as covering only listed misdemeanors, which the current text read here does not support.",
+   "Whether an expunged DUI still counts as a prior offense or remains on the WYDOT driving record was not confirmed.",
+   "The 10-year lookback comes from a 2020 Legislative Service Office summary of W.S. 31-5-233; the current statute text was not opened.",
+   "No WYDOT statement found on how long a DUI shows on the driving record (third-party sites conflict: 10 years vs lifetime)."
+  ]
+ },
+ "AZ": {
+  "remedy_name": "record sealing (a separate set-aside also exists)",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "2 years after completing the sentence for class 2 and 3 misdemeanors; 3 years for class 1.",
+   "note": "By petition; the judge decides. All fines, fees and restitution must be paid. Offenses involving a deadly weapon or serious injury are excluded."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years after completing the sentence for class 4-6 felonies; 10 years for class 2-3.",
+   "note": "Class 1 felonies, dangerous, violent or serious offenses and certain sex offenses cannot be sealed. A later felony adds 5 years to the wait."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "3 years after completing the sentence (a standard DUI is a class 1 misdemeanor).",
+   "note": "Not excluded from sealing, but a sealed DUI still counts as a prior DUI and must be disclosed when applying for jobs that involve driving."
+  },
+  "non_conviction": "Dismissals, acquittals and arrests with no charges can be sealed by petition; the statute sets no waiting period for these. Not automatic.",
+  "automatic": null,
+  "dui_driving_record": "A DUI counts as a prior offense for 84 months (7 years), measured between offense dates. How long it shows on the MVD driving record was not confirmed.",
+  "sources": [
+   "https://www.azleg.gov/ars/13/00911.htm",
+   "https://www.azleg.gov/ars/28/01381.htm",
+   "https://www.azleg.gov/ars/13/00905.htm"
+  ],
+  "uncertain": [
+   "How long a DUI stays on the Arizona MVD driving record itself was not checked with ADOT/MVD; only the 84-month statutory lookback (ARS 28-1381(K),(M)) is confirmed.",
+   "DUI eligibility for sealing is inferred from ARS 13-911: DUI is not on the excluded list (subsection O) and the statute expressly refers to sealed 28-1381/28-1382/28-1383 records; no court page naming DUI was read.",
+   "Aggravated (felony) DUI under 28-1383 would follow the felony waits unless it counts as a dangerous offense; not separately confirmed."
+  ]
+ },
+ "FL": {
+  "remedy_name": "sealing and expunction (non-convictions only)",
+  "misdemeanor": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Anyone adjudicated guilty is ineligible. Only cases with no conviction, including withheld adjudication, can be sealed or expunged."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Same rule: a felony conviction cannot be sealed or expunged."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "A DUI conviction cannot be sealed or expunged, because Florida does not clear any adult conviction."
+  },
+  "non_conviction": "Dropped or dismissed charges and acquittals can be sealed or expunged by petition after getting an FDLE certificate of eligibility; generally once in a lifetime. FDLE also seals its own records of such cases automatically.",
+  "automatic": "Under a 2019 law, FDLE automatically seals its own records of cases that ended without charges, in dismissal or in acquittal (not forcible felonies); court and local police records are not covered.",
+  "dui_driving_record": "Alcohol-related entries stay on the Florida driver record for 75 years. For penalties, a second DUI within 5 years and a third within 10 years of a prior conviction are punished more severely.",
+  "sources": [
+   "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.193.html",
+   "https://www.flhsmv.gov/ddl/abstract.html",
+   "https://www.flhsmv.gov/driver-licenses-id-cards/education-courses/dui-and-iid/florida-dui-administrative-suspension-laws/"
+  ],
+  "uncertain": [
+   "The sealing/expunction rules are taken from the fact-checked input summary (ss. 943.059, 943.0585, 943.0595); those statutes were not re-opened in this pass.",
+   "Whether a DUI case can ever end in withheld adjudication (and so be sealable) was not checked; the answer above covers DUI convictions only.",
+   "How fully FDLE's automatic sealing operates in practice remains unconfirmed."
+  ]
+ },
+ "IN": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "5 years after the date of conviction, or sooner if the prosecutor agrees in writing.",
+   "note": "By petition; the court must grant an eligible petition. Conviction expungement can generally be sought only once in a lifetime."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "8 years after conviction for Level 6 (Class D) felonies; for more serious felonies, 8 or 10 years after conviction or 3 or 5 years after the sentence ends.",
+   "note": "Sex or violent offenders and homicide, human trafficking and felony sex crime convictions are excluded. For serious felonies the judge has discretion and records stay public, marked expunged."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "5 years after the date of conviction for a misdemeanor operating-while-intoxicated conviction.",
+   "note": "The misdemeanor rule covers all misdemeanors, with no OWI exception. Expungement does not end a driver's license suspension, and the BMV may still report the conviction to the commercial driver system."
+  },
+  "non_conviction": "Since July 2022 courts order expungement without a petition when all charges are dismissed or the person is acquitted. Arrests with no charges can be expunged by petition after one year.",
+  "automatic": "Since July 1, 2022, courts order expungement without a petition when all charges are dismissed or the person is acquitted.",
+  "dui_driving_record": "A prior operating-while-intoxicated conviction within the previous 7 years makes a new offense a Level 6 felony. How long it shows on the BMV driving record was not confirmed.",
+  "sources": [
+   "https://secure.in.gov/courts/iocs/files/pubs-trial-court-courtmgmt-expungement-detailed.pdf",
+   "https://iga.in.gov/ic/2026/Title_9/Article_30/Chapter_5.pdf"
+  ],
+  "uncertain": [
+   "IC 9-30-5-3 (7-year lookback): the Indiana General Assembly page would not load directly; the 7-year wording was seen only in a search-engine extract of the official iga.in.gov 2026 PDF and in Indiana Court of Appeals opinions listed in the same results.",
+   "How long an OWI stays on the Indiana BMV driving record was not confirmed with the BMV.",
+   "The search extract suggests further felony tiers in IC 9-30-5-3 with other time windows (e.g. 5 years); not verified.",
+   "DUI eligibility rests on the Office of Court Services digest (updated 7/1/2026) saying the category includes all misdemeanors; no page naming OWI specifically was found."
+  ]
+ },
+ "ME": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "4 years after the sentence is fully completed, with no new convictions and no pending charges.",
+   "note": "Only Class E crimes (the lowest class) and certain pre-2017 marijuana offenses qualify; some sexual offenses are excluded. Class D crimes are generally not eligible. By motion, not automatic."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Class A, B and C crimes are not eligible, except for a 2026 process for survivors of sex trafficking or sexual exploitation, and some old marijuana cultivation offenses."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "A first OUI is a Class D crime, and only Class E crimes are eligible for sealing."
+  },
+  "non_conviction": "There is no general sealing process for dismissals and acquittals. Such records are generally confidential in agency files but remain in court files.",
+  "automatic": null,
+  "dui_driving_record": "A prior OUI counts toward higher penalties for 10 years. How long it shows on the Maine driving record was not confirmed.",
+  "sources": [
+   "https://legislature.maine.gov/statutes/29-A/title29-Asec2411.html",
+   "https://legislature.maine.gov/statutes/15/title15sec2261.html"
+  ],
+  "uncertain": [
+   "How long an OUI stays on the Bureau of Motor Vehicles driving record was not confirmed; only the 10-year statutory period in 29-A s.2411 is confirmed.",
+   "Maine classes crimes A to E rather than as misdemeanors and felonies; D and E are treated here as misdemeanor-level and A to C as felony-level.",
+   "How the 10-year period is measured (29-A s.2402) was not opened.",
+   "Details of the 2026 trafficking-survivor sealing route (15 s.2262-B) were not checked."
+  ]
+ },
+ "NC": {
+  "remedy_name": "expunction",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "3 years for one nonviolent misdemeanor; 7 years for more than one.",
+   "note": "Only \"nonviolent\" offenses. Class A1 misdemeanors, assault offenses, sex-registry offenses and impaired driving are excluded. By petition."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years for one nonviolent felony (15 for certain breaking and entering offenses); 20 years for two or three.",
+   "note": "Class A through G felonies, assault offenses, sex-registry offenses, impaired driving and certain drug felonies are excluded. By petition."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Impaired driving (DWI) convictions are excluded from expunction."
+  },
+  "non_conviction": "Dismissed charges and not-guilty findings can be expunged by petition with no waiting period, and many are expunged automatically 180 to 210 days after the case ends.",
+  "automatic": "Under the Second Chance Act, many dismissed and not-guilty charges are expunged automatically 180 to 210 days after the case ends (paused 2022 to 2024, now resumed).",
+  "dui_driving_record": "A prior impaired driving conviction within 7 years is a grossly aggravating factor at sentencing; older ones still count as an aggravating factor. Three priors within 10 years make a new offense a felony.",
+  "sources": [
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-179.html",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-138.5.html"
+  ],
+  "uncertain": [
+   "The DWI exclusion from expunction is taken from the fact-checked input summary (G.S. 15A-145.5); that statute was not re-opened in this pass.",
+   "How long a DWI shows on the NCDMV driving record itself was not confirmed; only the sentencing lookbacks in G.S. 20-179 and 20-138.5 are confirmed.",
+   "Whether the conviction waiting period runs from conviction or the end of the sentence is an open question noted in the input.",
+   "Automatic expunction reportedly does not cover some dismissals (plea-agreement felonies; some dismissals after December 1, 2025); not verified."
+  ]
+ },
+ "NV": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "1 year after release or the end of a suspended sentence for most misdemeanors; 2 years for gross misdemeanors and misdemeanor battery, harassment or stalking; 7 years for DUI and domestic battery.",
+   "note": "By petition, with a presumption in favor of sealing. Crimes against children and sexual offenses cannot be sealed."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "2 years for Category E; 5 years for Category B, C and D; 10 years for Category A, crimes of violence and residential burglary, counted from release or end of parole or probation.",
+   "note": "Crimes against children, sexual offenses, home invasion with a deadly weapon and felony DUI cannot be sealed."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "7 years after release from custody or the end of any suspended sentence, whichever is later.",
+   "note": "Applies to non-felony DUI only. Felony DUI, and DUI causing death or serious injury, cannot be sealed."
+  },
+  "non_conviction": "Dismissed charges and acquittals can be sealed by petition at any time. Not automatic.",
+  "automatic": null,
+  "dui_driving_record": "A DUI counts as a prior offense for 7 years: penalties are set by whether it is a first, second or third offense within 7 years. How long it shows on the DMV record was not confirmed.",
+  "sources": [
+   "https://www.leg.state.nv.us/NRS/NRS-179.html",
+   "https://www.leg.state.nv.us/NRS/NRS-484C.html"
+  ],
+  "uncertain": [
+   "How long a DUI shows on the Nevada DMV driving record itself was not confirmed; only the 7-year lookback in NRS 484C.400 is confirmed.",
+   "The full list of unsealable offenses in NRS 179.245(6) was read only through paragraph (e).",
+   "Cases declined for prosecution follow a different timing rule (per the input) and are not covered above."
+  ]
+ },
+ "RI": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "5 years after completing the sentence for a first offender; 10 years after the last sentence for people with 2 to 5 misdemeanors.",
+   "note": "By motion. Fines and fees must be paid unless waived. Domestic violence and DUI convictions are excluded from the multiple-misdemeanor route."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years after completing the sentence for a first offender; 15 years after the last sentence for people with 2 to 4 felonies.",
+   "note": "Crimes of violence cannot be expunged. The multiple-felony route, added June 22, 2026, also bars other listed offenses."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "5 years after completing the sentence, for a first offender only.",
+   "note": "Only someone with no other conviction or probation can expunge a misdemeanor DUI. DUI and chemical-test refusal are barred from the multiple-conviction routes; DUI causing death is a prohibited offense there."
+  },
+  "non_conviction": "Dismissed and acquitted cases are sealed under a separate process, and since 2023 some dismissals are sealed automatically.",
+  "automatic": "Since 2023 some dismissed cases are sealed automatically; a 2022 law also required automatic expungement of past cannabis possession convictions by July 2024.",
+  "dui_driving_record": "A DUI counts as a prior offense for 10 years: a second or third violation within a 10-year period brings higher penalties. How long it shows on the DMV record was not confirmed.",
+  "sources": [
+   "https://webserver.rilegislature.gov/Statutes/TITLE12/12-1.3/12-1.3-2.HTM",
+   "https://webserver.rilegislature.gov/Statutes/TITLE12/12-1.3/12-1.3-1.HTM",
+   "https://webserver.rilegislature.gov/Statutes/TITLE31/31-27/31-27-2.HTM"
+  ],
+  "uncertain": [
+   "First-offender DUI eligibility is inferred from the statute text (12-1.3-2(a) excludes only crimes of violence; DUI is barred only in subsections (b) and (c)); no court page confirming this was found, and the judge still decides the motion.",
+   "The lookback in 31-27-2 now reads 10 years; many older sources say 5 years. The section history shows an amendment effective July 1, 2025, which appears to be the change but was not confirmed.",
+   "How long a DUI shows on the Rhode Island DMV driving record was not confirmed.",
+   "Details of the non-conviction sealing process and which dismissals are sealed automatically were not re-checked."
+  ]
+ },
+ "VA": {
+  "remedy_name": "record sealing (expungement for non-convictions)",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "7 years with no new conviction.",
+   "note": "Seven listed misdemeanors are sealed automatically; many others by petition, free to file. Lifetime limit of two granted petitions. DUI, domestic assault and other listed offenses are excluded."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "10 years with no new conviction.",
+   "note": "Only Class 5 and 6 felonies and felony larceny, by petition. Violent felonies, sex offenses and many firearm-related felonies are excluded."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Driving while intoxicated (section 18.2-266) is on the list of offenses that cannot be sealed, as are underage DUI and refusing a breath or blood test."
+  },
+  "non_conviction": "Acquittals and dismissals can be expunged by petition. Misdemeanor acquittals and dismissals with prejudice are sealed automatically under the law in effect since July 1, 2026.",
+  "automatic": "Since July 1, 2026: past marijuana possession cases, misdemeanor acquittals and dismissals with prejudice, and seven listed misdemeanor convictions after 7 years with no new conviction are sealed automatically.",
+  "dui_driving_record": "A DUI conviction stays on the Virginia DMV driving record for 11 years. A second offense within 10 years brings higher penalties (more within 5), and a third within 10 years is a felony.",
+  "sources": [
+   "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.12/",
+   "https://law.lis.virginia.gov/vacode/title18.2/chapter7/section18.2-270/",
+   "https://www.dmv.virginia.gov/licenses-ids/improvement/points/points-6"
+  ],
+  "uncertain": [
+   "How far automatic sealing has actually been carried out since July 1, 2026 was not confirmed.",
+   "Whether DUI is also excluded from the automatic sealing list was not checked separately (it is not among the seven listed misdemeanors per the input).",
+   "The wait for petition sealing starts from the latest of conviction, release or a later probation violation; simplified above.",
+   "Any wait for expungement of non-convictions was not checked."
+  ]
+ },
+ "CA": {
+  "remedy_name": "dismissal (set-aside) under Penal Code 1203.4",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "After probation ends; if no probation was given, one year after conviction.",
+   "note": "Dismissal does not seal or erase the record. Granted as of right if probation was completed, otherwise at the court's discretion."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "After probation ends; for jail or prison sentences, reported as one to two years after the sentence is completed.",
+   "note": "Nearly all felonies qualify since 2022, except offenses requiring sex offender registration. The record is not sealed."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "After probation is completed.",
+   "note": "Dismissal is at the judge's discretion for DUI, not automatic. It stays usable as a prior and the DMV still counts it; the driving record is unchanged."
+  },
+  "non_conviction": "The Department of Justice automatically grants record relief for eligible arrests that did not lead to conviction; this limits disclosure but is not sealing. Petition-based arrest sealing was not confirmed.",
+  "automatic": "Since July 2022 the Department of Justice grants automatic relief monthly for eligible arrests and convictions back to 1973; it limits disclosure but is not a dismissal or sealing.",
+  "dui_driving_record": "The DMV says a DUI stays on the driver record for 10 years and counts as a prior for 10 years from the earlier violation date. Commercial licence records are kept far longer.",
+  "sources": [
+   "https://selfhelp.courts.ca.gov/clean-your-record",
+   "https://california.public.law/codes/ca_penal_code_section_1203.4",
+   "https://california.public.law/codes/ca_penal_code_section_1203.41",
+   "https://sanbernardino.courts.ca.gov/system/files/pc1203_4dismissalinformation.pdf",
+   "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/alcohol-and-drugs/",
+   "https://qr.dmv.ca.gov/portal/driver-education-and-safety/dmv-safety-guidelines-actions/driving-under-the-influence/statewide-ignition-interlock-device-pilot-program/",
+   "https://www.dmv.ca.gov/portal/driver-education-and-safety/dmv-safety-guidelines-actions/driving-under-the-influence/"
+  ],
+  "uncertain": [
+   "Penal Code 1203.4 and 1203.41 were read on california.public.law (unofficial mirror); the official leginfo site blocked access. The DUI rule is my reading of 1203.4(c): offenses under Vehicle Code 12810(a)-(e) get relief only at the court's discretion; DUI is not named in the text I saw.",
+   "Felony jail/prison waits (1 year or 2 years after sentence completion under 1203.41) come from the unofficial mirror only.",
+   "Whether a DUI conviction is excluded from DOJ automatic relief was not checked.",
+   "Petition sealing of arrests under Penal Code 851.91 not verified.",
+   "DMV pages differ on whether the 10 years runs from the violation date or the conviction date."
+  ]
+ },
+ "GA": {
+  "remedy_name": "record restriction",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "Four years after completing the sentence with no new conviction.",
+   "note": "By petition; lifetime limit of two. Family violence, certain sexual offenses, most theft and serious traffic offenses are excluded."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": null,
+   "note": "Only after a pardon, and not for serious violent felonies or sexual offenses. First Offender Act cases that are completed are restricted without a conviction."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "DUI is a serious traffic offense under Georgia law and is excluded from misdemeanor record restriction."
+  },
+  "non_conviction": "Arrests ending in dismissal or no prosecution are generally restricted; for arrests after July 1, 2013 this is often automatic. Court records must be sealed separately by petition.",
+  "automatic": null,
+  "dui_driving_record": "For licence suspensions, DUIs within 5 years of each other count as repeat offenses (measured arrest to arrest). A fourth DUI within 10 years can be a felony.",
+  "sources": [
+   "https://gov.georgia.gov/document/2020-signed-legislation/sb-288/download",
+   "https://dds.georgia.gov/chapter-1-continued",
+   "https://assets.georgiacourts.gov/2/wp-content/uploads/2024/04/02013732/Traffic-Court-Reference-Manual-2021-2022V3.pdf",
+   "https://gbi.georgia.gov/services/obtaining-criminal-history-record-information-frequently-asked-questions"
+  ],
+  "uncertain": [
+   "Exclusion read from the 2020 SB 288 bill text ('any serious traffic offense in violation of Article 15 of Chapter 6 of Title 40'), not the current code; that DUI (40-6-391) sits in Article 15 was seen only in a search-result URL.",
+   "The 10-year lookback for sentencing second and third DUIs (O.C.G.A. 40-6-391(c)) was not confirmed on an official page; only the 5-year licence rule and 10-year felony rule were.",
+   "How long a DUI is displayed on a Georgia driving history report was not found.",
+   "Non-conviction restriction for post-2013 arrests is not a clean-slate law for convictions, so 'automatic' is null."
+  ]
+ },
+ "KS": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Three years after the sentence, probation or diversion is finished.",
+   "note": "By petition; the court must find no felony conviction in the past two years, no pending felony case, and that expungement fits the public welfare."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Three years for lower-level felonies; five years for more serious ones.",
+   "note": "Murder, manslaughter, rape and listed sex offenses and crimes against children cannot be expunged, nor any offense while registration is required."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "Five years after the sentence is finished for a first DUI; ten years for a second or later DUI.",
+   "note": "By petition, with the same court findings as other offenses."
+  },
+  "non_conviction": "Arrests that did not lead to conviction can be expunged by petition to the court; it is not automatic.",
+  "automatic": null,
+  "dui_driving_record": "For sentencing, every DUI conviction or diversion on or after July 1, 2001 counts as a prior, with no time limit; courts may also consider older ones when setting the sentence.",
+  "sources": [
+   "https://ksrevisor.gov/statutes/chapters/ch08/008_015_0067.html",
+   "https://ksrevisor.gov/statutes/chapters/ch21/021_066_0014.html"
+  ],
+  "uncertain": [
+   "Whether an expunged DUI still counts as a prior for a later DUI was not checked.",
+   "Second-DUI wait is 10 years in the statute summary, but CCRC reports 7 or 10 depending on offense date.",
+   "How long a DUI shows on the Kansas driving record itself (Department of Revenue) was not checked.",
+   "K.S.A. 22-2410 (arrest expungement) not read directly."
+  ]
+ },
+ "MI": {
+  "remedy_name": "setting aside a conviction (expungement / Clean Slate)",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Three years by application (five for serious misdemeanors); automatic after seven years.",
+   "note": "No limit on misdemeanors by application. Automatic process covers up to four misdemeanors punishable by 93 days or more."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Five years for one felony, seven for more than one, by application; automatic after ten years for up to two.",
+   "note": "Up to three felonies by application. Life-sentence felonies, most criminal sexual conduct and human trafficking are excluded; assaultive crimes are limited."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "Five years after sentencing or completing probation, parole or imprisonment, whichever is last.",
+   "note": "Only a first offense, once in a lifetime, by application only; never automatic. The judge may weigh rehabilitation. Offenses causing injury or death and repeat offenses are excluded."
+  },
+  "non_conviction": "Handled separately from set-asides; details were not confirmed.",
+  "automatic": "Michigan State Police automatically set aside eligible misdemeanors after seven years and up to two felonies after ten years, with no application.",
+  "dui_driving_record": "A new drunk-driving offense within 7 years of a prior gets heavier penalties, and a third is a felony no matter how many years have passed.",
+  "sources": [
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621c",
+   "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621d",
+   "https://legislature.mi.gov/Laws/MCL?objectName=MCL-257-625",
+   "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
+   "https://www.michigan.gov/ag/initiatives/expungement-assistance"
+  ],
+  "uncertain": [
+   "Search snippets of Secretary of State pages say impaired-driving convictions stay on the driving record permanently, but those pages returned errors and the current driver handbook I opened does not say it; left out.",
+   "Whether a set-aside OWI is removed from the Secretary of State driving record or still counts as a prior was not confirmed.",
+   "What happens to arrests without conviction (process and wait) was not researched beyond the input summary.",
+   "Full exclusion list for the automatic process (MCL 780.621g) not read."
+  ]
+ },
+ "ND": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "At least three years without a new conviction.",
+   "note": "By petition; the court decides case by case. Sentence must be complete and restitution paid."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "At least five years without a new conviction.",
+   "note": "Violent felonies cannot be sealed while the firearm ban applies; offenses requiring sex offender registration are excluded."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "Seven years from the first DUI with no later DUI or other criminal offense.",
+   "note": "A separate DUI statute says the court must seal the record. It does not apply to commercial licence holders, and prosecutors can still use it as a prior."
+  },
+  "non_conviction": "If all charges are dismissed or end in acquittal on or after August 1, 2025, the court closes the record automatically after 61 days. Older cases can be closed by petition with no fee.",
+  "automatic": "Since August 1, 2025, cases where every charge was dismissed or acquitted are closed automatically after 61 days; there is no automatic sealing of convictions.",
+  "dui_driving_record": "Prior DUIs count for 7 years for a second or third offense, and 15 years for a fourth or later offense.",
+  "sources": [
+   "https://ndlegis.gov/cencode/t39c08.pdf",
+   "https://ndlegis.gov/cencode/t12c60-1.pdf"
+  ],
+  "uncertain": [
+   "Whether DUI sealing under N.D.C.C. 39-08-01.6 happens on its own or needs a request to the court; the statute says only that the court 'shall seal'.",
+   "Whether a DUI can instead be sealed sooner under the general three-year misdemeanor petition law was not confirmed.",
+   "How long a DUI stays on the Department of Transportation driving record was not checked."
+  ]
+ },
+ "NY": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Automatic three years after sentencing or release.",
+   "note": "No pending charges and no current probation or parole. Sex offenses are excluded. Courts have until November 2027 to finish sealing."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Automatic eight years after release from incarceration.",
+   "note": "Sex offenses and most Class A felonies are excluded. A separate court application covers up to two convictions after ten years."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "Three years, under the automatic Clean Slate law.",
+   "note": "The sealing law names driving-while-impaired convictions and has no DWI exclusion. It does not seal DMV records, so the driving record is unaffected."
+  },
+  "non_conviction": "Dismissals, acquittals and other cases ending in the person's favor are sealed automatically, with no wait stated.",
+  "automatic": "The Clean Slate Act, in effect since November 2024, automatically seals most misdemeanors after three years and most felonies after eight; courts have until November 2027 to finish.",
+  "dui_driving_record": "The DMV shows a DWI on the driving record for 15 years from conviction and a DWAI for 10 years. A second DWI within 10 years is a felony; violations within 25 years can bring greater penalties.",
+  "sources": [
+   "https://www.nysenate.gov/legislation/laws/CPL/160.57",
+   "https://dmv.ny.gov/records/get-my-own-driving-record-abstract",
+   "https://dmv.ny.gov/points-and-penalties/penalties-for-alcohol-or-drug-related-violations"
+  ],
+  "uncertain": [
+   "CPL 160.57 expressly lists VTL 1192(1) (driving while ability impaired) at three years; that misdemeanor DWI (1192(2), (3)) is covered by the general misdemeanor rule is my reading, as no exclusion was found.",
+   "Whether a sealed DWI still counts as a prior for a later DWI charge was not confirmed.",
+   "Whether eligible records have actually been sealed yet (court deadline November 2027) not verified."
+  ]
+ },
+ "SC": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "Three years after conviction with no other conviction (five for third-degree domestic violence).",
+   "note": "Only minor offenses carrying up to 30 days or a $1,000 fine, plus a few first-offense categories. Usually once only. Driving offenses are excluded."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Five years after the sentence for a first Youthful Offender Act offense; twenty years for first-offense drug possession with intent to distribute.",
+   "note": "There is no general felony expungement; only these narrow categories, and not violent crimes."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Offenses involving the operation of a motor vehicle are excluded from conviction expungement."
+  },
+  "non_conviction": "Charges dismissed or ending in a not-guilty finding can be expunged at no cost; in magistrate and municipal courts this happens automatically.",
+  "automatic": "Dismissed or not-guilty charges in magistrate and municipal courts are expunged automatically; there is no automatic clearing of convictions.",
+  "dui_driving_record": "A DUI counts as a prior offense for 10 years: only violations within the ten years before the latest violation are counted.",
+  "sources": [
+   "https://www.scstatehouse.gov/code/t56c005.php",
+   "https://www.scstatehouse.gov/code/t22c005.php",
+   "https://www.sccourts.org/resources/general-public/expungement-application-process/for-magistrate-municipal-courts/"
+  ],
+  "uncertain": [
+   "How long a DUI is shown on the South Carolina DMV driving record (as opposed to the 10-year prior-offense window) was not checked.",
+   "Whether DUI is also barred under the Youthful Offender Act expungement route was not separately checked.",
+   "Timing and exceptions of the automatic summary-court expungement are simplified."
+  ]
+ },
+ "VT": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "Three years after completing the sentence.",
+   "note": "By petition; restitution and surcharges must be paid. Violent 'listed' crimes and offenses requiring sex offender registration do not qualify."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Seven years after completing the sentence.",
+   "note": "Only certain burglaries, designated property offenses, certain drug offenses and pardoned convictions qualify."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "Ten years after completing the sentence.",
+   "note": "Applies to a misdemeanor DUI, by petition; restitution and surcharges must be paid. Sealed records stay available to criminal justice agencies."
+  },
+  "non_conviction": "Charges that were dismissed or ended in acquittal are generally sealed by the court within 60 days unless a party objects.",
+  "automatic": "Courts seal dismissed and acquitted charges within about 60 days without a petition unless a party objects; there is no automatic sealing of convictions.",
+  "dui_driving_record": "A prior DUI counts toward second-offense penalties for 20 years. Third and later offenses count all prior convictions if at least one was within the last 20 years.",
+  "sources": [
+   "https://legislature.vermont.gov/statutes/section/23/013/01210",
+   "https://legislature.vermont.gov/statutes/fullchapter/13/230"
+  ],
+  "uncertain": [
+   "The 10-year DUI sealing wait comes from the input's fact-checked summary of 13 V.S.A. chapter 230; I did not re-open that chapter.",
+   "Whether a sealed DUI still counts as a prior under 23 V.S.A. 1210 was not confirmed.",
+   "How long a DUI stays on the Vermont DMV driving record itself was not checked."
+  ]
+ },
+ "CO": {
+  "remedy_name": "record sealing",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "By motion: 2 years after the case ends for class 2 and 3 and drug misdemeanors, 3 years for class 1. Automatic sealing after 7 years.",
+   "note": "Traffic misdemeanors, DUI, domestic violence, child abuse and sex-related convictions are generally excluded. Restitution must be paid for sealing by motion."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "By motion: 3 years for class 4-6 and lower-level drug felonies, 5 years for other eligible offenses. Automatic sealing after 10 years.",
+   "note": "Class 1, 2 and 3 felonies, level 1 drug felonies, crimes of violence, sex offenses and victim-rights felonies are not eligible."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "The state courts list DUI and DWAI convictions as not eligible for sealing, by motion or automatically. A DUI case that ended in dismissal or acquittal can be sealed."
+  },
+  "non_conviction": "Acquittals, complete dismissals and completed diversion or deferred judgments are meant to be sealed automatically by the court; if not, a motion can be filed at no fee. Cases with only traffic charges are excluded.",
+  "automatic": "Under the Clean Slate Act, courts automatically seal eligible convictions after 4 years (civil infractions), 7 years (petty offenses and misdemeanors) or 10 years (felonies); DUI is excluded.",
+  "dui_driving_record": "The Colorado State Patrol says a DUI conviction stays on the driving record for 10 years. How long it counts as a prior offense was not confirmed.",
+  "sources": [
+   "https://www.coloradojudicial.gov/sites/default/files/2026-08/Sealing%20Criminal%20Records%20-%20January%202026.pdf",
+   "https://www.coloradojudicial.gov/self-help/seal-my-case",
+   "https://csp.colorado.gov/press-release/insurance-implications",
+   "https://www.codot.gov/safety/impaired-driving/assets/2025-assets/dui_processofdui_web.pdf"
+  ],
+  "uncertain": [
+   "Lookback for repeat DUI penalties not confirmed from statute (Colorado statutes are not hosted on a readable official page). Widely reported as lifetime (any prior DUI/DWAI counts; fourth is a felony), and CDOT says a prior DUI from anywhere in the US makes a driver a 'persistent drunk driver', but no time limit was confirmed.",
+   "The 10-year driving-record figure is from a Colorado State Patrol press release, not the DMV or a statute.",
+   "The court's slides describe an exception letting some otherwise ineligible misdemeanors be sealed if the District Attorney consents or the court makes special findings (C.R.S. 24-72-706(2)(b)). Whether that exception reaches DUI was not confirmed; the guide should treat DUI as not sealable.",
+   "Automatic sealing periods (4/7/10 years) come from the input summary, not an official page.",
+   "Petition waits taken from the court's January 2026 slides (rev. Aug. 2025); CCRC summarises misdemeanors as 3 years."
+  ]
+ },
+ "HI": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": null,
+   "note": "No general expungement of convictions. Only narrow categories by court order: first-time drug offenders, first-time property offenders, and under-21 drivers with a measurable amount of alcohol."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": null,
+   "note": "Same narrow categories only (first-time drug and first-time property offenders, by court order). No general expungement of felony convictions; a pardon does not expunge."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "An adult DUI (called OVUII) conviction is not in any category that can be expunged. Only the separate under-21 measurable-alcohol offense can be."
+  },
+  "non_conviction": "Cleared on request to the Hawaii Criminal Justice Data Center. Not available if bail was forfeited or the person left the state to avoid prosecution. After a deferred plea, there is a 1-year wait after dismissal.",
+  "automatic": null,
+  "dui_driving_record": "A DUI counts as a prior offense for 10 years: state law sets higher penalties for an offense within ten years of a prior conviction. How long it shows on the driving abstract was not confirmed.",
+  "sources": [
+   "https://www.capitol.hawaii.gov/hrscurrent/Vol05_Ch0261-0319/HRS0291E/HRS_0291E-0061.htm",
+   "https://ag.hawaii.gov/hcjdc/expungements/"
+  ],
+  "uncertain": [
+   "DUI answer rests on the absence of DUI from the expungeable conviction categories in the fact-checked summary and AG page; no official page states 'DUI convictions cannot be expunged' in those words.",
+   "How long a DUI appears on the Hawaii traffic abstract (driving record) was not checked against an official source.",
+   "Since July 1, 2025 court records are sealed automatically once an expungement order issues, but that is not a clean-slate law, so 'automatic' is null.",
+   "Details of the conviction categories (waiting periods, conditions) not verified beyond the input summary."
+  ]
+ },
+ "KY": {
+  "remedy_name": "expungement",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "5 years after the sentence or probation ends.",
+   "note": "Sex offenses and offenses against a child are excluded. For offenses with higher penalties for repeats, that enhancement period must also have run out."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years after completing the sentence, probation or parole.",
+   "note": "Most Class D felonies only. Excluded: felony DUI, sex offenses, offenses against a child, abuse of public office, serious injury or death. Higher felony classes only after a pardon. Costs $300 in total."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "About 10 years: the 10-year period in which a DUI counts toward a repeat offense must have ended (and at least 5 years since the sentence ended).",
+   "note": "Applies to misdemeanor DUI, by petition. A felony DUI (fourth or later within 10 years) cannot be expunged."
+  },
+  "non_conviction": "Acquittals and dismissals with prejudice since 2020 are expunged automatically after 30 days, with no action needed; traffic cases are excluded. Other dismissed cases can be expunged on petition.",
+  "automatic": "Only for non-convictions: acquittals and dismissals with prejudice are expunged automatically; there is no automatic expungement of convictions.",
+  "dui_driving_record": "A DUI counts as a prior offense for 10 years, measured between offense dates. How long it shows on the driving history record was not confirmed.",
+  "sources": [
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58145",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53904",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58307",
+   "https://kycourts.gov/AOC/Information-and-Technology/Pages/Expungement.aspx",
+   "https://dpa.ky.gov/wp-content/uploads/2024/05/Expungement-Guide-May-2024.pdf"
+  ],
+  "uncertain": [
+   "The official text of KRS 431.078 (misdemeanor expungement) was not opened; the enhancement-period rule and its application to DUI come from the state Department of Public Advocacy's May 2024 expungement guide, which cites Commonwealth v. Jackson (Ky. 2017). The 5-year misdemeanor wait is from CCRC.",
+   "Whether the 2026 amendment to KRS 189A.010 (2026 Ky. Acts ch. 193, effective July 15, 2026) changed anything beyond what is shown was not reviewed; the current text still uses a 10-year period.",
+   "Since DUI is a traffic case, a dismissed or acquitted DUI charge may fall outside automatic expungement and need a petition; not confirmed.",
+   "How long a DUI stays on the Transportation Cabinet driving history record was not checked.",
+   "Start date for automatic non-conviction expungement: courts page says July 15, 2020; CCRC says March 27, 2020."
+  ]
+ },
+ "MN": {
+  "remedy_name": "expungement (sealing)",
+  "misdemeanor": {
+   "clearable": "yes",
+   "wait": "2 years without a new conviction after the sentence is discharged; 3 years for gross misdemeanors. Most are sealed automatically after the same periods.",
+   "note": "By petition a judge weighs the benefit against public safety. Some offenses (such as domestic assault and DWI) are excluded from automatic sealing. Offenses requiring sex offender registration cannot be expunged."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "4 years without a new conviction after the sentence is discharged, by petition; 5 years for automatic sealing of most listed felonies.",
+   "note": "Only felonies on a set list of mostly nonviolent offenses. Felony DWI is not on the list."
+  },
+  "dui": {
+   "clearable": "yes",
+   "wait": "By petition only: 2 years after the sentence is discharged for a misdemeanor DWI, 3 years for a gross misdemeanor DWI, with no new conviction.",
+   "note": "A judge decides; it is not guaranteed. DWI is excluded from automatic Clean Slate sealing. An expunged DWI still stays on the driving record and still counts as a prior."
+  },
+  "non_conviction": "Dismissals and acquittals are sealed automatically under the Clean Slate Act, or by petition with no waiting period. Completed diversion or stay of adjudication needs 1 year without a new charge.",
+  "automatic": "Since January 1, 2025 the Clean Slate Act automatically seals non-convictions, most misdemeanors and many listed felonies in state records; DWI is excluded.",
+  "dui_driving_record": "Alcohol-related offenses are kept on the driving record permanently. A DWI counts as a prior that raises penalties for 10 years.",
+  "sources": [
+   "https://www.revisor.mn.gov/statutes/cite/609A.02",
+   "https://www.revisor.mn.gov/statutes/cite/609A.015",
+   "https://www.revisor.mn.gov/statutes/cite/169A.03",
+   "https://www.revisor.mn.gov/statutes/cite/171.12"
+  ],
+  "uncertain": [
+   "DWI eligibility by petition is inferred from the statute: Minn. Stat. 609A.02 allows petitions for any misdemeanor or gross misdemeanor and does not exclude DWI, while 609A.015 expressly excludes DWI only from automatic sealing. No official page says in plain words 'a DWI can be expunged'.",
+   "The statement that an expunged DWI still counts as a prior and stays on the driving record is based on 171.12 (permanent retention) and 609A.015 subd. 5(j); the equivalent rule for petition-based expungement was not separately confirmed.",
+   "Felony DWI (first-degree) is not on the 609A.02 list; whether any other route applies was not checked.",
+   "Longer lookbacks for some licence consequences (for example ignition interlock rules) were not checked."
+  ]
+ },
+ "NE": {
+  "remedy_name": "set-aside",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "No set waiting period: can be requested once probation, fine, community service or a sentence of up to one year is complete.",
+   "note": "A set-aside nullifies the conviction but does not seal or remove the record. Not available while on the sex offender registry. A judge decides."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "No set waiting period: after completing probation or a sentence of no more than one year.",
+   "note": "Set-aside only, and the record stays public. Sealing of a conviction is available only after a pardon or for trafficking victims."
+  },
+  "dui": {
+   "clearable": "some",
+   "wait": "No set waiting period: after probation ends or the fine is paid.",
+   "note": "Set-aside only if the sentence was probation or a fine; not if jail was imposed. The record is not sealed, and the DUI still counts as a prior and for licence points."
+  },
+  "non_conviction": "Removed from the public record automatically: right away after acquittal or dismissal, 1 year after arrest if no charges were filed, 2 years if charges were not filed because of completed diversion.",
+  "automatic": "Only for non-convictions, which are removed from the public record automatically; there is no automatic clearing of convictions.",
+  "dui_driving_record": "A DUI counts as a prior offense for 15 years, measured from the earlier offense to the new one. How long it shows on the DMV driving record was not confirmed.",
+  "sources": [
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=29-2264",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=60-6,197.02",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=29-3523"
+  ],
+  "uncertain": [
+   "The bar on setting aside motor vehicle offenses (29-2264(3)(b)(iii)) applies to people sentenced to jail; it is assumed, not separately confirmed, that DUI (sec. 60-6,196) falls within the 'Nebraska Rules of the Road' for that purpose.",
+   "How long a DUI appears on the Nebraska DMV driving record was not checked.",
+   "Final status of the 2025-2026 Clean Slate bill (LB 215) not confirmed; treated as not in effect."
+  ]
+ },
+ "OH": {
+  "remedy_name": "sealing (and expungement)",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "Sealing or expungement: 1 year after final discharge; 6 months for minor misdemeanors.",
+   "note": "Traffic and DUI convictions, sex offenses requiring registration, and offenses with victims under 13 are excluded. Final discharge includes paying restitution. Requires an application."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "Sealing: 1 year after final discharge for fourth- and fifth-degree felonies, 3 years for third-degree. Expungement: 10 years after becoming eligible for sealing.",
+   "note": "First- and second-degree felonies, felony offenses of violence and registrable sex offenses are excluded. No more than two third-degree felonies."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "Convictions under Ohio's traffic chapters, including the DUI (OVI) law, are excluded from both sealing and expungement."
+  },
+  "non_conviction": "Dismissals, acquittals and no-bills can be sealed on application to the court; not automatic. A no-bill reportedly has a 2-year wait.",
+  "automatic": null,
+  "dui_driving_record": "An OVI counts as a prior offense for 10 years. Five or more within 20 years is a felony, and a prior within 20 years also matters for test refusals. Time on the driving record was not confirmed.",
+  "sources": [
+   "https://codes.ohio.gov/ohio-revised-code/section-2953.32",
+   "https://codes.ohio.gov/ohio-revised-code/section-4511.19"
+  ],
+  "uncertain": [
+   "How long an OVI conviction stays on the Ohio BMV driving record (as opposed to the 10/20-year lookback) was not confirmed from an official page.",
+   "The exclusion text ('Sections 2953.32 and 2953.34 do not apply to ... convictions under Chapter ... 4511') was returned when opening the codes.ohio.gov page for 2953.32; it reads like R.C. 2953.36, so the exact section number should be double-checked. The rule itself is from the official code site (effective September 30, 2025).",
+   "Non-conviction rules, including the 2-year wait for no-bills, are from CCRC only.",
+   "Whether an OVI charge that was dismissed or acquitted can be sealed was not separately checked."
+  ]
+ },
+ "SD": {
+  "remedy_name": "expungement (sealing)",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "5 years, automatic, for Class 2 misdemeanors, petty offenses and municipal violations.",
+   "note": "No expungement of convictions on request. Class 1 misdemeanors are not removed. Automatic removal requires all court conditions met and no new convictions in the 5 years."
+  },
+  "felony": {
+   "clearable": "no",
+   "wait": null,
+   "note": "No general clearing of felony convictions. A first-time offender given a suspended imposition of sentence has no judgment of guilt entered and the record is sealed when it is completed."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "A first DUI is a Class 1 misdemeanor, so it is outside the automatic 5-year removal, and there is no expungement of convictions."
+  },
+  "non_conviction": "Cleared on request to the court: 1 year after arrest if no charges were filed, 1 year after the prosecutor dismisses the whole case, or any time after an acquittal.",
+  "automatic": "Petty offenses, municipal violations and Class 2 misdemeanors are automatically removed from the public record after 5 years with all conditions met and no new convictions.",
+  "dui_driving_record": "A DUI counts as a prior offense for 10 years, not counting time spent in custody for the earlier offense. How long it shows on the driving record was not confirmed.",
+  "sources": [
+   "https://sdlegislature.gov/api/Statutes/32-23-4.1.html",
+   "https://sdlegislature.gov/api/Statutes/32-23-2.html",
+   "https://sdlegislature.gov/api/Statutes/23A-3-34.html",
+   "https://sdlegislature.gov/api/Statutes/23A-27-12.2.html",
+   "https://sdlegislature.gov/api/Statutes/23A-27-13.html",
+   "https://ujs.sd.gov/self-help/civil-law-help/expungement/"
+  ],
+  "uncertain": [
+   "Whether a first DUI can receive a suspended imposition of sentence (SDCL 23A-27-12.2 allows it for misdemeanors generally, once in a lifetime) and be sealed that way was not confirmed for DUI specifically. If it can, the guilty plea would still count as a prior under 32-23-4.1.",
+   "Sealing after a completed suspended imposition of sentence (SDCL 23A-27-17) is from CCRC only.",
+   "SDCL 32-23-4.1 has an exception (32-23-4.9) to the 10-year limit that was not read.",
+   "How long a DUI stays on the South Dakota driving record was not checked.",
+   "Early expungement of a dismissal on a showing of compelling necessity (2022 change) is from the input summary."
+  ]
+ },
+ "WA": {
+  "remedy_name": "vacating a conviction",
+  "misdemeanor": {
+   "clearable": "some",
+   "wait": "3 years after the sentence, release or end of probation, with no new conviction; 5 years for domestic violence cases.",
+   "note": "DUI, violent offenses and most sex offenses are excluded. Vacating does not seal the court file. Marijuana misdemeanors and pre-2021 drug possession have no wait."
+  },
+  "felony": {
+   "clearable": "some",
+   "wait": "5 years for class C felonies and 10 years for class B, after release or sentencing, with no new convictions.",
+   "note": "Violent offenses, crimes against persons, most sex offenses and felony DUI cannot be vacated. Requires a court request."
+  },
+  "dui": {
+   "clearable": "no",
+   "wait": null,
+   "note": "State law bars vacating a DUI or physical-control conviction. A related lesser offense that counts as a DUI 'prior offense' can be vacated only after 10 years with no later alcohol or drug violation."
+  },
+  "non_conviction": "Not automatic. Deletion from police and State Patrol files can reportedly be requested 2 years after a favorable outcome, or 3 years after arrest with no outcome, with exceptions.",
+  "automatic": null,
+  "dui_driving_record": "Alcohol-related convictions stay on the driving record for life, per the Department of Licensing. For penalties a prior counts for 7 years; three or more priors within 15 years make a DUI a felony.",
+  "sources": [
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=9.96.060",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.5055",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.502",
+   "https://dol.wa.gov/node/165",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=9.94A.640"
+  ],
+  "uncertain": [
+   "The input notes said 'misdemeanor DUI can be vacated only after 10 years'. The current text of RCW 9.96.060(2)(d) reads differently: a DUI (RCW 46.61.502) or physical-control conviction cannot be vacated at all; the 10-year rule applies to other offenses that count as a 'prior offense' (for example a DUI charge reduced to reckless or negligent driving). State court instructions found in search results say the same but were not opened.",
+   "Non-conviction rule (RCW 10.97.060) is from CCRC only and not confirmed on an official page.",
+   "The Department of Licensing page says 'alcohol-related convictions' and deferred prosecutions stay for life; it does not name DUI specifically.",
+   "The felony threshold of three priors within 15 years is from the current RCW 46.61.502(6); the date it replaced the earlier 10-year window was not confirmed."
+  ]
+ }
+}

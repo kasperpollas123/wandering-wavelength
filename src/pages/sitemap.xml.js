@@ -1,6 +1,7 @@
 import { cities, stateNames, stateSlug } from '../data/cities';
 import { attorneys, getAttorneysByState, getAttorneysForCity } from '../data/attorneys';
 import { helpStates } from '../data/freeHelp';
+import { guideTopics } from '../data/guides';
 
 export async function get() {
   // Base URL for the site
@@ -46,7 +47,10 @@ export async function get() {
   const helpPages = [{ url: '/free-expungement-help', priority: '0.9', changefreq: 'monthly' },
     ...helpStates.map(s => ({ url: `/free-expungement-help/${stateSlug(s.code)}`, priority: '0.8', changefreq: 'monthly' }))];
 
-  const allPages = [...mainPages, ...statePages, ...helpPages, ...cityPages, ...attorneyPages];
+  const guidePages = [{ url: '/guides', priority: '0.8', changefreq: 'monthly' },
+    ...guideTopics.map(t => ({ url: `/guides/${t.slug}`, priority: '0.9', changefreq: 'monthly' }))];
+
+  const allPages = [...mainPages, ...statePages, ...helpPages, ...guidePages, ...cityPages, ...attorneyPages];
   
   // Generate XML
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

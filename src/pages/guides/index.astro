@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { guideTopics } from '../../data/guides';
+---
+
+<PageLayout
+  title="Guides to Criminal Records and Clearing Them"
+  description="Plain-English guides on how long a DUI, misdemeanor or felony stays on your record in each state, and whether it can be cleared."
+  canonicalURL="/guides"
+>
+  <div class="container py-8 mt-8">
+    <Breadcrumbs items={[{ label: "Guides" }]} />
+  </div>
+  <section class="pb-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold mb-6">Guides</h1>
+        <p class="text-lg text-gray-700 mb-8">Plain-English answers to common questions about criminal records, checked state by state against official sources.</p>
+        <div class="space-y-4">
+          {guideTopics.map(t => (
+            <a href={`/guides/${t.slug}`} class="block p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+              <h2 class="text-xl font-semibold mb-1">{t.title}</h2>
+              <p class="text-gray-700">{t.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>

@@ -6,6 +6,7 @@ import CallToAction from '../../components/CallToAction.astro';
 import { cities, stateNames, stateSlug, stateExpungementInfo, stateLawSources, stateLawChecked } from '../../data/cities';
 import { getAttorneysByState, getAttorneysForCity, getCityForAttorney } from '../../data/attorneys';
 import { getHelpForState } from '../../data/freeHelp';
+import { getStateFacts, guideTopics, clearableLabel } from '../../data/guides';
 
 // One page for every state that has at least one attorney in the directory
 export function getStaticPaths() {
@@ -21,6 +22,7 @@ const lawInfo = stateExpungementInfo[code];
 const lawSources = stateLawSources[code] || [];
 const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const helpCount = getHelpForState(code).length;
+const facts = getStateFacts(code);
 
 // City pages in this state
 const stateCities = cities
@@ -69,6 +71,21 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
                 ))}
               </p>
             )}
+          </div>
+        )}
+
+        {facts && (
+          <div class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">How Long Does It Stay on Your Record in {stateName}?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {guideTopics.map(t => (
+                <a href={`/guides/${t.slug}#${stateSlug(code)}`} class="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                  <h3 class="font-semibold mb-1">{t.short}</h3>
+                  <p class="text-sm text-gray-700">{`Can be cleared: ${clearableLabel[facts[t.key].clearable]}`}</p>
+                  {facts[t.key].wait && <p class="text-sm text-gray-600 mt-1">{facts[t.key].wait}</p>}
+                </a>
+              ))}
+            </div>
           </div>
         )}
 
