@@ -1,0 +1,2252 @@
+[
+ {
+  "firm": "Attorney Adam Burke|attorneyadamburke.com",
+  "set": "old contradictory card",
+  "input": "Attorney Adam Burke's firm defends federal, white-collar, felony and OVI cases in Columbus; it does not describe expungement or sealing work. The team includes a former prosecutor.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.02989243783765612,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Vincent R. Maher|www.themaherlawgroup.com",
+  "set": "old contradictory card",
+  "input": "A Fairfield defense firm handling assault, domestic violence, DUI, drug, gang, theft and three strikes cases in Solano and nearby counties. Record clearing is not mentioned; Vincent R. Maher has two decades in practice.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.030872243257013106,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "Thurmond Kirchner & Timbes, P.A.|tktlawyers.com",
+  "set": "old contradictory card",
+  "input": "A Charleston firm of 12 attorneys, founded in 2005, whose criminal defense work covers DUI, drug and domestic violence charges alongside business and injury law. Record clearing is not described.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03948386344440694,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "The Crowder Law Firm, P.C.|www.crowdercriminalfirm.com",
+  "set": "old contradictory card",
+  "input": "Defends state and federal cases across North Texas from a Plano office, including DWI, drug and white-collar charges, and federal investigations. No record-clearing services are described.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.022591258655207377,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "McConnell Law Firm|www.jonathanwmcconnell.com",
+  "set": "old contradictory card",
+  "input": "A Wichita practice defending state and federal charges, including sex crimes, DUI, drug and white-collar offenses, and handling appeals. Expungement and sealing are not described. Founded in 2014 by Jonathan W. McConnell.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.027591643322068912,
+  "cost": 1.87e-05
+ },
+ {
+  "firm": "Law Office of Dennis Kuntz|www.lawofficedenniskuntz.com",
+  "set": "old contradictory card",
+  "input": "A San Bernardino County defense practice handling misdemeanors, felonies, DUI, drug, theft and white-collar cases in state and federal court. It does not describe expungement or sealing; Dennis Kuntz reports over a decade of practice.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.02099678899503214,
+  "cost": 1.87e-05
+ },
+ {
+  "firm": "Philip A. Schnayerson, Criminal Defense Attorney|www.philcrimlaw.com",
+  "set": "old contradictory card",
+  "input": "Defends state and federal criminal cases in Hayward and around the Bay Area, including matters for immigrants; record clearing is not listed. Philip A. Schnayerson has over 30 years in criminal law.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.04018207718237338,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "Law Office of Joseph A. Fanduzz|www.knoxvillecriminalattorney.com",
+  "set": "old contradictory card",
+  "input": "Joseph Fanduzz has defended DUI, drug, domestic violence and federal cases in Knoxville since 2007, appearing in city, state and federal courts. Expungement and sealing are not mentioned.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03168795161601072,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "Christopher T. Van Wagner S.C.|www.vanwagnerlaw.com",
+  "set": "old contradictory card",
+  "input": "A Madison solo practice defending criminal cases, including OWI, in state and federal court, with no record-clearing work described. Christopher Van Wagner is a former state and federal prosecutor practicing for almost 45 years.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.019483879278341158,
+  "cost": 1.84e-05
+ },
+ {
+  "firm": "Trey Porter Law|www.dwilawyerstexas.com",
+  "set": "old contradictory card",
+  "input": "An informational resource on Texas DWI law covering stops, testing, license revocation and court steps; it does not offer expungement, nondisclosure or other record-clearing services.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.02086152727795155,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Law Offices of Christian Kim|www.californiacriminaldefenselaw.com",
+  "set": "old contradictory card",
+  "input": "Before turning to defense, Christian Kim spent over seven years prosecuting in Orange County; the Irvine practice covers DUI, assault, theft, drug and violent charges. No record-clearing work is listed.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.02886049178503245,
+  "cost": 1.79e-05
+ },
+ {
+  "firm": "Parsley Law Office|www.jeremyparsley.com",
+  "set": "old contradictory card",
+  "input": "Lincoln office for criminal defense and injury claims, covering DUI, drug, theft and 15-year license revocation cases; expungement is not listed. Jeremy Parsley earned his law degree in 2007.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.0425850721138441,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "HMW Law|teamhmwwins.com",
+  "set": "old contradictory card",
+  "input": "HMW Law defends OVI, drug, violent and internet crime charges across Ohio and also handles injury claims; no record-clearing services are listed. Brandon Henderson started the practice in 2003.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.043538882278682925,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Law Office of Stephen R. Leffler, P.C.|www.lefflerlaw.com",
+  "set": "old contradictory card",
+  "input": "Defends misdemeanor and felony charges in Memphis and West Tennessee, from pretrial work through appeals and post-conviction motions; no expungement work is described. Stephen R. Leffler has practiced since 1985 and uses an in-house investigator.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03673818895969652,
+  "cost": 1.92e-05
+ },
+ {
+  "firm": "Ryan Brown Attorney at Law|ryanbrownattorneyatlaw.com",
+  "set": "old contradictory card",
+  "input": "Defends state and federal drug, intoxication, juvenile, sex and assault cases in Amarillo and pursues appeals and writs. Record clearing is not described; the practice also takes civil asset forfeiture and civil rights claims.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.033766722421526854,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Morris Law PC|www.morrisdefense.com",
+  "set": "old contradictory card",
+  "input": "A Bay Area criminal defense firm for Alameda and Contra Costa counties; it does not describe expungement work but does help clients with pretrial diversion. Founded in 2021.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.07703922718538286,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Attorney John Kindley|www.kindleylaw.com",
+  "set": "old contradictory card",
+  "input": "John Kindley represents people accused or convicted of crimes in Indiana, including suppression motions and credit time disputes, and is admitted in federal courts up to the Supreme Court. Record clearing is not described.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.02928689294412397,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Eustache Law|www.eustachelaw.com",
+  "set": "old contradictory card",
+  "input": "Criminal defense only, covering DUI, drug, violent, theft, sex and white-collar charges in Forsyth, Guilford and nearby counties; record clearing is not described. Harold J. Eustache previously prosecuted cases for Rockingham and Forsyth counties.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03550447417207179,
+  "cost": 1.87e-05
+ },
+ {
+  "firm": "Attorneys For Freedom Law Firm|www.attorneysforfreedom.com",
+  "set": "old contradictory card",
+  "input": "Attorneys For Freedom defends self-defense cases such as homicide, assault and weapon display charges in all 50 states; it does not describe record-clearing work. The firm was set up in 1997.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.025942276324212123,
+  "cost": 1.86e-05
+ },
+ {
+  "firm": "Law Office Of J.R. Vicha|www.vichalaw.com",
+  "set": "old contradictory card",
+  "input": "A Waco criminal defense practice taking cases from DWI and theft to capital murder; it does not describe record-clearing work. J.R. Vicha was formerly chief felony prosecutor for McLennan County.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03496390700857772,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Le Brocq & Horner Law Firm|www.lebrocqhorner.com",
+  "set": "old contradictory card",
+  "input": "Carrollton firm covering criminal defense for drug, DWI, assault and theft cases plus injury, civil and family law across Dallas-Fort Worth; no record-clearing work is listed.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.030734690325537897,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Saland Law PC|www.new-york-lawyers.org",
+  "set": "old contradictory card",
+  "input": "A New York City defense practice focused on theft, fraud, white collar and domestic violence cases; record clearing is not described among its services. Its founder is a former Manhattan prosecutor.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.023418232928038095,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Vaughn Law PLLC|www.vaughnlawtx.com",
+  "set": "old contradictory card",
+  "input": "A Houston criminal defense firm for DWI, drug, domestic violence and unlawful carry cases; it does not describe expungement or sealing work. Will Vaughn has been licensed in Texas since 2016.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.025666611757803527,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "Jeff Kimmell|kimmell.legal",
+  "set": "old contradictory card",
+  "input": "Defends state and federal criminal charges, including outstanding warrants, across north-central Indiana; no record-clearing work is described. Jeff Kimmell served six years in the Navy submarine fleet before law school.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03166627005451839,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "The Franks Law Firm, PLLC|thefrankslawfirm.com",
+  "set": "old contradictory card",
+  "input": "Defends DUI and drug charges, including marijuana cases, across Mississippi from Jackson, along with injury, workers' compensation and FELA claims. No record-clearing work is stated; clients can reach the office by text.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.032390340963640185,
+  "cost": 1.84e-05
+ },
+ {
+  "firm": "Law Office of Gregory H. Comings, APC|www.comingslaw.com",
+  "set": "old contradictory card",
+  "input": "Criminal defense only, covering DUI, drug, violent, weapons and theft charges across the Inland Empire, including Riverside and San Bernardino; record clearing is not listed. Gregory H. Comings has defended clients since 2003.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.032456010308683024,
+  "cost": 1.86e-05
+ },
+ {
+  "firm": "The Law Office of Guillermo Lara Jr.|www.sacriminalatty.com",
+  "set": "old contradictory card",
+  "input": "A San Antonio and Bexar County practice for state and federal criminal defense and personal injury, led by Guillermo Lara Jr.; no record-clearing work is described. Staff answer around the clock.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.038828674708423154,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Lemanski Law Offices. The Law Office of Scott F. Cactus Lemanski|www.cactuslawoffice.com",
+  "set": "old contradictory card",
+  "input": "Concentrates on Texas criminal defense in state and federal court, including federal smuggling and drug cases, plus personal injury. It does not list expunction or record sealing. The attorney cites 20 years of practice.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.027265274673518115,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Dunham & Jones, Attorneys at Law, P.C.|www.dunhamlaw.com",
+  "set": "old contradictory card",
+  "input": "A Texas criminal defense firm handling misdemeanor and felony cases, including DWI; it does not describe record-clearing work. In practice since 1989, it offers no-money-down payment plans in most cases.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.028209069690750065,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "Law Office of Brandon Hall|brandonhalllaw.com",
+  "set": "old contradictory card",
+  "input": "Handles felony, misdemeanor, DUI/OWI and drug cases in Memphis, Bartlett and Arlington, plus personal injury; record clearing is not described. Attorney Brandon Hall has practiced for over ten years.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.026555195048915695,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "The Law Office of R. Douglas Lenhardt, LLC|www.lenhardtlaw.com",
+  "set": "old contradictory card",
+  "input": "Athens criminal defense, bankruptcy and injury practice; it does not say whether it handles record clearing. R. Douglas Lenhardt has practiced in Georgia over 25 years, serving Clarke, Oconee, Madison and nearby counties.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.04610269527014289,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "The Miller Law Group|www.themillerlaw.com",
+  "set": "old contradictory card",
+  "input": "A Los Angeles-based firm for state and federal criminal defense, police misconduct claims and personal injury; it does not describe record-clearing work. Available around the clock.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.030389271962156544,
+  "cost": 1.74e-05
+ },
+ {
+  "firm": "Mudd Legal Group, PLLC|www.muddlegalgroup.com",
+  "set": "old contradictory card",
+  "input": "Mudd Legal Group, PLLC defends federal, drug, domestic violence and DUI cases across Kentucky's state and federal courts; no record-clearing work is mentioned. Attorney Nick Mudd began as a prosecutor in 2010.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03614661505118338,
+  "cost": 1.88e-05
+ },
+ {
+  "firm": "Jeff Purnell Attorney at Law|jeffpurnellcriminaldefense.com",
+  "set": "old contradictory card",
+  "input": "A Milwaukee practice defending drug, gun, OWI, homicide, sex and federal charges across Wisconsin. Record clearing is not mentioned; Jeff Purnell, the sole named attorney, has more than two decades of practice.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03239940111359125,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "John W. Molony Law Firm, LLC|johnwmolony.com",
+  "set": "old contradictory card",
+  "input": "John W. Molony Law Firm, LLC concentrates on South Carolina DUI defense, including Temporary Alcohol License requests, plus drug, theft and traffic cases. Record clearing is not described; offices in eight cities, including Charleston and Columbia.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03278126717499264,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "Young & Young, Attorneys at Law|www.adamyounglawfirm.com",
+  "set": "old contradictory card",
+  "input": "Criminal defense and injury firm in Charleston that does not say whether it handles expungement. Founded in 2012, it is run by two former state prosecutors, one of whom was a magistrate judge.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.06429750861198247,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "The Law Offices of Matthew Cargal|www.pasadenacriminaldefensefirm.com",
+  "set": "old contradictory card",
+  "input": "Matthew Cargal's Pasadena practice is limited to criminal and DUI defense, including jury trials and alternatives to jail. It does not list expungement or record sealing.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.0303828487454769,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "Cincilla & Draklan Law|cincilladraklanlaw.com",
+  "set": "old contradictory card",
+  "input": "Cincilla & Draklan Law handles traffic citations, license suspension and restoration, DUI, debt collection defense and bankruptcy in Lehigh, Northampton and nearby counties. No record-clearing work is described; fees are flat-rate, never hourly.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.04014650553912761,
+  "cost": 1.89e-05
+ },
+ {
+  "firm": "Albert Roberts Law, PLLC|albertrobertslaw.com",
+  "set": "old contradictory card",
+  "input": "A Fort Worth-based criminal defense firm defending misdemeanor and felony charges such as DWI and drug offenses since 2009. Its practice does not describe record clearing.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.011877906003479688,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "Law Offices of Mark Deniz APLC|www.denizdefense.com",
+  "set": "old contradictory card",
+  "input": "Criminal defense in Carlsbad and San Diego County for DUI, domestic violence, drug and theft charges; the firm does not list record clearing. Mark Deniz, a former deputy DA, offers flexible payment plans.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.03314068584263414,
+  "cost": 1.79e-05
+ },
+ {
+  "firm": "Billy Gilchrist, Attorney|www.lawofficeofbillygilchrist.com",
+  "set": "old contradictory card",
+  "input": "Billy Gilchrist defends traffic tickets, DUI, shoplifting and other misdemeanor and felony charges in the Memphis area; record clearing is not listed. He has over 20 years handling criminal and traffic cases.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.044976009407309114,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Weisberg & Weisberg, PLLC|www.weisbergattorneys.com",
+  "set": "old contradictory card",
+  "input": "A Newport News firm covering criminal defense such as reckless driving, DUI and felonies, plus family law, injury and estate work. Record clearing is not mentioned; serves Hampton Roads cities including Norfolk and Virginia Beach.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.028770739355156817,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "The Law Offices of Zirpoli Chase PLLC|zirpolichase.com",
+  "set": "old contradictory card",
+  "input": "South Florida criminal defense in state and federal court, including appeals and postconviction relief; it does not say whether it seals or expunges records. Its lawyers started as assistant public defenders.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.07869897086472497,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Fleming Law, PC|www.savannahgaattorney.net",
+  "set": "old contradictory card",
+  "input": "Fleming Law in Savannah defends DUI, drug, student, sex and federal cases and handles civil suits; it does not list record clearing. Its lawyers have prosecution and police backgrounds.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.032452675213860076,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Markowitz Law Firm|www.tellusyours.com",
+  "set": "old contradictory card",
+  "input": "Markowitz Law Firm handles criminal and traffic defense, license suspensions and commercial driver citations across Texas from a virtual office; record clearing is not listed. Scott Markowitz is a second-generation lawyer.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.030031736801862316,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Leland Hulbert Law, PLLC|lelandlawyer.com",
+  "set": "old contradictory card",
+  "input": "Handles Kentucky criminal and family cases, with no record-clearing work described. Leland Hulbert once headed the county's violent crimes prosecution unit and has offices downtown and in Louisville's East End.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.026348996494895777,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "The Law Offices of Matthew P. Lipinsky|www.lipinskylawfirm.com",
+  "set": "old contradictory card",
+  "input": "Criminal defense, traffic, family and landlord-tenant work in Westchester and across New York; record clearing is not mentioned. Matthew P. Lipinsky is a former prosecutor licensed since 2007.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.028196227192317916,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "DeCurtins Law Office|www.decurtinslaw.com",
+  "set": "old contradictory card",
+  "input": "Handles criminal and personal injury cases in Charlotte and Mecklenburg County, including impaired driving and probation violations; record clearing is not described. Founded in 1985 by a former Charlotte assistant public defender.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.029791484655886928,
+  "cost": 1.79e-05
+ },
+ {
+  "firm": "RedStone Law|redstone.law",
+  "set": "old contradictory card",
+  "input": "RedStone Law focuses on injury and wrongful death claims plus criminal defense in Tennessee and Kentucky; no expungement or sealing services are mentioned. Injury cases run on a one-third contingency fee.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.027014572723669146,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Terry Law Group, LLC|www.terrylawgroupllc.com",
+  "set": "old contradictory card",
+  "input": "Terry Law Group covers criminal defense, family, bankruptcy, elder law and business matters in New Jersey; record clearing is not described. Rasheedah Terry opened her practice in 2007 and is licensed in two states.",
+  "q": "clears_records",
+  "expect": false,
+  "p": 0.0474755820134935,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "Attorney Adam Burke|attorneyadamburke.com",
+  "set": "corrected card",
+  "input": "In Columbus, Attorney Adam Burke's firm has client reviews describing expungement or record sealing work. A former prosecutor is on the team, which also defends federal and OVI cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9780836318130405,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "Vincent R. Maher|www.themaherlawgroup.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Vincent R. Maher in Fairfield, who has two decades of practice defending DUI, drug and assault cases in Solano County.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Thurmond Kirchner & Timbes, P.A.|tktlawyers.com",
+  "set": "corrected card",
+  "input": "Charleston's Thurmond Kirchner & Timbes has client reviews describing expungement or record sealing work. Founded in 2005, the 12-lawyer firm also handles business and injury law.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9408254516223135,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "The Crowder Law Firm, P.C.|www.crowdercriminalfirm.com",
+  "set": "corrected card",
+  "input": "Plano's Crowder Law Firm has client reviews describing expungement or record sealing work. It defends DWI, drug and white-collar cases across North Texas.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.929576155699711,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "McConnell Law Firm|www.jonathanwmcconnell.com",
+  "set": "corrected card",
+  "input": "Expungement or record sealing work is described in client reviews of this Wichita firm. Jonathan W. McConnell founded it in 2014, and it also defends state and federal charges and handles appeals.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9394458928232223,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "Law Office of Dennis Kuntz|www.lawofficedenniskuntz.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Dennis Kuntz, who reports over a decade defending misdemeanor, felony, DUI and drug cases in San Bernardino County.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9762673551838399,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "Philip A. Schnayerson, Criminal Defense Attorney|www.philcrimlaw.com",
+  "set": "corrected card",
+  "input": "Hayward lawyer Philip A. Schnayerson has client reviews describing expungement or record sealing work. He has over 30 years in criminal law and takes matters for immigrants.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9781993968797259,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Law Office of Joseph A. Fanduzz|www.knoxvillecriminalattorney.com",
+  "set": "corrected card",
+  "input": "Clients describe expungement or record sealing work in reviews of Joseph Fanduzz, who has defended DUI, drug and federal cases in Knoxville since 2007.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9669293347309076,
+  "cost": 1.74e-05
+ },
+ {
+  "firm": "Christopher T. Van Wagner S.C.|www.vanwagnerlaw.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Christopher Van Wagner in Madison, a former state and federal prosecutor with almost 45 years of practice.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9552979309726907,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "Trey Porter Law|www.dwilawyerstexas.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Trey Porter Law in San Antonio. The site also serves as an information resource on Texas DWI law and license revocation.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9106262735434013,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "Law Offices of Christian Kim|www.californiacriminaldefenselaw.com",
+  "set": "corrected card",
+  "input": "Former Orange County prosecutor Christian Kim runs this Irvine practice, and client reviews describe expungement or record sealing work. It also defends DUI, assault, theft and drug charges.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.74e-05
+ },
+ {
+  "firm": "Parsley Law Office|www.jeremyparsley.com",
+  "set": "corrected card",
+  "input": "Lincoln's Parsley Law Office has client reviews describing expungement or record sealing work. Jeremy Parsley earned his law degree in 2007 and also handles injury claims.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9647372095302366,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "HMW Law|teamhmwwins.com",
+  "set": "corrected card",
+  "input": "Expungement or record sealing work is described in client reviews of HMW Law in Cleveland. Brandon Henderson started the practice in 2003, and it also defends OVI and drug cases across Ohio.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9381225184756078,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Law Office of Stephen R. Leffler, P.C.|www.lefflerlaw.com",
+  "set": "corrected card",
+  "input": "Clients describe expungement or record sealing work in their reviews of this Memphis office. Stephen R. Leffler has practiced since 1985 and uses an investigator on staff.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9773285780133282,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Ryan Brown Attorney at Law|ryanbrownattorneyatlaw.com",
+  "set": "corrected card",
+  "input": "Amarillo lawyer Ryan Brown has client reviews describing expungement or record sealing work. He also defends drug, intoxication and assault cases, pursues appeals and writs, and takes civil asset forfeiture claims.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9643760029798003,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Morris Law PC|www.morrisdefense.com",
+  "set": "corrected card",
+  "input": "Expungement in Alameda County under PC 1203.4 is the subject of a page by Morris Law PC. Founded in 2021, the Oakland firm also helps clients with pretrial diversion in Alameda and Contra Costa counties.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9421956726458053,
+  "cost": 1.89e-05
+ },
+ {
+  "firm": "Attorney John Kindley|www.kindleylaw.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by John Kindley in South Bend. He represents people charged with or convicted of crimes in Indiana and is admitted in federal courts up to the Supreme Court.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Eustache Law|www.eustachelaw.com",
+  "set": "corrected card",
+  "input": "Winston-Salem's Eustache Law has client reviews describing expungement or record sealing work. Harold J. Eustache once prosecuted cases in Rockingham and Forsyth counties.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9119965949571108,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Attorneys For Freedom Law Firm|www.attorneysforfreedom.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Attorneys For Freedom in Chandler. Set up in 1997, the firm focuses on self-defense cases in all 50 states.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9552671632146724,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Law Office Of J.R. Vicha|www.vichalaw.com",
+  "set": "corrected card",
+  "input": "Waco's J.R. Vicha, formerly chief felony prosecutor for McLennan County, has client reviews describing expungement or record sealing work. His cases range from DWI to capital murder.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9665937374697916,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Le Brocq & Horner Law Firm|www.lebrocqhorner.com",
+  "set": "corrected card",
+  "input": "Carrollton's Le Brocq & Horner has client reviews describing expungement or record sealing work. It serves Dallas-Fort Worth and also handles injury, civil and family law.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Saland Law PC|www.new-york-lawyers.org",
+  "set": "corrected card",
+  "input": "A page on New York conviction and record sealing, covering expungement and sealing, appears on Saland Law PC's site. Its founder is a former Manhattan prosecutor, and the firm focuses on theft and fraud cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.26458775340357527,
+  "cost": 1.84e-05
+ },
+ {
+  "firm": "Vaughn Law PLLC|www.vaughnlawtx.com",
+  "set": "corrected card",
+  "input": "Houston's Vaughn Law has client reviews describing expungement or record sealing work. Will Vaughn has been licensed in Texas since 2016.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9217671939797125,
+  "cost": 1.7e-05
+ },
+ {
+  "firm": "Jeff Kimmell|kimmell.legal",
+  "set": "corrected card",
+  "input": "Navy submarine veteran Jeff Kimmell has client reviews describing expungement or record sealing work. He defends state and federal charges across north-central Indiana from South Bend.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9518460914351085,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "The Franks Law Firm, PLLC|thefrankslawfirm.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by The Franks Law Firm in Jackson. The office can be reached by text and also handles injury and workers' compensation claims.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9793771557684422,
+  "cost": 1.74e-05
+ },
+ {
+  "firm": "Law Office of Gregory H. Comings, APC|www.comingslaw.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Gregory H. Comings. He has defended clients across the Inland Empire since 2003.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9863244918737057,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "The Law Office of Guillermo Lara Jr.|www.sacriminalatty.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Guillermo Lara Jr. in San Antonio. Staff are available around the clock.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9841881236457514,
+  "cost": 1.65e-05
+ },
+ {
+  "firm": "Lemanski Law Offices. The Law Office of Scott F. Cactus Lemanski|www.cactuslawoffice.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Scott F. Cactus Lemanski in Corpus Christi. He cites 20 years of practice in state and federal court.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9759228493657709,
+  "cost": 1.74e-05
+ },
+ {
+  "firm": "Dunham & Jones, Attorneys at Law, P.C.|www.dunhamlaw.com",
+  "set": "corrected card",
+  "input": "Richardson's Dunham & Jones has client reviews describing expungement or record sealing work. In practice since 1989, it offers payment plans needing nothing down in most cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9806608564557594,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "Law Office of Brandon Hall|brandonhalllaw.com",
+  "set": "corrected card",
+  "input": "Memphis attorney Brandon Hall has client reviews describing expungement or record sealing work. He has practiced over ten years and serves Bartlett and Arlington too.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9641802084371578,
+  "cost": 1.69e-05
+ },
+ {
+  "firm": "The Law Office of R. Douglas Lenhardt, LLC|www.lenhardtlaw.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by R. Douglas Lenhardt in Athens, who has practiced in Georgia over 25 years and also handles bankruptcy and injury cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "The Miller Law Group|www.themillerlaw.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by The Miller Law Group in Pasadena. It also takes police misconduct and injury claims and is available around the clock.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.97023532591381,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "Mudd Legal Group, PLLC|www.muddlegalgroup.com",
+  "set": "corrected card",
+  "input": "Expungement or record sealing work is described in client reviews of Mudd Legal Group in Louisville. Nick Mudd began as a prosecutor in 2010.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.8190608954522857,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "Jeff Purnell Attorney at Law|jeffpurnellcriminaldefense.com",
+  "set": "corrected card",
+  "input": "Milwaukee attorney Jeff Purnell has client reviews describing expungement or record sealing work. He has more than two decades of practice and defends drug, gun, OWI and federal charges across Wisconsin.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9518617502854074,
+  "cost": 1.79e-05
+ },
+ {
+  "firm": "John W. Molony Law Firm, LLC|johnwmolony.com",
+  "set": "corrected card",
+  "input": "Expungement or record sealing work appears in client reviews of John W. Molony Law Firm. Its main focus is South Carolina DUI defense, with offices in eight cities including Charleston and Columbia.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9327961338276353,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Young & Young, Attorneys at Law|www.adamyounglawfirm.com",
+  "set": "corrected card",
+  "input": "Charleston's Young & Young has client reviews describing expungement or record sealing work. Founded in 2012, it is run by two former state prosecutors, one also a former magistrate judge.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.8314334105593478,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "The Law Offices of Matthew Cargal|www.pasadenacriminaldefensefirm.com",
+  "set": "corrected card",
+  "input": "Pasadena lawyer Matthew Cargal has client reviews describing expungement or record sealing work. His practice is limited to criminal and DUI defense, including jury trials and jail alternatives.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9068048833754927,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Cincilla & Draklan Law|cincilladraklanlaw.com",
+  "set": "corrected card",
+  "input": "Allentown's Cincilla & Draklan Law has client reviews describing expungement or record sealing work. Fees are flat-rate rather than hourly, and it handles DUI, license restoration and bankruptcy.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9823166410910151,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Albert Roberts Law, PLLC|albertrobertslaw.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Albert Roberts Law, based in Fort Worth. It has defended misdemeanor and felony cases, including DWI, since 2009.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "Law Offices of Mark Deniz APLC|www.denizdefense.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by the Carlsbad office of Mark Deniz, a former deputy DA. Flexible payment plans are offered.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.68e-05
+ },
+ {
+  "firm": "Billy Gilchrist, Attorney|www.lawofficeofbillygilchrist.com",
+  "set": "corrected card",
+  "input": "Clients describe expungement or record sealing work in reviews of Billy Gilchrist, a Memphis-area lawyer with over 20 years handling criminal and traffic cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9414023525822721,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "Weisberg & Weisberg, PLLC|www.weisbergattorneys.com",
+  "set": "corrected card",
+  "input": "Weisberg & Weisberg, PLLC in Newport News has client reviews describing expungement or record sealing work. It serves Hampton Roads cities such as Norfolk and Virginia Beach, and also handles family and injury law.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9511754188712546,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "The Law Offices of Zirpoli Chase PLLC|zirpolichase.com",
+  "set": "corrected card",
+  "input": "Expungement or record sealing work is described in client reviews of Zirpoli Chase in Hollywood, Florida. Its lawyers began as assistant public defenders and also handle appeals.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9722972622423148,
+  "cost": 1.73e-05
+ },
+ {
+  "firm": "Fleming Law, PC|www.savannahgaattorney.net",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Fleming Law in Savannah. Its lawyers have prosecution and police backgrounds.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.63e-05
+ },
+ {
+  "firm": "Markowitz Law Firm|www.tellusyours.com",
+  "set": "corrected card",
+  "input": "League City's Markowitz Law Firm has client reviews describing expungement or record sealing work. It works from a virtual office across Texas and also handles license suspensions and commercial driver citations.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9779583948289635,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "Leland Hulbert Law, PLLC|lelandlawyer.com",
+  "set": "corrected card",
+  "input": "Client reviews describe expungement or record sealing work by Leland Hulbert, who once headed a county violent crimes prosecution unit and has two Louisville offices.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9765357897788794,
+  "cost": 1.69e-05
+ },
+ {
+  "firm": "The Law Offices of Matthew P. Lipinsky|www.lipinskylawfirm.com",
+  "set": "corrected card",
+  "input": "Expungement or record sealing work is described in client reviews of Matthew P. Lipinsky in New Rochelle. A former prosecutor licensed since 2007, he also handles family and landlord-tenant matters.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9465028729381911,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "DeCurtins Law Office|www.decurtinslaw.com",
+  "set": "corrected card",
+  "input": "Charlotte's DeCurtins Law Office has client reviews describing expungement or record sealing work. A former Charlotte assistant public defender founded it in 1985.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9334256600960155,
+  "cost": 1.74e-05
+ },
+ {
+  "firm": "RedStone Law|redstone.law",
+  "set": "corrected card",
+  "input": "Clarksville's RedStone Law has client reviews describing expungement or record sealing work. It also handles injury claims on a one-third contingency fee in Tennessee and Kentucky.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9644619265996196,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Terry Law Group, LLC|www.terrylawgroupllc.com",
+  "set": "corrected card",
+  "input": "Newark's Terry Law Group has client reviews describing expungement or record sealing work. Rasheedah Terry opened the practice in 2007, and it also handles family, bankruptcy and elder law.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9469055370867523,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "Kilroy Law Firm|kilroylawfirm.com",
+  "set": "normal card",
+  "input": "Offers expungement in Rhode Island, as well as parole hearings, prison consultation and other post-conviction help. This Providence criminal defense firm also takes DUI, OUI, drug and white-collar cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Orange Beach Criminal Defense Lawyer - J. M. Copeland|www.orangebeachlawyer.com",
+  "set": "normal card",
+  "input": "Clears Alabama records for clients in Baldwin County, including Orange Beach. Jordan Copeland has practiced criminal law since 2007, with DUI, drug, municipal and minor-in-possession cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9837717122445077,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "Law Office of Harmeet Dhillon|hdhillonlaw.com",
+  "set": "normal card",
+  "input": "A Modesto criminal defense practice where Harmeet Dhillon handles expungements as well as cases from misdemeanors and DUIs up to felonies of every kind.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "Groth & Associates|www.grothlaw.com",
+  "set": "normal card",
+  "input": "A downtown Toledo firm handling criminal defense and injury claims since 2001; expungement and record sealing appear in its listed services. Serves Northwest Ohio towns including Perrysburg and Sylvania.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "JBabb Law|jbabblaw.com",
+  "set": "normal card",
+  "input": "Texas expunctions for dismissed or acquitted cases and non-disclosure orders after deferred adjudication, limiting what employers and landlords see. Also handles IRS tax disputes and serves clients statewide from Richardson.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Lloyd C. Bolton Attorney at Law, PLLC|www.boltonlawnc.com",
+  "set": "normal card",
+  "input": "Handles expungements and gun rights restoration in Onslow County, and defends civilians facing DWI or misdemeanor charges at Camp Lejeune, Cherry Point and New River.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "Brian M. Latuga, Esq.|www.brianlatuga.com",
+  "set": "normal card",
+  "input": "Expunges Virginia charges ending in acquittal, dismissal or nolle prosequi and explains at what age dismissed juvenile records clear automatically. Brian M. Latuga's career started in 2005 with the Virginia Beach police.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.8842054939614609,
+  "cost": 1.87e-05
+ },
+ {
+  "firm": "Andrew Popplewell, Esq|www.engandwoods.com",
+  "set": "normal card",
+  "input": "Prepares and files Missouri petitions to expunge eligible convictions. The firm, founded in 1994, also defends DWI and other criminal cases and handles injury and workers' compensation claims.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9799587384725551,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "David L. Pine, Esq.|www.njpinelaw.com",
+  "set": "normal card",
+  "input": "David L. Pine handles expungements and municipal court and criminal cases for adults and juveniles in New Jersey, plus domestic violence matters. Practicing since 1988.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "The Law Office of Aaron J. Stoll, LLC|www.stoll.law",
+  "set": "normal card",
+  "input": "Helps Indiana clients seek expungement or sentence modification, and defends state and federal cases and appeals. Before founding the office in 2018, Aaron J. Stoll worked six years as an Allen County deputy prosecutor.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "The Morris Law Firm|www.dmorrislaw.com",
+  "set": "normal card",
+  "input": "Handles Florida expungement and record sealing in Panama City and Bay County. Dana Morris spent over a decade prosecuting before switching to defense and has practiced in the region over 25 years.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9896905347862746,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "Lifeback Legal - a division of Randall & Johnson|www.lifebacklegal.com",
+  "set": "normal card",
+  "input": "Lifeback Legal clears California felony, misdemeanor, infraction and DUI records, including Prop 47 and Prop 64 relief. Flat fees start at $700 for a misdemeanor expungement, with interest-free payment plans.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.87e-05
+ },
+ {
+  "firm": "The Law Office of Boone Leach, PLLC|www.booneleachlaw.com",
+  "set": "normal card",
+  "input": "Charges a sliding-scale fee for expungement work, as it does for criminal defense, eviction defense and tenants' rights cases in St Paul, Minnesota.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9531482432441535,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "Grit City Law|www.gritcity.law",
+  "set": "normal card",
+  "input": "Vacates and expunges Washington criminal records, and offers payment plans and credit. Grit City Law in Tacoma cites two decades of justice system work and answers calls and texts on evenings and weekends.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Park & Caporrino, LLP \ubc15\uc120\uc815 \ud569\ub3d9 \ubc95\ub960 \uc0ac\ubb34\uc18c|www.parkcaporrino.com",
+  "set": "normal card",
+  "input": "A Leonia, New Jersey firm that represents clients in expungements as well as family, real estate, bankruptcy, business and motor vehicle matters.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.69e-05
+ },
+ {
+  "firm": "Attorney Samir Hadeed|www.lawyersamirhadeed.com",
+  "set": "normal card",
+  "input": "Handles expungements in Pittsburgh as part of a criminal defense and injury practice, also covering DUI, drug and gun charges. Samir Hadeed has more than 15 years of practice and speaks five languages.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "The Law Office of Robin Persiconi|pickpersiconi.com",
+  "set": "normal card",
+  "input": "Livonia office handling Michigan expungements with misdemeanor, felony and license restoration cases, plus cannabis, liquor license, business, family and real estate law.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.7e-05
+ },
+ {
+  "firm": "Gressley & Donaldson LLP - Riverside DUI Attorney Criminal Defense|gddefense.com",
+  "set": "normal card",
+  "input": "Handles California 1203.4 dismissals for misdemeanor and felony convictions and arrest sealing under 851.91 when no conviction followed. The Riverside-area firm also takes DUI cases and DMV hearings.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9873007054478647,
+  "cost": 1.84e-05
+ },
+ {
+  "firm": "Greg Nelson Attorney at Law|www.defendingomaha.com",
+  "set": "normal card",
+  "input": "Nebraska set-asides for completed probation or fine sentences, sealing of dismissed, diversion and drug court cases, and pardon help. Greg Nelson prosecuted for six years before starting defense work in 2004.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9166871891055498,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "Guzman Law Firm|www.guzman.law",
+  "set": "normal card",
+  "input": "Expunctions and non-disclosure petitions for Texas cases that were dismissed or ended in acquittal. Founded in 2018 by former prosecutor Javier Guzman, with offices in San Antonio and Laredo.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9728725181882389,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Milly Daniels Law Firm|millydanielslaw.com",
+  "set": "normal card",
+  "input": "Offers expungements as a side service in Poteau, where the women-owned firm mainly handles injury, real estate and workers' compensation claims.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9827737095521709,
+  "cost": 1.7e-05
+ },
+ {
+  "firm": "Wittner Law|www.gwittnerlaw.com",
+  "set": "normal card",
+  "input": "Greg Wittner helps clients with expungements and defends a wide range of charges, including DWI and drug cases, in Missouri and Illinois.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9872016942079381,
+  "cost": 1.67e-05
+ },
+ {
+  "firm": "Jeffrey C. Lavey Attorney at Law|jeffreylaveylaw.com",
+  "set": "normal card",
+  "input": "Jeffrey C. Lavey handles record sealing as part of Massachusetts criminal defense, though most of his work is personal injury. He has practiced over 37 years and meets clients in person or remotely.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9781629687688961,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Spradlin Kennedy Richman Law Firm|www.spradlinkennedy.com",
+  "set": "normal card",
+  "input": "Lists expungements with its criminal and DWI defense in Kansas City and Jackson County. Tracy Spradlin once worked as a city prosecutor, and Dan Kennedy handled DWI license suspensions for the state revenue department.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9897824831906937,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Law Office of Bradley R. Corbett|www.bradleycorbettlaw.com",
+  "set": "normal card",
+  "input": "Bradley R. Corbett files Penal Code 1203.4 expungements, including for DUI cases, and motions to end probation early or reduce wobblers. Serving San Diego County with over 13 years in practice.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.86e-05
+ },
+ {
+  "firm": "Erase The Case, PLLC.|www.erasethecase.com",
+  "set": "normal card",
+  "input": "Works only on Florida expungement and sealing, for dropped, dismissed or acquitted cases, with no court appearance required. A $995 flat fee includes the FDLE fee; all 67 counties served, plus mugshot removal.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.88e-05
+ },
+ {
+  "firm": "J. Clay LeJeune, Attorney at Law, LLC|jclaylejeunelaw.com",
+  "set": "normal card",
+  "input": "Helps clear Louisiana criminal records that block jobs or housing, weighing the offense, the case outcome, completed probation and time passed. Serving Acadiana since 1999 from Lafayette and Crowley; also handles DUI/DWI.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.86e-05
+ },
+ {
+  "firm": "The Williams Law Firm|williamslawfirm.com",
+  "set": "normal card",
+  "input": "Sets aside Michigan convictions for clients in East Lansing, where the firm has practiced since 1978. The Williams Law Firm also restores driver's licenses.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "Whitacre Law|whitacrelaw.com",
+  "set": "normal card",
+  "input": "Robert Whitacre defends DUI and criminal cases in Hattiesburg and also takes on criminal appeals and record expungements for Mississippi clients.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9791698489853828,
+  "cost": 1.66e-05
+ },
+ {
+  "firm": "Maria Amaya, APLC | Criminal Defense & Personal Injury Lawyer|northstatedefender.com",
+  "set": "normal card",
+  "input": "Handles California expungement in Chico and Butte County as part of a criminal and injury practice active there for more than 22 years. Maria Amaya also covers five nearby counties, with Spanish spoken.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9819616299980496,
+  "cost": 1.79e-05
+ },
+ {
+  "firm": "Bury Your Past|buryyourpast.com",
+  "set": "normal card",
+  "input": "Oklahoma expungement for arrests, pleas, deferred sentences, DUI arrests, misdemeanors and felonies, with help restoring gun rights. Flat-rate fees; attorneys in Tulsa and Oklahoma City with over 30 years in practice.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "Blair Kim Moeller, PLLC|www.blairkim.com",
+  "set": "normal card",
+  "input": "Vacates Washington convictions, seals court dockets and expunges agency arrest records for uncharged or dismissed cases. Serving clients since 1996; the firm also has an office in Bellevue.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9893650419519388,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "The Edelstein Firm|www.miami-criminal-lawyer.net",
+  "set": "normal card",
+  "input": "Expunges dismissed, dropped or acquitted Florida cases and seals records after a withhold of adjudication, from gathering certified dispositions to the court petition. David Edelstein, a former Miami-Dade assistant public defender, has practiced since 1995.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.89e-05
+ },
+ {
+  "firm": "Carothers Law Office|www.tcarotherslaw.com",
+  "set": "normal card",
+  "input": "Tanisha D. Carothers seeks expungement after conviction for clients in Evansville and across Vanderburgh County and beyond. Her practice also includes criminal defense, family law and injury claims.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9836845941724367,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Matthew Fakhoury | The Law Offices of Matthew M. Fakhoury, LLC|domesticdefensechicago.com",
+  "set": "normal card",
+  "input": "Handles expungement in Chicago, though its described defense work centers on domestic violence charges. Matthew Fakhoury previously prosecuted cases in Cook County.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9771825228278377,
+  "cost": 1.68e-05
+ },
+ {
+  "firm": "The Law Offices Of Lakisha N. Dean LLC|lakishadeanlaw.com",
+  "set": "normal card",
+  "input": "A Cherry Hill Township family law office that also handles New Jersey expungements, plus immigration, divorce, custody, adoption and domestic violence matters.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.68e-05
+ },
+ {
+  "firm": "Sahn Law Firm - Attorneys at Law|www.sahnlaw.com",
+  "set": "normal card",
+  "input": "Lists expungement on a South Carolina criminal defense and injury practice. Founder Michael C. Sahn, a former lead DUI prosecutor, opened it in 2011.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9587256795370187,
+  "cost": 1.75e-05
+ },
+ {
+  "firm": "Richman Law Office LLC|richmanlawkc.com",
+  "set": "normal card",
+  "input": "Brett Richman takes expungement cases around Kansas City, Missouri, and also works on criminal defense and family law matters.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.64e-05
+ },
+ {
+  "firm": "The Law Office of J.D. Lloyd|www.afterthetrial.com",
+  "set": "normal card",
+  "input": "J.D. Lloyd helps people expunge records and pursue paroles or pardons in Alabama, and also handles criminal appeals and post-conviction challenges to convictions.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9839755762437365,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "The Weiland Firm, PLC|www.cnrlawyers.com",
+  "set": "normal card",
+  "input": "Expungement is noted for this Virginia traffic and criminal defense firm, though its described work is reckless driving, DUI, suspended license and drug possession cases. Over 15 years in practice.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.8295365061368043,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "The Chauncey Law Firm, P.A. | Attorney At Law|www.chaunceylaw.com",
+  "set": "normal card",
+  "input": "Lists record sealing and expungement among its services across North Florida, alongside criminal defense, traffic citations, bankruptcy and family law, from a Live Oak office.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "Gomez Law|christinagomezattorneyatlaw.com",
+  "set": "normal card",
+  "input": "Gomez Law is built around expungement; Christina Gomez has cleared hundreds of Indiana dismissals and convictions. Also handles firearm restoration and AMS petitions, with discounts for veterans, military members and first responders.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Northern Nevada Lawyer|northernnevadalawyer.com",
+  "set": "normal card",
+  "input": "Helps eligible clients seal Nevada records and defends DUI, drug and domestic battery charges in Reno courts. Galen Carrico, licensed since 2012, also handles immigration and advises non-citizens on criminal case effects.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "Houseal Law Office LLC|www.houseal-law.com",
+  "set": "normal card",
+  "input": "Houseal Law Office in Midland, Michigan works on expungement and restoring rights, alongside traffic, OWI and firearms law matters.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9762720397598905,
+  "cost": 1.66e-05
+ },
+ {
+  "firm": "Robert R. Kurtz, Attorney at Law|www.tennesseecrimeattorney.com",
+  "set": "normal card",
+  "input": "Assists with expungement of eligible charges from a Knoxville criminal defense office that also handles drug, DUI and violent crime cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.65e-05
+ },
+ {
+  "firm": "Tollison & Webb P.A.|tollisonlaw.com",
+  "set": "normal card",
+  "input": "Lists expungement among the services of an Oxford firm that also handles DUI and criminal cases across North Mississippi. Clients work with their own attorney from start to finish.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "The Law Office of Alex DeMarco|www.mnlegaldefense.com",
+  "set": "normal card",
+  "input": "Expunges Minnesota records as part of a criminal defense practice in St. Paul serving the whole state. Alex DeMarco has close to twenty years of practice and also handles DWI and drug cases.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.78e-05
+ },
+ {
+  "firm": "Criminal Defense Attorney Rory Munns|duiattorneyrhodeisland.com",
+  "set": "normal card",
+  "input": "Rhode Island expungement and sealing of arrest and court records for eligible misdemeanors and felonies, plus review of automatic expungements and decriminalized marijuana cases. Also practices in Massachusetts.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.9846694169353897,
+  "cost": 1.77e-05
+ },
+ {
+  "firm": "Hinds Injury Law Las Vegas|hindsinjurylawlasvegas.com",
+  "set": "normal card",
+  "input": "Record sealing is part of the criminal work at this small Henderson firm, which also handles injury claims for Las Vegas-area residents and visitors and cites more than 20 years locally.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.76e-05
+ },
+ {
+  "firm": "Engel & Martin LLC|engelandmartin.com",
+  "set": "normal card",
+  "input": "A Mason-based team of former prosecutors handling Ohio expungements and appeals as well as trials, with criminal defense that includes OVI and drug charges.",
+  "q": "clears_records",
+  "expect": true,
+  "p": 0.99,
+  "cost": 1.7e-05
+ },
+ {
+  "firm": "Attorney Adam Burke|attorneyadamburke.com",
+  "set": "profile description",
+  "input": "The firm concentrates on criminal defense in federal and state courts in Columbus, Ohio, and nearby areas. Its criminal defense practice encompasses federal crimes, white-collar offenses, and felony charges such as drug offenses, theft, burglary, and assault. It also defends against misdemeanor charges, including petty theft, criminal mischief, disorderly conduct, and driving on a suspended license, alongside juvenile delinquency matters, securities issues, and Ohio OVI or DUI offenses.\nDefense services are provided by attorney Adam G. Burke alongside team members including a former prosecutor. The firm reports over 30 years of combined criminal defense experience and offers free initial consultations.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.99,
+  "cost": 2.22e-05
+ },
+ {
+  "firm": "Vincent R. Maher|www.themaherlawgroup.com",
+  "set": "profile description",
+  "input": "The Maher Law Group, APC is a criminal defense firm in Fairfield, California led by Vincent R. Maher. Its website covers defense against assault and battery, domestic violence and restraining orders, DUI including drug-related DUI, drug crimes, gang cases, homicide, juvenile crimes, sex crimes, theft, three strikes cases and white collar crimes.\nThe firm offers a free and confidential initial consultation, in person or remotely. No prices are listed; the site says fees vary with the time, severity and complexity of each case. It reports 20 years of practice and more than 140 jury trials. The stated service area is Solano, Contra Costa, Napa and Yolo counties.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.99,
+  "cost": 2.36e-05
+ },
+ {
+  "firm": "Thurmond Kirchner & Timbes, P.A.|tktlawyers.com",
+  "set": "profile description",
+  "input": "The firm provides criminal defense representation for matters such as domestic violence, drug crimes, and DUI. Additionally, the practice handles personal injury cases, construction law, business law, homeowners association law, and civil litigation.\nEstablished in 2005 by co-founders Paul R. Thurmond, Jesse A. Kirchner, and Michael A. Timbes, the firm employs 12 attorneys. The practice provides free initial consultations to evaluate prospective cases and discuss available legal options. It serves clients throughout Charleston, Summerville, and neighboring South Carolina communities.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9876639409583393,
+  "cost": 2.08e-05
+ },
+ {
+  "firm": "The Crowder Law Firm, P.C.|www.crowdercriminalfirm.com",
+  "set": "profile description",
+  "input": "The Crowder Law Firm, P.C. handles state and federal criminal defense matters in Texas. Its practice concentrates on defending clients against state and federal charges, including drug offenses, DWI, felonies, sex crimes, crimes against children, property crimes, violent crimes, and white-collar offenses. It also assists individuals facing federal investigations involving agencies such as the FBI, DEA, SEC, and ATF.\nAttorney Darlina Crowder leads the firm. Free initial consultations are available for prospective clients, and Spanish-language resources are provided. Based in Plano, the firm defends clients throughout North Texas, serving areas that include Collin County, Dallas County, Tarrant County, Denton County, and Oldham County, as well as cities such as Dallas, Fort Worth, Frisco, and McKinney.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9844279077643934,
+  "cost": 2.54e-05
+ },
+ {
+  "firm": "McConnell Law Firm|www.jonathanwmcconnell.com",
+  "set": "profile description",
+  "input": "McConnell Law Firm is a Wichita, Kansas, law practice handling criminal defense matters. The firm defends clients facing various state and federal allegations, including sex crimes, domestic violence, assault, battery, drug offenses, driving under the influence, violent crimes, and white-collar offenses. It also represents clients in criminal and civil appeals.\nAttorney Jonathan W. McConnell founded the practice in 2014, and it was rebranded under its current name in 2017. The firm's attorneys include Jonathan W. McConnell, Erica Ramstad Whitsell, Isaiah C. Eaton, and Jessica L. Wright. Prospective clients can complete an initial information-gathering phone call followed by an initial consultation at no charge if their legal issue falls within the firm's scope of practice.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9675020670558862,
+  "cost": 2.55e-05
+ },
+ {
+  "firm": "Law Office of Dennis Kuntz|www.lawofficedenniskuntz.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense representation in California for both state and federal matters. Its caseload includes misdemeanor and felony allegations, DUI offenses, drug crimes, theft, assault, domestic violence, and white-collar charges.\nThe practice is led by attorney Dennis Kuntz and represents clients in San Bernardino County, including proceedings at the San Bernardino Justice Center. The firm notes that it has more than a decade of legal experience defending individuals facing criminal allegations. Free consultations are available for prospective clients.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9238818244339881,
+  "cost": 1.93e-05
+ },
+ {
+  "firm": "Philip A. Schnayerson, Criminal Defense Attorney|www.philcrimlaw.com",
+  "set": "profile description",
+  "input": "The practice focuses on state and federal criminal defense representation. Specific areas handled include driving under the influence, drug offenses, theft, assault, domestic violence, homicide, white collar crimes, and juvenile offenses. The firm also assists with criminal defense matters for immigrants.\nAttorney Philip A. Schnayerson has practiced criminal law for more than thirty years and graduated from the New York University School of Law. Based in Hayward, the firm represents clients throughout the Bay Area, including Dublin, Oakland, and surrounding communities. Initial consultations are offered free of charge and can be conducted via video, phone conferencing, or at the firm's office.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9887773381565352,
+  "cost": 2.22e-05
+ },
+ {
+  "firm": "Law Office of Joseph A. Fanduzz|www.knoxvillecriminalattorney.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense matters in municipal, state, and federal courts. Its practice areas include driving under the influence (DUI), drug charges, domestic violence, federal crimes, white collar crimes, and violent crimes.\nAttorney Joseph Fanduzz leads the practice and has represented clients in Knoxville and across Tennessee since 2007, with 17 years of legal experience. The firm offers free initial consultations and case evaluations, and maintains availability 24 hours a day, seven days a week.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.99,
+  "cost": 2e-05
+ },
+ {
+  "firm": "Christopher T. Van Wagner S.C.|www.vanwagnerlaw.com",
+  "set": "profile description",
+  "input": "Instead, the Madison, Wisconsin firm focuses on state and federal criminal defense litigation. Practice areas include operating while intoxicated (OWI) and drunk driving defense, sex offenses, drug charges, theft, vehicular crimes, assault and violent crimes, and white-collar defense.\nChristopher T. Van Wagner is a solo practitioner who has practiced law for almost 45 years, including over 30 years in criminal defense following prior work as a state and federal prosecutor. Van Wagner handles cases directly from start to finish. The firm provides free initial consultations and case evaluations at its Madison office and receives calls 24/7.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.983044080589036,
+  "cost": 2.21e-05
+ },
+ {
+  "firm": "Trey Porter Law|www.dwilawyerstexas.com",
+  "set": "profile description",
+  "input": "The site serves as an informational resource focusing on driving while intoxicated allegations and defenses under Texas law. It outlines standard aspects of Texas DWI matters, including traffic stops, field sobriety testing, breath or blood testing, bond conditions, negotiations, and trial preparation.\nThe resource also discusses driver's license consequences, such as administrative license revocation actions through the Texas Department of Public Safety. Additionally, it outlines the court process involving arraignments, discovery, pretrial settings, motions, and hearings. The webpage operates as a legacy educational resource, does not provide specific legal advice, and lists no attorneys, fee amounts, or consultation offerings.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01182937787017812,
+  "cost": 2.21e-05
+ },
+ {
+  "firm": "Law Offices of Christian Kim|www.californiacriminaldefenselaw.com",
+  "set": "profile description",
+  "input": "The Law Offices of Christian Kim is a criminal defense practice based in Irvine. Its website covers arson, assault and battery, burglary, domestic violence, drug offenses, DUI, gang cases, juvenile crimes, kidnapping, murder, robbery, theft, vehicular manslaughter and sex offenses, for people under investigation, arrested or charged.\nChristian Kim is the attorney named. The site says he worked for more than seven years as an Orange County deputy district attorney before moving to defense work, and it cites over 20 years in total and more than 50 jury trials. A free initial consultation is offered. No fees or payment plans are stated. Areas listed include Irvine, Huntington Beach, Newport Beach, Laguna Beach, Santa Ana, Anaheim and the rest of Orange County.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9807261778015739,
+  "cost": 2.49e-05
+ },
+ {
+  "firm": "Parsley Law Office|www.jeremyparsley.com",
+  "set": "profile description",
+  "input": "Parsley Law Office in Lincoln, Nebraska practises criminal defense and personal injury law. Its website covers DUI/DWI, drug possession, violent crimes, theft and property crimes, 15-year license revocation, warrants and probation revocation on the criminal side.\nPersonal injury work covers car accidents and workplace accidents. The firm offers a free consultation and does not list fees. Jeremy Parsley is the attorney; his profile shows a 2007 law degree from the University of Nebraska College of Law and membership in the Nebraska State Bar Association and the Nebraska Criminal Defense Attorneys Association. The office is on J Street in Lincoln.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9744257871746508,
+  "cost": 2.23e-05
+ },
+ {
+  "firm": "HMW Law|teamhmwwins.com",
+  "set": "profile description",
+  "input": "The firm represents individuals facing criminal defense matters in Ohio, handling cases involving DUI and OVI, drug crimes, violent crimes, domestic violence, sex crimes, assault, federal offenses, and internet crimes. Additionally, the firm represents clients in personal injury matters, including motor vehicle accidents, nursing home abuse, dog bites, and wrongful death claims.\nManaging partner Brandon Henderson established his practice in 2003, later partnering with Justin Weatherly in 2011, and Brandon Pokersnik serves as of counsel. The firm provides representation across Ohio, including Akron, Cleveland, Elyria, Lorain, and Parma. HMW Law offers free initial consultations for prospective clients.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9893510573871469,
+  "cost": 2.34e-05
+ },
+ {
+  "firm": "Law Office of Stephen R. Leffler, P.C.|www.lefflerlaw.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense representation for individuals facing misdemeanor and felony charges. Specific practice areas listed include assault cases, civil forfeiture matters, and general defense representation ranging from pretrial proceedings to post-conviction appeals and motions.\nThe firm has represented residents in Memphis and Western Tennessee since 1985. It features Stephen R. Leffler along with an in-house investigator to examine case details. Prospective clients can access free consultations and free case evaluations through the firm.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9571802550372885,
+  "cost": 1.91e-05
+ },
+ {
+  "firm": "Ryan Brown Attorney at Law|ryanbrownattorneyatlaw.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense representation in Amarillo, Texas, at both the state and federal levels. Its criminal defense practice handles cases involving drug offenses, intoxication, juvenile charges, sexual offenses, and assaultive conduct such as domestic violence, assault with a deadly weapon, and murder. The firm also represents individuals seeking relief through appeals and writs.\nBeyond criminal defense, the firm takes on civil matters involving civil asset forfeitures and constitutional civil rights claims. Representation is provided by attorney Ryan Brown for clients facing legal proceedings throughout the Amarillo area.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01,
+  "cost": 2.03e-05
+ },
+ {
+  "firm": "Morris Law PC|www.morrisdefense.com",
+  "set": "profile description",
+  "input": "Morris Law PC has a page on its website about expungement. The firm focuses on criminal defense across California state and federal courts, representing clients facing misdemeanor and felony charges as well as post-conviction appeals. Key defense areas include DUI, drug possession and trafficking, domestic violence, white collar crime, and homicide. The practice also assists clients with California pretrial diversion programs.\nFounded in 2021 by managing attorney Seth Morris, the practice also includes attorneys Fatima Silva and Erica Auer. Morris Law PC serves clients throughout Alameda County, Contra Costa County, and the surrounding San Francisco Bay Area. The firm provides free consultations available 24 hours a day, 7 days a week, and offers legal services in both English and Spanish.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9471826543038009,
+  "cost": 2.46e-05
+ },
+ {
+  "firm": "Attorney John Kindley|www.kindleylaw.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense, representing individuals who have been accused or convicted of criminal offenses. Representative legal matters listed on the site include motions to suppress unlawful searches, disputes regarding educational credit time, challenges over the sufficiency of evidence, and speedy trial rule claims.\nThe practice is operated by John Kindley, who graduated from the University of Wisconsin Law School in 1999. He is admitted to practice before all Indiana state courts, the Northern and Southern Indiana U.S. District Courts, the Seventh Circuit U.S. Court of Appeals, and the U.S. Supreme Court. The firm offers a free phone consultation.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8466383274152534,
+  "cost": 2.25e-05
+ },
+ {
+  "firm": "Eustache Law|www.eustachelaw.com",
+  "set": "profile description",
+  "input": "The Winston-Salem firm operates exclusively in criminal defense. Its caseload includes defending against charges of DUI, drug crimes, violent crimes, theft offenses, sex offenses, manslaughter, fraud, felony crimes, and white-collar offenses.\nThe firm is led by founding partner Harold J. Eustache, a former assistant district attorney in Forsyth and Rockingham counties, alongside associate attorney Kathryn Fulton. Eustache Law serves clients across Forsyth County, Guilford County, and surrounding counties. Initial consultations and case evaluations are provided at no charge, and the firm offers payment options.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.99,
+  "cost": 2.07e-05
+ },
+ {
+  "firm": "Attorneys For Freedom Law Firm|www.attorneysforfreedom.com",
+  "set": "profile description",
+  "input": "Instead, the firm concentrates solely on criminal matters centered around self-defense claims. Its casework covers charges of homicide, murder, and manslaughter, as well as assault, domestic violence, weapon brandishing or display, disorderly conduct, defense of property, and defense of third parties.\nEstablished in 1997, the firm represents clients in self-defense cases across all 50 states and manages the Attorneys On Retainer program. The legal practice is led by president and managing partner Marc J. Victor.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.021960671688208463,
+  "cost": 1.99e-05
+ },
+ {
+  "firm": "Law Office Of J.R. Vicha|www.vichalaw.com",
+  "set": "profile description",
+  "input": "The Law Office of J.R. Vicha is a criminal defense practice based in Waco, Texas. Its practice concentrates on criminal defense cases, including capital murder, aggravated robbery, drug possession and delivery, assault, family violence, theft, and weapons offenses. The firm also defends clients against charges involving DWI, burglary, traffic violations, forgery, and aggravated sexual assault.\nAttorney J.R. Vicha previously served as a Chief Felony Prosecutor for the McLennan County District Attorney and has handled thousands of criminal matters, including jury trials, revocations, plea bargains, and case dismissals. Representation costs vary according to the nature and classification of the alleged crime. The firm accepts payment plans, with terms based on the specific charges, and takes cash, major credit cards, money orders, and cashier's checks.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.02562768926033187,
+  "cost": 2.6e-05
+ },
+ {
+  "firm": "Le Brocq & Horner Law Firm|www.lebrocqhorner.com",
+  "set": "profile description",
+  "input": "Le Brocq & Horner Law Firm represents clients in criminal defense, personal injury, general civil litigation, and family law. The firm's criminal defense practice handles cases involving drug offenses, DUI and DWI, assault, and theft. On the civil side, the firm manages legal matters involving motor vehicle accidents, premises liability, breach of contract, boundary disputes, employment discrimination, and family law proceedings such as divorce and child custody.\n\nBased in Carrollton, Texas, the firm assists clients throughout the Dallas-Fort Worth metroplex. Its attorneys include Stephen Le Brocq, Evan Horner, and Carlos Benitez, who together offer more than a decade of combined practice. The firm communicates in English and Spanish and provides free consultations for criminal defense and personal injury matters.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.5113680107212976,
+  "cost": 2.48e-05
+ },
+ {
+  "firm": "Saland Law PC|www.new-york-lawyers.org",
+  "set": "profile description",
+  "input": "Saland Law PC has a page on its website about expungement and record sealing. The firm primarily handles criminal defense matters in state and federal courts. Its practice covers domestic violence, federal crimes, theft and larceny offenses, and white collar crimes, including grand larceny, identity theft, cybercrimes, scheme to defraud, and money laundering. The firm also assists individuals who are victims of extortion, harassment, larceny, and blackmail, including representation in Family Court regarding orders of protection.\nThe firm is led by founding attorney Jeremy Saland, alongside attorneys Peter Katz and Robert Maher. Saland previously served as a prosecutor in the Manhattan District Attorney's Office and as a town prosecutor in Westchester County. Saland Law PC provides free consultations and represents clients across New York City\u2014including the Bronx, Brooklyn, Queens, and Manhattan\u2014as well as Westchester, Rockland, Putnam, Dutchess, and Orange Counties, the Hudson Valley, and federal courts.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9590376472905776,
+  "cost": 2.87e-05
+ },
+ {
+  "firm": "Vaughn Law PLLC|www.vaughnlawtx.com",
+  "set": "profile description",
+  "input": "Vaughn Law PLLC is a criminal defense law firm based in Houston, Texas. Its legal services focus entirely on defending individuals against criminal charges, including driving while intoxicated (DWI/DUI), drug offenses, domestic violence, driver's license suspension, and unlawful carry cases.\nThe firm was established by attorney Will Vaughn and social worker Kate Vaughn. It handles criminal cases across Southeast Texas, specifically noting casework in Harris, Montgomery, Fort Bend, Galveston, and Washington counties. Will Vaughn graduated from South Texas College of Law Houston and has been licensed to practice in Texas since 2016. Consultations can be requested by telephone or through an online submission form.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.03451917888495082,
+  "cost": 2.33e-05
+ },
+ {
+  "firm": "Jeff Kimmell|kimmell.legal",
+  "set": "profile description",
+  "input": "Jeff Kimmell is a criminal defense practice representing individuals charged with criminal offenses in north-central Indiana. Its legal work is focused on defending clients facing state and federal criminal allegations, including resolving arrest warrants.\nThe practice is led by attorney Jeff Kimmell, who received his law degree from Indiana University Maurer School of Law in 1995 after serving six years in the United States Navy Submarine Fleet. He has over 24 years of legal experience advocating for accused individuals throughout north-central Indiana. The office provides free consultations to prospective clients.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9221238959191308,
+  "cost": 2.09e-05
+ },
+ {
+  "firm": "The Franks Law Firm, PLLC|thefrankslawfirm.com",
+  "set": "profile description",
+  "input": "The firm's practice focuses on criminal defense throughout Mississippi, with specific work on driving under the influence (DUI) offenses and drug charges, including narcotics and marijuana allegations. Beyond criminal defense, the firm represents clients in personal injury claims, workers' compensation disputes, and Federal Employers' Liability Act (FELA) cases.\nThe firm was opened in June 2014 by attorney Joseph \"Joey\" R. Franks. Based in Jackson, Mississippi, the practice serves residents across the entire state. Clients are able to communicate with the office through telephone calls or text messages.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.029522651905007136,
+  "cost": 2.13e-05
+ },
+ {
+  "firm": "Law Office of Gregory H. Comings, APC|www.comingslaw.com",
+  "set": "profile description",
+  "input": "The Law Office of Gregory H. Comings, APC focuses exclusively on criminal defense. Its defense practice covers charges such as driving under the influence, drug crimes, domestic violence, and violent crimes including assault, battery, and robbery. The firm also represents individuals facing allegations involving weapons charges, theft, sex crimes, crimes against children, and probation violations.\nThe practice is led by attorney Gregory H. Comings, who has represented clients in criminal matters since 2003. The office serves Riverside, San Bernardino, and the broader Inland Empire area. Legal assistance and consultations are available in both English and Spanish.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.04239500190407616,
+  "cost": 2.2e-05
+ },
+ {
+  "firm": "The Law Office of Guillermo Lara Jr.|www.sacriminalatty.com",
+  "set": "profile description",
+  "input": "The firm centers its practice on criminal defense, handling both state and federal criminal matters for individuals accused of crimes in Texas courts. Additionally, the website lists personal injury representation among its primary legal practice areas.\nThe firm represents individuals in San Antonio and throughout Bexar County, Texas. Initial consultations are provided without charge, and the website notes that staff is available 24/7. Legal assistance is available in Spanish as well as English, and cases are led by attorney Guillermo Lara Jr.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9813110219742892,
+  "cost": 1.94e-05
+ },
+ {
+  "firm": "Lemanski Law Offices. The Law Office of Scott F. Cactus Lemanski|www.cactuslawoffice.com",
+  "set": "profile description",
+  "input": "The firm concentrates on state and federal criminal defense as well as personal injury law in Texas. Specific criminal matters handled by the firm include trial defense for federal smuggling crimes, drug offenses, and assault allegations.\nThe practice is led by attorney Scott F. Cactus Lemanski, referencing 20 years of legal work. The firm offers free phone consultations to individuals seeking defense representation, assisting clients with case planning and explaining available legal options.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8931894673998012,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Dunham & Jones, Attorneys at Law, P.C.|www.dunhamlaw.com",
+  "set": "profile description",
+  "input": "Dunham & Jones, Attorneys at Law, P.C. is a Texas criminal defense law firm. The practice defends clients against misdemeanor and felony charges, including DWI and DUI, domestic violence, assault, drug crimes, theft, weapons charges, human trafficking, and sex offenses.\nThe firm has handled criminal cases in Texas since 1989 and maintains offices in multiple cities across the state. Dunham & Jones provides free initial consultations, and payment plans requiring no money down are available in most cases. Attorneys featured on the site include Paul Dunham, Scotty D. Jones, Jeffrey R. Casey, and Christopher Mark Jeansonne.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.99,
+  "cost": 2.23e-05
+ },
+ {
+  "firm": "Law Office of Brandon Hall|brandonhalllaw.com",
+  "set": "profile description",
+  "input": "The firm focuses primarily on criminal defense, handling matters such as major crimes, felonies, misdemeanors, DUI and OWI offenses, drug charges, and asset forfeiture. Additionally, the practice represents clients in car accident cases, personal injury claims, and board complaints.\nThe practice is led by attorney Brandon Hall, who has more than ten years of legal experience and has represented more than 2,000 clients. Legal defense services are provided to individuals in Memphis, Bartlett, Arlington, and surrounding communities in Tennessee. The firm provides free consultations for prospective clients seeking representation.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9529687573315783,
+  "cost": 2.11e-05
+ },
+ {
+  "firm": "The Law Office of R. Douglas Lenhardt, LLC|www.lenhardtlaw.com",
+  "set": "profile description",
+  "input": "The firm represents individuals in criminal defense, including DUI charges, misdemeanors, and felony allegations. In addition to defense representation, the practice assists individuals and families with Chapter 7 and Chapter 13 consumer bankruptcy filings, as well as personal injury claims involving car accidents, truck wrecks, motorcycle crashes, and dog bites.\nAttorney R. Douglas Lenhardt has represented clients in Georgia for more than 25 years and is admitted to the Supreme Court of Georgia, the Georgia Court of Appeals, and the federal courts in the Middle and Northern Districts of Georgia. Located in Athens, the firm serves clients throughout Athens-Clarke County, Oconee County, Madison County, Oglethorpe County, and Jackson County.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.019573846416396114,
+  "cost": 2.4e-05
+ },
+ {
+  "firm": "The Miller Law Group|www.themillerlaw.com",
+  "set": "profile description",
+  "input": "The Miller Law Group focuses on criminal defense and personal injury representation in California. Its criminal defense casework includes state and federal misdemeanors and felonies for both adult and juvenile defendants, as well as DUI and DWI defense. Additionally, the firm handles civil rights matters involving allegations of excessive force, unlawful detention, discrimination, and other violations by public agencies or law enforcement.\nBeyond criminal defense, The Miller Law Group represents individuals seeking compensation in personal injury matters. Consultations are provided free of charge 24/7, and Spanish-speaking services are available. Based in Los Angeles and serving clients across surrounding counties, the firm's attorneys include owner and managing partner Fabianna Olivares-Miller and attorney Chris Miller.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.95417248776361,
+  "cost": 2.38e-05
+ },
+ {
+  "firm": "Mudd Legal Group, PLLC|www.muddlegalgroup.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense representation, covering matters such as federal crimes, drug crimes, domestic violence, and DUI or traffic cases. It also accepts personal injury matters, including medical malpractice and wrongful death claims.\nAttorney Nick Mudd started his career in 2010 as a prosecutor with the commonwealth attorney's office and opened a private practice in 2016. Mudd Legal Group serves clients in all Kentucky District and Circuit Courts, the federal Western District of Kentucky, the federal Eastern District of Kentucky, and the federal Southern District of Indiana.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.018144359606646218,
+  "cost": 2.08e-05
+ },
+ {
+  "firm": "Jeff Purnell Attorney at Law|jeffpurnellcriminaldefense.com",
+  "set": "profile description",
+  "input": "Jeff Purnell Attorney at Law is a Milwaukee criminal defense practice. Its website covers defense against drug crimes, gun crimes, OWI, homicide and murder charges, sex crimes and federal criminal charges, in both state and federal courts.\nJeff Purnell is the only attorney named and reports more than 20 years of practice. The site says there is no fee for an initial contact, and it does not publish a fee schedule or mention payment plans. The practice is based in the Greater Milwaukee area, and the attorney states he is licensed to represent clients throughout Wisconsin.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.7425220385731397,
+  "cost": 2.12e-05
+ },
+ {
+  "firm": "John W. Molony Law Firm, LLC|johnwmolony.com",
+  "set": "profile description",
+  "input": "The firm primarily handles criminal defense matters, with a strong focus on driving under the influence charges and the Temporary Alcohol License process. Other practice areas include drug offenses, domestic violence, disorderly conduct, open container violations, theft, shoplifting, resisting arrest, and traffic tickets.\nCriminal defense attorney John W. Molony is the owner and sole managing member of the practice. The firm maintains offices in Charleston, Bluffton, Aiken, North Myrtle Beach, Rock Hill, Sumter, Columbia, and Greenville. It serves clients across Charleston, Berkeley, Beaufort, Dorchester, Georgetown, Jasper, and Colleton counties. Consultations are available free of charge.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8564333626970341,
+  "cost": 2.26e-05
+ },
+ {
+  "firm": "Young & Young, Attorneys at Law|www.adamyounglawfirm.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense and personal injury law. Its criminal defense practice covers DUI and DWI offenses, domestic violence, drug violations, assault and battery, and matters involving college students and juveniles. Its personal injury practice includes motor vehicle accidents, motorcycle wrecks, dog bites, slip and fall incidents, and premises liability claims.\nFounded in 2012, the practice is led by attorneys Adam D. Young and Kelley F. Young. Both attorneys are former state prosecutors, and Kelley Young previously served as a magistrate judge. The firm provides legal representation to clients in Charleston and throughout South Carolina, and it offers free initial consultations.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9874813348364905,
+  "cost": 2.24e-05
+ },
+ {
+  "firm": "The Law Offices of Matthew Cargal|www.pasadenacriminaldefensefirm.com",
+  "set": "profile description",
+  "input": "The practice focuses exclusively on criminal defense and DUI defense cases. The firm represents clients facing DUI charges and other criminal accusations, handling case investigations, pre-trial motions, jury trials, and efforts to explore alternative sentencing options to jail.\nThe practice is led by attorney Matthew Cargal, who has defended individuals accused of DUI and criminal offenses for more than 25 years. Situated in Pasadena, California, the firm serves the Pasadena community and has handled hundreds of cases. Prospective clients seeking legal assistance can contact the office to arrange a free consultation.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.982839088969117,
+  "cost": 2.05e-05
+ },
+ {
+  "firm": "Cincilla & Draklan Law|cincilladraklanlaw.com",
+  "set": "profile description",
+  "input": "The firm focuses on consumer protection and motor vehicle matters, including debt collection defense, traffic citations, driver's license suspension and restoration, and commercial driver violations. Its attorneys also handle driving under the influence and bankruptcy cases.\nThe firm's lawyers are Stevie K. Draklan and Lisa M. Cincilla, who were admitted to the Pennsylvania Bar in 2013 and 2000, respectively. Cincilla & Draklan Law provides legal representation for flat-rate fees without hourly billing and offers free case evaluations and consultations. The firm represents clients across Lehigh, Northampton, Carbon, Berks, and Monroe counties.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.920658398059295,
+  "cost": 2.28e-05
+ },
+ {
+  "firm": "Albert Roberts Law, PLLC|albertrobertslaw.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense representation, defending individuals facing misdemeanor and felony charges. Its specific areas of practice include driving under the influence (DUI/DWI), illegal drug possession, and drug distribution offenses.\nHeadquartered in Fort Worth, Texas, the firm has represented clients since 2009. Albert Roberts Law provides prospective clients with a free initial consultation. The firm assists individuals with evaluating evidence, negotiating charges with prosecutors, navigating bail procedures, and preparing defense strategies for court proceedings and trials.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9871569447202199,
+  "cost": 1.98e-05
+ },
+ {
+  "firm": "Law Offices of Mark Deniz APLC|www.denizdefense.com",
+  "set": "profile description",
+  "input": "Instead, the firm concentrates entirely on criminal defense. Practice areas highlighted by the firm include driving under the influence, domestic violence, prostitution and solicitation, drug allegations, theft, burglary, and serious felony matters.\nThe firm was established in 2013 by attorney Mark L. Deniz, who has worked in criminal law since 2003 and previously served as a deputy district attorney and deputy city attorney. Based in Southern California, the firm represents individuals throughout San Diego County and beyond. The Law Offices of Mark Deniz APLC offers free case evaluations and provides flexible payment plans.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9413991590608802,
+  "cost": 2.14e-05
+ },
+ {
+  "firm": "Billy Gilchrist, Attorney|www.lawofficeofbillygilchrist.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense and traffic violations, representing individuals dealing with traffic tickets, driving under the influence (DUI), shoplifting, domestic assault, and a range of other misdemeanor and felony charges.\nThe firm is led by attorney Billy Gilchrist, who has more than 20 years of legal experience in criminal and traffic defense. Assistance is available for Spanish-speaking clients, and the firm represents individuals in courts throughout Memphis, Bartlett, Collierville, and Germantown, Tennessee. Free consultations are available for prospective clients seeking legal representation.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8483656638263778,
+  "cost": 2.07e-05
+ },
+ {
+  "firm": "Weisberg & Weisberg, PLLC|www.weisbergattorneys.com",
+  "set": "profile description",
+  "input": "The firm concentrates its practice on criminal defense, family law, personal injury, and wills, trusts, and estates. Its criminal defense practice handles traffic offenses, such as reckless driving and driving under the influence, as well as felony charges including robbery, rape, and murder.\nThe firm provides free consultations for criminal defense and personal injury cases. Founded by partners Noah Weisberg and Amy Weisberg, the firm's attorneys also include George Gorman and David Scott Dildy. The practice has served the Hampton Roads area for several years, representing clients throughout Coastal Virginia, including Newport News, Hampton, Virginia Beach, Norfolk, and Chesapeake.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.6307460755014184,
+  "cost": 2.23e-05
+ },
+ {
+  "firm": "The Law Offices of Zirpoli Chase PLLC|zirpolichase.com",
+  "set": "profile description",
+  "input": "The firm focuses on criminal defense representation in state and federal courts. Its practice areas include violent crimes, drug offenses, domestic violence, sex offenses, DUI, firearm charges, white collar crimes, juvenile cases, appeals, and postconviction relief.\nThe firm represents clients across South Florida, including Broward and Miami-Dade counties. Its attorneys began their legal careers as assistant public defenders in those jurisdictions. The team includes attorneys Lindsay Lawrence Chase, Naor Rom, Jared Cove, and Laura L. Cepero. Prospective clients can arrange a confidential consultation, and legal services are available in Hebrew as well as English.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.028593695048723985,
+  "cost": 2.18e-05
+ },
+ {
+  "firm": "Fleming Law, PC|www.savannahgaattorney.net",
+  "set": "profile description",
+  "input": "Its practice centers on criminal defense, representing individuals facing allegations such as DUI, traffic violations, drug crimes, violent crimes, student offenses, sex offenses, and federal charges. In addition to criminal matters, the firm also handles general civil litigation.\nLocated in Savannah, the firm represents clients across Georgia, including Chatham, Bryan, Liberty, McIntosh, and Effingham counties. The legal team includes attorneys Ryan D. Langlois and Cassie Hartpence, with professional background that includes prosecution and law enforcement work. The firm provides a free initial consultation to discuss legal matters.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.987540424842788,
+  "cost": 2.08e-05
+ },
+ {
+  "firm": "Markowitz Law Firm|www.tellusyours.com",
+  "set": "profile description",
+  "input": "The firm provides representation in criminal defense, traffic ticket defense, and license suspensions or occupational licenses. It also assists clients with commercial driver defense to keep citations off driving records, as well as handling serious personal injury matters and wills and estate planning.\nThe firm represents clients throughout Texas from its virtual office in League City. Its legal team includes attorney Scott Markowitz, a second-generation attorney and University of Texas graduate. Markowitz Law Firm offers free consultations to discuss cases with prospective clients.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9526657568920804,
+  "cost": 1.93e-05
+ },
+ {
+  "firm": "Leland Hulbert Law, PLLC|lelandlawyer.com",
+  "set": "profile description",
+  "input": "Leland Hulbert Law, PLLC focuses on criminal defense and family law representation in Kentucky. In criminal defense, the firm represents individuals facing matters ranging from DUI charges to serious felony offenses, as well as handling trial representation. Its family law practice handles divorce, child custody and visitation matters, domestic relations, property division, support, and post-decree modifications.\n\nThe firm is led by attorney Leland Hulbert, a former prosecutor who began his legal career in 2002 and previously headed the Jefferson County Violent Crimes Unit. Clients work directly with Hulbert throughout their cases. Leland Hulbert Law provides free initial consultations and operates offices in downtown Louisville and the East End, serving clients throughout Jefferson County and statewide.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.99,
+  "cost": 2.41e-05
+ },
+ {
+  "firm": "The Law Offices of Matthew P. Lipinsky|www.lipinskylawfirm.com",
+  "set": "profile description",
+  "input": "The firm's practice focuses on criminal defense, traffic violations, family law, and landlord-tenant legal matters. In landlord and tenant issues, the practice assists both property owners and renters with rental agreement drafting, eviction proceedings, lease dispute resolution, habitability concerns, and recovering security deposits.\nThe firm is led by Matthew P. Lipinsky, a former prosecutor who has been licensed in New York since 2007. After working at a firm in Manhattan, he established his Westchester practice in 2015 and has handled over 2,000 cases in New York courts. Based in New Rochelle, the firm provides free consultations and represents clients across New York State, including Yonkers, White Plains, Mount Vernon, and surrounding communities.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9393138318917044,
+  "cost": 2.5e-05
+ },
+ {
+  "firm": "DeCurtins Law Office|www.decurtinslaw.com",
+  "set": "profile description",
+  "input": "DeCurtins Law Office represents clients in criminal defense and personal injury matters in Charlotte and throughout Mecklenburg County, North Carolina. The firm's criminal defense work includes defending cases involving impaired driving, drug offenses, theft and property crimes, assault, domestic violence, traffic citations, and probation violations across District and Superior Court. Its personal injury practice handles vehicle collisions, pedestrian accidents, dog bites, premises liability, workplace accidents, catastrophic injuries, and wrongful death claims.\n\nThe firm was established in 1985 by Robert J. DeCurtins, who previously served as an Assistant Public Defender in Charlotte. Attorney Brandon R. DeCurtins joined the North Carolina Bar in 2009 and handles both criminal and personal injury matters. The firm provides free consultations, and cases are handled directly by the attorneys.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9770976550290985,
+  "cost": 2.59e-05
+ },
+ {
+  "firm": "RedStone Law|redstone.law",
+  "set": "profile description",
+  "input": "RedStone Law handles personal injury, wrongful death, and criminal defense matters across Tennessee and Kentucky. Its accident caseload includes collisions involving cars, trucks, motorcycles, bicycles, rideshares, and pedestrians, as well as fatal accidents and machine malfunctions. The firm formed through the merger of Burman Law into RedStone Law.\nThe firm's attorneys are founding lawyer Mike Burman, Morgan Burman, and Mark Zenker, bringing more than 35 years of practice history. RedStone Law offers free case reviews and works on a 33\u2153 percent contingency fee arrangement for injury claims, requiring no money upfront. The firm serves clients throughout Clarksville, Hopkinsville, Fort Campbell, Oak Grove, Cadiz, Madisonville, Nashville, and surrounding areas.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9550509338183274,
+  "cost": 2.49e-05
+ },
+ {
+  "firm": "Terry Law Group, LLC|www.terrylawgroupllc.com",
+  "set": "profile description",
+  "input": "Terry Law Group, LLC provides legal representation across several practice areas, including criminal defense for individuals facing criminal charges. The firm also handles family law matters such as custody, child support, and child protection cases, as well as personal injury claims. Additionally, the practice assists clients with bankruptcy proceedings under Chapter 7, 11, and 13, elder law services involving wills and administration applications, and corporate matters including business formation and state registrations.\n\nThe firm is led by attorney Rasheedah R. Terry, who established her own law practice in 2007 after earning her law degree from Rutgers University School of Law in 2004. Terry is admitted to practice in New Jersey and New York, as well as federal courts. The firm provides free initial phone consultations.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9868140975052143,
+  "cost": 2.56e-05
+ },
+ {
+  "firm": "Kilroy Law Firm|kilroylawfirm.com",
+  "set": "profile description",
+  "input": "Kilroy Law Firm is a criminal defense practice that lists expungement among its services, alongside post-conviction relief, parole representation and prison consultation. Its caseload covers DUI and OUI charges, white collar offenses, domestic violence, drug crimes, theft, sex crimes, and assault and battery. The firm describes its fees as affordable.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.016921811853439085,
+  "cost": 1.64e-05
+ },
+ {
+  "firm": "Orange Beach Criminal Defense Lawyer - J. M. Copeland|www.orangebeachlawyer.com",
+  "set": "profile description",
+  "input": "Orange Beach Criminal Defense Lawyer - J. M. Copeland is a criminal defense and expungement firm serving Orange Beach and Baldwin County, Alabama. Attorney Jordan M. Copeland has represented clients in criminal courts since 2007 and handles criminal, expungement and traffic cases. The firm's defense work includes drug charges, DUI, minor in possession of alcohol, domestic violence misdemeanors and municipal court charges.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.02208061231138011,
+  "cost": 1.8e-05
+ },
+ {
+  "firm": "Law Office of Harmeet Dhillon|hdhillonlaw.com",
+  "set": "profile description",
+  "input": "Law Office of Harmeet Dhillon offers criminal defense services through its attorney, Harmeet Dhillon. Expungements are included, and the work ranges from misdemeanors and DUIs to all felonies.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.03369828207809222,
+  "cost": 1.36e-05
+ },
+ {
+  "firm": "Groth & Associates|www.grothlaw.com",
+  "set": "profile description",
+  "input": "Groth & Associates is a multi-practice law firm based in downtown Toledo, Ohio, that focuses on criminal defense and personal injury law. In criminal matters, the firm represents individuals facing misdemeanor and felony charges, including assault, DUI, drug offenses, sex crimes, theft, and murder. Its personal injury practice handles matters involving car, truck, motorcycle, bicycle, and pedestrian collisions, as well as dog bites and wrongful death claims.\n\nFounded in 2001 by attorney Stevin J. Groth, the firm represents clients across Northwest Ohio, including Bowling Green, Findlay, Maumee, Oregon, Perrysburg, and Sylvania. Additional attorneys at the firm include Steven L. Crossmock, Joshua E. Williams, and Allison M. Groth. Groth & Associates provides free consultations for personal injury and criminal defense cases.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9516582275279751,
+  "cost": 2.67e-05
+ },
+ {
+  "firm": "JBabb Law|jbabblaw.com",
+  "set": "profile description",
+  "input": "JBabb Law assists clients in Texas with criminal record expunction and orders of non-disclosure. The firm handles expunctions to erase records of arrests and criminal charges for cases that were dismissed, acquitted, dropped without trial, or exonerated. It also assists individuals with sealing criminal records through orders of non-disclosure following deferred adjudication probation, restricting public access from employers and landlords.\n\nBeyond record clearing, JBabb Law handles criminal defense matters, automobile accident injuries, and tax disputes with the IRS. Headquartered in Richardson, the firm provides legal services across the state of Texas and has operated for more than a decade. Attorney Jason Babb represents clients, and individuals can schedule a confidential case evaluation.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.034041899307029104,
+  "cost": 2.35e-05
+ },
+ {
+  "firm": "Lloyd C. Bolton Attorney at Law, PLLC|www.boltonlawnc.com",
+  "set": "profile description",
+  "input": "Lloyd C. Bolton Attorney at Law, PLLC is a criminal defense practice in Jacksonville, North Carolina, serving Onslow County and nearby military bases. Lloyd Bolton handles expungements and firearm rights restoration, plus DWI, traffic offenses, drug charges, assault, property crimes and juvenile defense in state District and Superior Court. He is admitted to the U.S. District Court for the Eastern District of North Carolina and represents civilians charged with misdemeanors and DWI at Camp Lejeune, MCAS Cherry Point and MCAS New River.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.024945676095957655,
+  "cost": 2.03e-05
+ },
+ {
+  "firm": "Brian M. Latuga, Esq.|www.brianlatuga.com",
+  "set": "profile description",
+  "input": "Brian M. Latuga's website has a page on Virginia expungements. It says expungement is limited to charges that ended in a not-guilty finding, a dismissal or a nolle prosequi, and that convictions, deferred findings, first-offender dismissals and most felonies reduced to misdemeanors do not qualify. It also explains when dismissed juvenile records are expunged automatically, at age 19 or 29 depending on the offense. Eligibility is described as fact-specific, and callers are invited to a free consultation.\n\nHis other practice areas are criminal: alcohol and ABC offenses, assault and battery, domestic cases, drugs and distribution, DUI/DWI, federal charges, fraud and white collar, juvenile, sex crimes and violent crimes, with some civil litigation. The site says he began as a Virginia Beach police officer in 2005 and practices in state and federal courts across Hampton Roads.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9831203172117793,
+  "cost": 2.88e-05
+ },
+ {
+  "firm": "Andrew Popplewell, Esq|www.engandwoods.com",
+  "set": "profile description",
+  "input": "Eng & Woods assists individuals seeking a second chance by preparing and filing petitions for expungement to remove eligible criminal convictions from client records in Missouri. In addition to criminal record clearing, the firm provides criminal defense representation in local, state, and federal courts. Their criminal caseload includes misdemeanors, felonies, alcohol and drug offenses, DWI and DUI charges, minor in possession violations, assault, battery, burglary, robbery, manslaughter, murder, traffic tickets, and white-collar crimes.\n\nBeyond criminal defense, the practice represents clients in personal injury claims, automobile accidents, semi-truck accidents, workers' compensation cases, and wrongful death claims. Founded in 1994, the firm serves clients across Missouri. The legal team includes partner Andrew D. Popplewell alongside senior partners Patrick J. Eng and Matthew B. Woods, as well as partner Douglas F. Pugh. The firm provides free initial consultations by telephone or video conference.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9888466841857124,
+  "cost": 2.84e-05
+ },
+ {
+  "firm": "David L. Pine, Esq.|www.njpinelaw.com",
+  "set": "profile description",
+  "input": "David L. Pine, Esq. has practiced law since 1988. His practice involves expungements and criminal and municipal court matters for both adults and juveniles, and he also represents clients in domestic violence matters. A free consultation is offered.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9637093753550665,
+  "cost": 1.47e-05
+ },
+ {
+  "firm": "The Law Office of Aaron J. Stoll, LLC|www.stoll.law",
+  "set": "profile description",
+  "input": "The Law Office of Aaron J. Stoll, LLC was founded in 2018 by an Indiana attorney who assists people seeking expungement or sentencing modifications. He also defends state and federal criminal cases and litigates appeals of trial court rulings, verdicts and sentences. Before opening the office, Attorney Stoll spent six years as a deputy prosecuting attorney for Allen County; he is a Notre Dame Law School graduate. A free consultation is offered.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9683505051464075,
+  "cost": 1.84e-05
+ },
+ {
+  "firm": "The Morris Law Firm|www.dmorrislaw.com",
+  "set": "profile description",
+  "input": "The Morris Law Firm in Panama City, Florida, is led by attorney Dana Morris, who has practiced in Northwest Florida for over 25 years. He spent 11 years as a prosecutor with the Attorney General's Office and the State Attorney's Offices in Bay and Santa Rosa counties before turning to defense. The firm handles expungements and record sealing, DUI defense, criminal charges and probation violations in Panama City, Bay County and nearby areas. Consultations are free and Spanish is spoken.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8885898859973353,
+  "cost": 1.97e-05
+ },
+ {
+  "firm": "Lifeback Legal - a division of Randall & Johnson|www.lifebacklegal.com",
+  "set": "profile description",
+  "input": "Lifeback Legal, a division of the Law Firm of Randall & Johnson, assists clients with post-conviction relief throughout California. Its record-clearing services include felony, misdemeanor, DUI, and infraction expungements, Proposition 64 marijuana relief, Proposition 47 relief, and arrest record sealing. The firm also handles felony reductions, early probation termination, certificates of rehabilitation, and gun rights restoration. Additional legal practice areas include federal licensing, FDIC waivers, FINRA and NMLS licensing, TSA PreCheck appeals, Global Entry appeals, and adult name changes.\n\nFounding attorney Shea M. Randall handles case documentation and court appearances on behalf of clients. The firm charges flat rates, including $700 for infraction or misdemeanor expungements, $875 for DUI expungements, and $1,000 for felony expungements, excluding court and processing fees. Interest-free payment plans are available starting at $49.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.05571196770514058,
+  "cost": 2.91e-05
+ },
+ {
+  "firm": "The Law Office of Boone Leach, PLLC|www.booneleachlaw.com",
+  "set": "profile description",
+  "input": "The Law Office of Boone Leach, PLLC is a St Paul, Minnesota practice. Boone Leach takes expungements on a sliding fee scale. The same sliding scale applies to criminal defense, eviction defense, tenants' rights lawsuits and other civil matters. Calls and consultations are always free.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9602982310590857,
+  "cost": 1.53e-05
+ },
+ {
+  "firm": "Grit City Law|www.gritcity.law",
+  "set": "profile description",
+  "input": "Grit City Law handles criminal record vacation and expungement. Its other work includes felony and misdemeanor defense, protection and anti-harassment orders, divorce and child custody, and civil settlement agreements. The firm cites over 20 years of experience in the justice system and can be reached by telephone, email and text on evenings and weekends, otherwise by appointment. Consultations are free, and payment plans and credit options are available.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9052317184099871,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "Park & Caporrino, LLP \ubc15\uc120\uc815 \ud569\ub3d9 \ubc95\ub960 \uc0ac\ubb34\uc18c|www.parkcaporrino.com",
+  "set": "profile description",
+  "input": "Park & Caporrino, LLP \ubc15\uc120\uc815 \ud569\ub3d9 \ubc95\ub960 \uc0ac\ubb34\uc18c is a law firm in Leonia, New Jersey. Expungements are one of the fields in which it offers representation. The remaining fields it names are family law, real estate, bankruptcy, civil litigation, business law and motor vehicle offenses.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.029185775644232102,
+  "cost": 1.6e-05
+ },
+ {
+  "firm": "Attorney Samir Hadeed|www.lawyersamirhadeed.com",
+  "set": "profile description",
+  "input": "Attorney Samir Hadeed practices as Hadeed Law, a criminal defense and personal injury firm in Pittsburgh, Pennsylvania. Expungements are among his areas, along with DUI, drug crimes, gun crimes, assault, burglary, domestic violence, traffic violations and auto accidents. Hadeed has over 15 years of experience and speaks English, Spanish, Portuguese, Arabic and Italian. Consultations are free, and personal injury cases carry no fee unless the case is won.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.980401434491373,
+  "cost": 1.92e-05
+ },
+ {
+  "firm": "The Law Office of Robin Persiconi|pickpersiconi.com",
+  "set": "profile description",
+  "input": "The Law Office of Robin Persiconi in Livonia, Michigan lists expungements among its criminal services, with misdemeanors, felonies and driver's license restoration. Its other listed areas are cannabis law, family law (divorce, child custody, personal protection orders), business law, mergers and acquisitions, liquor license law, real estate and landlord-tenant matters, district court litigation, and personal injury such as dog bites and auto accidents.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.013723749526344264,
+  "cost": 1.85e-05
+ },
+ {
+  "firm": "Gressley & Donaldson LLP - Riverside DUI Attorney Criminal Defense|gddefense.com",
+  "set": "profile description",
+  "input": "Gressley & Donaldson LLP assists individuals in California with clearing their criminal records through expungements and record sealing. The firm represents clients seeking relief under California Penal Code Section 1203.4 to reopen cases, set aside guilty pleas or verdicts, and obtain dismissals for qualifying misdemeanor and felony convictions. It also assists eligible individuals with petitions to seal arrest records under Penal Code Section 851.91 when an arrest did not result in a conviction, charges were dismissed, or cases were overturned on appeal.\n\nIn addition to record clearance, the firm represents clients facing driving under the influence charges, domestic violence allegations, weapons offenses, reckless driving, hit and run, and solicitation. It also handles administrative DMV license suspension hearings, writs, and misdemeanor and felony appeals. Gressley & Donaldson LLP serves clients in Riverside and surrounding areas, offering free initial consultations and support in Spanish.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9856165768072953,
+  "cost": 2.77e-05
+ },
+ {
+  "firm": "Greg Nelson Attorney at Law|www.defendingomaha.com",
+  "set": "profile description",
+  "input": "The firm's website has separate pages on setting aside a conviction and on record sealing in Nebraska. A set aside is described as open to people sentenced to probation or a fine who completed probation and paid all fines and costs; the charge stays on the criminal history but shows as set aside, and civil disabilities are removed. The sealing page says dismissed cases, including those ended through diversion or drug court, can be sealed by petition so they no longer appear on background checks. A further page mentions help with pardons.\n\nThe practice is criminal defense, covering domestic violence, sex crimes, gun and drug charges, felony assault, theft, probation violations, appeals and DUI. Greg Nelson spent six years as a prosecutor in Kansas and Nebraska and has done criminal defense in Nebraska since 2004. A second office is in West Omaha.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.03249613713083133,
+  "cost": 2.64e-05
+ },
+ {
+  "firm": "Guzman Law Firm|www.guzman.law",
+  "set": "profile description",
+  "input": "Guzman Law Firm handles record clearing and record sealing in Texas, assisting clients with expunctions and petitions for non-disclosure when cases are dismissed or result in not guilty verdicts. Beyond record clearing, the firm provides defense for criminal charges including driving while intoxicated, drug possession, assault, weapons offenses, and theft. Its caseload also includes federal defense cases such as drug trafficking and human smuggling, alongside family law and personal injury matters.\n\nFounded in 2018 by attorney Javier Guzman, a former prosecutor and forensic lawyer-scientist, the firm serves clients from locations in Laredo and San Antonio. Consultations can be scheduled through the office, and the firm provides legal information in both English and Spanish.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.03170105478309928,
+  "cost": 2.39e-05
+ },
+ {
+  "firm": "Milly Daniels Law Firm|millydanielslaw.com",
+  "set": "profile description",
+  "input": "Milly Daniels Law Firm is a women-owned practice serving Poteau, Oklahoma. Expungements are offered as an additional service, as are estate planning, probate and oil and gas law. The firm's primary areas are personal injury, workers' compensation and real estate matters. Consultations are free, and the firm says it is paid only when the client is.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9239254805161615,
+  "cost": 1.72e-05
+ },
+ {
+  "firm": "Wittner Law|www.gwittnerlaw.com",
+  "set": "profile description",
+  "input": "Wittner Law takes criminal defense matters in Missouri and Illinois. Greg Wittner assists people who need expungements and defends a long list of charges: assault, child pornography crimes, computer crimes, conspiracy, drug offenses, DWI and DUI, fraud, juvenile crimes, murder, sex crimes, theft, traffic violations, weapons offenses and white collar crimes.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01,
+  "cost": 1.66e-05
+ },
+ {
+  "firm": "Jeffrey C. Lavey Attorney at Law|jeffreylaveylaw.com",
+  "set": "profile description",
+  "input": "Jeffrey C. Lavey Attorney at Law is the Woburn practice of a Massachusetts lawyer with over 37 years in practice. Record sealing falls within his criminal defense work, which also covers OUI/DUI, drug charges, and assault and battery. Most of the practice concerns personal injury, including vehicle accidents, slip and fall, dog bites and wrongful death, plus medical malpractice, workers' compensation and Social Security disability. Clients across Massachusetts are seen in person or remotely.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.02687356589376705,
+  "cost": 1.93e-05
+ },
+ {
+  "firm": "Spradlin Kennedy Richman Law Firm|www.spradlinkennedy.com",
+  "set": "profile description",
+  "input": "Spradlin Kennedy Richman Law Firm serves Jackson County, Missouri, and the Kansas City metro. Attorney Tracy Spradlin formerly worked in the prosecuting attorney's office for the City of Kansas City, and attorney Dan Kennedy worked at the Missouri Department of Revenue on driver's license suspensions tied to DWIs. Expungements are listed with the firm's defense work on criminal charges, DWI/DUI, drug charges, domestic violence, violent crimes and traffic violations.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.021279941663190204,
+  "cost": 1.92e-05
+ },
+ {
+  "firm": "Law Office of Bradley R. Corbett|www.bradleycorbettlaw.com",
+  "set": "profile description",
+  "input": "The Law Office of Bradley R. Corbett handles criminal record expungements in California under Penal Code 1203.4 for eligible felony and misdemeanor cases. The firm assists clients with petitions to withdraw guilty pleas and obtain case dismissals after completing probation. Its post-conviction representation also includes California DUI expungements and motions for early termination of probation under Penal Code 1203.3, which can involve reducing wobbler felonies to misdemeanors.\n\nBeyond record clearing, the firm represents defendants facing misdemeanor and felony criminal charges such as driving under the influence, domestic violence, drug crimes, theft, assault, and weapon offenses. Bradley Corbett has been practicing law for over 13 years. The firm provides free initial consultations 24/7 and serves San Diego County and surrounding communities, including Vista, Oceanside, Carlsbad, and Chula Vista.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9841753340789935,
+  "cost": 2.72e-05
+ },
+ {
+  "firm": "Erase The Case, PLLC.|www.erasethecase.com",
+  "set": "profile description",
+  "input": "Erase The Case, PLLC is a Florida firm that works only on expungement and sealing of criminal records. Its website covers court-ordered expunction and sealing for misdemeanor and eligible felony cases, generally where charges were dropped, dismissed or ended in acquittal and the person has no prior convictions or earlier sealing. The firm audits the criminal history, applies for the FDLE Certificate of Eligibility, obtains State Attorney approval and files the petition, with no court appearance by the client. Typical cases take three to five months.\n\nThe firm also offers background check removal from commercial data brokers and mugshot removal. It lists a $995 flat fee that includes the $75 FDLE fee, a free online eligibility test, and financing through Affirm. Founder David Weisselberger is the named attorney. All 67 Florida counties are served.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.10035685065109431,
+  "cost": 2.66e-05
+ },
+ {
+  "firm": "J. Clay LeJeune, Attorney at Law, LLC|jclaylejeunelaw.com",
+  "set": "profile description",
+  "input": "J. Clay LeJeune's firm, shown on its current site as LeJeune & Associates, has offices in Lafayette and Crowley, Louisiana and a page on expungement. It says the firm helps clients clear criminal records that stand in the way of jobs or housing. Eligibility is assessed by the nature and severity of the offense, whether charges were dismissed or led to conviction, whether probation or a deferred disposition was completed, and how much time has passed. The page notes that not every record qualifies and offers a free consultation.\n\nThe firm's practice areas are criminal defense, including DUI/DWI, felonies and misdemeanors, family law, civil rights and estate planning. Its attorneys are J. Clay LeJeune and Kennedy McNemar. The site says the firm has worked in Acadiana since 1999, serving Lafayette, Crowley, Opelousas, Abbeville and New Iberia.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9859812145538303,
+  "cost": 2.82e-05
+ },
+ {
+  "firm": "The Williams Law Firm|williamslawfirm.com",
+  "set": "profile description",
+  "input": "The Williams Law Firm has served East Lansing and nearby communities since 1978. One of its services is setting aside criminal convictions, which it also calls expungement. The firm additionally handles driver's license restoration, traffic violations, civil infractions, misdemeanors and felonies, domestic assault and white-collar crimes.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.02910404137953982,
+  "cost": 1.61e-05
+ },
+ {
+  "firm": "Whitacre Law|whitacrelaw.com",
+  "set": "profile description",
+  "input": "Whitacre Law is the Hattiesburg, Mississippi practice of Robert Whitacre, a criminal defense and DUI lawyer. He also handles expungements and criminal appeals.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.018300361262818164,
+  "cost": 1.29e-05
+ },
+ {
+  "firm": "Maria Amaya, APLC | Criminal Defense & Personal Injury Lawyer|northstatedefender.com",
+  "set": "profile description",
+  "input": "Maria Amaya, APLC | Criminal Defense & Personal Injury Lawyer has served Chico and Butte County for over 22 years. On the criminal side it handles expungement, DUI, domestic violence, drug crimes, felony and misdemeanor charges, probation violations and warrant recalls. Injury work covers car, motorcycle and truck accidents, slip and fall, dog bites and wrongful death. Butte, Glenn, Tehama, Plumas, Yuba and Sutter counties are served in English and Spanish, with a free confidential consultation.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9570049428501755,
+  "cost": 1.98e-05
+ },
+ {
+  "firm": "Bury Your Past|buryyourpast.com",
+  "set": "profile description",
+  "input": "Bury Your Past focuses on criminal record expungement across Oklahoma. The firm assists clients with sealing arrest records, plea records, misdemeanor charges, and felony convictions, as well as expunging records related to deferred sentences and DUI arrests. They assist clients navigating the statutory categories of expungement available under Oklahoma law, including cases involving drug possession, larceny, and domestic assault and battery, and address civil rights such as firearm ownership restoration.\n\nBeyond record clearing, the firm handles state and federal criminal defense matters along with personal injury litigation. Representation is provided by attorneys Clint James in Tulsa and Bob Wyatt in Oklahoma City, who have practiced in Oklahoma courts for over 30 years. The firm charges flat-rate legal fees and offers a free follow-up consultation after an initial confidential application.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.1573218478398103,
+  "cost": 2.55e-05
+ },
+ {
+  "firm": "Blair Kim Moeller, PLLC|www.blairkim.com",
+  "set": "profile description",
+  "input": "Blair Kim Moeller has a page on expunging, vacating and sealing Washington records. It describes expungement as removing arrest information held by the investigating agency when no charge was filed or the case was dismissed, after a two-year wait. Vacating is a court petition with waiting periods of three years for misdemeanors, five for domestic violence and five or ten for class C or B felonies, and DUI convictions are excluded. Sealing closes the court docket at the judge's discretion. The page suggests vacating first, then sealing, then expunging.\n\nThe firm has served clients since 1996 and was founded by Mark Blair and Sara Kim, with Travis Moeller as partner. It also handles family law, civil protection orders, Title IX matters and criminal defense, offers services in Korean, and has a satellite office in Bellevue.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.02904962375710151,
+  "cost": 2.72e-05
+ },
+ {
+  "firm": "The Edelstein Firm|www.miami-criminal-lawyer.net",
+  "set": "profile description",
+  "input": "The Edelstein Firm has a page on record sealing and expungement in Florida. It explains that eligibility turns on a person's full criminal history and how each charge ended, that dismissed, dropped or acquitted cases may be expunged, and that a withhold of adjudication may allow sealing. The page sets out the steps, from reviewing the record and gathering certified dispositions and fingerprints to applying for the state certificate and petitioning the court, and lists offenses that bar relief. It also covers disclosure exceptions and automatic sealing.\n\nAttorney David Edelstein has practiced since 1995 and is a former Miami-Dade County Assistant Public Defender. The firm limits its practice to state and federal criminal defense, including theft, drug, fraud and domestic violence cases. Free virtual consultations are offered and Spanish is spoken.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8913605795038216,
+  "cost": 2.58e-05
+ },
+ {
+  "firm": "Carothers Law Office|www.tcarotherslaw.com",
+  "set": "profile description",
+  "input": "Carothers Law Office, also known as T. Carothers Law Offices, is located in Evansville, Indiana. Principal attorney Tanisha D. Carothers handles post-conviction expungement relief as well as criminal defense, family law, business law and personal injury, for clients in Vanderburgh and other Indiana counties. She sits on the Access to Justice Committee and the Diversity and Inclusion Committee of the Evansville Bar Association.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.016438910804394417,
+  "cost": 1.83e-05
+ },
+ {
+  "firm": "Matthew Fakhoury | The Law Offices of Matthew M. Fakhoury, LLC|domesticdefensechicago.com",
+  "set": "profile description",
+  "input": "Matthew Fakhoury | The Law Offices of Matthew M. Fakhoury, LLC describes itself as a Chicago expungement and criminal defense firm. The description centers on representing people charged with domestic violence offenses in Chicago, Illinois. Its attorney is a former Cook County prosecutor.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.027413035083761167,
+  "cost": 1.51e-05
+ },
+ {
+  "firm": "The Law Offices Of Lakisha N. Dean LLC|lakishadeanlaw.com",
+  "set": "profile description",
+  "input": "The Law Offices Of Lakisha N. Dean LLC is a family law practice in Cherry Hill Township, New Jersey. Expungements are included in the matters it handles, together with immigration, divorce, custody, child support, relocation, adoption and domestic violence.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.014668166535099579,
+  "cost": 1.48e-05
+ },
+ {
+  "firm": "Sahn Law Firm - Attorneys at Law|www.sahnlaw.com",
+  "set": "profile description",
+  "input": "Sahn Law Firm - Attorneys at Law has a page on its website about expungement. The firm focuses on criminal defense and personal injury representation in local, state, and federal courts across South Carolina. Its criminal defense work covers driving under the influence, domestic violence, drug offenses, assault and battery, traffic violations, and serious felony charges such as murder, armed robbery, and criminal sexual conduct.\nManaging partner Michael C. Sahn established the firm in 2011 after serving as an assistant solicitor and lead DUI prosecutor for South Carolina's 9th Judicial Circuit. The practice also represents clients in civil matters, including motor vehicle collisions, trucking accidents, boating injuries, medical malpractice, and workers' compensation claims. Consultations are free, personal injury cases are handled with no fee unless the firm wins, and major credit cards are accepted.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9748250101680365,
+  "cost": 2.68e-05
+ },
+ {
+  "firm": "Richman Law Office LLC|richmanlawkc.com",
+  "set": "profile description",
+  "input": "Richman Law Office LLC is the practice of attorney Brett Richman in the Kansas City, Missouri area. He handles expungement matters along with criminal defense and family law. A free consultation can be scheduled.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.897672340377399,
+  "cost": 1.38e-05
+ },
+ {
+  "firm": "The Law Office of J.D. Lloyd|www.afterthetrial.com",
+  "set": "profile description",
+  "input": "The Law Office of J.D. Lloyd represents people expunging records and those seeking paroles or pardons. The practice also handles appeals of criminal convictions and post-conviction litigation attacking convictions.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01651304698773213,
+  "cost": 1.36e-05
+ },
+ {
+  "firm": "The Weiland Firm, PLC|www.cnrlawyers.com",
+  "set": "profile description",
+  "input": "The Weiland Firm, PLC has a page on its website about expungement. The Weiland Firm, PLC (also operating as Weiland Button, PLC) focuses on traffic violations and criminal defense throughout Virginia. The firm represents clients in cases involving reckless driving, speeding, DUI and DWI, hit and run, eluding, driving on a suspended license, and driving without a license. Its criminal practice also handles drug possession, assault and battery, petty larceny, public intoxication, and underage possession of alcohol.\nThe firm has over 15 years of experience and is staffed by founder John M. Weiland, partner Mark W. Button, Josh P. Stock, and Noah B. Collier. Spanish-language services are available. The firm offers free initial consultations and accepts credit cards, serving local residents, out-of-state drivers, and commercial drivers in Central and Southern Virginia.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9848687761147519,
+  "cost": 2.75e-05
+ },
+ {
+  "firm": "The Chauncey Law Firm, P.A. | Attorney At Law|www.chaunceylaw.com",
+  "set": "profile description",
+  "input": "The Chauncey Law Firm, P.A. | Attorney At Law is located in Live Oak, Florida, and works with individuals, family farmers and businesses across North Florida. Sealing and expunging of records is one of its listed areas. The rest of the practice spans bankruptcy, foreclosure and deficiency judgment proceedings, criminal defense, traffic citations, personal injury, estate planning and probate administration, family law and guardianships.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01830479273950714,
+  "cost": 1.82e-05
+ },
+ {
+  "firm": "Gomez Law|christinagomezattorneyatlaw.com",
+  "set": "profile description",
+  "input": "Gomez Law centers on expungement work by attorney Christina Gomez, who has expunged hundreds of dismissals and convictions in Indiana. Clients speak with the attorney directly from start to finish. The firm also takes misdemeanors, lower level felonies, probation violations, AMS petitions and firearm restoration petitions. Discounts are given to veterans, active duty military and first responders.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.021404122247176832,
+  "cost": 1.69e-05
+ },
+ {
+  "firm": "Northern Nevada Lawyer|northernnevadalawyer.com",
+  "set": "profile description",
+  "input": "Northern Nevada Lawyer is a Reno criminal defense and immigration firm led by attorney Galen Carrico, a Nevada State Bar member since 2012. It assists eligible clients with record sealing and defends DUI, drug possession, domestic battery, theft, felony and juvenile charges in Northern Nevada courts. Immigration work includes asylum, cancellation of removal, ICE detainers and bond or custody proceedings in federal immigration courts, and non-citizen clients are advised on how a criminal case could affect their status. Initial consultations are free and Spanish is spoken.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.9819974078294834,
+  "cost": 2.03e-05
+ },
+ {
+  "firm": "Houseal Law Office LLC|www.houseal-law.com",
+  "set": "profile description",
+  "input": "Houseal Law Office LLC in Midland, Michigan, works in expungement and rights restoration. Its other fields are traffic law, DUI/OWI and firearms law.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.025991799259635955,
+  "cost": 1.3e-05
+ },
+ {
+  "firm": "Robert R. Kurtz, Attorney at Law|www.tennesseecrimeattorney.com",
+  "set": "profile description",
+  "input": "Robert R. Kurtz, Attorney at Law is a criminal defense firm based in Knoxville, Tennessee. It assists with record expungement for eligible charges. Defense work covers drug offenses, DUI, violent crimes and sex crimes.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01576031207652586,
+  "cost": 1.41e-05
+ },
+ {
+  "firm": "Tollison & Webb P.A.|tollisonlaw.com",
+  "set": "profile description",
+  "input": "Tollison & Webb P.A. is a small full-service firm on the Square in Oxford, Mississippi, with more than 40 years of history in Lafayette County and North Mississippi. Expungement is listed with its criminal defense and DUI work. Other areas are family law and divorce, personal injury, real estate and property disputes, estate planning and probate, and business matters, in state and federal court. Clients deal directly with their attorney throughout.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01654709222129463,
+  "cost": 1.89e-05
+ },
+ {
+  "firm": "The Law Office of Alex DeMarco|www.mnlegaldefense.com",
+  "set": "profile description",
+  "input": "The Law Office of Alex DeMarco is a St. Paul criminal defense firm representing clients throughout Minnesota. Alex DeMarco has practiced for nearly two decades. Expungements are handled, as are assault, DWI, drug crimes and trafficking, theft, burglary, violent crimes, juvenile offenses, criminal sexual conduct, terroristic threats, restraining orders, domestic violence and child protection cases.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.015297416836166644,
+  "cost": 1.71e-05
+ },
+ {
+  "firm": "Criminal Defense Attorney Rory Munns|duiattorneyrhodeisland.com",
+  "set": "profile description",
+  "input": "Criminal Defense Attorney Rory Munns assists clients with criminal expungement and record sealing in Rhode Island. The firm handles petitions to destroy or seal court and arrest records for qualifying misdemeanor and felony matters under state second chance laws. It also helps clients review automatic expungements for dismissals and acquittals, as well as immediate expungements for decriminalized offenses such as small amounts of marijuana.\n\nBeyond record clearing, the firm handles criminal cases involving driving under the influence, breathalyzer refusal, drug crimes, domestic assault, sex offenses, and traffic violations. Rory Munns has defended accused individuals in Rhode Island for over 11 years and handles cases across Rhode Island and Massachusetts. Free consultations are available.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.975696347909833,
+  "cost": 2.39e-05
+ },
+ {
+  "firm": "Hinds Injury Law Las Vegas|hindsinjurylawlasvegas.com",
+  "set": "profile description",
+  "input": "Hinds Injury Law Las Vegas is a small Henderson-based firm practicing criminal defense and personal injury law in Las Vegas and nearby cities, with more than 20 years of local experience. Record sealing is included in its criminal law work. Injury cases include car accidents, truck accidents and slip-and-fall claims. The firm limits its caseload, represents both visitors and residents, and offers a free, confidential case analysis.",
+  "q": "free_consult",
+  "expect": true,
+  "p": 0.8941009999328353,
+  "cost": 1.81e-05
+ },
+ {
+  "firm": "Engel & Martin LLC|engelandmartin.com",
+  "set": "profile description",
+  "input": "Engel & Martin LLC is based in Mason, Ohio, and its team of former prosecutors represents clients throughout the state. Expungements and appeals are handled in addition to trial work. The firm defends federal and state criminal charges, including OVI, drug offenses and violent crimes, and also takes Title IX matters and academic discipline and dishonesty cases.",
+  "q": "free_consult",
+  "expect": false,
+  "p": 0.01,
+  "cost": 1.64e-05
+ }
+]
