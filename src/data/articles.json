@@ -1112,5 +1112,325 @@
     "url": "https://www.cbp.gov/newsroom/local-media-release/hidalgo-cbp-officers-apprehend-fugitive-sought-warrant-alleged"
    }
   ]
+ },
+ {
+  "slug": "how-to-get-a-copy-of-your-criminal-record",
+  "title": "How to Get a Copy of Your Own Criminal Record (FBI and Every State)",
+  "nav": "Get a Copy of Your Record",
+  "description": "How to check your own criminal record: request your FBI Identity History Summary ($18) and your state record, what each costs, and how to fix errors.",
+  "intro": [],
+  "lede": [
+   "Maybe you're applying for a job, an apartment or a license and you're not sure what the background check will turn up. Maybe you're thinking about expungement and someone told you to \"get your record first.\" Either way, it can feel strange, even a little scary, to go looking for the thing you'd rather forget.",
+   "Here's the reassuring part: you have a legal right to see your own record. The FBI and every state have a way for you to ask for it, and in several states it costs nothing at all.",
+   "Looking at it is also how you find mistakes, like an arrest that never got its dismissal recorded, or a charge that isn't yours. Those can be fixed, and fixing them can matter as much as clearing the record.",
+   "This guide explains the difference between your state record and your FBI record, how to request each one, what it costs, and what to do if something on it is wrong. The table below lists every state's agency, how to ask and the fee."
+  ],
+  "takeaways": [
+   "You have two official records to check: your state record (kept by a state agency such as FDLE, CBI, OSBI or SLED) and your FBI record, called an Identity History Summary.",
+   "The FBI record costs $18, needs your fingerprints, and can be requested online through the FBI's eDO system or by mail. You can ask for a fee waiver if you can't afford it.",
+   "State checks vary: some need fingerprints, some only your name and date of birth, and fees run from free (Florida, Illinois, and Minnesota for small copies) to $45 or more.",
+   "The FBI record may not include everything in your state's files, so check your state record too.",
+   "If something is wrong, the fix usually goes through the agency or court that sent in the information. The FBI changes its record only when that agency tells it to."
+  ],
+  "sections": [
+   {
+    "heading": "Why Should I Check My Criminal Record Before Trying to Clear It?",
+    "paragraphs": [
+     "Expungement and sealing petitions usually ask for specific details: each arrest, charge, date and outcome. Your official record is the cleanest list of those details, and it may include old arrests you'd forgotten or never knew were recorded.",
+     "Some agencies say this outright. Georgia's GBI recommends reviewing your record before applying for record restriction (Georgia's version of expungement), and contacting the arresting agency or court if a disposition is missing. In Washington, D.C., the police department's \"Option A\" report lists all adult arrests regardless of outcome and is meant for checking whether you can seal a record or for filing a sealing motion.",
+     "Checking also catches errors. A dismissed case still showing as an open arrest, or an entry that belongs to someone with a similar name, can hurt you on a background check whether or not you ever try to clear anything."
+    ]
+   },
+   {
+    "heading": "What's the Difference Between My State Record, My FBI Record and a Background Check?",
+    "paragraphs": [
+     "Your state record is kept by a central repository in each state, usually the state police or a state bureau of investigation. It covers arrests and cases in that state. Many state repositories are built from fingerprints taken at arrest, so an arrest where you were never fingerprinted may not appear. South Dakota, Utah and Oklahoma all say this about their records.",
+     "Your FBI record, the Identity History Summary, lists information from fingerprint submissions the FBI has received, mostly arrests, and in some cases federal employment, naturalization or military service. For each arrest it shows the agency that sent the fingerprints, the date, the charge and the outcome if the FBI knows it.",
+     "The two don't always match. The FBI's own request form warns that the summary may not include information from state repositories that would show up on an employment background check. So if you only check one, you may miss something.",
+     "Private background check companies are a third source, separate from both. This guide covers only the official government records. If you're worried about what a private company is showing after a record was cleared, see our guide on expunged records showing on background checks."
+    ],
+    "table": {
+     "headers": [
+      "",
+      "State record",
+      "FBI record (Identity History Summary)"
+     ],
+     "rows": [
+      [
+       "Who keeps it",
+       "A state agency (state police, bureau of investigation, or justice department)",
+       "FBI Criminal Justice Information Services (CJIS) Division"
+      ],
+      [
+       "What it covers",
+       "That state's records",
+       "Fingerprint-based submissions from agencies across the country"
+      ],
+      [
+       "Fingerprints needed?",
+       "Depends on the state",
+       "Yes"
+      ],
+      [
+       "Fee",
+       "Free to $45 or more, depending on the state",
+       "$18 (fee waiver available)"
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "How Do I Get My FBI Record (Identity History Summary)?",
+    "paragraphs": [
+     "You, as the person the record is about, can request a copy to review it or to get it changed, corrected or updated. The rules are in DOJ Order 556-73 and federal regulations at 28 CFR 16.30-16.34. If you have no FBI record, you can get proof of that instead.",
+     "The FBI check is based on fingerprints, not your name. The regulation (28 CFR 16.32) asks for proof of identity: your name, date and place of birth, and a set of rolled-ink fingerprints on a standard fingerprint card.",
+     "The fee is $18. The FBI's FAQ says it's the same whether you apply by mail or electronically. You can ask for a waiver: under 28 CFR 16.33, the waiver request has to come with your original request and include a claim and proof that you can't afford the fee.",
+     "There are three ways to ask:"
+    ],
+    "bullets": [
+     "Online through the FBI's eDO system (edo.cjis.gov). The request, payment and response are electronic. Unless you're fingerprinted at a participating post office, you still have to mail in a paper fingerprint card. The post office may charge an extra fee for fingerprinting.",
+     "By mail. Send the signed request form (I-783), a fingerprint card, and $18 (certified check, money order, or the FBI credit card payment form) to FBI CJIS Division - Summary Request, 1000 Custer Hollow Road, Clarksburg, West Virginia 26306.",
+     "Through an FBI-approved channeler. These are private companies under contract with the FBI that take your fingerprints and the fee, send the request electronically and return the results. They charge their own fees on top of the $18. The FBI publishes the list of approved channelers."
+    ]
+   },
+   {
+    "heading": "How Long Does the FBI Take?",
+    "paragraphs": [
+     "We couldn't confirm current processing times. The FBI's processing-time page couldn't be retrieved when we researched this guide, so check fbi.gov for the latest estimate before you apply.",
+     "For context only: in a 2019 article, the FBI said its eDO online system (launched February 2, 2018) had cut response times from more than 100 days to less than a week, including mailing time, and that people fingerprinted at participating post offices could get answers in under 24 hours. Those figures are several years old and may not reflect today."
+    ]
+   },
+   {
+    "heading": "How Do I Get My State Criminal Record?",
+    "paragraphs": [
+     "Every state has its own agency, form and fee, and they fall into a few patterns. Some states require fingerprints. Some search by name and date of birth only. Many offer both, and the two can give different answers.",
+     "Agencies that offer both tend to say fingerprint checks are more complete. Alaska's Department of Public Safety recommends them because name searches may miss records filed under another name. North Dakota says the same, and Maine says a match is only certain with fingerprints. In Michigan, the fingerprint route returns everything on your record, public and nonpublic, while the ICHAT name search shows public records only. Missouri's name-based search gives a \"possible match\" that shows open records only.",
+     "Fees run from nothing to $45 or more, and fingerprinting is often a separate charge from whoever takes your prints. A few examples from our research:"
+    ],
+    "bullets": [
+     "Florida (FDLE): the Personal Review is free under state rule. You pay only whatever the fingerprinting agency or vendor charges, then mail the application and card to FDLE. It can take up to 30 working days. FDLE's $24 name-based public search is a different thing, not a personal review.",
+     "Illinois (ISP): Access and Review is free at the state level. You're fingerprinted at a law enforcement agency, correctional facility or licensed vendor, which may charge up to its actual cost.",
+     "Minnesota (BCA): inspecting your own data at the BCA costs nothing, and copies of 100 pages or fewer are free. A separate \"Self (Minnesota only)\" check for giving to a landlord or employer is $8. (Our sources for Minnesota were rated medium confidence, so confirm with the BCA.)",
+     "Washington (WSP): an in-person record review is free; by mail, send a fingerprint card and $12.",
+     "Vermont (VCIC): reviewing your own record in person is free under state law, but a copy costs $30.",
+     "Colorado (CBI): an online name-based check (ICHC) is $6; a staff-processed request is $13.",
+     "California (DOJ): a Live Scan fingerprint record review is $25 plus the Live Scan site's own fee, and a fee waiver is available.",
+     "Ohio (BCI): $22 with a full set of fingerprints, by mail, at a BCI office or through a WebCheck provider, which adds its own fee.",
+     "Oklahoma (OSBI): $20 name-based or $25 fingerprint-based, online through CHIRP or by mail. Oklahoma results only.",
+     "South Carolina (SLED): the SLED CATCH report is $25 online or by mail, and it's name-based only."
+    ]
+   },
+   {
+    "heading": "Can I Get My Record for Free, or With a Fee Waiver?",
+    "paragraphs": [
+     "Sometimes. The FBI accepts a fee waiver request with proof that you can't afford the $18. Some states also offer waivers: California has a fee waiver for its DOJ processing fee, North Carolina's SBI accepts a claim and proof of indigence (such as a notarized affidavit) for its $14 check, and Massachusetts lists a $0 personal CORI fee for people who file an Affidavit of Indigency.",
+     "Even in states where the state check is free, the fingerprinting usually isn't. Ask the police department or vendor what they charge before you go, and ask whether they'll waive it. Illinois's fee schedule notes that the fingerprinting charge may be waived."
+    ]
+   },
+   {
+    "heading": "Which Agency Do I Ask, and Is There Anything Odd About My State?",
+    "paragraphs": [
+     "The table below lists every state's agency, how to ask and the fee. A few states work differently enough to mention here.",
+     "In Georgia, the GBI says most sheriff's offices and police departments can give you a copy of your state record, and their requirements and fees are set locally. In Kentucky, besides the state police check, the court system (AOC) issues a Criminal Record Report based on court cases, which is often the record used for expungement eligibility. In Massachusetts the record is called a CORI, and you can request your own through the iCORI site or by mail.",
+     "Fees change. Several agencies have raised fees recently, and for some states (including Delaware, New York and West Virginia) we could not confirm the fee for a personal copy at all. For those, the table shows no confirmed fee. Check the agency's site before you send money, and send exactly the payment type it asks for. Many won't take personal checks or cash."
+    ]
+   },
+   {
+    "heading": "What If My Criminal Record Is Wrong?",
+    "paragraphs": [
+     "For your FBI record, 28 CFR 16.34 gives you two routes: send your challenge directly to the agency that sent in the information, or send it to the FBI CJIS Division (1000 Custer Hollow Road, Clarksburg, WV 26306), which forwards it to that agency. Either way, the FBI changes the record only after it gets an official communication from that agency.",
+     "You can also challenge online through eDO. You'll need your FBI number (Universal Control Number) from your Identity History Summary, or your State Identification Number (SID) plus the two-letter abbreviation of the state where the offense happened.",
+     "Many state problems start with a court or police department that never sent in a dismissal or outcome, so the fix often starts there too. Ohio's BCI, for example, tells people to gather proof and contact the agency responsible for the wrong entry, often the sheriff, police department or court, and notes that BCI doesn't keep court documents. Some states have their own formal challenge process:"
+    ],
+    "bullets": [
+     "California: use the \"Claim of Alleged Inaccuracy or Incompleteness\" form (BCIA 8706) that comes with your record, and mail it with a copy of the record and proof.",
+     "Pennsylvania: state law gives you the right to review, challenge, correct and appeal. The agency must review a challenge within 60 days and has to prove the record is accurate; if it rejects your challenge, you can appeal to the Attorney General within 30 days.",
+     "Alabama: Form 46 has a challenge section, and the state rule requires the challenge within one calendar year of the agency's response to your review application.",
+     "Colorado: dispute it with the arresting agency, or ask CBI for a record challenge by bringing your record and photo ID in person so your fingerprints can be compared to the arrest record.",
+     "Nevada: file form DPS-008-X with a statement, documents and a fingerprint card.",
+     "Florida and Illinois: challenges use the same free personal review process."
+    ]
+   },
+   {
+    "heading": "I Have My Record. What Do I Do Next?",
+    "paragraphs": [
+     "Keep a copy somewhere safe and read every entry. Write down each arrest, charge, date and outcome, and mark anything missing or wrong. That list is the starting point for an expungement or sealing petition and for any challenge.",
+     "Some states won't let your copy be used for other purposes. Florida's personal review copy can't be used for employment, licensing or immigration, and Minnesota has a separate check meant for handing to others. Massachusetts and Kansas both say employers can't require you to get your own record for them.",
+     "Then look at whether your record can be cleared. Our state pages explain each state's rules, waiting periods and costs, and our free legal help page lists legal aid by state if you'd like someone to look at your record with you."
+    ]
+   }
+  ],
+  "keys": {
+   "Why Should I Check My Criminal Record Before Trying to Clear It?": "Your official record is the cleanest list of those details, and it may include old arrests you'd forgotten or never knew were recorded.",
+   "What's the Difference Between My State Record, My FBI Record and a Background Check?": "The FBI's own request form warns that the summary may not include information from state repositories that would show up on an employment background check.",
+   "How Do I Get My FBI Record (Identity History Summary)?": "The fee is $18.",
+   "How Long Does the FBI Take?": "We couldn't confirm current processing times.",
+   "How Do I Get My State Criminal Record?": "Agencies that offer both tend to say fingerprint checks are more complete.",
+   "Can I Get My Record for Free, or With a Fee Waiver?": "Even in states where the state check is free, the fingerprinting usually isn't.",
+   "Which Agency Do I Ask, and Is There Anything Odd About My State?": "Check the agency's site before you send money, and send exactly the payment type it asks for.",
+   "What If My Criminal Record Is Wrong?": "Either way, the FBI changes the record only after it gets an official communication from that agency.",
+   "I Have My Record. What Do I Do Next?": "That list is the starting point for an expungement or sealing petition and for any challenge."
+  },
+  "next_steps": [
+   "Request your state record from your state's repository. Find your state's agency, method and fee in the table below, and confirm the fee on the agency's site before paying.",
+   "Request your FBI Identity History Summary through eDO (edo.cjis.gov), by mail, or through an FBI-approved channeler. Include a fee waiver request with proof if you can't afford the $18.",
+   "Compare both records against your own papers. If an outcome is missing or an entry isn't yours, contact the agency or court that sent it in, and use your state's challenge process or the FBI's.",
+   "Check whether your record can be cleared: see /states for each state's rules, costs and attorneys, and /guides/expungement-cost-by-state for what it may cost.",
+   "If you'd like help, /free-expungement-help lists free legal aid by state. If a cleared record is still turning up, see /guides/expunged-record-showing-on-background-check."
+  ],
+  "sources": [
+   {
+    "label": "FBI Electronic Departmental Order (eDO): Identity History Summary requests and challenges",
+    "url": "https://www.edo.cjis.gov/components/welcome/welcomeView.html"
+   },
+   {
+    "label": "FBI Identity History Summary request form (I-783)",
+    "url": "https://forms.fbi.gov/identity-history-summary-checks-review/q384893984839334.pdf"
+   },
+   {
+    "label": "FBI Identity History Summary Checks FAQs",
+    "url": "https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/identity-history-summary-checks/identity-history-summary-checks-faqs"
+   },
+   {
+    "label": "FBI list of approved channelers for Departmental Order submissions",
+    "url": "https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/identity-history-summary-checks/list-of-fbi-approved-channelers-for-departmental-order-submissions"
+   },
+   {
+    "label": "FBI CJIS Link: electronic fingerprint submission at select post offices (2019)",
+    "url": "https://le.fbi.gov/cjis-division/cjis-link/pilot-program-allows-electronic-fingerprint-submission-for-idhscs-at-select-post-offices"
+   },
+   {
+    "label": "28 CFR 16.30 (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/16.30"
+   },
+   {
+    "label": "28 CFR 16.32 (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/16.32"
+   },
+   {
+    "label": "28 CFR 16.33 (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/16.33"
+   },
+   {
+    "label": "28 CFR 16.34 (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/16.34"
+   },
+   {
+    "label": "Alabama: Alabama Law Enforcement Agency (ALEA), State Bureau of Investigation, Criminal Records and Identification Unit",
+    "url": "https://alea.gov/sites/default/files/2024-06/ALEA%20CJIS%20Form%2046%20-%20Application%20to%20Review-Challenge%20Alabama%20CHRI_rev.2.2_3-8-2023.pdf"
+   },
+   {
+    "label": "Alaska: Alaska Department of Public Safety, Criminal Records and Identification (R&I) Bureau",
+    "url": "https://dps.alaska.gov/Statewide/background"
+   },
+   {
+    "label": "California: California Department of Justice (DOJ), Bureau of Criminal Identification and Analysis, Record Review & Challenge Section",
+    "url": "https://oag.ca.gov/fingerprints/record-review"
+   },
+   {
+    "label": "Colorado: Colorado Bureau of Investigation (CBI), Biometric Identification and Records Unit (BIRU)",
+    "url": "https://cbi.colorado.gov/sections/biometric-identification-and-records-unit/fees-and-forms"
+   },
+   {
+    "label": "Delaware: Delaware State Police, State Bureau of Identification (SBI)",
+    "url": "https://dsp.delaware.gov/obtaining-a-certified-criminal-history"
+   },
+   {
+    "label": "District of Columbia: Metropolitan Police Department (MPD), Arrest and Criminal History Section",
+    "url": "https://mpdc.dc.gov/node/187552"
+   },
+   {
+    "label": "Florida: Florida Department of Law Enforcement (FDLE), Criminal History Record Maintenance Section",
+    "url": "https://www.fdle.state.fl.us/Criminal-History-Records/Personal-Review"
+   },
+   {
+    "label": "Georgia: Georgia Bureau of Investigation (GBI), Georgia Crime Information Center (GCIC)",
+    "url": "https://gbi.georgia.gov/document/document/gcic-fees/download"
+   },
+   {
+    "label": "Illinois: Illinois State Police (ISP), Bureau of Identification",
+    "url": "https://isp.illinois.gov/BureauOfIdentification/FeeSchedule"
+   },
+   {
+    "label": "Kansas: Kansas Bureau of Investigation (KBI), Kansas Central Repository / Criminal History Records Section",
+    "url": "https://www.kansas.gov/criminalhistory/forms/Sample_letter_to_request_for_you_own_criminal_history_record.pdf"
+   },
+   {
+    "label": "Kentucky: Kentucky State Police (KSP), Criminal Identification and Records Branch; also Administrative Office of the Courts (AOC) for court record reports",
+    "url": "https://wp.kentuckystatepolice.ky.gov/background-checks/"
+   },
+   {
+    "label": "Maine: Maine State Police, State Bureau of Identification (SBI)",
+    "url": "https://www.maine.gov/online/pcr/faq.htm"
+   },
+   {
+    "label": "Massachusetts: Massachusetts Department of Criminal Justice Information Services (DCJIS)",
+    "url": "https://www.mass.gov/how-to/request-cori-as-an-individual"
+   },
+   {
+    "label": "Michigan: Michigan State Police (MSP), Criminal Justice Information Center (CJIC)",
+    "url": "https://www.michigan.gov/msp/services/chr/search-expunge-modify-or-update-criminal-history-records"
+   },
+   {
+    "label": "Minnesota: Minnesota Bureau of Criminal Apprehension (BCA)",
+    "url": "https://dps.mn.gov/divisions/bca/bca-divisions/criminal-justice-information-services/background-checks/public"
+   },
+   {
+    "label": "Missouri: Missouri State Highway Patrol (MSHP), Criminal Justice Information Services (CJIS) Division",
+    "url": "https://www.machs.mo.gov/MSHPWeb/PatrolDivisions/CRID/crimRecChk.html"
+   },
+   {
+    "label": "Nevada: Nevada Department of Public Safety, Records, Communications and Compliance Division (RCCD), Nevada Criminal History Repository",
+    "url": "https://www.rccd.nv.gov/siteassets/content/home/features/DPS-006_0000RCCD-006__07312023_rev_FINAL.pdf"
+   },
+   {
+    "label": "New York: New York State Division of Criminal Justice Services (DCJS), Record Review Unit",
+    "url": "https://www.criminaljustice.ny.gov/ojis/recordreview.htm"
+   },
+   {
+    "label": "North Carolina: North Carolina State Bureau of Investigation (SBI)",
+    "url": "https://ncsbi.gov/Services/Background-Checks/Personal-Review"
+   },
+   {
+    "label": "North Dakota: North Dakota Office of Attorney General, Bureau of Criminal Investigation (BCI)",
+    "url": "https://attorneygeneral.nd.gov/public-safety/criminal-history-records/requesting-a-criminal-history-record-check/"
+   },
+   {
+    "label": "Ohio: Ohio Attorney General, Bureau of Criminal Investigation (BCI), Identification Division",
+    "url": "https://ohioattorneygeneral.gov/Individuals-and-Families/Consumers/Requesting-Your-Own-Criminal-Records"
+   },
+   {
+    "label": "Oklahoma: Oklahoma State Bureau of Investigation (OSBI), Criminal History Reporting Unit",
+    "url": "https://oklahoma.gov/osbi/services/information-services-division/criminal-history-reporting-unit/how-to-request-a-background-check.html"
+   },
+   {
+    "label": "Pennsylvania: Pennsylvania State Police (PSP), Central Repository",
+    "url": "https://www.pa.gov/services/psp/request-a-criminal-history-background-check.html"
+   },
+   {
+    "label": "South Carolina: South Carolina Law Enforcement Division (SLED)",
+    "url": "https://catch.sled.sc.gov"
+   },
+   {
+    "label": "South Dakota: South Dakota Attorney General, Division of Criminal Investigation (DCI), Identification Section",
+    "url": "https://atg.sd.gov/LawEnforcement/Identification/bgcheckmail.aspx"
+   },
+   {
+    "label": "Utah: Utah Department of Public Safety, Bureau of Criminal Identification (BCI)",
+    "url": "https://bci.utah.gov/criminal-records/obtain-a-copy-of-your-own-criminal-history-record/"
+   },
+   {
+    "label": "Vermont: Vermont Department of Public Safety, Vermont Crime Information Center (VCIC)",
+    "url": "https://legislature.vermont.gov/statutes/section/20/117/02063"
+   },
+   {
+    "label": "Washington: Washington State Patrol (WSP), Identification and Criminal History Section / Criminal History Records Section",
+    "url": "https://www.wsp.wa.gov/?p=2365"
+   },
+   {
+    "label": "West Virginia: West Virginia State Police (WVSP), Criminal Identification Bureau / Criminal History Section",
+    "url": "https://sos.wv.gov/media/346/download?inline="
+   }
+  ]
  }
 ]

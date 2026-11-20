@@ -11,6 +11,8 @@ import articles from '../data/articles.json';
 import { guideTopics } from '../data/guides';
 import { attorneys } from '../data/attorneys';
 import { serviceLabels } from '../data/attorneyFacts';
+import recordChecks from '../data/recordChecks.json';
+import { stateNames, stateSlug } from '../data/cities';
 
 interface Props { slug: string; }
 const { slug } = Astro.props;
@@ -27,7 +29,11 @@ const sections = article.sections.map((s: any) => ({
   keyInText: Boolean(article.keys?.[s.heading] && (s.paragraphs || []).some((p: string) => p.includes(article.keys[s.heading]))),
   id: idOf(article.headings?.[s.heading] || s.heading),
 }));
-const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
+const showRecordChecks = slug === 'how-to-get-a-copy-of-your-criminal-record';
+const checks = showRecordChecks ? [...(recordChecks as any[])].filter(c => stateNames[c.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state])) : [];
+const fpKind = (f: string) => /^required/i.test(f) ? 'required' : /^not required/i.test(f) ? 'not' : /^optional/i.test(f) ? 'optional' : 'depends';
+const fpCount = (k: string) => checks.filter(c => fpKind(c.fingerprints || '') === k).length;
+const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(showRecordChecks ? [{ id: 'every-state', label: 'How to Get Your Record in Every State' }] : []), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
 const words = JSON.stringify(article).split(/\s+/).length;
 const minutes = Math.max(3, Math.round(words / 230));
 
@@ -100,6 +106,32 @@ const gunFirms = attorneys.filter(a => serviceLabels(a, 12).includes('Gun rights
             )}
           </section>
         ))}
+
+        {showRecordChecks && (
+          <section id="every-state" class="mb-12 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">How to Get Your Record in Every State</h2>
+            <p class="text-[17px] leading-relaxed text-gray-700 mb-4">Each state keeps its own central criminal record, separate from the FBI's. Here is the agency in every state, what it calls the check, how to ask for it and what it charges to see your own record.</p>
+            <BarChart title="Do you need fingerprints to see your own state record?" rows={[{ label: 'Yes', value: fpCount('required'), tone: 'amber' }, { label: 'No', value: fpCount('not'), tone: 'green' }, { label: 'Optional', value: fpCount('optional'), tone: 'blue' }, { label: 'Depends on the type of check', value: fpCount('depends'), tone: 'gray' }]} source="Out of 50 states and DC, from each state agency's own pages. Checked November 2026." />
+            <div class="space-y-4">
+              {checks.map(c => (
+                <div id={`record-${stateSlug(c.state)}`} class="rounded-xl border border-gray-200 p-5 scroll-mt-24">
+                  <h3 class="!text-lg font-bold !mb-1">{stateNames[c.state]}</h3>
+                  <p class="text-sm text-gray-600 mb-2">{`${c.agency}${c.check_name ? ` · ${c.check_name}` : ''}`}</p>
+                  <dl class="text-[15px] space-y-1.5">
+                    <div><dt class="inline font-semibold">How to ask: </dt><dd class="inline text-gray-700">{c.how}</dd></div>
+                    <div><dt class="inline font-semibold">Fingerprints: </dt><dd class="inline text-gray-700">{c.fingerprints}</dd></div>
+                    <div><dt class="inline font-semibold">Fee: </dt><dd class="inline text-gray-700">{c.fee === '$0' ? 'Free' : (c.fee || 'Not confirmed on an official page; ask the agency')}</dd></div>
+                  </dl>
+                  <p class="text-sm mt-3">
+                    {c.url && <a href={c.url} target="_blank" rel="noopener noreferrer" data-track="record-check" class="text-secondary font-semibold">Official page →</a>}
+                    <span>{c.url ? ' · ' : ''}</span><a href={`/states/${stateSlug(c.state)}`} class="text-secondary font-semibold">{`Clearing a record in ${stateNames[c.state]}`}</a>
+                  </p>
+                  {c.confidence === 'low' && <p class="text-xs text-gray-500 mt-2">We could not confirm all of this on a current official page; check with the agency.</p>}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <NextSteps steps={article.next_steps || []} />
 
