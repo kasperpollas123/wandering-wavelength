@@ -33,7 +33,7 @@ const states = Object.keys(stateNames)
         {states.map(s => (
           <a href={`/states/${stateSlug(s.code)}`} class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
             <span class="font-semibold">{s.name}</span>
-            <span class="text-sm text-gray-600">{s.count} {s.count === 1 ? 'attorney' : 'attorneys'}</span>
+            <span class="text-sm text-gray-600">{`${s.count} ${s.count === 1 ? 'attorney' : 'attorneys'}`}</span>
           </a>
         ))}
       </div>

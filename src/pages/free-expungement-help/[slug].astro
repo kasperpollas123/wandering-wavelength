@@ -46,9 +46,9 @@ const description = `${orgs.length} legal aid offices, law school clinics and ot
               </p>
               <p class="text-gray-700 mb-3">{org.what_they_offer}</p>
               <ul class="text-gray-700 space-y-1 mb-3">
-                {org.who_qualifies && <li><span class="font-medium">Who qualifies:</span> {org.who_qualifies}</li>}
-                {org.cost && <li><span class="font-medium">Cost:</span> {org.cost}</li>}
-                {org.phone && <li><span class="font-medium">Phone:</span> {org.phone}</li>}
+                {org.who_qualifies && <li><span class="font-medium">Who qualifies:</span>{` ${org.who_qualifies}`}</li>}
+                {org.cost && <li><span class="font-medium">Cost:</span>{` ${org.cost}`}</li>}
+                {org.phone && <li><span class="font-medium">Phone:</span>{` ${org.phone}`}</li>}
               </ul>
               <a href={org.url} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-medium break-all">
                 Go to the programme's page →
@@ -61,7 +61,7 @@ const description = `${orgs.length} legal aid offices, law school clinics and ot
           <div class="p-6 rounded-lg border border-gray-200 mb-12">
             <h2 class="text-2xl font-bold mb-3">If You Don't Qualify for Free Help</h2>
             <p class="text-gray-700 mb-4">
-              If your income is over a programme's limit, the programme is full, or it doesn't take your kind of case, a private attorney is the other route. We list {attorneyCount} {attorneyCount === 1 ? 'attorney' : 'attorneys'} in {stateName} who handle expungement and record sealing. Some publish their fees or offer a free first consultation.
+              If your income is over a programme's limit, the programme is full, or it doesn't take your kind of case, a private attorney is the other route. We list {`${attorneyCount} ${attorneyCount === 1 ? 'attorney' : 'attorneys'}`} in {stateName} who handle expungement and record sealing. Some publish their fees or offer a free first consultation.
             </p>
             <a href={`/states/${stateSlug(code)}`} class="btn btn-primary">Expungement Attorneys in {stateName}</a>
           </div>

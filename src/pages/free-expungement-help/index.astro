@@ -41,7 +41,7 @@ const total = helpStates.reduce((n, s) => n + s.count, 0);
           {helpStates.map(s => (
             <a href={`/free-expungement-help/${stateSlug(s.code)}`} class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
               <span class="font-semibold">{s.name}</span>
-              <span class="text-sm text-gray-600">{s.count} {s.count === 1 ? 'programme' : 'programmes'}</span>
+              <span class="text-sm text-gray-600">{`${s.count} ${s.count === 1 ? 'programme' : 'programmes'}`}</span>
             </a>
           ))}
         </div>

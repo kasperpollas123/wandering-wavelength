@@ -85,8 +85,8 @@ const isLocalImage = image.startsWith('/');
       </div>
       
       <div class="text-sm text-gray-600 space-y-1 mb-4">
-        <p><span class="font-semibold">Address:</span> {address}</p>
-        <p><span class="font-semibold">Phone:</span> {phone}</p>
+        <p><span class="font-semibold">Address:</span>{` ${address}`}</p>
+        <p><span class="font-semibold">Phone:</span>{` ${phone}`}</p>
         <p>
           <span class="font-semibold">Website:</span> 
           <a href={website} target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">{website.replace(/^https?:\/\//, '')}</a>
