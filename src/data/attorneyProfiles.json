@@ -12418,5 +12418,437 @@
   ],
   "founded_or_experience": "Established in practice in New York since 2007",
   "areas_served": "Throughout New York State, including Westchester County communities"
+ },
+ "The Attorney Group, Professional Law Corp El Grupo De Abogados|www.theattorneygroup.com": {
+  "description": "The Attorney Group lists expungements among its California criminal law services, next to DUI, traffic tickets and warrant recalls. The website text names the service but gives no detail on which kinds of record relief the firm handles or how the process works.\n\nThe firm also handles bankruptcy under Chapters 7, 11 and 13, family law matters such as child custody and child support, personal injury, lemon law, employment claims and business litigation. It advertises a free consultation, payment plans for bankruptcy clients and service in Spanish. Daniel J. King is named as managing attorney and owner. The firm says it has 36 locations in California, covering Los Angeles, Orange County and the Inland Empire.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement"
+  ],
+  "other_practice_areas": [
+   "Bankruptcy",
+   "Family law",
+   "DUI and criminal defense",
+   "Personal injury",
+   "Employment law",
+   "Business litigation"
+  ],
+  "free_consultation": true,
+  "fees": "Advertises a $795 bankruptcy fee; no fee for expungement is published.",
+  "payment_plans": true,
+  "languages": [
+   "Spanish"
+  ],
+  "attorneys": [
+   "Daniel J. King"
+  ],
+  "founded_or_experience": "Team states more than 80 years of combined experience",
+  "areas_served": "36 locations in California, including Los Angeles, Orange County and the Inland Empire"
+ },
+ "The Law Offices of Arash Hashemi|hashemilaw.com": {
+  "description": "The Law Offices of Arash Hashemi files California expungement petitions under Penal Code 1203.4 for people who have completed probation. The firm also seeks reduction of wobbler felonies to misdemeanors under Penal Code 17(b), often together with an expungement petition, and mentions dismissal after PC 1000 drug diversion, relief under Penal Code 1203.4a and certificates of rehabilitation. Its website notes that expungement does not restore firearm rights or end sex offender registration.\n\nThe rest of the practice is criminal defense in misdemeanor, felony and federal cases, including DUI, domestic violence, drug, theft, gun and violent crime charges, with a stated focus on self-defense matters. Arash Hashemi reports more than 20 years in criminal defense and works in English and Farsi. Consultations are free and confidential.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement (PC 1203.4)",
+   "Felony reduction to misdemeanor (PC 17(b))",
+   "Dismissal after PC 1000 diversion",
+   "PC 1203.4a relief",
+   "Certificate of rehabilitation"
+  ],
+  "other_practice_areas": [
+   "DUI",
+   "Domestic violence",
+   "Drug crimes",
+   "Violent crimes",
+   "Theft crimes",
+   "Gun crimes"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [
+   "Farsi"
+  ],
+  "attorneys": [
+   "Arash Hashemi"
+  ],
+  "founded_or_experience": "More than 20 years of criminal defense experience",
+  "areas_served": "Los Angeles and throughout California"
+ },
+ "Beahm Law|www.beahmlaw.com": {
+  "description": "Beahm Law handles California expungements under Penal Code 1203.4, covering misdemeanor and many felony convictions. The firm obtains the court records, prepares and files the petition, and can ask for early termination of probation at the same time. Its website puts the usual timeline at three to five months and says most cases need no court appearance. It also notes that Propositions 47 and 64 may make some former felonies eligible.\n\nThe main practice is personal injury: car accidents, catastrophic injuries, wrongful death and premises liability, taken on a contingency fee. DUI defense is also listed. Case evaluations are free. Jason Beahm is the founder. The headquarters is in San Francisco, with offices named in Oakland, San Mateo, Los Angeles and Santa Barbara, and the firm says it represents clients throughout California.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement (PC 1203.4)",
+   "Early termination of probation"
+  ],
+  "other_practice_areas": [
+   "Personal injury",
+   "Car accidents",
+   "Wrongful death",
+   "Catastrophic injuries",
+   "Premises liability",
+   "DUI defense"
+  ],
+  "free_consultation": true,
+  "fees": "Personal injury cases are taken on a contingency fee; no expungement fee is published.",
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Jason Beahm"
+  ],
+  "founded_or_experience": "States 25+ years of combined experience",
+  "areas_served": "San Francisco Bay Area and throughout California"
+ },
+ "Serpa Law Office|serpalaw.com": {
+  "description": "Serpa Law Office prepares petitions to seal or expunge Massachusetts criminal records. Its website covers sealing of convictions under G.L. c. 276, section 100A, sealing of non-conviction cases under section 100C, and expungement under sections 100E to 100U. The firm also explains how to correct an FBI record after state relief and notes that Massachusetts courts cannot seal a federal case. It represents clients at clerk-magistrate hearings, where a complaint can be stopped before any CORI entry exists.\n\nThe office defends OUI, domestic violence, larceny, firearms and motor vehicle charges, probation violations and restraining order matters, and often represents licensed professionals, students and visa holders. Joe Serpa, a Georgetown University Law Center graduate, has practised criminal defense in Massachusetts since 1995. Consultations are free, with offices in Boston and Quincy.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Conviction sealing (c. 276, s. 100A)",
+   "Non-conviction sealing (s. 100C)",
+   "Expungement (ss. 100E-100U)",
+   "FBI record correction",
+   "Clerk-magistrate hearings"
+  ],
+  "other_practice_areas": [
+   "OUI defense",
+   "Domestic violence",
+   "Larceny",
+   "Firearms charges",
+   "Restraining orders",
+   "Probation violations"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Joe Serpa"
+  ],
+  "founded_or_experience": "Massachusetts criminal defense since 1995",
+  "areas_served": "Boston, Quincy and the courts of Greater Boston"
+ },
+ "Barber Law Group|www.barberlawgroup.com": {
+  "description": "Barber Law Group handles Arizona record sealing, conviction set-asides, marijuana expungement, restoration of civil rights and gun rights, and fingerprint clearance cards. Its website explains that Arizona allows sealing but not true expungement, lists waiting periods of two to ten years depending on the offense, and says arrest records can be sealed at once when no charges were filed. The firm also helps nurses seek expungement of Arizona State Board of Nursing discipline under a 2026 law.\n\nOther work includes professional license defense for nurses, physicians, real estate agents and counselors, and evictions on behalf of landlords. Bretton Barber is the founding attorney and says he has filed hundreds of set-asides across the state. The firm serves Phoenix and other Maricopa County cities, Pima County residents in Tucson, and other parts of Arizona.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Record sealing",
+   "Conviction set-aside",
+   "Marijuana expungement",
+   "Civil rights restoration",
+   "Gun rights restoration",
+   "Fingerprint clearance cards",
+   "Nursing board disciplinary expungement"
+  ],
+  "other_practice_areas": [
+   "Professional license defense",
+   "Nursing license defense",
+   "Evictions for landlords"
+  ],
+  "free_consultation": null,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Bretton Barber"
+  ],
+  "founded_or_experience": "Says he has filed hundreds of set-asides in Arizona",
+  "areas_served": "Phoenix and Maricopa County, Tucson and Pima County, and elsewhere in Arizona"
+ },
+ "Restore My Civil Rights|www.restoremycivilrights.com": {
+  "description": "Restore My Civil Rights works on Arizona record relief: motions to set aside convictions, sealing of criminal records under the state's Clean Slate law, marijuana expungement under Proposition 207, restoration of civil rights and gun rights, and early termination of probation. Its blog also says it evaluates eligibility for federal firearm rights restoration under 18 U.S.C. 925(c).\n\nThe website states that legal services are provided by Rising Phoenix Law Group under contract, and names Andrew Long as its Arizona attorney. Founder Michael Harris is not described as a lawyer; the site says he had his own Arizona felonies set aside. Court filings are handled only in Arizona. Phone consultations are free, no prices are published, and the site says payment options are available. The team reports more than 40 years of combined experience.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Conviction set-aside",
+   "Record sealing",
+   "Marijuana expungement (Prop 207)",
+   "Civil rights restoration",
+   "Gun rights restoration",
+   "Early termination of probation",
+   "Federal firearm rights restoration"
+  ],
+  "other_practice_areas": [],
+  "free_consultation": true,
+  "fees": "No figures published; the site says payment options are available.",
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Andrew Long"
+  ],
+  "founded_or_experience": "More than 40 years of combined experience",
+  "areas_served": "Phoenix and throughout Arizona"
+ },
+ "Blumenreich Law Firm P.L.L.C.|www.phoenixarizonacriminallawyer.com": {
+  "description": "Blumenreich Law Firm helps people ask Arizona courts to set aside a conviction. Its website explains that Arizona has no true expungement, but a conviction can be set aside and treated as dismissed or vacated after a certain time or once certain obligations are met, depending on the offense. The firm reviews whether this relief is possible in a given case.\n\nThe rest of the practice is criminal defense for felonies and misdemeanors, including DUI, drug offenses, theft and property crimes, assault and domestic violence, sex offenses and murder. Josh Blumenreich spent 16 years in the state prosecutor's office, including as Assistant Bureau Chief and Deputy County Attorney in Maricopa County, before moving to defense. He handles each case personally and offers a free initial consultation. The firm serves Phoenix and all of Arizona.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Conviction set-aside"
+  ],
+  "other_practice_areas": [
+   "DUI",
+   "Drug offenses",
+   "Theft and property crimes",
+   "Assault and domestic violence",
+   "Sex offenses",
+   "Murder"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Josh Blumenreich"
+  ],
+  "founded_or_experience": "16 years as a state prosecutor before moving to criminal defense",
+  "areas_served": "Phoenix and all of Arizona"
+ },
+ "Freedom First Criminal Defense and DUI Lawyers|freedomfirstlawyers.com": {
+  "description": "Freedom First Criminal Defense and DUI Lawyers handles record sealing in Nevada. Its website explains that Nevada mainly uses sealing instead of expungement, and that eligibility usually depends on a waiting period after the sentence ends, no new convictions, an eligible offense and payment of all fines and restitution. The firm prepares and files the petition, serves the law enforcement agencies and attends a hearing if one is required.\n\nThe main practice is criminal defense: DUI, domestic violence, drug crimes, assault and battery, white collar crimes, bench warrants and casino marker cases. Lead attorney Thomas M. Wells is a former Clark County public defender with nearly ten years in practice. The firm offers a free phone consultation at any hour, and says payment plans and financing are available. It serves Clark County, Washoe County and all of Nevada.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Record sealing"
+  ],
+  "other_practice_areas": [
+   "DUI defense",
+   "Domestic violence",
+   "Drug crimes",
+   "Assault and battery",
+   "White collar crimes",
+   "Bench warrants"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": true,
+  "languages": [],
+  "attorneys": [
+   "Thomas M. Wells"
+  ],
+  "founded_or_experience": "Nearly 10 years of criminal defense experience",
+  "areas_served": "Clark County, Washoe County and all of Nevada"
+ },
+ "Roger E. Haynes Attorney at Law|www.dallascriminalattorney.pro": {
+  "description": "Roger E. Haynes Attorney at Law handles expunction and non-disclosure of criminal records in Texas. The website explains that some arrests, charges or probations can be erased by petition to the court, and that some records which cannot be erased may instead be sealed through an order of non-disclosure, leaving them visible only to law enforcement. It notes that the law is specific about what qualifies.\n\nThe firm otherwise does state and federal criminal defense: misdemeanors, felonies, probation violations, DWI and drug charges. Roger E. Haynes was a Dallas County assistant district attorney from 1996 to 2000 and has run his own defense practice since 2000. He is admitted to the federal courts for the Northern and Eastern Districts of Texas. Consultations are free. Most work is in the Dallas-Fort Worth area.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expunction",
+   "Order of non-disclosure"
+  ],
+  "other_practice_areas": [
+   "Misdemeanor defense",
+   "Felony defense",
+   "Probation violations",
+   "Federal criminal defense",
+   "DWI/DUI",
+   "Drug charges"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Roger E. Haynes"
+  ],
+  "founded_or_experience": "Prosecutor from 1996; criminal defense practice since 2000",
+  "areas_served": "North Texas, mainly the Dallas-Fort Worth area; state courts throughout Texas"
+ },
+ "The Hopping Law Group, PC|www.texasexpungementlawyer.com": {
+  "description": "The Hopping Law Group, PC works only on clearing criminal records in Texas. It handles expunctions, which remove eligible arrest and charge records, orders of nondisclosure, which seal records from public view after deferred adjudication and in some first-offense misdemeanor cases, and applications for Texas and federal pardons. After an order is granted, the firm says it sends notice to more than 600 commercial databases, background check companies and mugshot sites.\n\nThe firm charges a flat fee paid up front that includes filing fees and costs; no figure is published. Payment plans are offered. Eligibility consultations are free and can be booked online, and clients get online access to their case file. The firm describes itself as a Texas-based boutique practice that appears in court for clients and serves all 254 Texas counties.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expunction",
+   "Order of nondisclosure",
+   "Texas pardon",
+   "Federal pardon"
+  ],
+  "other_practice_areas": [],
+  "free_consultation": true,
+  "fees": "Flat fee paid up front that includes filing fees and costs; no figure published.",
+  "payment_plans": true,
+  "languages": [],
+  "attorneys": [],
+  "founded_or_experience": null,
+  "areas_served": "All 254 Texas counties"
+ },
+ "The Rudolph Firm|www.therudolphfirm.com": {
+  "description": "The Rudolph Firm assists with expungement under California law for misdemeanors and certain felonies. It reviews a client's record, probation status and compliance history, prepares and files the petition, and appears in court when needed. The website says early termination of probation may be sought first, and describes one case in which the firm obtained early termination, a felony reduction under Penal Code 17(b) and an expungement in a single hearing.\n\nThe firm's other work is criminal defense, with emphasis on DUI and firearms law, plus drug crimes, assault, domestic violence and restraining orders. It also takes personal injury cases such as car accidents and wrongful death. Colin Rudolph is the attorney. Consultations are free. The firm is based in San Diego and handles charges in California and federal court.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement",
+   "Early termination of probation",
+   "Felony reduction to misdemeanor (PC 17(b))"
+  ],
+  "other_practice_areas": [
+   "DUI defense",
+   "Firearms and gun law",
+   "Drug crimes",
+   "Domestic violence",
+   "Restraining orders",
+   "Personal injury"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Colin Rudolph"
+  ],
+  "founded_or_experience": null,
+  "areas_served": "San Diego"
+ },
+ "Ferrara Law, APC|www.ferraralawapc.com": {
+  "description": "Ferrara Law, APC handles expungements, record sealing and certificates of rehabilitation for past state or federal convictions. The website says eligibility depends on the offense, the sentence and whether probation was completed, and that the firm handles the filings and tells clients if a court appearance is needed. For veterans it also seeks military discharge upgrades and removal of wrongful titling from military law enforcement databases.\n\nThe firm defends criminal cases including DUI, domestic violence, sex crimes, assault, drug, weapons and white collar charges, and military matters such as courts-martial and separation boards. Matt Ferrara is a Marine Corps veteran. Consultations are free; most cases are billed as a flat fee and financing is available. The firm serves San Diego, Orange, Imperial, Los Angeles, Riverside and San Bernardino counties, with military defense offered worldwide.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement",
+   "Record sealing",
+   "Certificate of rehabilitation",
+   "Military discharge upgrades",
+   "Titling removal"
+  ],
+  "other_practice_areas": [
+   "DUI defense",
+   "Domestic violence",
+   "Sex crimes",
+   "Drug offenses",
+   "White collar crimes",
+   "Military defense"
+  ],
+  "free_consultation": true,
+  "fees": "Most cases are handled on a flat fee; no figure published. Financing is available.",
+  "payment_plans": true,
+  "languages": [],
+  "attorneys": [
+   "Matt Ferrara"
+  ],
+  "founded_or_experience": "Over a decade of trial experience",
+  "areas_served": "San Diego, Orange, Imperial, Los Angeles, Riverside and San Bernardino counties; military defense worldwide"
+ },
+ "IROD LAW|www.irodlaw.com": {
+  "description": "IROD Law names expungement cases as one of its three areas of work, together with criminal defense and DUI. The website text does not go further into the kinds of record relief offered or the steps involved.\n\nThe firm defends people charged with crimes in San Francisco. Its website discusses DUI, motor vehicle theft, larceny and theft, shoplifting, drug offenses and white collar crimes such as fraud and embezzlement. Ivan Rodriguez founded the firm and has been a member of the California State Bar since 2016. He is fluent in Spanish, and the site has a Spanish-language option. Initial consultations are free. No fees are published.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement"
+  ],
+  "other_practice_areas": [
+   "Criminal defense",
+   "DUI",
+   "Theft and shoplifting",
+   "Motor vehicle theft",
+   "Drug offenses",
+   "White collar crimes"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [
+   "Spanish"
+  ],
+  "attorneys": [
+   "Ivan Rodriguez"
+  ],
+  "founded_or_experience": "California State Bar member since 2016",
+  "areas_served": "San Francisco"
+ },
+ "Slade Law Group|www.sladelawgroup.com": {
+  "description": "Slade Law Group lists expungements and pardons among its personal services in Pennsylvania. Its representative matters include expungements of prior arrests and non-convictions. The price list on its website shows expungements at $900 for the first case and $500 for each additional case, plus filing fees and expenses, and pardons at $1,500 plus $500 for a hearing.\n\nMost of the firm's work is civil: contract drafting, review and disputes, business formation and operating agreements, business separations, deed changes and property boundary issues, wills, powers of attorney and legal name changes, along with litigation. Kerry E. Slade, the founder and managing partner, has been licensed since 2008. The firm assists clients in Philadelphia and in Montgomery, Bucks, Delaware and Chester counties, and says many services can be performed in any Pennsylvania county.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Expungement",
+   "Pardons"
+  ],
+  "other_practice_areas": [
+   "Contract drafting and disputes",
+   "Business formation",
+   "Business disputes",
+   "Deeds and property matters",
+   "Wills and powers of attorney",
+   "Name changes"
+  ],
+  "free_consultation": null,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Kerry E. Slade"
+  ],
+  "founded_or_experience": "Founder licensed to practice law since 2008",
+  "areas_served": "Philadelphia and Montgomery, Bucks, Delaware and Chester counties; many services in any Pennsylvania county"
+ },
+ "The Law Office of Donald R. Hammond|donhammondlaw.com": {
+  "description": "The Law Office of Donald R. Hammond, which operates as Criminal Defense Heroes, P.C., handles California record clearing. Its website lists misdemeanor and felony expungements, record sealing, automatic relief under AB 1076, inmate firefighter expungement, juvenile record sealing, early termination and modification of probation, and certificates of rehabilitation. It also mentions reducing felonies to misdemeanors, including under Proposition 47, and filing pardon petitions. An expungement evaluation is free through an online form.\n\nThe firm's other areas are DUI defense, general criminal defense and traffic violations, including DMV hearings. Don Hammond is the named attorney; the site says he has written a book on DUI arrests and that the firm offers a free book on expunging a record. Expungement pages are addressed to people in Torrance and Orange County.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Misdemeanor expungement",
+   "Felony expungement",
+   "Record sealing",
+   "Juvenile record sealing",
+   "Early termination of probation",
+   "Certificate of rehabilitation",
+   "Felony reduction (Prop 47)",
+   "Pardon petitions"
+  ],
+  "other_practice_areas": [
+   "DUI defense",
+   "Criminal defense",
+   "Traffic violations",
+   "DMV hearings"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Don Hammond"
+  ],
+  "founded_or_experience": null,
+  "areas_served": "Torrance and Orange County, California"
+ },
+ "Jake Amaru, Criminal Defense Attorney|defenselawtucson.com": {
+  "description": "Jake Amaru handles several kinds of Arizona record relief: sealing of case records under A.R.S. 13-911, clearance of wrongful arrest records under A.R.S. 13-4051, and setting aside convictions under A.R.S. 13-905. He also files motions to restore civil rights lost through a felony conviction, including firearm rights, and takes applications for federal firearm rights restoration. He says he has done this work for almost 20 years.\n\nHis criminal defense practice centres on violent crimes and domestic violence, and he no longer regularly takes DUI or drug cases. He also handles child custody cases and orders of protection. Jacob Amaru was a public defender for four years and opened his own practice in 2009, managing every case himself. A free consultation can be requested online. The office serves Tucson, Casa Grande, Sierra Vista, Nogales and Bisbee.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Record sealing (A.R.S. 13-911)",
+   "Wrongful arrest clearance (A.R.S. 13-4051)",
+   "Conviction set-aside (A.R.S. 13-905)",
+   "Civil rights restoration",
+   "Firearm rights restoration",
+   "Federal firearm rights restoration"
+  ],
+  "other_practice_areas": [
+   "Violent crimes defense",
+   "Domestic violence",
+   "Sex crimes",
+   "Child custody",
+   "Orders of protection"
+  ],
+  "free_consultation": true,
+  "fees": null,
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [
+   "Jacob Amaru"
+  ],
+  "founded_or_experience": "Private practice since 2009; almost 20 years of expungement and rights restoration work",
+  "areas_served": "Tucson, Casa Grande, Sierra Vista, Nogales, Bisbee and neighboring cities"
+ },
+ "Findley & Rogers, PLLC|findleyattorneys.com": {
+  "description": "Findley & Rogers, PLLC focuses on clearing records in Washington State. Its website covers vacating misdemeanor and felony convictions, including under the New Hope Act, sealing juvenile court records, clearing domestic violence and drug convictions, removal from the sex offender registry and restoration of firearm rights. It states that sealing a juvenile record does not restore firearm rights, which must be handled separately, and has a page on why a DUI cannot be cleared.\n\nThe website also carries information on Washington restraining, protection and no-contact orders. Consultations are free, and fees are quoted case by case as a flat rate, with no figures published. The firm says it has served Washington State since 2010 and has had more than 3,700 clients. It handles the paperwork, and says most juvenile sealing clients do not need to go to court.",
+  "mentions_record_clearing": true,
+  "record_clearing_services": [
+   "Vacating convictions",
+   "Juvenile record sealing",
+   "Firearm rights restoration",
+   "Domestic violence record clearing",
+   "Drug conviction vacating",
+   "Sex offender registry removal"
+  ],
+  "other_practice_areas": [],
+  "free_consultation": true,
+  "fees": "Flat-rate estimate given per case; no figure published.",
+  "payment_plans": null,
+  "languages": [],
+  "attorneys": [],
+  "founded_or_experience": "Serving Washington State since 2010",
+  "areas_served": "Washington State"
  }
 }
