@@ -1,0 +1,81 @@
+---
+// A researched guide page, rendered from src/data/articles.json
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import articles from '../data/articles.json';
+import { guideTopics } from '../data/guides';
+
+interface Props { slug: string; }
+const { slug } = Astro.props;
+const article = (articles as any[]).find(a => a.slug === slug);
+if (!article) throw new Error(`No article data for ${slug}`);
+const otherArticles = (articles as any[]).filter(a => a.slug !== slug);
+const checked = 'November 2026';
+---
+
+<PageLayout title={article.title} description={article.description} canonicalURL={`/guides/${article.slug}`}>
+  <div class="container py-8 mt-8">
+    <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: article.nav }]} />
+  </div>
+
+  <section class="pb-12 bg-white">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold mb-6">{article.title}</h1>
+        {article.intro.map((p: string) => <p class="text-lg text-gray-700 mb-4">{p}</p>)}
+        <p class="text-sm text-gray-500 mb-10">{`Checked ${checked} against the sources listed at the end. General information, not legal advice; laws change and the details of a case matter.`}</p>
+
+        {article.sections.map((s: any) => (
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold mb-4">{s.heading}</h2>
+            {(s.paragraphs || []).map((p: string) => <p class="text-gray-700 mb-4">{p}</p>)}
+            {s.bullets && s.bullets.length > 0 && (
+              <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-4">
+                {s.bullets.map((b: string) => <li>{b}</li>)}
+              </ul>
+            )}
+            {s.table && (
+              <div class="overflow-x-auto mb-4">
+                <table class="w-full text-left text-sm border border-gray-200">
+                  <thead class="bg-gray-50">
+                    <tr>{s.table.headers.map((h: string) => <th class="p-3 border-b border-gray-200">{h}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {s.table.rows.map((row: string[]) => (
+                      <tr class="border-b border-gray-100 align-top">
+                        {row.map((cell: string, i: number) => <td class={`p-3 text-gray-700 ${i === 0 ? 'font-medium whitespace-nowrap' : ''}`}>{cell}</td>)}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        ))}
+
+        <div class="p-6 rounded-lg border border-gray-200 mb-10">
+          <h2 class="text-xl font-semibold mb-3">Where to get help</h2>
+          <ul class="space-y-2">
+            <li><a href="/free-expungement-help" class="text-primary hover:underline">Free and low-cost legal help by state</a></li>
+            <li><a href="/states" class="text-primary hover:underline">Each state's record-clearing rules and attorneys</a></li>
+          </ul>
+        </div>
+
+        <div class="mb-10">
+          <h2 class="text-xl font-semibold mb-3">Sources</h2>
+          <ul class="text-sm text-gray-600 space-y-1">
+            {article.sources.map((src: any) => <li><a href={src.url} target="_blank" rel="noopener noreferrer" class="underline">{src.label}</a></li>)}
+          </ul>
+        </div>
+
+        <div class="p-6 rounded-lg border border-gray-200">
+          <h2 class="text-xl font-semibold mb-3">Related guides</h2>
+          <ul class="space-y-2">
+            {otherArticles.map((a: any) => <li><a href={`/guides/${a.slug}`} class="text-primary hover:underline">{a.title}</a></li>)}
+            {guideTopics.map(t => <li><a href={`/guides/${t.slug}`} class="text-primary hover:underline">{t.title}</a></li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>
