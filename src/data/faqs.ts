@@ -18,11 +18,11 @@ export const faqs: FAQ[] = [
   },
   {
     question: "How long does the expungement process take?",
-    answer: "The expungement process typically takes between 3 to 6 months, though it can vary significantly depending on your location, the complexity of your case, and the current backlog in the court system. Some jurisdictions may process expungements more quickly, while others might take up to a year. Your attorney can give you a more accurate timeline based on your specific situation and local court conditions."
+    answer: "It depends on the state, the court and the kind of record. After a petition is filed, the court usually has to notify the prosecutor and sometimes hold a hearing, and agencies then need time to update their records. Some courts finish in a few weeks and others take many months. The court clerk, a legal aid office or an attorney who files in that court can tell you what is typical there."
   },
   {
     question: "How much does it cost to hire an expungement attorney?",
-    answer: "The cost of hiring an expungement attorney typically ranges from $1,000 to $2,500, depending on the complexity of your case, your location, and the attorney's experience. This usually includes attorney fees, court filing fees, and other administrative costs. Many attorneys offer payment plans or sliding scale fees based on income. Some jurisdictions also have legal aid organizations that provide free or low-cost expungement services to qualifying individuals."
+    answer: "Fees vary by state, by firm and by how complicated the record is, and most firms do not publish them. Many charge a flat fee for a straightforward case. Court filing fees are separate and are set by the court; some courts waive them for people with low incomes. Where a firm publishes its fees or offers a free consultation or payment plan, we show that on its page. If cost is a barrier, see our list of free and low-cost legal help by state."
   },
   {
     question: "Will expungement completely erase my criminal record?",
@@ -34,7 +34,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: "Do I need an attorney to get my record expunged?",
-    answer: "While it's technically possible to pursue expungement without an attorney in most jurisdictions, having legal representation significantly increases your chances of success. Expungement laws are complex and vary by state, and the process involves precise paperwork, court appearances, and knowledge of local procedures. An experienced expungement attorney can navigate potential obstacles, ensure all requirements are met, and advocate effectively on your behalf. Many people who attempt to handle expungements on their own face delays or denials due to procedural errors."
+    answer: "No. In most states you can file on your own, and many courts publish forms and instructions for people who do. Some states also clear certain records automatically. An attorney can help when eligibility is unclear, when there are several cases or counties involved, or when a prosecutor objects. Legal aid offices and law school clinics help for free if you qualify; see our list of free help by state."
   },
   {
     question: "What happens if my expungement petition is denied?",

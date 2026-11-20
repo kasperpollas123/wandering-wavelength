@@ -1,0 +1,1054 @@
+{
+ "AK": {
+  "summary": "Alaska has no general process for expunging or sealing a valid adult conviction. Criminal justice agency records can be sealed only when they resulted from mistaken identity or false accusation. If a court granted a suspended imposition of sentence, it can \"set aside\" the conviction once probation is completed, but the Alaska Court System states that a set-aside does not remove the conviction from the public record. Suspended imposition is not available for some offenses, including DUI, most physical and sexual assaults, and offenses involving a firearm. Cases that ended in acquittal or dismissal of all charges are not published on the court system's public website. Since 2023 a court rule has kept certain low-level marijuana possession cases off the online case index, and a law passed in 2026, taking effect in 2027, lets people with those convictions ask the Department of Public Safety to keep them off background checks.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/alaska-expungment-pardon-sealing/",
+   "https://courts.alaska.gov/shc/criminal/after-sentencing.htm",
+   "https://courts.alaska.gov/media/docs/bp-sis-faq.pdf",
+   "https://alaskapublic.org/news/politics/2026-07-08/alaskans-with-certain-low-level-marijuana-convictions-can-keep-record-private-under-new-law",
+   "https://www.marijuanamoment.net/alaska-bill-to-let-people-seal-their-marijuana-convictions-becomes-law-without-governors-signature/"
+  ],
+  "errors_in_old": [
+   "Says sealing is available for dismissed or acquitted cases: sealing under AS 12.62.180 is limited to mistaken identity or false accusation. Dismissed/acquitted cases are instead kept off the court system's public website (AS 22.35.030).",
+   "Says a set-aside 'can restore some civil rights': not supported by sources; CCRC says voting and jury rights return on unconditional discharge, and a set-aside is relevant mainly to firearm restrictions and later sentencing.",
+   "Does not say that set-aside is only possible where the court originally granted a suspended imposition of sentence.",
+   "Omits the 2023 CourtView marijuana rule and the 2026 marijuana-records law (effective 2027)."
+  ],
+  "uncertain": [
+   "Could not open the Alaska statutes or the enrolled 2026 bill (akleg.gov returned 403). News reports identify it as omnibus crime bill HB 239 (marijuana text from HB 81), became law without signature June 2026; exact effective date reported as 2027 (one summary says January 1, 2027) and a request requirement that sunsets January 1, 2028.",
+   "Marijuana eligibility per news reports: possession of less than one ounce, age 21 or older, no other conviction in the same case.",
+   "CCRC profile attributes the marijuana records law to 2024 HB 28; news reports indicate the provision was enacted in 2026. Left bill numbers out of the summary.",
+   "The 60-day timing for removing acquitted/dismissed cases from the court website comes from CCRC only.",
+   "A third-party site says set-aside cases are also removed from CourtView under Administrative Rule 40(a)(13); not confirmed."
+  ],
+  "confidence": "medium"
+ },
+ "CT": {
+  "summary": "Connecticut calls record clearing \"erasure\". Its Clean Slate law, passed in 2021, erases most misdemeanor convictions automatically 7 years after the person's most recent conviction, and class D and E felonies and unclassified felonies with prison terms of five years or less after 10 years. Automatic erasure covers convictions from January 1, 2000 onward; older eligible convictions are erased on petition to the court. Family violence crimes and offenses requiring sex offender registration are excluded. The rollout was delayed for years by data-system problems; erasures resumed in late 2025, and in July 2026 the state reported the backlog cleared, with erasure continuing as people become eligible. Other convictions can be erased only through an absolute pardon from the Board of Pardons and Paroles, available 3 years after a misdemeanor conviction and 5 years after a felony conviction. Dismissed and acquitted charges are erased, and nolled charges after 13 months.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/connecticut-restoration-of-rights-pardon-expungement-sealing/",
+   "https://portal.ct.gov/cleanslate",
+   "https://ctmirror.org/2026/07/15/ct-clears-clean-slate-backlog/"
+  ],
+  "errors_in_old": [
+   "Says more serious crimes require a 'petition-based process for expungement': the route for convictions outside Clean Slate is an absolute pardon from the Board of Pardons and Paroles, not a court petition. (A court petition exists only for Clean Slate-eligible convictions from before January 1, 2000.)",
+   "'7-10 years' is imprecise: 7 years for misdemeanors, 10 years for eligible felonies, counted from the most recent conviction.",
+   "Omits that some unclassified felonies qualify, the family violence and sex offense exclusions, the January 1, 2000 cutoff, and the implementation delay and current status."
+  ],
+  "uncertain": [
+   "Could not open the statute (cga.ct.gov returned 503) or the Board of Pardons page (404); pardon waiting periods (3 and 5 years) come from CCRC only.",
+   "Figures reported in news (about 170,000 people, nearly 350,000 cases as of July 2026) not included in summary; the state portal page still showed older figures.",
+   "CCRC notes certain drug possession crimes are also excepted from Clean Slate; details not verified.",
+   "A separate cannabis-conviction erasure process exists; details not verified."
+  ],
+  "confidence": "medium"
+ },
+ "IA": {
+  "summary": "Iowa uses the term expungement, and it is narrow for convictions. Under a 2019 law, a court must expunge a misdemeanor conviction on application if more than eight years have passed since the conviction, no criminal charges are pending, the person has not previously been granted two deferred judgments, and all court costs, fines, fees and restitution are paid. This can be granted once in a lifetime, though one application may cover several misdemeanors from the same incident. Many misdemeanors are excluded, including drunk driving (OWI), domestic abuse assault, sex offenses, harassment, stalking and weapons offenses. Cases in which all charges were dismissed or ended in acquittal can be expunged, generally 180 days after the case ended and once court debt in that case is paid. A deferred judgment is expunged after successful completion of probation. Iowa has no general expungement for felony convictions and no automatic clearing law.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/iowa-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.legis.iowa.gov/docs/code/901C.3.pdf"
+  ],
+  "errors_in_old": [
+   "Says the eight-year misdemeanor rule requires 'no subsequent convictions': the statute requires no pending charges, not more than one prior deferred judgment, and all financial obligations paid.",
+   "Omits the once-in-a-lifetime limit and the long list of excluded misdemeanors (e.g. OWI, domestic abuse assault, sex offenses, weapons offenses).",
+   "'Most felonies cannot be expunged' understates it: there is no expungement of felony convictions (felony cases can be expunged only if dismissed, acquitted, or resolved by a completed deferred judgment)."
+  ],
+  "uncertain": [
+   "Iowa Judicial Branch forms page returned 404; official confirmation is from the Iowa Code (2026 edition) text of section 901C.3 only. Section 901C.2 (dismissals/acquittals, 180 days) details are from CCRC.",
+   "Separate short-wait expungement provisions for certain alcohol offenses (e.g. public intoxication, underage possession) and for trafficking victims' prostitution convictions were not verified and are left out.",
+   "No 2025-2026 amendment to chapter 901C was found; a 2026 trafficking-survivor relief bill (HF 2696) did not pass, per CCRC."
+  ],
+  "confidence": "high"
+ },
+ "LA": {
+  "summary": "In Louisiana an expunged record is removed from public access, not destroyed; law enforcement, prosecutors and some licensing boards can still see it. Arrests that did not lead to conviction can be expunged at any time. A misdemeanor conviction can be expunged more than five years after the sentence, probation or parole ended, with no felony conviction since. A felony conviction can be expunged after more than ten years with no other conviction. Convictions set aside under Articles 893 or 894 can be expunged without the wait. Excluded felonies include sex offenses, most crimes of violence and most drug distribution offenses; a few listed violent offenses can be expunged after a hearing. Domestic abuse battery, misdemeanor stalking and misdemeanors arising from a sex offense arrest are also excluded. Fees can total $550. A 2023 law created an automated process, but it takes effect only when the Legislature funds it.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/louisiana-restoration-of-rights-pardon-expungement-sealing/",
+   "https://legis.la.gov/legis/law.aspx?d=919670",
+   "https://legis.la.gov/legis/law.aspx?d=919669",
+   "https://legis.la.gov/legis/Law.aspx?d=1335802"
+  ],
+  "errors_in_old": [
+   "'Prohibits expungement of violent offenses' is overstated: Art. 978(E) allows certain listed violent felonies (e.g. aggravated battery, second degree battery, simple robbery, purse snatching) to be expunged after a hearing.",
+   "Omits other exclusions (domestic abuse battery, misdemeanor stalking, most drug distribution offenses).",
+   "Omits that non-conviction records can be expunged at any time and that set-aside convictions (Arts. 893/894) have no waiting period.",
+   "Omits the 2023 automated expungement law (Art. 985.2), which is not in effect until funded.",
+   "Does not say the 5 and 10 year periods run from completion of sentence/probation/parole."
+  ],
+  "uncertain": [
+   "Whether the automated expungement process (Art. 985.2) has since been funded or started: the statute page still reads 'effective upon appropriation' and CCRC (updated Nov 2026) does not report it operating.",
+   "A 2024 act (No. 580) amended Art. 978, adding paragraph F on more than one felony in a ten-year period; the exact effect on the 'no other conviction' rule was not fully verified and is left out.",
+   "First offender pardon route (Art. 978(A)(3)) left out of summary for space.",
+   "$550 fee cap is from CCRC only."
+  ],
+  "confidence": "high"
+ },
+ "MO": {
+  "summary": "Missouri uses the term expungement; an expunged record is closed to the public, though courts and some agencies can still see it. A law that took effect in 2018 opened expungement to most misdemeanors and many felonies, and later changes shortened the waiting periods. A petition can now be filed one year after completing the sentence for a misdemeanor and three years for a felony. Arrests without charges can be expunged after 18 months, under a 2024 change. Lifetime limits are two felonies and three misdemeanors. Excluded offenses include Class A felonies, dangerous felonies, offenses requiring sex offender registration, domestic assault, and intoxication-related driving offenses. Under a 2022 constitutional amendment, most marijuana convictions are expunged automatically. A 2026 law adds automatic expungement of certain drug possession and paraphernalia convictions after the same one- and three-year periods; it must be operating no later than January 1, 2027.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/missouri-restoration-of-rights-pardon-expungement-sealing/",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=610.140",
+   "https://revisor.mo.gov/main/OneSection.aspx?section=610.141"
+  ],
+  "errors_in_old": [
+   "Waiting periods are outdated: since 2021 they are 1 year for misdemeanors and 3 years for felonies (not 3 and 7), counted from completion of the sentence.",
+   "'Expanded in 2018' is imprecise: the main expansion was passed in 2016 and took effect January 1, 2018; further changes followed in 2018, 2019, 2021 and 2024.",
+   "Omits lifetime limits (2 felonies, 3 misdemeanors).",
+   "Omits automatic marijuana expungement (2022) and the 2026 automatic drug-possession expungement law (RSMo 610.141)."
+  ],
+  "uncertain": [
+   "Bill number of the 2026 law: the Revisor page shows S.B. 1421 (2026) while the CCRC summary read as HB 1421; bill number left out. Whether the automatic drug-possession process is already running before the January 1, 2027 deadline is not confirmed.",
+   "Missouri Courts self-help page returned 403 and could not be opened.",
+   "Marijuana expungement details (timelines, exceptions such as sale to a minor or driving under the influence) come from CCRC only.",
+   "Whether completion of sentence includes payment of all fines and restitution in every case."
+  ],
+  "confidence": "high"
+ },
+ "NH": {
+  "summary": "New Hampshire calls the remedy annulment. After an annulment court records are sealed from the public, though courts can still use them in later sentencing. A petition goes to the sentencing court after the sentence is completed and a waiting period passes with no new conviction: 1 year for a violation, 2 years for a class B misdemeanor, 3 years for most class A misdemeanors, 5 years for most class B felonies, and 10 years for class A felonies, misdemeanor sexual assault, misdemeanor domestic violence and felony indecent exposure. A DWI conviction can be annulled 10 years after conviction. Violent crimes (such as murder, first degree assault, felony sexual assault, kidnapping and robbery), felony obstruction of justice, and offenses that received an extended prison term cannot be annulled. Arrests that ended in acquittal or dismissal can also be annulled.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/new-hampshire-restoration-of-rights-pardon-expungement-sealing/",
+   "https://gc.nh.gov/rsa/html/LXII/651/651-5.htm",
+   "https://gc.nh.gov/rsa/html/XXI/265-A/265-A-21.htm"
+  ],
+  "errors_in_old": [
+   "Says DWI cannot be annulled: wrong. RSA 265-A:21 allows annulment of a DWI conviction 10 years after conviction.",
+   "Says sexual assault cannot be annulled: only partly right. Aggravated felonious and felonious sexual assault are barred as violent crimes, but misdemeanor sexual assault under RSA 632-A:4 can be annulled after 10 years.",
+   "Omits that other violent crimes, felony obstruction of justice and extended-term offenses are barred."
+  ],
+  "uncertain": [
+   "For cases disposed of on or after January 1, 2019, the statute says acquitted/dismissed records 'shall' be annulled 30 days after disposition, while CCRC describes this as on petition; whether a petition is needed in practice is unclear, so the summary only says such records can be annulled.",
+   "A 2026 amendment (ch. 105, effective January 1, 2027) removes the filing fee for those non-conviction petitions and adds annulment after vacated convictions; not included in summary.",
+   "NH Judicial Branch self-help page returned 403 and could not be opened.",
+   "Marijuana possession annulment (RSA 651:5-b, pre-September 16, 2017 offenses of 3/4 ounce or less) is from CCRC only and left out for space."
+  ],
+  "confidence": "high"
+ },
+ "OK": {
+  "summary": "Oklahoma calls the remedy expungement; records are sealed, not destroyed. By court petition, acquittals, uncharged arrests and many dismissed cases can be expunged. A misdemeanor conviction with jail time, a suspended sentence or a fine over $500 can be expunged five years after the sentence ends if the person has no felony conviction; a misdemeanor with only a fine of $500 or less has no stated waiting period. One nonviolent felony can be expunged five years after the sentence is completed, and up to two felonies after ten years, excluding listed violent offenses and offenses requiring sex offender registration. No charges may be pending. Pardoned offenses also qualify. A Clean Slate law passed in 2022 and revised in 2026 lets the state seal some records without a petition. A state online request portal opened November 1, 2026; the fully automatic process must begin by November 1, 2027.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/oklahoma-restoration-of-rights-pardon-expungement-sealing/",
+   "https://oklahoma.gov/osbi/cleanslate.html",
+   "https://oklahoma.gov/osbi/services/information-services-division/disposition-services-unit/criminal-history-record-expungement.html",
+   "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440214",
+   "https://www.courtrules.net/oklahoma/oklahoma-criminal-procedure/section-18b",
+   "https://www.courtrules.net/oklahoma/oklahoma-criminal-procedure/section-19d",
+   "https://wtop.com/news/2026/05/automatic-expungement-medical-parole-and-good-time-credits-oklahomas-criminal-justice-reforms/"
+  ],
+  "errors_in_old": [
+   "Omits the Clean Slate law (2022, revised by SB 2030 in 2026), the state request portal launched November 1, 2026, and the November 1, 2027 deadline for automatic sealing to begin.",
+   "'5-year waiting period' for misdemeanors is incomplete: it runs from the end of the sentence and requires no felony conviction; misdemeanors with only a fine of $500 or less have no stated waiting period.",
+   "'5-10 years' for felonies is right but omits the conditions: one nonviolent felony at 5 years (no other felony, no separate misdemeanor in the last 7 years); up to two felonies at 10 years.",
+   "'Expanded eligibility in recent years' is vague; main changes were 2016, 2018, 2019, 2022, 2024 and 2026."
+  ],
+  "uncertain": [
+   "CCRC profile (updated Nov 2026) does not mention SB 2030 and still says automatic expungement would begin in 2025; OSBI and the 2026 statute text show the revised timeline used in the summary.",
+   "Text of new sections 18b and 19d was read on a non-official site (courtrules.net); OSBI's page confirms the portal and cites those sections but does not list eligibility. Per that text, clean slate eligible convictions are misdemeanors (no felony record, 5 years after sentence, Oklahoma-only record) and felony simple drug possession; this detail is left general in the summary.",
+   "Whether the portal is free and how long requests take (a news report says free).",
+   "Statute says records eligible for automatic processing are to be processed before November 1, 2029.",
+   "OSBI lists a $150 fee for expunging the arrest record under a court order; other costs not verified."
+  ],
+  "confidence": "medium"
+ },
+ "TN": {
+  "summary": "Tennessee calls the remedy expunction. Charges that were dismissed, not prosecuted, or ended in a not-guilty verdict can be removed from public records on request at no cost, though not usually when the person was convicted of another charge in the same case. For convictions, most misdemeanors are eligible unless they appear on a statutory exclusion list, and felonies are eligible only if they appear on lists of specific Class E, D and C offenses; Class C and D felonies were added in 2021. The waiting period is five years after the sentence is completed for misdemeanors and Class E felonies, and ten years for Class C and D felonies. All fines, costs and restitution must be paid, and a person generally cannot have received a conviction expunction before. Expunged records are confidential, not destroyed. Tennessee has no automatic expungement of adult convictions.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/tennessee-restoration-of-rights-pardon-expungement-sealing/",
+   "https://ccc.nashville.gov/wp-content/uploads/2025/07/Expungement-Petition-a.pdf",
+   "https://www.mtas.tennessee.edu/sites/default/files/private/useful%20links/courts/MCC%202026%20Expungements.pdf",
+   "https://www.ctas.tennessee.edu/eli/expunging-court-records"
+  ],
+  "errors_in_old": [
+   "Says only misdemeanors and Class E felonies are eligible: outdated. Since 2021 listed Class D and Class C felonies are also eligible, with a ten-year waiting period.",
+   "'5-year waiting period' applies only to misdemeanors and Class E felonies, and runs from completion of the sentence.",
+   "Omits that felony eligibility depends on a closed statutory list, that some misdemeanors are excluded, that fines and restitution must be paid, and the limit on prior expunctions.",
+   "Statute was renumbered in 2025 (conviction expunction now at T.C.A. 40-32-107), so older citations to 40-32-101(g)/(k) are out of date."
+  ],
+  "uncertain": [
+   "Tennessee courts (tncourts.gov) and TBI pages could not be opened (browser check / 403); official confirmation is from a Davidson County Criminal Court Clerk petition form and University of Tennessee MTAS/CTAS materials, not the statute text itself.",
+   "Which specific misdemeanors are excluded (third-party sources say DUI, domestic assault and registrable sex offenses) was not verified against the statute and is left out.",
+   "The rule allowing two convictions (two misdemeanors, or one felony and one misdemeanor) to be expunged together, and a 2022 change on prior convictions, were not confirmed in an official source.",
+   "2026 changes reported by CCRC (pardon-based expungement of some violent offenses, non-habitation burglary added, petition allowed 10 years after a prior DUI) not independently verified and left out.",
+   "A separate 15-year wait for illegal registration or voting (2023) is from CCRC only.",
+   "Filing fee: MTAS material says courts can charge up to $100 for conviction expunction and nothing for non-conviction cases; left out of summary."
+  ],
+  "confidence": "medium"
+ },
+ "WI": {
+  "summary": "Wisconsin's expungement law is narrow. A court can order expungement only at the time of sentencing, and only if the person was under 25 when the offense was committed and the offense carries a maximum of six years or less. That covers misdemeanors and some lower-level felonies, with limits for people with a prior felony or a violent offense. If the judge ordered it, the record is expunged once the sentence is successfully completed, with no new conviction. There is generally no way to request expungement later. Expungement covers the court record only; police, prosecutor and state Crime Information Bureau records are not affected. People whose arrest did not lead to conviction can ask the Department of Justice to remove the arrest from the state record. A governor's pardon restores rights but does not expunge the record. Proposals to widen eligibility had not become law as of 2026.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/wisconsin-restoration-rights-pardon-expungement-sealing/",
+   "https://www.wicourts.gov/formdisplay/CR-266.pdf?formNumber=CR-266&formType=Form&formatId=2&language=en",
+   "https://wilawlibrary.gov/topics/justice/crimlaw/pardons.php",
+   "https://law.marquette.edu/mvlc/wp-content/uploads/2026/05/ExpPardon-Flyer-May-2026.pdf",
+   "https://www.wpr.org/justice/criminal-past-expungement-wisconsin-bill-felonies-state-capitol"
+  ],
+  "errors_in_old": [
+   "Broadly accurate. Omits the six-year maximum penalty limit, that expungement affects only the court record, and that it takes effect only after the sentence is successfully completed.",
+   "'Has considered reforms ... but has not yet enacted them' still appears correct as of 2026, but could not be confirmed on the Legislature's own site."
+  ],
+  "uncertain": [
+   "Wisconsin Legislature site (docs.legis.wisconsin.gov) returned 503, so the text of Wis. Stat. 973.015 and the status of 2025-26 expungement bills were not confirmed directly; 'no reform enacted' rests on CCRC (updated Nov 2, 2026), a May 2026 Marquette clinic flyer and secondary reports.",
+   "Exact felony limits (Class H and I felonies; prior felony or violent offense bars) are from CCRC's general description only.",
+   "Removal of non-conviction arrest information by the Department of Justice (and return of fingerprint records under Wis. Stat. 165.84) is from CCRC; conditions not verified on the DOJ site.",
+   "Trafficking victims can ask a court to vacate or expunge prostitution convictions (since 2014) per CCRC; left out for space.",
+   "The Wisconsin State Law Library page describes 973.015 as for those 'under 21', which appears outdated; other sources say under 25."
+  ],
+  "confidence": "medium"
+ },
+ "AL": {
+  "summary": "Alabama calls the remedy expungement, and it is granted by petition to the circuit court. Charges that did not end in conviction, such as dismissals and not-guilty verdicts, can be expunged after waiting periods that depend on how the case ended. The REDEEMER Act of 2021 first allowed expungement of some convictions. A misdemeanor, violation, traffic or municipal ordinance conviction can be expunged three years after the conviction date, once probation or parole is complete and all fines, costs and restitution are paid. A felony conviction can be expunged only after the Board of Pardons and Paroles grants a pardon with restoration of civil and political rights, and 180 days have passed since the pardon. Violent offenses, sex offenses, crimes of moral turpitude and serious traffic offenses are excluded. The law limits how many conviction expungements one person can receive. There is no automatic process.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/alabama-restoration-rights-expungement-sealing-2/",
+   "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2021RS/PrintFiles/SB117-Enr.pdf",
+   "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/KH7D8UA-1.pdf",
+   "https://aldailynews.com/a-second-chance-alabama-approves-expungement-bill/"
+  ],
+  "errors_in_old": [
+   "Says certain non-violent felonies can be expunged 'after a 5-year waiting period'. Wrong: a felony CONVICTION needs a pardon with restoration of civil and political rights plus 180 days after the pardon. The 5-year figure applies only to felony CHARGES dismissed without prejudice (a non-conviction).",
+   "Omits the 3-year wait (from conviction date) for misdemeanor convictions and the requirement that fines, costs and restitution be paid.",
+   "Omits non-conviction expungement, which is the main use of the law."
+  ],
+  "uncertain": [
+   "Non-conviction waiting periods: 2021 act text gives 90 days after dismissal with prejudice/acquittal/no-bill, 1 year (misdemeanor) or 5 years (felony) after dismissal without prejudice. A 2026 bill (HB261) proposed cutting 90 days to 30; trackers show it did not pass, but I could not confirm final status on the official site, so numbers were left out.",
+   "Act 2025-427 amended 15-27-1 and 15-27-2 (CCRC says it added expungement after accountability-court completion); I did not read that act. 2026 bill text showing existing law still has the 3-year and pardon+180-day rules.",
+   "Limits under 15-27-2.1 as enacted in 2021: one pardoned-felony expungement, two misdemeanor-conviction expungements, unlimited non-conviction; not re-checked against current code.",
+   "Filing fee ($500 in 2021 act, waivable for indigency) not re-checked.",
+   "Official code site (alison) section pages and Justia returned errors; CCRC profile page is partly stale (dated 2020 in places)."
+  ],
+  "confidence": "medium"
+ },
+ "DC": {
+  "summary": "The District of Columbia uses two remedies, sealing and expungement, under the Second Chance Amendment Act of 2022, which replaced a narrower 2006 scheme. A person can file a motion in Superior Court to seal a case that ended without a conviction, a misdemeanor conviction five years after the sentence is completed, or a felony conviction eight years after completion. The most serious felonies (the top three severity groups in the sentencing grid) cannot be sealed. The judge must find that sealing is in the interests of justice. Expungement is available by motion on grounds of actual innocence. The Act also provides for automatic sealing of non-conviction records and of most misdemeanor convictions ten years after the sentence; the D.C. Code sets a deadline of October 1, 2027 for that process, and it excludes domestic violence, sexual, violent and impaired-driving offenses.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/district-of-columbia-restoration-of-rights-pardon-expungement-sealing/",
+   "https://code.dccouncil.gov/us/dc/council/code/sections/16-806",
+   "https://code.dccouncil.gov/us/dc/council/code/sections/16-805",
+   "https://www.dcbar.org/news-events/news/superior-court-creates-new-processes-for-sealing-o"
+  ],
+  "errors_in_old": [
+   "'Second Chance Amendment Act of 2016' is wrong: the governing law is the Second Chance Amendment Act of 2022 (D.C. Law 24-284), which rewrote the whole scheme.",
+   "Describes the old framework ('expungement of non-conviction records and sealing of certain convictions'); now all misdemeanors and most felonies can be sealed by motion (5 and 8 years), and expungement is for actual innocence and marijuana.",
+   "Omits the automatic sealing provisions entirely."
+  ],
+  "uncertain": [
+   "Effective dates conflict between sources. CCRC gives March 1, 2025 in one place and January 1, 2026 in another for motion-based sealing; code notes list several amended applicability dates. A Superior Court order and DC Bar describe the Act as effective March 1, 2025.",
+   "Whether automatic sealing/expungement is running now: a search snippet of the DC Courts page (updated Feb 2, 2026) says the automatic provisions are 'not yet in effect', but the dccourts.gov page itself returned 403 so I could not open it. CCRC gives 2027 and 2029 in different places; the code text says October 1, 2027.",
+   "Automatic expungement of simple marijuana possession records (16-802): CCRC says effective January 1, 2025, but the court snippet suggests it is not yet operating; left out of summary.",
+   "Temporary/emergency amendments to 16-805 and 16-806 in 2025-2026 were listed but their text was not reviewed."
+  ],
+  "confidence": "medium"
+ },
+ "ID": {
+  "summary": "Idaho has no general expungement of adult convictions. A person who was arrested or summoned but not charged within one year, who was acquitted, or whose charges were all dismissed can ask the Idaho State Police to expunge the fingerprint and criminal history record, and the court file may be sealed. For convictions, a 2023 law created 'shielding', which removes a record from public view while police and courts keep access. It covers non-violent, non-assaultive misdemeanors and felony drug possession. The petition can be filed five years after the whole sentence is finished, including probation, parole, fines and restitution, with no later convictions or pending cases. Only one shielding petition can be granted in a lifetime. DUI with a high alcohol level, assault, battery, domestic violence, stalking and similar misdemeanors are excluded. Courts can also set aside some convictions after probation. Nothing is automatic.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/idaho-restoration-of-rights-pardon-expungement-sealing/",
+   "https://legislature.idaho.gov/statutesrules/idstat/Title67/T67CH30/SECT67-3004/"
+  ],
+  "errors_in_old": [
+   "Outdated: does not mention the 2023 shielding law (HB 149, Idaho Code 67-3004(11)), now the main relief for convictions.",
+   "'Felony convictions generally cannot be expunged' is incomplete: felony drug possession convictions can now be shielded.",
+   "'Expungement of certain misdemeanor convictions' is the wrong label and gives no conditions; the remedy is shielding, with a 5-year wait after the full sentence and a one-per-lifetime limit.",
+   "Omits that non-conviction expungement also covers arrests with no charge filed within one year and is requested from the State Police."
+  ],
+  "uncertain": [
+   "Exact effective date of the 2023 shielding law (believed January 1, 2024) was not confirmed in the sources opened.",
+   "The statute's wording for the DUI exclusion ('excessive' DUI) was paraphrased as high alcohol level.",
+   "Idaho court administrative rule on sealing court files (I.C.A.R. 32) not reviewed."
+  ],
+  "confidence": "high"
+ },
+ "MA": {
+  "summary": "Massachusetts has two remedies: sealing, which hides a record from most employers and landlords, and expungement, which erases it. Since a 2018 reform law, most misdemeanor convictions can be sealed three years and most felony convictions seven years after the conviction or any release from custody, whichever is later, if there has been no new conviction in that time. The request goes to the Commissioner of Probation on a form. Sex offenses wait fifteen years and cannot be sealed while a person must register. Certain firearms offenses and crimes against public justice, such as perjury, can never be sealed. Dismissed cases can be sealed by a judge. Expungement is narrower: it covers up to two records from before age 21, with many serious offenses excluded, plus offenses that are no longer crimes, such as marijuana possession, and cases of mistaken identity or error. Sealing is not automatic.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/massachusetts-restoration-of-rights-pardon-expungement-sealing/",
+   "https://malegislature.gov/laws/generallaws/partiv/titleii/chapter276/section100a",
+   "https://www.cleanslateinitiative.org/in-the-news/massachusetts-is-weighing-a-clean-slate-bill-heres-what-that-would-mean"
+  ],
+  "errors_in_old": [
+   "No outright errors found. Minor: the 2018 law is commonly cited as the criminal justice reform law (ch. 69 of the Acts of 2018) rather than a formal 'Criminal Justice Reform Act' title; I did not verify the short title.",
+   "Incomplete: omits the two-record limit and offense exclusions for under-21 expungement, the 15-year rule for sex offenses, and the never-sealable offenses."
+  ],
+  "uncertain": [
+   "Clean Slate (automatic sealing) bills H.1811/S.1114 were pending in 2025-2026; H.1811 was sent to study in March 2026 and amendments were offered to other bills in July 2026. I found no evidence of enactment as of the latest indexed pages (July 2026), but could not rule out action after that.",
+   "mass.gov self-help pages returned 403, so official confirmation rests on the statute text (G.L. c. 276, s. 100A).",
+   "CCRC notes some non-conviction outcomes (acquittal, no bill, no probable cause) are sealed automatically at disposition under s. 100C; not confirmed against the statute and left out."
+  ],
+  "confidence": "high"
+ },
+ "MS": {
+  "summary": "Mississippi calls the remedy expunction, requested by petition to the court. A case that ended without conviction, because it was dismissed, the charges were dropped, there was no disposition, or the person was found not guilty, must be expunged when the person petitions. A first offender convicted of a misdemeanor other than a traffic violation can petition to expunge it. One felony conviction can be expunged in a lifetime. A 2026 law, in effect since July 1, 2026, shortened the felony waiting period from five years to three years after all terms of the sentence are completed; fines and court costs must be paid. Felonies that cannot be expunged include crimes of violence, first-degree arson, drug trafficking, third or later DUI, felon in possession of a firearm, failure to register as a sex offender, voyeurism, witness intimidation, abuse of a vulnerable person, embezzlement and promoting prostitution. Nothing is automatic.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/mississippi-restoration-of-rights-pardon-expungement-sealing/",
+   "https://billstatus.ls.state.ms.us/documents/2026/pdf/HB/1500-1599/HB1546SG.pdf",
+   "https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB1546.xml"
+  ],
+  "errors_in_old": [
+   "'5-year waiting period' is outdated: HB 1546 (2026, ch. 430, approved March 30, 2026, effective July 1, 2026) cut the felony wait to 3 years after completing the sentence.",
+   "'Certain first-time offenses after a 5-year waiting period' mixes two rules: the first-offender condition applies to misdemeanors (no waiting period stated); the waiting period applies to the one-felony expunction, which is not limited to first offenders.",
+   "Vague on exclusions: the statute lists specific excluded felonies, and since 2019 any felony not on the list is eligible (one per lifetime)."
+  ],
+  "uncertain": [
+   "CCRC's Mississippi profile was last updated December 2024 and still shows the 5-year wait and an older description of eligible felonies; the 2026 bill text was used instead.",
+   "Whether the 3-year period applies to petitions on older convictions filed after July 1, 2026 was not addressed in the sources.",
+   "HB 1546 also added expungement for trafficking victims' non-violent convictions (97-3-54.6); not included in summary.",
+   "Filing fee ($150 per CCRC) not re-checked."
+  ],
+  "confidence": "high"
+ },
+ "NJ": {
+  "summary": "New Jersey calls the remedy expungement. A 2019 law, in effect since June 2020, widened eligibility, set up online filing and removed the filing fee. Arrests and charges that end in dismissal or acquittal are expunged by court order at that time, or by later application. For convictions, the usual waiting period is five years after the sentence is finished, for both indictable offenses (the state's term for felonies) and disorderly persons offenses (misdemeanors), with limits on how many convictions one person can clear. The 2019 law also created 'clean slate' expungement, which clears a person's whole eligible record ten years after the last conviction and completion of sentence. Clean slate currently requires an application; the automated version the law called for has not been reported as operating. Certain marijuana and hashish cases were expunged automatically in 2021. The most serious crimes are excluded.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/new-jersey-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.njcourts.gov/self-help/expunge-record"
+  ],
+  "errors_in_old": [
+   "'Implemented an automatic clean slate expungement process' is misleading: the 2019 law created clean slate by petition (10 years) and called for an automated system, but the automated system has not been built; a 2026 bill (A5095/S4270) to implement it was only introduced.",
+   "'Reformed in 2019' needs the caveat that the main provisions took effect June 2020.",
+   "'One of the most progressive systems in the country' is an unsupported opinion.",
+   "Omits the 5-year standard wait and the 10-year clean slate wait."
+  ],
+  "uncertain": [
+   "Numeric limits conflict: NJ Courts page says one indictable conviction plus up to three disorderly persons offenses; CCRC says up to four (and the page is internally inconsistent). Numbers left out.",
+   "NJ Courts page also mentions waits of two years for ordinance violations and 'sometimes four years' for early-pathway cases; not detailed.",
+   "Current status of 2026 bills A5095/S4270 (automated clean slate, 7-year wait) beyond introduction in May 2026 was not confirmed.",
+   "List of non-expungeable crimes (N.J.S. 2C:52-2(b)) was not opened; 'most serious crimes' is CCRC's description (serious violent offenses, serious drug offenses, public-office offenses)."
+  ],
+  "confidence": "medium"
+ },
+ "OR": {
+  "summary": "Oregon calls the remedy a set-aside, which seals the conviction and related arrest records. It is requested by motion in the court that handled the case. A 2021 law (SB 397) shortened the waiting periods and removed the filing fee. Counted from conviction or release from imprisonment, whichever is later, the waits are one year for a Class B or C misdemeanor or a violation, three years for a Class A misdemeanor, five years for a Class C felony and seven years for a Class B felony. The sentence must be fully completed, with no new conviction during the waiting period. Arrests and charges can be set aside 60 days after the prosecutor declines to proceed, or any time after an acquittal or dismissal. Most Class A felonies, most sex crimes, many violent offenses, traffic offenses and DUII cannot be set aside. Adult set-asides are not automatic.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/oregon-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.courts.oregon.gov/courts/marion/help/Pages/setaside.aspx",
+   "https://apps.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2492"
+  ],
+  "errors_in_old": [
+   "Calls the remedy 'expungement'; the legal term is set-aside (ORS 137.225).",
+   "'Certain Class C felonies' is incomplete: many Class B felonies are also eligible (7-year wait).",
+   "Waiting periods are roughly right but imprecise: 1 year (Class B/C misdemeanor, violation), 3 years (Class A misdemeanor), 5 years (Class C felony), 7 years (Class B felony).",
+   "Omits non-conviction records and the DUII/traffic/sex-crime exclusions.",
+   "Mentions juvenile records, which are outside adult scope and handled by a separate law."
+  ],
+  "uncertain": [
+   "HB 2492 (2025) amended ORS 137.225 (adds 5-year wait for certain contempt findings; waiting periods for crimes unchanged). I read the enrolled text but did not confirm the Governor's signature or effective date.",
+   "HB 3825 (2025) on unpaid fines and set-aside eligibility: status and content not verified; the court page still says the sentence, including restitution, must be fully completed.",
+   "Marijuana-specific set-aside rules (ORS 137.226) described by CCRC were not confirmed with an official source and were left out.",
+   "'Most Class A felonies' excluded is from CCRC's list of eligible classes."
+  ],
+  "confidence": "high"
+ },
+ "TX": {
+  "summary": "Texas has two remedies. Expunction, in Chapter 55A of the Code of Criminal Procedure since January 1, 2025, destroys records. It mainly covers arrests that did not lead to conviction: acquittals, dismissals, and arrests never charged after 180 days for a Class C misdemeanor, one year for a Class A or B misdemeanor, or three years for a felony. It is generally unavailable if the court ordered community supervision, except for Class C misdemeanors. Convictions can be expunged only in narrow cases, such as after a pardon. An order of nondisclosure seals a record from the public while law enforcement and some agencies keep access. It covers many deferred adjudications, with waits from none up to five years for felonies, and some first-offense misdemeanor convictions. Sex offenses requiring registration, murder, aggravated kidnapping, trafficking, stalking and family violence offenses are excluded. Some nonviolent misdemeanor deferred adjudications qualify for an automatic order.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/texas-restoration-of-rights-pardon-expungement-sealing/",
+   "https://tcss.legis.texas.gov/docs/CR/htm/CR.55a.htm",
+   "https://dev.txcourts.gov/media/4h0dnt4r/overview-of-orders-of-nondisclosure.pdf",
+   "https://guides.sll.texas.gov/expunctions-and-non-disclosure"
+  ],
+  "errors_in_old": [
+   "Broadly accurate, no outright error found.",
+   "'Certain misdemeanors committed by minors' under expunction is not supported by Chapter 55A or the CCRC profile as read (those provisions sit in other statutes and were not verified).",
+   "Omits that expunction law was recodified as Chapter 55A effective January 1, 2025, the waiting periods, the convictions eligible for nondisclosure, and the excluded offenses."
+  ],
+  "uncertain": [
+   "The 'automatic' order under Gov't Code 411.072 still involves court paperwork and a fee per CCRC ($28); exact process not detailed.",
+   "Detailed nondisclosure waiting periods vary by section (immediately, 2 years for listed misdemeanors, 5 years for felony deferred adjudication; 2-5 years for certain DWI convictions); only the range is given.",
+   "The OCA overview was read from a dev.txcourts.gov copy marked 'Revised August 2026'; the main txcourts.gov page returned 404.",
+   "Minor-specific expunction provisions (alcohol, tobacco, truancy-type Class C offenses) were not researched."
+  ],
+  "confidence": "high"
+ },
+ "WV": {
+  "summary": "West Virginia calls the remedy expungement, requested by petition to the circuit court. Before June 2019 only young first-time misdemeanor offenders qualified; a 2019 law opened it to most misdemeanors and some non-violent felonies. A single misdemeanor can be expunged one year after the conviction and the end of any jail term or supervision, and several misdemeanors after two years. A non-violent felony, or felonies from the same transaction, can be expunged after five years. People who complete an approved substance abuse treatment or job training program can apply sooner. Excluded offenses include felony violence against a person, felonies with a child victim, sexual offenses, domestic violence, DUI, offenses involving a deadly weapon, stalking, animal cruelty and burglary of a home. Acquittals and dismissals can be expunged under a separate statute after 60 days, though not for people with a prior felony conviction. No process is automatic.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/west-virginia-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.courtswv.gov/sites/default/pubfilesmnt/2023-06/SCA-C900-InfoforExpungementPetition.pdf"
+  ],
+  "errors_in_old": [
+   "Broadly accurate (1 year single misdemeanor, 2 years multiple, 5 years non-violent felony; expanded 2019).",
+   "Omits non-conviction expungement (W. Va. Code 61-11-25) and the shorter waits after treatment or job-training programs (61-11-26a).",
+   "'1-2 year waiting period' does not explain that one year is for a single misdemeanor and two years for multiple."
+  ],
+  "uncertain": [
+   "Could not open the statute itself: code.wvlegislature.gov and wvlegislature.gov returned 503/connection errors on every attempt. Official confirmation rests on the Supreme Court of Appeals instruction sheet (rev. June 2019) plus CCRC (updated August 2026).",
+   "One-petition limit: the 2019 court instructions say a person can seek expungement only once; CCRC says a 2020 law (SB 562) removed that limit for misdemeanors, while a single felony petition limit remains. Left out.",
+   "Accelerated waits under 61-11-26a (court sheet: none/1 year for misdemeanors, 3 years felony; CCRC: 90 days/1 year/3 years) differ slightly between sources; numbers left out. A 2025 bill (HB 3289) on 61-11-26a was not checked.",
+   "HB 5380 (2026) to loosen 61-11-26 was introduced; no evidence it passed.",
+   "Non-conviction exclusions for DUI and domestic violence cases (per CCRC) not confirmed officially."
+  ],
+  "confidence": "medium"
+ },
+ "AR": {
+  "summary": "Arkansas calls the remedy record sealing, governed by its 2013 record sealing law (Act 1460 of 2013), which took effect in 2014. Arrests, dismissals and acquittals can be sealed by petition. Most misdemeanors can be sealed once the sentence is complete and fines, costs and restitution are paid; a five-year wait applies to a short list including third-degree battery, negligent homicide and indecent exposure, and DWI has its own waiting rules. Since a 2019 change, non-violent Class C and D felonies and certain drug felonies can be sealed on completion of sentence, while violent Class C and D felonies carry a five-year wait. A person with more than one earlier felony conviction is not eligible for felony sealing. Most Class A and B felonies, sexual offenses and felonies with a maximum sentence of ten years or more cannot be sealed. Convictions are not sealed automatically, except most pardoned offenses.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/arkansas-restoration-of-rights-pardon-expungement-sealing/",
+   "https://dps.arkansas.gov/crime-info-support/arkansas-crime-information-center/forms/criminal-history/",
+   "https://codes.findlaw.com/ar/title-16-practice-procedure-and-courts/ar-code-sect-16-90-1405/"
+  ],
+  "errors_in_old": [
+   "Says 'most misdemeanors after a 5-year waiting period': wrong. Most misdemeanors are eligible as soon as the sentence is completed and court debt paid; the 5-year wait applies only to a short list (e.g. third-degree battery, negligent homicide, indecent exposure, fourth-degree sexual assault, third-degree domestic battering).",
+   "Says 'certain felonies after a waiting period of 5 years': outdated since 2019 (HB 1831). Non-violent Class C/D felonies and certain drug felonies are eligible on completion of sentence; only violent Class C/D felonies have the 5-year wait.",
+   "Uses the word 'expungement' and the name 'Criminal Record Sealing Act': the remedy is 'sealing' and the law's full name is the Comprehensive Criminal Record Sealing Act of 2013.",
+   "Omits non-conviction records, the one-prior-felony limit and the payment requirement."
+  ],
+  "uncertain": [
+   "Exact DWI/BWI misdemeanor waiting rule (statute text seen ties it to the lookback period in s. 5-65-111; CCRC says only that DUIs 'have a waiting period'). Left as 'its own waiting rules'.",
+   "Statute text for 16-90-1405 was read on FindLaw (current as of March 2024), not on an official Arkansas legislature site, which could not be loaded; the official ACIC page confirms the forms and Act 1460 of 2013 but states no waiting periods.",
+   "The law's official name contains the word 'comprehensive', which the brief bans, so the summary refers to it as the 2013 record sealing law (Act 1460 of 2013)."
+  ],
+  "confidence": "medium"
+ },
+ "DE": {
+  "summary": "Delaware uses the term expungement. The Adult Expungement Reform Act of 2019 created two tracks. Mandatory expungement, handled by the State Bureau of Identification, covers cases ending without conviction, violations after 3 years, and most single-case misdemeanors after 5 years when there are no other convictions; since 2022 it also covers felony drug possession after 5 years and a few other lower-level felonies after 10. Discretionary expungement requires a court petition and covers other misdemeanors after 3 or 7 years and a single non-violent felony after 7 years. Some people need a pardon first. The Clean Slate Act, passed in 2021 and in effect since August 2024, makes mandatory-eligible records clear automatically. The rollout has been slow: the state reported a large backlog and ran its first automated batch in June 2026, and people can still apply themselves. Fines, fees and restitution generally must be paid.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/delaware-restoration-of-rights-pardon-expungement-sealing/",
+   "https://ods.delaware.gov/expungements",
+   "https://news.delaware.gov/2026/06/01/governor-meyer-announces-64000-cases-cleared-in-clean-slate-automation/"
+  ],
+  "errors_in_old": [
+   "Describes 'an automatic expungement process for certain misdemeanors' without date or status: the Clean Slate Act was passed in 2021 (not part of the 2019 act), took effect August 1, 2024, and covers all mandatory-eligible records (non-convictions, violations, some misdemeanors and a few felonies), not just misdemeanors. Implementation has been delayed with a large backlog; first automated batch was June 2026.",
+   "Gives no waiting periods and does not mention that some felonies became eligible (2019 discretionary; 2022 mandatory).",
+   "The 2019 date and the mandatory/discretionary description are accurate."
+  ],
+  "uncertain": [
+   "How much of the Clean Slate backlog has been cleared as of November 2026 (state said in June 2026 it aimed to clear the bulk by August 2026; not verified).",
+   "Delaware Courts' own expungement help page returned 'content unavailable'; the official confirmation comes from the Office of Defense Services and a Governor's press release, which do not restate the waiting periods (those come from CCRC)."
+  ],
+  "confidence": "medium"
+ },
+ "IL": {
+  "summary": "Illinois has two remedies. Expungement, which destroys the record, is mainly for arrests and cases that did not end in conviction, plus completed supervision or qualified probation after a 2- or 5-year wait; convictions can be expunged only in limited cases such as a pardon. Sealing hides the record from most of the public and covers most misdemeanor and felony convictions. Since June 1, 2026, the sealing wait is 2 years after the sentence ends for misdemeanors and for felonies where probation was not revoked, and 3 years for other felonies. DUI, domestic battery, most sex offenses and animal-cruelty offenses cannot be sealed. The 2019 cannabis legalization law set up automatic expungement of minor cannabis arrests and a petition route for cannabis convictions. The Clean Slate Act, signed in January 2026, will seal eligible records automatically, but automated sealing is not scheduled to begin until 2029.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/illinois-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400HB1836.html",
+   "https://www.illinoislegalaid.org/legal-information/expunging-or-sealing-criminal-record-common-questions",
+   "https://osad.illinois.gov/expungement.html",
+   "https://www.illinoiscourts.gov/self-help/expungement-sealing/"
+  ],
+  "errors_in_old": [
+   "Omits the Clean Slate Act (HB 1836, Public Act 104-0459, signed January 16, 2026, effective June 1, 2026), which creates automatic sealing starting in 2029.",
+   "Sealing wait '2-3 years' is now correct only because of the 2026 law (it was 3 years for convictions before June 1, 2026); the summary should say what the wait applies to.",
+   "'Automatically expunges certain marijuana offenses' is imprecise: automatic expungement applied to minor cannabis arrests/non-convictions (and pardoned convictions); other cannabis convictions need a petition to vacate and expunge.",
+   "Omits key exclusions from sealing (DUI, domestic battery, sex offenses, animal offenses)."
+  ],
+  "uncertain": [
+   "Exact start of automated sealing: CCRC says January 2029; Illinois Legal Aid Online mentions January 1, 2028 for automatic sealing of Class 4 felony prostitution records. Summary says 'not scheduled to begin until 2029'.",
+   "Official court and State Appellate Defender pages opened give forms only, not eligibility rules; the ILGA bill status page confirms the act, signing date and effective date. Waiting-period detail rests on CCRC and Illinois Legal Aid Online (which agree).",
+   "CCRC lists additional Clean Slate exclusions from automation (Class X felonies, crimes of violence, etc.); not included in the summary."
+  ],
+  "confidence": "medium"
+ },
+ "MD": {
+  "summary": "Maryland offers expungement, which removes a record from court and police files, and shielding, which hides certain misdemeanor convictions from public view. Cases ending in acquittal, dismissal or nolle prosequi on or after October 1, 2021 are expunged automatically after 3 years, and earlier expungement can be requested by petition. A listed set of misdemeanor convictions and some felonies, including felony theft, burglary and drug distribution, can be expunged by petition. After the REDEEM Act of 2023, waiting periods run from completion of sentence: 5 years for most eligible misdemeanors, 7 years for most eligible felonies, 10 years for felony theft and burglary, and 15 years for second-degree assault and domestically related crimes. Cannabis possession convictions can be expunged once the sentence is complete. A 2025 law removed probation violations as an automatic bar. If one charge in a case is ineligible, the whole case usually is too.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/maryland-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.mdcourts.gov/legalhelp/expungement"
+  ],
+  "errors_in_old": [
+   "Waiting period '3-15 years' is outdated: since the REDEEM Act (2023) conviction waits are 5 years (most misdemeanors), 7 or 10 years (felonies) and 15 years (second-degree assault, domestically related crimes).",
+   "Attributes felony eligibility to the Justice Reinvestment Act: the 2016 act covered listed misdemeanors only; felonies (theft, burglary, drug distribution) were added in 2018.",
+   "'Automatic expungement of cases that resulted in acquittal or dismissal' is true only for dispositions on or after October 1, 2021, and only after 3 years; older cases need a petition.",
+   "Omits the 2023 REDEEM Act, the 2025 changes (SB 432), cannabis rules and shielding."
+  ],
+  "uncertain": [
+   "Conviction waiting periods (5/7/10/15 years) come from CCRC; the Maryland Courts page opened confirms automatic expungement and the petition forms but does not list waiting periods, and the People's Law Library page would not load. CCRC's page also contains one stray reference to a 10-year period under s. 10-110(d)(1).",
+   "CCRC refers to the 2025 law only as SB 432; the name 'Expungement Reform Act' was not confirmed, so the summary does not use it.",
+   "A 2026 law (HB 187) creating a narrow exception to the unit rule is reported by CCRC only; not included."
+  ],
+  "confidence": "medium"
+ },
+ "MT": {
+  "summary": "Montana's options are narrow. Under a law first passed in 2017 and revised in 2019, a person can petition a district court once in a lifetime to expunge misdemeanor convictions; one petition can cover any number of misdemeanors. Expungement is presumed when five years have passed since the sentences were completed without a new offense and no charges are pending. For certain offenses, including violent and sexual offenses and impaired driving, the court decides after a hearing. There is no general expungement for felony convictions; a 2025 bill to add it did not pass. When a court dismisses a case after a deferred sentence, the records become confidential. Fingerprints and photographs are returned when a case ends without conviction, but there is no general process to seal non-conviction court records. Since 2021, people with convictions for marijuana conduct that is now legal can petition for expungement or resentencing.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/montana-restoration-of-rights-pardon-expungement-sealing/",
+   "https://courts.mt.gov/external/forms/misexpcon/srmisexp2025.pdf"
+  ],
+  "errors_in_old": [
+   "Says expungement is for misdemeanor convictions 'for which the person received a deferred imposition of sentence': wrong. Misdemeanor expungement (2017 law, revised 2019) covers misdemeanor convictions generally, once per lifetime; deferred sentences are a separate route that leads to dismissal and confidential records.",
+   "Mentions youth court records, which are outside adult record clearing.",
+   "Omits the five-year presumption, the once-in-a-lifetime limit, and that felony convictions cannot be expunged.",
+   "Marijuana statement is broadly right but it is a petition process (effective January 1, 2021), not automatic."
+  ],
+  "uncertain": [
+   "The Montana Department of Justice expungement page returned 403/404, so official confirmation comes from the Montana Courts self-help packet (2025), which covers misdemeanor expungement only. Non-conviction, deferred-sentence and marijuana points rest on CCRC (updated June 2026).",
+   "CCRC notes that the state repository automatically removes non-conviction arrest data for cases after July 1, 2017; left out of the summary because no official page confirming it could be opened."
+  ],
+  "confidence": "medium"
+ },
+ "NM": {
+  "summary": "New Mexico's remedy is expungement under the Criminal Record Expungement Act, passed in 2019 and in effect since January 1, 2020. Expunged records are removed from public access but not destroyed. Arrests and cases that ended without a conviction can be expunged by petition one year after the final disposition. Most convictions are also eligible after the sentence is complete and a conviction-free waiting period has passed: 2 years for most misdemeanors and municipal ordinance violations, 4 years for fourth-degree felonies, 6 for third-degree, 8 for second-degree, and 10 years for first-degree felonies and domestic violence offenses. For convictions the judge must find that expungement serves justice. Not eligible: offenses against a child, offenses causing great bodily harm or death, sex offenses, embezzlement and DWI. Petitions are filed in district court. A 2021 law provides automatic expungement for certain cannabis records; it applies only to cannabis.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/new-mexico-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.nmcourts.gov/self-help/expungement/",
+   "https://nmcourts.gov/wp-content/uploads/2023/12/General-Information-about-expungement.pdf"
+  ],
+  "errors_in_old": [
+   "'Presumption in favor of expungement if statutory requirements are met' is misleading: for non-conviction records the court must grant if the person is eligible, but for convictions the judge has discretion and must find that justice will be served.",
+   "'Enacted in 2019' is right but the law took effect January 1, 2020.",
+   "'1-10 years' is roughly right (1 year for non-convictions; 2 to 10 years for convictions) but gives no breakdown.",
+   "Omits exclusions (offenses against children, great bodily harm or death, sex offenses, embezzlement, DWI) and the 2021 automatic cannabis expungement.",
+   "Uses the banned word 'comprehensive'."
+  ],
+  "uncertain": [
+   "How fully the automatic cannabis expungement has been carried out (CCRC does not confirm; the courts offer an online request form for cannabis court records).",
+   "The courts' general information sheet is dated 2023; no later amendment to the waiting periods was found (a 2025 bill, SB 467, appeared in search results but its outcome was not checked)."
+  ],
+  "confidence": "high"
+ },
+ "PA": {
+  "summary": "Pennsylvania has two remedies. Expungement destroys the record and is mostly for cases that did not end in conviction, summary offenses after five years free of arrest, and pardoned convictions. Sealing, called limited access, hides records from the public, employers and landlords, while police and courts keep access. The Clean Slate Act of 2018 made sealing automatic for non-convictions and many lower-level convictions. A 2023 expansion (Act 36, known as Clean Slate 3.0), in effect since 2024, shortened the conviction-free waiting period to 7 years for eligible misdemeanors and 5 years for summary convictions, and added certain drug felonies after 10 years. Some records not sealed automatically, including certain first-degree misdemeanors and some theft, forgery and fraud felonies, can be sealed by court petition. Restitution must be paid. Violent, firearms and sexual offenses, crimes against the family, and first- and second-degree felonies are excluded.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/pennsylvania-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.pa.gov/governor/newsroom/2024-press-releases/governor-shapiro-hosts-legislative-leaders-and-reform-advocates-0.html",
+   "https://clsphila.org/wp-content/uploads/2024/10/Clean-Slate-3.0-FAQ-Updated-10.15.24.pdf",
+   "https://www.pacourts.us/news-and-statistics/news/news-detail/1034/over-34-million-cases-sealed-from-public-view-under-pennsylvanias-clean-slate-law",
+   "https://www.dauphincounty.gov/government/court-departments/adult-division/clean-slate-expungement-and-limited-access-from-the-unified-judicial-system-of-pennsylvania"
+  ],
+  "errors_in_old": [
+   "'After a 10-year period' is outdated: Act 36 of 2023 (Clean Slate 3.0, in effect 2024) cut the wait to 7 years for eligible misdemeanors and 5 years for summary convictions.",
+   "Says automatic sealing is for 'certain misdemeanors' only: it also covers non-conviction records, summary convictions and, since 2024, certain drug felonies after 10 years.",
+   "Omits petition-based sealing (limited access), which reaches some first-degree misdemeanors and some property felonies.",
+   "The 2018 date and the description of petition-based expungement for non-convictions and summary offenses are accurate."
+  ],
+  "uncertain": [
+   "The 7-year and 5-year figures come from the Community Legal Services FAQ (citing 18 Pa.C.S. 9122.2) and are consistent with the Governor's press release, which confirms the 5-year summary and 10-year drug-felony periods and that the misdemeanor period was shortened without stating the number. The statute page on the General Assembly site would not render, and the Unified Judicial System text found (via Dauphin County, and a 2020 court news item) still shows the pre-2024 10-year rule.",
+   "CCRC says pardoned convictions are now expunged automatically under the 2023 law; the summary says only that pardoned convictions can be expunged."
+  ],
+  "confidence": "medium"
+ },
+ "UT": {
+  "summary": "Utah calls the remedy expungement and has two routes. The Clean Slate law, passed in 2019 and effective in 2020, lets courts expunge certain records automatically: acquittals and dismissals with prejudice, infractions and class C misdemeanors after 5 years, class B misdemeanors after 6 years, and class A drug possession after 7 years. Felonies, other class A misdemeanors, DUI, domestic violence, assault and sex offenses are not covered, and fines must be paid. A request form was required from October 2024 through 2025; since January 1, 2026 the courts identify qualifying cases without one. Other records require a court petition, with waiting periods running from the end of the sentence: 3 or 4 years for lower misdemeanors, 5 years for class A misdemeanors, 7 years for eligible felonies and 10 years for misdemeanor DUI. First-degree, violent and registrable sex offenses are excluded, and limits apply to the number of convictions.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/utah-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.utcourts.gov/en/self-help/case-categories/criminal-justice/expunge.html"
+  ],
+  "errors_in_old": [
+   "Says petition-based expungement of more serious offenses has 'longer waiting periods': misleading. Petition waits (3-7 years; 10 for misdemeanor DUI) run from the end of the sentence and are mostly shorter than the 5-7 year automatic periods.",
+   "Omits that the Clean Slate law took effect May 2020, that a request form was required from October 1, 2024 to December 31, 2025, and that since January 1, 2026 no form is needed.",
+   "Omits that automatic expungement also covers acquittals and dismissals with prejudice, and omits exclusions and conviction-count limits.",
+   "The 2019 date and the 5-7 year automatic waiting periods are accurate."
+  ],
+  "uncertain": [
+   "CCRC says a 2024 law extended clean slate authority 'through 2026'; whether the automatic process continues unchanged after 2026 was not verified.",
+   "Felony drug possession has a 5-year petition wait (not stated in the summary for brevity)."
+  ],
+  "confidence": "high"
+ },
+ "WY": {
+  "summary": "Wyoming uses the term expungement, which seals a record from public access; law enforcement can still see it. Nothing is expunged automatically, so a court petition is always required. Records of an arrest or charge that did not lead to conviction can be expunged 180 days after the arrest or dismissal if no charges are pending. A misdemeanor conviction can be expunged five years after the sentence ends (one year for status offenses, such as underage drinking), if no firearm was involved. Many felony convictions can be expunged ten years after the sentence, any court-ordered program and restitution are complete, if the person has no other felony convictions and no firearm was used. Violent felonies, sexual offenses, child abuse, weapons offenses, bribery and several other listed felonies are excluded. A person can receive only one misdemeanor expungement and one felony expungement under these laws.",
+  "sources": [
+   "https://ccresourcecenter.org/?p=8509",
+   "https://www.wyocourts.gov/legal-help-by-topic/expungements/"
+  ],
+  "errors_in_old": [
+   "'Permits expungement of ... first-time drug offenses' is unsupported: neither source lists a first-time drug offense expungement; the non-conviction statute does not apply where there was a guilty plea or deferred adjudication.",
+   "'Wyoming expanded eligibility in recent years' is unsupported: CCRC (updated November 2026) lists no recent changes to adult expungement.",
+   "Omits the one-expungement limits, the firearm exclusion, the excluded felonies and that the felony wait also requires no other felony convictions.",
+   "The 5-year misdemeanor and 10-year felony waiting periods and non-conviction expungement are accurate."
+  ],
+  "uncertain": [
+   "Scope of misdemeanor expungement: the Wyoming Judicial Branch page says any misdemeanor may qualify (5 years; 1 year for status offenses), while CCRC describes s. 7-13-1501 as covering only listed misdemeanors (simple assault, battery, domestic violence, reckless endangerment, breach of peace). The summary follows the court page; the statute text on wyoleg.gov was not opened.",
+   "Whether a case dismissed after a deferral (s. 7-13-301 or the drug first-offender statute) can be expunged: the court page says it 'may' be possible under other statutes; a January 2026 Wyoming Supreme Court decision (Lynch) reportedly held such a dismissed case does not qualify under the felony statute. Left out.",
+   "The usual CCRC profile URL returned 404; the profile was opened via https://ccresourcecenter.org/?p=8509."
+  ],
+  "confidence": "medium"
+ },
+ "AZ": {
+  "summary": "Arizona has three separate remedies, none of them automatic. A set-aside, available for most convictions after the sentence, dismisses the judgment of guilt and lifts most penalties, but the record stays public. Record sealing, created by a 2021 law (SB 1294) that took effect at the start of 2023, removes records from public view. Arrests without charges, dismissals, acquittals and most convictions can be sealed by petition once any sentence, fines and restitution are complete. Waiting periods after the sentence ends are 2 years for class 2 and 3 misdemeanors, 3 years for class 1 misdemeanors, 5 years for class 4 to 6 felonies and 10 years for class 2 and 3 felonies. Class 1 felonies, dangerous and violent offenses, and certain sex offenses cannot be sealed. Separately, since July 2021, records of certain small marijuana offenses from before November 30, 2020 can be expunged by petition under Proposition 207.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/arizona-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.azleg.gov/ars/13/00911.htm",
+   "https://www.azleg.gov/ars/13/00905.htm",
+   "https://www.azcourts.gov/selfservicecenter/Criminal-Law/Sealing-Criminal-Case-Records",
+   "https://www.azcourts.gov/prop207"
+  ],
+  "errors_in_old": [
+   "SB 1294 (2021) did not create set-asides; it created record sealing (ARS 13-911, in effect from 2023). Set-asides (ARS 13-905) existed long before.",
+   "Old summary omits record sealing entirely, which is now the main remedy and covers non-convictions, misdemeanors and most felonies with 2 to 10 year waiting periods.",
+   "'Expungement laws' is misleading: Arizona's only true expungement is for certain marijuana offenses (Prop 207, 2020; petitions from July 12, 2021). That part of the old summary was correct."
+  ],
+  "uncertain": [
+   "Exact effective date of sealing law: CCRC says 'from and after December 31, 2022'; summary says 'start of 2023'.",
+   "CCRC reports 2026 laws (HB 2198, HB 2720) allowing immediate sealing of petty offenses and vacated trafficking-related convictions; current statute text shows 'immediately' for these but bill numbers not confirmed from an official source.",
+   "CCRC reports a 2026 law (HB 2749) allowing reduction of some class 4-6 felonies to misdemeanors; not verified officially and left out.",
+   "Whether all court debt must be paid before a set-aside is unclear per CCRC."
+  ],
+  "confidence": "high"
+ },
+ "FL": {
+  "summary": "Florida has two court-ordered remedies, sealing and expunction, and both are limited to cases that did not end in a conviction: charges that were dropped or dismissed, acquittals, and cases where adjudication of guilt was withheld. Anyone ever adjudicated guilty of a crime in Florida is ineligible, and generally only one sealing or expunction is allowed in a lifetime. A certificate of eligibility from the Florida Department of Law Enforcement (FDLE) is required before petitioning, and the court may still deny the request. Withheld-adjudication cases can be sealed and, after 10 years sealed, expunged; many serious violent and sexual offenses are excluded. A 2019 law also directs FDLE to automatically seal its own records of cases that ended without charges, in dismissal or in acquittal; forcible felonies are excluded and local police records are not covered. A 2026 bill to allow sealing of some misdemeanor convictions failed.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/florida-restoration-of-rights-pardon-expungement-sealing/",
+   "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0900-0999/0943/Sections/0943.059.html",
+   "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0900-0999/0943/Sections/0943.0595.html",
+   "https://flsenate.gov/Session/Bill/2026/810"
+  ],
+  "errors_in_old": [
+   "'Only first-time offenders' is imprecise: the rule is that the person must never have been adjudicated guilty of a crime in Florida and must not have had a prior sealing or expunction.",
+   "Does not make clear that convictions (adjudications of guilt) cannot be sealed or expunged at all; relief is for non-conviction and withheld-adjudication records only.",
+   "Omits the automatic sealing of non-conviction records by FDLE (s. 943.0595, enacted 2019), which needs no certificate or petition."
+  ],
+  "uncertain": [
+   "FDLE's own seal/expunge web pages returned 403/not found, so FDLE guidance was not read directly; statute text was used instead.",
+   "How fully FDLE's automatic sealing is operating in practice could not be confirmed from an official source.",
+   "s. 943.0595 was amended in 2025 (ch. 2025-156); what changed was not verified.",
+   "Other routes (lawful self-defense, human trafficking victims, juvenile diversion) exist per CCRC but were not confirmed officially and are left out."
+  ],
+  "confidence": "medium"
+ },
+ "IN": {
+  "summary": "Indiana's expungement law (Indiana Code 35-38-9) (2013), often called the Second Chance Law, covers arrests, misdemeanors and many felonies. Since July 2022, courts order expungement without a petition when all charges are dismissed or the person is acquitted; uncharged arrests can be expunged by petition after one year. Misdemeanors can be expunged 5 years after conviction and Level 6 (Class D) felonies after 8 years, and the court must grant an eligible petition. More serious felonies become eligible at the later of 8 years after conviction or 3 years after the sentence ends; some require 10 years, or 5 years after the sentence, plus the prosecutor's consent. For these the judge has discretion, and records stay public but are marked expunged. Sex or violent offenders and people convicted of homicide, human trafficking or felony sex crimes are excluded. Conviction expungement can generally be sought only once in a lifetime.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/indiana-restoration-of-rights-pardon-expungement-sealing/",
+   "https://secure.in.gov/courts/iocs/files/pubs-trial-court-courtmgmt-expungement-detailed.pdf"
+  ],
+  "errors_in_old": [
+   "'Mandates expungement ... leaving little discretion to judges' is true only for non-convictions, misdemeanors and Level 6/Class D felonies; for more serious felonies (IC 35-38-9-4 and -5) the judge has discretion and, for the most serious, prosecutor consent is required.",
+   "'Many felonies after 8-10 years' needs precision: Level 6 felonies 8 years; other felonies the later of 8 years from conviction or 3 years from sentence completion; serious felonies the later of 10 years or 5 years from sentence completion.",
+   "Omits automatic expungement of dismissals and acquittals (since July 1, 2022), the one-year rule for arrests, the once-in-a-lifetime petition limit, and the exclusions.",
+   "'Unique' is unsupported; 'comprehensive' is a banned word."
+  ],
+  "uncertain": [
+   "CCRC text is internally inconsistent on uncharged arrests (180 days vs one year); the Indiana Office of Court Services digest (updated 7/1/2026) states one year, which the summary follows.",
+   "Additional eligibility conditions (no pending charges, fines and restitution paid, no recent convictions) are not spelled out in the summary."
+  ],
+  "confidence": "high"
+ },
+ "ME": {
+  "summary": "Maine does not have expungement for adult convictions. Instead, a court can seal a limited set of convictions on the person's motion. Under changes that took effect in August 2024, eligible convictions are current or former Class E crimes (the lowest class), except certain sexual assault offenses, and certain marijuana offenses committed before January 30, 2017; an earlier age limit was removed. At least 4 years must have passed since the sentence was fully completed, with no new convictions and no pending charges. A separate process, enacted in 2026, lets survivors of sex trafficking or sexual exploitation ask to seal convictions that resulted from it, without the waiting period. Higher classes of crime are otherwise generally ineligible. Sealing is not automatic; a 2026 bill to create automatic sealing was vetoed. Non-conviction records are generally confidential in agency files, though not in court files.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/maine-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.courts.maine.gov/help/criminal/sealing.html",
+   "https://legislature.maine.gov/statutes/15/title15sec2261.html",
+   "https://legislature.maine.gov/statutes/15/title15sec2262.html"
+  ],
+  "errors_in_old": [
+   "Says Maine has 'few provisions for adult records': outdated. Since 2022, and more broadly since August 9, 2024, adults can move to seal Class E convictions and certain pre-2017 marijuana convictions after 4 years.",
+   "'Certain marijuana offenses can be expunged' is wrong: they can be sealed, not expunged; the Maine Judicial Branch states Maine does not have expungement.",
+   "'Some non-conviction records may be eligible for sealing' is inaccurate: non-conviction records are made confidential by statute (Criminal History Record Information Act) rather than sealed on request.",
+   "Leads with juvenile records, which is off-topic for an adult summary."
+  ],
+  "uncertain": [
+   "Exact effective date of the sex trafficking survivor sealing law (PL 2025, c. 513; CCRC says enacted January 11, 2026).",
+   "Details of the separate process for former Class E prostitution convictions (repealed offense) were not checked.",
+   "CCRC's account of the 2026 automatic sealing bill (LD 1911) veto was not confirmed with an official source."
+  ],
+  "confidence": "high"
+ },
+ "NC": {
+  "summary": "North Carolina calls the remedy expunction. Charges that were dismissed or ended in a not-guilty finding can be expunged with no waiting period, and under the Second Chance Act of 2020 many are expunged automatically. That automatic process was paused from 2022 to 2024 and has resumed; it now takes place 180 to 210 days after the case ends. \"Nonviolent\" convictions can be expunged by petition: one misdemeanor after 3 years (reduced from 5 in 2025), more than one misdemeanor after 7 years, one felony after 10 years (15 for certain breaking and entering offenses), and two or three felonies after 20 years. A first offense is not required. Excluded are Class A through G felonies, Class A1 misdemeanors, offenses involving assault, offenses requiring sex offender registration, impaired driving, and certain drug felonies. The filing fee for a conviction petition is generally $175.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/north-carolina-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-145.5.html",
+   "https://www.nccourts.gov/help-topics/court-records/expunctions"
+  ],
+  "errors_in_old": [
+   "'First-time' offenses: no longer required. Multiple nonviolent misdemeanors, and up to three nonviolent felonies (since 2021), can be expunged.",
+   "'Waiting periods of 5-10 years' is outdated: now 3 years for one misdemeanor (since July 9, 2025), 7 years for multiple misdemeanors, 10 years for one felony (15 for some breaking and entering), 20 years for two or three felonies.",
+   "Omits automatic expunction of dismissed and not-guilty charges (Second Chance Act 2020; applies to dispositions from December 1, 2021; paused August 2022 to July 2024; resumed).",
+   "State term is 'expunction', not 'expungement'."
+  ],
+  "uncertain": [
+   "CCRC profile (updated April 2026) still lists 5 years for a single misdemeanor; the current statute text on ncleg.gov says 3 years and UNC School of Government search results attribute the change to S.L. 2025-71. Summary follows the statute.",
+   "Whether the waiting period runs from conviction or from the end of the sentence when those differ ('whichever occurs later') has an open interpretive question per UNC School of Government.",
+   "Automatic expunction does not cover felony charges dismissed under a plea agreement (per CCRC), and a 2025 law reportedly excludes some court dismissals from December 1, 2025; not verified officially.",
+   "Whether cases skipped during the 2022-2024 pause have all been expunged is not confirmed."
+  ],
+  "confidence": "high"
+ },
+ "NV": {
+  "summary": "Nevada's remedy is record sealing, requested by petition to the court. For convictions, waiting periods run from release from custody or the end of parole or probation: 1 year for most misdemeanors; 2 years for gross misdemeanors, Category E felonies and misdemeanor battery, harassment or stalking; 5 years for Category B, C and D felonies; 7 years for misdemeanor DUI and domestic battery; and 10 years for Category A felonies, crimes of violence and residential burglary. A 2017 law shortened these periods and created a presumption in favor of sealing. Crimes against children, sexual offenses and felony DUI cannot be sealed. Dismissed charges and acquittals can be sealed at any time. Under a 2019 law, convictions for conduct that has since been decriminalized, such as possessing small amounts of marijuana, are sealed on written request at no cost; this is not automatic. A 2023 automatic sealing bill was vetoed.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/nevada-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.leg.state.nv.us/NRS/NRS-179.html"
+  ],
+  "errors_in_old": [
+   "'Expanded eligibility in 2019 and reduced waiting periods': the waiting-period reductions and presumption in favor of sealing came from a 2017 law (AB 327). The 2019 law (AB 192) added sealing for decriminalized offenses.",
+   "'Automatic sealing of decriminalized marijuana offenses' is wrong: NRS 179.271 requires a written request to the court (granted unless the prosecutor objects within 10 judicial days). Nevada has no automatic sealing of adult convictions; a 2023 automatic sealing bill was vetoed.",
+   "Omits the exclusions (crimes against a child, sexual offenses, felony DUI and related offenses)."
+  ],
+  "uncertain": [
+   "NRS 179.245 history shows a 2025 amendment; what it changed was not identified (waiting periods above are from the current statute text on the legislature's site).",
+   "Cases declined for prosecution (no charges filed) have a different timing rule (statute of limitations expired, 8 years after arrest, or by agreement); left out of the summary for brevity.",
+   "A 2021 law reportedly requires courts to seal under-21 alcohol and small marijuana possession records after conditions are completed; whether a petition is needed is unclear per CCRC."
+  ],
+  "confidence": "high"
+ },
+ "RI": {
+  "summary": "Rhode Island calls the remedy expungement, requested by motion in the convicting court. A first offender (one conviction and no pending case) may seek expungement of a misdemeanor 5 years, or a felony 10 years, after completing the sentence. People with two to five misdemeanors and no disqualifying felony may do so 10 years after their last sentence; domestic violence and DUI convictions are excluded from this route. A 2026 law, effective June 22, 2026, added a route for people with two to four felonies, 15 years after completing the last sentence. Crimes of violence cannot be expunged. Completed deferred sentences and later-decriminalized offenses can be expunged without those waiting periods. Dismissed and acquitted cases are sealed under a separate process, and since 2023 some dismissals are sealed automatically. A 2022 law required automatic expungement of past cannabis possession convictions by July 2024.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/rhode-island-restoration-of-rights-pardon-expungement-sealing/",
+   "https://webserver.rilegislature.gov/Statutes/TITLE12/12-1.3/12-1.3-2.HTM",
+   "https://webserver.rilegislature.gov/Statutes/TITLE12/12-1.3/12-1.3-1.HTM"
+  ],
+  "errors_in_old": [
+   "Limits relief to 'first-time' offenses: outdated. Since 2017 people with more than one but fewer than six misdemeanors can seek expungement after 10 years, and since June 22, 2026 people with more than one but fewer than five felonies can do so after 15 years.",
+   "'Nonviolent' is loosely right but the legal test is no conviction for a listed 'crime of violence' (and, for the multiple-conviction routes, other prohibited offenses).",
+   "Omits automatic expungement of cannabis possession convictions (2022 Cannabis Act), expungement of deferred sentences and decriminalized offenses, and sealing of non-conviction records.",
+   "'No subsequent convictions' is imprecise: a first offender must have no prior conviction or probation and no pending case; CCRC describes the waiting period as arrest-free."
+  ],
+  "uncertain": [
+   "The CCRC profile (updated April 2026) predates the 2026 multiple-felony amendment and describes the misdemeanor route as '2 to 6' convictions; the statute says 'more than one ... but fewer than six', i.e. 2 to 5. Summary follows the statute.",
+   "Full list of 'other prohibited offenses' and how the one-time limit on the multiple-felony route works were not summarized.",
+   "Whether automatic cannabis expungement was fully completed by the July 2024 deadline was not confirmed officially.",
+   "Rhode Island courts' own expungement web page could not be opened (404)."
+  ],
+  "confidence": "high"
+ },
+ "VA": {
+  "summary": "Virginia has two remedies. Expungement, by petition, covers charges that ended in acquittal or dismissal. Record sealing, enacted in 2021 and amended in 2025, took effect on July 1, 2026. Some sealing is automatic: past marijuana possession cases; misdemeanor acquittals and dismissals with prejudice; and seven misdemeanor convictions, including petit larceny, shoplifting, trespassing and disorderly conduct, once 7 years pass with no new convictions. By petition, many other misdemeanors, Class 5 and 6 felonies and felony larceny convictions can be sealed after 7 years (misdemeanors) or 10 years (felonies) without a new conviction, with a lifetime limit of two granted petitions and restitution paid in full. Violent felonies, sex crimes, firearm offenses, DUI and domestic assault are among the exclusions. There is no fee to file a sealing petition. Sealed records are hidden from the public but still exist and can be shared for purposes such as firearm checks.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/virginia-restoration-of-rights-pardon-expungement-sealing/",
+   "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.12/",
+   "https://vscc.virginia.gov/2026/VSCC%20Sealing%20Overview%20for%20Website%20July%202026.pdf"
+  ],
+  "errors_in_old": [
+   "Outdated rather than wrong: it does not say that the 2021 sealing law (amended 2025) actually took effect on July 1, 2026, after repeated delays.",
+   "Omits that part of the new law is automatic (marijuana possession, certain misdemeanor convictions after 7 years, misdemeanor non-convictions) and gives no waiting periods (7 years misdemeanors, 10 years felonies) or limits (Class 5/6 felonies and felony larceny only; two petitions per lifetime)."
+  ],
+  "uncertain": [
+   "Timing of the first automatic sealings: search results indicate State Police had until October 1, 2026 to send the first list of eligible convictions; how far implementation has progressed was not confirmed.",
+   "The starting point of the 7 and 10 year waiting periods varies (conviction, release, or later violation); simplified in the summary.",
+   "DUI and domestic assault exclusions are taken from CCRC; the statute text refers to offenses against a family or household member and a list of specific statutes that was not checked item by item.",
+   "CCRC reports a 2026 expungement amendment (SB 230) on deferred dispositions; not verified officially and left out.",
+   "Statute versions keyed to July 1, 2027 exist for some sections, so further changes may be scheduled."
+  ],
+  "confidence": "high"
+ },
+ "CA": {
+  "summary": "California's court website states that true expungement does not exist in the state. The main remedy is a dismissal (set-aside) under Penal Code 1203.4 and related sections, requested by petition. It is granted as of right when probation was completed, and at the court's discretion in other cases; a misdemeanor without probation requires one year from conviction. A 2022 law (SB 731) extended dismissal to nearly all felonies, except offenses requiring sex offender registration. A dismissal does not seal the record. Proposition 47 (2014) allows certain felonies to be reduced to misdemeanors, and Proposition 64 (2016) allows marijuana convictions to be dismissed, sealed or redesignated. Since July 2022 the Department of Justice has granted automatic record relief each month for eligible arrests and convictions dating back to 1973, extended to more felonies in October 2024. The Department says this relief limits disclosure but is not a dismissal, sealing or expungement.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/california-restoration-of-rights-pardon-expungement-sealing/",
+   "https://selfhelp.courts.ca.gov/clean-your-record",
+   "https://selfhelp.courts.ca.gov/clean-your-record/misdemeanors",
+   "https://oag.ca.gov/fingerprints/automatic-record-relief-penal-code-sections-851.93-and-1203.425",
+   "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1342"
+  ],
+  "errors_in_old": [
+   "Calls the remedy 'expungement'; the California Courts self-help site says true expungement does not exist in California (the remedy is dismissal/set-aside, which does not seal the record).",
+   "'Automatic expungement for certain offenses' is misleading: the California DOJ states automatic record relief (in effect since July 2022) is not a dismissal, sealing or expungement; it limits disclosure.",
+   "'After completing probation' is incomplete/outdated: SB 731 (2022) extended dismissal to nearly all felonies, including prison sentences, except sex-registration offenses.",
+   "Prop 64 relief is dismissal, sealing or redesignation rather than 'expungement'.",
+   "Opening sentence ('most progressive in the country') is an unsupported opinion."
+  ],
+  "uncertain": [
+   "Exact waiting periods for petition-based dismissal of felonies sentenced to county jail or state prison (commonly stated as 1-2 years after sentence completion; not confirmed on an official page I could open).",
+   "Precise exclusions from automatic conviction relief for felonies (statute 1203.425 not read directly).",
+   "SB 1342 (Chapter 702, Statutes of 2026) adds automatic relief for dismissed felony arrests and other changes, but only from October 1, 2029; left out of summary as not yet in effect.",
+   "Arrest-record sealing by petition under Penal Code 851.91 was not verified in the sources opened."
+  ],
+  "confidence": "medium"
+ },
+ "GA": {
+  "summary": "Georgia does not offer expungement of adult records. The remedy is called record restriction, which limits access to a person's state criminal history to judicial officials and criminal justice agencies; court records must be sealed separately by petition. Arrests that end in dismissal or no prosecution are generally eligible, and for arrests after July 1, 2013 restriction is often automatic. A 2020 law (SB 288) allows a petition to restrict misdemeanor convictions once the sentence is complete and four years have passed without a new conviction, up to two in a lifetime. Family violence, certain sexual offenses, theft and serious traffic offenses such as DUI are excluded. Felony convictions qualify only after a pardon, and not for serious violent felonies or sexual offenses. People sentenced under the First Offender Act or drug conditional discharge who complete their sentence are not treated as convicted, and their records are restricted.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/georgia-restoration-of-rights-pardon-expungement-sealing/",
+   "https://gbi.georgia.gov/services/obtaining-criminal-history-record-information-frequently-asked-questions",
+   "https://gov.georgia.gov/document/2020-signed-legislation/sb-288/download"
+  ],
+  "errors_in_old": [
+   "'Recent reforms' is vague: the misdemeanor provision comes from SB 288, signed in 2020.",
+   "Omits the lifetime limit of two misdemeanor convictions and the excluded misdemeanors (family violence, certain sex offenses, theft, DUI/serious traffic).",
+   "Does not say that felony convictions can be restricted only after a pardon (and never for serious violent or sexual felonies).",
+   "The name 'Second Chance Law' is an informal label; it does not appear in the statute or official sources I opened.",
+   "The four-year period means four years with no conviction before filing, after the sentence is completed - not simply a four-year wait."
+  ],
+  "uncertain": [
+   "SB 288's effective date (reported as January 1, 2021) was seen only in search snippets, not on an opened page.",
+   "Exact list of excluded misdemeanors in the current code (I read the 2020 bill text and the CCRC profile, not the current O.C.G.A. 35-3-37); 'DUI' is my reading of 'serious traffic offenses'.",
+   "Whether any 2025-2026 legislation changed 35-3-37 (CCRC profile updated April 2026 shows none)."
+  ],
+  "confidence": "medium"
+ },
+ "KS": {
+  "summary": "Kansas uses the term expungement, and it is requested by petition to the court. Under K.S.A. 21-6614, most misdemeanors, traffic infractions, lower-level felonies and completed diversions can be expunged three years after the sentence, probation or parole is finished. More serious felonies, certain driving offenses and a first DUI require five years; a second or later DUI requires ten years. The court must find that the person has had no felony conviction in the past two years and has no felony case pending, and that expungement is consistent with the public welfare. Murder, manslaughter, rape and other listed sex offenses and crimes against children cannot be expunged, and no expungement is available while a person must register as an offender. Arrests that did not lead to conviction can be expunged by petition under a separate statute, K.S.A. 22-2410. Kansas has no automatic expungement process.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/kansas-restoration-of-rights-pardon-expungement-sealing/",
+   "https://ksrevisor.gov/statutes/chapters/ch21/021_066_0014.html",
+   "https://kssos.org/publications/sessionlaws/2026/Chapter-61-HB-2323.html"
+  ],
+  "errors_in_old": [
+   "Waiting periods are wrong: misdemeanors are 3 years (not 3-5), except DUI; felonies are 3 years (lower-level) or 5 years (serious), not 5-10. Ten years applies only to a second or later DUI.",
+   "'No subsequent convictions during the waiting period' is inaccurate: the statute requires no felony conviction in the past two years and no pending felony proceeding.",
+   "Omits arrest/non-conviction expungement (K.S.A. 22-2410) and the list of offenses that can never be expunged."
+  ],
+  "uncertain": [
+   "CCRC says the second-DUI wait is 7 or 10 years depending on offense date; the statute summary I read says 10 years with a date carve-out. Summary uses 10.",
+   "2026 amendments (HB 2323, SB 430) appear limited to insurance-licensing disclosure and recodification; I did not read SB 430 in full.",
+   "K.S.A. 22-2410 details were confirmed only through CCRC, not the statute text."
+  ],
+  "confidence": "high"
+ },
+ "MI": {
+  "summary": "Michigan calls the remedy setting aside a conviction; official state guidance treats \"set aside\", \"expungement\" and \"Clean Slate\" as the same thing. Under Clean Slate laws passed in 2020, a person can apply to the court to set aside up to three felonies and an unlimited number of misdemeanors. Waiting periods are three years for most misdemeanors, five years for one felony or a serious misdemeanor, and seven years for more than one felony. A first drunk-driving offense without injury can be set aside after five years. Michigan State Police also run an automatic process, now in operation, with no application: misdemeanors after seven years (up to four if punishable by 93 days or more) and up to two felonies after ten years. Excluded are life-sentence felonies, most criminal sexual conduct, repeat drunk driving and human trafficking; assaultive crimes are limited. Arrest records without conviction are handled separately.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/michigan-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.michigan.gov/ag/initiatives/expungement-assistance"
+  ],
+  "errors_in_old": [
+   "Largely accurate but lacks specifics: waiting periods are 3, 5 or 7 years by application; automatic set-aside covers misdemeanors after 7 years and up to 2 felonies after 10 years.",
+   "'Certain non-violent offenses' understates the automatic exclusions, which also cover serious misdemeanors, crimes of dishonesty, offenses punishable by 10+ years and others (per CCRC).",
+   "Does not mention limits within the three-felony rule (no more than two assaultive crimes; only one felony punishable by 10+ years) or excluded offenses."
+  ],
+  "uncertain": [
+   "Start date of the automatic process (April 11, 2023) appeared only in search snippets of a Michigan AG press release I could not open; summary says only that it is in operation.",
+   "Full list of offenses excluded from the automatic process (CCRC lists more exclusions than the AG page; statute MCL 780.621g not read).",
+   "Whether the 5-year first-offense OWI wait applies exactly as stated (AG page and CCRC agree; statute not read)."
+  ],
+  "confidence": "high"
+ },
+ "ND": {
+  "summary": "North Dakota's remedy is sealing of the criminal record, created by a 2019 law (N.D.C.C. chapter 12-60.1). A person may petition the court to seal a misdemeanor after at least three years, or a felony after at least five years, without a new conviction; a conviction pardoned by the governor may also be sealed. The court decides case by case; prison and probation terms must be complete and restitution paid. Violent felonies cannot be sealed while the person is barred from possessing firearms, and offenses requiring sex offender registration are excluded. Under a 2025 law, when all charges in a case are dismissed or end in acquittal on or after August 1, 2025, the court closes the record automatically after 61 days; older cases can be closed by petition with no fee. A first marijuana possession offense of one ounce or less can be sealed under a separate provision.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/north-dakota-restoration-of-rights-pardon-expungement-sealing/",
+   "https://ndlegis.gov/cencode/t12c60-1.pdf",
+   "https://ndlegis.gov/cencode/t12c60-1.html"
+  ],
+  "errors_in_old": [
+   "'Reduction to infraction' is not the name of North Dakota's sealing process and I found no such sealing remedy; the remedy is a petition to seal under N.D.C.C. ch. 12-60.1 (2019).",
+   "Waiting periods stated as '3-5 years for most offenses' are imprecise: 3 years without a new conviction for misdemeanors, 5 years for felonies.",
+   "Outdated on non-convictions: since August 1, 2025 dismissed/acquitted cases are closed automatically after 61 days (HB 1166, 2025).",
+   "Omits exclusions (violent felonies during the firearm-ban period; sex-offender-registration offenses)."
+  ],
+  "uncertain": [
+   "Marijuana sealing provision (N.D.C.C. 19-03.1-23(9)) and the two-year condition were confirmed only via CCRC.",
+   "A separate DUI-record sealing statute (N.D.C.C. 39-08-01.6) exists per the court's forms list, but I did not open it; left out.",
+   "'Closed' non-conviction records remain visible to courts and criminal justice agencies; exact practical effect on background checks not verified."
+  ],
+  "confidence": "high"
+ },
+ "NY": {
+  "summary": "New York mainly uses sealing: records still exist but are hidden from the public and most employers. Cases that end in the person's favor, such as dismissals and acquittals, are sealed automatically, as are most non-criminal violations. Under the Clean Slate Act, signed in 2023 and in effect since November 2024, most convictions are sealed automatically: misdemeanors three years after sentencing or release, and felonies eight years after release, if the person has no pending charges and is no longer on probation or parole. Sex offenses and most Class A felonies are excluded. The court system has until November 2027 to finish sealing eligible records. Separately, a person can apply to a court to seal up to two convictions, only one a felony, after ten years; violent felonies, Class A felonies and sex offenses are excluded. Laws passed in 2019 and 2021 automatically expunged many marijuana convictions.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/new-york-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.nysenate.gov/legislation/laws/CPL/160.57",
+   "https://www.nysenate.gov/legislation/laws/CPL/160.59"
+  ],
+  "errors_in_old": [
+   "Outdated: omits the Clean Slate Act (signed 2023, effective November 2024), which automatically seals most misdemeanors after 3 years and most felonies after 8 years.",
+   "The 10-year sealing by application (CPL 160.59) is limited to two convictions, only one a felony - not stated.",
+   "Marijuana convictions were automatically vacated and expunged (2019 law and 2021 MRTA), not merely sealed; so New York does use 'expungement' for marijuana.",
+   "Omits automatic sealing of dismissals/acquittals (CPL 160.50)."
+  ],
+  "uncertain": [
+   "Exact effective date (November 16, 2024) and deadline (November 16, 2027) come from CCRC ('one year after enactment', 'until November 2027') and search snippets of the nycourts.gov page, which blocked direct access.",
+   "Current progress of the court system's Clean Slate sealing as of November 2026 - whether eligible records have already been sealed - not verified.",
+   "Class A felony exclusion: the statute excepts Class A drug (Article 220) offenses; CCRC words it as Class A felonies subject to a life sentence."
+  ],
+  "confidence": "medium"
+ },
+ "SC": {
+  "summary": "South Carolina uses the term expungement, but only specific categories qualify. Charges that were dismissed or ended in a not-guilty finding can be expunged at no cost; in magistrate and municipal courts this happens automatically. Convictions eligible by application include: minor offenses carrying up to 30 days in jail or a $1,000 fine, three years after conviction with no other conviction (five years for third-degree domestic violence); a first offense under the Youthful Offender Act, five years after the sentence is completed; first-offense simple drug possession after three years; and first-offense possession with intent to distribute after twenty years. Completing pretrial intervention can also lead to expungement. Most categories can be used only once. Driving offenses are excluded, and there is no general expungement for felonies or violent crimes. Applications for convictions go through the circuit solicitor's office.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/south-carolina-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.scstatehouse.gov/code/t22c005.php",
+   "https://www.sccourts.org/resources/general-public/expungement-application-process/for-magistrate-municipal-courts/",
+   "https://www.sccourts.org/expungementInfo/expAppProcessGS.cfm"
+  ],
+  "errors_in_old": [
+   "Broadly accurate but vague: gives no waiting periods (3 years for minor offenses and simple drug possession, 5 years for domestic violence 3rd degree and Youthful Offender Act, 20 years for possession with intent to distribute).",
+   "'Certain first-time offenses' is partly outdated: a 2018 law (H.3209) removed the first-offense requirement for minor summary-court convictions (still once-only).",
+   "'Expanded eligibility in recent years' is undated: main expansion was 2018; smaller changes in 2023 and 2024.",
+   "Does not mention that relief is generally available only once, or that driving offenses are excluded."
+  ],
+  "uncertain": [
+   "Fee amounts ($250 solicitor fee, $25 SLED, $35 clerk) come from CCRC/secondary sources; left out of summary.",
+   "Other narrow categories (fraudulent check first offense, failure to stop, alcohol education program, human trafficking survivors) confirmed via CCRC only; not detailed in summary.",
+   "Exact timing of the automatic summary-court expungement and its exceptions (objection for pending charges) simplified."
+  ],
+  "confidence": "high"
+ },
+ "VT": {
+  "summary": "Vermont changed its system in 2025. Act 60, in effect since July 1, 2025, moved from expungement and sealing to sealing in most cases and expanded the list of qualifying crimes. A person may petition to seal most misdemeanors three years after completing the sentence, qualifying felonies after seven years, and a misdemeanor DUI after ten years; restitution and surcharges must be paid. Qualifying felonies are limited to certain burglaries, designated property offenses, certain drug offenses and pardoned convictions. Violent \"listed\" crimes and offenses requiring sex offender registration do not qualify. Expungement remains for convictions based on conduct that is no longer a crime. Charges that were dismissed or ended in acquittal are generally sealed by the court within 60 days unless a party objects. Sealed records stay available to criminal justice agencies. A 2020 law automatically expunged older small-amount marijuana possession convictions.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/vermontrestoration-of-rights-pardon-expungement-sealing/",
+   "https://legislature.vermont.gov/statutes/fullchapter/13/230",
+   "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT060/ACT060%20Act%20Summary.pdf",
+   "https://ccresourcecenter.org/resources-2/vermont/"
+  ],
+  "errors_in_old": [
+   "Outdated: since July 1, 2025 (Act 60 / S.12) the main remedy is sealing, not expungement; expungement remains mainly for conduct that is no longer a crime.",
+   "Waiting periods are wrong: now 3 years (misdemeanors), 7 years (qualifying felonies), 10 years (misdemeanor DUI) - not '5-10 years'.",
+   "The '2019' expansion date is unsupported by the sources I opened; CCRC describes expansions in 2018 and 2025.",
+   "'Certain felonies' should be specific: only a short list of felonies qualifies (some burglary, property and drug offenses, pardoned convictions)."
+  ],
+  "uncertain": [
+   "Whether a 2019 act also expanded qualifying crimes (not confirmed).",
+   "Exact scope of the 'certain regulated drug offenses' felony category and of excluded misdemeanors (statute read via summary tool only).",
+   "Vermont courts' own self-help page (vtcourts.gov/criminal/expungement) returned a server error, so court practice details were not checked.",
+   "Special rule for offenses committed at ages 18-21 (petition 30 days after sentence completion, 13 V.S.A. 7609) left out for space."
+  ],
+  "confidence": "high"
+ },
+ "CO": {
+  "summary": "Colorado calls record clearing \"sealing\". When a case ends in acquittal, complete dismissal, or a completed diversion or deferred judgment, the court is meant to seal it automatically; if that does not happen, a motion can be filed with no fee. Many convictions can be sealed by motion after a waiting period that runs from one year for petty offenses to five years for the most serious eligible offenses. Under the Clean Slate Act (2022), courts also seal eligible convictions automatically: after four years for civil infractions, seven years for petty offenses and misdemeanors, and ten years for felonies. Automatic sealing began in 2024, and non-drug felonies were added in July 2025. Class 1, 2 and 3 felonies, DUI, crimes of violence, sex offenses, domestic violence and child abuse convictions are generally not eligible. Restitution must be paid before a conviction is sealed by motion.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/colorado-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.coloradojudicial.gov/self-help/seal-my-case",
+   "https://www.coloradojudicial.gov/sites/default/files/2026-08/Sealing%20Criminal%20Records%20-%20January%202026.pdf",
+   "https://www.coloradojudicial.gov/sealed-case",
+   "https://colorado.public.law/statutes/crs_13-3-117"
+  ],
+  "errors_in_old": [
+   "Says automatic sealing covers 'certain drug offenses' only: outdated. The Clean Slate Act (SB 22-099, 2022) covers all petition-eligible convictions except Victim Rights Act crimes: civil infractions, petty offenses, misdemeanors, drug felonies and, since July 1, 2025, other eligible felonies.",
+   "Does not mention that non-conviction cases (dismissal, acquittal, completed diversion/deferred judgment) are sealed by the court automatically, with a no-fee motion as fallback.",
+   "'Specific provisions for marijuana offenses' is vague and partly outdated: the 2017 marijuana-specific petition law was repealed in 2019 and folded into general drug sealing; a 2021 law (HB 21-1090) and a 'conduct no longer prohibited' motion (C.R.S. 24-72-711) now apply.",
+   "No waiting periods or exclusions given (not wrong, but incomplete)."
+  ],
+  "uncertain": [
+   "Petition waiting period for ordinary misdemeanors: the court's January 2026 clinic slides say 2 years for class 2/3 and drug misdemeanors and 3 years for class 1 misdemeanors and class 4-6 felonies; CCRC summarises it as 3 years for misdemeanors. Summary uses only the 1-to-5-year range.",
+   "Clean Slate waiting periods (4/7/10 years) were confirmed from CCRC and an unofficial reproduction of C.R.S. 13-3-117, not from an official state page; the Judicial Branch pages confirm the auto-sealing process and lookup tool exist but do not state the periods.",
+   "Whether unpaid restitution blocks automatic (as opposed to petition) sealing was not confirmed.",
+   "No published figures found on how many felony records have actually been sealed since July 2025."
+  ],
+  "confidence": "high"
+ },
+ "HI": {
+  "summary": "Hawaii uses the term \"expungement\", and it is handled by the state's Hawaii Criminal Justice Data Center. It mainly covers arrests or charges that did not lead to a conviction. It is not available where bail was forfeited or the person left the state to avoid prosecution. After a deferred acceptance of a guilty or no contest plea, there is a one-year wait after discharge and dismissal. Convictions can be expunged only in a few categories and only by court order: first-time drug offenders, first-time property offenders, and drivers under 21 with a measurable amount of alcohol. There is no general expungement for other misdemeanor or felony convictions, and a pardon does not expunge a record. Since July 1, 2025, court records are sealed automatically once an expungement order is issued. Hawaii has no automatic clean slate law; a task force created in 2024 is studying one.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/hawaii-restoration-of-rights-pardon-expungement-sealing/",
+   "https://ag.hawaii.gov/hcjdc/expungements/"
+  ],
+  "errors_in_old": [
+   "'Expungement by gubernatorial pardon' is wrong: a pardon in Hawaii does not expunge or seal the record; both the conviction and the pardon remain on the record.",
+   "Omits the conviction categories that can be expunged by court order (first-time drug offender, first-time property offender, under-21 alcohol driving offense).",
+   "Deferred acceptance (DAGP/DANC) is not limited to 'first-time non-violent drug offenders'; it is a general deferral for people without a prior felony charged with eligible offenses, and expungement is available one year after discharge.",
+   "Omits the 2023 law (effective July 1, 2025) under which court records are sealed automatically after an expungement order."
+  ],
+  "uncertain": [
+   "CCRC reports a 2026 law (HB2279) extending non-conviction expungement to people arrested or charged with a crime but convicted only of a violation; not confirmed on the Attorney General's page, so left out.",
+   "Status of the Hawaii County marijuana arrest-record expungement pilot (2024, expanded 2025) could not be confirmed.",
+   "Whether the Clean Slate task force's work has led to legislation; none found as of November 2026.",
+   "Fees ($35 first time, $50 otherwise) and the 120-day processing time are from the AG page but left out of the summary as details likely to change."
+  ],
+  "confidence": "high"
+ },
+ "KY": {
+  "summary": "Kentucky uses the term \"expungement\". Since 2020, cases that end in acquittal or dismissal with prejudice are expunged automatically, with no action needed; traffic cases are excluded. Misdemeanor convictions can be expunged by petition five years after the sentence or probation ends. A 2016 law opened expungement to some Class D felonies, and a 2019 law extended it to most Class D felonies. The wait is five years after completing the sentence, probation or parole. Class D felonies involving DUI, sex offenses, offenses against a child, abuse of public office, or serious injury or death are excluded, and more serious felony classes are not eligible unless pardoned. A petition needs a certificate of eligibility, which costs $40. Felony expungement costs $300 in total: a $50 filing fee plus $250 if granted. Kentucky has no automatic expungement of convictions.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/kentucky-restoration-of-rights-pardon-expungement-sealing/",
+   "https://kycourts.gov/AOC/Information-and-Technology/Pages/Expungement.aspx",
+   "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53904",
+   "https://apps.legislature.ky.gov/LAW/STATUTES/statute.aspx?id=58307",
+   "https://apps.legislature.ky.gov/record/26rs/sb290.html"
+  ],
+  "errors_in_old": [
+   "Outdated: mentions only the 2016 law. A 2019 law (SB 57) extended eligibility to most Class D felonies and cut the felony fee from $500 to $50 filing plus $250 on grant.",
+   "Omits the 2020 change making expungement of acquittals and dismissals with prejudice automatic (no petition or fee).",
+   "The 2016 date, the five-year wait and the filing-fee/hearing statements are otherwise accurate."
+  ],
+  "uncertain": [
+   "Start date of automatic non-conviction expungement: CCRC says cases disposed after March 27, 2020; the Kentucky courts page says dismissed or acquitted on or after July 15, 2020. Summary says only 'since 2020'.",
+   "Misdemeanor five-year wait and the rule that it is mandatory with a single conviction and discretionary with several come from CCRC (KRS 431.078); the courts page refers to the statute without restating the period.",
+   "Misdemeanor filing fee ($100 per CCRC) not confirmed on an official page.",
+   "2026 SB 290 (Automatic Expungement Act) had not become law per the legislature's bill page (last action March 20, 2026). A 2026 act amends KRS 431.073 effective April 30, 2027; it appears only to add one statute to the list of eligible offenses."
+  ],
+  "confidence": "high"
+ },
+ "MN": {
+  "summary": "Minnesota uses the term \"expungement\", which means sealing a record, not destroying it. By petition, a judge weighs the benefit to the person against public safety. Dismissed cases and acquittals have no waiting period; completed diversion needs one year. Convictions need a period without a new conviction after the sentence is discharged: two years for misdemeanors, three for gross misdemeanors, and four for felonies on a set list of mostly nonviolent offenses. Felonies outside that list generally cannot be expunged, and neither can offenses that require sex offender registration. The Clean Slate Act (2023) took effect January 1, 2025, and automatically seals non-convictions, most misdemeanors and many listed felonies in state criminal history records; the state reports about two million records sealed by November 2026. A 2023 cannabis law automatically sealed lower-level cannabis records and created a board to review felony cannabis cases.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/minnesota-restoration-of-rights-pardon-expungement-sealing/",
+   "https://www.revisor.mn.gov/statutes/cite/609A.02",
+   "https://dps.mn.gov/divisions/bca/bca-divisions/professional-services/expungements",
+   "https://www.mncourts.gov/Help-Topics/Criminal-Expungement.aspx"
+  ],
+  "errors_in_old": [
+   "Waiting periods are wrong. Current law (Minn. Stat. 609A.02, as amended 2023): 2 years for misdemeanors, 3 years for gross misdemeanors (not 1-5), and 4 years for listed felonies (5 years for certain felonies deemed misdemeanors/gross misdemeanors); there is no 5-10 year felony range.",
+   "Does not say that only a set list of felonies is eligible; other felonies cannot be expunged.",
+   "Omits the Clean Slate Act (automatic expungement, in effect since January 1, 2025) and the 2023 cannabis expungement provisions.",
+   "The balancing-test statement is accurate."
+  ],
+  "uncertain": [
+   "Automatic expungement excludes some categories (CCRC lists drug convictions and reduced-level convictions as requiring a petition); the exact exclusions were not confirmed in the statute text.",
+   "Whether automatic waiting periods match the petition periods in every category was not checked against Minn. Stat. 609A.015.",
+   "The mncourts.gov help page loaded only partially (overview text); petition details were confirmed from the statute instead.",
+   "A 2024 law added a 5-year path for felonies deemed gross misdemeanors/misdemeanors that are not on the list; left out of the summary for simplicity."
+  ],
+  "confidence": "high"
+ },
+ "NE": {
+  "summary": "Nebraska has no general law for sealing or expunging adult convictions. Records of cases that did not end in conviction are removed from the public record automatically: one year after arrest if no charges were filed, two years if charges were not filed because of completed diversion, and right away after an acquittal or dismissal, including dismissal after a deferred judgment or a drug court program. For convictions, the main remedy is a \"set-aside\". It is open to people sentenced to probation, a fine, community service, or (since 2020) up to one year of incarceration, once the sentence is complete. A set-aside nullifies the conviction and removes civil disabilities, but it does not seal the record, and it is not available to people on the sex offender registry. Sealing of a conviction is available after a pardon (since 2018) and for trafficking victims whose convictions were set aside.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/nebraska-restoration-of-rights-pardon-expungement-sealing/",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=29-2264",
+   "https://nebraskalegislature.gov/laws/statutes.php?statute=29-3523"
+  ],
+  "errors_in_old": [
+   "Broadly accurate, but says non-conviction records 'allow for sealing' without noting this happens automatically under Neb. Rev. Stat. 29-3523 (immediately on dismissal/acquittal; 1 year if no charges; 2 years after diversion).",
+   "Omits the set-aside remedy (29-2264), which is the main relief for convictions though it does not seal the record, and the sealing available after a pardon or for trafficking victims.",
+   "Mentions juvenile sealing, which is outside the scope of an adult-records summary."
+  ],
+  "uncertain": [
+   "A 'Clean Slate Act' bill (LB 215, 2025-2026) was introduced; a committee amendment reportedly removed the clean slate provisions and no source showed it becoming law. Final status not confirmed on the Legislature's bill page.",
+   "The Nebraska Judicial Branch self-help page on set-asides returned 404 (site moved to nebraskajudicial.gov), so official confirmation is from statute text only.",
+   "29-2264 was last amended in 2024 (LB 20); CCRC describes LB 20 as a voting-rights law, and the set-aside eligibility rules above match the current statute text."
+  ],
+  "confidence": "high"
+ },
+ "OH": {
+  "summary": "Ohio has two remedies: \"sealing\", which hides a record from most public view, and \"expungement\", which destroys it. A 2023 law (SB 288) rewrote the rules and added expungement of convictions. Sealing can be requested six months after final discharge for minor misdemeanors, one year for misdemeanors and fourth- and fifth-degree felonies, and three years for third-degree felonies (no more than two). Expungement can be requested after six months for minor misdemeanors, one year for misdemeanors, and for felonies ten years after they become eligible for sealing. Final discharge includes paying restitution. First- and second-degree felonies, felony offenses of violence, sex offenses requiring registration, offenses with victims under 13, and most traffic and DUI convictions are excluded. Dismissals, acquittals and no-bills can also be sealed. Everything requires an application to the court; Ohio has no automatic clearing for adults.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/ohio-restoration-of-rights-pardon-expungement-sealing/",
+   "https://codes.ohio.gov/ohio-revised-code/section-2953.32"
+  ],
+  "errors_in_old": [
+   "'First-time offenders' is wrong: the first-offender limit ended in 2012, and since 2023 eligibility depends on the offense, with no cap on the number of misdemeanors or fourth/fifth-degree felonies.",
+   "'3-year waiting period for felonies' is only right for third-degree felonies; fourth- and fifth-degree felonies have a 1-year wait. Minor misdemeanors have a 6-month wait.",
+   "'Expanded eligibility in 2018' is outdated; the governing overhaul is SB 288, effective 2023 (the statute was last amended effective September 30, 2025).",
+   "'Ohio uses the term sealing rather than expungement' is now wrong: since 2023 Ohio offers both sealing and true expungement of convictions."
+  ],
+  "uncertain": [
+   "Whether the 2025 amendment (HB 96, effective September 30, 2025) changed anything beyond the points checked; the waiting periods and exclusions in the summary are from the current statute text.",
+   "Exact scope of the traffic exclusion and of the domestic violence rules (some misdemeanor DV convictions can be sealed but not expunged, others are excluded) is simplified.",
+   "Non-conviction rules (R.C. 2953.33; 2-year wait for no-bills) are from CCRC only."
+  ],
+  "confidence": "high"
+ },
+ "SD": {
+  "summary": "In South Dakota, \"expungement\" means sealing a record, and it applies mainly to cases without a conviction. A person may ask the court for expungement one year after an arrest if no charges were filed, one year after the prosecutor dismisses the entire case, or at any time after an acquittal. A 2022 change allows an earlier request after a dismissal on a showing of compelling necessity. There is no general expungement for convictions. Instead, petty offenses, municipal ordinance violations and Class 2 misdemeanors are automatically removed from the public record after five years if all court-ordered conditions are met and there are no new convictions; a 2021 law shortened this from ten years. Records are also sealed after a successfully completed suspended imposition of sentence, which is open to people with no prior convictions for most offenses, and after completed diversion (since 2018).",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/south-dakota-restoration-of-rights-pardon-expungement-sealing/",
+   "https://ujs.sd.gov/self-help/civil-law-help/expungement/",
+   "https://sdlegislature.gov/api/Statutes/23A-3-34.html"
+  ],
+  "errors_in_old": [
+   "Wrong: South Dakota does not allow expungement of 'certain misdemeanors and minor felonies after waiting periods ranging from 5-10 years'. Court expungement (SDCL 23A-3-27) covers only arrests without charges, dismissals and acquittals.",
+   "The only time-based conviction relief is automatic removal from the public record of petty offenses, municipal violations and Class 2 misdemeanors after 5 years (10 years before 2021); felonies and Class 1 misdemeanors are not covered.",
+   "'Requires that all court costs and restitution be paid' is not a stated requirement for expungement; the payment condition appears for automatic removal (court-ordered conditions satisfied) and for pardons.",
+   "Omits the one-year waiting periods for non-conviction expungement and sealing after a suspended imposition of sentence."
+  ],
+  "uncertain": [
+   "Suspended imposition of sentence details (eligibility, mandatory sealing under SDCL 23A-27-17) and diversion expungement are from CCRC only.",
+   "Sealing after a pardon (SDCL 24-14-11) exists per CCRC but was not confirmed on an official page and is left out of the summary.",
+   "Filing fee ($72 per CCRC) not confirmed on the court's page."
+  ],
+  "confidence": "high"
+ },
+ "WA": {
+  "summary": "Washington's main remedy is \"vacating\" a conviction. A court sets the conviction aside, and the person may then state they were not convicted of that crime, although the court file is not sealed. Most misdemeanors can be vacated three years after the sentence, with five years for domestic violence cases. Class C felonies need five years and class B felonies ten years after release or sentencing, with no new convictions. Violent offenses and crimes against persons, most sex offenses and felony DUI cannot be vacated; a 2019 law opened second- and third-degree assault and second-degree robbery in some cases. The same 2019 law lets adult misdemeanor marijuana convictions be vacated with no waiting period. After the 2021 State v. Blake decision, drug possession convictions from on or before February 25, 2021 can be vacated. Vacating requires a court request; there is no automatic process for adult convictions.",
+  "sources": [
+   "https://ccresourcecenter.org/state-restoration-profiles/washington-restoration-of-rights-pardon-expungement-sealing/",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=9.94A.640",
+   "https://app.leg.wa.gov/RCW/default.aspx?cite=9.96.060",
+   "https://opd.wa.gov/vacate-drug-possession-convictions-state-v-blake"
+  ],
+  "errors_in_old": [
+   "Mostly accurate. 'The effect is similar' to expungement overstates it: a vacated conviction is not sealed or destroyed, the court record stays public with a 'vacated' note, and the conviction can still be used in later prosecutions.",
+   "'Vacation' is used in the statutes, but the summary omits main exclusions (violent offenses, crimes against persons, most sex offenses, DUI limits).",
+   "Omits State v. Blake (2021), under which pre-February 25, 2021 drug possession convictions can be vacated, and non-conviction record deletion.",
+   "Marijuana expansion was a specific 2019 law for misdemeanor marijuana convictions at age 21 or older, with no waiting period."
+  ],
+  "uncertain": [
+   "Whether any class A felony can be vacated: RCW 9.94A.640 sets waiting periods only for class B and C and bars violent offenses; CCRC is unclear, so class A is not mentioned.",
+   "Non-conviction records: CCRC says deletion can be requested from police/State Patrol files 2 years after a favorable disposition or 3 years with no disposition (RCW 10.97.060), with exceptions; not confirmed on an official page and left out.",
+   "Whether misdemeanor vacating still requires all court debt to be paid: the statute text refers to completing the sentence including financial obligations; a 2024 change adjusted when the 3-year clock starts.",
+   "Misdemeanor DUI can be vacated only after 10 years with no later alcohol/drug violation; simplified out of the summary.",
+   "RCW 9.94A.640 was amended in 2025 (c 169, a bill mainly about prison riot offenses); the detail of that change was not reviewed. A 2026 state Supreme Court case (State v. Abrams) on the statute was noted but its holding was not read.",
+   "In some counties Blake convictions are vacated on the court's or clerk's initiative without a request."
+  ],
+  "confidence": "high"
+ }
+}

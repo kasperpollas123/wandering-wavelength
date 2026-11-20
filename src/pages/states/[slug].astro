@@ -3,7 +3,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import Hero from '../../components/Hero.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
-import { cities, stateNames, stateSlug, stateExpungementInfo } from '../../data/cities';
+import { cities, stateNames, stateSlug, stateExpungementInfo, stateLawSources, stateLawChecked } from '../../data/cities';
 import { getAttorneysByState, getAttorneysForCity, getCityForAttorney } from '../../data/attorneys';
 import { getHelpForState } from '../../data/freeHelp';
 
@@ -18,6 +18,8 @@ const { code } = Astro.props;
 const stateName = stateNames[code];
 const attorneys = getAttorneysByState(code).sort((a, b) => a.city.localeCompare(b.city) || a.name.localeCompare(b.name));
 const lawInfo = stateExpungementInfo[code];
+const lawSources = stateLawSources[code] || [];
+const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const helpCount = getHelpForState(code).length;
 
 // City pages in this state
@@ -58,8 +60,15 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
             <h2 class="text-2xl font-bold mb-4">Expungement Law in {stateName}</h2>
             <p class="text-gray-700 mb-4">{lawInfo}</p>
             <p class="text-sm text-gray-500">
-              This is a general summary, not legal advice. Laws change, and eligibility depends on the details of a case. An attorney in {stateName} can confirm what applies to you.
+              This is a general summary, not legal advice. Laws change, and eligibility depends on the details of a case. An attorney or a legal aid office in {stateName} can confirm what applies to you. Last checked {stateLawChecked}.
             </p>
+            {lawSources.length > 0 && (
+              <p class="text-sm text-gray-500 mt-2">
+                Sources: {lawSources.map((u, i) => (
+                  <span>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener noreferrer" class="underline">{hostOf(u)}</a></span>
+                ))}
+              </p>
+            )}
           </div>
         )}
 

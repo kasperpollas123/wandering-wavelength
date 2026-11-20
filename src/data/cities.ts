@@ -1,6 +1,7 @@
 // No Node.js imports here: Hero.astro also loads this file in the browser.
 // extraCities.json is written by scripts/build-directory.mjs.
 import extraCitiesData from './extraCities.json';
+import stateLawData from './stateLaw.json';
 
 export interface City {
   name: string;
@@ -33,110 +34,16 @@ export function stateSlug(state: string): string {
   return (stateNames[state] || state).toLowerCase().replace(/\s+/g, '-');
 }
 
-// State-specific expungement information
-export const stateExpungementInfo: {[key: string]: string} = {
-  'AL': 'Alabama allows for expungement of certain non-violent misdemeanors, violations, and felonies under specific conditions. The state passed the Record Expungement Designed to Enhance Employment and Eliminate Recidivism (REDEEMER) Act in 2021, expanding expungement eligibility to include certain non-violent felonies after a 5-year waiting period.',
-  
-  'AK': 'Alaska does not have a true expungement process. However, the state allows for sealing of records in limited circumstances, particularly for cases that were dismissed or resulted in acquittal. Additionally, Alaska offers a process called "set-aside" for certain convictions, which doesn\'t remove the record but can restore some civil rights.',
-  
-  'AZ': 'Arizona recently reformed its expungement laws with the passage of SB 1294 in 2021. The state now allows for "setting aside" of convictions, which doesn\'t erase the record but removes many legal disabilities. Additionally, Arizona has a separate process for marijuana expungement following the legalization of recreational marijuana.',
-  
-  'AR': 'Arkansas offers expungement through its Criminal Record Sealing Act. Eligible offenses include most misdemeanors after a 5-year waiting period and certain felonies after a waiting period of 5 years. Some violent or sexual offenses are not eligible for expungement in Arkansas.',
-  
-  'CA': 'California has some of the most progressive expungement laws in the country. Under Penal Code 1203.4, many convictions can be dismissed after completing probation. Additionally, Proposition 47 allows for reduction of certain felonies to misdemeanors, and Proposition 64 provides for marijuana conviction expungement. California also offers automatic expungement for certain offenses.',
-  
-  'CO': 'Colorado\'s expungement laws allow for sealing of many criminal records. Recent legislation has expanded eligibility and created an automatic sealing process for certain drug offenses. The state also allows for sealing of arrest records that didn\'t lead to a conviction and has specific provisions for marijuana offenses following legalization.',
-  
-  'CT': 'Connecticut enacted the Clean Slate Act in 2021, which provides for automatic erasure of certain criminal records after a waiting period of 7-10 years. Eligible offenses include most misdemeanors and certain class D and E felonies. More serious crimes require a petition-based process for expungement.',
-  
-  'DE': 'Delaware\'s expungement laws were expanded in 2019 with the passage of the Adult Expungement Reform Act. The state now offers mandatory expungement for certain offenses and discretionary expungement for others. Delaware also has an automatic expungement process for certain misdemeanors after a waiting period.',
-  
-  'DC': 'The District of Columbia allows for expungement of non-conviction records and sealing of certain conviction records. The Second Chance Amendment Act of 2016 expanded eligibility for record sealing. DC also has specific provisions for marijuana offenses following decriminalization.',
-  
-  'FL': 'Florida allows for expungement or sealing of certain criminal records. Generally, only first-time offenders are eligible, and many serious offenses are excluded. The state requires a certificate of eligibility from the Florida Department of Law Enforcement before petitioning the court for expungement or sealing.',
-  
-  'GA': 'Georgia\'s Second Chance Law allows for restriction and sealing of certain criminal records. First offender treatment and conditional discharge can result in records being sealed upon successful completion. Recent reforms have expanded eligibility to include certain misdemeanors after a 4-year waiting period.',
-  
-  'HI': 'Hawaii allows for expungement of certain arrests that didn\'t lead to conviction. The state also offers a process called "expungement by gubernatorial pardon" for conviction records, though this is rarely granted. For first-time non-violent drug offenders, Hawaii has a deferred acceptance of guilty plea program.',
-  
-  'ID': 'Idaho allows for expungement of certain arrest records if the case was dismissed or resulted in acquittal. The state also permits expungement of certain misdemeanor convictions, though the process is more accurately described as "sealing" rather than complete expungement. Felony convictions generally cannot be expunged in Idaho.',
-  
-  'IL': 'Illinois has expanded its expungement laws significantly in recent years. The Cannabis Regulation and Tax Act automatically expunges certain marijuana offenses. The state allows for expungement of arrests that didn\'t lead to conviction and sealing of many conviction records after a waiting period of 2-3 years.',
-  
-  'IN': 'Indiana\'s Second Chance Law provides a comprehensive framework for expungement. Most misdemeanors can be expunged after 5 years, and many felonies after 8-10 years. Indiana\'s law is unique in that it mandates expungement if all statutory requirements are met, leaving little discretion to judges.',
-  
-  'IA': 'Iowa allows for expungement of certain misdemeanors after an 8-year waiting period if the person has no subsequent convictions. The state also permits expungement of deferred judgments and cases that were dismissed or resulted in acquittal. Most felonies cannot be expunged in Iowa.',
-  
-  'KS': 'Kansas allows for expungement of many criminal offenses after waiting periods ranging from 3-5 years for misdemeanors and 5-10 years for felonies. The state requires that all sentencing requirements be completed and that the person has no subsequent convictions during the waiting period.',
-  
-  'KY': 'Kentucky expanded its expungement laws in 2016 to include certain Class D felonies after a 5-year waiting period. The state also allows for expungement of misdemeanors and cases that were dismissed or resulted in acquittal. Kentucky requires payment of a filing fee and may require a hearing.',
-  
-  'LA': 'Louisiana allows for expungement of certain misdemeanors and felonies after waiting periods of 5-10 years. The state uses the term "expungement" but the process is more accurately described as record sealing. Louisiana law prohibits expungement of violent offenses and sex crimes.',
-  
-  'ME': 'Maine has limited expungement options. The state allows for sealing of certain juvenile records but has few provisions for adult records. Some non-conviction records may be eligible for sealing, and certain marijuana offenses can be expunged following legalization.',
-  
-  'MD': 'Maryland\'s Justice Reinvestment Act expanded expungement eligibility to include certain non-violent misdemeanors and felonies. The state also allows for automatic expungement of cases that resulted in acquittal or dismissal. Maryland has a waiting period of 3-15 years depending on the offense.',
-  
-  'MA': 'Massachusetts reformed its expungement laws in 2018 with the Criminal Justice Reform Act. The state now allows for expungement of certain records if the offense occurred before age 21 or was later decriminalized. Massachusetts also has a sealing process for older convictions after waiting periods of 3-7 years.',
-  
-  'MI': 'Michigan significantly expanded its expungement laws in 2020 with the Clean Slate legislation. The state now allows for expungement of up to three felonies and unlimited misdemeanors after a waiting period. Michigan also created an automatic expungement process for certain non-violent offenses.',
-  
-  'MN': 'Minnesota\'s expungement law allows for sealing of certain criminal records. The state uses a balancing test where courts weigh the public\'s right to know against the individual\'s need for expungement. Waiting periods range from 1-5 years for misdemeanors and 5-10 years for felonies.',
-  
-  'MS': 'Mississippi allows for expungement of certain first-time offenses after a 5-year waiting period. The state also permits expungement of misdemeanors and cases that were dismissed or resulted in acquittal. Mississippi has expanded eligibility in recent years but still excludes many violent and sexual offenses.',
-  
-  'MO': 'Missouri expanded its expungement laws in 2018, increasing the number of eligible offenses. The state now allows for expungement of most misdemeanors after a 3-year waiting period and many felonies after a 7-year waiting period. Certain violent and sexual offenses are excluded.',
-  
-  'MT': 'Montana has limited expungement options. The state allows for expungement of misdemeanor convictions for which the person received a deferred imposition of sentence. Montana also permits expungement of certain youth court records and marijuana convictions following legalization.',
-  
-  'NE': 'Nebraska allows for sealing of certain criminal records, particularly for cases that were dismissed or resulted in acquittal. The state also permits sealing of certain juvenile records. Nebraska does not have a comprehensive expungement law for adult conviction records.',
-  
-  'NV': 'Nevada allows for sealing of criminal records after waiting periods ranging from 1-10 years depending on the offense. The state expanded eligibility in 2019 and reduced waiting periods for many offenses. Nevada also has provisions for automatic sealing of decriminalized marijuana offenses.',
-  
-  'NH': 'New Hampshire allows for annulment of criminal records after waiting periods of 1-10 years depending on the offense. The state uses the term "annulment" rather than expungement, but the effect is similar. New Hampshire prohibits annulment of certain serious offenses like sexual assault and DWI.',
-  
-  'NJ': 'New Jersey reformed its expungement laws in 2019, creating one of the most progressive systems in the country. The state now allows for expungement of multiple convictions and has shortened waiting periods. New Jersey also implemented an automatic "clean slate" expungement process for certain offenses.',
-  
-  'NM': 'New Mexico enacted a comprehensive expungement law in 2019. The state now allows for expungement of arrest records and many conviction records after waiting periods of 1-10 years. New Mexico\'s law includes a presumption in favor of expungement if statutory requirements are met.',
-  
-  'NY': 'New York\'s expungement options include sealing of certain non-violent criminal records after a 10-year waiting period. The state also automatically seals certain marijuana convictions following decriminalization. New York uses the term "sealing" rather than expungement, as the records still exist but with limited accessibility.',
-  
-  'NC': 'North Carolina allows for expungement of certain first-time nonviolent offenses after waiting periods of 5-10 years. The state also permits expungement of cases that were dismissed or resulted in acquittal. North Carolina has expanded eligibility in recent years but still has relatively strict requirements.',
-  
-  'ND': 'North Dakota allows for sealing of certain criminal records through a process called "reduction to infraction." The state also permits sealing of non-conviction records and has specific provisions for marijuana offenses. North Dakota requires a waiting period of 3-5 years for most offenses.',
-  
-  'OH': 'Ohio allows for sealing of criminal records for first-time offenders after a 1-year waiting period for misdemeanors and a 3-year waiting period for felonies. The state expanded eligibility in 2018 to include certain non-violent felonies. Ohio uses the term "sealing" rather than expungement.',
-  
-  'OK': 'Oklahoma allows for expungement of certain misdemeanors after a 5-year waiting period and certain non-violent felonies after a 5-10 year waiting period. The state also permits expungement of cases that were dismissed or resulted in acquittal. Oklahoma has expanded eligibility in recent years.',
-  
-  'OR': 'Oregon allows for expungement of most misdemeanors and certain Class C felonies after a waiting period of 1-3 years for misdemeanors and 5-7 years for felonies. The state also permits expungement of juvenile records and marijuana offenses following legalization.',
-  
-  'PA': 'Pennsylvania enacted the Clean Slate Act in 2018, creating an automatic sealing process for certain misdemeanors after a 10-year period without subsequent convictions. The state also allows for petition-based expungement of non-conviction records and certain summary offenses.',
-  
-  'RI': 'Rhode Island allows for expungement of certain first-time nonviolent offenses after a 5-year waiting period for misdemeanors and a 10-year waiting period for felonies. The state requires that the person has no subsequent convictions and has completed all sentencing requirements.',
-  
-  'SC': 'South Carolina allows for expungement of certain first-time offenses, cases that were dismissed or resulted in acquittal, and successful completion of diversion programs. The state has expanded eligibility in recent years but still excludes most violent and sexual offenses.',
-  
-  'SD': 'South Dakota allows for expungement of certain misdemeanors and minor felonies after waiting periods ranging from 5-10 years. The state also permits expungement of cases that were dismissed or resulted in acquittal. South Dakota requires that all court costs and restitution be paid.',
-  
-  'TN': 'Tennessee allows for expungement of certain misdemeanors and Class E felonies after a 5-year waiting period. The state also permits expungement of cases that were dismissed or resulted in acquittal. Tennessee has expanded eligibility in recent years but still excludes many serious offenses.',
-  
-  'TX': 'Texas allows for expungement (called "expunction") of arrests that didn\'t lead to conviction and certain misdemeanors committed by minors. The state also offers a process called "non-disclosure" for certain offenses, which seals the record from public view but keeps it available to law enforcement.',
-  
-  'UT': 'Utah reformed its expungement laws in 2019 with the Clean Slate Law, which provides for automatic expungement of certain misdemeanors after waiting periods of 5-7 years. The state also allows for petition-based expungement of more serious offenses with longer waiting periods.',
-  
-  'VT': 'Vermont allows for expungement of many criminal records after a 5-10 year waiting period. The state expanded eligibility in 2019 to include many misdemeanors and certain felonies. Vermont also has provisions for expungement of marijuana offenses following legalization.',
-  
-  'VA': 'Virginia has traditionally had limited expungement options, allowing it only for cases that resulted in acquittal or were otherwise dismissed. However, in 2021, Virginia enacted legislation to expand record sealing options to include certain misdemeanors and felonies after waiting periods.',
-  
-  'WA': 'Washington allows for "vacating" of certain misdemeanor and felony convictions after waiting periods of 3-10 years. The state uses the term "vacation" rather than expungement, but the effect is similar. Washington has expanded eligibility in recent years, particularly for marijuana offenses.',
-  
-  'WV': 'West Virginia allows for expungement of certain misdemeanors after a 1-2 year waiting period and certain non-violent felonies after a 5-year waiting period. The state expanded eligibility in 2019 but still excludes many violent and sexual offenses.',
-  
-  'WI': 'Wisconsin has limited expungement options, allowing it only for certain offenses committed before the age of 25 and only if the judge ordered expungement at the time of sentencing. The state has considered reforms to expand eligibility but has not yet enacted them.',
-  
-  'WY': 'Wyoming allows for expungement of certain misdemeanors after a 5-year waiting period and certain felonies after a 10-year waiting period. The state also permits expungement of non-conviction records and first-time drug offenses. Wyoming expanded eligibility in recent years.'
-};
+// State law summaries, fact-checked against the Collateral Consequences Resource Center's state
+// profiles and official state sources (see stateLaw.json for the sources of each state and
+// scripts/research/law_check_2026-11.json for what was corrected and what could not be verified).
+export const stateLawChecked: string = (stateLawData as any).checked;
+export const stateLawSources: {[key: string]: string[]} = Object.fromEntries(
+  Object.entries((stateLawData as any).states).map(([code, v]: [string, any]) => [code, v.sources])
+);
+export const stateExpungementInfo: {[key: string]: string} = Object.fromEntries(
+  Object.entries((stateLawData as any).states).map(([code, v]: [string, any]) => [code, v.summary])
+);
 
 // Original hardcoded cities
 export const hardcodedCities: City[] = [
@@ -148,8 +55,7 @@ export const hardcodedCities: City[] = [
     population: 8804190,
     image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=1470&auto=format&fit=crop",
     description: "New York City, the most populous city in the United States, offers numerous expungement attorneys who can help clear your criminal record. These legal professionals are well-versed in New York's specific laws regarding record sealing and expungement.",
-    attorneyCount: 2,
-    expungementInfo: stateExpungementInfo['NY']
+    attorneyCount: 2
   },
   {
     name: "Los Angeles",
@@ -159,8 +65,7 @@ export const hardcodedCities: City[] = [
     population: 3898747,
     image: "https://images.unsplash.com/photo-1580655653885-65763b2597d0?q=80&w=1470&auto=format&fit=crop",
     description: "Los Angeles has many experienced expungement attorneys who understand California's progressive laws regarding record clearing. They can help with dismissals under PC 1203.4 and the newer provisions under Prop 64 for marijuana-related offenses.",
-    attorneyCount: 2,
-    expungementInfo: stateExpungementInfo['CA']
+    attorneyCount: 2
   },
   {
     name: "Chicago",
@@ -170,8 +75,7 @@ export const hardcodedCities: City[] = [
     population: 2746388,
     image: "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?q=80&w=1470&auto=format&fit=crop",
     description: "Chicago's expungement attorneys are familiar with Illinois' specific expungement and sealing laws, which have been expanded in recent years to help more people clear their records and gain better employment opportunities.",
-    attorneyCount: 2,
-    expungementInfo: stateExpungementInfo['IL']
+    attorneyCount: 2
   },
   {
     name: "Houston",
@@ -748,5 +652,5 @@ export const generatedCities: City[] = (extraCitiesData as any[]).map(c => ({
 // Every city shows its state's law summary
 export const cities: City[] = [...hardcodedCities, ...generatedCities].map(city => ({
   ...city,
-  expungementInfo: city.expungementInfo || stateExpungementInfo[city.state]
+  expungementInfo: stateExpungementInfo[city.state]
 }));
