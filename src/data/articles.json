@@ -2163,5 +2163,1141 @@
    "WV": "3rd",
    "WY": "4th"
   }
+ },
+ {
+  "slug": "what-is-deferred-adjudication",
+  "title": "What Is Deferred Adjudication? Conviction, Records and Nondisclosure",
+  "nav": "Deferred Adjudication",
+  "description": "What deferred adjudication means, whether it counts as a conviction, if it shows on background checks, and how to seal it in Texas with a nondisclosure order.",
+  "intro": [],
+  "lede": [
+   "Maybe you pled guilty, the judge gave you deferred adjudication, and you did everything that was asked of you. You checked in, paid the fees, finished the classes. Then a background check still turned up the case, and now you're wondering what all of that was for.",
+   "You're not alone in being confused. Deferred adjudication sits in an odd middle ground. You pleaded guilty, but if you finish your supervision, the judge never enters a finding of guilt and the case is dismissed. For most purposes under Texas law, that is not a conviction. But the record of the case doesn't disappear by itself.",
+   "The good news is that there are usually ways to close that gap. In Texas, many people who finish deferred adjudication can get an order of nondisclosure, which seals the case from the public. Some first-time misdemeanors qualify for one with only a $28 fee.",
+   "This guide explains what deferred adjudication is, how it differs from a conviction, which states use something like it, whether it shows on background checks, and how to clear it afterward. Texas gets the most detail, including who qualifies for nondisclosure, how long you wait, what it costs and how long it takes."
+  ],
+  "takeaways": [
+   "Deferred adjudication means you plead guilty or no contest, but the judge holds off on finding you guilty and puts you on supervision. If you finish it, the case is dismissed.",
+   "In Texas, a dismissal after deferred adjudication generally is not a conviction under state law, but the court record is not confidential and can show up on background checks until you seal it.",
+   "Most Texans who finish deferred adjudication can't get an expunction. The main tool is an order of nondisclosure, which seals the case from the public but not from police, courts and many licensing boards.",
+   "For many first-time, nonviolent misdemeanors, Texas nondisclosure is automatic, with a $28 fee. Other misdemeanors and felonies need a petition, a regular civil filing fee (often $350 or more) and a waiting period of up to five years.",
+   "Other states have their own versions, such as Oklahoma's deferred sentence, Florida's withhold of adjudication, Georgia's First Offender Act, North Carolina's conditional discharge and Louisiana's Article 893. Each has different rules for clearing the record.",
+   "Federal immigration law can treat deferred adjudication as a conviction. If you are not a US citizen, talk to an immigration lawyer."
+  ],
+  "sections": [
+   {
+    "heading": "What Is Deferred Adjudication?",
+    "paragraphs": [
+     "Deferred adjudication is a kind of probation where the judge doesn't find you guilty, at least not yet. In Texas, you plead guilty or no contest. The judge hears the evidence and finds that it supports guilt, but then puts off \"further proceedings without entering an adjudication of guilt\" and places you on what Texas law calls deferred adjudication community supervision.",
+     "While you're on it, the judge can set the same kinds of conditions as regular probation, plus a fine. That can include jail time as a condition and treatment. In Texas, deferred adjudication can last up to 10 years for a felony and up to two years for a misdemeanor, and a judge can extend it in some cases.",
+     "If you finish, the judge must dismiss the case and discharge you. A judge can also end it early if that serves \"the best interest of society and the defendant,\" except for offenses that require sex offender registration.",
+     "If you violate a condition, you can be arrested. You get a hearing, but it is only about whether the judge will go ahead and find you guilty. If the judge does, the case continues \"as if the adjudication of guilt had not been deferred.\" That means you can face the full punishment range for the original charge."
+    ],
+    "bullets": [
+     "Texas doesn't allow deferred adjudication for every offense. It's not available, for example, for DWI if you had a commercial driver's license or an alcohol level of 0.15 or more, for intoxication assault or manslaughter, for human trafficking, or for certain sex offenses.",
+     "Before placing you on deferred adjudication, a Texas judge must tell you about your right to an order of nondisclosure, unless your offense or record makes you ineligible."
+    ]
+   },
+   {
+    "heading": "Is Deferred Adjudication a Conviction?",
+    "paragraphs": [
+     "Under Texas law, generally no, if you complete it. The statute says a dismissal and discharge \"may not be considered a conviction for the purposes of disqualifications or disabilities imposed by law for conviction of an offense.\" There is a narrow exception in the Penal Code's repeat-offender rules.",
+     "Texas also says a dismissed deferred adjudication can't be used to deny you a professional or occupational license if you're otherwise qualified. But there are important exceptions. Licensing agencies can still consider it if the offense relates to the licensed work, the job involves contact with children, the license is for a peace officer, or the offense is on certain serious-offense lists. Child-care licensing can also consider it.",
+     "It can still count against you later. If you're convicted of a new offense in Texas, the fact that you had deferred adjudication can be used when deciding your punishment.",
+     "Federal immigration law is different. It defines a conviction to include cases where \"adjudication of guilt has been withheld\" if you pleaded guilty or no contest and the judge ordered \"some form of punishment, penalty, or restraint\" on your liberty. Deferred adjudication with probation conditions can fit that definition. If you are not a US citizen, speak with an immigration lawyer before relying on the word \"dismissed.\""
+    ]
+   },
+   {
+    "heading": "Which States Use Deferred Adjudication?",
+    "paragraphs": [
+     "Texas uses the name \"deferred adjudication,\" but many states have a similar idea under a different name. The details matter. In some states no conviction is ever entered. In others, a conviction is entered first and set aside later. Here are the states we checked.",
+     "Rules change often. Oklahoma, Georgia and Louisiana all amended these laws in 2025 or 2026. Check your state's page or ask a local lawyer before you rely on any of this."
+    ],
+    "table": {
+     "headers": [
+      "State",
+      "What it's called",
+      "How it works",
+      "Clearing the record afterward"
+     ],
+     "rows": [
+      [
+       "Texas",
+       "Deferred adjudication community supervision (Code Crim. Proc. art. 42A.101)",
+       "Guilty or no contest plea; no finding of guilt; case dismissed if you complete it",
+       "Order of nondisclosure (sealing). Expunction is generally not available, except for Class C misdemeanors."
+      ],
+      [
+       "Oklahoma",
+       "Deferred sentence or deferred judgment (22 O.S. 991c)",
+       "Guilty or no contest plea; up to 7 years; plea expunged from the record and charge dismissed on completion",
+       "Records sealed to the public but not to police. A fuller expungement petition under 22 O.S. 18 after 1 year (misdemeanor), 5 years (nonviolent felony) or 10 years (up to two felonies)."
+      ],
+      [
+       "Florida",
+       "Withhold of adjudication (Fla. Stat. 948.01)",
+       "Judge withholds adjudication of guilt; felony defendants are placed on probation",
+       "May qualify to petition to seal if never adjudicated guilty of a crime and no prior sealing or expunction. Needs an FDLE certificate of eligibility ($75 fee)."
+      ],
+      [
+       "Georgia",
+       "First Offender Act (O.C.G.A. 42-8-60 and following)",
+       "Sentenced as a first offender; on completion, exonerated and discharged without a court adjudication of guilt",
+       "A 2026 law (HB 162, effective July 1, 2026) requires restriction and sealing of First Offender records. People discharged before then can petition to seal."
+      ],
+      [
+       "North Carolina",
+       "Conditional discharge or deferred prosecution (G.S. 15A-1341)",
+       "For Class H or I felonies and misdemeanors; plea withdrawn and case dismissed on completion",
+       "Petition to expunge the dismissed charge under G.S. 15A-146; $175 fee for conditional discharge and deferred prosecution cases."
+      ],
+      [
+       "Louisiana",
+       "Deferred sentence under Code Crim. Proc. art. 893(E) (felonies)",
+       "A conviction is entered first; sentence deferred; court may set the conviction aside and dismiss if probation goes well (only twice per person)",
+       "Motion to expunge under art. 978(A)(1) once the conviction is set aside and dismissed."
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "Does Deferred Adjudication Show Up on a Background Check?",
+    "paragraphs": [
+     "Often, yes, until you take steps to seal or clear it. Texas law says court clerk records in a deferred adjudication case are \"not confidential.\" So the arrest, the charge and the outcome can be found by background check companies, even after the dismissal.",
+     "Federal law limits some of this. Under the Fair Credit Reporting Act, background check companies generally can't report arrest records more than seven years old, unless the statute of limitations is longer. Convictions have no federal time limit. Those seven-year limits don't apply to jobs paying $75,000 a year or more. How a company labels a dismissed deferred adjudication can vary, so read any report about you carefully.",
+     "Background check companies must use reasonable procedures to keep reports accurate. If yours shows a case that was dismissed, sealed or expunged, you can dispute it in writing. The company generally has 30 days to investigate. The Consumer Financial Protection Bureau says records that were expunged or removed from public records \"should not appear on your report.\"",
+     "In Texas, a nondisclosure order also binds private companies once they know about it. A company that sells criminal history must destroy and stop sharing information covered by a nondisclosure or expunction order once it gets notice of the order. A company that breaks this rule can be sued for damages and attorney's fees."
+    ]
+   },
+   {
+    "heading": "What Is an Order of Nondisclosure in Texas?",
+    "paragraphs": [
+     "An order of nondisclosure is a Texas court order that seals one criminal case from the public. In the words of the Texas Office of Court Administration, it is \"a court order prohibiting public entities, including courts, clerks of the court, law enforcement agencies, and prosecutorial offices, from disclosing certain criminal records.\"",
+     "Once you have one, Texas law says you don't have to tell anyone about the case \"in any application for employment, information, or licensing.\" TexasLawHelp.org, a statewide legal self-help site, says it keeps the case private from \"landlords, lenders, school admissions, and most employers.\"",
+     "It isn't a total erase. The state's records are sealed, not deleted. Police, prosecutors and courts can still see the case. So can a long list of licensing and regulatory bodies named in the law. They include the State Board for Educator Certification, schools, the Texas Medical Board, the Board of Nursing, the State Bar, the Texas Department of Licensing and Regulation, the Department of Insurance, hospitals, and banks and credit unions hiring employees.",
+     "Each order covers one offense. If you have more than one case, you need an order for each one."
+    ]
+   },
+   {
+    "heading": "Who Qualifies for Nondisclosure After Deferred Adjudication in Texas?",
+    "paragraphs": [
+     "Start with the rules that apply to everyone. You can't get any order of nondisclosure if the case, or anything on your record, is an offense that requires sex offender registration, aggravated kidnapping, murder or capital murder, human trafficking, injury to a child, elderly or disabled person, abandoning or endangering a child, violating a family violence protective order or bond condition, stalking, or any offense involving family violence. A court finding that your offense involved family violence also rules you out.",
+     "You also can't pick up a new conviction or deferred adjudication, other than a fine-only traffic ticket, from the time you were placed on deferred adjudication through the end of any waiting period.",
+     "If you pass those rules, which path you use depends on your offense:"
+    ],
+    "bullets": [
+     "Automatic nondisclosure (Gov't Code 411.072): a misdemeanor, not DWI or boating while intoxicated, and not under Penal Code chapters 20, 21, 22, 25, 42, 43, 46 or 71 (kidnapping, sex, assault, family, disorderly conduct, public indecency, weapons and organized crime offenses). You must have no prior convictions or deferred adjudications other than fine-only traffic tickets, and the judge must not have found that automatic nondisclosure isn't in the best interest of justice. This route only covers dismissals on or after September 1, 2017.",
+     "Petition for nondisclosure (Gov't Code 411.0725): felonies and the misdemeanors that don't fit the automatic route, except DWI and BWI. Earlier offenses don't disqualify you on their own, as long as you meet the rules above. The judge must decide the order is \"in the best interest of justice.\"",
+     "DWI deferred adjudication (Gov't Code 411.0726): a separate petition for first-time DWI or BWI with no accident involving another person, no commercial license, and an alcohol level under 0.15. The wait is two years after dismissal."
+    ],
+    "table": {
+     "headers": [
+      "Your deferred adjudication offense",
+      "Which law",
+      "When you can get the order"
+     ],
+     "rows": [
+      [
+       "First-time, nonviolent misdemeanor (not in Penal Code ch. 20, 21, 22, 25, 42, 43, 46 or 71, not DWI or BWI)",
+       "411.072 (automatic)",
+       "At dismissal, if at least 180 days have passed since you were placed on deferred adjudication; otherwise as soon as practical after day 180"
+      ],
+      [
+       "Other misdemeanor, not in the chapters below",
+       "411.0725 (petition)",
+       "Right after discharge and dismissal"
+      ],
+      [
+       "Misdemeanor under Penal Code ch. 20, 21, 22, 25, 42, 43 or 46",
+       "411.0725 (petition)",
+       "2 years after discharge and dismissal"
+      ],
+      [
+       "Felony",
+       "411.0725 (petition)",
+       "5 years after discharge and dismissal"
+      ],
+      [
+       "First-time DWI or BWI misdemeanor",
+       "411.0726 (petition)",
+       "2 years after discharge and dismissal"
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "How Much Does an Order of Nondisclosure Cost in Texas?",
+    "paragraphs": [
+     "It depends on which route you're on. For the automatic route under section 411.072, the law sets a $28 fee, paid to the court clerk before the order issues. The regular civil filing fees do not apply to these automatic orders.",
+     "For a petition under section 411.0725 or 411.0726, the law says you pay \"a fee that generally applies to the filing of a civil case.\" The Texas Office of Court Administration's current fee schedules list $350 in required statewide fees for a new civil case. Counties can add optional local fees, so your total may be higher. Ask the clerk of the court that handled your case for the exact amount.",
+     "If you can't afford the fee, you can file a Statement of Inability to Afford Payment of Court Costs with your request. That asks the judge to waive the fee. The form is available on TexasLawHelp.org.",
+     "Lawyer fees are separate. Many people file on their own using the state's forms. A lawyer is worth considering if the prosecutor objects, if you're unsure which section applies, or if you have more than one case."
+    ]
+   },
+   {
+    "heading": "How Long Does It Take to Get an Order of Nondisclosure?",
+    "paragraphs": [
+     "There are two clocks: the waiting period before you can ask, and the time the process takes once you do.",
+     "The waiting period comes first. For the automatic route, the order can't issue until 180 days after you started deferred adjudication. TexasLawHelp's guide notes that most cases take longer than that to be dismissed, so the order often comes at dismissal. For petitions, the wait after dismissal is zero, two or five years, depending on the offense (see the table above).",
+     "Once you file a petition, the prosecutor gets notice and can ask for a hearing. If the prosecutor doesn't ask for one within 45 days and the judge agrees you qualify, the judge can rule without a hearing. Otherwise you'll have a hearing date, and you need to attend. We found no official figure for how long courts typically take to sign the order. It varies by county.",
+     "After the judge signs, the law sets deadlines. The clerk has 15 business days to send the order to the Texas Department of Public Safety. DPS then has 10 business days to seal its records and send the order to other agencies and to private companies that buy criminal records from it. Those government agencies have 30 business days to seal their own records.",
+     "Even with the automatic route, don't assume it happened. TexasLawHelp warns that not all courts are set up to give these orders automatically, and you may need to go back to court to ask for yours with a short letter form."
+    ]
+   },
+   {
+    "heading": "Can You Get Deferred Adjudication Expunged in Texas?",
+    "paragraphs": [
+     "Usually not. Texas's expunction law, Chapter 55A of the Code of Criminal Procedure (in effect since January 1, 2025), covers dismissed charges only when \"there was no court-ordered community supervision under Chapter 42A for the offense, other than for a Class C misdemeanor.\" Deferred adjudication is court-ordered community supervision under Chapter 42A. So for most people, a finished deferred adjudication can be sealed with a nondisclosure order but not expunged.",
+     "Expunction is also available after some programs that are different from deferred adjudication, such as a pretrial intervention program, veterans treatment court and mental health court, when the charge is dismissed because you finished the program.",
+     "An arrest made on a warrant for violating community supervision can't be expunged."
+    ],
+    "table": {
+     "headers": [
+      "",
+      "Order of nondisclosure",
+      "Expunction"
+     ],
+     "rows": [
+      [
+       "What happens to the record",
+       "Sealed, not deleted",
+       "Release, keeping or use of the records for any purpose is prohibited"
+      ],
+      [
+       "Who can still see it",
+       "Police, prosecutors, courts and many licensing boards and listed employers",
+       "Almost no one"
+      ],
+      [
+       "Can you deny it?",
+       "Yes, on job, housing, license and similar applications",
+       "Yes, you may deny the arrest; under oath in a criminal case you may say only that it was expunged"
+      ],
+      [
+       "Available after deferred adjudication?",
+       "Often, if you meet the rules",
+       "Generally no, except Class C misdemeanors"
+      ],
+      [
+       "Cost",
+       "$28 (automatic) or a civil filing fee (petition)",
+       "Separate fees; not covered here"
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "How Do You Clear a Deferred Sentence or Withheld Adjudication in Other States?",
+    "paragraphs": [
+     "Each state's path is different, and finishing the program doesn't always clear the record by itself.",
+     "In Oklahoma, finishing a deferred sentence leads the court to expunge the plea and dismiss the charge, but those records stay visible to police. You can then petition for a fuller expungement under 22 O.S. 18: one year after a misdemeanor dismissal, five years after a nonviolent felony dismissal, or ten years for up to two felonies, if you meet the other conditions.",
+     "In Florida, a withhold of adjudication can open the door to sealing, but only if you've never been adjudicated guilty of a crime in Florida, aren't still under supervision for the case, haven't sealed or expunged a record before, and the offense isn't on the state's ineligible list. You first apply to FDLE for a certificate of eligibility.",
+     "In North Carolina, once a conditional discharge or deferred prosecution ends in dismissal, you can petition to expunge the dismissed charge. The fee is $175.",
+     "In Georgia, a 2026 law requires First Offender records to be restricted and sealed, and people discharged before July 1, 2026 can petition the court to seal their records. In Louisiana, once a judge sets aside an Article 893 conviction and dismisses the case, you can file a motion to expunge it."
+    ]
+   }
+  ],
+  "keys": {
+   "What Is Deferred Adjudication?": "Deferred adjudication is a kind of probation where the judge doesn't find you guilty, at least not yet.",
+   "Is Deferred Adjudication a Conviction?": "Under Texas law, generally no, if you complete it.",
+   "Which States Use Deferred Adjudication?": "In some states no conviction is ever entered.",
+   "Does Deferred Adjudication Show Up on a Background Check?": "Often, yes, until you take steps to seal or clear it.",
+   "What Is an Order of Nondisclosure in Texas?": "An order of nondisclosure is a Texas court order that seals one criminal case from the public.",
+   "Who Qualifies for Nondisclosure After Deferred Adjudication in Texas?": "If you pass those rules, which path you use depends on your offense:",
+   "How Much Does an Order of Nondisclosure Cost in Texas?": "For the automatic route under section 411.072, the law sets a $28 fee, paid to the court clerk before the order issues.",
+   "How Long Does It Take to Get an Order of Nondisclosure?": "There are two clocks: the waiting period before you can ask, and the time the process takes once you do.",
+   "Can You Get Deferred Adjudication Expunged in Texas?": "So for most people, a finished deferred adjudication can be sealed with a nondisclosure order but not expunged.",
+   "How Do You Clear a Deferred Sentence or Withheld Adjudication in Other States?": "Each state's path is different, and finishing the program doesn't always clear the record by itself."
+  },
+  "next_steps": [
+   "Get your paperwork: the judgment or order placing you on deferred adjudication and the order of dismissal and discharge. The court clerk can give you copies. Our guide at /guides/how-to-get-a-copy-of-your-criminal-record explains how to see your full record.",
+   "In Texas, use the free Nondisclosure Order Prep Guide or Fresh Start app on TexasLawHelp.org to see which nondisclosure section fits your case, then download the matching forms and the fee waiver if you need it.",
+   "If you finished deferred adjudication for a first-time misdemeanor and never got your order, file the short 411.072 letter and order with the court that handled your case.",
+   "If cost is a barrier, look for free legal aid in your state at /free-expungement-help. To hire someone, find a record-clearing lawyer in your city at /cities or through your state's page at /states.",
+   "Once you have an order, check your record and any background check about you. Dispute anything that still shows the sealed case, and send a copy of the order to the company."
+  ],
+  "sources": [
+   {
+    "label": "Texas Code of Criminal Procedure ch. 42A (arts. 42A.101-42A.111, deferred adjudication)",
+    "url": "https://statutes.capitol.texas.gov/Docs/CR/htm/CR.42A.htm"
+   },
+   {
+    "label": "Texas Government Code ch. 411, subch. E-1 (orders of nondisclosure, 411.0715-411.0765, 411.0851)",
+    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.411.htm"
+   },
+   {
+    "label": "Texas Code of Criminal Procedure ch. 55A (expunction)",
+    "url": "https://statutes.capitol.texas.gov/Docs/CR/htm/CR.55A.htm"
+   },
+   {
+    "label": "Texas Office of Court Administration: An Overview of Orders of Nondisclosure (revised August 2026)",
+    "url": "https://www.txcourts.gov/media/1438062/overview-of-orders-of-nondisclosure.pdf"
+   },
+   {
+    "label": "Texas OCA: District Court Civil Filing Fees (2025)",
+    "url": "https://www.txcourts.gov/media/1461496/dc-civ-fil-fees-2025.pdf"
+   },
+   {
+    "label": "Texas OCA: County Court Civil Filing Fees (2025)",
+    "url": "https://txcourts.gov/media/1461494/cc-civ-fil-fees-2025.pdf"
+   },
+   {
+    "label": "TexasLawHelp.org: How to Ask for a Nondisclosure Order",
+    "url": "https://texaslawhelp.org/guide/how-to-ask-for-a-nondisclosure-order-seal-your-criminal-record"
+   },
+   {
+    "label": "TexasLawHelp.org: Nondisclosure Orders and Sealing Your Criminal Record in Texas",
+    "url": "https://texaslawhelp.org/article/nondisclosure-orders-and-sealing-your-criminal-record-in-texas"
+   },
+   {
+    "label": "Oklahoma: 22 O.S. 991c (deferred sentence)",
+    "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=439118"
+   },
+   {
+    "label": "Oklahoma: 22 O.S. 18 (expungement)",
+    "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=440214"
+   },
+   {
+    "label": "Florida Statutes 948.01 (withhold of adjudication)",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/948.01"
+   },
+   {
+    "label": "Florida Statutes 943.059 (court-ordered sealing)",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2025/943.059"
+   },
+   {
+    "label": "Georgia courts: 2026 enacted legislation summary (HB 162, First Offender sealing)",
+    "url": "https://assets.georgiacourts.gov/2/wp-content/uploads/2026/05/20154110/2026-Enacted-legislation_v5.20.2026-1.pdf"
+   },
+   {
+    "label": "Georgia Justice Project: HB 162 First Offender updates",
+    "url": "https://www.gjp.org/hb162firstoffenderupdates/"
+   },
+   {
+    "label": "North Carolina G.S. 15A-1341 (conditional discharge, deferred prosecution)",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-1341.html"
+   },
+   {
+    "label": "North Carolina G.S. 15A-146 (expunction of dismissed charges)",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-146.html"
+   },
+   {
+    "label": "Louisiana Code of Criminal Procedure art. 893",
+    "url": "https://legis.la.gov/legis/Law.aspx?d=112882"
+   },
+   {
+    "label": "Louisiana Code of Criminal Procedure art. 978",
+    "url": "https://legis.la.gov/legis/law.aspx?d=919670"
+   },
+   {
+    "label": "8 U.S.C. 1101(a)(48) (immigration definition of conviction)",
+    "url": "https://www.law.cornell.edu/uscode/text/8/1101"
+   },
+   {
+    "label": "15 U.S.C. 1681c (FCRA reporting time limits)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681c"
+   },
+   {
+    "label": "15 U.S.C. 1681e and 1681i (FCRA accuracy and disputes)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681i"
+   },
+   {
+    "label": "CFPB: Review your rental background check",
+    "url": "https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/"
+   }
+  ]
+ },
+ {
+  "slug": "how-long-does-expungement-take",
+  "title": "How Long Does Expungement Take? Waiting Periods and Processing Time",
+  "nav": "How Long Expungement Takes",
+  "description": "How long does expungement take? See waiting periods by state, how long the court process runs after you file, and when agencies and background checks update.",
+  "intro": [],
+  "lede": [
+   "If you're asking how long expungement takes, you probably have a reason to hurry. Maybe a job offer depends on a background check, or you've been turned down for an apartment and you're tired of explaining an old case. Waiting is hard when your record keeps getting in the way.",
+   "The honest answer is that there are two different clocks. The first is the waiting period: how long the law makes you wait after your case or sentence before you can even apply. The second is the processing time: how long it takes once you file, from the prosecutor's chance to object, to the judge's order, to agencies updating their files.",
+   "Both clocks vary a lot by state and by offense. Waiting periods run from no wait at all for some dismissed cases to 10 years or more for some felonies. Very few states publish how long the process usually takes, so we only share deadlines written into the law and official estimates we could actually read.",
+   "This guide covers waiting periods in 17 states, the deadlines that shape the court process, how long agencies have to update records after an order, what to expect from the FBI and private background check companies, and how automatic Clean Slate laws work."
+  ],
+  "takeaways": [
+   "There are two clocks: the waiting period before you can apply, and the processing time after you file. Both vary by state and offense.",
+   "In the states we checked, waits for convictions run from about 1 to 7 years for misdemeanors and from 1 to 20 years for felonies. Many dismissed or acquitted cases have a short wait or none.",
+   "Once you file, built-in deadlines often add one to three months before a ruling. For example, prosecutors get 30 days to object in Pennsylvania, North Carolina and Virginia, and 60 days in Illinois. Ohio sets the hearing 45 to 90 days after you apply.",
+   "After the order, agencies may need more time. Illinois gives them 60 days. In Texas, nondisclosure orders move from the clerk to the state police to local agencies within set business-day deadlines. Many states set no deadline at all.",
+   "Automatic Clean Slate laws in states like Pennsylvania, Michigan, Utah, Colorado, Minnesota, New York and Delaware clear eligible records without an application, but they still run on their own schedules.",
+   "Private background check companies don't update instantly. Under federal law, if you dispute an item, they generally have 30 days to reinvestigate."
+  ],
+  "sections": [
+   {
+    "heading": "Why Are There Two Answers to \"How Long Does Expungement Take?\"",
+    "paragraphs": [
+     "Because two separate waits are involved. First, most states make you wait a set amount of time after your case ends or your sentence is finished before you can apply. That's the waiting period, and it's written into each state's law.",
+     "Second, once you're eligible and you file, the case has to move through the system. The prosecutor gets a chance to object, a judge may hold a hearing, and then the order has to reach the state police, the courts and other agencies that hold your record. That's the processing time.",
+     "Published processing times are scarce. Most states don't report how long cases usually take, and the time can depend on your county court's calendar. What the law does set are certain deadlines, like how long a prosecutor has to object or how long agencies have to follow an order. Those deadlines give you a rough idea of the minimum."
+    ]
+   },
+   {
+    "heading": "How Long Do You Have to Wait Before You Can Apply?",
+    "paragraphs": [
+     "It depends on your state, the type of offense, and whether you were convicted. The waiting period usually starts when your sentence ends, which can include probation or parole, not when you were arrested. Some states also require that you haven't been convicted of anything new during the wait.",
+     "Cases that ended without a conviction often have short waits or none. In Illinois, records of an arrest without charges, an acquittal or a dismissal \"may be sealed at any time.\" In Texas, you can ask to expunge an arrest that never led to formal charges 180 days after the arrest for a Class C misdemeanor, one year for a Class A or B misdemeanor, and three years for a felony.",
+     "The table below shows the general waiting periods for convictions in 17 states, based on each state's statute or court guidance. Many states have exceptions, exclusions and special categories, so treat this as a starting point. Some offenses, like many violent and sex offenses, can't be cleared at all in some states."
+    ],
+    "table": {
+     "headers": [
+      "State",
+      "Misdemeanor wait",
+      "Felony wait",
+      "Measured from"
+     ],
+     "rows": [
+      [
+       "Arizona (sealing)",
+       "2 years (class 2-3); 3 years (class 1)",
+       "5 years (class 4-6); 10 years (class 2-3)",
+       "Completing the sentence"
+      ],
+      [
+       "California (dismissal)",
+       "After probation; 1 year after judgment if no probation",
+       "After probation is completed",
+       "End of probation or judgment"
+      ],
+      [
+       "Colorado (sealing)",
+       "1 year (petty offenses); 2 years (class 2-3 and drug misdemeanors); 3 years (class 1)",
+       "3 years (class 4-6, level 2-4 drug felonies); 5 years (other eligible)",
+       "Final disposition"
+      ],
+      [
+       "Illinois (sealing)",
+       "2 years",
+       "2 years if probation or conditional discharge was completed; 3 years for other eligible felonies",
+       "End of your last sentence"
+      ],
+      [
+       "Massachusetts (sealing)",
+       "3 years",
+       "7 years",
+       "Conviction or release from custody, looking back from your request"
+      ],
+      [
+       "Michigan (set-aside)",
+       "3 years; 5 years for serious misdemeanors or a first OWI",
+       "5 years for 1 felony; 7 years for more than 1",
+       "The latest of sentencing, probation or prison"
+      ],
+      [
+       "Minnesota (petition)",
+       "2 years; 3 years for gross misdemeanors",
+       "4 years for listed felonies (5 for some)",
+       "Discharge of the sentence"
+      ],
+      [
+       "New Jersey",
+       "Usually 5 years (2 for ordinance offenses); sometimes 4",
+       "Usually 5 years; sometimes 4",
+       "Sentence served (Clean Slate: 10 years since last conviction)"
+      ],
+      [
+       "New York (automatic)",
+       "3 years",
+       "8 years",
+       "Sentencing, or release from incarceration"
+      ],
+      [
+       "North Carolina",
+       "3 years for 1 nonviolent misdemeanor; 7 years for more than 1",
+       "10 years for 1 nonviolent felony; 20 years for 2 or 3",
+       "Conviction or end of sentence, whichever is later"
+      ],
+      [
+       "Ohio (sealing)",
+       "1 year (6 months for minor misdemeanors)",
+       "1 year (4th-5th degree); 3 years (3rd degree)",
+       "Final discharge"
+      ],
+      [
+       "Pennsylvania (limited access petition)",
+       "7 years free of conviction",
+       "10 years free of conviction (for some offenses)",
+       "Last conviction"
+      ],
+      [
+       "Texas (nondisclosure)",
+       "None for fine-only; 2 years for others (first offense only)",
+       "Convictions not eligible this way; 5 years after a felony deferred adjudication is dismissed",
+       "Completing the sentence or discharge"
+      ],
+      [
+       "Utah (petition)",
+       "3 years; 4 years (class B); 5 years (class A)",
+       "7 years (5 for drug possession; 10 for some DUI-related offenses)",
+       "Case completion, release, or end of probation or parole"
+      ],
+      [
+       "Virginia (petition sealing)",
+       "7 years",
+       "10 years",
+       "Dismissal, conviction or release, whichever is later"
+      ],
+      [
+       "Washington (vacating)",
+       "3 years (5 for domestic violence)",
+       "5 years (class C); 10 years (class B)",
+       "Release, sentencing, or end of supervision"
+      ],
+      [
+       "Georgia (record restriction)",
+       "4 years with no new conviction (some misdemeanors)",
+       "Not covered in the sources we read",
+       "Completing the sentence"
+      ]
+     ]
+    },
+    "bullets": [
+     "Florida works differently. Florida sealing is mostly for cases where adjudication was withheld. To expunge a record in that situation, it generally must have been sealed for at least 10 years first. That 10-year rule doesn't apply if the charges were dismissed before trial or you were acquitted.",
+     "Georgia's row is based on the 2020 law that added misdemeanor record restriction. We could not read the current code text, so check with a lawyer or legal aid.",
+     "A denial can restart the clock. Michigan makes you wait 3 years to refile after a denial unless the court sets an earlier date, and Arizona also makes you wait 3 years. Colorado lets you file a motion once every 12 months."
+    ]
+   },
+   {
+    "heading": "How Long Does the Process Take After You File?",
+    "paragraphs": [
+     "Expect at least a month or two in most states, and often longer. Even when everything goes smoothly, the law usually gives the prosecutor time to respond before the judge rules. Here are the deadlines we found in each state's law or court guidance.",
+     "These are deadlines, not averages. Your court's calendar, missing records, an objection or a needed hearing can add time. Some states also make you get a background check or certificate first. Utah's courts say it can take several months for the state Bureau of Criminal Identification (BCI) to process a certificate of eligibility, which you need before you file a petition."
+    ],
+    "table": {
+     "headers": [
+      "State",
+      "Built-in timing after you file"
+     ],
+     "rows": [
+      [
+       "Arizona",
+       "The court can't rule until 60 days after it receives the petition, unless the prosecutor and victims don't object. A hearing isn't automatic."
+      ],
+      [
+       "Colorado",
+       "Arrest records with no charges: a hearing, if set, is at least 35 days out. If no one objects at least 7 days before, the court grants the request. Municipal convictions: if the prosecution objects, a hearing is set within 42 days."
+      ],
+      [
+       "Georgia",
+       "If a hearing is requested on a petition, it must be held within 90 days of filing (2020 law text)."
+      ],
+      [
+       "Illinois",
+       "Prosecutors and agencies have 60 days from service to object. Without an objection, the court rules."
+      ],
+      [
+       "Michigan",
+       "The court can't act until the state police report back on your fingerprint check, which includes an FBI comparison. The prosecutor and attorney general get a chance to contest."
+      ],
+      [
+       "Minnesota",
+       "The hearing is at least 60 days after the petition is served. A granted order is then automatically on hold for 60 days."
+      ],
+      [
+       "New Jersey",
+       "The judge usually schedules a hearing 35 to 60 days after getting your petition. With no objection, the judge may sign the order without a hearing."
+      ],
+      [
+       "North Carolina",
+       "The prosecutor has 30 days to object, plus 30 more if the court allows it for good cause."
+      ],
+      [
+       "Ohio",
+       "The hearing is 45 to 90 days after you apply. The prosecutor's objection is due at least 30 days before the hearing."
+      ],
+      [
+       "Pennsylvania",
+       "The court notifies the prosecutor within 10 days, and the prosecutor has 30 days to object. With no objection, the court may grant the petition without a hearing."
+      ],
+      [
+       "Texas (expunction)",
+       "The hearing is no earlier than 30 days after you file."
+      ],
+      [
+       "Utah",
+       "The prosecutor has 35 days to respond, victims 60 days, and the court waits 60 days from filing before ruling."
+      ],
+      [
+       "Virginia",
+       "The prosecutor has 30 days to respond. The court may hold a hearing, or may seal without one if the prosecutor agrees you're eligible and doesn't object."
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "How Long Until Agencies Update Your Record After the Order?",
+    "paragraphs": [
+     "A judge's signature doesn't change every database at once. The order has to travel from the court to the state repository and then to local police, prosecutors and other agencies. Some states set deadlines for this step. Many don't.",
+     "Some states do set deadlines. In Illinois, the arresting agency, the Illinois State Police and other agencies must expunge records within 60 days of being served with the order. Parties must also fully comply with a sealing order within 60 days. The Illinois State Police must send you written notice that it has complied within 60 days.",
+     "Texas spells out each step for orders of nondisclosure. The court clerk must send the order to the Department of Public Safety (DPS) within 15 business days. DPS must seal its records within 10 business days after receiving it and send the order to agencies, federal record keepers and private companies that buy records from it. Those agencies then have 30 business days to seal.",
+     "In Georgia, the 2020 law says the state crime center notifies the arresting agency within 30 days after restricting a record, and that agency then has 30 days to restrict its own files.",
+     "Ohio, North Carolina, Virginia, Arizona, Minnesota, Florida and Massachusetts don't set a deadline in the laws we read. The order is sent on, and agencies are told to act. In New Jersey, the court's current page says the signed order is sent to the agencies. An older court kit told people to mail it themselves by certified mail, so ask the court clerk how it works now."
+    ]
+   },
+   {
+    "heading": "When Will My FBI Record Be Updated?",
+    "paragraphs": [
+     "We couldn't find a published FBI time frame. Federal rules say the FBI changes a record only after it gets an official communication from the agency that sent in the information. So your FBI record usually updates only after your state passes the order along.",
+     "Some state laws build this step in. Florida's law says the state agency \"shall forward the order to expunge to the Federal Bureau of Investigation.\" Texas sends nondisclosure orders to central federal record keepers. If your FBI record still shows the case months later, ask the agency or court that sent it in to update it. You can also check your FBI record yourself. Our guide on how to get a copy of your criminal record explains how."
+    ]
+   },
+   {
+    "heading": "How Long Until Background Check Companies Stop Showing It?",
+    "paragraphs": [
+     "Private background check companies keep their own databases, so a cleared record can still show up after the court and the state have updated. How fast they catch up depends on how often they refresh their data.",
+     "If one shows up, you can dispute it. Under the federal Fair Credit Reporting Act, a consumer reporting agency generally has 30 days from getting your dispute to reinvestigate. That can be extended by up to 15 days if you send more information during that time. If the item is inaccurate or can't be verified, it must be promptly deleted or corrected. You should get the results in writing within 5 business days after the reinvestigation is finished.",
+     "Texas adds its own rule. A private company that sells criminal history must destroy information once it gets notice of an expunction or nondisclosure order. Companies not covered by federal credit reporting laws that buy Texas records may only share information they got or updated in the past 90 days.",
+     "Keep certified copies of your order. Sending one with your dispute is often the quickest way to prove the record was cleared. For step-by-step help, see our guide on an expunged record showing on a background check."
+    ]
+   },
+   {
+    "heading": "Which States Clear Records Automatically, and How Long Does That Take?",
+    "paragraphs": [
+     "A growing number of states have Clean Slate laws that seal or clear eligible records without an application. You don't file anything, but you still have to wait out the waiting period, and the state works on its own schedule. If a record that should have been cleared wasn't, most of these states still let you apply on your own.",
+     "Here's what we confirmed in each state's law or official guidance. Rules on which offenses qualify are detailed, and many exclude violent offenses, sex offenses and DUIs."
+    ],
+    "table": {
+     "headers": [
+      "State",
+      "What clears automatically, and when",
+      "How the timing works"
+     ],
+     "rows": [
+      [
+       "Pennsylvania",
+       "Non-convictions; summary convictions after 5 years; certain misdemeanors after 7 years free of conviction; some offenses after 10 years",
+       "Court records are sent to the State Police monthly, State Police have 30 days to flag ineligible ones, and courts issue limited-access orders monthly"
+      ],
+      [
+       "Michigan",
+       "Eligible misdemeanors 7 years after sentencing; up to 2 felonies 10 years after sentencing or prison",
+       "No new convictions or pending charges; lifetime limits and many exclusions. No processing schedule in the law"
+      ],
+      [
+       "Utah",
+       "Class C misdemeanors and infractions after 5 years, class B after 6, class A drug possession after 7 (fines and restitution paid); dismissals with prejudice within 180 days; acquittals within 60 days",
+       "Courts say the process \"can take up to 120 days\""
+      ],
+      [
+       "Colorado",
+       "Civil infractions after 4 years, petty offenses and misdemeanors after 7, eligible felonies after 10 (felonies included since July 1, 2025); non-convictions are meant to be sealed automatically",
+       "Lists are compiled quarterly, prosecutors have 45 days to object, and courts enter orders within 14 days"
+      ],
+      [
+       "Minnesota",
+       "Misdemeanors after 2 years, gross misdemeanors after 3, listed felonies after 5 (from discharge)",
+       "The state BCA checks eligibility within 30 days of the end of the wait. Records are sealed 60 days after it notifies the courts"
+      ],
+      [
+       "New York",
+       "Misdemeanors after 3 years, felonies after 8 years (many exclusions)",
+       "Older convictions must be sealed within 3 years of the law taking effect. If one was missed, it must be sealed within 30 days after you submit a form"
+      ],
+      [
+       "Delaware",
+       "Cases eligible for mandatory expungement, such as many misdemeanors after 5 years",
+       "The state SBI has identified eligible cases monthly since August 1, 2024"
+      ],
+      [
+       "Connecticut",
+       "Certain convictions are erased automatically",
+       "The state says erasures have resumed after months of delay"
+      ],
+      [
+       "California",
+       "Eligible arrests and convictions (for example, misdemeanors 1 year after judgment if the sentence is complete; some felonies 4 years after probation)",
+       "The state DOJ reviews records monthly, subject to funding"
+      ],
+      [
+       "Virginia",
+       "A short list of misdemeanors, 7 years after conviction with no new conviction",
+       "No timing set in the law"
+      ],
+      [
+       "North Carolina",
+       "Dismissed and not-guilty charges (cases ending on or after Dec. 1, 2021)",
+       "Expunged 180 to 210 days after the case ends"
+      ],
+      [
+       "Oklahoma",
+       "Certain eligible records with a final disposition",
+       "The state OSBI launched an expedited Clean Slate portal on November 1, 2026"
+      ]
+     ]
+    },
+    "bullets": [
+     "New Jersey: the official pages we read describe \"Clean Slate\" as an application you file after 10 years, not an automatic process.",
+     "Michigan's automatic process depends on state funding, and a first OWI can be set aside only by application, not automatically.",
+     "Texas: for certain first-time, nonviolent misdemeanor deferred adjudications, the judge must issue the nondisclosure order when the case is discharged and dismissed, if you meet the requirements."
+    ]
+   },
+   {
+    "heading": "What Can Slow Down an Expungement?",
+    "paragraphs": [
+     "Most delays come from a few common problems:"
+    ],
+    "bullets": [
+     "Applying too early. If you miscount the waiting period, your petition can be denied, and in some states you then have to wait years to refile.",
+     "Missing paperwork. Many states want details of every case. A missing outcome on your record, like a dismissal that never got recorded, can hold things up.",
+     "Waiting on a background check or certificate first. Michigan's court can't act until the state police report back on your fingerprint check. Utah's BCI certificate can take several months.",
+     "An objection. If the prosecutor or a victim objects, the judge usually sets a hearing, which adds time.",
+     "Unpaid restitution or new charges. Several states, including Pennsylvania and Colorado, require restitution to be paid. A pending charge usually blocks relief until it's resolved.",
+     "Agencies that are slow to update. If a record still shows up after the deadline, follow up with the agency, and keep certified copies of your order."
+    ]
+   },
+   {
+    "heading": "Can a Lawyer Make Expungement Go Faster?",
+    "paragraphs": [
+     "A lawyer can't shorten the waiting period or the legal deadlines. A lawyer can help you avoid the mistakes that cause delays, like filing too early, leaving out a case, or skipping someone who must be served. They can also tell you whether you qualify for a faster or automatic route you didn't know about.",
+     "If you'd like help, you can find a record-clearing lawyer in your city through our directory. This guide explains general rules and isn't legal advice for your situation."
+    ]
+   }
+  ],
+  "keys": {
+   "Why Are There Two Answers to \"How Long Does Expungement Take?\"": "Published processing times are scarce.",
+   "How Long Do You Have to Wait Before You Can Apply?": "It depends on your state, the type of offense, and whether you were convicted.",
+   "How Long Does the Process Take After You File?": "These are deadlines, not averages.",
+   "How Long Until Agencies Update Your Record After the Order?": "A judge's signature doesn't change every database at once.",
+   "When Will My FBI Record Be Updated?": "Federal rules say the FBI changes a record only after it gets an official communication from the agency that sent in the information.",
+   "How Long Until Background Check Companies Stop Showing It?": "Under the federal Fair Credit Reporting Act, a consumer reporting agency generally has 30 days from getting your dispute to reinvestigate.",
+   "Which States Clear Records Automatically, and How Long Does That Take?": "You don't file anything, but you still have to wait out the waiting period, and the state works on its own schedule.",
+   "What Can Slow Down an Expungement?": "Most delays come from a few common problems:",
+   "Can a Lawyer Make Expungement Go Faster?": "A lawyer can't shorten the waiting period or the legal deadlines."
+  },
+  "next_steps": [
+   "Get your court papers or a copy of your record so you know each case's outcome and the date your sentence ended. Our guide at /guides/how-to-get-a-copy-of-your-criminal-record explains how.",
+   "Find your state's waiting period in the table above, then check your state's page at /states for its full rules, costs and attorneys.",
+   "Check whether your state has an automatic Clean Slate process before you file, and whether your record has already been cleared.",
+   "If you can't afford a lawyer, look for free legal aid in your state at /free-expungement-help. Many groups help people clear their records at no cost.",
+   "After you get an order, keep certified copies. If the record still shows up, see /guides/expunged-record-showing-on-background-check."
+  ],
+  "sources": [
+   {
+    "label": "Arizona: A.R.S. 13-911 (sealing)",
+    "url": "https://www.azleg.gov/ars/13/00911.htm"
+   },
+   {
+    "label": "California: Penal Code 1203.4a",
+    "url": "https://california.public.law/codes/ca_penal_code_section_1203.4a"
+   },
+   {
+    "label": "California: Penal Code 1203.425 (automatic relief)",
+    "url": "https://california.public.law/codes/ca_penal_code_section_1203.425"
+   },
+   {
+    "label": "California Courts: Clean your record",
+    "url": "https://selfhelp.courts.ca.gov/clean-your-record"
+   },
+   {
+    "label": "Colorado Judicial: Sealing Criminal Records (January 2026)",
+    "url": "https://www.coloradojudicial.gov/sites/default/files/2026-08/Sealing%20Criminal%20Records%20-%20January%202026.pdf"
+   },
+   {
+    "label": "Colorado: SB22-099 (automatic sealing)",
+    "url": "https://leg.colorado.gov/sites/default/files/2022a_099_signed.pdf"
+   },
+   {
+    "label": "Connecticut: Clean Slate",
+    "url": "https://portal.ct.gov/cleanslate"
+   },
+   {
+    "label": "Delaware: 11 Del. C. ch. 43, subch. VII (4373, 4373A)",
+    "url": "https://delcode.delaware.gov/title11/c043/sc07/index.html"
+   },
+   {
+    "label": "Florida: Fla. Stat. 943.0585",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0900-0999/0943/Sections/0943.0585.html"
+   },
+   {
+    "label": "Georgia: SB 288 (2020)",
+    "url": "https://gov.georgia.gov/document/2020-signed-legislation/sb-288/download"
+   },
+   {
+    "label": "Georgia Bureau of Investigation: Criminal History Record Restrictions",
+    "url": "https://gbi.georgia.gov/node/2031"
+   },
+   {
+    "label": "Illinois: 20 ILCS 2630/5.2",
+    "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=002026300K5.2"
+   },
+   {
+    "label": "Massachusetts: G.L. c. 276, s. 100A",
+    "url": "https://malegislature.gov/laws/generallaws/partiv/titleii/chapter276/section100a"
+   },
+   {
+    "label": "Michigan: MCL 780.621d",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621d"
+   },
+   {
+    "label": "Michigan: MCL 780.621g (automatic set-aside)",
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621g"
+   },
+   {
+    "label": "Minnesota: Minn. Stat. 609A.02",
+    "url": "https://www.revisor.mn.gov/statutes/cite/609A.02"
+   },
+   {
+    "label": "Minnesota: Minn. Stat. 609A.03",
+    "url": "https://www.revisor.mn.gov/statutes/cite/609A.03"
+   },
+   {
+    "label": "Minnesota: Minn. Stat. 609A.015 (automatic)",
+    "url": "https://www.revisor.mn.gov/statutes/cite/609A.015"
+   },
+   {
+    "label": "New Jersey Courts: Expunge your record",
+    "url": "https://www.njcourts.gov/self-help/expunge-record"
+   },
+   {
+    "label": "New Jersey Courts: How to Expunge Your Criminal and/or Juvenile Record (kit, 2020)",
+    "url": "https://www.njcourts.gov/sites/default/files/forms/10557_expunge_kit.pdf"
+   },
+   {
+    "label": "New York: CPL 160.57 (Clean Slate)",
+    "url": "https://www.nysenate.gov/legislation/laws/CPL/160.57"
+   },
+   {
+    "label": "North Carolina: G.S. 15A-145.5",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-145.5.html"
+   },
+   {
+    "label": "North Carolina: G.S. 15A-146",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-146.html"
+   },
+   {
+    "label": "Ohio: R.C. 2953.32",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2953.32"
+   },
+   {
+    "label": "Oklahoma State Bureau of Investigation: Clean Slate",
+    "url": "https://oklahoma.gov/osbi/cleanslate.html"
+   },
+   {
+    "label": "Pennsylvania: 18 Pa.C.S. 9122.1",
+    "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.001..HTM"
+   },
+   {
+    "label": "Pennsylvania: 18 Pa.C.S. 9122.2 (Clean Slate)",
+    "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.002..HTM"
+   },
+   {
+    "label": "Texas: Code of Criminal Procedure ch. 55A (expunction)",
+    "url": "https://tcss.legis.texas.gov/docs/CR/htm/CR.55a.htm"
+   },
+   {
+    "label": "Texas: Government Code ch. 411 (nondisclosure, 411.0851)",
+    "url": "https://tcss.legis.texas.gov/docs/GV/htm/GV.411.htm"
+   },
+   {
+    "label": "Utah Courts: Expungement",
+    "url": "https://www.utcourts.gov/en/self-help/case-categories/criminal-justice/expunge.html"
+   },
+   {
+    "label": "Virginia: Va. Code 19.2-392.12",
+    "url": "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.12/"
+   },
+   {
+    "label": "Virginia: Va. Code 19.2-392.6",
+    "url": "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.6/"
+   },
+   {
+    "label": "Washington: RCW 9.96.060",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.96.060"
+   },
+   {
+    "label": "Washington: RCW 9.94A.640",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.94A.640"
+   },
+   {
+    "label": "28 CFR 16.34 (changing an FBI record)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/16.34"
+   },
+   {
+    "label": "Fair Credit Reporting Act, 15 U.S.C. 1681i (disputes)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681i"
+   }
+  ]
+ },
+ {
+  "slug": "how-far-back-does-a-background-check-go",
+  "title": "How Far Back Does a Background Check Go? The 7-Year Rule by State",
+  "nav": "How Far Back Checks Go",
+  "description": "How far back does a background check go? Arrests usually drop off after 7 years, but convictions can stay. See federal rules, state limits and how to dispute.",
+  "intro": [],
+  "lede": [
+   "Maybe you have an arrest from years ago, or a conviction you've worked hard to put behind you. Now there's a job offer, an apartment or a license on the line, and one question keeps coming back: how far back will they look?",
+   "The honest answer is that it depends. It depends on what kind of record it is, who is running the check, what the job pays, and which state you live in. An old arrest that never led to a conviction is treated very differently from a conviction.",
+   "The good news is that there are real limits. Federal law keeps most old arrests off commercial background checks after seven years, and several states go further. Records that were expunged or sealed should not show up at all.",
+   "This guide explains the federal seven-year rule in plain words, lists the states with stricter limits, explains how FBI fingerprint checks differ, and walks through what to do if something old or cleared shows up on your report."
+  ],
+  "takeaways": [
+   "Under federal law, background check companies generally can't report arrests that didn't lead to a conviction once they are more than seven years old.",
+   "Federal law sets no time limit for reporting convictions. Some states do, usually seven years.",
+   "The federal seven-year limit doesn't apply to jobs paying $75,000 a year or more.",
+   "FBI and state fingerprint checks, often used for licenses and some jobs, work under different rules than commercial background checks.",
+   "Expunged and sealed records should not appear on a background check. If one does, you can dispute it for free, and the company generally has 30 days to investigate."
+  ],
+  "sections": [
+   {
+    "heading": "How Far Back Does a Background Check Go Under Federal Law?",
+    "paragraphs": [
+     "Most employers and landlords buy background checks from private companies. Federal law calls these companies consumer reporting agencies, and the Fair Credit Reporting Act (FCRA) sets limits on what they can report.",
+     "The key rule is in 15 U.S.C. 1681c. It says no consumer reporting agency may report \"Civil suits, civil judgments, and records of arrest that, from date of entry, antedate the report by more than seven years or until the governing statute of limitations has expired, whichever is the longer period.\"",
+     "The same section also bars \"Any other adverse item of information, other than records of convictions of crimes which antedates the report by more than seven years.\"",
+     "Put simply: arrests and other negative items generally drop off after seven years. Convictions are the exception. The CFPB puts it this way: \"There is no federal time limit for how long criminal convictions can stay on your report, although some states may have different rules.\""
+    ]
+   },
+   {
+    "heading": "Can a Background Check Show Convictions Older Than 7 Years?",
+    "paragraphs": [
+     "Yes, under federal law. Convictions were not always treated this way. Until 1998, the FCRA also limited convictions to seven years. That year, Congress added the words \"other than records of convictions of crimes\" to the law, which removed convictions from the seven-year limit.",
+     "Arrests that did not lead to a conviction are different. For arrests, the federal clock runs seven years \"from date of entry.\" In a 2024 advisory opinion, the CFPB said some companies had wrongly started the clock on dismissed cases at the dismissal date instead, which kept them on reports too long. It said a dismissed charge \"cannot be reported beyond the seven-year period that begins to run at the time of the charge.\"",
+     "The CFPB withdrew that advisory opinion in May 2025, saying the withdrawal \"is not necessarily final.\" The statute's own words, \"from date of entry,\" have not changed.",
+     "Several states limit convictions too. We cover those below."
+    ]
+   },
+   {
+    "heading": "What Is the $75,000 Salary Exception?",
+    "paragraphs": [
+     "The seven-year limit has exceptions. Under 15 U.S.C. 1681c(b), it does not apply to a report used for \"the employment of any individual at an annual salary which equals, or which may reasonably be expected to equal $75,000, or more.\"",
+     "The federal seven-year limit does not apply to jobs paying $75,000 a year or more.",
+     "The same goes for credit of $150,000 or more and life insurance of $150,000 or more. So for a job at that pay level, a background check company may report arrests older than seven years under federal law. State law may still limit it, depending on the state."
+    ]
+   },
+   {
+    "heading": "Which States Limit How Far Back a Background Check Can Go?",
+    "paragraphs": [
+     "Some states have their own laws for background check companies, and several are stricter than federal law. The biggest difference: in the states below, convictions are also limited to seven years, usually counted from the date of disposition, release or parole rather than from the arrest.",
+     "Many of these states have their own salary exception, and it is often much lower than the federal $75,000. A few have none for jobs at all.",
+     "One caution. Federal law lets state rules on this subject stand only if the state law was in effect on September 30, 1996. Whether a given state's rule, or a later change to it, still applies is a legal question. A lawyer can tell you how it works in your state.",
+     "Here are the ten states we checked. Other states may have rules we did not review."
+    ],
+    "table": {
+     "headers": [
+      "State and law",
+      "What is limited",
+      "Salary exception for jobs"
+     ],
+     "rows": [
+      [
+       "California (Civ. Code 1786.18)",
+       "Arrests and convictions after 7 years from disposition, release or parole. Arrests that didn't lead to a conviction, and pardoned convictions, can't be reported once that is known.",
+       "None based on salary. Exception if a government regulator explicitly requires the employer to check."
+      ],
+      [
+       "Colorado (C.R.S. 5-18-109)",
+       "Arrests and convictions after 7 years. Sealed records, expunged records and records without a conviction can't be reported at all.",
+       "None for jobs"
+      ],
+      [
+       "Kansas (K.S.A. 50-704)",
+       "Arrests and convictions after 7 years from disposition, release or parole",
+       "$20,000 or more"
+      ],
+      [
+       "Maryland (Com. Law 14-1203)",
+       "Arrests and convictions after 7 years from disposition, release or parole",
+       "$75,000 or more"
+      ],
+      [
+       "Massachusetts (G.L. c. 93, s. 52)",
+       "Arrests and convictions after 7 years from disposition, release or parole. Also sealed eviction records.",
+       "None for jobs"
+      ],
+      [
+       "Montana (MCA 31-3-112)",
+       "Arrests and convictions after 7 years from disposition, release or parole",
+       "None listed in the section"
+      ],
+      [
+       "New Hampshire (RSA 359-B:5)",
+       "Arrests and convictions after 7 years from disposition, release or parole",
+       "$20,000 or more"
+      ],
+      [
+       "New Mexico (NMSA 56-3-6)",
+       "Pending arrests and convictions after 7 years from release or parole. Not after a pardon, or once an arrest didn't lead to a conviction.",
+       "None listed in the section"
+      ],
+      [
+       "New York (GBL 380-j)",
+       "Arrests and charges can't be reported at all unless they led to a conviction or are still pending. Convictions after 7 years from disposition, release or parole.",
+       "$25,000 or more (applies to the 7-year rule)"
+      ],
+      [
+       "Washington (RCW 19.182.040)",
+       "Adult arrests and convictions after 7 years from disposition, release or parole. Juvenile records once you are 21 or older.",
+       "$20,000 or more"
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "Do FBI Fingerprint Background Checks Have a Time Limit?",
+    "paragraphs": [
+     "An FBI or state fingerprint check is a different thing from a commercial background check. It comes from government records built from fingerprints, not from a private company's database. It is used for some licenses and jobs, when a law allows it.",
+     "Under federal rules, the FBI shares records with state and local governments \"for purposes of employment and licensing\" when a state law authorizes it, and with banks and some other industries. The rule (28 CFR 50.12) says the FBI \"has made all data on identification records available for such purposes.\" The seven-year limit in the FCRA is written for consumer reporting agencies, and the FBI rule we read does not contain one. So expect a fingerprint check to show your whole record, including old arrests.",
+     "There is a protection. Officials who use an FBI record for a license or job \"shall provide the applicants the opportunity to complete, or challenge the accuracy of, the information contained in the FBI identification record.\" They should not deny you until you have had a reasonable time to correct the record, or have declined to.",
+     "Because a fingerprint check can reach back further, it helps to see your own record first. Our guide /guides/how-to-get-a-copy-of-your-criminal-record explains how to request your FBI and state records."
+    ]
+   },
+   {
+    "heading": "Is a Background Check Different for a Job, an Apartment or a License?",
+    "paragraphs": [
+     "For jobs and apartments, the same federal seven-year rule applies when the check comes from a background check company. The FTC says tenant screening companies \"generally cannot report negative information if it's older than seven years,\" but \"there is no time limit for criminal convictions.\"",
+     "Jobs: an employer must tell you in writing, in a separate document, and get your written permission before ordering a check. Before turning you down because of the report, it must give you a copy and a summary of your rights. Higher-paying jobs may fall under the $75,000 exception.",
+     "Apartments: tenant reports can include \"criminal records, including arrest, charge, and conviction records,\" plus eviction and credit history. If a landlord turns you down, charges more rent or asks for a bigger deposit because of the report, it must give you a notice naming the company.",
+     "Licenses: licensing agencies may use FBI fingerprint checks when a state law authorizes it, and the FBI rule we read sets no seven-year limit. Licensing rules vary by state and by profession."
+    ]
+   },
+   {
+    "heading": "What Are Ban-the-Box and Fair Chance Laws?",
+    "paragraphs": [
+     "These laws don't change how far back a check goes. They change when an employer can ask. The FTC notes that \"Laws in your city or state might impact if or when employers can ask about your criminal or credit history.\"",
+     "For federal jobs, 5 U.S.C. 9202 bars agencies from asking about criminal history before a conditional job offer, with some exceptions.",
+     "California is one state example. Its Fair Chance Act covers employers with five or more employees. They can't ask about convictions before a conditional offer, and they can't consider arrests that didn't lead to a conviction, diversion, or convictions that were sealed, dismissed or expunged. If an employer leans toward saying no, it must do an individualized assessment and give you at least five business days to respond. Rules elsewhere vary, so check your state and city."
+    ]
+   },
+   {
+    "heading": "Can Expunged or Sealed Records Show Up on a Background Check?",
+    "paragraphs": [
+     "They shouldn't. The CFPB tells consumers: \"If any of your criminal records was expunged or removed from public records, they should not appear on your report.\" The FTC lists \"criminal record or eviction information that was sealed or expunged\" as a common error.",
+     "Expunged and sealed records should not appear on a commercial background check.",
+     "The legal hook is the FCRA's accuracy rule. Companies must \"follow reasonable procedures to assure maximum possible accuracy.\" In 2024 the CFPB said that means having procedures to avoid reporting records that were \"expunged, sealed, or otherwise legally restricted from public access.\" That opinion was withdrawn in May 2025, though the accuracy rule itself is unchanged and the CFPB and FTC consumer pages still say these records should not appear. Some states also spell it out. Colorado's law, for example, bars reporting \"Sealed records, expunged records, and records that did not result in a conviction.\"",
+     "Still, mistakes happen. Our guide /guides/expunged-record-showing-on-background-check explains why and what to do."
+    ]
+   },
+   {
+    "heading": "How Do I Dispute an Old or Expunged Record on a Background Check?",
+    "paragraphs": [
+     "If a report shows an arrest older than seven years, a record that was expunged or sealed, or anything that isn't accurate, you can dispute it. It's free.",
+     "Under 15 U.S.C. 1681i, the company must, \"free of charge, conduct a reasonable reinvestigation\" and fix or delete the item within 30 days of getting your dispute. It can take up to 15 more days if you send new information during those 30 days.",
+     "If the company doesn't fix it, you can submit a complaint to the CFPB or report it to the FTC. If your rights were violated, you may be able to bring a lawsuit."
+    ],
+    "bullets": [
+     "Get the report. If you were turned down, you can get a free copy from the company if you ask within 60 days of the notice.",
+     "Mark each item that is too old, was expunged or sealed, or isn't yours.",
+     "Write to the background check company. Describe the error and include copies, not originals, of your court papers, such as an expungement order.",
+     "Contact whoever supplied the wrong information too. For criminal records, you can also contact the court.",
+     "When the company answers, check the corrected report and ask it to send a copy to the employer or landlord."
+    ]
+   }
+  ],
+  "keys": {
+   "How Far Back Does a Background Check Go Under Federal Law?": "Put simply: arrests and other negative items generally drop off after seven years.",
+   "Can a Background Check Show Convictions Older Than 7 Years?": "Yes, under federal law.",
+   "What Is the $75,000 Salary Exception?": "The federal seven-year limit does not apply to jobs paying $75,000 a year or more.",
+   "Which States Limit How Far Back a Background Check Can Go?": "The biggest difference: in the states below, convictions are also limited to seven years, usually counted from the date of disposition, release or parole rather than from the arrest.",
+   "Do FBI Fingerprint Background Checks Have a Time Limit?": "So expect a fingerprint check to show your whole record, including old arrests.",
+   "Is a Background Check Different for a Job, an Apartment or a License?": "Licenses: licensing agencies may use FBI fingerprint checks when a state law authorizes it, and the FBI rule we read sets no seven-year limit.",
+   "What Are Ban-the-Box and Fair Chance Laws?": "These laws don't change how far back a check goes.",
+   "Can Expunged or Sealed Records Show Up on a Background Check?": "Expunged and sealed records should not appear on a commercial background check.",
+   "How Do I Dispute an Old or Expunged Record on a Background Check?": "If a report shows an arrest older than seven years, a record that was expunged or sealed, or anything that isn't accurate, you can dispute it."
+  },
+  "next_steps": [
+   "Check your own record first. Request your FBI and state records so you know what a fingerprint check will show. See /guides/how-to-get-a-copy-of-your-criminal-record.",
+   "Look up your state's rules. Your state may limit convictions to seven years or set its own salary exception. Start at /states.",
+   "Dispute anything too old or cleared. Write to the background check company with copies of your court papers, and contact the court if its records are wrong.",
+   "Think about clearing what's left. Expunged and sealed records should not appear on commercial checks. Find a record-clearing lawyer in your city at /cities.",
+   "Get free help if you need it. Legal aid groups can help with disputes and record clearing. See /free-expungement-help."
+  ],
+  "sources": [
+   {
+    "label": "15 U.S.C. 1681c (time limits on reporting)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681c"
+   },
+   {
+    "label": "15 U.S.C. 1681t (relation to state laws)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681t"
+   },
+   {
+    "label": "15 U.S.C. 1681e (accuracy)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681e"
+   },
+   {
+    "label": "15 U.S.C. 1681i (disputes and reinvestigation)",
+    "url": "https://www.law.cornell.edu/uscode/text/15/1681i"
+   },
+   {
+    "label": "28 CFR 50.12 (FBI records for employment and licensing)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/50.12"
+   },
+   {
+    "label": "5 U.S.C. 9202 (federal fair chance rule)",
+    "url": "https://www.law.cornell.edu/uscode/text/5/9202"
+   },
+   {
+    "label": "California Civil Code 1786.18 (FindLaw)",
+    "url": "https://codes.findlaw.com/ca/civil-code/civ-sect-1786-18/"
+   },
+   {
+    "label": "California Civil Code 1786.2 (FindLaw)",
+    "url": "https://codes.findlaw.com/ca/civil-code/civ-sect-1786-2/"
+   },
+   {
+    "label": "California Government Code 12952 (FindLaw)",
+    "url": "https://codes.findlaw.com/ca/government-code/gov-sect-12952/"
+   },
+   {
+    "label": "Colorado C.R.S. 5-18-109 (FindLaw)",
+    "url": "https://codes.findlaw.com/co/title-5-consumer-credit-code/co-rev-st-sect-5-18-109/"
+   },
+   {
+    "label": "Kansas K.S.A. 50-704",
+    "url": "https://www.ksrevisor.org/statutes/chapters/ch50/050_007_0004.html"
+   },
+   {
+    "label": "Maryland Commercial Law 14-1203",
+    "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-1203&enactments=false"
+   },
+   {
+    "label": "Massachusetts G.L. c. 93, s. 52",
+    "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93/Section52"
+   },
+   {
+    "label": "Montana MCA 31-3-112",
+    "url": "https://leg.mt.gov/bills/mca/title_0310/chapter_0030/part_0010/section_0120/0310-0030-0010-0120.html"
+   },
+   {
+    "label": "New Hampshire RSA 359-B:5",
+    "url": "https://gc.nh.gov/rsa/html/XXXI/359-B/359-B-5.htm"
+   },
+   {
+    "label": "New Mexico NMSA 56-3-6 (FindLaw)",
+    "url": "https://codes.findlaw.com/nm/chapter-56-commercial-instruments-and-transactions/nm-st-sect-56-3-6/"
+   },
+   {
+    "label": "New York General Business Law 380-j",
+    "url": "https://www.nysenate.gov/legislation/laws/GBS/380-J"
+   },
+   {
+    "label": "Washington RCW 19.182.040",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.182.040"
+   },
+   {
+    "label": "CFPB: Review your rental background check",
+    "url": "https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/"
+   },
+   {
+    "label": "FTC: Tenant background checks and your rights",
+    "url": "https://consumer.ftc.gov/articles/tenant-background-checks-and-your-rights"
+   },
+   {
+    "label": "FTC: Employer background checks and your rights",
+    "url": "https://consumer.ftc.gov/articles/employer-background-checks-your-rights"
+   },
+   {
+    "label": "CFPB advisory opinion, January 23, 2024 (withdrawn)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2024-01-23/html/2024-00788.htm"
+   },
+   {
+    "label": "CFPB withdrawal notice, May 12, 2025",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2025-05-12/html/2025-08286.htm"
+   }
+  ]
  }
 ]
