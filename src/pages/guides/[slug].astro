@@ -5,6 +5,12 @@ import { stateSlug } from '../../data/cities';
 import { guideTopics, factStates, factsChecked, clearableLabel } from '../../data/guides';
 import { getAttorneysByState } from '../../data/attorneys';
 import { getHelpForState } from '../../data/freeHelp';
+import GuideIntro from '../../components/GuideIntro.astro';
+import NextSteps from '../../components/NextSteps.astro';
+import BarChart from '../../components/BarChart.astro';
+import upgrades from '../../data/guideUpgrades.json';
+import { attorneys } from '../../data/attorneys';
+import { serviceLabels } from '../../data/attorneyFacts';
 
 export function getStaticPaths() {
   return guideTopics.map(topic => ({ params: { slug: topic.slug }, props: { topic } }));
@@ -18,31 +24,37 @@ const badge: Record<string, string> = {
 };
 const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 const others = guideTopics.filter(t => t.slug !== topic.slug);
+const up: any = (upgrades as any)[topic.slug] || {};
+const fill = (t: string) => t.replace('{yes}', String(count('yes'))).replace('{some}', String(count('some'))).replace('{no}', String(count('no')));
+const toc = [{ id: 'short-answer', label: 'The Short Answer' }, { id: 'at-a-glance', label: 'Every State at a Glance' }, { id: 'state-by-state', label: 'State by State' }, ...(up.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
+const duiFirms = topic.key === 'dui' ? attorneys.filter(a => serviceLabels(a, 12).includes('DUI records')).length : 0;
 ---
 
-<PageLayout title={topic.title} description={topic.description} canonicalURL={`/guides/${topic.slug}`}>
-  <div class="container py-8 mt-8">
+<PageLayout title={topic.title} description={topic.description} canonicalURL={`/guides/${topic.slug}`} schemaType="article" schemaData={{ title: topic.title, description: topic.description, url: `/guides/${topic.slug}` }}>
+  <div class="container py-6">
     <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: `${topic.short} on your record` }]} />
   </div>
 
   <section class="pb-12 bg-white">
     <div class="container">
-      <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl font-bold mb-6">{topic.title}</h1>
-        {topic.intro.map(p => <p class="text-lg text-gray-700 mb-4">{p}</p>)}
+      <div class="max-w-4xl mx-auto pt-4">
+        <GuideIntro title={topic.title} lede={up.lede || topic.intro} takeaways={(up.takeaways || []).map(fill)} toc={toc} minutes={Math.max(5, Math.round(rows.length * 70 / 230))} />
 
-        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 my-8">
-          <h2 class="text-xl font-semibold mb-3">The short answer</h2>
+        <div id="short-answer" class="bg-gray-50 p-6 rounded-xl border border-gray-200 my-8 scroll-mt-24">
+          <h2 class="!text-xl font-semibold !mb-3">The Short Answer</h2>
           <p class="text-gray-700 mb-2">{`Can ${topic.noun} conviction be cleared from a criminal record?`}</p>
           <ul class="text-gray-700 space-y-1">
             <li>{`Yes in ${count('yes')} states`}</li>
             <li>{`In some cases in ${count('some')} states`}</li>
             <li>{`No in ${count('no')} states`}</li>
           </ul>
-          <p class="text-sm text-gray-500 mt-3">{`Researched and written by the Expungement Attorneys Directory editors. Counts include the District of Columbia. Checked ${factsChecked} against state statutes, courts and agencies. This is general information, not legal advice; laws change and the details of a case matter. `}<a href="/about" class="underline">How we research</a></p>
+          <p class="text-sm text-gray-500 mt-3">{`Counts include the District of Columbia. Checked ${factsChecked} against state statutes, courts and agencies. This is general information, not legal advice; laws change and the details of a case matter. `}<a href="/about" class="underline">How we research</a></p>
         </div>
 
-        <h2 class="text-2xl font-bold mb-4">Every state at a glance</h2>
+        <BarChart title={`Can ${topic.noun} conviction be cleared? Number of states`} rows={[{ label: 'Yes', value: count('yes'), tone: 'green' }, { label: 'In some cases', value: count('some'), tone: 'amber' }, { label: 'No', value: count('no'), tone: 'red' }, ...(count('unclear') ? [{ label: 'Unclear', value: count('unclear'), tone: 'gray' as const }] : [])]} source={`Count of the 50 states and DC in the table below. Checked ${factsChecked} against state statutes, courts and agencies.`} />
+        {duiFirms > 0 && <p class="rounded-lg bg-gray-50 border border-gray-200 p-4 text-[15px] text-gray-700 mb-8">{`In our directory, ${duiFirms} law firms say on their own websites that they clear DUI records. `}<a href="/states" class="text-secondary font-semibold">Find attorneys by state →</a></p>}
+
+        <h2 id="at-a-glance" class="!text-2xl font-bold !mb-4 scroll-mt-24">Every State at a Glance</h2>
         <div class="overflow-x-auto mb-12">
           <table class="w-full text-left text-sm border border-gray-200">
             <thead class="bg-gray-50">
@@ -64,7 +76,7 @@ const others = guideTopics.filter(t => t.slug !== topic.slug);
           </table>
         </div>
 
-        <h2 class="text-2xl font-bold mb-6">State by state</h2>
+        <h2 id="state-by-state" class="!text-2xl font-bold !mb-6 scroll-mt-24">State by State</h2>
         <div class="space-y-8">
           {rows.map(r => (
             <div id={stateSlug(r.code)} class="p-6 bg-gray-50 rounded-lg border border-gray-200 scroll-mt-24">
@@ -89,8 +101,10 @@ const others = guideTopics.filter(t => t.slug !== topic.slug);
           ))}
         </div>
 
-        <div class="mt-12 p-6 rounded-lg border border-gray-200">
-          <h2 class="text-xl font-semibold mb-3">Related guides</h2>
+        <NextSteps steps={up.next_steps || []} />
+
+        <div class="mt-12 p-6 rounded-xl border border-gray-200">
+          <h2 class="!text-xl font-semibold !mb-3">Related guides</h2>
           <ul class="space-y-2">
             {others.map(t => <li><a href={`/guides/${t.slug}`} class="text-primary hover:underline">{t.title}</a></li>)}
           </ul>

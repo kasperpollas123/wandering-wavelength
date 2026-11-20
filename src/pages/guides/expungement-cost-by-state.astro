@@ -3,10 +3,19 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { allCosts, costsChecked, hostOf } from '../../data/stateCosts';
 import { stateNames, stateSlug } from '../../data/cities';
+import GuideIntro from '../../components/GuideIntro.astro';
+import NextSteps from '../../components/NextSteps.astro';
+import BarChart from '../../components/BarChart.astro';
+import upgrades from '../../data/guideUpgrades.json';
+import { attorneys } from '../../data/attorneys';
 
 const rows = [...allCosts].filter(c => stateNames[c.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state]));
 // States where an official source confirms no court filing fee for the main petition (checked by hand)
 const NO_FEE = ['AZ', 'AR', 'CA', 'ID', 'MA', 'NJ', 'NY', 'OR', 'VA'];
+const up: any = (upgrades as any)['expungement-cost-by-state'] || {};
+const freeConsult = attorneys.filter(a => a.profile?.free_consultation === true).length;
+const feesPublished = attorneys.filter(a => a.profile?.fees).length;
+const autoCount = rows.filter(c => c.free_automatic).length;
 const noFee = rows.filter(c => NO_FEE.includes(c.state)).map(c => stateNames[c.state]);
 ---
 
@@ -14,18 +23,26 @@ const noFee = rows.filter(c => NO_FEE.includes(c.state)).map(c => stateNames[c.s
   title="How Much Does an Expungement Cost? Fees in Every State"
   description="Court and state fees to expunge or seal a criminal record in all 50 states and DC, whether they can be waived, and where records clear automatically for free."
   canonicalURL="/guides/expungement-cost-by-state"
+  schemaType="article"
+  schemaData={{ title: "How Much Does an Expungement Cost? Fees in Every State", description: "Court and state fees to expunge or seal a criminal record in all 50 states and DC.", url: "/guides/expungement-cost-by-state" }}
 >
-  <div class="container py-8 mt-8">
+  <div class="container py-6">
     <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: "Expungement cost by state" }]} />
   </div>
   <section class="pb-12 bg-white">
     <div class="container">
       <div class="max-w-4xl mx-auto">
-        <h1 class="!text-3xl md:!text-4xl font-bold !mb-4">How Much Does an Expungement Cost? Fees in Every State</h1>
-        <p class="text-lg text-gray-700 mb-4">Clearing a record costs two kinds of money: what the court and the state charge, and what an attorney charges if you hire one. This page covers the first kind, for every state and the District of Columbia.</p>
-        <p class="text-lg text-gray-700 mb-4">{`Government fees run from nothing to several hundred dollars. In ${noFee.join(', ').replace(/, ([^,]*)$/, ' and $1')}, official sources confirm there is no court filing fee for the main petition, while Alabama charges $500 per arrest. Many add a fee for a state background check or for each agency that must update its files. Many states let people who can't afford the fees ask for a waiver, and a growing number clear some records automatically at no cost. Both are listed per state below.`}</p>
-        <p class="text-sm text-gray-500 mb-10">{`Researched and written by the Expungement Attorneys Directory editors. Checked ${costsChecked} against state statutes, court fee schedules and state agencies; each state lists its sources. Fees change, and counties sometimes add their own, so confirm the amount with the court clerk before you file. `}<a href="/about" class="underline">How we research</a></p>
+        <GuideIntro title="How Much Does an Expungement Cost? Fees in Every State" lede={up.lede || []} takeaways={up.takeaways || []} toc={[{ id: 'what-it-costs', label: 'What Does It Cost the Court and the State?' }, { id: 'attorneys', label: 'And What About an Attorney?' }, { id: 'every-state', label: 'Fees in Every State' }, ...(up.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])]} minutes={12} />
+        <h2 id="what-it-costs" class="!text-2xl font-bold !mb-4 scroll-mt-24">What Does It Cost the Court and the State?</h2>
+        <p class="text-sm text-gray-500 mb-10">{`Checked ${costsChecked} against state statutes, court fee schedules and state agencies; each state lists its sources. Fees change, and counties sometimes add their own, so confirm the amount with the court clerk before you file. `}<a href="/about" class="underline">How we research</a></p>
 
+        <BarChart title="Government fees to clear a record: what our state research found" rows={[{ label: 'States where an official source confirms no court filing fee', value: noFee.length, tone: 'green' }, { label: 'States that clear some records automatically, at no cost', value: autoCount, tone: 'blue' }]} source={`Out of 50 states and DC. From the per-state research below, checked ${costsChecked}.`} />
+
+        <h2 id="attorneys" class="!text-2xl font-bold !mb-4 scroll-mt-24">And What About an Attorney?</h2>
+        <p class="text-[17px] leading-relaxed text-gray-700 mb-4">{`An attorney's fee comes on top of the government fees, and most firms quote it case by case. Of the ${attorneys.length.toLocaleString('en-US')} law firms in our directory, ${freeConsult} say on their own websites that the first consultation is free, and ${feesPublished} publish something about their fees. `}<a href="/cities" class="text-secondary font-semibold">Compare firms in your city →</a></p>
+        <p class="text-[17px] leading-relaxed text-gray-700 mb-8">If you can't afford an attorney, <a href="/free-expungement-help" class="text-secondary font-semibold">free legal aid programmes</a> in every state help people clear their records, usually with an income limit.</p>
+
+        <h2 id="every-state" class="!text-2xl font-bold !mb-4 scroll-mt-24">Fees in Every State</h2>
         <div class="space-y-4">
           {rows.map(c => (
             <div id={stateSlug(c.state)} class="rounded-xl border border-gray-200 p-5 scroll-mt-24">
@@ -40,6 +57,7 @@ const noFee = rows.filter(c => NO_FEE.includes(c.state)).map(c => stateNames[c.s
             </div>
           ))}
         </div>
+        <NextSteps steps={up.next_steps || []} />
       </div>
     </div>
   </section>

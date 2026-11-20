@@ -1,0 +1,38 @@
+---
+// Top of every guide, following the editorial standard: title, byline, Key Takeaways, warm opening, contents.
+interface Props {
+  title: string;
+  lede: string[];
+  takeaways: string[];
+  toc: { id: string; label: string }[];
+  minutes: number;
+  updated?: string;
+}
+const { title, lede, takeaways, toc, minutes, updated = 'November 2026' } = Astro.props;
+---
+<p class="text-sm text-gray-500 mb-3">{`Guides · Last updated: ${updated} · ${minutes} min read`}</p>
+<h1 class="!text-3xl md:!text-4xl font-bold !mb-4">{title}</h1>
+<div class="flex items-center gap-3 mb-8">
+  <span class="w-10 h-10 rounded-full bg-blue-100 text-secondary font-bold flex items-center justify-center text-sm" aria-hidden="true">KP</span>
+  <span class="text-sm text-gray-700 leading-tight"><span class="font-semibold block">By Kasper Pollas</span>Founder, Expungement Attorneys Directory</span>
+</div>
+
+{takeaways.length > 0 && (
+  <div class="rounded-xl border border-emerald-200 bg-emerald-50 p-5 md:p-6 mb-8">
+    <h2 class="!text-lg font-bold !mb-3 text-emerald-950">Key Takeaways</h2>
+    <ul class="space-y-2 text-[16px] text-emerald-950">
+      {takeaways.map(t => <li class="flex gap-2"><svg class="h-5 w-5 mt-0.5 shrink-0 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><span>{t}</span></li>)}
+    </ul>
+  </div>
+)}
+
+{lede.map(p => <p class="text-[18px] leading-relaxed text-gray-800 mb-4">{p}</p>)}
+
+{toc.length > 2 && (
+  <nav class="rounded-xl border border-gray-200 bg-gray-50 p-5 my-8" aria-label="Table of contents">
+    <h2 class="!text-base font-bold !mb-2 text-gray-900">In this guide</h2>
+    <ol class="list-decimal pl-5 space-y-1 text-[15px]">
+      {toc.map(t => <li><a href={`#${t.id}`} class="text-secondary">{t.label}</a></li>)}
+    </ol>
+  </nav>
+)}

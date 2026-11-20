@@ -1,0 +1,18 @@
+---
+// Numbered process infographic (e.g. dispute steps), built in HTML.
+interface Props { title: string; steps: { label: string; detail: string }[]; source?: string; }
+const { title, steps, source } = Astro.props;
+---
+<figure class="rounded-xl border border-gray-200 p-5 my-8">
+  <figcaption class="font-bold text-gray-900 mb-4">{title}</figcaption>
+  <ol class="relative border-l-2 border-sky-200 ml-3 space-y-5">
+    {steps.map((s, i) => (
+      <li class="pl-6 relative">
+        <span class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-sky-500 text-white text-xs font-bold flex items-center justify-center">{i + 1}</span>
+        <p class="font-semibold text-gray-900">{s.label}</p>
+        <p class="text-sm text-gray-700">{s.detail}</p>
+      </li>
+    ))}
+  </ol>
+  {source && <p class="text-xs text-gray-500 mt-4">{source}</p>}
+</figure>

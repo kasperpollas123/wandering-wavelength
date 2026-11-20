@@ -224,6 +224,43 @@
     "label": "Washington RCW 9.41.041",
     "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.41.041"
    }
+  ],
+  "lede": [
+   "Maybe it's been years since your conviction and you've rebuilt a lot of your life, but this one question still hangs over you: can I legally own a gun again? Not knowing where you stand is its own kind of stress.",
+   "Here's the plain answer to start with. Federal law bars people with certain convictions from having firearms or ammunition, but those rights can be restored in some cases, through state relief, a federal application, or both. Which route applies depends on where the conviction happened and what kind it was.",
+   "The federal application route was unusable from 1992 until recently. The Department of Justice reopened it in 2026 under a new process called Federal Firearm Rights Restoration. Approval is not automatic.",
+   "This guide walks through who the federal ban covers, when a conviction stops counting, how the new federal application works, and how ten states handle restoration. State and federal rules work separately, so relief under one does not always remove the ban under the other. This page is general information, not legal advice."
+  ],
+  "takeaways": [
+   "Federal law bars two groups based on convictions from having firearms or ammunition: anyone convicted of a crime punishable by more than one year in prison (whatever time was actually served), and anyone convicted of a misdemeanor crime of domestic violence.",
+   "A conviction that has been expunged, set aside or pardoned, or for which civil rights have been restored, is not treated as a conviction under federal law, unless the relief expressly says the person may not have firearms.",
+   "The Department of Justice reopened the federal application in 2026. The steps are an online application, a $30 non-refundable fee (listed to begin January 4, 2027, and you can ask for a waiver or reduction), fingerprints and character references. Approval is not automatic.",
+   "State and federal relief work separately. State restoration may not lift the federal ban, and a federal grant does not remove a separate state ban.",
+   "States use different methods: some restore rights automatically after a waiting period, some require a petition to a court, and some leave it to a pardon or parole board."
+  ],
+  "headings": {
+   "Who the federal gun ban covers": "Who Does the Federal Gun Ban Cover?",
+   "When a conviction stops counting under federal law": "When Does a Conviction Stop Counting Under Federal Law?",
+   "The federal application process reopened in 2026": "Can I Ask the Federal Government to Restore My Gun Rights?",
+   "Applications the 2026 rule says will be denied": "Which Federal Applications Will Be Turned Down?",
+   "What a federal grant does and does not do": "If the Federal Answer Is Yes, Is That the End of It?",
+   "How state restoration works in ten states": "How Do States Restore Gun Rights?",
+   "Why state restoration may not lift the federal ban": "My State Restored My Rights. Why Might the Federal Ban Still Apply?"
+  },
+  "keys": {
+   "Who the federal gun ban covers": "The test is the sentence the crime could carry, not the time actually served.",
+   "When a conviction stops counting under federal law": "Federal law says a conviction that has been expunged (cleared from the record), set aside (canceled by a court) or pardoned (officially forgiven), or for which the person has had civil rights restored, is not treated as a conviction.",
+   "The federal application process reopened in 2026": "Under 18 U.S.C. 925(c), a barred person may apply to the Attorney General for relief from the federal ban.",
+   "Applications the 2026 rule says will be denied": "The rule lists situations in which an application will be denied, absent extraordinary circumstances.",
+   "What a federal grant does and does not do": "A grant does not remove a separate ban under state law.",
+   "How state restoration works in ten states": "Only these ten were checked, so nothing here describes any other state.",
+   "Why state restoration may not lift the federal ban": "The Department of Justice states that state restoration of rights does not remove disabilities (legal bans) imposed by a federal conviction, and that a state restoration of a state conviction also may not remove federal disabilities."
+  },
+  "next_steps": [
+   "Find the state where the conviction happened on /states to see that state's rules, costs and attorneys.",
+   "Pull out the paperwork for any pardon, expungement or restoration you already have and read its wording. Under federal law, a line that restricts firearms keeps the conviction counting.",
+   "If the federal application interests you, check the Department of Justice program page at justice.gov/ffrr for its current dates, fee and waiver details.",
+   "Ask a legal aid office or an attorney to look at your situation. /free-expungement-help lists free legal aid by state, and /cities lists attorneys by city."
   ]
  },
  {
@@ -526,6 +563,44 @@
     "label": "Wisconsin statute 758.20",
     "url": "https://docs.legis.wisconsin.gov/statutes/statutes/758/20"
    }
+  ],
+  "lede": [
+   "An eviction on your record can make every rental application feel like a test you've already failed. If a landlord has turned you down, or you're bracing for it, you're not alone, and the law does give you some tools.",
+   "First, an eviction is a civil court case, not a criminal one. It is cleared under different laws from a criminal record, so the criminal-record rules on the state pages of this site do not apply to it.",
+   "An eviction case can come off your record in two main ways. A state law can seal or expunge the court record, which means hiding it from the public or removing it. And federal law generally stops screening companies from reporting an eviction after seven years.",
+   "This guide covers that seven-year limit, the sealing laws confirmed in 18 states and the District of Columbia (South Carolina's does not take effect until January 1, 2027), and the federal steps for disputing errors on a tenant screening report. Some sealing laws work automatically; others require a request to the court."
+  ],
+  "takeaways": [
+   "An eviction is a civil case, not a criminal one, so the criminal-record rules on this site's state pages do not apply to it.",
+   "Federal law generally stops screening companies from reporting an eviction after seven years, but that limit does not remove the case from the court's own records.",
+   "Laws that seal or limit eviction records were confirmed in 18 states and the District of Columbia. Some work automatically; others require a request to the court.",
+   "The CFPB says a screening report should show the final outcome, should not list one eviction several times, and should not include sealed or expunged evictions.",
+   "You can dispute errors with the screening company free of charge. It generally has 30 days to reinvestigate and must delete or fix items that are inaccurate, incomplete or unverifiable."
+  ],
+  "headings": {
+   "What an eviction record is and where it shows up": "What Counts as an Eviction Record, and Where Does It Show Up?",
+   "The federal seven-year limit": "Does an Eviction Drop Off After Seven Years?",
+   "State laws that seal or limit eviction records": "Does My State Let Me Seal an Eviction?",
+   "Setting aside a judgment or reaching an agreement": "Can the Judgment Be Canceled, or Can My Landlord and I Agree to Clear It?",
+   "Paying the judgment": "Does Paying What I Owe Clear the Record?",
+   "Disputing errors on a tenant screening report": "What If the Screening Report Gets It Wrong?",
+   "Getting your report and filing a complaint": "How Do I Get My Report, and Where Can I Complain?"
+  },
+  "keys": {
+   "What an eviction record is and where it shows up": "A case can be withdrawn, dismissed, settled or decided for the tenant and still leave a court record.",
+   "The federal seven-year limit": "The seven-year limit applies only to the reporting companies. It does not remove the case from the court's own records.",
+   "State laws that seal or limit eviction records": "The table lists every state law that could be confirmed, but it is not a 50-state survey, and states not listed were not individually checked.",
+   "Setting aside a judgment or reaching an agreement": "Several laws allow sealing or expungement when landlord and tenant agree: Arizona, Idaho, Minnesota, Nevada and Utah.",
+   "Paying the judgment": "Paying a money judgment does not by itself remove the record.",
+   "Disputing errors on a tenant screening report": "An item found to be inaccurate, incomplete or unverifiable must be promptly deleted or modified.",
+   "Getting your report and filing a complaint": "You can get a free copy from that company if you ask within 60 days."
+  },
+  "next_steps": [
+   "Check whether your state appears in the sealing table on this page, and whether its law works automatically or needs a request to the court.",
+   "If a landlord turned you down because of a report, ask the screening company for your free copy within 60 days and check the outcome, the dates and whether the case is listed more than once.",
+   "If something is wrong, you can dispute it in writing with the screening company, include copies of paperwork showing how the case was resolved, and contact the court if its record is wrong too.",
+   "If the dispute goes nowhere, you can file a complaint with the CFPB at consumerfinance.gov/complaint or the FTC at ReportFraud.ftc.gov, and /free-expungement-help lists free legal aid by state.",
+   "If a sealed or expunged record is still showing up, read our guide /guides/expunged-record-showing-on-background-check."
   ]
  },
  {
@@ -691,6 +766,44 @@
     "label": "CFPB withdrawal notice, May 12, 2025",
     "url": "https://www.govinfo.gov/content/pkg/FR-2025-05-12/html/2025-08286.htm"
    }
+  ],
+  "lede": [
+   "You did the hard part. You got your record cleared, and then it showed up anyway on a background check, maybe just as a job or an apartment was within reach. That is maddening.",
+   "It also isn't rare, and it isn't how things are supposed to work. An expunged or sealed record is not supposed to show up on a background check. The Consumer Financial Protection Bureau (CFPB) tells consumers that expunged criminal records should not appear on a report, and the Federal Trade Commission (FTC) lists sealed or expunged records as a common type of error.",
+   "The Fair Credit Reporting Act (FCRA) lets you dispute it with the background check company at no charge. The company generally has 30 days to reinvestigate, and it must delete or correct information that is inaccurate, incomplete or cannot be verified.",
+   "This guide walks through what background check companies and employers must do, the dispute steps and deadlines, and what the law allows if a dispute does not fix the problem, including complaints and lawsuits. This page is general information, not legal advice."
+  ],
+  "takeaways": [
+   "An expunged or sealed record is not supposed to show up on a background check, and the FTC lists it as a common type of error.",
+   "You can dispute it with the background check company at no charge. The company generally has 30 days to reinvestigate and must delete or correct information that is inaccurate, incomplete or cannot be verified.",
+   "Before an employer takes a negative decision based on a report, it must give you a copy of the report and a written description of your rights.",
+   "After being turned down, you can get a free copy of the report from the background check company if you ask within 60 days.",
+   "If a dispute does not fix it, you can file complaints with the CFPB or the FTC, and the law allows lawsuits, within a time limit of 2 years after discovering the violation or 5 years after it happened, whichever comes first."
+  ],
+  "headings": {
+   "What the law requires of background check companies": "Isn't the Background Check Company Supposed to Get This Right?",
+   "What the FTC and CFPB have said": "What Have Federal Regulators Said About Expunged Records?",
+   "What employers must do": "What Does an Employer Have to Do Before Turning Me Down?",
+   "The dispute steps": "How Do I Dispute the Report?",
+   "What the company must do, and by when": "How Long Does the Company Have to Fix It?",
+   "If the dispute does not fix it": "What If the Company Won't Fix It?",
+   "What the law says about lawsuits, damages and fees": "Can I Sue Over It?"
+  },
+  "keys": {
+   "What the law requires of background check companies": "When a company prepares a report, it must follow reasonable procedures to assure maximum possible accuracy of the information about the person.",
+   "What the FTC and CFPB have said": "FTC guidance for screening companies lists reports that include criminal records that have been expunged or otherwise sealed as a sign that a company's procedures may not be reasonable.",
+   "What employers must do": "Before taking adverse action (a negative decision, such as not hiring you) based on the report, the employer must give you a copy of the report and a written description of your rights.",
+   "The dispute steps": "You can dispute in writing with the background check company, including copies, not originals, of documents that show the accurate information.",
+   "What the company must do, and by when": "Within 30 days of receiving the dispute, the company must complete a reasonable reinvestigation, free of charge, and record the item's current status or delete it.",
+   "If the dispute does not fix it": "Complaints can be submitted to the CFPB at consumerfinance.gov/complaint or to the FTC at ReportFraud.ftc.gov.",
+   "What the law says about lawsuits, damages and fees": "An action must be brought not later than the earlier of 2 years after the person discovers the violation, or 5 years after the violation occurs."
+  },
+  "next_steps": [
+   "Get a copy of the report: from the employer before it acts, or free from the background check company if you ask within 60 days of the adverse action notice.",
+   "Check it line by line: that misdemeanors and felonies are listed accurately, that one charge does not appear several times, and that expunged records do not appear.",
+   "Dispute in writing with the background check company, with copies (not originals) of your documents. The CFPB suggests certified mail with return receipt. You can also contact the court if it supplied the wrong information.",
+   "Once the result comes back, check that the errors are gone and ask the company to send the corrected report to the employer.",
+   "If it still isn't fixed, you can complain to the CFPB or FTC and ask a legal aid office or attorney about your options. /free-expungement-help lists free legal aid by state, and /cities lists attorneys by city."
   ]
  }
 ]

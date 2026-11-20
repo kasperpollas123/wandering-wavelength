@@ -1,0 +1,89 @@
+{
+ "how-long-does-a-dui-stay-on-your-record": {
+  "lede": [
+   "A DUI can feel like it follows you everywhere, from job applications to the quiet worry every time someone mentions a background check. If you're carrying that, you're far from the only one, and it helps to know exactly where you stand.",
+   "A DUI sits on two separate records, and they follow different rules. On the criminal record, a DUI conviction stays permanently unless your state lets you clear it. About half the states do not allow a DUI conviction to be cleared at all. The rest allow it after a waiting period, often for a first offense only.",
+   "On the driving record, every state counts earlier DUIs when it punishes a new one, for a set number of years (often called the lookback period), and the motor vehicle agency keeps its own record. Clearing the criminal record usually does not change the driving record.",
+   "Below, find your state to see whether a DUI can be cleared there, how long the wait is, and what happens to the driving record."
+  ],
+  "takeaways": [
+   "A DUI sits on two separate records, the criminal record and the driving record, and they follow different rules.",
+   "On the criminal record, a DUI conviction stays permanently unless your state lets you clear it.",
+   "A DUI conviction can be cleared in {yes} states, in some cases in {some} states, and not at all in {no} states.",
+   "Where clearing is allowed, it comes after a waiting period, often for a first offense only.",
+   "Clearing the criminal record usually does not change the driving record, which the motor vehicle agency keeps separately."
+  ],
+  "next_steps": [
+   "Find your state in the table below and read its details, including the waiting period and the driving record.",
+   "Open your state's page on /states for its rules, costs and attorneys.",
+   "Check what clearing a record costs where you live in /guides/expungement-cost-by-state.",
+   "If money is tight, look up free legal aid by state on /free-expungement-help.",
+   "For the driving record, you can ask your state's motor vehicle agency what its own record shows."
+  ]
+ },
+ "how-long-does-a-misdemeanor-stay-on-your-record": {
+  "lede": [
+   "Maybe it was one bad night years ago, and it still comes up every time you apply for a job or an apartment. It's easy to feel like a small mistake has turned into a permanent label.",
+   "Here's the honest picture. A misdemeanor conviction does not drop off a criminal record by itself. It stays permanently unless the state clears it, either because you ask a court or because the state does it automatically. The encouraging part is that most states let at least some misdemeanor convictions be cleared after a waiting period.",
+   "The wait usually starts when the sentence is finished, including probation and any fines, and it restarts or ends if there is a new conviction. Some offenses are commonly left out even where misdemeanors can be cleared: DUI, domestic violence and sex offenses are the usual exclusions.",
+   "Below, find your state to see whether a misdemeanor can be expunged or sealed there and how long you wait."
+  ],
+  "takeaways": [
+   "A misdemeanor conviction does not drop off a criminal record by itself. It stays unless the state clears it.",
+   "Clearing happens either because you ask a court or because the state does it automatically.",
+   "A misdemeanor conviction can be cleared in {yes} states, in some cases in {some} states, and not at all in {no} states.",
+   "The wait usually starts when the sentence is finished, including probation and any fines, and a new conviction can restart or end it.",
+   "DUI, domestic violence and sex offenses are commonly left out even where misdemeanors can be cleared."
+  ],
+  "next_steps": [
+   "Find your state in the table below and read its details, including when the waiting period starts.",
+   "Open your state's page on /states for its rules, costs and attorneys.",
+   "Check what clearing a record costs where you live in /guides/expungement-cost-by-state.",
+   "Look up free legal aid by state on /free-expungement-help, or attorneys near you on /cities.",
+   "If your misdemeanor was a DUI, read /guides/how-long-does-a-dui-stay-on-your-record, since DUIs often follow different rules."
+  ]
+ },
+ "how-long-does-a-felony-stay-on-your-record": {
+  "lede": [
+   "A felony record can make it feel like doors keep closing: a job offer that disappears, an apartment that goes to someone else. If that's where you are, you're not alone, and most states allow at least some felonies to be cleared.",
+   "A felony conviction stays on a criminal record permanently unless the state clears it. No state removes felonies just because time has passed, although several now seal some of them automatically after a set number of years.",
+   "The felonies most often allowed are lower-level, non-violent ones, usually after a longer wait than for misdemeanors. A few states do not allow any felony conviction to be cleared, and in some the only route is a pardon. Violent felonies, sex offenses and offenses against children are excluded almost everywhere.",
+   "Below, find your state to see whether a felony can be expunged or sealed there, which ones, and how long you wait."
+  ],
+  "takeaways": [
+   "A felony conviction stays on a criminal record permanently unless the state clears it. No state removes felonies just because time has passed.",
+   "A felony conviction can be cleared in {yes} states, in some cases in {some} states, and not at all in {no} states.",
+   "Where felonies can be cleared, it is usually lower-level, non-violent ones, after a longer wait than for misdemeanors.",
+   "Several states now seal some felonies automatically after a set number of years. In some states the only route is a pardon.",
+   "Violent felonies, sex offenses and offenses against children are excluded almost everywhere."
+  ],
+  "next_steps": [
+   "Find your state in the table below and read its details, including which felonies qualify and how long the wait is.",
+   "Open your state's page on /states for its rules, costs and attorneys.",
+   "Check what clearing a record costs where you live in /guides/expungement-cost-by-state.",
+   "Look up free legal aid by state on /free-expungement-help, or attorneys near you on /cities.",
+   "If firearm rights matter to you, read /guides/restoring-gun-rights-after-a-conviction."
+  ]
+ },
+ "expungement-cost-by-state": {
+  "lede": [
+   "When money is already tight, the question of whether you can even afford to clear your record can stop you before you start. That worry makes sense, and it's worth getting real numbers before deciding anything.",
+   "Government fees to clear a record range from nothing to several hundred dollars. Official sources confirm no court filing fee in Arizona, Arkansas, California, Idaho, Massachusetts, New Jersey, New York, Oregon and Virginia. At the other end, Alabama charges $500 per arrest.",
+   "Many states let people who can't afford the fees ask for a waiver, and some clear records automatically at no cost. Many also add a fee for a state background check or agency processing, and an attorney's fee comes on top of the government fees.",
+   "Below are the fees for every state. Counties sometimes add their own, so it's worth confirming the total with the court clerk."
+  ],
+  "takeaways": [
+   "Government fees to clear a record range from nothing to several hundred dollars; Alabama, for example, charges $500 per arrest.",
+   "Official sources confirm no court filing fee in Arizona, Arkansas, California, Idaho, Massachusetts, New Jersey, New York, Oregon and Virginia.",
+   "Many states let people who can't afford the fees ask for a waiver, and some clear records automatically at no cost.",
+   "Many states add a fee for a state background check or agency processing, and counties sometimes add their own fees.",
+   "An attorney's fee comes on top of the government fees."
+  ],
+  "next_steps": [
+   "Find your state in the table below and note each fee listed.",
+   "Call the court clerk in your county to confirm the total, since counties sometimes add their own fees.",
+   "If you can't afford the fees, ask the court whether you can request a waiver, and look up free legal aid by state on /free-expungement-help.",
+   "Open your state's page on /states for its rules and attorneys, or compare attorneys near you on /cities."
+  ]
+ }
+}

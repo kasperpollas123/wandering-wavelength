@@ -1,9 +1,16 @@
 ---
-// A researched guide page, rendered from src/data/articles.json
+// A researched guide page, rendered from src/data/articles.json, following the editorial standard
+// (byline, Key Takeaways, warm opening, contents, question headings, bold key line, charts, Next Steps).
 import PageLayout from '../layouts/PageLayout.astro';
 import Breadcrumbs from './Breadcrumbs.astro';
+import GuideIntro from './GuideIntro.astro';
+import NextSteps from './NextSteps.astro';
+import BarChart from './BarChart.astro';
+import Steps from './Steps.astro';
 import articles from '../data/articles.json';
 import { guideTopics } from '../data/guides';
+import { attorneys } from '../data/attorneys';
+import { serviceLabels } from '../data/attorneyFacts';
 
 interface Props { slug: string; }
 const { slug } = Astro.props;
@@ -11,32 +18,64 @@ const article = (articles as any[]).find(a => a.slug === slug);
 if (!article) throw new Error(`No article data for ${slug}`);
 const otherArticles = (articles as any[]).filter(a => a.slug !== slug);
 const checked = 'November 2026';
+
+const idOf = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+const sections = article.sections.map((s: any) => ({
+  ...s,
+  title: article.headings?.[s.heading] || s.heading,
+  key: article.keys?.[s.heading] || null,
+  id: idOf(article.headings?.[s.heading] || s.heading),
+}));
+const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
+const words = JSON.stringify(article).split(/\s+/).length;
+const minutes = Math.max(3, Math.round(words / 230));
+
+// Charts built only from facts already on the page
+const splitStep = (b: string) => { const i = b.search(/[:.] /); return i > 0 && i < 80 ? { label: b.slice(0, i), detail: b.slice(i + 2) } : { label: b.split(' ').slice(0, 6).join(' ') + '…', detail: b }; };
+const charts: Record<string, any> = {};
+if (slug === 'how-to-remove-an-eviction-from-your-record') {
+  charts['State laws that seal or limit eviction records'] = { type: 'bars', title: 'How the 19 laws in this guide clear eviction records', source: 'Count of the laws in the table below (18 states and DC), as each law is written. Checked November 2026.',
+    rows: [{ label: 'Seal at least some cases automatically', value: 12, tone: 'green' }, { label: 'Only when the tenant asks the court', value: 3, tone: 'amber' }, { label: 'The law does not say how', value: 4, tone: 'gray' }] };
+}
+if (slug === 'expunged-record-showing-on-background-check') {
+  const d = article.sections.find((s: any) => s.heading === 'The dispute steps');
+  if (d) charts['The dispute steps'] = { type: 'steps', title: 'Fixing an expunged record on a background check, step by step', source: 'Steps as described by the CFPB and FTC (sources at the end).', steps: d.bullets.map(splitStep) };
+}
+if (slug === 'restoring-gun-rights-after-a-conviction') {
+  const d = article.sections.find((s: any) => s.heading === 'The federal application process reopened in 2026');
+  if (d) charts['The federal application process reopened in 2026'] = { type: 'steps', title: 'The federal application, as the 2026 rule describes it', source: 'From the 2026 federal rule (sources at the end).', steps: d.bullets.map(splitStep) };
+}
+// Live directory facts
+const gunFirms = attorneys.filter(a => serviceLabels(a, 12).includes('Gun rights')).length;
 ---
 
-<PageLayout title={article.title} description={article.description} canonicalURL={`/guides/${article.slug}`}>
-  <div class="container py-8 mt-8">
+<PageLayout title={article.title} description={article.description} canonicalURL={`/guides/${article.slug}`} schemaType="article" schemaData={{ title: article.title, description: article.description, url: `/guides/${article.slug}` }}>
+  <div class="container py-6">
     <Breadcrumbs items={[{ label: "Guides", href: "/guides" }, { label: article.nav }]} />
   </div>
 
   <section class="pb-12 bg-white">
     <div class="container">
-      <div class="max-w-3xl mx-auto">
-        <h1 class="text-4xl font-bold mb-6">{article.title}</h1>
-        {article.intro.map((p: string) => <p class="text-lg text-gray-700 mb-4">{p}</p>)}
-        <p class="text-sm text-gray-500 mb-10">{`Researched and written by the Expungement Attorneys Directory editors. Checked ${checked} against the sources listed at the end. General information, not legal advice; laws change and the details of a case matter. `}<a href="/about" class="underline">How we research</a></p>
+      <article class="max-w-3xl mx-auto pt-4">
+        <GuideIntro title={article.title} lede={article.lede || article.intro} takeaways={article.takeaways || []} toc={toc} minutes={minutes} />
+        <p class="text-sm text-gray-500 mb-10">{`Checked ${checked} against the sources listed at the end. General information, not legal advice; laws change and the details of a case matter. `}<a href="/about" class="underline">How we research</a></p>
 
-        {article.sections.map((s: any) => (
-          <div class="mb-10">
-            <h2 class="text-2xl font-bold mb-4">{s.heading}</h2>
-            {(s.paragraphs || []).map((p: string) => <p class="text-gray-700 mb-4">{p}</p>)}
-            {s.bullets && s.bullets.length > 0 && (
-              <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-4">
+        {sections.map((s: any) => (
+          <section id={s.id} class="mb-12 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">{s.title}</h2>
+            {s.key && <p class="text-[18px] font-semibold text-gray-900 mb-4 border-l-4 border-secondary pl-4">{s.key}</p>}
+            {(s.paragraphs || []).filter((p: string) => p !== s.key).map((p: string) => <p class="text-[17px] leading-relaxed text-gray-700 mb-4">{p}</p>)}
+            {charts[s.heading]?.type === 'steps' ? (
+              <Steps title={charts[s.heading].title} steps={charts[s.heading].steps} source={charts[s.heading].source} />
+            ) : s.bullets && s.bullets.length > 0 && (
+              <ul class="list-disc pl-6 text-[17px] text-gray-700 space-y-2 mb-4">
                 {s.bullets.map((b: string) => <li>{b}</li>)}
               </ul>
             )}
+            {charts[s.heading]?.type === 'bars' && <BarChart title={charts[s.heading].title} rows={charts[s.heading].rows} source={charts[s.heading].source} />}
             {s.table && (
-              <div class="overflow-x-auto mb-4">
-                <table class="w-full text-left text-sm border border-gray-200">
+              <div class="overflow-x-auto mb-4 rounded-lg border border-gray-200">
+                <table class="w-full text-left text-sm">
                   <thead class="bg-gray-50">
                     <tr>{s.table.headers.map((h: string) => <th class="p-3 border-b border-gray-200">{h}</th>)}</tr>
                   </thead>
@@ -50,14 +89,19 @@ const checked = 'November 2026';
                 </table>
               </div>
             )}
-          </div>
+            {slug === 'restoring-gun-rights-after-a-conviction' && s.heading === 'How state restoration works in ten states' && gunFirms > 0 && (
+              <p class="rounded-lg bg-gray-50 border border-gray-200 p-4 text-[15px] text-gray-700">{`In our directory, ${gunFirms} law firms say on their own websites that they handle firearm rights restoration. `}<a href="/states" class="text-secondary font-semibold">Find attorneys by state →</a></p>
+            )}
+          </section>
         ))}
 
-        <div class="p-6 rounded-lg border border-gray-200 mb-10">
-          <h2 class="text-xl font-semibold mb-3">Where to get help</h2>
+        <NextSteps steps={article.next_steps || []} />
+
+        <div class="p-6 rounded-xl border border-gray-200 mb-10">
+          <h2 class="!text-xl font-semibold !mb-3">Where to get help</h2>
           <ul class="space-y-2">
             <li><a href="/free-expungement-help" class="text-primary hover:underline">Free and low-cost legal help by state</a></li>
-            <li><a href="/states" class="text-primary hover:underline">Each state's record-clearing rules and attorneys</a></li>
+            <li><a href="/states" class="text-primary hover:underline">Each state's record-clearing rules, costs and attorneys</a></li>
             {article.slug === 'expunged-record-showing-on-background-check' && (
               <li><a href="https://www.consumeradvocates.org/findanattorney/" target="_blank" rel="noopener noreferrer" data-track="naca" class="text-primary hover:underline">National Association of Consumer Advocates: find a consumer attorney by state (filter by credit reporting)</a></li>
             )}
@@ -65,20 +109,21 @@ const checked = 'November 2026';
         </div>
 
         <div class="mb-10">
-          <h2 class="text-xl font-semibold mb-3">Sources</h2>
+          <h2 class="!text-xl font-semibold !mb-3">Sources</h2>
           <ul class="text-sm text-gray-600 space-y-1">
             {article.sources.map((src: any) => <li><a href={src.url} target="_blank" rel="noopener noreferrer" class="underline">{src.label}</a></li>)}
           </ul>
         </div>
 
-        <div class="p-6 rounded-lg border border-gray-200">
-          <h2 class="text-xl font-semibold mb-3">Related guides</h2>
+        <div class="p-6 rounded-xl border border-gray-200">
+          <h2 class="!text-xl font-semibold !mb-3">Related guides</h2>
           <ul class="space-y-2">
             {otherArticles.map((a: any) => <li><a href={`/guides/${a.slug}`} class="text-primary hover:underline">{a.title}</a></li>)}
             {guideTopics.map(t => <li><a href={`/guides/${t.slug}`} class="text-primary hover:underline">{t.title}</a></li>)}
+            <li><a href="/guides/expungement-cost-by-state" class="text-primary hover:underline">How Much Does an Expungement Cost? Fees in Every State</a></li>
           </ul>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 </PageLayout>

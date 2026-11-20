@@ -1,0 +1,19 @@
+---
+// Simple horizontal bar chart in HTML (sharp, readable by search engines and screen readers).
+interface Props { title: string; rows: { label: string; value: number; tone?: 'green' | 'amber' | 'red' | 'blue' | 'gray' }[]; unit?: string; source: string; }
+const { title, rows, unit = '', source } = Astro.props;
+const max = Math.max(...rows.map(r => r.value), 1);
+const tone = { green: 'bg-emerald-500', amber: 'bg-amber-400', red: 'bg-rose-400', blue: 'bg-sky-500', gray: 'bg-gray-400' };
+---
+<figure class="rounded-xl border border-gray-200 p-5 my-8">
+  <figcaption class="font-bold text-gray-900 mb-4">{title}</figcaption>
+  <div class="space-y-3">
+    {rows.map(r => (
+      <div>
+        <div class="flex justify-between text-sm text-gray-700 mb-1"><span>{r.label}</span><span class="font-semibold">{`${r.value}${unit}`}</span></div>
+        <div class="h-3 rounded-full bg-gray-100 overflow-hidden"><div class={`h-3 rounded-full ${tone[r.tone || 'blue']}`} style={`width:${Math.max(2, Math.round((r.value / max) * 100))}%`}></div></div>
+      </div>
+    ))}
+  </div>
+  <p class="text-xs text-gray-500 mt-4">{source}</p>
+</figure>
