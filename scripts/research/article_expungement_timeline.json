@@ -1,0 +1,515 @@
+{
+ "slug": "how-long-does-expungement-take",
+ "title": "How Long Does Expungement Take? Waiting Periods and Processing Time",
+ "nav": "How Long Expungement Takes",
+ "description": "How long does expungement take? See waiting periods by state, how long the court process runs after you file, and when agencies and background checks update.",
+ "intro": [],
+ "lede": [
+  "If you're asking how long expungement takes, you probably have a reason to hurry. Maybe a job offer depends on a background check, or you've been turned down for an apartment and you're tired of explaining an old case. Waiting is hard when your record keeps getting in the way.",
+  "The honest answer is that there are two different clocks. The first is the waiting period: how long the law makes you wait after your case or sentence before you can even apply. The second is the processing time: how long it takes once you file, from the prosecutor's chance to object, to the judge's order, to agencies updating their files.",
+  "Both clocks vary a lot by state and by offense. Waiting periods run from no wait at all for some dismissed cases to 10 years or more for some felonies. Very few states publish how long the process usually takes, so we only share deadlines written into the law and official estimates we could actually read.",
+  "This guide covers waiting periods in 17 states, the deadlines that shape the court process, how long agencies have to update records after an order, what to expect from the FBI and private background check companies, and how automatic Clean Slate laws work."
+ ],
+ "takeaways": [
+  "There are two clocks: the waiting period before you can apply, and the processing time after you file. Both vary by state and offense.",
+  "In the states we checked, waits for convictions run from about 1 to 7 years for misdemeanors and from 1 to 20 years for felonies. Many dismissed or acquitted cases have a short wait or none.",
+  "Once you file, built-in deadlines often add one to three months before a ruling. For example, prosecutors get 30 days to object in Pennsylvania, North Carolina and Virginia, and 60 days in Illinois. Ohio sets the hearing 45 to 90 days after you apply.",
+  "After the order, agencies may need more time. Illinois gives them 60 days. In Texas, nondisclosure orders move from the clerk to the state police to local agencies within set business-day deadlines. Many states set no deadline at all.",
+  "Automatic Clean Slate laws in states like Pennsylvania, Michigan, Utah, Colorado, Minnesota, New York and Delaware clear eligible records without an application, but they still run on their own schedules.",
+  "Private background check companies don't update instantly. Under federal law, if you dispute an item, they generally have 30 days to reinvestigate."
+ ],
+ "sections": [
+  {
+   "heading": "Why Are There Two Answers to \"How Long Does Expungement Take?\"",
+   "paragraphs": [
+    "Because two separate waits are involved. First, most states make you wait a set amount of time after your case ends or your sentence is finished before you can apply. That's the waiting period, and it's written into each state's law.",
+    "Second, once you're eligible and you file, the case has to move through the system. The prosecutor gets a chance to object, a judge may hold a hearing, and then the order has to reach the state police, the courts and other agencies that hold your record. That's the processing time.",
+    "Published processing times are scarce. Most states don't report how long cases usually take, and the time can depend on your county court's calendar. What the law does set are certain deadlines, like how long a prosecutor has to object or how long agencies have to follow an order. Those deadlines give you a rough idea of the minimum."
+   ]
+  },
+  {
+   "heading": "How Long Do You Have to Wait Before You Can Apply?",
+   "paragraphs": [
+    "It depends on your state, the type of offense, and whether you were convicted. The waiting period usually starts when your sentence ends, which can include probation or parole, not when you were arrested. Some states also require that you haven't been convicted of anything new during the wait.",
+    "Cases that ended without a conviction often have short waits or none. In Illinois, records of an arrest without charges, an acquittal or a dismissal \"may be sealed at any time.\" In Texas, you can ask to expunge an arrest that never led to formal charges 180 days after the arrest for a Class C misdemeanor, one year for a Class A or B misdemeanor, and three years for a felony.",
+    "The table below shows the general waiting periods for convictions in 17 states, based on each state's statute or court guidance. Many states have exceptions, exclusions and special categories, so treat this as a starting point. Some offenses, like many violent and sex offenses, can't be cleared at all in some states."
+   ],
+   "table": {
+    "headers": [
+     "State",
+     "Misdemeanor wait",
+     "Felony wait",
+     "Measured from"
+    ],
+    "rows": [
+     [
+      "Arizona (sealing)",
+      "2 years (class 2-3); 3 years (class 1)",
+      "5 years (class 4-6); 10 years (class 2-3)",
+      "Completing the sentence"
+     ],
+     [
+      "California (dismissal)",
+      "After probation; 1 year after judgment if no probation",
+      "After probation is completed",
+      "End of probation or judgment"
+     ],
+     [
+      "Colorado (sealing)",
+      "1 year (petty offenses); 2 years (class 2-3 and drug misdemeanors); 3 years (class 1)",
+      "3 years (class 4-6, level 2-4 drug felonies); 5 years (other eligible)",
+      "Final disposition"
+     ],
+     [
+      "Illinois (sealing)",
+      "2 years",
+      "2 years if probation or conditional discharge was completed; 3 years for other eligible felonies",
+      "End of your last sentence"
+     ],
+     [
+      "Massachusetts (sealing)",
+      "3 years",
+      "7 years",
+      "Conviction or release from custody, looking back from your request"
+     ],
+     [
+      "Michigan (set-aside)",
+      "3 years; 5 years for serious misdemeanors or a first OWI",
+      "5 years for 1 felony; 7 years for more than 1",
+      "The latest of sentencing, probation or prison"
+     ],
+     [
+      "Minnesota (petition)",
+      "2 years; 3 years for gross misdemeanors",
+      "4 years for listed felonies (5 for some)",
+      "Discharge of the sentence"
+     ],
+     [
+      "New Jersey",
+      "Usually 5 years (2 for ordinance offenses); sometimes 4",
+      "Usually 5 years; sometimes 4",
+      "Sentence served (Clean Slate: 10 years since last conviction)"
+     ],
+     [
+      "New York (automatic)",
+      "3 years",
+      "8 years",
+      "Sentencing, or release from incarceration"
+     ],
+     [
+      "North Carolina",
+      "3 years for 1 nonviolent misdemeanor; 7 years for more than 1",
+      "10 years for 1 nonviolent felony; 20 years for 2 or 3",
+      "Conviction or end of sentence, whichever is later"
+     ],
+     [
+      "Ohio (sealing)",
+      "1 year (6 months for minor misdemeanors)",
+      "1 year (4th-5th degree); 3 years (3rd degree)",
+      "Final discharge"
+     ],
+     [
+      "Pennsylvania (limited access petition)",
+      "7 years free of conviction",
+      "10 years free of conviction (for some offenses)",
+      "Last conviction"
+     ],
+     [
+      "Texas (nondisclosure)",
+      "None for fine-only; 2 years for others (first offense only)",
+      "Convictions not eligible this way; 5 years after a felony deferred adjudication is dismissed",
+      "Completing the sentence or discharge"
+     ],
+     [
+      "Utah (petition)",
+      "3 years; 4 years (class B); 5 years (class A)",
+      "7 years (5 for drug possession; 10 for some DUI-related offenses)",
+      "Case completion, release, or end of probation or parole"
+     ],
+     [
+      "Virginia (petition sealing)",
+      "7 years",
+      "10 years",
+      "Dismissal, conviction or release, whichever is later"
+     ],
+     [
+      "Washington (vacating)",
+      "3 years (5 for domestic violence)",
+      "5 years (class C); 10 years (class B)",
+      "Release, sentencing, or end of supervision"
+     ],
+     [
+      "Georgia (record restriction)",
+      "4 years with no new conviction (some misdemeanors)",
+      "Not covered in the sources we read",
+      "Completing the sentence"
+     ]
+    ]
+   },
+   "bullets": [
+    "Florida works differently. Florida sealing is mostly for cases where adjudication was withheld. To expunge a record in that situation, it generally must have been sealed for at least 10 years first. That 10-year rule doesn't apply if the charges were dismissed before trial or you were acquitted.",
+    "Georgia's row is based on the 2020 law that added misdemeanor record restriction. We could not read the current code text, so check with a lawyer or legal aid.",
+    "A denial can restart the clock. Michigan makes you wait 3 years to refile after a denial unless the court sets an earlier date, and Arizona also makes you wait 3 years. Colorado lets you file a motion once every 12 months."
+   ]
+  },
+  {
+   "heading": "How Long Does the Process Take After You File?",
+   "paragraphs": [
+    "Expect at least a month or two in most states, and often longer. Even when everything goes smoothly, the law usually gives the prosecutor time to respond before the judge rules. Here are the deadlines we found in each state's law or court guidance.",
+    "These are deadlines, not averages. Your court's calendar, missing records, an objection or a needed hearing can add time. Some states also make you get a background check or certificate first. Utah's courts say it can take several months for the state Bureau of Criminal Identification (BCI) to process a certificate of eligibility, which you need before you file a petition."
+   ],
+   "table": {
+    "headers": [
+     "State",
+     "Built-in timing after you file"
+    ],
+    "rows": [
+     [
+      "Arizona",
+      "The court can't rule until 60 days after it receives the petition, unless the prosecutor and victims don't object. A hearing isn't automatic."
+     ],
+     [
+      "Colorado",
+      "Arrest records with no charges: a hearing, if set, is at least 35 days out. If no one objects at least 7 days before, the court grants the request. Municipal convictions: if the prosecution objects, a hearing is set within 42 days."
+     ],
+     [
+      "Georgia",
+      "If a hearing is requested on a petition, it must be held within 90 days of filing (2020 law text)."
+     ],
+     [
+      "Illinois",
+      "Prosecutors and agencies have 60 days from service to object. Without an objection, the court rules."
+     ],
+     [
+      "Michigan",
+      "The court can't act until the state police report back on your fingerprint check, which includes an FBI comparison. The prosecutor and attorney general get a chance to contest."
+     ],
+     [
+      "Minnesota",
+      "The hearing is at least 60 days after the petition is served. A granted order is then automatically on hold for 60 days."
+     ],
+     [
+      "New Jersey",
+      "The judge usually schedules a hearing 35 to 60 days after getting your petition. With no objection, the judge may sign the order without a hearing."
+     ],
+     [
+      "North Carolina",
+      "The prosecutor has 30 days to object, plus 30 more if the court allows it for good cause."
+     ],
+     [
+      "Ohio",
+      "The hearing is 45 to 90 days after you apply. The prosecutor's objection is due at least 30 days before the hearing."
+     ],
+     [
+      "Pennsylvania",
+      "The court notifies the prosecutor within 10 days, and the prosecutor has 30 days to object. With no objection, the court may grant the petition without a hearing."
+     ],
+     [
+      "Texas (expunction)",
+      "The hearing is no earlier than 30 days after you file."
+     ],
+     [
+      "Utah",
+      "The prosecutor has 35 days to respond, victims 60 days, and the court waits 60 days from filing before ruling."
+     ],
+     [
+      "Virginia",
+      "The prosecutor has 30 days to respond. The court may hold a hearing, or may seal without one if the prosecutor agrees you're eligible and doesn't object."
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "How Long Until Agencies Update Your Record After the Order?",
+   "paragraphs": [
+    "A judge's signature doesn't change every database at once. The order has to travel from the court to the state repository and then to local police, prosecutors and other agencies. Some states set deadlines for this step. Many don't.",
+    "Some states do set deadlines. In Illinois, the arresting agency, the Illinois State Police and other agencies must expunge records within 60 days of being served with the order. Parties must also fully comply with a sealing order within 60 days. The Illinois State Police must send you written notice that it has complied within 60 days.",
+    "Texas spells out each step for orders of nondisclosure. The court clerk must send the order to the Department of Public Safety (DPS) within 15 business days. DPS must seal its records within 10 business days after receiving it and send the order to agencies, federal record keepers and private companies that buy records from it. Those agencies then have 30 business days to seal.",
+    "In Georgia, the 2020 law says the state crime center notifies the arresting agency within 30 days after restricting a record, and that agency then has 30 days to restrict its own files.",
+    "Ohio, North Carolina, Virginia, Arizona, Minnesota, Florida and Massachusetts don't set a deadline in the laws we read. The order is sent on, and agencies are told to act. In New Jersey, the court's current page says the signed order is sent to the agencies. An older court kit told people to mail it themselves by certified mail, so ask the court clerk how it works now."
+   ]
+  },
+  {
+   "heading": "When Will My FBI Record Be Updated?",
+   "paragraphs": [
+    "We couldn't find a published FBI time frame. Federal rules say the FBI changes a record only after it gets an official communication from the agency that sent in the information. So your FBI record usually updates only after your state passes the order along.",
+    "Some state laws build this step in. Florida's law says the state agency \"shall forward the order to expunge to the Federal Bureau of Investigation.\" Texas sends nondisclosure orders to central federal record keepers. If your FBI record still shows the case months later, ask the agency or court that sent it in to update it. You can also check your FBI record yourself. Our guide on how to get a copy of your criminal record explains how."
+   ]
+  },
+  {
+   "heading": "How Long Until Background Check Companies Stop Showing It?",
+   "paragraphs": [
+    "Private background check companies keep their own databases, so a cleared record can still show up after the court and the state have updated. How fast they catch up depends on how often they refresh their data.",
+    "If one shows up, you can dispute it. Under the federal Fair Credit Reporting Act, a consumer reporting agency generally has 30 days from getting your dispute to reinvestigate. That can be extended by up to 15 days if you send more information during that time. If the item is inaccurate or can't be verified, it must be promptly deleted or corrected. You should get the results in writing within 5 business days after the reinvestigation is finished.",
+    "Texas adds its own rule. A private company that sells criminal history must destroy information once it gets notice of an expunction or nondisclosure order. Companies not covered by federal credit reporting laws that buy Texas records may only share information they got or updated in the past 90 days.",
+    "Keep certified copies of your order. Sending one with your dispute is often the quickest way to prove the record was cleared. For step-by-step help, see our guide on an expunged record showing on a background check."
+   ]
+  },
+  {
+   "heading": "Which States Clear Records Automatically, and How Long Does That Take?",
+   "paragraphs": [
+    "A growing number of states have Clean Slate laws that seal or clear eligible records without an application. You don't file anything, but you still have to wait out the waiting period, and the state works on its own schedule. If a record that should have been cleared wasn't, most of these states still let you apply on your own.",
+    "Here's what we confirmed in each state's law or official guidance. Rules on which offenses qualify are detailed, and many exclude violent offenses, sex offenses and DUIs."
+   ],
+   "table": {
+    "headers": [
+     "State",
+     "What clears automatically, and when",
+     "How the timing works"
+    ],
+    "rows": [
+     [
+      "Pennsylvania",
+      "Non-convictions; summary convictions after 5 years; certain misdemeanors after 7 years free of conviction; some offenses after 10 years",
+      "Court records are sent to the State Police monthly, State Police have 30 days to flag ineligible ones, and courts issue limited-access orders monthly"
+     ],
+     [
+      "Michigan",
+      "Eligible misdemeanors 7 years after sentencing; up to 2 felonies 10 years after sentencing or prison",
+      "No new convictions or pending charges; lifetime limits and many exclusions. No processing schedule in the law"
+     ],
+     [
+      "Utah",
+      "Class C misdemeanors and infractions after 5 years, class B after 6, class A drug possession after 7 (fines and restitution paid); dismissals with prejudice within 180 days; acquittals within 60 days",
+      "Courts say the process \"can take up to 120 days\""
+     ],
+     [
+      "Colorado",
+      "Civil infractions after 4 years, petty offenses and misdemeanors after 7, eligible felonies after 10 (felonies included since July 1, 2025); non-convictions are meant to be sealed automatically",
+      "Lists are compiled quarterly, prosecutors have 45 days to object, and courts enter orders within 14 days"
+     ],
+     [
+      "Minnesota",
+      "Misdemeanors after 2 years, gross misdemeanors after 3, listed felonies after 5 (from discharge)",
+      "The state BCA checks eligibility within 30 days of the end of the wait. Records are sealed 60 days after it notifies the courts"
+     ],
+     [
+      "New York",
+      "Misdemeanors after 3 years, felonies after 8 years (many exclusions)",
+      "Older convictions must be sealed within 3 years of the law taking effect. If one was missed, it must be sealed within 30 days after you submit a form"
+     ],
+     [
+      "Delaware",
+      "Cases eligible for mandatory expungement, such as many misdemeanors after 5 years",
+      "The state SBI has identified eligible cases monthly since August 1, 2024"
+     ],
+     [
+      "Connecticut",
+      "Certain convictions are erased automatically",
+      "The state says erasures have resumed after months of delay"
+     ],
+     [
+      "California",
+      "Eligible arrests and convictions (for example, misdemeanors 1 year after judgment if the sentence is complete; some felonies 4 years after probation)",
+      "The state DOJ reviews records monthly, subject to funding"
+     ],
+     [
+      "Virginia",
+      "A short list of misdemeanors, 7 years after conviction with no new conviction",
+      "No timing set in the law"
+     ],
+     [
+      "North Carolina",
+      "Dismissed and not-guilty charges (cases ending on or after Dec. 1, 2021)",
+      "Expunged 180 to 210 days after the case ends"
+     ],
+     [
+      "Oklahoma",
+      "Certain eligible records with a final disposition",
+      "The state OSBI launched an expedited Clean Slate portal on November 1, 2026"
+     ]
+    ]
+   },
+   "bullets": [
+    "New Jersey: the official pages we read describe \"Clean Slate\" as an application you file after 10 years, not an automatic process.",
+    "Michigan's automatic process depends on state funding, and a first OWI can be set aside only by application, not automatically.",
+    "Texas: for certain first-time, nonviolent misdemeanor deferred adjudications, the judge must issue the nondisclosure order when the case is discharged and dismissed, if you meet the requirements."
+   ]
+  },
+  {
+   "heading": "What Can Slow Down an Expungement?",
+   "paragraphs": [
+    "Most delays come from a few common problems:"
+   ],
+   "bullets": [
+    "Applying too early. If you miscount the waiting period, your petition can be denied, and in some states you then have to wait years to refile.",
+    "Missing paperwork. Many states want details of every case. A missing outcome on your record, like a dismissal that never got recorded, can hold things up.",
+    "Waiting on a background check or certificate first. Michigan's court can't act until the state police report back on your fingerprint check. Utah's BCI certificate can take several months.",
+    "An objection. If the prosecutor or a victim objects, the judge usually sets a hearing, which adds time.",
+    "Unpaid restitution or new charges. Several states, including Pennsylvania and Colorado, require restitution to be paid. A pending charge usually blocks relief until it's resolved.",
+    "Agencies that are slow to update. If a record still shows up after the deadline, follow up with the agency, and keep certified copies of your order."
+   ]
+  },
+  {
+   "heading": "Can a Lawyer Make Expungement Go Faster?",
+   "paragraphs": [
+    "A lawyer can't shorten the waiting period or the legal deadlines. A lawyer can help you avoid the mistakes that cause delays, like filing too early, leaving out a case, or skipping someone who must be served. They can also tell you whether you qualify for a faster or automatic route you didn't know about.",
+    "If you'd like help, you can find a record-clearing lawyer in your city through our directory. This guide explains general rules and isn't legal advice for your situation."
+   ]
+  }
+ ],
+ "keys": {
+  "Why Are There Two Answers to \"How Long Does Expungement Take?\"": "Published processing times are scarce.",
+  "How Long Do You Have to Wait Before You Can Apply?": "It depends on your state, the type of offense, and whether you were convicted.",
+  "How Long Does the Process Take After You File?": "These are deadlines, not averages.",
+  "How Long Until Agencies Update Your Record After the Order?": "A judge's signature doesn't change every database at once.",
+  "When Will My FBI Record Be Updated?": "Federal rules say the FBI changes a record only after it gets an official communication from the agency that sent in the information.",
+  "How Long Until Background Check Companies Stop Showing It?": "Under the federal Fair Credit Reporting Act, a consumer reporting agency generally has 30 days from getting your dispute to reinvestigate.",
+  "Which States Clear Records Automatically, and How Long Does That Take?": "You don't file anything, but you still have to wait out the waiting period, and the state works on its own schedule.",
+  "What Can Slow Down an Expungement?": "Most delays come from a few common problems:",
+  "Can a Lawyer Make Expungement Go Faster?": "A lawyer can't shorten the waiting period or the legal deadlines."
+ },
+ "next_steps": [
+  "Get your court papers or a copy of your record so you know each case's outcome and the date your sentence ended. Our guide at /guides/how-to-get-a-copy-of-your-criminal-record explains how.",
+  "Find your state's waiting period in the table above, then check your state's page at /states for its full rules, costs and attorneys.",
+  "Check whether your state has an automatic Clean Slate process before you file, and whether your record has already been cleared.",
+  "If you can't afford a lawyer, look for free legal aid in your state at /free-expungement-help. Many groups help people clear their records at no cost.",
+  "After you get an order, keep certified copies. If the record still shows up, see /guides/expunged-record-showing-on-background-check."
+ ],
+ "sources": [
+  {
+   "label": "Arizona: A.R.S. 13-911 (sealing)",
+   "url": "https://www.azleg.gov/ars/13/00911.htm"
+  },
+  {
+   "label": "California: Penal Code 1203.4a",
+   "url": "https://california.public.law/codes/ca_penal_code_section_1203.4a"
+  },
+  {
+   "label": "California: Penal Code 1203.425 (automatic relief)",
+   "url": "https://california.public.law/codes/ca_penal_code_section_1203.425"
+  },
+  {
+   "label": "California Courts: Clean your record",
+   "url": "https://selfhelp.courts.ca.gov/clean-your-record"
+  },
+  {
+   "label": "Colorado Judicial: Sealing Criminal Records (January 2026)",
+   "url": "https://www.coloradojudicial.gov/sites/default/files/2026-08/Sealing%20Criminal%20Records%20-%20January%202026.pdf"
+  },
+  {
+   "label": "Colorado: SB22-099 (automatic sealing)",
+   "url": "https://leg.colorado.gov/sites/default/files/2022a_099_signed.pdf"
+  },
+  {
+   "label": "Connecticut: Clean Slate",
+   "url": "https://portal.ct.gov/cleanslate"
+  },
+  {
+   "label": "Delaware: 11 Del. C. ch. 43, subch. VII (4373, 4373A)",
+   "url": "https://delcode.delaware.gov/title11/c043/sc07/index.html"
+  },
+  {
+   "label": "Florida: Fla. Stat. 943.0585",
+   "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0900-0999/0943/Sections/0943.0585.html"
+  },
+  {
+   "label": "Georgia: SB 288 (2020)",
+   "url": "https://gov.georgia.gov/document/2020-signed-legislation/sb-288/download"
+  },
+  {
+   "label": "Georgia Bureau of Investigation: Criminal History Record Restrictions",
+   "url": "https://gbi.georgia.gov/node/2031"
+  },
+  {
+   "label": "Illinois: 20 ILCS 2630/5.2",
+   "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=002026300K5.2"
+  },
+  {
+   "label": "Massachusetts: G.L. c. 276, s. 100A",
+   "url": "https://malegislature.gov/laws/generallaws/partiv/titleii/chapter276/section100a"
+  },
+  {
+   "label": "Michigan: MCL 780.621d",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621d"
+  },
+  {
+   "label": "Michigan: MCL 780.621g (automatic set-aside)",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-780-621g"
+  },
+  {
+   "label": "Minnesota: Minn. Stat. 609A.02",
+   "url": "https://www.revisor.mn.gov/statutes/cite/609A.02"
+  },
+  {
+   "label": "Minnesota: Minn. Stat. 609A.03",
+   "url": "https://www.revisor.mn.gov/statutes/cite/609A.03"
+  },
+  {
+   "label": "Minnesota: Minn. Stat. 609A.015 (automatic)",
+   "url": "https://www.revisor.mn.gov/statutes/cite/609A.015"
+  },
+  {
+   "label": "New Jersey Courts: Expunge your record",
+   "url": "https://www.njcourts.gov/self-help/expunge-record"
+  },
+  {
+   "label": "New Jersey Courts: How to Expunge Your Criminal and/or Juvenile Record (kit, 2020)",
+   "url": "https://www.njcourts.gov/sites/default/files/forms/10557_expunge_kit.pdf"
+  },
+  {
+   "label": "New York: CPL 160.57 (Clean Slate)",
+   "url": "https://www.nysenate.gov/legislation/laws/CPL/160.57"
+  },
+  {
+   "label": "North Carolina: G.S. 15A-145.5",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-145.5.html"
+  },
+  {
+   "label": "North Carolina: G.S. 15A-146",
+   "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_15A/GS_15A-146.html"
+  },
+  {
+   "label": "Ohio: R.C. 2953.32",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-2953.32"
+  },
+  {
+   "label": "Oklahoma State Bureau of Investigation: Clean Slate",
+   "url": "https://oklahoma.gov/osbi/cleanslate.html"
+  },
+  {
+   "label": "Pennsylvania: 18 Pa.C.S. 9122.1",
+   "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.001..HTM"
+  },
+  {
+   "label": "Pennsylvania: 18 Pa.C.S. 9122.2 (Clean Slate)",
+   "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/18/00.091.022.002..HTM"
+  },
+  {
+   "label": "Texas: Code of Criminal Procedure ch. 55A (expunction)",
+   "url": "https://tcss.legis.texas.gov/docs/CR/htm/CR.55a.htm"
+  },
+  {
+   "label": "Texas: Government Code ch. 411 (nondisclosure, 411.0851)",
+   "url": "https://tcss.legis.texas.gov/docs/GV/htm/GV.411.htm"
+  },
+  {
+   "label": "Utah Courts: Expungement",
+   "url": "https://www.utcourts.gov/en/self-help/case-categories/criminal-justice/expunge.html"
+  },
+  {
+   "label": "Virginia: Va. Code 19.2-392.12",
+   "url": "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.12/"
+  },
+  {
+   "label": "Virginia: Va. Code 19.2-392.6",
+   "url": "https://law.lis.virginia.gov/vacode/title19.2/chapter23.2/section19.2-392.6/"
+  },
+  {
+   "label": "Washington: RCW 9.96.060",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.96.060"
+  },
+  {
+   "label": "Washington: RCW 9.94A.640",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9.94A.640"
+  },
+  {
+   "label": "28 CFR 16.34 (changing an FBI record)",
+   "url": "https://www.law.cornell.edu/cfr/text/28/16.34"
+  },
+  {
+   "label": "Fair Credit Reporting Act, 15 U.S.C. 1681i (disputes)",
+   "url": "https://www.law.cornell.edu/uscode/text/15/1681i"
+  }
+ ]
+}
