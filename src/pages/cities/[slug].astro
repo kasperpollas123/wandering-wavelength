@@ -2,7 +2,6 @@
 import PageLayout from '../../layouts/PageLayout.astro';
 import AttorneyCard from '../../components/AttorneyCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import SchemaMarkup from '../../components/SchemaMarkup.astro';
 import { cities, stateNames, stateSlug } from '../../data/cities';
 import { getAttorneysForCity } from '../../data/attorneys';
 import { listingOrder, otherLanguages, isFormerProsecutor } from '../../data/attorneyFacts';
@@ -41,9 +40,10 @@ const statLine = [
   spanish > 0 && { n: spanish, label: spanish === 1 ? 'speaks Spanish' : 'speak Spanish' },
   prosecutors > 0 && { n: prosecutors, label: prosecutors === 1 ? 'former prosecutor' : 'former prosecutors' },
 ].filter(Boolean) as { n: number; label: string }[];
+const metaDescription = `${attorneys.length} expungement and record sealing ${attorneys.length === 1 ? 'attorney' : 'attorneys'} in ${cityName}, ${city.state}${freeConsult > 0 ? `, ${freeConsult} with a free consultation` : ''}. What each one clears, languages and phone numbers.`;
+
 
 // Concise meta description within 155 characters
-const metaDescription = `Attorneys in ${cityName}, ${city.state} who handle expungement and record sealing, with a summary of ${stateNames[city.state] || city.state} law and free legal help options.`;
 
 // Find nearby cities in the same state (excluding current city)
 const nearbyCitiesWithCounts = cities
@@ -65,10 +65,9 @@ const nearbyCitiesWithCounts = cities
   description={metaDescription}
   canonicalURL={`/cities/${city.seoSlug || city.slug}`}
   schemaType="city"
-  schemaData={city}
+  schemaData={{ ...city, listings: sorted }}
 >
   <!-- Add Schema.org markup for City -->
-  <SchemaMarkup type="city" data={city} />
   
   <section class="bg-white border-b border-gray-200">
     <div class="container pt-6 pb-8">

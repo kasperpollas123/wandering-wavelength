@@ -265,7 +265,7 @@
       "permanent": false
     },
     {
-      "source": "/attorneys/katherine-o\u2019brien-law-jersey-city",
+      "source": "/attorneys/katherine-o’brien-law-jersey-city",
       "destination": "/states/new-jersey",
       "permanent": false
     },
@@ -297,6 +297,151 @@
     {
       "source": "/attorneys/law-office-of-cody-cleveland-waco",
       "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/koenig-law-office-%7C-dui-attorney-bakersfield",
+      "destination": "/attorneys/koenig-law-office-dui-attorney-bakersfield",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/justin-t-holt-managing-attorney-%7C-mallory-lollar-holt-associates-pc-arlington",
+      "destination": "/attorneys/justin-t-holt-managing-attorney-mallory-lollar-holt-associates-pc-arlington",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/saleh-law-group-%7C-personal-injury-accident-attorneys-west-covina",
+      "destination": "/attorneys/saleh-law-group-personal-injury-accident-attorneys-west-covina",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/renner-law-office-%7C-criminal-lawyer-prenuptial-agreement-divorce-attorney-indianapolis-indiana-indianapolis",
+      "destination": "/attorneys/renner-law-office-criminal-lawyer-prenuptial-agreement-divorce-attorney-indianapolis-indiana-indianapolis",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/maria-amaya-aplc-%7C-criminal-defense-personal-injury-lawyer-chico",
+      "destination": "/attorneys/maria-amaya-aplc-criminal-defense-personal-injury-lawyer-chico",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/the-chauncey-law-firm-pa-%7C-attorney-at-law-live-oak",
+      "destination": "/attorneys/the-chauncey-law-firm-pa-attorney-at-law-live-oak",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/law-offices-of-m-gabriela-guraiib-%E2%80%94-criminal-defense-attorney-redwood-city",
+      "destination": "/attorneys/law-offices-of-m-gabriela-guraiib-criminal-defense-attorney-redwood-city",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/j-kevin-hayslett-%7C-dui-attorney-and-criminal-defense-lawyer-clearwater",
+      "destination": "/attorneys/j-kevin-hayslett-dui-attorney-and-criminal-defense-lawyer-clearwater",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/law-office-of-patricia-maga%C3%B1a-llc-naperville",
+      "destination": "/attorneys/law-office-of-patricia-magana-llc-naperville",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/all-trial-lawyers-%7C-cps-and-family-law-orange",
+      "destination": "/attorneys/all-trial-lawyers-cps-and-family-law-orange",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/law-offices-of-anna-yum-%7C-criminal-attorneys-san-diego",
+      "destination": "/attorneys/law-offices-of-anna-yum-criminal-attorneys-san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/park-caporrino-llp-%EB%B0%95%EC%84%A0%EC%A0%95-%ED%95%A9%EB%8F%99-%EB%B2%95%EB%A5%A0-%EC%82%AC%EB%AC%B4%EC%86%8C-leonia",
+      "destination": "/attorneys/park-caporrino-llp-leonia",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/the-hill-law-firm-%7C-criminal-defense-attorney-lebanon-tn-lebanon",
+      "destination": "/attorneys/the-hill-law-firm-criminal-defense-attorney-lebanon-tn-lebanon",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/lisa-shapiro-strauss-attorney-at-law-%E2%80%93-houston-criminal-defense-bellaire",
+      "destination": "/attorneys/lisa-shapiro-strauss-attorney-at-law-houston-criminal-defense-bellaire",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/moskal-law-%7C-defense-firm-las-vegas",
+      "destination": "/attorneys/moskal-law-defense-firm-las-vegas",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/jason-aycoth-criminal-lawyer-%7C-dui-%7C-traffic-tickets-%7C-car-accidents-greensboro",
+      "destination": "/attorneys/jason-aycoth-criminal-lawyer-dui-traffic-tickets-car-accidents-greensboro",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/law-offices-of-hal-m-garfinkel-llc-%7C-chicago-criminal-attorney-chicago",
+      "destination": "/attorneys/law-offices-of-hal-m-garfinkel-llc-chicago-criminal-attorney-chicago",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/orange-county-traffic-ticket-lawyer-%7C-scott-r-ball-huntington-beach",
+      "destination": "/attorneys/orange-county-traffic-ticket-lawyer-scott-r-ball-huntington-beach",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/the-botnick-law-firm-%7C-duiovi-and-criminal-defense-attorneys-shaker-heights",
+      "destination": "/attorneys/the-botnick-law-firm-duiovi-and-criminal-defense-attorneys-shaker-heights",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/anthony-santangelo-esq-mba-trademarks-patents-design-provisional-patents-copyrights-expungements%21-cherry-hill-township",
+      "destination": "/attorneys/anthony-santangelo-esq-mba-trademarks-patents-design-provisional-patents-copyrights-expungements-cherry-hill-township",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/baxter-law-llc-%E2%80%93-bend-dui-criminal-defense-estate-planning-and-family-law-attorneys-salem",
+      "destination": "/attorneys/baxter-law-llc-bend-dui-criminal-defense-estate-planning-and-family-law-attorneys-salem",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/robert-j-callahan-%7C-chicago-criminal-defense-lawyers-chicago",
+      "destination": "/attorneys/robert-j-callahan-chicago-criminal-defense-lawyers-chicago",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/hiltzheimer-law-office-pllc-%7C-raleigh-dwi-lawyer-raleigh",
+      "destination": "/attorneys/hiltzheimer-law-office-pllc-raleigh-dwi-lawyer-raleigh",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/bennett-%7C-michael-%7C-hornsby-attorneys-at-law-murfreesboro",
+      "destination": "/attorneys/bennett-michael-hornsby-attorneys-at-law-murfreesboro",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/record-eraser-%7C-pa-pardon-services-lancaster",
+      "destination": "/attorneys/record-eraser-pa-pardon-services-lancaster",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/matthew-fakhoury-%7C-the-law-offices-of-matthew-m-fakhoury-llc-chicago",
+      "destination": "/attorneys/matthew-fakhoury-the-law-offices-of-matthew-m-fakhoury-llc-chicago",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/ahmad-nolan-defense-milwaukee",
+      "destination": "/states/wisconsin",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-meredith-mochel-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/attorney-kevin-hargis-chattanooga",
+      "destination": "/states/tennessee",
       "permanent": false
     }
   ]

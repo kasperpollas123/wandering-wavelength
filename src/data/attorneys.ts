@@ -676,7 +676,10 @@ function findMatchingImage(name: string): string {
 function sanitizeForUrl(str: string): string {
   return str
     .toLowerCase()
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g, '') // é -> e, ñ -> n
+    .replace(/[\u2013\u2014]/g, ' ')
     .replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '') // Remove special characters
+    .replace(/[^a-z0-9\s-]/g, ' ')  // Anything else (|, !, non-Latin letters) becomes a space
     .replace(/\s+/g, '-')     // Replace spaces with hyphens
     .replace(/-+/g, '-')      // Replace multiple hyphens with single hyphen
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens

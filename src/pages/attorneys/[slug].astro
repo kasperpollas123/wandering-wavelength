@@ -1,11 +1,10 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import SchemaMarkup from '../../components/SchemaMarkup.astro';
 import { attorneys, getCityForAttorney } from '../../data/attorneys';
 import { stateNames, stateSlug } from '../../data/cities';
 import { getHelpForState } from '../../data/freeHelp';
-import { badges, BADGE_CLASS, serviceLabels, initials, hasPhoto, telHref, prettyPhone, prettyHost, otherLanguages, listingOrder } from '../../data/attorneyFacts';
+import { badges, BADGE_CLASS, serviceLabels, initials, hasPhoto, telHref, prettyPhone, prettyHost, otherLanguages, listingOrder, summary } from '../../data/attorneyFacts';
 
 export function getStaticPaths() {
   return attorneys.map(attorney => ({
@@ -42,7 +41,10 @@ const goodToKnow = [
   langs.length > 0 && `Languages: English, ${langs.join(', ')}`,
 ].filter(Boolean) as string[];
 
-const metaDescription = (profile?.description.split('\n')[0] || `${attorney.name} is a law firm in ${attorney.city}, ${stateName} listed for expungement and record sealing.`).slice(0, 155);
+const metaBase = summary(attorney, 150) || `${attorney.name} is a law firm in ${attorney.city}, ${stateName} listed for expungement and record sealing.`;
+const metaDescription = (metaBase.length < 105 ? `${metaBase} What it clears, fees and how to reach its ${attorney.city} office.` : metaBase).slice(0, 160);
+const fullTitle = `${attorney.name} - Expungement Attorney in ${attorney.city}, ${attorney.state}`;
+const pageTitle = fullTitle.length <= 65 ? fullTitle : `${attorney.name} | ${attorney.city}, ${attorney.state} Expungement`.length <= 65 ? `${attorney.name} | ${attorney.city}, ${attorney.state} Expungement` : `${attorney.name} | ${attorney.city}, ${attorney.state}`;
 
 const cityLabel = attorney.city || city?.name || '';
 const relatedAttorneys = attorneys
@@ -54,13 +56,12 @@ const H2 = '!text-xl !mb-3 font-bold text-gray-900 flex items-center gap-2';
 ---
 
 <PageLayout
-  title={`${attorney.name} - Expungement Attorney in ${attorney.city}, ${attorney.state}`}
+  title={pageTitle}
   description={metaDescription}
   canonicalURL={`/attorneys/${attorney.slug}`}
   schemaType="attorney"
   schemaData={attorney}
 >
-  <SchemaMarkup type="attorney" data={attorney} />
 
   <!-- Header: who, where, and how to reach them, all on the first screen -->
   <section class="bg-white border-b border-gray-200">

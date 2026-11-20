@@ -60,17 +60,33 @@ export const BADGE_CLASS: Record<Badge['tone'], string> = {
   gray: 'bg-gray-50 text-gray-700 border-gray-200',
 };
 
+// Split text into sentences without breaking on "P.C.", "J. Smith", "Inc.", "U.S." or "Section 4."
+function sentencesOf(text: string): string[] {
+  const out: string[] = [];
+  const re = /[.!?]["')\]]?(?=\s+["'(]?[A-Z0-9])/g;
+  let start = 0, m: RegExpExecArray | null;
+  while ((m = re.exec(text))) {
+    const before = text.slice(start, m.index);
+    const lastWord = (before.match(/(\S+)$/) || ['', ''])[1];
+    const abbrev = /^([A-Za-z]|[A-Z][a-z]?|Inc|Co|Corp|Ltd|Jr|Sr|St|Ste|No|Mr|Mrs|Ms|Dr|Ave|Blvd|Rd|vs|etc|approx|Esq|[A-Z](\.[A-Z])+|\d)$/.test(lastWord.replace(/[.,]$/, ''));
+    if (abbrev) continue;
+    out.push(text.slice(start, m.index + m[0].length).trim());
+    start = m.index + m[0].length;
+  }
+  const rest = text.slice(start).trim();
+  if (rest) out.push(rest);
+  return out;
+}
+
 // First one or two sentences of the profile, kept short for a card
 export function summary(a: Attorney, max = 230): string {
   const text = (a.profile?.description || '').split('\n').find(p => p.trim()) || '';
   if (!text) return '';
-  const sentences = text.match(/[^.!?]+[.!?]+(\s|$)/g) || [text];
   let out = '';
-  for (const s of sentences) {
-    if ((out + s).length > max && out) break;
-    out += s;
+  for (const s of sentencesOf(text)) {
+    if (out.length >= 60 && (out + ' ' + s).length > max) break;
+    out = out ? `${out} ${s}` : s;
   }
-  out = out.trim();
   return out.length > max + 60 ? out.slice(0, max).replace(/\s+\S*$/, '') + '…' : out;
 }
 

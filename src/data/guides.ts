@@ -44,7 +44,7 @@ export const guideTopics: GuideTopic[] = [
     noun: 'a DUI',
     short: 'DUI',
     title: 'How Long Does a DUI Stay on Your Record? State by State',
-    description: 'A DUI conviction stays on a criminal record permanently unless the state lets you clear it. See, for every state, whether a DUI can be cleared, how long you wait, and how long it counts on your driving record.',
+    description: 'A DUI stays on your criminal record unless your state lets you clear it. For every state: can a DUI be cleared, how long you wait, and the driving record.',
     intro: [
       'A DUI sits on two separate records, and they follow different rules.',
       'The criminal record: a DUI conviction stays there permanently unless your state lets you clear it. About half the states do not allow a DUI conviction to be cleared at all. The rest allow it after a waiting period, often for a first offense only.',
@@ -57,7 +57,7 @@ export const guideTopics: GuideTopic[] = [
     noun: 'a misdemeanor',
     short: 'Misdemeanor',
     title: 'How Long Does a Misdemeanor Stay on Your Record? State by State',
-    description: 'A misdemeanor conviction stays on your record permanently unless it is cleared. See, for every state, whether a misdemeanor can be expunged or sealed and how long you have to wait.',
+    description: 'A misdemeanor stays on your record unless it is cleared. For every state: whether a misdemeanor can be expunged or sealed, and how long you wait.',
     intro: [
       'A misdemeanor conviction does not drop off a criminal record by itself. It stays permanently unless the state clears it, either because you ask a court or because the state does it automatically.',
       'Most states let at least some misdemeanor convictions be cleared after a waiting period. The wait usually starts when the sentence is finished, including probation and any fines, and it restarts or ends if there is a new conviction.',
@@ -70,7 +70,7 @@ export const guideTopics: GuideTopic[] = [
     noun: 'a felony',
     short: 'Felony',
     title: 'How Long Does a Felony Stay on Your Record? State by State',
-    description: 'A felony conviction stays on your record permanently unless it is cleared. See, for every state, whether a felony can be expunged or sealed, which ones, and how long you have to wait.',
+    description: 'A felony stays on your record unless it is cleared. For every state: whether a felony can be expunged or sealed, which ones, and how long you wait.',
     intro: [
       'A felony conviction stays on a criminal record permanently unless the state clears it. No state removes felonies just because time has passed, although several now seal some of them automatically after a set number of years.',
       'Most states allow some felonies to be cleared, usually lower-level, non-violent ones, after a longer wait than for misdemeanors. A few states do not allow any felony conviction to be cleared, and in some the only route is a pardon.',

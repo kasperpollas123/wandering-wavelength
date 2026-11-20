@@ -1,4 +1,5 @@
 ---
+import { serviceLabels, summary, hasPhoto } from '../data/attorneyFacts';
 interface Props {
   type: 'attorney' | 'city' | 'organization' | 'website';
   data?: any;
@@ -12,8 +13,8 @@ const organizationSchema = {
   "@type": "Organization",
   "name": "Expungement Attorneys Directory",
   "url": Astro.site?.toString() || "https://www.expungementattorneys.org",
-  "logo": new URL("/images/logo.svg", Astro.site).toString(),
-  "description": "Connect with experienced expungement attorneys who can help clear your criminal record and give you a fresh start."
+  "logo": new URL("/favicon.svg", Astro.site).toString(),
+  "description": "A directory of attorneys who clear criminal records, free legal help by state, and each state's expungement rules in plain English."
 };
 
 // Website schema
@@ -24,72 +25,52 @@ const websiteSchema = {
   "url": Astro.site?.toString() || "https://www.expungementattorneys.org"
 };
 
-// Generate attorney schema
+// Split "250 E 38th St, Indianapolis, IN 46205" into its parts
+function parseAddress(address: string = '') {
+  const parts = address.split(',').map(p => p.trim()).filter(Boolean);
+  const last = parts[parts.length - 1] || '';
+  const m = last.match(/^([A-Z]{2})\s*(\d{5})?/);
+  return m && parts.length >= 3
+    ? { streetAddress: parts.slice(0, -2).join(', '), addressLocality: parts[parts.length - 2], addressRegion: m[1], postalCode: m[2] || undefined, addressCountry: 'US' }
+    : { streetAddress: address, addressCountry: 'US' };
+}
+
+// Generate attorney schema (no star ratings: the ratings are not collected by this site)
 function generateAttorneySchema(attorney: any) {
   if (!attorney) return null;
-  
-  // No star ratings here: the ratings come from Google, and review markup is only for ratings a site collects itself.
+  const services = serviceLabels(attorney, 12);
+  const site = attorney.website && attorney.website !== '#' ? attorney.website : undefined;
   return {
     "@context": "https://schema.org",
     "@type": "LegalService",
+    "@id": new URL(`/attorneys/${attorney.slug}`, Astro.site).toString(),
     "name": attorney.name,
-    "image": attorney.image.startsWith('http') ? attorney.image : new URL(attorney.image, Astro.site).toString(),
-    "description": `${attorney.name} is a law firm in ${attorney.city}, ${attorney.state} that handles expungement and record sealing cases.`,
-    "telephone": attorney.phone,
-    "url": attorney.website,
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": attorney.address?.split(',')[0] || "",
-      "addressLocality": attorney.address?.split(',')[1]?.trim() || "",
-      "addressRegion": attorney.address?.split(',')[2]?.trim() || "",
-      "postalCode": attorney.address?.split(',')[3]?.trim() || ""
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Legal Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Expungement Services"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Criminal Record Clearing"
-          }
-        }
-      ]
-    },
-    "sameAs": [
-      attorney.website
-    ]
+    ...(hasPhoto(attorney) ? { "image": new URL(attorney.image, Astro.site).toString() } : {}),
+    "description": summary(attorney, 250) || `${attorney.name} is a law firm in ${attorney.city}, ${attorney.state} that handles expungement and record sealing cases.`,
+    ...(attorney.phone ? { "telephone": attorney.phone } : {}),
+    ...(site ? { "url": site, "sameAs": [site] } : {}),
+    "address": { "@type": "PostalAddress", ...parseAddress(attorney.address) },
+    "areaServed": { "@type": "State", "name": attorney.state },
+    ...(services.length ? { "knowsAbout": services } : {}),
+    ...(attorney.profile?.languages?.length ? { "knowsLanguage": ['English', ...attorney.profile.languages.filter((l: string) => !/english/i.test(l))] } : {})
   };
 }
 
-// Generate city schema
+// City page: the list of firms on the page
 function generateCitySchema(city: any) {
   if (!city) return null;
-  
+  const items = (city.listings || []) as any[];
   return {
     "@context": "https://schema.org",
-    "@type": "Place",
-    "name": `${city.name}, ${city.state}`,
-    "description": city.description,
-    "image": city.image.startsWith('http') ? city.image : new URL(city.image, Astro.site).toString(),
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": city.name,
-      "addressRegion": city.state,
-      "addressCountry": "US"
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": new URL(`/cities/${city.seoSlug || city.slug}`, Astro.site).toString()
-    }
+    "@type": "ItemList",
+    "name": `Expungement attorneys in ${city.name}, ${city.state}`,
+    "numberOfItems": items.length,
+    "itemListElement": items.map((a, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": new URL(`/attorneys/${a.slug}`, Astro.site).toString(),
+      "name": a.name
+    }))
   };
 }
 

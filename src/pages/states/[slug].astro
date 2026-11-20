@@ -10,7 +10,6 @@ import { getStateFacts, guideTopics, clearableLabel } from '../../data/guides';
 // One page for every state that has at least one attorney in the directory
 export function getStaticPaths() {
   return Object.keys(stateNames)
-    .filter(code => getAttorneysByState(code).length > 0)
     .map(code => ({ params: { slug: stateSlug(code) }, props: { code } }));
 }
 
@@ -38,8 +37,8 @@ const byTown = withoutCityPage.reduce((acc, a) => {
 }, {} as Record<string, typeof attorneys>);
 const towns = Object.keys(byTown).sort();
 
-const title = `Expungement Attorneys in ${stateName} | Law and Lawyers by City`;
-const description = `${attorneys.length} attorneys in ${stateName} who handle expungement and record sealing, listed by city, with a summary of ${stateName}'s expungement law.`;
+const title = attorneys.length > 0 ? `Expungement Attorneys in ${stateName} and State Rules` : `${stateName} Expungement Rules and Free Legal Help`;
+const description = attorneys.length > 0 ? `${stateName} expungement rules in plain English, plus ${attorneys.length} ${attorneys.length === 1 ? 'attorney' : 'attorneys'} who handle record sealing and expungement, listed by city.` : `${stateName} expungement and record sealing rules in plain English: what can be cleared, how long you wait, and free legal help.`;
 ---
 
 <PageLayout title={title} description={description} canonicalURL={`/states/${stateSlug(code)}`}>
@@ -47,7 +46,7 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
     <div class="container pt-6 pb-8">
       <Breadcrumbs items={[{ label: "States", href: "/states" }, { label: stateName }]} />
       <h1 class="!text-3xl md:!text-4xl !mb-3 mt-4">{`Expungement in ${stateName}`}</h1>
-      <p class="text-lg text-gray-700 max-w-3xl">{`What can be cleared in ${stateName}, how long you wait, and ${attorneys.length} ${attorneys.length === 1 ? 'attorney' : 'attorneys'} who handle expungement and record sealing here${helpCount > 0 ? ', plus free legal help' : ''}.`}</p>
+      <p class="text-lg text-gray-700 max-w-3xl">{attorneys.length > 0 ? `What can be cleared in ${stateName}, how long you wait, and ${attorneys.length} ${attorneys.length === 1 ? 'attorney' : 'attorneys'} who handle expungement and record sealing here${helpCount > 0 ? ', plus free legal help' : ''}.` : `What can be cleared in ${stateName}, how long you wait, and ${helpCount > 0 ? 'where to get free legal help' : 'what the process is called'}. No private attorneys are listed in ${stateName} yet.`}</p>
       <div class="mt-5 flex flex-wrap gap-2 text-sm">
         {lawInfo && <a href="#rules" class="rounded-full border border-gray-300 bg-white px-3 py-1.5 font-semibold text-gray-800">The rules</a>}
         {(stateCities.length > 0 || towns.length > 0) && <a href="#attorneys" class="rounded-full border border-gray-300 bg-white px-3 py-1.5 font-semibold text-gray-800">{`Attorneys (${attorneys.length})`}</a>}
