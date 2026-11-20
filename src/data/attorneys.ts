@@ -3,6 +3,9 @@ import type { City } from './cities';
 import profilesData from './attorneyProfiles.json';
 import rcPagesData from './recordClearingPages.json';
 import reviewEvidenceData from './reviewEvidence.json';
+// Photos saved for firms added in November 2026, keyed "name|domain" (exact match, no guessing by name)
+import attorneyImagesData from './attorneyImages.json';
+const attorneyImages = attorneyImagesData as Record<string, string>;
 // Firms listed because a client review on Google describes expungement or sealing work
 const reviewEvidence = new Set(reviewEvidenceData as string[]);
 
@@ -864,7 +867,7 @@ export function loadAttorneysFromJson(): Attorney[] {
           const attorney: Attorney = {
             id: `attorney-${index}`,
             name: listing.name,
-            image: findMatchingImage(listing.name),
+            image: attorneyImages[`${listing.name}|${listing.domain || ''}`] || (listing.no_local_image ? '/images/default-attorney.svg' : findMatchingImage(listing.name)),
             rating: Number(listing.rating) || 0,
             reviewCount: Number(listing.votes_count) || (listing.reviews ? listing.reviews.length : 0),
             specialty: "Expungement Attorney",
