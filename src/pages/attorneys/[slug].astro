@@ -27,7 +27,9 @@ const hasHalfStar = attorney.rating % 1 >= 0.5;
 const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
 
 const profile = attorney.profile;
-const clearsRecords = !profile || profile.mentions_record_clearing;
+const rcPage = attorney.rcPage;
+const clearsRecords = true; // every listed firm shows record-clearing work on its own website or in its name
+const services = profile && profile.record_clearing_services.length > 0 ? profile.record_clearing_services : (rcPage ? rcPage.services : []);
 const facts = profile ? [
   profile.free_consultation === true && 'Free consultation',
   profile.payment_plans === true && 'Payment plans available',
@@ -185,11 +187,14 @@ const relatedAttorneys = attorneys
             )}
           </div>
 
-          {profile && profile.record_clearing_services.length > 0 && (
+          {(services.length > 0 || rcPage) && (
             <div class="mb-10">
               <h2 class="text-2xl font-bold mb-4">Record Clearing Services</h2>
+              {rcPage && (
+                <p class="text-gray-700 mb-4">On the firm's website: <a href={rcPage.url} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{rcPage.title}</a></p>
+              )}
               <div class="flex flex-wrap gap-2">
-                {profile.record_clearing_services.map(service => (
+                {services.map(service => (
                   <span class="px-3 py-1 bg-blue-50 text-blue-900 rounded-full text-sm">{service}</span>
                 ))}
               </div>

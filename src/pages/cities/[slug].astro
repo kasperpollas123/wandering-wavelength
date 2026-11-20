@@ -11,7 +11,7 @@ import { getAttorneysForCity } from '../../data/attorneys';
 import { getHelpForState } from '../../data/freeHelp';
 
 export function getStaticPaths() {
-  return cities.map(city => ({
+  return cities.filter(city => getAttorneysForCity(city).length > 0).map(city => ({
     params: { slug: city.seoSlug || city.slug },
     props: { city }
   }));

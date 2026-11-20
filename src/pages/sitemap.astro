@@ -1,8 +1,11 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import { cities } from '../data/cities';
-import { attorneys } from '../data/attorneys';
+import { cities as allCities } from '../data/cities';
+import { attorneys, getAttorneysForCity } from '../data/attorneys';
+
+// Only cities that have attorneys
+const cities = allCities.filter(city => getAttorneysForCity(city).length > 0);
 
 const breadcrumbs = [
   { label: 'Home', href: '/' },
@@ -12,7 +15,7 @@ const breadcrumbs = [
 // Group attorneys by city
 const attorneysByCity = {};
 cities.forEach(city => {
-  attorneysByCity[city.slug] = attorneys.filter(attorney => attorney.citySlug === city.slug);
+  attorneysByCity[city.slug] = getAttorneysForCity(city);
 });
 ---
 

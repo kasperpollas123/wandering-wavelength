@@ -57,5 +57,1402 @@
     }
   ],
   "trailingSlash": false,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/attorneys/albert-roberts-law-pllc-arlington",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/ali-blankner-orlando",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/allaye-chan-law-sacramento",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/anthony-m-salerno-pc-bs-ma-med-jd-worcester",
+      "destination": "/states/massachusetts",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/arnold-terrill-ridenour-pc-fort-wayne",
+      "destination": "/states/indiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/attorney-adam-burke-columbus",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/attorney-john-kindley-south-bend",
+      "destination": "/states/indiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/attorneys-for-freedom-law-firm-chandler",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/baillie-law-firm-tulsa",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/balestrini-barnes-jaber-wood-pllc-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/beechler-tomberlin-winston-salem",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/bentley-law-oxnard",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/best-and-brock-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/billy-gilchrist-attorney-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/black-blink-associates-llc-colorado-springs",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/blake-law-firm-columbus",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/bleile-dawson-cincinnati",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/bowen-scranton-olsen-llc-columbus",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/braden-tucci-irvine",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/brian-skibby-law-office-apc-rancho-cucamonga",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/bullard-powell-apc-rialto",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/cale-law-office-of-tulsa-criminal-defense-tulsa",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/camp-law-firm-jackson",
+      "destination": "/states/mississippi",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/campbell-whitten-dui-and-criminal-defense-attorneys-bakersfield",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/cantin-mynarich-llc-springfield",
+      "destination": "/states/missouri",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/cavett-abbott-weiss-pllc-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/chambers-associates-austin",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/christopher-t-van-wagner-sc-madison",
+      "destination": "/states/wisconsin",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/cincilla-draklan-law-allentown",
+      "destination": "/states/pennsylvania",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/cole-roberts-decker-law-firm-norfolk",
+      "destination": "/states/virginia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/conyers-nix-salt-lake-city",
+      "destination": "/states/utah",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/coxwell-associates-jackson",
+      "destination": "/states/mississippi",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/craig-m-kadish-associates-llc-baltimore",
+      "destination": "/states/maryland",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/criminal-defense-colorado-springs-pc-colorado-springs",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/daly-law-pc-springfield",
+      "destination": "/states/massachusetts",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/davidson-criminal-defense-dui-law-firm-phoenix-phoenix",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/decurtins-law-office-charlotte",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/delimon-law-moreno-valley",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/demetrius-costy-law-berkeley",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/derek-r-howard-attorney-at-law-murfreesboro",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/detroit-legal-group-pllc-detroit",
+      "destination": "/states/michigan",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/dk-anderson-sc-madison",
+      "destination": "/states/wisconsin",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/dunham-jones-attorneys-at-law-pc-richardson",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/erase-the-case-pllc-miami-gardens",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/estrada-law-tyler",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/eustache-law-winston-salem",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/fassio-law-criminal-defense-and-dui-attorneys-oklahoma-city",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/ferguson-mcneil-law-firm-pa-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/fiandach-fiandach-rochester",
+      "destination": "/states/new-york",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/fighter-law-orlando",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/fincher-law-injury-accident-lawyers-topeka",
+      "destination": "/states/kansas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/fleming-law-pc-savannah",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/floyd-law-offices-pllc-raleigh",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/francavilla-law-firm-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/frank-walker-law-pittsburgh",
+      "destination": "/states/pennsylvania",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/grimes-warren-pllc-clarksville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/hager-schwartz-pa-miami-gardens",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/hiltner-trial-lawyers-akron",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/hmw-law-cleveland",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/houston-alexander-pllc-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/humphrey-thompson-bakersfield",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/hunsucker-legal-group-oklahoma-city",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/j-clay-lejeune-attorney-at-law-llc-lafayette",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/james-rutherford-attorney-at-law-wilmington",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jarrett-maillet-jd-pc-savannah",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jeff-kimmell-south-bend",
+      "destination": "/states/indiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jeff-purnell-attorney-at-law-milwaukee",
+      "destination": "/states/wisconsin",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jennifer-le-law-office-huntington-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jetton-meredith-pllc-charlotte",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jim-medley-defense-lawyer-arvada",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jim-ryan-associates-naperville",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/john-e-fitzgerald-attorney-at-law-winston-salem",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/john-olash-louisville",
+      "destination": "/states/kentucky",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/john-pozza-attorney-at-law-plc-murrieta",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/john-w-molony-law-firm-llc-charleston",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/katherine-o\u2019brien-law-jersey-city",
+      "destination": "/states/new-jersey",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/kent-law-llc-naperville",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/kinsell-law-firm-gainesville",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/kuykendall-law-pllc-norman",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/la-defense-team-glendale",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/laina-t-chikhani-attorney-at-law-fairfield",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/landon-law-lexington",
+      "destination": "/states/kentucky",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-k-lawson-wellington-washington",
+      "destination": "/states/district-of-columbia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-adam-j-willman-rochester",
+      "destination": "/states/new-york",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-alec-hanus-tucson",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-brandon-hall-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-byron-roope-sacramento",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-cody-cleveland-waco",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-craig-l-boston-naperville",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-david-d-white-pllc-austin",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-dennis-kuntz-san-bernardino",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-gregory-h-comings-apc-jurupa-valley",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-j-bradley-cockrell-lafayette",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-jason-wolf-corpus-christi",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-john-r-grasso-inc-providence",
+      "destination": "/states/rhode-island",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-joseph-a-fanduzz-knoxville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-jr-vicha-waco",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-judy-kim-atlanta",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-kenneth-w-brashier-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-kevin-r-fisher-atlanta",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-leonard-matsuk-long-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-mark-rogers-llc-shreveport",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-matthew-t-mcnally-atlanta",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-michael-mirer-pa-miami-gardens",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-rebecca-feigelson-san-francisco",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-sam-kretzmer-llc-bridgeport",
+      "destination": "/states/connecticut",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-shawn-m-cline-pc-hampton",
+      "destination": "/states/virginia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-stephanie-rickard-san-jose",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-stephen-r-leffler-pc-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-tony-huynh-pllc-greensboro",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-vincent-s-hughes-san-bernardino",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-christian-kim-irvine",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-edwards-jones-gainesville",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-joshua-t-crain-murfreesboro",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-mark-deniz-aplc-carlsbad",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-mj-snyder-llc-philadelphia",
+      "destination": "/states/pennsylvania",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-offices-of-thomas-nicholas-cvietkovich-san-jose",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/le-brocq-horner-law-firm-carrollton",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/lee-law-group-dui-criminal-attorneys-san-diego",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/leininger-law-offices-overland-park",
+      "destination": "/states/kansas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/leland-hulbert-law-pllc-louisville",
+      "destination": "/states/kentucky",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/lemanski-law-offices-the-law-office-of-scott-f-cactus-lemanski-corpus-christi",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/lias-law-firm-santa-clarita",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/lizzy-bunker-attorney-at-law-albuquerque",
+      "destination": "/states/new-mexico",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/lucero-pc-pomona",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/luisi-legal-group-chicago",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/malek-law-firm-llc-akron",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mark-raymond-mcdonald-esq-san-bernardino",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/markowitz-law-firm-league-city",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/martin-conti-law-pueblo",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mastantuno-law-firm-charleston",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mayestelles-pllc-phoenix",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mcconnell-law-firm-wichita",
+      "destination": "/states/kansas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mcgee-law-firm-wilmington",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/melman-mugno-llc-allentown",
+      "destination": "/states/pennsylvania",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/meltzer-bell-pa-fort-lauderdale",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/middlebrook-associates-bakersfield",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/miller-hine-car-accident-lawyers-st-louis-st-louis",
+      "destination": "/states/missouri",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/minick-law-pc-wilmington",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/misdemeanors-and-traffic-tickets-attorney-mark-gemoets-law-office-las-cruces",
+      "destination": "/states/new-mexico",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mitchell-law-offices-llc-albuquerque",
+      "destination": "/states/new-mexico",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/moises-aguilar-esq-orange",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/mudd-legal-group-pllc-louisville",
+      "destination": "/states/kentucky",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/nakos-law-office-fort-wayne",
+      "destination": "/states/indiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/nashville-criminal-defense-attorney-pnc-law-nashville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/newman-allen-rancho-cucamonga",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/nghi-lam-law-firm-huntington-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/orange-county-traffic-ticket-lawyer-|-scott-r-ball-huntington-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/parks-braxton-pa-tampa",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/parsley-law-office-lincoln",
+      "destination": "/states",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/paul-grant-attorney-at-law-west-valley-city",
+      "destination": "/states/utah",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/peter-j-marek-stockton",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/peter-john-louie-pc-virginia-beach",
+      "destination": "/states/virginia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/philip-a-schnayerson-criminal-defense-attorney-hayward",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/poland-poland-attorneys-at-law-clarksville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/precht-law-firm-lafayette",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/redstone-law-clarksville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/revill-law-firm-birmingham",
+      "destination": "/states/alabama",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/rick-canales-law-office-brownsville",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/rogosheske-rogosheske-atkins-pllc-saint-paul",
+      "destination": "/states/minnesota",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/ross-law-offices-pc-denton",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/rossen-law-firm-fort-lauderdale",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/rr-law-group-pllc-scottsdale",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/runyon-runyon-clarksville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/ryan-brown-attorney-at-law-amarillo",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/ryan-maesen-attorney-at-law-grand-rapids",
+      "destination": "/states/michigan",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/saleh-law-group-|-personal-injury-accident-attorneys-west-covina",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/sarofiem-antoun-llc-jersey-city",
+      "destination": "/states/new-jersey",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/sawl-law-group-fresno",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/schneider-lerch-llc-savannah",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/scott-crongeyer-attorney-at-law-mobile",
+      "destination": "/states/alabama",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/sean-henricksen-law-firm-san-antonio",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/shawn-elliott-attorney-at-law-wichita",
+      "destination": "/states/kansas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/speek-turner-newkirk-pllc-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/spellman-law-pc-des-moines",
+      "destination": "/states/iowa",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/stephen-m-ball-law-office-winston-salem",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/stephen-p-pfeiffer-virginia-beach",
+      "destination": "/states/virginia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/stevie-phillips-law-pllc-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/sua-law-group-simi-valley",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/t-scott-jones-esq-knoxville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/talley-turner-stice-bertman-norman",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/taylor-law-group-murfreesboro",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/terry-law-group-llc-newark",
+      "destination": "/states/new-jersey",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-baker-law-firm-knoxville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-beltz-law-firm-mesquite",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-crowder-law-firm-pc-plano",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-ferrell-law-firm-pllc-boulder",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-franks-law-firm-pllc-jackson",
+      "destination": "/states/mississippi",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-g-carter-law-firm-llc-new-orleans",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-gertz-kelley-law-firm-beaumont",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-goldberg-law-firm-cleveland",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-kilfin-law-firm-pc-st-petersburg",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-kuhlman-law-office-pllc-spokane",
+      "destination": "/states/washington",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-gregory-hagopian-visalia",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-guillermo-lara-jr-san-antonio",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-james-l-hassey-chula-vista",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-kevin-l-barnett-charlotte",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-r-douglas-lenhardt-llc-athens",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-randall-scott-grand-prairie",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-stefanie-dorn-vancouver",
+      "destination": "/states/washington",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-edward-j-falcone-and-h-wood-vann-durham",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-eric-m-matheny-pa-miami-gardens",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-jed-silverman-houston",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-john-phebus-criminal-and-personal-injury-lawyer-peoria",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-john-w-bussman-inc-fullerton",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-marion-m-moses-llc-columbia",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-mark-deniz-aplc-escondido",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-matthew-cargal-pasadena",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-matthew-p-lipinsky-new-rochelle",
+      "destination": "/states/new-york",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-nathan-miller-pllc-denton",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-robert-stroh-naperville",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-taylor-taylor-huntington-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-offices-of-zirpoli-chase-pllc-hollywood",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-mcdaniel-law-firm-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-miller-law-group-pasadena",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-mussallem-law-firm-pa-jacksonville",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-toney-law-firm-llc-chicago",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/theodore-grezlak-iii-lawyer-jersey-city",
+      "destination": "/states/new-jersey",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/thurmond-kirchner-timbes-pa-charleston",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/tim-amey-attorney-at-law-charleston",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/touma-law-group-criminal-defense-attorneys-columbia-columbia",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/trentacosta-associates-pc-sandy-springs",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/trey-porter-law-san-antonio",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/tulsa-dui-guy-tulsa",
+      "destination": "/states/oklahoma",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/valenzuela-law-firm-el-paso",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/vaughn-law-pllc-houston",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/vincent-r-maher-fairfield",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/wallin-klarich-criminal-defense-attorneys-rialto",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/wasatch-defense-lawyers-west-valley-city",
+      "destination": "/states/utah",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/watkins-law-firm-llc-boulder",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/weisberg-weisberg-pllc-newport-news",
+      "destination": "/states/virginia",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/william-patrick-delgado-attorney-at-law-corpus-christi",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/wolf-stallings-mayo-midland",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/young-young-attorneys-at-law-charleston",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/your-traffic-ticket-lawyer-llc-kansas-city",
+      "destination": "/states/missouri",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-akron",
+      "destination": "/states/ohio",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-allentown",
+      "destination": "/states/pennsylvania",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-berkeley",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-birmingham",
+      "destination": "/states/alabama",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-charleston",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-clarksville",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-columbia-mo",
+      "destination": "/states/missouri",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-columbia-sc",
+      "destination": "/states/south-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-corpus-christi",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-denton",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-des-moines",
+      "destination": "/states/iowa",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-durham",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-fairfield",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-fort-wayne",
+      "destination": "/states/indiana",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-gainesville",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-glendale",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-grand-prairie",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-huntington-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-irvine",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-jackson",
+      "destination": "/states/mississippi",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-lafayette",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-long-beach",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-madison",
+      "destination": "/states/wisconsin",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-memphis",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-miami-gardens",
+      "destination": "/states/florida",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-naperville",
+      "destination": "/states/illinois",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-omaha",
+      "destination": "/states",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-overland-park",
+      "destination": "/states/kansas",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-pittsburgh",
+      "destination": "/states/pennsylvania",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-pueblo",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-rancho-cucamonga",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-richardson",
+      "destination": "/states/texas",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-rochester",
+      "destination": "/states/new-york",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-san-bernardino",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-sandy-springs",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-savannah",
+      "destination": "/states/georgia",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-scottsdale",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-shreveport",
+      "destination": "/states/louisiana",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-spokane",
+      "destination": "/states/washington",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-springfield",
+      "destination": "/states/missouri",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-tucson",
+      "destination": "/states/arizona",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-west-covina",
+      "destination": "/states/california",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-wichita",
+      "destination": "/states/kansas",
+      "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-wilmington",
+      "destination": "/states/north-carolina",
+      "permanent": false
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 import { cities, cityToSlug } from './cities';
 import type { City } from './cities';
 import profilesData from './attorneyProfiles.json';
+import rcPagesData from './recordClearingPages.json';
 
 // Profile written from the firm's own website (scripts in the research notes; see README)
 export interface AttorneyProfile {
@@ -17,6 +18,9 @@ export interface AttorneyProfile {
   areas_served: string | null;
 }
 const profiles = profilesData as Record<string, AttorneyProfile>;
+// A page about record clearing found on the firm's website (for firms whose main pages don't cover it)
+export interface RecordClearingPage { url: string; title: string; services: string[]; }
+const rcPages = rcPagesData as Record<string, RecordClearingPage>;
 import fs from 'fs';
 import path from 'path';
 
@@ -48,6 +52,7 @@ export interface Attorney {
   freeConsultation?: boolean;
   reviews?: any[];
   profile?: AttorneyProfile;
+  rcPage?: RecordClearingPage;
 }
 
 // Function to generate a random phone number
@@ -862,6 +867,7 @@ export function loadAttorneysFromJson(): Attorney[] {
             description: (profiles[`${listing.name}|${listing.domain || ''}`]?.description || '').split('\n')[0]
               || `${listing.name} is a law firm in ${cityName.split(' ').map((w: string) => w ? w.charAt(0).toUpperCase() + w.slice(1) : w).join(' ')}, ${stateName}.`,
             profile: profiles[`${listing.name}|${listing.domain || ''}`],
+            rcPage: rcPages[`${listing.name}|${listing.domain || ''}`],
             longDescription: uniqueDescription, // Use the unique description as the long description
             phone: listing.phone || '',
             website: listing.domain ? `https://${listing.domain}` : "#",

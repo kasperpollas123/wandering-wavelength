@@ -15,8 +15,8 @@ const citiesWithActualCounts = cities.map(city => {
   };
 });
 
-// Sort cities by name
-const sortedCities = [...citiesWithActualCounts].sort((a, b) => a.name.localeCompare(b.name));
+// Sort cities by name (only cities that have attorneys)
+const sortedCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0).sort((a, b) => a.name.localeCompare(b.name));
 
 // Group cities by state
 const citiesByState = sortedCities.reduce((acc, city) => {

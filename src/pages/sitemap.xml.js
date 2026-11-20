@@ -1,5 +1,5 @@
 import { cities, stateNames, stateSlug } from '../data/cities';
-import { attorneys, getAttorneysByState } from '../data/attorneys';
+import { attorneys, getAttorneysByState, getAttorneysForCity } from '../data/attorneys';
 import { helpStates } from '../data/freeHelp';
 
 export async function get() {
@@ -23,7 +23,7 @@ export async function get() {
   ];
   
   // City pages
-  const cityPages = cities.map(city => ({
+  const cityPages = cities.filter(city => getAttorneysForCity(city).length > 0).map(city => ({
     url: `/cities/${city.seoSlug || city.slug}`,
     priority: '0.8',
     changefreq: 'weekly'

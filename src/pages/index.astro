@@ -17,7 +17,7 @@ const citiesWithActualCounts = cities.map(city => {
 });
 
 // Get top 6 cities by population
-const topCities = [...citiesWithActualCounts]
+const topCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0)
   .sort((a, b) => b.population - a.population)
   .slice(0, 6);
 ---
