@@ -381,7 +381,7 @@
     },
     {
       "source": "/attorneys/law-offices-of-hal-m-garfinkel-llc-%7C-chicago-criminal-attorney-chicago",
-      "destination": "/attorneys/law-offices-of-hal-m-garfinkel-llc-chicago-criminal-attorney-chicago",
+      "destination": "/attorneys/law-offices-of-hal-m-garfinkel-llc-chicago",
       "permanent": true
     },
     {
@@ -443,6 +443,106 @@
       "source": "/attorneys/attorney-kevin-hargis-chattanooga",
       "destination": "/states/tennessee",
       "permanent": false
+    },
+    {
+      "source": "/attorneys/the-law-office-of-lisa-pelosi-new-york-city",
+      "destination": "/attorneys/the-law-office-of-lisa-pelosi-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/law-offices-of-julie-rendelman-llc-new-york-city",
+      "destination": "/attorneys/law-offices-of-julie-rendelman-llc-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/spodek-law-group-pc-nyc-criminal-attorneys-new-york-city",
+      "destination": "/attorneys/spodek-law-group-pc-nyc-criminal-attorneys-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/saland-law-pc-new-york-city",
+      "destination": "/attorneys/saland-law-pc-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/record-expungement-attorney-inglewood",
+      "destination": "/attorneys/record-expungement-attorney-los-angeles",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/the-law-office-of-boone-leach-pllc-st-paul",
+      "destination": "/attorneys/the-law-office-of-boone-leach-pllc-saint-paul",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/the-law-office-of-alex-demarco-st-paul",
+      "destination": "/attorneys/the-law-office-of-alex-demarco-saint-paul",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/subzero-expungements-pardons-appeals-st-paul",
+      "destination": "/attorneys/subzero-expungements-pardons-appeals-saint-paul",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/kins-law-firm-llc-st-paul",
+      "destination": "/attorneys/kins-law-firm-llc-saint-paul",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/wilson-criminal-law-firm-st-paul",
+      "destination": "/attorneys/wilson-criminal-law-firm-saint-paul",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/wallace-law-firm-portland",
+      "destination": "/attorneys/wallace-law-firm-pc-portland",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/law-offices-of-hal-m-garfinkel-llc-chicago-criminal-attorney-chicago",
+      "destination": "/attorneys/law-offices-of-hal-m-garfinkel-llc-chicago",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/sammis-law-firm-tampa",
+      "destination": "/attorneys/sammis-law-firm-pa-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/spradlin-kennedy-richman-law-firm-kansas-city",
+      "destination": "/attorneys/spradlin-kennedy-law-firm-kansas-city",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/roberts-law-office-llc-kansas-city",
+      "destination": "/attorneys/roberts-law-kansas-city",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/xpunge-chicago-law-offices-of-matthew-m-fakhoury-llc-chicago",
+      "destination": "/attorneys/matthew-fakhoury-the-law-offices-of-matthew-m-fakhoury-llc-chicago",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/attorney-dave-stockwell-norman",
+      "destination": "/attorneys/stockwell-law-group-norman",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/mcginnis-chiappelli-pc-troy",
+      "destination": "/attorneys/david-j-chiappelli-troy",
+      "permanent": true
+    },
+    {
+      "source": "/attorneys/andrew-popplewell-esq-columbia",
+      "destination": "/attorneys/eng-woods-attorneys-at-law-columbia",
+      "permanent": true
+    },
+    {
+      "source": "/cities/expungement-attorneys-st-paul",
+      "destination": "/cities/expungement-attorneys-saint-paul",
+      "permanent": true
     }
   ]
 }

@@ -23,7 +23,7 @@ const checked = 'November 2026';
       <div class="max-w-3xl mx-auto">
         <h1 class="text-4xl font-bold mb-6">{article.title}</h1>
         {article.intro.map((p: string) => <p class="text-lg text-gray-700 mb-4">{p}</p>)}
-        <p class="text-sm text-gray-500 mb-10">{`Checked ${checked} against the sources listed at the end. General information, not legal advice; laws change and the details of a case matter.`}</p>
+        <p class="text-sm text-gray-500 mb-10">{`Researched and written by the Expungement Attorneys Directory editors. Checked ${checked} against the sources listed at the end. General information, not legal advice; laws change and the details of a case matter. `}<a href="/about" class="underline">How we research</a></p>
 
         {article.sections.map((s: any) => (
           <div class="mb-10">

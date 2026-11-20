@@ -267,7 +267,7 @@
     "name": "Tampa",
     "state": "FL",
     "baseSlug": "tampa",
-    "attorneyCount": 12,
+    "attorneyCount": 11,
     "slug": "tampa",
     "seoSlug": "expungement-attorneys-tampa"
   },
@@ -419,7 +419,7 @@
     "name": "Troy",
     "state": "MI",
     "baseSlug": "troy",
-    "attorneyCount": 4,
+    "attorneyCount": 3,
     "slug": "troy",
     "seoSlug": "expungement-attorneys-troy"
   },
@@ -427,23 +427,15 @@
     "name": "Saint Paul",
     "state": "MN",
     "baseSlug": "saint-paul",
-    "attorneyCount": 5,
+    "attorneyCount": 10,
     "slug": "saint-paul",
     "seoSlug": "expungement-attorneys-saint-paul"
-  },
-  {
-    "name": "St Paul",
-    "state": "MN",
-    "baseSlug": "st-paul",
-    "attorneyCount": 5,
-    "slug": "st-paul",
-    "seoSlug": "expungement-attorneys-st-paul"
   },
   {
     "name": "Columbia",
     "state": "MO",
     "baseSlug": "columbia",
-    "attorneyCount": 4,
+    "attorneyCount": 3,
     "slug": "columbia-mo",
     "seoSlug": "expungement-attorneys-columbia-mo"
   },
@@ -595,7 +587,7 @@
     "name": "Norman",
     "state": "OK",
     "baseSlug": "norman",
-    "attorneyCount": 11,
+    "attorneyCount": 10,
     "slug": "norman",
     "seoSlug": "expungement-attorneys-norman"
   },
@@ -643,7 +635,7 @@
     "name": "Chattanooga",
     "state": "TN",
     "baseSlug": "chattanooga",
-    "attorneyCount": 7,
+    "attorneyCount": 5,
     "slug": "chattanooga",
     "seoSlug": "expungement-attorneys-chattanooga"
   },
