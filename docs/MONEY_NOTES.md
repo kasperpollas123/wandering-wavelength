@@ -40,3 +40,23 @@ so one firm can serve a whole state.
 Lawyer advertising rules (ABA Model Rule 7.2 and state versions) bar paying a non-lawyer a share of legal fees
 or paying for a recommendation. Flat advertising fees, per-call or per-inquiry marketing fees and labelled
 sponsorships are the usual allowed shapes; check the state rules before any deal.
+
+## Checked Nov 20 2026 (full reports with links in docs/money-research/)
+- **Pay-per-call:** no network publishes an expungement offer. Closest: CallScaler criminal-lawyer calls
+  ($40-100 per qualified call, 60-120 s), RingPartner/Buyerlink and Bark (legal category, terms unconfirmed),
+  eLocal (needs a minimum monthly call volume). Legal Brand Marketing explicitly does not pay for expungement
+  leads. Marketcall has no legal vertical; 4LegalLeads and Lawyer.com affiliate programmes are closed.
+  Needs written confirmation that expungement calls qualify, and real traffic.
+- **Record-clearing affiliates:** none of the record-clearing services (Rasa, RecordGone, EasyExpunctions,
+  WipeRecord, Erase The Case...) has an affiliate programme. Only nearby: Checkr's own-record background check
+  ($25 per paid individual signup via PartnerStack). Direct deals possible later: EasyExpunctions (not a law
+  firm, $499 FL / $699 TX) could pay per referral; law firms (Rasa, RecordGone) only flat advertising fees.
+- **FCRA referrals:** no firm runs a paid referral programme for websites. Firms such as Berger Montague pay
+  for sponsored investigation pages (ClassAction.org, Top Class Actions model) - so a flat-fee sponsored box
+  on our background-check guide, sold directly, is the realistic route. NACA's find-an-attorney is the free
+  neutral link for readers now.
+- **Ethics (sources in fcra.md):** flat sponsorship or fixed per-lead fee OK if the site doesn't recommend or
+  vouch for the lawyer (ABA 7.2(b)(1) cmt 5; NYSBA Op. 1294, 2026). Not OK: fee share, pay-on-signup or
+  pay-on-filing, "vetted/best lawyer" wording. NJ, FL, MI stricter.
+- **Conclusion:** no plug-in revenue exists for this niche. The realistic money is direct, flat-fee
+  sponsorships sold to statewide expungement firms (and FCRA firms) once traffic numbers exist.
