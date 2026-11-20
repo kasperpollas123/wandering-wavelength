@@ -187,6 +187,13 @@ const relatedAttorneys = attorneys
             )}
           </div>
 
+          {attorney.reviewEvidence && services.length === 0 && !rcPage && (
+            <div class="mb-10">
+              <h2 class="text-2xl font-bold mb-4">Record Clearing</h2>
+              <p class="text-gray-700">Client reviews of {attorney.name} on Google describe expungement or record sealing work. The firm's website does not have a page about it, so ask the firm directly whether it takes your kind of case.</p>
+            </div>
+          )}
+
           {(services.length > 0 || rcPage) && (
             <div class="mb-10">
               <h2 class="text-2xl font-bold mb-4">Record Clearing Services</h2>

@@ -2,6 +2,9 @@ import { cities, cityToSlug } from './cities';
 import type { City } from './cities';
 import profilesData from './attorneyProfiles.json';
 import rcPagesData from './recordClearingPages.json';
+import reviewEvidenceData from './reviewEvidence.json';
+// Firms listed because a client review on Google describes expungement or sealing work
+const reviewEvidence = new Set(reviewEvidenceData as string[]);
 
 // Profile written from the firm's own website (scripts in the research notes; see README)
 export interface AttorneyProfile {
@@ -53,6 +56,7 @@ export interface Attorney {
   reviews?: any[];
   profile?: AttorneyProfile;
   rcPage?: RecordClearingPage;
+  reviewEvidence?: boolean;
 }
 
 // Function to generate a random phone number
@@ -868,6 +872,7 @@ export function loadAttorneysFromJson(): Attorney[] {
               || `${listing.name} is a law firm in ${cityName.split(' ').map((w: string) => w ? w.charAt(0).toUpperCase() + w.slice(1) : w).join(' ')}, ${stateName}.`,
             profile: profiles[`${listing.name}|${listing.domain || ''}`],
             rcPage: rcPages[`${listing.name}|${listing.domain || ''}`],
+            reviewEvidence: reviewEvidence.has(`${listing.name}|${listing.domain || ''}`),
             longDescription: uniqueDescription, // Use the unique description as the long description
             phone: listing.phone || '',
             website: listing.domain ? `https://${listing.domain}` : "#",
