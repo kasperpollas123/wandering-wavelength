@@ -111,7 +111,7 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
                       <li class="p-4 bg-gray-50 rounded-lg border border-gray-200">
                         <a href={`/attorneys/${a.slug}`} class="font-medium text-primary hover:underline">{a.name}</a>
                         <p class="text-sm text-gray-600">
-                          {a.address}{a.phone && ` · ${a.phone}`}{a.reviewCount > 0 && ` · ${a.rating} on Google (${a.reviewCount} reviews)`}
+                          {a.address}{a.phone && ` · ${a.phone}`}{a.reviewCount > 0 && ` · ${a.rating} (${a.reviewCount} reviews)`}
                         </p>
                       </li>
                     ))}

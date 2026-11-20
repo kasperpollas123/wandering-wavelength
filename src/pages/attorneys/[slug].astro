@@ -114,7 +114,7 @@ const relatedAttorneys = attorneys
                       </svg>
                     ))}
                   </div>
-                  <span class="ml-2 text-gray-600">{attorney.rating} on Google ({attorney.reviewCount} reviews)</span>
+                  <span class="ml-2 text-gray-600">{attorney.rating} ({attorney.reviewCount} reviews)</span>
                 </div>
                 
                 <div class="space-y-3 text-gray-700">
@@ -133,12 +133,14 @@ const relatedAttorneys = attorneys
                     <span class="break-words text-sm sm:text-base">{attorney.phone}</span>
                   </p>
                   
+                  {attorney.website !== '#' && (
                   <p class="flex items-start">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                     </svg>
                     <a href={attorney.website} target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline break-all text-sm sm:text-base overflow-hidden text-ellipsis max-w-[180px] sm:max-w-[220px] inline-block">{attorney.website.replace(/^https?:\/\//, '')}</a>
                   </p>
+                  )}
                 </div>
                 
                 {facts.length > 0 && (
@@ -159,7 +161,7 @@ const relatedAttorneys = attorneys
 
                 <div class="mt-6">
                   <a href={`tel:${attorney.phone.replace(/[^0-9]/g, '')}`} class="btn btn-primary w-full mb-3">Call Now</a>
-                  <a href={attorney.website} target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">Visit Website</a>
+                  {attorney.website !== '#' && <a href={attorney.website} target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">Visit Website</a>}
                 </div>
               </div>
             </div>
@@ -195,7 +197,7 @@ const relatedAttorneys = attorneys
           {attorney.reviewEvidence && services.length === 0 && !rcPage && (
             <div class="mb-10">
               <h2 class="text-2xl font-bold mb-4">Record Clearing</h2>
-              <p class="text-gray-700">Client reviews of {attorney.name} on Google describe expungement or record sealing work. The firm's website does not have a page about it, so ask the firm directly whether it takes your kind of case.</p>
+              <p class="text-gray-700">Client reviews of {attorney.name} describe expungement or record sealing work. The firm's website does not have a page about it, so ask the firm directly whether it takes your kind of case.</p>
             </div>
           )}
 
@@ -243,7 +245,7 @@ const relatedAttorneys = attorneys
 
           {attorney.reviewCount > 0 && (
             <p class="text-gray-600 mb-10">
-              {attorney.name} has a rating of {attorney.rating} out of 5 from {attorney.reviewCount} reviews on Google.
+              {attorney.name} has a rating of {attorney.rating} out of 5 from {attorney.reviewCount} client reviews.
             </p>
           )}
         </div>
