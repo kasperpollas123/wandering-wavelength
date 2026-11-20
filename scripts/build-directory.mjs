@@ -49,11 +49,16 @@ for (const l of listings) {
 const extra = [...groups.values()].filter(g => g.attorneyCount >= MIN_ATTORNEYS);
 const slugCount = {};
 for (const g of extra) slugCount[g.baseSlug] = (slugCount[g.baseSlug] || 0) + 1;
+// A city page keeps the address it was first published under, even if a same-named city in another state appears later
+const pinned = new Map(JSON.parse(readFileSync('src/data/cityNames.lock.json', 'utf8')).map(c => [`${c.baseSlug}|${c.state}`, c.slug]));
 for (const g of extra) {
+  const key = `${g.baseSlug}|${g.state}`;
   // Add the state when the plain name is taken by a hand-written city or by another state's city
-  g.slug = hardSlugs.has(g.baseSlug) || slugCount[g.baseSlug] > 1 ? `${g.baseSlug}-${g.state.toLowerCase()}` : g.baseSlug;
+  g.slug = pinned.get(key) || (hardSlugs.has(g.baseSlug) || slugCount[g.baseSlug] > 1 || [...pinned.values()].includes(g.baseSlug) ? `${g.baseSlug}-${g.state.toLowerCase()}` : g.baseSlug);
+  pinned.set(key, g.slug);
   g.seoSlug = `expungement-attorneys-${g.slug}`;
 }
 extra.sort((a, b) => a.state.localeCompare(b.state) || a.name.localeCompare(b.name));
+writeFileSync('src/data/cityNames.lock.json', JSON.stringify([...pinned].map(([k, slug]) => ({ baseSlug: k.split('|')[0], state: k.split('|')[1], slug })), null, 1) + '\n');
 writeFileSync('src/data/extraCities.json', JSON.stringify(extra, null, 2) + '\n');
 console.log(`extraCities.json: ${extra.length} cities with ${MIN_ATTORNEYS}+ attorneys (${extra.reduce((n, g) => n + g.attorneyCount, 0)} attorneys)`);

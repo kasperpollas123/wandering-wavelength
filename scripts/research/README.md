@@ -10,3 +10,11 @@
 
 The scripts expect API keys for OpenRouter and Exa (paths at the top of each file) and were
 run from a scratch folder, so paths need adjusting before a re-run.
+
+## November 2026 expansion
+
+About 700 firms were added. Most came from a business-listings search for US law firms whose
+own description names expungement or record sealing; their profiles were rewritten from that
+description under the rules in `profile_brief_2026-11.md`. About 120 more were found by searching
+thin cities and opening each firm's own expungement page. `merge_2026-11.py` shows how the
+results were combined. Eight firms whose websites had disappeared were moved to `removed_listings.json`.

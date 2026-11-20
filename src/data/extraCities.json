@@ -3,9 +3,25 @@
     "name": "Birmingham",
     "state": "AL",
     "baseSlug": "birmingham",
-    "attorneyCount": 3,
+    "attorneyCount": 5,
     "slug": "birmingham",
     "seoSlug": "expungement-attorneys-birmingham"
+  },
+  {
+    "name": "Jonesboro",
+    "state": "AR",
+    "baseSlug": "jonesboro",
+    "attorneyCount": 3,
+    "slug": "jonesboro",
+    "seoSlug": "expungement-attorneys-jonesboro"
+  },
+  {
+    "name": "Little Rock",
+    "state": "AR",
+    "baseSlug": "little-rock",
+    "attorneyCount": 4,
+    "slug": "little-rock",
+    "seoSlug": "expungement-attorneys-little-rock"
   },
   {
     "name": "Scottsdale",
@@ -19,7 +35,7 @@
     "name": "Bakersfield",
     "state": "CA",
     "baseSlug": "bakersfield",
-    "attorneyCount": 7,
+    "attorneyCount": 8,
     "slug": "bakersfield",
     "seoSlug": "expungement-attorneys-bakersfield"
   },
@@ -59,7 +75,7 @@
     "name": "Glendale",
     "state": "CA",
     "baseSlug": "glendale",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "glendale",
     "seoSlug": "expungement-attorneys-glendale"
   },
@@ -88,6 +104,22 @@
     "seoSlug": "expungement-attorneys-jurupa-valley"
   },
   {
+    "name": "Modesto",
+    "state": "CA",
+    "baseSlug": "modesto",
+    "attorneyCount": 3,
+    "slug": "modesto",
+    "seoSlug": "expungement-attorneys-modesto"
+  },
+  {
+    "name": "Murrieta",
+    "state": "CA",
+    "baseSlug": "murrieta",
+    "attorneyCount": 3,
+    "slug": "murrieta",
+    "seoSlug": "expungement-attorneys-murrieta"
+  },
+  {
     "name": "Orange",
     "state": "CA",
     "baseSlug": "orange",
@@ -99,7 +131,7 @@
     "name": "Pasadena",
     "state": "CA",
     "baseSlug": "pasadena",
-    "attorneyCount": 5,
+    "attorneyCount": 7,
     "slug": "pasadena",
     "seoSlug": "expungement-attorneys-pasadena"
   },
@@ -107,7 +139,7 @@
     "name": "Rancho Cucamonga",
     "state": "CA",
     "baseSlug": "rancho-cucamonga",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "rancho-cucamonga",
     "seoSlug": "expungement-attorneys-rancho-cucamonga"
   },
@@ -120,12 +152,28 @@
     "seoSlug": "expungement-attorneys-rialto"
   },
   {
+    "name": "San Bernardino",
+    "state": "CA",
+    "baseSlug": "san-bernardino",
+    "attorneyCount": 3,
+    "slug": "san-bernardino",
+    "seoSlug": "expungement-attorneys-san-bernardino"
+  },
+  {
     "name": "Santa Ana",
     "state": "CA",
     "baseSlug": "santa-ana",
     "attorneyCount": 4,
     "slug": "santa-ana",
     "seoSlug": "expungement-attorneys-santa-ana"
+  },
+  {
+    "name": "Temecula",
+    "state": "CA",
+    "baseSlug": "temecula",
+    "attorneyCount": 4,
+    "slug": "temecula",
+    "seoSlug": "expungement-attorneys-temecula"
   },
   {
     "name": "Vista",
@@ -144,6 +192,14 @@
     "seoSlug": "expungement-attorneys-west-covina"
   },
   {
+    "name": "Greeley",
+    "state": "CO",
+    "baseSlug": "greeley",
+    "attorneyCount": 3,
+    "slug": "greeley",
+    "seoSlug": "expungement-attorneys-greeley"
+  },
+  {
     "name": "Pueblo",
     "state": "CO",
     "baseSlug": "pueblo",
@@ -152,10 +208,26 @@
     "seoSlug": "expungement-attorneys-pueblo"
   },
   {
+    "name": "Hartford",
+    "state": "CT",
+    "baseSlug": "hartford",
+    "attorneyCount": 4,
+    "slug": "hartford",
+    "seoSlug": "expungement-attorneys-hartford"
+  },
+  {
+    "name": "Clearwater",
+    "state": "FL",
+    "baseSlug": "clearwater",
+    "attorneyCount": 4,
+    "slug": "clearwater",
+    "seoSlug": "expungement-attorneys-clearwater"
+  },
+  {
     "name": "Fort Lauderdale",
     "state": "FL",
     "baseSlug": "fort-lauderdale",
-    "attorneyCount": 5,
+    "attorneyCount": 7,
     "slug": "fort-lauderdale",
     "seoSlug": "expungement-attorneys-fort-lauderdale"
   },
@@ -163,7 +235,7 @@
     "name": "Gainesville",
     "state": "FL",
     "baseSlug": "gainesville",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "gainesville",
     "seoSlug": "expungement-attorneys-gainesville"
   },
@@ -187,9 +259,33 @@
     "name": "Orlando",
     "state": "FL",
     "baseSlug": "orlando",
-    "attorneyCount": 5,
+    "attorneyCount": 11,
     "slug": "orlando",
     "seoSlug": "expungement-attorneys-orlando"
+  },
+  {
+    "name": "Tampa",
+    "state": "FL",
+    "baseSlug": "tampa",
+    "attorneyCount": 12,
+    "slug": "tampa",
+    "seoSlug": "expungement-attorneys-tampa"
+  },
+  {
+    "name": "West Palm Beach",
+    "state": "FL",
+    "baseSlug": "west-palm-beach",
+    "attorneyCount": 4,
+    "slug": "west-palm-beach",
+    "seoSlug": "expungement-attorneys-west-palm-beach"
+  },
+  {
+    "name": "Marietta",
+    "state": "GA",
+    "baseSlug": "marietta",
+    "attorneyCount": 3,
+    "slug": "marietta",
+    "seoSlug": "expungement-attorneys-marietta"
   },
   {
     "name": "Savannah",
@@ -208,26 +304,74 @@
     "seoSlug": "expungement-attorneys-des-moines"
   },
   {
+    "name": "Boise",
+    "state": "ID",
+    "baseSlug": "boise",
+    "attorneyCount": 5,
+    "slug": "boise",
+    "seoSlug": "expungement-attorneys-boise"
+  },
+  {
+    "name": "Joliet",
+    "state": "IL",
+    "baseSlug": "joliet",
+    "attorneyCount": 3,
+    "slug": "joliet",
+    "seoSlug": "expungement-attorneys-joliet"
+  },
+  {
     "name": "Naperville",
     "state": "IL",
     "baseSlug": "naperville",
-    "attorneyCount": 4,
+    "attorneyCount": 7,
     "slug": "naperville",
     "seoSlug": "expungement-attorneys-naperville"
+  },
+  {
+    "name": "Peoria",
+    "state": "IL",
+    "baseSlug": "peoria",
+    "attorneyCount": 3,
+    "slug": "peoria",
+    "seoSlug": "expungement-attorneys-peoria"
+  },
+  {
+    "name": "Wheaton",
+    "state": "IL",
+    "baseSlug": "wheaton",
+    "attorneyCount": 3,
+    "slug": "wheaton",
+    "seoSlug": "expungement-attorneys-wheaton"
+  },
+  {
+    "name": "Evansville",
+    "state": "IN",
+    "baseSlug": "evansville",
+    "attorneyCount": 4,
+    "slug": "evansville",
+    "seoSlug": "expungement-attorneys-evansville"
   },
   {
     "name": "Fort Wayne",
     "state": "IN",
     "baseSlug": "fort-wayne",
-    "attorneyCount": 3,
+    "attorneyCount": 6,
     "slug": "fort-wayne",
     "seoSlug": "expungement-attorneys-fort-wayne"
+  },
+  {
+    "name": "Lafayette",
+    "state": "IN",
+    "baseSlug": "lafayette",
+    "attorneyCount": 4,
+    "slug": "lafayette-in",
+    "seoSlug": "expungement-attorneys-lafayette-in"
   },
   {
     "name": "Overland Park",
     "state": "KS",
     "baseSlug": "overland-park",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "overland-park",
     "seoSlug": "expungement-attorneys-overland-park"
   },
@@ -235,7 +379,7 @@
     "name": "Lexington",
     "state": "KY",
     "baseSlug": "lexington",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "lexington",
     "seoSlug": "expungement-attorneys-lexington"
   },
@@ -243,7 +387,7 @@
     "name": "Lafayette",
     "state": "LA",
     "baseSlug": "lafayette",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "lafayette",
     "seoSlug": "expungement-attorneys-lafayette"
   },
@@ -251,7 +395,7 @@
     "name": "Shreveport",
     "state": "LA",
     "baseSlug": "shreveport",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "shreveport",
     "seoSlug": "expungement-attorneys-shreveport"
   },
@@ -259,9 +403,25 @@
     "name": "Grand Rapids",
     "state": "MI",
     "baseSlug": "grand-rapids",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "grand-rapids",
     "seoSlug": "expungement-attorneys-grand-rapids"
+  },
+  {
+    "name": "Southfield",
+    "state": "MI",
+    "baseSlug": "southfield",
+    "attorneyCount": 4,
+    "slug": "southfield",
+    "seoSlug": "expungement-attorneys-southfield"
+  },
+  {
+    "name": "Troy",
+    "state": "MI",
+    "baseSlug": "troy",
+    "attorneyCount": 4,
+    "slug": "troy",
+    "seoSlug": "expungement-attorneys-troy"
   },
   {
     "name": "Saint Paul",
@@ -272,10 +432,18 @@
     "seoSlug": "expungement-attorneys-saint-paul"
   },
   {
+    "name": "St Paul",
+    "state": "MN",
+    "baseSlug": "st-paul",
+    "attorneyCount": 5,
+    "slug": "st-paul",
+    "seoSlug": "expungement-attorneys-st-paul"
+  },
+  {
     "name": "Columbia",
     "state": "MO",
     "baseSlug": "columbia",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "columbia-mo",
     "seoSlug": "expungement-attorneys-columbia-mo"
   },
@@ -291,7 +459,7 @@
     "name": "St. Louis",
     "state": "MO",
     "baseSlug": "st-louis",
-    "attorneyCount": 4,
+    "attorneyCount": 7,
     "slug": "st-louis",
     "seoSlug": "expungement-attorneys-st-louis"
   },
@@ -299,9 +467,17 @@
     "name": "Jackson",
     "state": "MS",
     "baseSlug": "jackson",
-    "attorneyCount": 5,
+    "attorneyCount": 6,
     "slug": "jackson",
     "seoSlug": "expungement-attorneys-jackson"
+  },
+  {
+    "name": "Oxford",
+    "state": "MS",
+    "baseSlug": "oxford",
+    "attorneyCount": 3,
+    "slug": "oxford",
+    "seoSlug": "expungement-attorneys-oxford"
   },
   {
     "name": "Cary",
@@ -315,7 +491,7 @@
     "name": "Greensboro",
     "state": "NC",
     "baseSlug": "greensboro",
-    "attorneyCount": 5,
+    "attorneyCount": 7,
     "slug": "greensboro",
     "seoSlug": "expungement-attorneys-greensboro"
   },
@@ -323,7 +499,7 @@
     "name": "Wilmington",
     "state": "NC",
     "baseSlug": "wilmington",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "wilmington",
     "seoSlug": "expungement-attorneys-wilmington"
   },
@@ -334,6 +510,14 @@
     "attorneyCount": 8,
     "slug": "winston-salem",
     "seoSlug": "expungement-attorneys-winston-salem"
+  },
+  {
+    "name": "Cherry Hill Township",
+    "state": "NJ",
+    "baseSlug": "cherry-hill-township",
+    "attorneyCount": 5,
+    "slug": "cherry-hill-township",
+    "seoSlug": "expungement-attorneys-cherry-hill-township"
   },
   {
     "name": "Elizabeth",
@@ -347,9 +531,17 @@
     "name": "Jersey City",
     "state": "NJ",
     "baseSlug": "jersey-city",
-    "attorneyCount": 6,
+    "attorneyCount": 7,
     "slug": "jersey-city",
     "seoSlug": "expungement-attorneys-jersey-city"
+  },
+  {
+    "name": "Newark",
+    "state": "NJ",
+    "baseSlug": "newark",
+    "attorneyCount": 6,
+    "slug": "newark",
+    "seoSlug": "expungement-attorneys-newark"
   },
   {
     "name": "North Las Vegas",
@@ -360,10 +552,18 @@
     "seoSlug": "expungement-attorneys-north-las-vegas"
   },
   {
+    "name": "Reno",
+    "state": "NV",
+    "baseSlug": "reno",
+    "attorneyCount": 4,
+    "slug": "reno",
+    "seoSlug": "expungement-attorneys-reno"
+  },
+  {
     "name": "Akron",
     "state": "OH",
     "baseSlug": "akron",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "akron",
     "seoSlug": "expungement-attorneys-akron"
   },
@@ -371,7 +571,7 @@
     "name": "Cincinnati",
     "state": "OH",
     "baseSlug": "cincinnati",
-    "attorneyCount": 4,
+    "attorneyCount": 6,
     "slug": "cincinnati",
     "seoSlug": "expungement-attorneys-cincinnati"
   },
@@ -395,15 +595,31 @@
     "name": "Norman",
     "state": "OK",
     "baseSlug": "norman",
-    "attorneyCount": 6,
+    "attorneyCount": 11,
     "slug": "norman",
     "seoSlug": "expungement-attorneys-norman"
+  },
+  {
+    "name": "Lancaster",
+    "state": "PA",
+    "baseSlug": "lancaster",
+    "attorneyCount": 4,
+    "slug": "lancaster",
+    "seoSlug": "expungement-attorneys-lancaster"
+  },
+  {
+    "name": "Pittsburgh",
+    "state": "PA",
+    "baseSlug": "pittsburgh",
+    "attorneyCount": 9,
+    "slug": "pittsburgh",
+    "seoSlug": "expungement-attorneys-pittsburgh"
   },
   {
     "name": "Providence",
     "state": "RI",
     "baseSlug": "providence",
-    "attorneyCount": 6,
+    "attorneyCount": 8,
     "slug": "providence",
     "seoSlug": "expungement-attorneys-providence"
   },
@@ -419,7 +635,7 @@
     "name": "Columbia",
     "state": "SC",
     "baseSlug": "columbia",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "columbia-sc",
     "seoSlug": "expungement-attorneys-columbia-sc"
   },
@@ -427,7 +643,7 @@
     "name": "Chattanooga",
     "state": "TN",
     "baseSlug": "chattanooga",
-    "attorneyCount": 8,
+    "attorneyCount": 7,
     "slug": "chattanooga",
     "seoSlug": "expungement-attorneys-chattanooga"
   },
@@ -443,7 +659,7 @@
     "name": "Knoxville",
     "state": "TN",
     "baseSlug": "knoxville",
-    "attorneyCount": 6,
+    "attorneyCount": 7,
     "slug": "knoxville",
     "seoSlug": "expungement-attorneys-knoxville"
   },
@@ -467,7 +683,7 @@
     "name": "Denton",
     "state": "TX",
     "baseSlug": "denton",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "denton",
     "seoSlug": "expungement-attorneys-denton"
   },
@@ -475,7 +691,7 @@
     "name": "Grand Prairie",
     "state": "TX",
     "baseSlug": "grand-prairie",
-    "attorneyCount": 3,
+    "attorneyCount": 4,
     "slug": "grand-prairie",
     "seoSlug": "expungement-attorneys-grand-prairie"
   },
@@ -483,7 +699,7 @@
     "name": "Plano",
     "state": "TX",
     "baseSlug": "plano",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "plano",
     "seoSlug": "expungement-attorneys-plano"
   },
@@ -496,10 +712,18 @@
     "seoSlug": "expungement-attorneys-richardson"
   },
   {
+    "name": "Bountiful",
+    "state": "UT",
+    "baseSlug": "bountiful",
+    "attorneyCount": 3,
+    "slug": "bountiful",
+    "seoSlug": "expungement-attorneys-bountiful"
+  },
+  {
     "name": "Salt Lake City",
     "state": "UT",
     "baseSlug": "salt-lake-city",
-    "attorneyCount": 4,
+    "attorneyCount": 5,
     "slug": "salt-lake-city",
     "seoSlug": "expungement-attorneys-salt-lake-city"
   },
@@ -512,10 +736,26 @@
     "seoSlug": "expungement-attorneys-west-valley-city"
   },
   {
+    "name": "Fairfax",
+    "state": "VA",
+    "baseSlug": "fairfax",
+    "attorneyCount": 4,
+    "slug": "fairfax",
+    "seoSlug": "expungement-attorneys-fairfax"
+  },
+  {
+    "name": "Hampton",
+    "state": "VA",
+    "baseSlug": "hampton",
+    "attorneyCount": 3,
+    "slug": "hampton",
+    "seoSlug": "expungement-attorneys-hampton"
+  },
+  {
     "name": "Richmond",
     "state": "VA",
     "baseSlug": "richmond",
-    "attorneyCount": 3,
+    "attorneyCount": 5,
     "slug": "richmond",
     "seoSlug": "expungement-attorneys-richmond"
   },
@@ -526,14 +766,6 @@
     "attorneyCount": 3,
     "slug": "renton",
     "seoSlug": "expungement-attorneys-renton"
-  },
-  {
-    "name": "Spokane",
-    "state": "WA",
-    "baseSlug": "spokane",
-    "attorneyCount": 3,
-    "slug": "spokane",
-    "seoSlug": "expungement-attorneys-spokane"
   },
   {
     "name": "Madison",

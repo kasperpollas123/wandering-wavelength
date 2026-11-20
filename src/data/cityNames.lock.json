@@ -1,0 +1,492 @@
+[
+ {
+  "baseSlug": "birmingham",
+  "state": "AL",
+  "slug": "birmingham"
+ },
+ {
+  "baseSlug": "scottsdale",
+  "state": "AZ",
+  "slug": "scottsdale"
+ },
+ {
+  "baseSlug": "bakersfield",
+  "state": "CA",
+  "slug": "bakersfield"
+ },
+ {
+  "baseSlug": "berkeley",
+  "state": "CA",
+  "slug": "berkeley"
+ },
+ {
+  "baseSlug": "costa-mesa",
+  "state": "CA",
+  "slug": "costa-mesa"
+ },
+ {
+  "baseSlug": "fairfield",
+  "state": "CA",
+  "slug": "fairfield"
+ },
+ {
+  "baseSlug": "fullerton",
+  "state": "CA",
+  "slug": "fullerton"
+ },
+ {
+  "baseSlug": "glendale",
+  "state": "CA",
+  "slug": "glendale"
+ },
+ {
+  "baseSlug": "huntington-beach",
+  "state": "CA",
+  "slug": "huntington-beach"
+ },
+ {
+  "baseSlug": "irvine",
+  "state": "CA",
+  "slug": "irvine"
+ },
+ {
+  "baseSlug": "jurupa-valley",
+  "state": "CA",
+  "slug": "jurupa-valley"
+ },
+ {
+  "baseSlug": "orange",
+  "state": "CA",
+  "slug": "orange"
+ },
+ {
+  "baseSlug": "pasadena",
+  "state": "CA",
+  "slug": "pasadena"
+ },
+ {
+  "baseSlug": "rancho-cucamonga",
+  "state": "CA",
+  "slug": "rancho-cucamonga"
+ },
+ {
+  "baseSlug": "rialto",
+  "state": "CA",
+  "slug": "rialto"
+ },
+ {
+  "baseSlug": "santa-ana",
+  "state": "CA",
+  "slug": "santa-ana"
+ },
+ {
+  "baseSlug": "vista",
+  "state": "CA",
+  "slug": "vista"
+ },
+ {
+  "baseSlug": "west-covina",
+  "state": "CA",
+  "slug": "west-covina"
+ },
+ {
+  "baseSlug": "pueblo",
+  "state": "CO",
+  "slug": "pueblo"
+ },
+ {
+  "baseSlug": "fort-lauderdale",
+  "state": "FL",
+  "slug": "fort-lauderdale"
+ },
+ {
+  "baseSlug": "gainesville",
+  "state": "FL",
+  "slug": "gainesville"
+ },
+ {
+  "baseSlug": "lakeland",
+  "state": "FL",
+  "slug": "lakeland"
+ },
+ {
+  "baseSlug": "miami-gardens",
+  "state": "FL",
+  "slug": "miami-gardens"
+ },
+ {
+  "baseSlug": "orlando",
+  "state": "FL",
+  "slug": "orlando"
+ },
+ {
+  "baseSlug": "savannah",
+  "state": "GA",
+  "slug": "savannah"
+ },
+ {
+  "baseSlug": "des-moines",
+  "state": "IA",
+  "slug": "des-moines"
+ },
+ {
+  "baseSlug": "naperville",
+  "state": "IL",
+  "slug": "naperville"
+ },
+ {
+  "baseSlug": "fort-wayne",
+  "state": "IN",
+  "slug": "fort-wayne"
+ },
+ {
+  "baseSlug": "overland-park",
+  "state": "KS",
+  "slug": "overland-park"
+ },
+ {
+  "baseSlug": "lexington",
+  "state": "KY",
+  "slug": "lexington"
+ },
+ {
+  "baseSlug": "lafayette",
+  "state": "LA",
+  "slug": "lafayette"
+ },
+ {
+  "baseSlug": "shreveport",
+  "state": "LA",
+  "slug": "shreveport"
+ },
+ {
+  "baseSlug": "grand-rapids",
+  "state": "MI",
+  "slug": "grand-rapids"
+ },
+ {
+  "baseSlug": "saint-paul",
+  "state": "MN",
+  "slug": "saint-paul"
+ },
+ {
+  "baseSlug": "columbia",
+  "state": "MO",
+  "slug": "columbia-mo"
+ },
+ {
+  "baseSlug": "springfield",
+  "state": "MO",
+  "slug": "springfield"
+ },
+ {
+  "baseSlug": "st-louis",
+  "state": "MO",
+  "slug": "st-louis"
+ },
+ {
+  "baseSlug": "jackson",
+  "state": "MS",
+  "slug": "jackson"
+ },
+ {
+  "baseSlug": "cary",
+  "state": "NC",
+  "slug": "cary"
+ },
+ {
+  "baseSlug": "greensboro",
+  "state": "NC",
+  "slug": "greensboro"
+ },
+ {
+  "baseSlug": "wilmington",
+  "state": "NC",
+  "slug": "wilmington"
+ },
+ {
+  "baseSlug": "winston-salem",
+  "state": "NC",
+  "slug": "winston-salem"
+ },
+ {
+  "baseSlug": "elizabeth",
+  "state": "NJ",
+  "slug": "elizabeth"
+ },
+ {
+  "baseSlug": "jersey-city",
+  "state": "NJ",
+  "slug": "jersey-city"
+ },
+ {
+  "baseSlug": "north-las-vegas",
+  "state": "NV",
+  "slug": "north-las-vegas"
+ },
+ {
+  "baseSlug": "akron",
+  "state": "OH",
+  "slug": "akron"
+ },
+ {
+  "baseSlug": "cincinnati",
+  "state": "OH",
+  "slug": "cincinnati"
+ },
+ {
+  "baseSlug": "cleveland",
+  "state": "OH",
+  "slug": "cleveland"
+ },
+ {
+  "baseSlug": "dayton",
+  "state": "OH",
+  "slug": "dayton"
+ },
+ {
+  "baseSlug": "norman",
+  "state": "OK",
+  "slug": "norman"
+ },
+ {
+  "baseSlug": "providence",
+  "state": "RI",
+  "slug": "providence"
+ },
+ {
+  "baseSlug": "charleston",
+  "state": "SC",
+  "slug": "charleston"
+ },
+ {
+  "baseSlug": "columbia",
+  "state": "SC",
+  "slug": "columbia-sc"
+ },
+ {
+  "baseSlug": "chattanooga",
+  "state": "TN",
+  "slug": "chattanooga"
+ },
+ {
+  "baseSlug": "clarksville",
+  "state": "TN",
+  "slug": "clarksville"
+ },
+ {
+  "baseSlug": "knoxville",
+  "state": "TN",
+  "slug": "knoxville"
+ },
+ {
+  "baseSlug": "murfreesboro",
+  "state": "TN",
+  "slug": "murfreesboro"
+ },
+ {
+  "baseSlug": "corpus-christi",
+  "state": "TX",
+  "slug": "corpus-christi"
+ },
+ {
+  "baseSlug": "denton",
+  "state": "TX",
+  "slug": "denton"
+ },
+ {
+  "baseSlug": "grand-prairie",
+  "state": "TX",
+  "slug": "grand-prairie"
+ },
+ {
+  "baseSlug": "plano",
+  "state": "TX",
+  "slug": "plano"
+ },
+ {
+  "baseSlug": "richardson",
+  "state": "TX",
+  "slug": "richardson"
+ },
+ {
+  "baseSlug": "salt-lake-city",
+  "state": "UT",
+  "slug": "salt-lake-city"
+ },
+ {
+  "baseSlug": "west-valley-city",
+  "state": "UT",
+  "slug": "west-valley-city"
+ },
+ {
+  "baseSlug": "richmond",
+  "state": "VA",
+  "slug": "richmond"
+ },
+ {
+  "baseSlug": "renton",
+  "state": "WA",
+  "slug": "renton"
+ },
+ {
+  "baseSlug": "spokane",
+  "state": "WA",
+  "slug": "spokane"
+ },
+ {
+  "baseSlug": "madison",
+  "state": "WI",
+  "slug": "madison"
+ },
+ {
+  "baseSlug": "tampa",
+  "state": "FL",
+  "slug": "tampa"
+ },
+ {
+  "baseSlug": "pittsburgh",
+  "state": "PA",
+  "slug": "pittsburgh"
+ },
+ {
+  "baseSlug": "newark",
+  "state": "NJ",
+  "slug": "newark"
+ },
+ {
+  "baseSlug": "boise",
+  "state": "ID",
+  "slug": "boise"
+ },
+ {
+  "baseSlug": "modesto",
+  "state": "CA",
+  "slug": "modesto"
+ },
+ {
+  "baseSlug": "little-rock",
+  "state": "AR",
+  "slug": "little-rock"
+ },
+ {
+  "baseSlug": "greeley",
+  "state": "CO",
+  "slug": "greeley"
+ },
+ {
+  "baseSlug": "evansville",
+  "state": "IN",
+  "slug": "evansville"
+ },
+ {
+  "baseSlug": "clearwater",
+  "state": "FL",
+  "slug": "clearwater"
+ },
+ {
+  "baseSlug": "temecula",
+  "state": "CA",
+  "slug": "temecula"
+ },
+ {
+  "baseSlug": "murrieta",
+  "state": "CA",
+  "slug": "murrieta"
+ },
+ {
+  "baseSlug": "san-bernardino",
+  "state": "CA",
+  "slug": "san-bernardino"
+ },
+ {
+  "baseSlug": "hampton",
+  "state": "VA",
+  "slug": "hampton"
+ },
+ {
+  "baseSlug": "hartford",
+  "state": "CT",
+  "slug": "hartford"
+ },
+ {
+  "baseSlug": "lancaster",
+  "state": "PA",
+  "slug": "lancaster"
+ },
+ {
+  "baseSlug": "wheaton",
+  "state": "IL",
+  "slug": "wheaton"
+ },
+ {
+  "baseSlug": "southfield",
+  "state": "MI",
+  "slug": "southfield"
+ },
+ {
+  "baseSlug": "lafayette",
+  "state": "IN",
+  "slug": "lafayette-in"
+ },
+ {
+  "baseSlug": "st-paul",
+  "state": "MN",
+  "slug": "st-paul"
+ },
+ {
+  "baseSlug": "troy",
+  "state": "MI",
+  "slug": "troy"
+ },
+ {
+  "baseSlug": "west-palm-beach",
+  "state": "FL",
+  "slug": "west-palm-beach"
+ },
+ {
+  "baseSlug": "cherry-hill-township",
+  "state": "NJ",
+  "slug": "cherry-hill-township"
+ },
+ {
+  "baseSlug": "peoria",
+  "state": "IL",
+  "slug": "peoria"
+ },
+ {
+  "baseSlug": "bountiful",
+  "state": "UT",
+  "slug": "bountiful"
+ },
+ {
+  "baseSlug": "marietta",
+  "state": "GA",
+  "slug": "marietta"
+ },
+ {
+  "baseSlug": "fairfax",
+  "state": "VA",
+  "slug": "fairfax"
+ },
+ {
+  "baseSlug": "oxford",
+  "state": "MS",
+  "slug": "oxford"
+ },
+ {
+  "baseSlug": "jonesboro",
+  "state": "AR",
+  "slug": "jonesboro"
+ },
+ {
+  "baseSlug": "joliet",
+  "state": "IL",
+  "slug": "joliet"
+ },
+ {
+  "baseSlug": "reno",
+  "state": "NV",
+  "slug": "reno"
+ }
+]

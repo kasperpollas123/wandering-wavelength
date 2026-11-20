@@ -55,7 +55,7 @@ const isLocalImage = image.startsWith('/');
     <div class="w-full md:w-2/3">
       <h3 class="text-xl font-bold mb-2">{name}</h3>
       
-      <div class="flex items-center mb-4">
+      <div class={reviewCount > 0 ? "flex items-center mb-4" : "hidden"}>
         <div class="flex text-yellow-400">
           {Array(fullStars).fill(null).map(() => (
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -88,7 +88,7 @@ const isLocalImage = image.startsWith('/');
         <p><span class="font-semibold">Address:</span>{` ${address}`}</p>
         <p><span class="font-semibold">Phone:</span>{` ${phone}`}</p>
         <p>
-          <span class="font-semibold">Website:</span> 
+          <span class="font-semibold">Website:</span>{" "}
           <a href={website} target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">{website.replace(/^https?:\/\//, '')}</a>
         </p>
       </div>

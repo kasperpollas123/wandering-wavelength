@@ -253,6 +253,51 @@
       "source": "/cities/expungement-attorneys-wichita",
       "destination": "/states/kansas",
       "permanent": false
+    },
+    {
+      "source": "/cities/expungement-attorneys-spokane",
+      "destination": "/states/washington",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/nevada-expungement-servicesnevada-services-henderson",
+      "destination": "/states/nevada",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/katherine-o\u2019brien-law-jersey-city",
+      "destination": "/states/new-jersey",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/the-kuhlman-law-office-pllc-spokane",
+      "destination": "/states/washington",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/conyers-nix-salt-lake-city",
+      "destination": "/states/utah",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/houston-alexander-pllc-chattanooga",
+      "destination": "/states/tennessee",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/cantin-mynarich-llc-springfield",
+      "destination": "/states/missouri",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/jim-medley-defense-lawyer-arvada",
+      "destination": "/states/colorado",
+      "permanent": false
+    },
+    {
+      "source": "/attorneys/law-office-of-cody-cleveland-waco",
+      "destination": "/states/texas",
+      "permanent": false
     }
   ]
 }
