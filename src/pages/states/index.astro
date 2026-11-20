@@ -1,0 +1,44 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CallToAction from '../../components/CallToAction.astro';
+import { stateNames, stateSlug } from '../../data/cities';
+import { getAttorneysByState } from '../../data/attorneys';
+
+const states = Object.keys(stateNames)
+  .map(code => ({ code, name: stateNames[code], count: getAttorneysByState(code).length }))
+  .filter(s => s.count > 0)
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<PageLayout
+  title="Expungement Attorneys by State | Record Clearing Laws and Lawyers"
+  description="Find expungement and record sealing attorneys in your state, with a summary of each state's expungement law."
+  canonicalURL="/states"
+>
+  <Hero
+    title="Expungement Attorneys by State"
+    subtitle="Expungement law is different in every state. Pick your state to see its rules and the attorneys who handle these cases."
+    backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
+  />
+
+  <div class="container py-8">
+    <Breadcrumbs items={[{ label: "States" }]} />
+  </div>
+
+  <section class="py-12 bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {states.map(s => (
+          <a href={`/states/${stateSlug(s.code)}`} class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+            <span class="font-semibold">{s.name}</span>
+            <span class="text-sm text-gray-600">{s.count} {s.count === 1 ? 'attorney' : 'attorneys'}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CallToAction />
+</PageLayout>

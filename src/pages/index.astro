@@ -2,16 +2,14 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Hero from '../components/Hero.astro';
 import CityCard from '../components/CityCard.astro';
-import Testimonials from '../components/Testimonials.astro';
 import FAQSection from '../components/FAQSection.astro';
 import CallToAction from '../components/CallToAction.astro';
 import { cities } from '../data/cities';
-import { getAttorneysByCitySlug } from '../data/attorneys';
-import { testimonials } from '../data/testimonials';
+import { getAttorneysForCity } from '../data/attorneys';
 
 // Calculate actual attorney counts for each city
 const citiesWithActualCounts = cities.map(city => {
-  const attorneys = getAttorneysByCitySlug(city.slug);
+  const attorneys = getAttorneysForCity(city);
   return {
     ...city,
     attorneyCount: attorneys.length
@@ -108,12 +106,11 @@ const topCities = [...citiesWithActualCounts]
       </div>
       
       <div class="mt-12 text-center">
-        <a href="/cities" class="btn btn-primary">View All Cities</a>
+        <a href="/cities" class="btn btn-primary mr-4">View All Cities</a>
+        <a href="/states" class="btn btn-secondary">Browse by State</a>
       </div>
     </div>
   </section>
-  
-  <Testimonials testimonials={testimonials} />
   
   <FAQSection limit={4} />
   

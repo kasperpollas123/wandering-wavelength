@@ -4,11 +4,11 @@ import Hero from '../../components/Hero.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
 import { cities } from '../../data/cities';
-import { getAttorneysByCitySlug } from '../../data/attorneys';
+import { getAttorneysForCity } from '../../data/attorneys';
 
 // Calculate actual attorney counts for each city
 const citiesWithActualCounts = cities.map(city => {
-  const attorneys = getAttorneysByCitySlug(city.slug);
+  const attorneys = getAttorneysForCity(city);
   return {
     ...city,
     attorneyCount: attorneys.length

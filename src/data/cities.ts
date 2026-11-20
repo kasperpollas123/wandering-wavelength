@@ -1,6 +1,6 @@
-// Remove Node.js imports that cause browser compatibility issues
-// import fs from 'fs';
-// import path from 'path';
+// No Node.js imports here: Hero.astro also loads this file in the browser.
+// extraCities.json is written by scripts/build-directory.mjs.
+import extraCitiesData from './extraCities.json';
 
 export interface City {
   name: string;
@@ -12,6 +12,25 @@ export interface City {
   description: string;
   attorneyCount: number;
   expungementInfo?: string; // State-specific expungement information
+  baseSlug?: string; // Slug of the city name alone, as used on attorneys (generated cities)
+  generated?: boolean; // Built from the attorney data, not hand-written
+}
+
+// State names by abbreviation
+export const stateNames: {[key: string]: string} = {
+  AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California', CO: 'Colorado', CT: 'Connecticut',
+  DE: 'Delaware', DC: 'District of Columbia', FL: 'Florida', GA: 'Georgia', HI: 'Hawaii', ID: 'Idaho', IL: 'Illinois',
+  IN: 'Indiana', IA: 'Iowa', KS: 'Kansas', KY: 'Kentucky', LA: 'Louisiana', ME: 'Maine', MD: 'Maryland',
+  MA: 'Massachusetts', MI: 'Michigan', MN: 'Minnesota', MS: 'Mississippi', MO: 'Missouri', MT: 'Montana',
+  NE: 'Nebraska', NV: 'Nevada', NH: 'New Hampshire', NJ: 'New Jersey', NM: 'New Mexico', NY: 'New York',
+  NC: 'North Carolina', ND: 'North Dakota', OH: 'Ohio', OK: 'Oklahoma', OR: 'Oregon', PA: 'Pennsylvania',
+  RI: 'Rhode Island', SC: 'South Carolina', SD: 'South Dakota', TN: 'Tennessee', TX: 'Texas', UT: 'Utah',
+  VT: 'Vermont', VA: 'Virginia', WA: 'Washington', WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming'
+};
+
+// URL slug for a state page, e.g. "north-carolina"
+export function stateSlug(state: string): string {
+  return (stateNames[state] || state).toLowerCase().replace(/\s+/g, '-');
 }
 
 // State-specific expungement information
@@ -711,5 +730,23 @@ function getStateAbbreviation(stateName: string): string {
   return stateMap[stateName.toLowerCase()] || stateName;
 }
 
-// Export only the hardcoded cities to avoid browser compatibility issues
-export const cities: City[] = hardcodedCities;
+// Cities with 3 or more attorneys in the data that have no hand-written entry above
+const CITY_IMAGE = '/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp';
+export const generatedCities: City[] = (extraCitiesData as any[]).map(c => ({
+  name: c.name,
+  state: c.state,
+  slug: c.slug,
+  seoSlug: c.seoSlug,
+  baseSlug: c.baseSlug,
+  generated: true,
+  population: 0,
+  image: CITY_IMAGE,
+  description: `This page lists ${c.attorneyCount} attorneys in ${c.name}, ${stateNames[c.state] || c.state} who handle expungement and record sealing cases, with their address, phone number and website.`,
+  attorneyCount: c.attorneyCount
+}));
+
+// Every city shows its state's law summary
+export const cities: City[] = [...hardcodedCities, ...generatedCities].map(city => ({
+  ...city,
+  expungementInfo: city.expungementInfo || stateExpungementInfo[city.state]
+}));

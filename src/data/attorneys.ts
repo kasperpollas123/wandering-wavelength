@@ -1,4 +1,5 @@
 import { cities, cityToSlug } from './cities';
+import type { City } from './cities';
 import fs from 'fs';
 import path from 'path';
 
@@ -15,6 +16,8 @@ export interface Attorney {
   website: string;
   email: string;
   address: string;
+  city: string;
+  state: string;
   citySlug: string;
   slug: string;
   practiceAreas?: string[];
@@ -835,22 +838,20 @@ export function loadAttorneysFromJson(): Attorney[] {
             id: `attorney-${index}`,
             name: listing.name,
             image: findMatchingImage(listing.name),
-            rating: listing.rating || generateRating(),
-            reviewCount: listing.reviews ? listing.reviews.length : generateReviewCount(),
+            rating: Number(listing.rating) || 0,
+            reviewCount: Number(listing.votes_count) || (listing.reviews ? listing.reviews.length : 0),
             specialty: "Expungement Attorney",
             description: `${listing.name} is an experienced expungement attorney in ${cityName}, helping clients clear their criminal records and get a fresh start.`,
             longDescription: uniqueDescription, // Use the unique description as the long description
-            phone: listing.phone || generatePhoneNumber(),
+            phone: listing.phone || '',
             website: listing.domain ? `https://${listing.domain}` : "#",
-            email: `contact@${listing.domain || 'example.com'}`,
+            email: '',
             address: listing.address || `${cityName}, ${stateName}`,
+            city: cityName.split(' ').map((w: string) => w ? w.charAt(0).toUpperCase() + w.slice(1) : w).join(' '),
+            state: stateName,
             citySlug,
             slug,
-            practiceAreas: getRandomItems(commonPracticeAreas, 5),
-            education: getRandomItems(commonEducation, 2),
-            barAdmissions: getRandomItems(commonBarAdmissions, 2),
-            awards: getRandomItems(commonAwards, 3),
-            languages: listing.languages || getRandomItems(commonLanguages, 2),
+            languages: listing.languages || [],
             yearsExperience: yearsExperience,
             formerProsecutor: formerProsecutor,
             available24_7: available24_7,
@@ -929,7 +930,30 @@ export const getAttorneysByCitySlug = (citySlug: string): Attorney[] => {
     );
   }
   
-  return attorneys.filter(attorney => attorney.citySlug === citySlug);
+  // Keep same-named cities in other states off the page (Kansas City spans MO and KS)
+  const pageCity = cities.find(c => !c.generated && c.slug === citySlug);
+  return attorneys.filter(attorney => attorney.citySlug === citySlug &&
+    (!pageCity || citySlug === 'kansas-city' || attorney.state === pageCity.state));
+};
+
+// Attorneys for a city page. Generated cities match on city name and state,
+// so same-named cities in different states stay apart.
+export const getAttorneysForCity = (city: City): Attorney[] => {
+  if (city.generated) {
+    return attorneys.filter(a => a.citySlug === (city.baseSlug || city.slug) && a.state === city.state);
+  }
+  return getAttorneysByCitySlug(city.slug);
+};
+
+// The city page an attorney belongs on, if there is one
+export const getCityForAttorney = (attorney: Attorney): City | undefined => {
+  return cities.find(c => c.generated && (c.baseSlug || c.slug) === attorney.citySlug && c.state === attorney.state)
+    || cities.find(c => !c.generated && getAttorneysByCitySlug(c.slug).some(a => a.slug === attorney.slug));
+};
+
+// Attorneys in a state
+export const getAttorneysByState = (state: string): Attorney[] => {
+  return attorneys.filter(a => a.state === state);
 };
 
 // Function to get attorney by slug

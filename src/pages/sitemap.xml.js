@@ -1,5 +1,5 @@
-import { cities } from '../data/cities';
-import { attorneys } from '../data/attorneys';
+import { cities, stateNames, stateSlug } from '../data/cities';
+import { attorneys, getAttorneysByState } from '../data/attorneys';
 
 export async function get() {
   // Base URL for the site
@@ -13,6 +13,7 @@ export async function get() {
     { url: '/', priority: '1.0', changefreq: 'weekly' },
     { url: '/about', priority: '0.8', changefreq: 'monthly' },
     { url: '/cities', priority: '0.9', changefreq: 'weekly' },
+    { url: '/states', priority: '0.9', changefreq: 'weekly' },
     { url: '/resources', priority: '0.8', changefreq: 'monthly' },
     { url: '/contact', priority: '0.7', changefreq: 'monthly' },
     { url: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
@@ -35,7 +36,12 @@ export async function get() {
   }));
   
   // Combine all pages
-  const allPages = [...mainPages, ...cityPages, ...attorneyPages];
+  // State pages (states with at least one attorney)
+  const statePages = Object.keys(stateNames)
+    .filter(code => getAttorneysByState(code).length > 0)
+    .map(code => ({ url: `/states/${stateSlug(code)}`, priority: '0.8', changefreq: 'weekly' }));
+
+  const allPages = [...mainPages, ...statePages, ...cityPages, ...attorneyPages];
   
   // Generate XML
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

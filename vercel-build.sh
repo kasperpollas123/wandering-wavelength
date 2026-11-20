@@ -17,29 +17,11 @@ fi
 # Install dependencies
 npm install
 
-# Create public directory if it doesn't exist
-mkdir -p public
-
-# Ensure the JSON file is in the public directory
-if [ -f "attorney_enriched_reviews.json" ]; then
-  echo "Copying JSON file to public directory..."
-  cp attorney_enriched_reviews.json public/
-fi
+# Work out which extra cities have enough attorneys for a page
+node scripts/build-directory.mjs
 
 # Build the site
 npm run build
 
-# Ensure the JSON file is in the dist directory
-if [ -f "attorney_enriched_reviews.json" ] && [ -d "dist" ]; then
-  echo "Copying JSON file to dist directory..."
-  cp attorney_enriched_reviews.json dist/
-fi
-
-# Final check
-echo "Final file locations:"
-echo "Project root:"
-ls -la attorney_enriched_reviews.json 2>/dev/null || echo "Not found in project root"
-echo "Public directory:"
-ls -la public/attorney_enriched_reviews.json 2>/dev/null || echo "Not found in public directory"
-echo "Dist directory:"
-ls -la dist/attorney_enriched_reviews.json 2>/dev/null || echo "Not found in dist directory"
+# The attorney data file is only read at build time. It is not copied to the
+# public site, so the whole directory can't be downloaded in one file.

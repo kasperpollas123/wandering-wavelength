@@ -36,21 +36,15 @@ const websiteSchema = {
 function generateAttorneySchema(attorney: any) {
   if (!attorney) return null;
   
-  const reviewSchema = attorney.reviews && attorney.reviews.length > 0 ? {
-    "@type": "AggregateRating",
-    "ratingValue": attorney.rating.toString(),
-    "reviewCount": attorney.reviewCount.toString()
-  } : null;
-  
+  // No star ratings here: the ratings come from Google, and review markup is only for ratings a site collects itself.
   return {
     "@context": "https://schema.org",
     "@type": "LegalService",
     "name": attorney.name,
     "image": attorney.image.startsWith('http') ? attorney.image : new URL(attorney.image, Astro.site).toString(),
-    "description": attorney.description,
+    "description": `${attorney.name} is a law firm in ${attorney.city}, ${attorney.state} that handles expungement and record sealing cases.`,
     "telephone": attorney.phone,
     "url": attorney.website,
-    "email": attorney.email,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": attorney.address?.split(',')[0] || "",
@@ -58,7 +52,6 @@ function generateAttorneySchema(attorney: any) {
       "addressRegion": attorney.address?.split(',')[2]?.trim() || "",
       "postalCode": attorney.address?.split(',')[3]?.trim() || ""
     },
-    "priceRange": "$$",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Legal Services",
@@ -81,17 +74,7 @@ function generateAttorneySchema(attorney: any) {
     },
     "sameAs": [
       attorney.website
-    ],
-    ...(reviewSchema ? { "aggregateRating": reviewSchema } : {}),
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "0",
-        "longitude": "0"
-      },
-      "geoRadius": "50000"
-    }
+    ]
   };
 }
 

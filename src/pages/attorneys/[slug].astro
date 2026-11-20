@@ -3,8 +3,8 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CallToAction from '../../components/CallToAction.astro';
 import SchemaMarkup from '../../components/SchemaMarkup.astro';
-import { attorneys, getAttorneyBySlug } from '../../data/attorneys';
-import { cities } from '../../data/cities';
+import { attorneys, getCityForAttorney } from '../../data/attorneys';
+import { stateNames, stateSlug, stateExpungementInfo } from '../../data/cities';
 
 export function getStaticPaths() {
   return attorneys.map(attorney => ({
@@ -14,7 +14,9 @@ export function getStaticPaths() {
 }
 
 const { attorney } = Astro.props;
-const city = cities.find(city => city.slug === attorney.citySlug);
+const city = getCityForAttorney(attorney);
+const stateName = stateNames[attorney.state] || attorney.state;
+const hasStatePage = Boolean(stateNames[attorney.state]);
 
 // Check if image is a local path
 const isLocalImage = attorney.image.startsWith('/');
@@ -36,7 +38,7 @@ const metaDescription = `${attorney.name} is an expungement attorney in ${attorn
 
 // Find related attorneys in the same city (excluding current attorney)
 const relatedAttorneys = attorneys
-  .filter(a => a.citySlug === attorney.citySlug && a.slug !== attorney.slug)
+  .filter(a => a.citySlug === attorney.citySlug && a.state === attorney.state && a.slug !== attorney.slug)
   .slice(0, 3); // Limit to 3 related attorneys
 ---
 
@@ -53,9 +55,8 @@ const relatedAttorneys = attorneys
   <div class="container py-8 mt-8">
     <Breadcrumbs 
       items={[
-        { label: "Home", href: "/" },
-        { label: "Cities", href: "/cities" },
-        { label: `${city?.name}, ${city?.state}`, href: `/cities/${city?.seoSlug || city?.slug}` },
+        ...(hasStatePage ? [{ label: stateName, href: `/states/${stateSlug(attorney.state)}` }] : [{ label: "Cities", href: "/cities" }]),
+        ...(city ? [{ label: `${city.name}, ${city.state}`, href: `/cities/${city.seoSlug || city.slug}` }] : []),
         { label: attorney.name }
       ]}
     />
@@ -107,7 +108,7 @@ const relatedAttorneys = attorneys
                       </svg>
                     ))}
                   </div>
-                  <span class="ml-2 text-gray-600">{attorney.rating} ({attorney.reviewCount} reviews)</span>
+                  <span class="ml-2 text-gray-600">{attorney.rating} on Google ({attorney.reviewCount} reviews)</span>
                 </div>
                 
                 <div class="space-y-3 text-gray-700">
@@ -192,24 +193,41 @@ const relatedAttorneys = attorneys
           <h1 class="text-4xl font-bold mb-4">{attorney.name}</h1>
           <p class="text-xl text-gray-600 mb-8">Expungement Attorney in {attorney.city || city?.name || ''}, {attorney.state || city?.state || ''}</p>
           
-          <!-- Languages Spoken Section -->
+          <!-- About: facts from the listing, with the state's rules one click away -->
           <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">Languages Spoken</h2>
-            <div class="flex flex-wrap gap-2">
-              <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">English</span>
-              {attorney.languages && attorney.languages.length > 0 && 
-                attorney.languages.map(language => (
-                  language.toLowerCase() !== 'english' && 
-                  <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">{language}</span>
-                ))
-              }
-            </div>
+            <p class="text-lg text-gray-700 mb-4">
+              {attorney.name} is a law firm in {attorney.city}, {stateName} that handles expungement and record sealing cases.
+              {attorney.reviewCount > 0 && ` It has a rating of ${attorney.rating} out of 5 from ${attorney.reviewCount} reviews on Google.`}
+            </p>
+            {hasStatePage && stateExpungementInfo[attorney.state] && (
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h2 class="text-xl font-semibold mb-3">Expungement in {stateName}</h2>
+                <p class="text-gray-700 mb-3">{stateExpungementInfo[attorney.state]}</p>
+                <a href={`/states/${stateSlug(attorney.state)}`} class="text-primary hover:underline font-medium">
+                  More about expungement in {stateName} and other attorneys in the state →
+                </a>
+              </div>
+            )}
           </div>
-          
+
+          {attorney.languages && attorney.languages.length > 0 && (
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold mb-6">Languages Spoken</h2>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">English</span>
+                {attorney.languages.map(language => (
+                  language.toLowerCase() !== 'english' &&
+                  <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">{language}</span>
+                ))}
+              </div>
+            </div>
+          )}
+
           <!-- Client Reviews Section -->
           {reviews && reviews.length > 0 && (
             <div class="mb-12">
-              <h2 class="text-2xl font-bold mb-6">Expungement Related Client Reviews</h2>
+              <h2 class="text-2xl font-bold mb-2">What Clients Say About Their Expungement Work</h2>
+              <p class="text-sm text-gray-500 mb-6">Reviews from the firm's Google listing.</p>
               <div class="space-y-6">
                 {reviews.map(review => (
                   <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
