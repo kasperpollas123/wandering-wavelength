@@ -21,10 +21,12 @@ for f in glob.glob('out/*.json'):
 json.dump(prof,open('/home/user/wandering-wavelength/src/data/attorneyProfiles.json','w'),indent=1,ensure_ascii=False)
 print('profiles',len(prof),'no record clearing on site',noclear,'with fees',sum(1 for p in prof.values() if p['fees']),'free consult',sum(1 for p in prof.values() if p['free_consultation']),'praise words',len(flagged),flagged[:6])
 states={}
+RC=json.load(open('recheck_out.json'))
+okurl=lambda g: g.get('http')==200 or (RC.get(g.get('url'),{}).get('status')==200 and RC[g['url']]['len']>500)
 for f in glob.glob('clinics/*.json'):
     d=json.load(open(f)); keep=[]
     for g in d['organisations']:
-        if g.get('http')==200 and g.get('url_in_results') and g.get('name') and g.get('what_they_offer'):
+        if okurl(g) and g.get('url_in_results') and g.get('name') and g.get('what_they_offer'):
             keep.append({k:g.get(k) for k in ['name','type','url','area_served','what_they_offer','who_qualifies','cost','phone']})
     if keep: states[d['state']]=keep
 json.dump({'checked':'November 2026','states':states},open('/home/user/wandering-wavelength/src/data/freeHelp.json','w'),indent=1,ensure_ascii=False)

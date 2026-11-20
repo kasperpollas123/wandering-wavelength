@@ -1,6 +1,1584 @@
 {
  "checked": "November 2026",
  "states": {
+  "GA": [
+   {
+    "name": "Georgia Justice Project (GJP)",
+    "type": "nonprofit",
+    "url": "https://www.gjp.org/get-help/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides legal assistance with record restriction and sealing (expungement), record corrections, First Offender issues, and pardons. Also offers free monthly virtual First Fridays information sessions, pro bono representation with volunteer defense attorneys, and online DIY record-clearing templates.",
+    "who_qualifies": "Individuals facing barriers to employment or housing due to a criminal history from arrests in Georgia; attending a First Fridays session is recommended before applying.",
+    "cost": "Free information sessions, DIY tools, and pro bono representation",
+    "phone": "404.827.0027 ext. 238"
+   },
+   {
+    "name": "Middle Georgia Justice – Macon Judicial Circuit Second Opportunity Desk",
+    "type": "nonprofit",
+    "url": "https://www.mgajustice.org/the-desk/",
+    "area_served": "Bibb, Peach, Crawford, Houston, Monroe, Jones, and Twiggs Counties",
+    "what_they_offer": "Operates a bi-monthly help desk offering attorney criminal history reviews, consultations, self-help assistance, and representation for arrest record restrictions, court sealing petitions, and pardon applications.",
+    "who_qualifies": "Qualifying citizens of Bibb, Peach, Crawford, Houston, Monroe, Jones, and Twiggs Counties who pre-register and obtain their GCIC Code U and E reports.",
+    "cost": "Free consultation",
+    "phone": "478-238-0224"
+   },
+   {
+    "name": "Cobb Second Chance Desk",
+    "type": "government programme",
+    "url": "https://www.cobbcounty.gov/district-attorney/cobb-second-chance-desk",
+    "area_served": "Cobb County",
+    "what_they_offer": "Weekly help desk housed in the Cobb Circuit Defender's Office where an attorney reviews criminal histories, gives consultations, and helps fill out record restriction forms.",
+    "who_qualifies": "Individuals with eligible Cobb County criminal records who pre-register for an appointment.",
+    "cost": "Free",
+    "phone": "404-834-8604"
+   },
+   {
+    "name": "Augusta Judicial Circuit (AJC) Second Chance Desk",
+    "type": "government programme",
+    "url": "https://www.augustaga.gov/3142/Second-Chance-Desk",
+    "area_served": "Burke and Richmond Counties",
+    "what_they_offer": "Monthly help desk at the Augusta Public Library offering attorney criminal record reviews, consultations, and self-help assistance filling out pro se restriction and sealing forms.",
+    "who_qualifies": "Citizens with eligible criminal records stemming from arrests or cases in Burke and Richmond Counties.",
+    "cost": "Free",
+    "phone": "(404) 640-7821"
+   },
+   {
+    "name": "Athens-Clarke County Second Chance Desk",
+    "type": "government programme",
+    "url": "https://www.accgov.com/SecondChanceDesk",
+    "area_served": "Athens-Clarke and Oconee Counties",
+    "what_they_offer": "Monthly help desk providing attorney reviews of criminal histories, consultations, and assistance completing pro se restriction and sealing forms.",
+    "who_qualifies": "Residents with eligible criminal records from arrests or cases in Athens-Clarke and Oconee Counties.",
+    "cost": "Free",
+    "phone": "404-600-1996"
+   },
+   {
+    "name": "GeorgiaLegalAid.org",
+    "type": "legal aid",
+    "url": "https://www.georgialegalaid.org/resource/what-should-i-know-about-my-criminal-record-in-georgia",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides online self-help legal guides and an automated virtual assistant chatbot explaining how to review GCIC reports, restrict and seal records, use Retroactive First Offender laws, and seek pardons.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "SD": [
+   {
+    "name": "South Dakota Unified Judicial System (UJS) Self-Help",
+    "type": "court self-help",
+    "url": "https://ujs.sd.gov/self-help/civil-law-help/expungement/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online Guide and File system that generates completed expungement paperwork, printable pro se expungement forms and instructions, and a Legal Form Help Line to answer questions about filling out forms.",
+    "who_qualifies": "Self-represented individuals seeking to expunge eligible arrest records after an acquittal, dismissal, or uncharged arrest.",
+    "cost": null,
+    "phone": "1-855-784-0004"
+   },
+   {
+    "name": "East River Legal Services",
+    "type": "legal aid",
+    "url": "https://secondchanceinfo.com/rights/legal-aid/sd",
+    "area_served": "33 counties in eastern South Dakota",
+    "what_they_offer": "Provides free civil legal services, including assistance with criminal record expungement and overcoming reentry barriers.",
+    "who_qualifies": "Low-income residents in eastern South Dakota, generally with income at or below 125% of the federal poverty level (up to 200% for certain case types).",
+    "cost": "Free",
+    "phone": "(605) 336-9230 or toll-free 800-952-3015"
+   },
+   {
+    "name": "Dakota Plains Legal Services",
+    "type": "legal aid",
+    "url": "https://ujs.sd.gov/self-help/get-legal-help/",
+    "area_served": "33 counties in central and western South Dakota and all reservations in South Dakota",
+    "what_they_offer": "Offers free civil and tribal legal aid, including assistance with expungement documents, civil matters connected to criminal records, and mobile Justice Bus services.",
+    "who_qualifies": "Income-eligible low-income and Native American residents within its service area.",
+    "cost": "Free",
+    "phone": "(605) 856-4444"
+   }
+  ],
+  "RI": [
+   {
+    "name": "Justice Assistance",
+    "type": "nonprofit",
+    "url": "https://www.justiceassistance.org/program-registration",
+    "area_served": null,
+    "what_they_offer": "Hosts monthly in-person expungement clinics in Cranston by appointment in partnership with the Office of the Rhode Island Public Defender to help clear eligible criminal records.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "(401) 781-7000"
+   },
+   {
+    "name": "Office of the Rhode Island Public Defender",
+    "type": "public defender",
+    "url": "https://www.ripd.org/expungement-sealingcriminalrecords.html",
+    "area_served": null,
+    "what_they_offer": "Provides an online resource guide on expunging and sealing criminal records, co-hosts free monthly expungement clinics with Justice Assistance, and offers direct expungement outreach assistance.",
+    "who_qualifies": "Direct assistance from the Community Outreach Liaison is for current or former clients of the Rhode Island Public Defender, and monthly clinics are available by appointment.",
+    "cost": "Free",
+    "phone": "(401) 222-3492"
+   },
+   {
+    "name": "Rhode Island Legal Services",
+    "type": "legal aid",
+    "url": "https://www.rils.org/practice_areas.cfm?areaid=9",
+    "area_served": null,
+    "what_they_offer": "Assists with expungement, sealing, and correction of criminal records from offices in Providence and Newport, including through its Removing Barriers to Employment program.",
+    "who_qualifies": "People who were not clients of the Rhode Island Public Defender and are unable to hire a lawyer.",
+    "cost": null,
+    "phone": "401-274-2652"
+   },
+   {
+    "name": "Operation Stand Down Rhode Island",
+    "type": "nonprofit",
+    "url": "https://osdri.org/services/legal-assistance/other-practice-areas/expungements/",
+    "area_served": null,
+    "what_they_offer": "Provides record review, evaluation, and legal expungement services to help clear criminal records.",
+    "who_qualifies": "Veterans in need.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "OpenDoors",
+    "type": "nonprofit",
+    "url": "https://opendoorsri.org/expungement",
+    "area_served": null,
+    "what_they_offer": "Checks expungement and record sealing eligibility online or at weekly walk-in clinics at 485 Plainfield, and prepares motion-to-expunge forms with case details filled in.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Rhode Island Office of the Attorney General",
+    "type": "government programme",
+    "url": "https://riag.ri.gov/community-outreach/expungements",
+    "area_served": null,
+    "what_they_offer": "Helps residents evaluate criminal record expungement eligibility and complete forms through community outreach hours and periodic clinics, though online expungement requests are not currently accepted.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(401) 274-4400"
+   }
+  ],
+  "OR": [
+   {
+    "name": "CLEAR Clinic",
+    "type": "nonprofit",
+    "url": "https://clear-clinic.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides limited-scope legal help and weekly drop-in clinics for criminal and eviction record expungements, court fine and fee waivers, and SB 819 felony relief applications. Services are offered across the Portland metro area, at Oregon prisons, at tribal nations, and around the state.",
+    "who_qualifies": "People with a criminal record; no appointment or advance intake form is needed for walk-in clinics.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Legal Aid Services of Oregon - Expungement Clinic",
+    "type": "legal aid",
+    "url": "https://oregonlawhelp.org/referrals/legal-aid-services-oregon-expungement-clinic",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers statewide remote assistance as well as in-person clinics in Gresham, Multnomah County, and Clackamas County. Attorneys review criminal and eviction records to check eligibility and complete necessary court paperwork.",
+    "who_qualifies": "Low-income Oregonians with incomes up to 125% of the federal poverty level, or slightly above in some situations.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Clean Slate Clackamas",
+    "type": "nonprofit",
+    "url": "https://www.clackamasworkforce.org/for-people/expungement-clinics/",
+    "area_served": "Clackamas County",
+    "what_they_offer": "Hosts monthly legal clinics in Milwaukie in partnership with the CLEAR Clinic and Clackamas County Children, Family & Community Connections. Helps participants with Oregon circuit court criminal and eviction record expungements and court fee waivers.",
+    "who_qualifies": "Open to everyone in the Clackamas County area with eligible Oregon county circuit court records.",
+    "cost": "Free legal services (filing fees may apply)",
+    "phone": null
+   },
+   {
+    "name": "Mid-Willamette Valley Community Action - Reentry Services Expungement Clinic",
+    "type": "nonprofit",
+    "url": "https://mwvcaa.org/programs/reentry-services/expungement-clinic/",
+    "area_served": "Salem / Marion County",
+    "what_they_offer": "Hosts a monthly walk-in expungement clinic in Salem in partnership with the Public Defender of Marion County to help clear past Oregon criminal records.",
+    "who_qualifies": "Anyone with an eligible Oregon criminal record who meets the waiting periods and has no open cases or active warrants.",
+    "cost": "Free clinic ($33 fee for required fingerprinting)",
+    "phone": "971.332.5332"
+   },
+   {
+    "name": "Columbia River Gorge Criminal Records Expungement Clinic",
+    "type": "nonprofit",
+    "url": "https://oregonlawhelp.org/referrals/columbia-river-gorge-criminal-records-expungement-clinic",
+    "area_served": "Wasco, Hood River, Gilliam, Sherman, Umatilla, Wheeler, Baker, and Morrow Counties",
+    "what_they_offer": "Volunteer lawyers and trained volunteers hold monthly walk-in clinics in Hood River and The Dalles in collaboration with the CLEAR Clinic. They review Oregon criminal records, prepare expungement paperwork, and take required fingerprints.",
+    "who_qualifies": "People with an Oregon criminal record; walk-ins are welcome without an appointment.",
+    "cost": "Free",
+    "phone": "(503) 502-3559"
+   },
+   {
+    "name": "Youth, Rights & Justice",
+    "type": "nonprofit",
+    "url": "https://www.pdxlrg.org/expungements",
+    "area_served": "Multnomah, Washington, and Clackamas Counties",
+    "what_they_offer": "Nonprofit law firm partnering with Lewis & Clark Law School's Criminal Justice Reform Clinic to provide juvenile record expungement services.",
+    "who_qualifies": "Juveniles with criminal records in Multnomah, Washington, and Clackamas Counties.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Lewis & Clark Law School - Criminal Justice Reform Clinic",
+    "type": "law school clinic",
+    "url": "https://www.pdxlrg.org/expungements",
+    "area_served": "Multnomah, Washington, and Clackamas Counties",
+    "what_they_offer": "Partners with Youth, Rights & Justice to provide juvenile record expungements, and works with Metropolitan Public Defender on representing clients in municipal and circuit courts for expungements.",
+    "who_qualifies": "Juveniles with criminal records in Multnomah, Washington, and Clackamas Counties, as well as clients referred through its Barrier Reduction Project.",
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "AZ": [
+   {
+    "name": "Arizona Democracy Resource Center - Free Legal Clinic",
+    "type": "nonprofit",
+    "url": "https://azdrc.org/programs/free-legal-clinic-in-arizona/",
+    "area_served": "Arizona",
+    "what_they_offer": "Provides one-on-one legal support, petition preparation and filing, and hearing assistance for record sealing, set-asides, Certificates of Second Chance, marijuana expungement, Class 6 felony reclassification, and civil rights restoration.",
+    "who_qualifies": "Anyone with an eligible Arizona criminal record who has completed applicable sentence terms such as probation and restitution.",
+    "cost": "Free",
+    "phone": "602-757-8874"
+   },
+   {
+    "name": "FREE Arizona",
+    "type": "nonprofit",
+    "url": "https://www.freearizona.org/services",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers petition services for Proposition 207 marijuana expungements, help applying to reduce Class 6 undesignated felonies to misdemeanors, end-to-end civil rights restoration assistance, and set-aside guidance.",
+    "who_qualifies": "Individuals impacted by the criminal system, including those with qualifying marijuana offenses before November 30, 2020 or completed supervision on a Class 6 undesignated felony.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Defenders of Children",
+    "type": "nonprofit",
+    "url": "https://www.defendersofchildren.org/what-we-do/civil-rights-restoration/",
+    "area_served": "Arizona",
+    "what_they_offer": "Provides legal assistance to set aside and expunge criminal records, restore civil rights, and resolve related employment, housing, and education civil legal issues.",
+    "who_qualifies": "Arizonans who have criminal histories.",
+    "cost": null,
+    "phone": "(602) 710-1903"
+   },
+   {
+    "name": "University of Arizona College of Law - Civil Rights Restoration Clinic",
+    "type": "law school clinic",
+    "url": "https://law.arizona.edu/academics/clinics/civil-rights-restoration-clinic",
+    "area_served": "Pima County",
+    "what_they_offer": "Law students and clinic staff evaluate eligibility, prepare court pleadings, and represent clients in court to set aside convictions, restore civil rights, and expunge marijuana records under Proposition 207.",
+    "who_qualifies": "Persons previously convicted of criminal offenses, including individuals eligible for Proposition 207 marijuana expungement.",
+    "cost": "Free",
+    "phone": "520-626-5232"
+   },
+   {
+    "name": "Sandra Day O'Connor College of Law Post-Conviction Clinic (Arizona State University)",
+    "type": "law school clinic",
+    "url": "https://news.asu.edu/20210727-arizona-impact-asu-law-clinic-help-clean-community-members-records-marijuana-charges",
+    "area_served": "Arizona",
+    "what_they_offer": "Evaluates cases for suitability, helps individuals fill out court paperwork, and litigates contested cases to expunge marijuana charges under Proposition 207.",
+    "who_qualifies": "People convicted of eligible state marijuana offenses such as possession of 2.5 ounces or less or up to six plants at a residence, excluding federal convictions.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Arizona Judicial Branch Self-Service Center",
+    "type": "court self-help",
+    "url": "https://www.azcourts.gov/selfservicecenter/Criminal-Law/Sealing-Criminal-Case-Records",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides self-help legal information and criminal court forms for sealing criminal case records, setting aside convictions, restoring civil rights, designating Class 6 felonies as misdemeanors, and expunging marijuana charges.",
+    "who_qualifies": "Individuals arrested, convicted, or sentenced in Arizona who meet specific statutory requirements.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Arizona Reentry 2030",
+    "type": "government programme",
+    "url": "https://reentry2030.az.gov/criminal-record-sealing",
+    "area_served": "Statewide",
+    "what_they_offer": "State initiative offering information on Arizona record clearance laws, a free online record-sealing eligibility screening tool in partnership with Rasa Legal, and directory links to free legal aid organizations.",
+    "who_qualifies": "All Arizonans with criminal records can access the eligibility screening tool.",
+    "cost": "Free eligibility screening",
+    "phone": null
+   },
+   {
+    "name": "Pima County Public Defense Services Legal Clinic",
+    "type": "public defender",
+    "url": "https://www.secondchancetucson.org/rights-restoration",
+    "area_served": "Pima County",
+    "what_they_offer": "Accepts requests for legal clinic assistance through an online form for individuals seeking rights restoration and record-clearing help.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "OH": [
+   {
+    "name": "Opportunity Port (The Ohio State University Moritz College of Law)",
+    "type": "law school clinic",
+    "url": "https://opportunityport.org/",
+    "area_served": "Franklin County",
+    "what_they_offer": "Online intake program that determines record clearing eligibility and connects users with partner legal providers by phone and email to prepare Ohio sealing or expungement applications.",
+    "who_qualifies": "Franklin County residents seeking to seal or expunge an Ohio arrest, dismissal, or conviction (services outside Franklin County are paused until further notice); some partner providers have income requirements.",
+    "cost": "Free",
+    "phone": "(614) 292-6096"
+   },
+   {
+    "name": "Franklin County Municipal Court Self Help Resource Center",
+    "type": "court self-help",
+    "url": "https://www.ohiolegalhelp.org/index%2ephp/resource/opportunity-port",
+    "area_served": "Franklin County",
+    "what_they_offer": "Participates as an Opportunity Port service provider to help applicants complete criminal record sealing and expungement paperwork by phone and email.",
+    "who_qualifies": "Individuals applying through Opportunity Port to seal or expunge an arrest, dismissal, or conviction in Ohio; some providers have income limits.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Equality Ohio",
+    "type": "nonprofit",
+    "url": "https://www.ohiolegalhelp.org/index%2ephp/resource/opportunity-port",
+    "area_served": "Franklin County",
+    "what_they_offer": "Serves as an Opportunity Port partner organization providing phone appointments and completed applications for sealing or expunging Ohio criminal records.",
+    "who_qualifies": "Users seeking to seal or expunge an Ohio arrest, dismissal, or conviction through Opportunity Port; some providers have income limits.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Legal Aid of Southeast and Central Ohio (LASCO)",
+    "type": "legal aid",
+    "url": "https://www.lasco.org/legal-aid-offers-free-fresh-start-record-sealing-clinic-in-pickaway-county",
+    "area_served": "Southeast and Central Ohio (including Franklin, Tuscarawas, and Pickaway Counties)",
+    "what_they_offer": "Offers Fresh Start record sealing clinics and serves as an Opportunity Port provider to screen individuals for eligibility and help complete sealing or expungement paperwork.",
+    "who_qualifies": "Individuals meeting eligibility and income guidelines (generally under 200% of the federal poverty guideline) who do not have open cases and are not currently on probation or community control.",
+    "cost": "Free",
+    "phone": "1-800-686-3669"
+   },
+   {
+    "name": "Community Legal Aid",
+    "type": "legal aid",
+    "url": "https://akronlawlib.summitoh.net/clinics/expungement--record-sealing",
+    "area_served": "Akron and Summit County",
+    "what_they_offer": "Hosts a monthly online clinic where volunteer attorneys advise clients and help prepare court forms for self-representation in sealing or expungement cases, plus walk-in legal information sessions at the Akron-Canton Regional Food Bank.",
+    "who_qualifies": "Legal aid eligible clients; advance registration is required for the monthly online clinic.",
+    "cost": "Free",
+    "phone": "(800) 998-9454"
+   },
+   {
+    "name": "University of Akron School of Law - Reentry Clinic",
+    "type": "law school clinic",
+    "url": "https://libguides.uakron.edu/reentry/expungement",
+    "area_served": "City of Akron and Summit County",
+    "what_they_offer": "Supervised law students and volunteer lawyers conduct background searches, assist with applications for record sealing, expungement, Certificates of Qualification for Employment (CQE), clemency, and license restoration, and represent clients in court.",
+    "who_qualifies": "Low-income residents of the City of Akron, or Summit County residents who have a minor child residing in Summit County.",
+    "cost": "Free",
+    "phone": "330-972-7751"
+   },
+   {
+    "name": "Summit County Pro Bono Collaborative",
+    "type": "nonprofit",
+    "url": "https://akronlawlib.summitoh.net/clinics/expungement--record-sealing",
+    "area_served": "Summit County",
+    "what_they_offer": "Runs a clinic on the first Friday of the month at the Summit County Courthouse offering assistance with expungements, driver's license suspensions, and other civil legal matters.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Summit Legal Defenders - Clean Slate Program",
+    "type": "public defender",
+    "url": "https://www.summitlegaldefenders.org/cleanslate",
+    "area_served": "Summit County",
+    "what_they_offer": "Provides assistance with sealing and expunging adult and juvenile criminal records in Summit County, specialty expungement for human trafficking victims, resolving warrants, and reinstating driving privileges.",
+    "who_qualifies": "Individuals with criminal convictions or juvenile records within Summit County, including victims of human trafficking.",
+    "cost": null,
+    "phone": "330-434-3461"
+   },
+   {
+    "name": "The Legal Aid Society of Cleveland",
+    "type": "legal aid",
+    "url": "https://lasclev.org/01012025/",
+    "area_served": "Cleveland and Cuyahoga County",
+    "what_they_offer": "Accepts record clearing applications daily and hosts virtual clinics where volunteer attorneys assess eligibility, review and correct paperwork, and mail ready-to-file documents with instructions.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "888-817-3777"
+   },
+   {
+    "name": "LegalWorks",
+    "type": "nonprofit",
+    "url": "https://legalworksneo.org/",
+    "area_served": "Cuyahoga and adjacent counties (Cleveland)",
+    "what_they_offer": "Holds weekly walk-in and appointment office hours and clinics across Cleveland to assist with motions to seal and expunge records, governor's pardon eligibility, arrest warrants, and license suspensions.",
+    "who_qualifies": "Individuals with past criminal records or legal issues in Cuyahoga and adjacent counties.",
+    "cost": "Free weekly office hours; free and low-cost legal services",
+    "phone": null
+   },
+   {
+    "name": "Ohio Legal Help",
+    "type": "nonprofit",
+    "url": "https://www.ohiolegalhelp.org/letters-forms/criminal-sealing-eligibility",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online self-help interview that checks whether individual Ohio charges qualify for sealing or expungement and creates a customized action plan with filing instructions.",
+    "who_qualifies": "Anyone looking to check eligibility to seal or expunge an Ohio criminal record.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Toledo Bar Association Pro Bono Legal Services Program",
+    "type": "bar association",
+    "url": "https://www.toledobar.org/?pg=Pro-Bono-Legal-Services-Program",
+    "area_served": "Lucas County",
+    "what_they_offer": "Holds a monthly Criminal Record Sealing Clinic by appointment where volunteer attorneys provide individual help preparing record sealing and expungement filings.",
+    "who_qualifies": "Low-income Lucas County residents who cannot afford an attorney and meet Legal Aid screening guidelines.",
+    "cost": "Free",
+    "phone": "419-724-0460"
+   },
+   {
+    "name": "Cuyahoga County Office of the Public Defender",
+    "type": "public defender",
+    "url": "https://publicdefender.cuyahogacounty.gov/expungement",
+    "area_served": "Cuyahoga County",
+    "what_they_offer": "Represents individuals applying to seal or expunge adult felony records in the Cuyahoga County Common Pleas Court.",
+    "who_qualifies": "Individuals seeking to seal or expunge adult felony records in Cuyahoga County Common Pleas Court (requires an application and financial disclosure form).",
+    "cost": null,
+    "phone": "(216) 443-7580"
+   },
+   {
+    "name": "Cleveland State University College of Law - Pardon, Clemency, and Reentry Clinic",
+    "type": "law school clinic",
+    "url": "https://www.law.csuohio.edu/academics/clinics/pardonclemencyexpungement",
+    "area_served": "Northeast Ohio",
+    "what_they_offer": "Supervised law students represent clients in municipal and county courts to seek record sealing, expungement, governor's pardons or clemency, and post-conviction relief.",
+    "who_qualifies": "Indigent individuals in Northeast Ohio with criminal convictions.",
+    "cost": null,
+    "phone": "216-687-2270"
+   },
+   {
+    "name": "Case Western Reserve University School of Law - Second Chance Reentry Clinic",
+    "type": "law school clinic",
+    "url": "https://publicdefender.cuyahogacounty.gov/docs/default-source/default-document-library/recordsealingassistance.pdf?sfvrsn=4c759924_3",
+    "area_served": null,
+    "what_they_offer": "Law school clinic assisting with criminal record sealing and expungement, Certificates of Qualification for Employment, and relief from weapons disability.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(216) 368-2766"
+   }
+  ],
+  "VA": [
+   {
+    "name": "Legal Aid Justice Center",
+    "type": "legal aid",
+    "url": "https://www.justice4all.org/get-help/",
+    "area_served": "Charlottesville area (Albemarle, Charlottesville, Fluvanna), Northern Virginia, Richmond, Petersburg, and Hampton/Newport News",
+    "what_they_offer": "Provides free legal assistance to remove old arrests and non-convictions from criminal records, advises on eligibility under the new record sealing law, and hosts local expungement clinics.",
+    "who_qualifies": "Financially eligible people living in or with legal issues arising in their service areas.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Legal Aid Society of Eastern Virginia (LASEV)",
+    "type": "legal aid",
+    "url": "https://www.linkedin.com/posts/legalaideva_lasev-freelegalhelp-legalaid-activity-7521632453627645953-oA6l",
+    "area_served": "Hampton Roads / Eastern Virginia (including Norfolk)",
+    "what_they_offer": "Hosts criminal records expungement clinics where participants receive legal advice from attorneys, and accepts general applications for free civil legal services by phone.",
+    "who_qualifies": "Low-income residents of Hampton Roads; specific community clinics are for NRHA public housing residents, while non-residents can apply for services by phone.",
+    "cost": "Free",
+    "phone": "757-827-5078"
+   },
+   {
+    "name": "Regent University Center for Global Justice Clinic",
+    "type": "law school clinic",
+    "url": "https://globaljustice.regent.edu/human-trafficking-clinic/",
+    "area_served": "Virginia",
+    "what_they_offer": "Provides free legal representation to help survivors of human trafficking petition to vacate or expunge eligible criminal charges and convictions from their records.",
+    "who_qualifies": "Survivors of sex or labor trafficking with qualifying Virginia misdemeanor or nonviolent felony convictions.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Virginia Free Legal Answers (VA FLA)",
+    "type": "nonprofit",
+    "url": "https://vscc.virginia.gov/2026/Record%20Sealing%20Legal%20Help%20Flyer.pdf",
+    "area_served": "Virginia",
+    "what_they_offer": "Operates an online pro bono Q&A platform where users can ask questions by email to check their record sealing eligibility and receive legal advice.",
+    "who_qualifies": "Financially eligible people.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Virginia Lawyer Referral Service (VLRS)",
+    "type": "bar association",
+    "url": "https://vscc.virginia.gov/2026/Record%20Sealing%20Legal%20Help%20Flyer.pdf",
+    "area_served": "Virginia",
+    "what_they_offer": "Connects callers with an attorney for a free 30-minute consultation on record sealing eligibility and legal questions, and provides referrals if paid representation is needed.",
+    "who_qualifies": null,
+    "cost": "Free 30-minute consultation ($35 referral fee waived for record sealing through June 30, 2027); ongoing representation is paid.",
+    "phone": "(800) 552-7977"
+   },
+   {
+    "name": "Virginia Law Help",
+    "type": "legal aid",
+    "url": "https://www.virginialawhelp.org/en/events/expungement-clinic",
+    "area_served": "Statewide",
+    "what_they_offer": "Publishes upcoming expungement clinic events and connects residents through the statewide legal aid hotline to local legal aid offices that may offer record clearing help.",
+    "who_qualifies": "Low-income individuals who qualify based on income.",
+    "cost": "Free",
+    "phone": "866-LEGLAID (866-534-5243)"
+   },
+   {
+    "name": "Virginia Legal Aid Society (VLAS)",
+    "type": "legal aid",
+    "url": "https://www.vlas.org/criminal-traffic",
+    "area_served": null,
+    "what_they_offer": "Provides online self-help legal information on expungement and record sealing and may offer legal assistance in those areas through its intake line.",
+    "who_qualifies": null,
+    "cost": "Free legal information",
+    "phone": "1-866-LEGLAID"
+   },
+   {
+    "name": "Virginia Indigent Defense Commission (VIDC)",
+    "type": "public defender",
+    "url": "https://www.vadefenders.org/sealing-expungement/",
+    "area_served": "Virginia",
+    "what_they_offer": "Provides public expungement overview guides, links to official court petition forms, online record sealing resources, group trainings, and a dedicated resource attorney.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(804) 662-7249"
+   },
+   {
+    "name": "Virginia State Crime Commission",
+    "type": "government programme",
+    "url": "https://vscc.virginia.gov/sealing.asp",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official guides, FAQs, brochures, lists of eligible and excluded offenses, and links to request criminal history records and search court cases for record sealing.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "DC": [
+   {
+    "name": "Rising for Justice (formerly D.C. Law Students in Court)",
+    "type": "legal aid",
+    "url": "https://www.risingforjustice.org/help/",
+    "area_served": "Washington, DC",
+    "what_they_offer": "Provides free eligibility determinations, intake interviews, and attorney representation to file record sealing motions and handle court hearings through resolution. Clients may also be referred to their Social Work Program.",
+    "who_qualifies": "Eligible indigent or low-income residents in Washington, DC.",
+    "cost": "Free",
+    "phone": "(202) 638-4798"
+   },
+   {
+    "name": "Legal Aid Society of the District of Columbia",
+    "type": "legal aid",
+    "url": "https://intake.legalaiddc.org/expungement/",
+    "area_served": "District of Columbia",
+    "what_they_offer": "Provides direct legal help and representation for criminal record sealing and expungement cases in the District of Columbia.",
+    "who_qualifies": "Individuals with DC legal matters whose household income is generally at or below 200% (and up to 300% for some cases) of the Federal Poverty Guidelines.",
+    "cost": "Free",
+    "phone": "(202) 628-1161"
+   },
+   {
+    "name": "Christian Legal Aid of DC (CLADC)",
+    "type": "legal aid",
+    "url": "https://christianlegalaid-dc.org/get-help/",
+    "area_served": "District of Columbia",
+    "what_they_offer": "Reviews criminal records for eligibility and connects eligible clients with an attorney to file Motions to Seal and Motions to Set Aside under the Youth Rehabilitation Act.",
+    "who_qualifies": "Clients with a DC legal matter whose income does not exceed HUD's Low (80%) Income Limits.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Neighborhood Legal Services Program (NLSP)",
+    "type": "legal aid",
+    "url": "https://www.nacdl.org/mapdata/ExpungementServicesDC",
+    "area_served": "District of Columbia",
+    "what_they_offer": "Offers legal advice, walk-in clinics, and attorney assistance with drafting and filing motions to seal and expunge DC criminal records that create barriers to employment.",
+    "who_qualifies": "Individuals who pass an eligibility check with an NLSP intake specialist.",
+    "cost": "Free",
+    "phone": "202-832-6577"
+   },
+   {
+    "name": "D.C. Bar Pro Bono Center",
+    "type": "bar association",
+    "url": "https://www.dcbar.org/news-events/publications/washington-lawyer-articles/record-sealing-a-path-to-second-chances",
+    "area_served": "District of Columbia",
+    "what_they_offer": "Offers walk-in consultations on criminal record sealing and expungement at its Advice & Referral Clinic, and matches eligible residents with partner organizations or pro bono attorneys.",
+    "who_qualifies": "Low-income DC residents.",
+    "cost": "Free",
+    "phone": "202-780-2575"
+   },
+   {
+    "name": "Public Defender Service for the District of Columbia (PDS)",
+    "type": "public defender",
+    "url": "https://secondchancestartguide.com/blog/free-expungement-dc",
+    "area_served": "District of Columbia",
+    "what_they_offer": "Provides free legal representation for record sealing, runs regular expungement clinics through its Community Defender Division, and publishes the D.C. Reentry Navigator self-help manual and sample motions.",
+    "who_qualifies": "Primarily DC residents represented by PDS or appointed counsel in their original cases, though the Community Defender Division serves residents more broadly.",
+    "cost": "Free",
+    "phone": "202-671-6705"
+   },
+   {
+    "name": "Catholic Charities Legal Network",
+    "type": "nonprofit",
+    "url": "https://www.dccourts.gov/get-legal-help/legal-services-providers",
+    "area_served": "District of Columbia",
+    "what_they_offer": "Listed by the District of Columbia Courts as a legal services provider handling criminal record sealing matters.",
+    "who_qualifies": "Income restrictions may apply.",
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "WI": [
+   {
+    "name": "Legal Action of Wisconsin",
+    "type": "legal aid",
+    "url": "https://law.marquette.edu/mvlc/crime-traffic/",
+    "area_served": "Wisconsin",
+    "what_they_offer": "Provides legal representation and community clinics for expungements, pardons, arrest record corrections, and criminal background check cleanup.",
+    "who_qualifies": "Low-income Wisconsin residents.",
+    "cost": "Free",
+    "phone": "414-278-7722 or 855-947-2629"
+   },
+   {
+    "name": "Urban League of Greater Madison",
+    "type": "nonprofit",
+    "url": "https://ulgm.org/expungement/",
+    "area_served": "Dane County",
+    "what_they_offer": "Hosts monthly legal expungement clinics in partnership with Legal Action of Wisconsin and volunteer attorneys to review criminal records, advise on expungement, arrest removal, and pardons, and help file court paperwork if eligible.",
+    "who_qualifies": "Dane County residents who pre-register for a clinic.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Milwaukee Justice Center Expungement & Pardon Clinic",
+    "type": "legal aid",
+    "url": "https://www.wislawhelp.org/office/169/milwaukee-justice-center-expungement-pardon-clinic",
+    "area_served": "Statewide",
+    "what_they_offer": "Volunteer attorneys and law students offer confidential brief legal advice, eligibility assessments, referrals, and virtual pardon application appointments for Wisconsin convictions (on break from August through December 2026).",
+    "who_qualifies": "Low-income self-represented individuals; pardon appointments require establishing eligibility by email or phone first.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "LIFT Wisconsin",
+    "type": "nonprofit",
+    "url": "https://www.wislawhelp.org/office/82/lift-wisconsin",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides the online Legal Tune Up tool at legaltuneup.org and legal clinics to help people check public data and remove eligible criminal and eviction records.",
+    "who_qualifies": "Low-income Wisconsin residents, with no application required to attend a clinic or use the online tool.",
+    "cost": "Free",
+    "phone": "+1 608 242 4563"
+   },
+   {
+    "name": "LOTUS Legal Clinic",
+    "type": "legal aid",
+    "url": "https://law.marquette.edu/mvlc/crime-traffic/",
+    "area_served": null,
+    "what_they_offer": "Provides legal counsel in English and Spanish for expungements and pardons for trafficking and gender-based violence survivors.",
+    "who_qualifies": "Survivors of gender-based violence and human trafficking, regardless of income.",
+    "cost": "Free",
+    "phone": "414-885-1469"
+   },
+   {
+    "name": "Lawyers for Learners",
+    "type": "nonprofit",
+    "url": "https://wilawlibrary.gov/topics/assist.php",
+    "area_served": "Statewide",
+    "what_they_offer": "Connects college students with virtual or in-person legal assistance for expungements, pardons, and criminal background and arrest records from civil and municipal court proceedings.",
+    "who_qualifies": "Students and prospective students at partner colleges across Wisconsin.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Sherman Park Community Association",
+    "type": "nonprofit",
+    "url": "https://shermanpark.org/event/free-legal-services-bi-weekly-2-2-2-2/2026-07-22/",
+    "area_served": "Sherman Park, Milwaukee (zip codes 53210 and 53216)",
+    "what_they_offer": "Hosts bi-weekly drop-in legal office hours in partnership with Legal Action of Wisconsin to assist residents with expungements, pardons, and other civil legal issues.",
+    "who_qualifies": "Sherman Park residents living in the 53210 and 53216 zip codes.",
+    "cost": "Free",
+    "phone": "(414) 444-9803"
+   }
+  ],
+  "ID": [
+   {
+    "name": "Idaho Supreme Court",
+    "type": "court self-help",
+    "url": "https://isc.idaho.gov/clean-slate-act/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official self-help instructions and court petition forms to shield eligible criminal records from public view under the Clean Slate Act, as well as forms to vacate and seal alcohol age violations.",
+    "who_qualifies": "People with one eligible offense or set of offenses from a single incident who completed their full sentence, including probation, parole, fines, and restitution, at least 5 years ago.",
+    "cost": "No filing fee",
+    "phone": "(208) 334-2210"
+   },
+   {
+    "name": "Idaho State Police, Bureau of Criminal Identification",
+    "type": "government programme",
+    "url": "https://isp.idaho.gov/bci/criminal-history/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an official expungement application and flow chart, and processes written requests to expunge fingerprints and non-conviction arrest records from the state criminal history repository.",
+    "who_qualifies": "Anyone arrested or served a criminal summons in Idaho who was not charged within one year, had all charges dismissed, or was acquitted of all offenses.",
+    "cost": "No filing fee",
+    "phone": "208-884-7134"
+   }
+  ],
+  "MN": [
+   {
+    "name": "Volunteer Lawyers Network (VLN)",
+    "type": "legal aid",
+    "url": "https://www.lawhelpmn.org/loon/services/vln-criminal-expungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides phone-based legal advice, brief services, full representation for criminal expungement cases, and criminal records workshops.",
+    "who_qualifies": "Low-income people in Minnesota who meet income qualifications.",
+    "cost": "Free",
+    "phone": "612-752-6677"
+   },
+   {
+    "name": "Central Minnesota Legal Services (CMLS)",
+    "type": "legal aid",
+    "url": "https://www.lawhelpmn.org/loon/services/cmls-criminal-expungement",
+    "area_served": "Anoka, Benton, Big Stone, Chippewa, Chisago, Hennepin, Isanti, Kandiyohi, Lac Qui Parle, Lincoln, Lyon, Meeker, Mille Lacs, Morrison, Renville, Sherburne, Stearns, Swift, Todd, Wright, and Yellow Medicine Counties",
+    "what_they_offer": "Provides legal advice, brief services, and full representation in select criminal expungement cases.",
+    "who_qualifies": "Low-income people in the service area.",
+    "cost": "Free",
+    "phone": "1-877-696-6529"
+   },
+   {
+    "name": "Justice North",
+    "type": "legal aid",
+    "url": "https://www.lawhelpmn.org/loon/services/justice-north-criminal-expungement",
+    "area_served": "Aitkin, Becker, Beltrami, Carlton, Cass, Clay, Clearwater, Cook, Crow Wing, Douglas, Grant, Hubbard, Itasca, Kanabec, Kittson, Koochiching, Lake, Lake of the Woods, Mahnomen, Marshall, Norman, Otter Tail, Pennington, Pine, Polk, Pope, Red Lake, Roseau, St. Louis, Stevens, Traverse, Wadena, and Wilkin Counties",
+    "what_they_offer": "Provides legal advice, brief services, and full representation in select criminal expungement cases.",
+    "who_qualifies": "Low-income people in northern Minnesota.",
+    "cost": "Free",
+    "phone": "1-877-696-6529"
+   },
+   {
+    "name": "Southern Minnesota Regional Legal Services (SMRLS)",
+    "type": "legal aid",
+    "url": "https://www.lawhelpmn.org/hm/loon/smrls-criminal-expungement-clinic",
+    "area_served": "Blue Earth, Brown, Carver, Cottonwood, Dakota, Dodge, Faribault, Fillmore, Freeborn, Goodhue, Houston, Jackson, Le Sueur, Martin, McLeod, Mower, Murray, Nicollet, Nobles, Olmsted, Pipestone, Ramsey, Redwood, Rice, Rock, Scott, Sibley, Steele, Wabasha, Waseca, Washington, Watonwan, and Winona Counties",
+    "what_they_offer": "Works individually with clients at criminal expungement clinics to draft, serve, and file expungement petitions, without providing court representation.",
+    "who_qualifies": "Income-eligible residents who have an appointment.",
+    "cost": null,
+    "phone": "888-575-2954"
+   },
+   {
+    "name": "Legal Assistance of Olmsted County (LAOC) - Criminal Expungement Clinic",
+    "type": "legal aid",
+    "url": "https://www.lawhelpmn.org/loon/services/laoc-free-criminal-expungment-clinic-olmsted-county-law-library",
+    "area_served": "Olmsted County",
+    "what_they_offer": "Holds bi-monthly remote telephone clinics offering brief advice consultations with volunteer criminal defense lawyers on whether criminal expungement is a viable option.",
+    "who_qualifies": "Self-represented individuals who register in advance through the Olmsted County Law Library.",
+    "cost": "Free",
+    "phone": "507-218-3778"
+   },
+   {
+    "name": "Neighborhood Justice Center (NJC)",
+    "type": "nonprofit",
+    "url": "https://mitchellhamline.edu/truth-and-action/legal_resources/",
+    "area_served": "Ramsey, Dakota, and Washington Counties",
+    "what_they_offer": "Offers attorney consultations and legal representation for criminal expungements.",
+    "who_qualifies": "Residents or individuals seeking an expungement in Ramsey, Dakota, or Washington Counties.",
+    "cost": null,
+    "phone": "(651) 222-4703"
+   },
+   {
+    "name": "Mitchell Hamline School of Law Clinics",
+    "type": "law school clinic",
+    "url": "https://www.ag.state.mn.us/Office/Expungement.asp",
+    "area_served": null,
+    "what_they_offer": "Operates a Re-Entry Clinic for sealing criminal records, a Pro Se Self-Help Clinic for expungement, and the LAMP Clinic to help incarcerated individuals seek pardons or sentence commutations.",
+    "who_qualifies": "The Re-Entry Clinic serves only people who have served prison time, and the LAMP Clinic serves incarcerated individuals.",
+    "cost": null,
+    "phone": "651-290-6369"
+   },
+   {
+    "name": "Hennepin County Attorney's Office - Prosecutor-Led Expungement (PLE) Program",
+    "type": "government programme",
+    "url": "https://www.hennepinattorney.org/get-help/sealing-criminal-records/seal-criminal-records-info",
+    "area_served": "Hennepin County",
+    "what_they_offer": "Reviews and seals eligible conviction records directly on the applicant's behalf without requiring court filings or court appearances.",
+    "who_qualifies": "People convicted of eligible offenses prosecuted by the Hennepin County Attorney's Office who have completed probation or parole and satisfied the required waiting period without new convictions.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Anoka County Criminal Expungement Clinic",
+    "type": "government programme",
+    "url": "https://www.anokacountymn.gov/3570/Anoka-County-Criminal-Expungement-Clinic",
+    "area_served": "Anoka County",
+    "what_they_offer": "Holds monthly walk-in informational sessions on criminal expungement, supplies court forms, and provides attorney consultations supported by Central Minnesota Legal Services.",
+    "who_qualifies": "Participants must attend the clinic presentation and financially qualify to speak with an attorney.",
+    "cost": "Free court forms",
+    "phone": "763-324-5560"
+   },
+   {
+    "name": "Ramsey County Law Library - Criminal Expungement Clinic",
+    "type": "court self-help",
+    "url": "https://mncourts.gov/help-topics/self-help-centers/legal-advice-clinics",
+    "area_served": "Ramsey County",
+    "what_they_offer": "Provides a monthly in-person clinic explaining the criminal expungement process and offering attorney help with completing expungement forms.",
+    "who_qualifies": "Anyone filing an expungement for a criminal case in Ramsey County.",
+    "cost": "Free",
+    "phone": "651-266-8391"
+   },
+   {
+    "name": "Washington County Law Library - Criminal Legal Advice Clinic",
+    "type": "court self-help",
+    "url": "https://www.lawhelpmn.org/loon/services/criminal-legal-advice-clinic-washington-county-law-library",
+    "area_served": "Washington County",
+    "what_they_offer": "Holds weekly legal advice clinics providing a 30-minute attorney consultation on criminal expungement and other criminal or traffic issues.",
+    "who_qualifies": "Washington County residents of modest means.",
+    "cost": "Free",
+    "phone": "651-430-6330"
+   },
+   {
+    "name": "Statewide Minnesota Judicial Branch Self-Help Centers",
+    "type": "court self-help",
+    "url": "https://www.ag.state.mn.us/Office/Expungement.asp",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides self-help information, criminal expungement forms, and courthouse workstations to assist self-represented litigants.",
+    "who_qualifies": "People representing themselves in the Minnesota District Courts.",
+    "cost": null,
+    "phone": "(651) 435-6535"
+   }
+  ],
+  "TN": [
+   {
+    "name": "West Tennessee Legal Services",
+    "type": "legal aid",
+    "url": "https://wtls.org/expungement/",
+    "area_served": "21 counties in West Tennessee, including Memphis",
+    "what_they_offer": "Provides legal advice and representation for expunging eligible charges and convictions, restoring voting and citizenship rights, and reinstating driver's licenses.",
+    "who_qualifies": "Eligible low-income residents.",
+    "cost": "Free",
+    "phone": "1-800-372-8346 ext. 1250"
+   },
+   {
+    "name": "Legal Aid Society of Middle Tennessee and the Cumberlands",
+    "type": "legal aid",
+    "url": "https://las.org/get-help/",
+    "area_served": "Middle Tennessee and the Cumberlands, including Nashville, Sumner County, Montgomery, Stewart, Robertson, Houston, Dickson, Cheatham, and Humphreys counties",
+    "what_they_offer": "Reviews criminal records to advise which charges can be expunged, assists with restoration of rights, and hosts free expungement clinics.",
+    "who_qualifies": "Individuals experiencing low income and vulnerable individuals, including people age 55 and older.",
+    "cost": "Free",
+    "phone": "1-800-238-1443"
+   },
+   {
+    "name": "University of Tennessee Winston College of Law Legal Clinic",
+    "type": "law school clinic",
+    "url": "https://winston.utk.edu/clinics/",
+    "area_served": "Knox County and East Tennessee, including Monroe, Polk, and Jefferson counties",
+    "what_they_offer": "Law students supervised by faculty assist clients with analyzing criminal records, requesting court cost waivers, and filing expungement petitions, as well as running an expungement hotline and community clinics.",
+    "who_qualifies": "Clients who cannot afford an attorney.",
+    "cost": "Free",
+    "phone": "865-974-6775"
+   },
+   {
+    "name": "University of Memphis School of Law Expungement and Restoration of Rights Clinic",
+    "type": "law school clinic",
+    "url": "https://www.memphis.edu/law/experiential-learning/expungement-clinic.php",
+    "area_served": "Memphis",
+    "what_they_offer": "Law students supervised by licensed faculty provide direct representation for criminal record expungements, court cost waivers in closed criminal matters, restoration of citizenship and voting rights, and certificates of employability.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(901) 678-2000"
+   },
+   {
+    "name": "Vanderbilt Law School Community Justice Legal Project",
+    "type": "law school clinic",
+    "url": "https://law.vanderbilt.edu/community-justice-legal-project-building-community-through-public-service/",
+    "area_served": "North Nashville",
+    "what_they_offer": "Law students and a supervising attorney hold monthly workshops and one-on-one sessions at the McGruder Family Resource Center offering limited-scope advice on expungements, driver's license restoration, and voting rights.",
+    "who_qualifies": "Community members facing civil legal barriers after involvement with the justice system.",
+    "cost": "Free (pro bono)",
+    "phone": null
+   },
+   {
+    "name": "Lincoln Memorial University Duncan School of Law Expungement Pro Bono Project",
+    "type": "law school clinic",
+    "url": "https://winston.utk.edu/2024/01/18/ut-legal-clinic-honored-for-extraordinary-community-service/",
+    "area_served": "Knox County",
+    "what_they_offer": "Assists residents with analyzing criminal records, requesting court cost waivers, and petitioning for dismissal and conviction expungements.",
+    "who_qualifies": "Knox County residents.",
+    "cost": "Free (pro bono)",
+    "phone": null
+   },
+   {
+    "name": "Knox County District Attorney's Office",
+    "type": "government programme",
+    "url": "https://dag.knoxcountytn.gov/community-resources/expungements/",
+    "area_served": "Knox County",
+    "what_they_offer": "Holds monthly in-person expungement screenings with an Assistant District Attorney and a court clerk to assist self-represented individuals with expungement applications, eligibility questions, and rights restoration.",
+    "who_qualifies": "Pro se defendants with eligible Knox County criminal cases.",
+    "cost": "Free for dismissals and not guilty verdicts; $100 court clerk fee for diversions and convictions",
+    "phone": "865.215.2515"
+   },
+   {
+    "name": "Knox County Public Defender's Office",
+    "type": "public defender",
+    "url": "https://dag.knoxcountytn.gov/community-resources/expungements/",
+    "area_served": "Knox County",
+    "what_they_offer": "Provides expungement assistance to former clients.",
+    "who_qualifies": "Individuals who were represented by the Knox County Public Defender's Office.",
+    "cost": null,
+    "phone": "865.594.6120"
+   },
+   {
+    "name": "General Sessions Court of Metropolitan Nashville & Davidson County (Division VIII)",
+    "type": "court self-help",
+    "url": "https://gscourt.nashville.gov/about-us/judges/division-viii-judge-rachel-l-bell/participant-registration-expungement-legal-clinic/",
+    "area_served": "Metropolitan Nashville & Davidson County",
+    "what_they_offer": "Hosts Saturday expungement and legal clinics with volunteer pro bono attorneys alongside an indigency docket and resource fair.",
+    "who_qualifies": "Limited to the first 100 registrants; indigency docket registrants must be interviewed by the Criminal Court Clerk Office.",
+    "cost": "Free (pro bono attorneys)",
+    "phone": null
+   },
+   {
+    "name": "Vet to Vet Tennessee",
+    "type": "nonprofit",
+    "url": "https://tnvhc.org/expungement-clinics/",
+    "area_served": "Monroe County, Polk County, and East Tennessee",
+    "what_they_offer": "Partners with the University of Tennessee College of Law and local judges to sponsor community expungement clinics.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "865-336-2624"
+   },
+   {
+    "name": "TN Free Legal Answers",
+    "type": "nonprofit",
+    "url": "https://www.help4tn.org/page/324/criminal-record",
+    "area_served": "Statewide",
+    "what_they_offer": "Online service where volunteer attorneys answer non-criminal legal questions at no cost, featured alongside self-help expungement forms and instructions.",
+    "who_qualifies": "People in Tennessee who cannot afford a lawyer and meet online eligibility requirements.",
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "CA": [
+   {
+    "name": "Community Legal Aid SoCal",
+    "type": "legal aid",
+    "url": "https://www.communitylegalsocal.org/programs-services/areas-of-law/expungement/",
+    "area_served": "Orange and Los Angeles Counties (and clinics open to Riverside and San Bernardino County residents)",
+    "what_they_offer": "Provides legal assistance and monthly clinics for criminal record analysis, expungements, record sealing, driver's license restoration, and overcoming employment or licensing barriers.",
+    "who_qualifies": "Orange and Los Angeles County residents with eligible California criminal records, or non-residents with eligible criminal records in Orange or Los Angeles County.",
+    "cost": "Free",
+    "phone": "714-571-5200"
+   },
+   {
+    "name": "Legal Aid Foundation of Los Angeles (LAFLA)",
+    "type": "legal aid",
+    "url": "https://lafla.org/get-help/expungement/",
+    "area_served": "Los Angeles",
+    "what_they_offer": "Offers legal services, clinics, and self-help guides to clear criminal records through expungement and Prop 47 petitions, as well as assistance with Fair Chance Hiring violations.",
+    "who_qualifies": "Eligible individuals facing criminal record barriers to gainful employment.",
+    "cost": "Free",
+    "phone": "(800) 399-4529"
+   },
+   {
+    "name": "Central California Legal Services (CCLS)",
+    "type": "legal aid",
+    "url": "https://centralcallegal.org/expungement/",
+    "area_served": "Fresno, Merced, Visalia, Mendota, and Los Banos",
+    "what_they_offer": "Staff and volunteer lawyers assess expungement eligibility, prepare court forms, help draft personal statements, gather supporting evidence, and prepare clients for court hearings.",
+    "who_qualifies": "Individuals with an eligible conviction in California who apply and qualify for services.",
+    "cost": "Free",
+    "phone": "(559) 570-1200"
+   },
+   {
+    "name": "LASSB",
+    "type": "legal aid",
+    "url": "https://legalaidofsb.org/get-help/expungement/",
+    "area_served": "San Bernardino and Riverside Counties",
+    "what_they_offer": "Provides telephone and in-person expungement clinic assistance for expungements, Prop 47 petitions, reducing infractions or traffic offenses, and early termination applications.",
+    "who_qualifies": "Eligible individuals determined by available resources and legal aid priorities.",
+    "cost": null,
+    "phone": "(909) 889-7328"
+   },
+   {
+    "name": "Inland Empire Latino Lawyers Association, Inc. (IELLA)",
+    "type": "legal aid",
+    "url": "https://www.iellaaid.org/expungements",
+    "area_served": "Inland Empire",
+    "what_they_offer": "Offers limited-scope legal clinics where volunteer attorneys and staff review criminal records, provide legal advice, and prepare expungement petitions for clients to file.",
+    "who_qualifies": "Low-income residents of the Inland Empire with eligible criminal convictions.",
+    "cost": "Free",
+    "phone": "(951) 369-3009"
+   },
+   {
+    "name": "East Bay Community Law Center (EBCLC) - Clean Slate Clinic",
+    "type": "legal aid",
+    "url": "https://211alamedacounty.org/resources/clean-slate-clinic-38904669/",
+    "area_served": "Alameda County",
+    "what_they_offer": "Attorneys and advocates help with post-conviction remedies, factual innocence arrest record sealing, vacating convictions for human trafficking survivors and immigrants, and employment or licensing denials.",
+    "who_qualifies": "Individuals seeking remedies for arrests or convictions in Alameda County who face barriers to employment or occupational licensure due to a criminal record.",
+    "cost": "Free",
+    "phone": "510-548-4040"
+   },
+   {
+    "name": "Inland Counties Legal Services, Inc. (ICLS) - Expungement Clinic",
+    "type": "legal aid",
+    "url": "https://www.inlandlegal.org/get-help/expungement-clinic/",
+    "area_served": "Riverside and San Bernardino Counties",
+    "what_they_offer": "Guides individuals through the record-clearing process and assists with filing expungement forms with the court.",
+    "who_qualifies": "Adults convicted of eligible misdemeanor or felony charges in Riverside or San Bernardino County who meet ICLS eligibility requirements (excludes juvenile charges, sex crimes involving a minor, sidewalk vending, and traffic tickets).",
+    "cost": "Free assessment",
+    "phone": "(888) 245-4257"
+   },
+   {
+    "name": "San Francisco Public Defender - Clean Slate Program",
+    "type": "public defender",
+    "url": "https://sfpublicdefender.org/clients/clean-slate/",
+    "area_served": "San Francisco",
+    "what_they_offer": "Reviews RAP sheets and assists with clearing or reducing arrests and convictions, obtaining Certificates of Rehabilitation, and terminating Tier 1 or Tier 2 PC 290 registration.",
+    "who_qualifies": "Individuals who cannot afford an attorney and whose arrest, conviction, or court-transferred probation occurred in San Francisco (or current San Francisco residents for California felony Certificates of Rehabilitation).",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Stanford Law School - Community Law Clinic & Project Clean Slate",
+    "type": "law school clinic",
+    "url": "https://law.stanford.edu/community-law-clinic/post-conviction-relief/",
+    "area_served": null,
+    "what_they_offer": "Law students analyze RAP sheets and assist clients with expungements, felony reductions, and early termination of probation, and also partner with San Jose State University's Record Clearance Project for record screenings.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "650.723.2465"
+   },
+   {
+    "name": "Fresno County Public Defender - Clean Slate Program",
+    "type": "public defender",
+    "url": "https://www.fresnocountyca.gov/Departments/Public-Defender/Post-Conviction-Assistance/Clean-Slate",
+    "area_served": "Fresno County",
+    "what_they_offer": "Provides reentry legal assistance for petitions to dismiss/expungement, felony reductions, Proposition 47, and Proposition 64 petitions.",
+    "who_qualifies": "Individuals with a Fresno County conviction or probation completed in Fresno County who are not on active probation or parole anywhere and have no open or pending criminal cases.",
+    "cost": "Free legal services (Live Scan fingerprinting costs $25-$40; fee waiver form available)",
+    "phone": null
+   },
+   {
+    "name": "San Jose State University - Record Clearance Project (RCP)",
+    "type": "government programme",
+    "url": "https://www.sjsu.edu/rcp/docs/legal-services/english/RCP%20Brochure%205.1.26.pdf",
+    "area_served": "Santa Clara County (court representation) and California (record reviews)",
+    "what_they_offer": "Undergraduate legal clinic students working under attorney supervision conduct legal rights presentations, review criminal records to advise on clearing California convictions, and provide court representation in Santa Clara County.",
+    "who_qualifies": "People seeking to clear California convictions, with court representation for cases in Santa Clara County.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "California Courts Self-Help Guide",
+    "type": "court self-help",
+    "url": "https://www.selfhelp.courts.ca.gov/clean-your-record/legal-help",
+    "area_served": "Statewide",
+    "what_they_offer": "Official court self-help portal connecting users to record-cleaning legal services, county public defender resources, form-filling instructions, and post-conviction guides for non-citizens.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Yolo County Public Defender's Office - Record Mitigation and Community Reintegration Clinic",
+    "type": "public defender",
+    "url": "https://www.yolocountypublicdefender.com/record-mitigation-reintegration-clinic",
+    "area_served": "Yolo County",
+    "what_they_offer": "Provides post-conviction legal services including expungement, felony reductions, early probation termination, certificates of rehabilitation, record sealing, and sex-offender registry removal.",
+    "who_qualifies": "Eligible clients who submit a completed application packet along with a current RAP sheet, personal declaration, and character reference letters.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Ventura County Public Defender's Office - Fresh Start Program",
+    "type": "public defender",
+    "url": "https://vcpublicdefender.org/services/expungements/",
+    "area_served": "Ventura County",
+    "what_they_offer": "Helps clear criminal records through misdemeanor and felony expungements, record sealing, return of property, sex offender registration relief, certificates of rehabilitation, and early probation termination.",
+    "who_qualifies": "Eligible clients who completed probation, followed sentence terms, have no pending cases, and have generally paid off outstanding case balances.",
+    "cost": null,
+    "phone": "(805) 654-2201"
+   },
+   {
+    "name": "Marin County Public Defender - Clean Slate Services",
+    "type": "public defender",
+    "url": "https://www.marincounty.gov/departments/public-defender/clean-slate",
+    "area_served": "Marin County",
+    "what_they_offer": "Helps individuals apply to expunge eligible convictions, reduce felonies to misdemeanors, or vacate arrests or convictions.",
+    "who_qualifies": "People convicted of an eligible felony or misdemeanor who completed probation (or waited 1 year if no misdemeanor probation, or 2 years after prison release) and have no current sentence, supervision, or new charges.",
+    "cost": "Free",
+    "phone": "415-473-6321"
+   },
+   {
+    "name": "Alameda County Public Defenders Clean Slate Program",
+    "type": "public defender",
+    "url": "https://lawlibrary.alamedacountyca.gov/quick-resource-guide-clean-slate-expungement-and-reentry/",
+    "area_served": "Alameda County",
+    "what_they_offer": "Provides free legal assistance for clean slate and criminal record clearing through walk-in clinic intakes and telephone intake.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "(510) 272-6600"
+   },
+   {
+    "name": "Bay Area Legal Aid – Reentry Legal Services",
+    "type": "legal aid",
+    "url": "https://lawlibrary.alamedacountyca.gov/quick-resource-guide-clean-slate-expungement-and-reentry/",
+    "area_served": "Bay Area / Oakland",
+    "what_they_offer": "Provides free reentry and clean slate legal services through its legal advice line and intake at community events.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "(510) 250-5270"
+   },
+   {
+    "name": "Dads Evoking Change",
+    "type": "nonprofit",
+    "url": "https://lawlibrary.alamedacountyca.gov/quick-resource-guide-clean-slate-expungement-and-reentry/",
+    "area_served": "Oakland",
+    "what_they_offer": "Hosts a monthly drop-in legal clinic on the last Tuesday of the month offering consultations with civil law attorneys on Clean Slate and criminal record expungement.",
+    "who_qualifies": "Fathers.",
+    "cost": "Free",
+    "phone": "(833) 873-7329"
+   }
+  ],
+  "AR": [
+   {
+    "name": "Legal Aid of Arkansas",
+    "type": "legal aid",
+    "url": "https://arlegalaid.org/who-we-are/frequent-questions.html",
+    "area_served": "Arkansas",
+    "what_they_offer": "Provides free civil legal help for expungements and criminal record sealing through phone advice, document preparation, legal representation, and community record-sealing clinics.",
+    "who_qualifies": "Low-income Arkansans whose household income is typically at or below 125% of the federal poverty guideline, though some cases allow higher income limits.",
+    "cost": "Free",
+    "phone": "1-800-952-9243"
+   },
+   {
+    "name": "AR Free Legal Answers",
+    "type": "nonprofit",
+    "url": "https://arkansasjustice.org/need-help/",
+    "area_served": "Arkansas",
+    "what_they_offer": "An online service where volunteer pro bono attorneys answer posted questions about sealing old criminal records. Attorneys provide written answers only and do not represent users in court.",
+    "who_qualifies": "People with low or moderate income who cannot afford a lawyer and have finished their sentence and paid all fines and fees.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Arkansas Law Help",
+    "type": "legal aid",
+    "url": "https://a.arlawhelp.org/criminal-record-sealing/criminalrecordsealing",
+    "area_served": "Arkansas",
+    "what_they_offer": "An online self-help portal created by Arkansas's legal aid providers with guides, eligibility rules, and felony and misdemeanor flowcharts for filing a Petition to Seal.",
+    "who_qualifies": "Available to the public.",
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "FL": [
+   {
+    "name": "The Legal Aid Society of the Orange County Bar Association, Inc.",
+    "type": "legal aid",
+    "url": "https://www.legalaidocba.org/sealing-and-expungement-clinic/",
+    "area_served": "Orange County",
+    "what_they_offer": "Provides civil legal assistance and hosts pro bono clinics to help residents complete paperwork for sealing and expunging criminal records.",
+    "who_qualifies": "Indigent Orange County residents who meet financial and case guidelines.",
+    "cost": "Free",
+    "phone": "407-841-8310"
+   },
+   {
+    "name": "Office of Broward State Attorney Harold F. Pryor",
+    "type": "government programme",
+    "url": "https://browardsao.com/seal-or-expunge-a-criminal-record/",
+    "area_served": "Broward County",
+    "what_they_offer": "Provides eligibility guidance, application assistance by phone, and periodic one-stop community workshops for arrest record sealing and expungement.",
+    "who_qualifies": "Adults and juveniles with a Broward County criminal charge that did not result in a conviction or had adjudication withheld.",
+    "cost": "Free",
+    "phone": "954-831-6955"
+   },
+   {
+    "name": "Florida Justice Center",
+    "type": "legal aid",
+    "url": "https://www.fljc.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Researches eligibility, files paperwork, and represents clients in court for criminal record sealing and expungement, along with clemency and mugshot removal.",
+    "who_qualifies": "Low-income people in Florida affected by involvement in the criminal legal system.",
+    "cost": null,
+    "phone": "(954) 758-7555"
+   },
+   {
+    "name": "Jacksonville Area Legal Aid, Inc.",
+    "type": "legal aid",
+    "url": "https://www.jaxlegalaid.org/get-help/service-areas/sealing-and-expungement-of-criminal-arrest-records/",
+    "area_served": "Duval County and Clay County",
+    "what_they_offer": "Offers an online eligibility tool and legal assistance for sealing and expunging Florida criminal arrest records.",
+    "who_qualifies": "Residents in their service area whose Florida arrest record may be eligible to be sealed or expunged.",
+    "cost": null,
+    "phone": "904-356-8371"
+   },
+   {
+    "name": "Bay Area Legal Services",
+    "type": "legal aid",
+    "url": "https://bals.org/help/expungement",
+    "area_served": "Tampa Bay and Statewide helplines",
+    "what_they_offer": "Provides legal information and civil legal help for criminal record expungement and sealing following an eligibility review.",
+    "who_qualifies": "Individuals in Florida who meet the organization's eligibility requirements.",
+    "cost": "Free if you qualify",
+    "phone": "(813) 232-1343"
+   },
+   {
+    "name": "Free Legal Aid in Seminole County",
+    "type": "legal aid",
+    "url": "https://scbalas.com/",
+    "area_served": "Seminole County",
+    "what_they_offer": "Hosts a monthly walk-in clinic on the first Wednesday of every month where volunteer attorneys give advice on sealing and expungement.",
+    "who_qualifies": "Open to the public at walk-in clinics; ongoing representation requires Seminole County residency, income eligibility, and not already having an attorney.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Public Defender's Office – Redemption Project",
+    "type": "public defender",
+    "url": "https://www.pdmiami.com/public-defender/client-information/sealing-expunging-records.page",
+    "area_served": "Miami-Dade County",
+    "what_they_offer": "Operates a Redemption Hotline and community workshops where volunteers help people determine eligibility and apply to seal or expunge criminal records.",
+    "who_qualifies": "Individuals with prior arrests who qualify for sealing or expungement under Florida law.",
+    "cost": null,
+    "phone": "305.545.1616"
+   },
+   {
+    "name": "Community Law Program",
+    "type": "nonprofit",
+    "url": "https://lawprogram.org/amendment-4/",
+    "area_served": "Pinellas County",
+    "what_they_offer": "Helps residents check eligibility and pursue criminal record sealing or expungement, voting rights restoration, and driver's license reinstatement.",
+    "who_qualifies": "Pinellas County residents experiencing barriers to employment, housing, or other needs due to criminal histories.",
+    "cost": null,
+    "phone": "(727) 582-7480"
+   },
+   {
+    "name": "Office of the Public Defender",
+    "type": "public defender",
+    "url": "https://pd15.org/services.htm",
+    "area_served": null,
+    "what_they_offer": "Provides assistance with sealing or expunction of criminal charges, civil rights restoration, and early termination of probation.",
+    "who_qualifies": "Former clients represented by this Public Defender's Office who were charged with a crime without being convicted and meet eligibility rules.",
+    "cost": "No professional cost; approximately $130 in mandatory fees to other entities",
+    "phone": "561.624.6560"
+   }
+  ],
+  "LA": [
+   {
+    "name": "Justice and Accountability Center of Louisiana (JAC)",
+    "type": "nonprofit",
+    "url": "https://www.jaclouisiana.org/re-entry",
+    "area_served": "New Orleans, Orleans Parish, and Jefferson Parish",
+    "what_they_offer": "Hosts regular walk-in expungement clinics, offers 25-minute video consultations with volunteer attorneys to complete expungement forms, provides an online fee-waiver affidavit tool, and helps applicants request income-based filing fee waivers.",
+    "who_qualifies": "Individuals with criminal records seeking expungement; low-income individuals may qualify for fee waivers.",
+    "cost": "Free",
+    "phone": "504-322-4050"
+   },
+   {
+    "name": "Southeast Louisiana Legal Services (SLLS)",
+    "type": "legal aid",
+    "url": "https://louisianalegalnavigator.org/events/free-expungement-clinic",
+    "area_served": "Orleans Parish and Jefferson Parish",
+    "what_they_offer": "Hosts free expungement clinics, operates local outreach clinics, covers background check costs at clinic events, and opens cases to file expungements for eligible clients.",
+    "who_qualifies": "Individuals who qualify for free legal services and have eligible offenses (certain clinics are limited to HANO public housing or voucher residents).",
+    "cost": "Free",
+    "phone": "1-844-244-7871"
+   },
+   {
+    "name": "Acadiana Legal Service Corporation (ALSC)",
+    "type": "legal aid",
+    "url": "https://www.la-law.org/alsc-hosts-free-expungement-clinics/",
+    "area_served": "St. Landry Parish, Lafayette, and rural Louisiana communities",
+    "what_they_offer": "Hosts free expungement clinics with pro bono attorneys and runs a Workforce Enhancement Program that helps cover background checks, court filing fees, and related expungement costs.",
+    "who_qualifies": "Eligible low-income residents with qualifying criminal records.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Orleans Public Defenders",
+    "type": "public defender",
+    "url": "https://www.opdla.org/expungement",
+    "area_served": "New Orleans / Orleans Parish",
+    "what_they_offer": "Partners with local legal organizations to host monthly expungement clinics where attorneys and client advocates help gather case information and fill out expungement applications.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(504) 821-8101"
+   },
+   {
+    "name": "Louisiana Justice Coalition (LJC)",
+    "type": "nonprofit",
+    "url": "https://lajusticecoalition.org/community+defense/ljc+new+orleans",
+    "area_served": "New Orleans / Orleans Parish",
+    "what_they_offer": "Collaborates with Orleans Public Defenders through the Client Expungement Initiative to engage public defenders and volunteer attorneys for expungement filings and manages a fund to help pay non-waivable filing fees.",
+    "who_qualifies": "Select ex-offender clients in New Orleans facing financial barriers to filing fees.",
+    "cost": "Financial assistance available for select clients to cover non-waivable fees",
+    "phone": null
+   },
+   {
+    "name": "Justice Reform Initiative (JRI)",
+    "type": "nonprofit",
+    "url": "https://www.neworleanschamber.org/events/details/free-expungement-clinic-24134",
+    "area_served": "Statewide (all parishes)",
+    "what_they_offer": "Approved pro bono legal provider that hosts expungement clinics with volunteer attorneys to give expungement support and prepare documents.",
+    "who_qualifies": "Justice-impacted individuals across all parishes.",
+    "cost": "Free",
+    "phone": "337-366-0316"
+   },
+   {
+    "name": "Loyola Law Clinic: Stuart H. Smith Law Clinic & Center for Social Justice",
+    "type": "law school clinic",
+    "url": "https://mtcourt.nola.gov/mtcourt/media/MTcourt-Media/PDFs/Expungement-Legal-Aid.pdf",
+    "area_served": "New Orleans",
+    "what_they_offer": "Law school clinic listed by the Municipal and Traffic Court of New Orleans as a legal aid resource for expungement guidance and legal assistance.",
+    "who_qualifies": "Indigent New Orleans residents who meet federal poverty guidelines after an intake interview and have a case type the clinic handles.",
+    "cost": null,
+    "phone": "504-861-5550"
+   },
+   {
+    "name": "Tulane Law Clinic: Criminal Justice Clinic",
+    "type": "law school clinic",
+    "url": "https://mtcourt.nola.gov/mtcourt/media/MTcourt-Media/PDFs/Expungement-Legal-Aid.pdf",
+    "area_served": "New Orleans",
+    "what_they_offer": "Law school clinic listed by the Municipal and Traffic Court of New Orleans as a legal assistance resource for expungement matters.",
+    "who_qualifies": "Accepted by court appointment only.",
+    "cost": null,
+    "phone": "504-865-5939"
+   },
+   {
+    "name": "Tulane Legal Assistance Program (TULAP)",
+    "type": "law school clinic",
+    "url": "https://law.tulane.edu/tulane-legal-assistance-program",
+    "area_served": "Tulane University (New Orleans)",
+    "what_they_offer": "Provides legal information and representation for criminal matters including expungements.",
+    "who_qualifies": "Current Tulane University students, faculty, and staff with a Tulane email address.",
+    "cost": "Free legal information and low-cost representation",
+    "phone": "(504) 865-5515"
+   }
+  ],
+  "IL": [
+   {
+    "name": "Cabrini Green Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.cgla.net/criminal-records",
+    "area_served": "Chicagoland area and Cook County",
+    "what_they_offer": "Provides help with expungement, record sealing, clemency, pardons, certificates of rehabilitation, and waivers. Also operates courthouse expungement help desks in Cook County and represents self-represented petitioners at hearings.",
+    "who_qualifies": "Individuals seeking criminal record relief in Illinois; those arrested by the Chicago Police Department must bring a Chicago RAP sheet for help desk assistance.",
+    "cost": "Free",
+    "phone": "(312) 738-2452"
+   },
+   {
+    "name": "James B. Moran Center for Youth Advocacy",
+    "type": "legal aid",
+    "url": "https://moran-center.org/programs-services/legal-services/record-relief/",
+    "area_served": "Cook County",
+    "what_they_offer": "Provides legal assistance to expunge or seal criminal histories and operates a weekly walk-in expungement and sealing help desk at the Skokie Courthouse.",
+    "who_qualifies": "All individuals with a Cook County criminal record.",
+    "cost": "Free legal services; court filing and record fees may apply unless waived",
+    "phone": "847-492-1410"
+   },
+   {
+    "name": "Legal Aid Chicago",
+    "type": "legal aid",
+    "url": "https://www.cookcountyclerkofcourt.org/resources/legal-aid-chicago",
+    "area_served": "Cook County",
+    "what_they_offer": "Provides full year-round representation in adult expungement, sealing, trafficking vacatur, and Aguilar motions, as well as a walk-in Juvenile Expungement Help Desk at the Cook County Juvenile Center.",
+    "who_qualifies": "People living in poverty who pass eligibility screening and have an eligible Cook County adult or juvenile record.",
+    "cost": "Free",
+    "phone": "312-341-1070"
+   },
+   {
+    "name": "Prairie State Legal Services",
+    "type": "legal aid",
+    "url": "https://www.pslegal.org/event-details/details/656/Criminal-Records-Relief-Clinic-for-Kane-and-DeKalb-Counties",
+    "area_served": "Kane and DeKalb Counties",
+    "what_they_offer": "Hosts criminal records relief clinics where attorneys consult on record-clearing options and prepare documents to expunge or seal eligible records.",
+    "who_qualifies": "Low-income residents who meet financial guidelines and do not have pending criminal charges.",
+    "cost": "Free",
+    "phone": "(815) 965-2134"
+   },
+   {
+    "name": "Social Change",
+    "type": "nonprofit",
+    "url": "https://socialchange.site/expungement-clinics",
+    "area_served": "Chicago and Springfield",
+    "what_they_offer": "Runs expungement and record sealing clinics in partnership with legal advocates, providing legal representation, support through the petition process, and groceries for participating households.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Law Office of the Cook County Public Defender",
+    "type": "public defender",
+    "url": "https://www.cookcountypublicdefender.org/events/free-record-expungement-sealing-workship",
+    "area_served": "Chicago and Cook County",
+    "what_they_offer": "Holds expungement and sealing workshops alongside CARPLS and New Leaf to check record-clearing eligibility, assist with completing forms, and explain the legal process.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "312-738-7399"
+   },
+   {
+    "name": "Children and Family Justice Center, Northwestern Pritzker School of Law",
+    "type": "law school clinic",
+    "url": "https://www.law.northwestern.edu/legalclinic/cfjc/projects/advocacy/expungement/",
+    "area_served": "Illinois",
+    "what_they_offer": "Attorneys and law students help locate qualifying juvenile records, complete court paperwork, prepare clients for hearings, and attend court hearings for juvenile expungement and sealing.",
+    "who_qualifies": "Young people seeking to seal or expunge juvenile records under Illinois law.",
+    "cost": null,
+    "phone": "312.503.8576"
+   },
+   {
+    "name": "DePaul University College of Law Criminal Records Field Clinic",
+    "type": "law school clinic",
+    "url": "https://law.depaul.edu/academics/experiential-learning/legal-clinics/criminal-records",
+    "area_served": "Illinois",
+    "what_they_offer": "Law students working under attorney supervision through the Greater Chicago Legal Clinic analyze criminal records, draft petitions, and represent clients seeking expungement, sealing, and other record relief.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(312) 362-8701"
+   },
+   {
+    "name": "Illinois Legal Aid Online",
+    "type": "legal aid",
+    "url": "https://www.illinoislegalaid.org/legal-information/expunging-or-sealing-criminal-record",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides online step-by-step guides, eligibility worksheets, Clean Slate Act information, and automated Easy Form tools to prepare adult, juvenile, and cannabis expungement or sealing petitions.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "MA": [
+   {
+    "name": "Legal Services Center of Harvard Law School — Safety Net Project",
+    "type": "law school clinic",
+    "url": "https://legalservicescenter.org/get-legal-help/safety-net-project/lsc-cori-sealing-initiative/",
+    "area_served": null,
+    "what_they_offer": "Provides record-sealing forms, one-on-one consultations, community workshops, and legal representation for sealing and expunging Massachusetts criminal records, as well as self-help resources.",
+    "who_qualifies": "People who meet Massachusetts statutory eligibility criteria for criminal record sealing or expungement.",
+    "cost": "Free legal help ($25 fee to access CORI, waived for public benefit recipients)",
+    "phone": "617-3 90-2524"
+   },
+   {
+    "name": "Community Legal Aid — CORI / Re-Entry Unit",
+    "type": "legal aid",
+    "url": "https://communitylegal.org/what-we-do/cori-re-entry/",
+    "area_served": null,
+    "what_they_offer": "Provides legal representation in CORI sealing and expungement cases as well as assistance with housing, employment, and training denials caused by a criminal record.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "855-CLA-LEGAL (855-252-5342)"
+   },
+   {
+    "name": "City of Boston — Project Opportunity (Black Male Advancement)",
+    "type": "government programme",
+    "url": "https://www.boston.gov/departments/black-male-advancement/project-opportunity",
+    "area_served": "Boston",
+    "what_they_offer": "Connects residents with volunteer lawyers through Lawyers Clearinghouse for virtual CORI consultations and full representation on sealing or expungement petitions and hearings.",
+    "who_qualifies": "Boston residents with criminal records (CORIs).",
+    "cost": "Free (also covers the cost to access CORI)",
+    "phone": "617-635-1825"
+   },
+   {
+    "name": "Harvard Defenders",
+    "type": "law school clinic",
+    "url": "https://www.nacdl.org/mapdata/ExpungementServicesMA",
+    "area_served": "Massachusetts",
+    "what_they_offer": "Provides legal assistance to individuals seeking to seal their Massachusetts criminal records.",
+    "who_qualifies": "Individuals in Massachusetts who wish to seal their Massachusetts CORI.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Center for Social Justice — Western New England University School of Law",
+    "type": "law school clinic",
+    "url": "https://www.nacdl.org/mapdata/ExpungementServicesMA",
+    "area_served": "Massachusetts",
+    "what_they_offer": "Works with law students and pro bono volunteers to help clients obtain CORI reports, receive one-on-one attorney consultations, and prepare and file petitions to seal or expunge records.",
+    "who_qualifies": "Community members who are eligible to seal or expunge their Massachusetts CORI.",
+    "cost": "Free",
+    "phone": "413-796-2101"
+   },
+   {
+    "name": "Northeast Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.northeastlegalaid.org/criminal-record-sealing",
+    "area_served": "Northeastern Massachusetts (Lawrence, Lynn, Lowell, and Haverhill)",
+    "what_they_offer": "Helps clients obtain and understand their criminal records, correct errors, and pursue sealing and expungement options through the mail or in court.",
+    "who_qualifies": "Low-income or elderly residents in Northeastern Massachusetts.",
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "MO": [
+   {
+    "name": "Legal Services of Southern Missouri",
+    "type": "legal aid",
+    "url": "https://www.lsosm.org/lssm-services/expungements/",
+    "area_served": "Cape Girardeau, Rolla, Sikeston, Springfield, and West Plains",
+    "what_they_offer": "Helps individuals expunge or close Missouri arrest, charge, and conviction records, and partners on Clean Slate Clinics offering legal representation.",
+    "who_qualifies": "People with eligible Missouri arrests, charges, or nonviolent low-level convictions (federal offenses do not qualify).",
+    "cost": "Free",
+    "phone": "800-444-4863"
+   },
+   {
+    "name": "Legal Services of Eastern Missouri (Volunteer Lawyers Program)",
+    "type": "legal aid",
+    "url": "https://lsem.org/volunteer/",
+    "area_served": "Hannibal, St. Louis, and Union",
+    "what_they_offer": "Provides pro bono legal representation and advice clinics through volunteer attorneys to help expunge old, non-violent criminal records.",
+    "who_qualifies": "Low-income individuals with old, non-violent criminal records who cannot afford an attorney.",
+    "cost": "Free",
+    "phone": "800-444-0514"
+   },
+   {
+    "name": "Mid-Missouri Legal Services",
+    "type": "legal aid",
+    "url": "https://publicdefender.mo.gov/wp-content/uploads/2024/08/Expungement-Resources-in-MO.pdf",
+    "area_served": "Columbia and Jefferson City",
+    "what_they_offer": "Provides legal assistance for the expungement of eligible criminal records through offices in Columbia and Jefferson City.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "573-442-0116 OR 800-568-4931"
+   },
+   {
+    "name": "ArchCity Defenders",
+    "type": "nonprofit",
+    "url": "https://www.archcitydefenders.org/our-impact/expungement/",
+    "area_served": "St. Louis",
+    "what_they_offer": "Helps people remove past arrests and convictions through its RESTART Expungement Program alongside wraparound social services, and publishes a self-help expungement guide.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(314) 361-8834 (855) 724-2489"
+   },
+   {
+    "name": "Springfield Metropolitan Bar Association & Foundation",
+    "type": "bar association",
+    "url": "https://www.lsmo.org/node/844/clean-slate-expungement-clinic-springfield-mo",
+    "area_served": "Springfield",
+    "what_they_offer": "Partners with Legal Services of Southern Missouri to host Clean Slate Expungement Clinics explaining Missouri expungement law and allowing attendees to sign up for representation.",
+    "who_qualifies": "People previously convicted of eligible nonviolent, low-level state offenses in Missouri.",
+    "cost": "Free",
+    "phone": "417.831.2783"
+   },
+   {
+    "name": "Clear My Record Missouri",
+    "type": "nonprofit",
+    "url": "https://clearmyrecordmo.org/pro-se-information/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides a step-by-step 2025 Pro Se Guide, downloadable court forms packet, offense eligibility lookup list, and instructional videos for filing expungements without a lawyer (its former UMKC clinic is closed).",
+    "who_qualifies": "Individuals with eligible Missouri criminal records who cannot afford an attorney and do not qualify for legal aid.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Missouri State Public Defender",
+    "type": "public defender",
+    "url": "https://publicdefender.mo.gov/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides a pro se petition form to request expungement of eligible marijuana offenses, legal advice for qualifying incarcerated former clients, and a directory of Missouri expungement resources.",
+    "who_qualifies": "The pro se petition is for currently incarcerated people with eligible marijuana offenses; legal advice is limited to indigent people currently incarcerated on eligible marijuana offenses whom MSPD previously represented.",
+    "cost": null,
+    "phone": "314-584-1200"
+   }
+  ],
   "TX": [
    {
     "name": "Legal Aid of NorthWest Texas - Statewide Expunction Project",
@@ -161,6 +1739,1878 @@
     "who_qualifies": "Qualifying residents of Dallas, Collin, Denton, Kaufman, Rockwall, Tarrant, and Ellis counties.",
     "cost": "Free",
     "phone": "214-296-9258"
+   }
+  ],
+  "MT": [
+   {
+    "name": "Montana Legal Services Association (MLSA)",
+    "type": "legal aid",
+    "url": "https://www.mtlsa.org/2025/12/30/clean-slate/",
+    "area_served": "Statewide (all 56 counties)",
+    "what_they_offer": "Offers free legal help, Clean Slate clinics, representation for domestic violence survivors seeking record relief, and step-by-step texting guidance via What's Next Text (text START to 406-430-8585). Also publishes free self-help forms and instructions on MontanaLawHelp.org for misdemeanor expungement and dismissing deferred sentences.",
+    "who_qualifies": "Low-income Montanans with Montana misdemeanor convictions, with dedicated representation resources for survivors of domestic violence.",
+    "cost": "Free",
+    "phone": "1-800-666-6899"
+   },
+   {
+    "name": "Montana Judicial Branch",
+    "type": "court self-help",
+    "url": "https://courts.mt.gov/forms/misexpconpage",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official self-help packets with forms and step-by-step instructions for expunging Montana misdemeanor convictions, along with resources and forms for expunging marijuana-related convictions.",
+    "who_qualifies": "People seeking to expunge eligible Montana state court misdemeanor or marijuana-related convictions, excluding non-marijuana felonies and out-of-state or Tribal convictions.",
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "KS": [
+   {
+    "name": "Kansas Legal Services",
+    "type": "legal aid",
+    "url": "https://www.kansaslegalservices.org/clinics",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers free legal assistance, an online guided interview, and in-person and virtual clinics across Kansas to help expunge arrest records, criminal convictions, juvenile adjudications, and drug registry requirements.",
+    "who_qualifies": "Vulnerable Kansans who meet legal and program eligibility criteria determined by Kansas Legal Services.",
+    "cost": "Free",
+    "phone": "316-267-3975"
+   },
+   {
+    "name": "University of Kansas School of Law Legal Aid Clinic",
+    "type": "law school clinic",
+    "url": "https://law.ku.edu/public-resources/legal-aid",
+    "area_served": "Douglas County and Lawrence",
+    "what_they_offer": "Law student interns supervised by attorneys provide legal representation for criminal record expungements in Douglas County District Court and Lawrence Municipal Court, and host Clean Slate expungement clinics.",
+    "who_qualifies": "Low-income individuals with household income up to 250% of the federal poverty level, subject to clinic capacity and conflict screening.",
+    "cost": "Free legal representation; clients pay court filing fees unless waived",
+    "phone": "785-864-5564"
+   },
+   {
+    "name": "Leavenworth County Attorney's Office Expungement Day",
+    "type": "government programme",
+    "url": "https://www.leavenworthcounty.gov/government/county_attorney_s_office/expungement_day.php",
+    "area_served": "Leavenworth County",
+    "what_they_offer": "Annual program where the County Attorney's office reviews submitted expungement forms for eligibility and pairs applicants with volunteer local attorneys to answer questions and explain the process.",
+    "who_qualifies": "Individuals with eligible adult convictions, arrests, or diversions in Leavenworth County, excluding federal and municipal court cases.",
+    "cost": "Free legal services; court filing fees and surcharges apply unless waived",
+    "phone": null
+   },
+   {
+    "name": "Kansas Judicial Branch Self-Help",
+    "type": "court self-help",
+    "url": "https://self-help.kscourts.gov/Home/RecordExpungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Official state court self-help portal providing adult expungement forms, instructions, links to free guided interviews, and directions for finding criminal history records.",
+    "who_qualifies": null,
+    "cost": "Free online resources and guided interviews",
+    "phone": null
+   },
+   {
+    "name": "KC Digital Drive - Kansas Expungement Assistance",
+    "type": "nonprofit",
+    "url": "https://www.expungement.works/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online self-help tool across all 105 Kansas counties that checks expungement and fee-assistance eligibility and automatically generates completed expungement petition forms for filing.",
+    "who_qualifies": "Self-help applicants and pro bono or staff attorneys handling Kansas expungement cases.",
+    "cost": "Free online tool; court filing fees apply unless waived",
+    "phone": null
+   }
+  ],
+  "NM": [
+   {
+    "name": "New Mexico Legal Aid",
+    "type": "legal aid",
+    "url": "https://newmexicolegalaid.org/volunteer-attorney-program/resources-and-tools/expungement-resources.html",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free civil legal assistance, pro se expungement form packets, limited-scope help through its Volunteer Attorney Program, and expungement representation for qualifying veterans.",
+    "who_qualifies": "Low-income New Mexicans and veterans who meet case criteria; Volunteer Attorney Program applicants must have household income at or below 200% of the Federal Poverty Level and meet asset limits.",
+    "cost": "Free",
+    "phone": "1-833-545-4357"
+   },
+   {
+    "name": "New Mexico Courts",
+    "type": "court self-help",
+    "url": "https://nmcourts.gov/court-administration/office-of-general-counsel/expungement/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online application to expunge cannabis-related court records, online case lookup tools, and downloadable forms and instructions for petitioning district courts to expunge other arrest and conviction records.",
+    "who_qualifies": "People with qualifying New Mexico records involving cannabis, identity theft, charges released without conviction, or eligible convictions after completing sentences and waiting periods.",
+    "cost": null,
+    "phone": "505-827-4850"
+   },
+   {
+    "name": "Silver City Gospel Mission",
+    "type": "nonprofit",
+    "url": "https://help.silvercitygospelmission.org/HelpGuide?g=expunge-record",
+    "area_served": "Grant County",
+    "what_they_offer": "Offers a local step-by-step expungement resource guide and staff support to walk individuals through gathering court case records and connecting with legal aid.",
+    "who_qualifies": "Everyone is welcome.",
+    "cost": null,
+    "phone": "575-388-5071"
+   }
+  ],
+  "WV": [
+   {
+    "name": "Legal Aid of West Virginia",
+    "type": "legal aid",
+    "url": "https://legalaidwv.org/legal-information/expungement-of-criminal-records/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free civil legal help, online legal information, and community clinics to assist with expunging or sealing eligible criminal records. They also work with substance use recovery programs and Jobs & Hope WV to clear criminal records and reinstate driver's licenses.",
+    "who_qualifies": "Generally serves low-income individuals or victims of domestic violence, with exceptions including referrals from partnered substance use recovery programs.",
+    "cost": "Free (some court filing fees may be required)",
+    "phone": "866-255-4370"
+   },
+   {
+    "name": "Jobs & Hope West Virginia",
+    "type": "government programme",
+    "url": "https://jobsandhope.wv.gov/free-expungement-clinic-bluefield-wv/",
+    "area_served": "Statewide",
+    "what_they_offer": "Employs transition agents across the state to help participants overcome barriers to employment and connects them with Legal Aid of West Virginia for criminal record expungement and free clinics.",
+    "who_qualifies": "Open to all West Virginians seeking to overcome employment barriers, whether in substance use recovery or not.",
+    "cost": "Free",
+    "phone": "833-784-1385"
+   },
+   {
+    "name": "WV Public Defender Services",
+    "type": "public defender",
+    "url": "https://pds.wv.gov/legal-aid-resources",
+    "area_served": null,
+    "what_they_offer": "Provides an online legal aid resource directory with access to West Virginia court expungement forms and referrals to civil legal services.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(304) 558-3905"
+   }
+  ],
+  "ME": [
+   {
+    "name": "Pine Tree Legal Assistance",
+    "type": "legal aid",
+    "url": "https://secondchanceinfo.com/rights/legal-aid/me",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides statewide civil legal aid to low-income Mainers, including help with criminal record sealing and reentry legal matters.",
+    "who_qualifies": "Low-income Mainers, generally with household income at or below 125% of the federal poverty level.",
+    "cost": "Free",
+    "phone": "1-207-774-8211"
+   },
+   {
+    "name": "State of Maine Judicial Branch",
+    "type": "court self-help",
+    "url": "https://www.courts.maine.gov/help/criminal/sealing.html",
+    "area_served": "Statewide",
+    "what_they_offer": "Publishes official self-help instructions on criminal record sealing eligibility and provides the court form (Motion to Seal Criminal History, CR-218) for filing without a lawyer.",
+    "who_qualifies": "People with eligible criminal convictions in Maine who meet statutory waiting period and conviction-free requirements.",
+    "cost": null,
+    "phone": "(207) 822-0792"
+   }
+  ],
+  "UT": [
+   {
+    "name": "Clean Slate Utah",
+    "type": "nonprofit",
+    "url": "https://www.cleanslateutah.org/fresh-start",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers free record screenings, weekly fingerprinting clinics with USARA, expungement application support, pardon support, referrals to legal resources, and financial help with government fees.",
+    "who_qualifies": "Individuals representing themselves; those with incomes at or below 225% of the federal poverty line may qualify for help covering the $65 application fee.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Pro Bono Initiative — S.J. Quinney College of Law",
+    "type": "law school clinic",
+    "url": "https://guides.law.byu.edu/c.php?g=602326&p=4222131",
+    "area_served": "Utah",
+    "what_they_offer": "Hosts a free monthly expungement clinic on the first Thursday of the month offering brief legal consultations on expungements, outstanding warrants, and misdemeanor procedural issues.",
+    "who_qualifies": "Members of the Utah community who call Utah Legal Services first to determine if they qualify for an expungement.",
+    "cost": "Free",
+    "phone": "801-581-5418"
+   },
+   {
+    "name": "Utah Legal Services",
+    "type": "legal aid",
+    "url": "https://uovc.concerncenter.utah.gov/resource/2702",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free legal assistance across Utah, with state and community directories listing help for criminal record expungements and ULS also assisting with eviction expungements.",
+    "who_qualifies": "Individuals who apply and qualify for services, though ULS's website notes it can only provide legal help in non-criminal cases.",
+    "cost": "Free",
+    "phone": "801-328-8891"
+   },
+   {
+    "name": "Cottages of Hope",
+    "type": "nonprofit",
+    "url": "https://icp.churchofjesuschrist.org/pages/expungment_srp",
+    "area_served": "Ogden",
+    "what_they_offer": "Provides expungement assistance alongside employment coaching to help individuals with criminal records move forward.",
+    "who_qualifies": "People with a criminal background, including individuals with felony convictions.",
+    "cost": null,
+    "phone": "801-393-4011"
+   },
+   {
+    "name": "ALIGHT (Alliance to Lead Impact in Global Human Trafficking)",
+    "type": "nonprofit",
+    "url": "https://www.utcourts.gov/en/self-help/legal-help/finding-legal-help/legal-clinics/organizations.html",
+    "area_served": "Utah",
+    "what_they_offer": "Connects human trafficking survivors with local volunteer lawyers who offer free legal help and representation for criminal records and other legal issues.",
+    "who_qualifies": "Survivors of sex or labor human trafficking who cannot afford legal help and are in a place where they can focus on their legal case.",
+    "cost": "Free",
+    "phone": "720-608-6039"
+   },
+   {
+    "name": "Salt Lake County Office of Homelessness & Criminal Justice Reform",
+    "type": "government programme",
+    "url": "https://www.saltlakecounty.gov/ohcjr/expungement/",
+    "area_served": "Salt Lake County",
+    "what_they_offer": "Provides an online self-help Expungement Tool Kit with step-by-step guides and forms for petition-based expungements, traffic expungements, 402 conviction reductions, and court fee waivers.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "385-468-7092"
+   },
+   {
+    "name": "Utah State Courts",
+    "type": "court self-help",
+    "url": "https://www.utcourts.gov/en/self-help/case-categories/criminal-justice/expunge.html",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers official court self-help instructions and eligibility tools for adult criminal record expungement, automatic Clean Slate expungement, and online case status checks.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Utah Bureau of Criminal Identification (BCI)",
+    "type": "government programme",
+    "url": "https://bci.utah.gov/auto-expungements/",
+    "area_served": "Statewide",
+    "what_they_offer": "Processes automatic Clean Slate expungements with the Utah courts and provides expungement forms and official letters verifying expunged criminal history.",
+    "who_qualifies": "Individuals with qualifying acquittals, dismissals with prejudice, or eligible misdemeanor and infraction convictions after required waiting periods.",
+    "cost": "Free for automatic expungement; $15 fee to request a letter listing expunged records",
+    "phone": null
+   }
+  ],
+  "NC": [
+   {
+    "name": "Legal Aid of North Carolina",
+    "type": "legal aid",
+    "url": "https://legalaidnc.org/project/second-chance-project/",
+    "area_served": "Statewide",
+    "what_they_offer": "Holds free online expunction clinics, provides self-help materials, and offers direct legal representation for expunctions through its Second Chance Project (including Second Chance Wilmington).",
+    "who_qualifies": "Clinics are open to everyone with no restrictions; direct representation is for eligible low-income residents who apply during the first full week of the month (except June and December).",
+    "cost": "Free",
+    "phone": "866-219-5262"
+   },
+   {
+    "name": "Durham Expunction & Restoration Program (DEAR)",
+    "type": "government programme",
+    "url": "https://www.deardurham.org/",
+    "area_served": "Durham County",
+    "what_they_offer": "Provides legal help to expunge criminal charges and convictions, obtain Certificates of Relief, and restore suspended driver's licenses, along with monthly education workshops and intake.",
+    "who_qualifies": "Durham County residents who cannot afford an attorney and meet state eligibility criteria for expungements or Certificates of Relief.",
+    "cost": "Free",
+    "phone": "866-219-5262"
+   },
+   {
+    "name": "The Blanchard Community Law Clinic (Campbell Law School)",
+    "type": "law school clinic",
+    "url": "https://news.campbell.edu/articles/campbell-law-expands-community-expunction-efforts-tied-to-north-carolina-criminal-justice-reform/",
+    "area_served": "Triangle area and statewide",
+    "what_they_offer": "Provides pro bono criminal record expunction assistance in partnership with Triangle-area community nonprofits.",
+    "who_qualifies": "Low-income individuals with prior involvement in the criminal justice system.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Emancipate NC",
+    "type": "nonprofit",
+    "url": "https://emancipatenc.org/pro-bono-criminal-record-expungement-clinic/",
+    "area_served": "New Bern, NC",
+    "what_they_offer": "Hosts a pro bono criminal record expungement clinic connecting community members with legal assistance and information on record relief.",
+    "who_qualifies": "Eligible community members seeking relief from barriers caused by a criminal record.",
+    "cost": "Free",
+    "phone": "(919) 682-1149"
+   },
+   {
+    "name": "Carolina Student Legal Services, Inc. (CSLS)",
+    "type": "nonprofit",
+    "url": "https://www.uncstudentlegal.unc.edu/",
+    "area_served": null,
+    "what_they_offer": "Provides legal representation for most North Carolina criminal record expunctions and legal advice for traffic and criminal matters.",
+    "who_qualifies": "UNC students, provided the matter is not against another UNC student, the University, or the state of North Carolina.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "NC Second Chance Alliance",
+    "type": "nonprofit",
+    "url": "https://ncsecondchance.org/expungement-resources/",
+    "area_served": "Statewide",
+    "what_they_offer": "Publishes self-help guides, FAQs on North Carolina's Second Chance Act, and links to expungement petition and fee waiver forms.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "NH": [
+   {
+    "name": "603 Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.603legalaid.org/self-help-articles/criminal-record-annulment/how-to-remove-your-criminal-record/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free civil legal representation, advocacy, volunteer attorney referrals, and online self-help guides for annulling arrest records and non-violent convictions.",
+    "who_qualifies": "Eligible low-income and economically disadvantaged people in New Hampshire.",
+    "cost": "Free",
+    "phone": "(603) 224-3333"
+   },
+   {
+    "name": "New Hampshire Legal Assistance",
+    "type": "legal aid",
+    "url": "https://www.nhla.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides civil legal aid and reentry legal assistance to help clear criminal records through annulment and address reentry barriers. Intake applications are handled online or by phone through 603 Legal Aid.",
+    "who_qualifies": "Low-income New Hampshire residents with limited assets (generally at or below 125% of the federal poverty level) and older adults age 60 and over.",
+    "cost": "Free",
+    "phone": "1-800-639-5290"
+   },
+   {
+    "name": "New Hampshire Law Library",
+    "type": "court self-help",
+    "url": "https://courts-state-nh-us.libguides.com/c.php?g=888640&p=8485542",
+    "area_served": "Statewide",
+    "what_they_offer": "Maintains an online legal help guide for criminal record annulments and offers public computers, research materials, and staff guidance on how to use legal research tools.",
+    "who_qualifies": "Open to anyone in the public.",
+    "cost": null,
+    "phone": "603-271-3777"
+   },
+   {
+    "name": "New Hampshire Bar Association",
+    "type": "bar association",
+    "url": "https://courts-state-nh-us.libguides.com/c.php?g=888640&p=8485542",
+    "area_served": null,
+    "what_they_offer": "Runs LawLine, a monthly phone clinic on the second Wednesday from 6 to 8 PM where volunteer lawyers answer general legal questions, as well as the Modest Means Legal Program connecting callers to reduced-rate lawyers.",
+    "who_qualifies": "LawLine is open to the public at all income levels; Modest Means serves qualified lower- and middle-income individuals who do not qualify for free civil legal aid.",
+    "cost": "Free for LawLine; reduced rates for Modest Means Legal Program",
+    "phone": "800-868-1212"
+   },
+   {
+    "name": "New Hampshire Free Legal Answers",
+    "type": "bar association",
+    "url": "https://courts-state-nh-us.libguides.com/c.php?g=888640&p=8485542",
+    "area_served": null,
+    "what_they_offer": "Operates a confidential virtual legal advice clinic where users post civil legal questions online and receive emailed answers from a volunteer New Hampshire attorney.",
+    "who_qualifies": "Qualifying users with civil legal questions.",
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "CO": [
+   {
+    "name": "Expunge Colorado",
+    "type": "nonprofit",
+    "url": "https://expungecolorado.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Runs an annual record sealing clinic and provides pro bono petition-based record sealing services, educational guides, and community support.",
+    "who_qualifies": "Coloradans with eligible criminal cases.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Northwest Colorado Legal Services Project",
+    "type": "legal aid",
+    "url": "https://lawhelp.colorado.gov/node/19131",
+    "area_served": "Clear Creek, Delta, Eagle, Grand, Gunnison, Hinsdale, Lake, Moffat, Montrose, Ouray, Routt, San Miguel, and Summit counties",
+    "what_they_offer": "Provides an ongoing record sealing and expungement clinic where an attorney reviews Colorado criminal records for eligibility and helps complete court forms.",
+    "who_qualifies": "Low-income clients with criminal records in the served counties.",
+    "cost": "Free",
+    "phone": "(800) 521-6968"
+   },
+   {
+    "name": "Transformative Justice Project of Colorado",
+    "type": "nonprofit",
+    "url": "https://tjpcolorado.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers legal representation, record expungement support, and reintegration assistance through its Believe in Youth program (formerly Colorado Juvenile Defender Center).",
+    "who_qualifies": "System-impacted young people ages 10 to 25 and individuals with juvenile records.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Colorado Legal Services",
+    "type": "legal aid",
+    "url": "https://nationalreentryresourcecenter.org/cleanslate/find-a-lawyer/colorado?field_geography_target_id=colorado",
+    "area_served": "Adams, Alamosa, Arapahoe, Archuleta, Boulder, Broomfield, Chaffee, Conejos, Costilla, Custer, Denver, Dolores, Douglas, El Paso, Elbert, Fremont, Hinsdale, Jefferson, La Plata, Lincoln, Mineral, Montezuma, Ouray, Park, Rio Grande, Saguache, San Juan, San Miguel, and Teller counties; seniors in Clear Creek and Gilpin counties; Ute Mountain Ute and Southern Ute reservations",
+    "what_they_offer": "Provides civil legal aid including record clearance assistance through offices in Alamosa, Boulder, Colorado Springs, Denver, and Durango.",
+    "who_qualifies": null,
+    "cost": "Free or low-cost",
+    "phone": "303-837-1313"
+   },
+   {
+    "name": "Colorado Criminal Defense Institute",
+    "type": "nonprofit",
+    "url": "https://nationalreentryresourcecenter.org/cleanslate/find-a-lawyer/colorado?field_geography_target_id=colorado",
+    "area_served": "Statewide",
+    "what_they_offer": "Listed as a statewide organization engaging in criminal record clearance work in Colorado.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "El Paso County Bar Association",
+    "type": "bar association",
+    "url": "https://nationalreentryresourcecenter.org/cleanslate/find-a-lawyer/colorado?field_geography_target_id=colorado",
+    "area_served": "El Paso and Teller counties",
+    "what_they_offer": "Local bar association listed as engaging in criminal record clearance work.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Colorado Clean Slate Coalition",
+    "type": "nonprofit",
+    "url": "https://www.cleanslateco.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online tool to estimate eligibility for automated record sealing in Colorado and educational resources on Clean Slate and petition-based sealing.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "SC": [
+   {
+    "name": "LifeWorks SC",
+    "type": "nonprofit",
+    "url": "https://www.lifeworkssc.com/legalsuport",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides application support, forms, guidance from attorneys and volunteers, and free Thursday clinics for South Carolina expungements and pardons through its Second Chance Program. Also offers funds to help offset or cover filing fees when available.",
+    "who_qualifies": "Individuals submitting expungement or pardon applications for offenses committed in South Carolina, with fee help for those needing financial assistance.",
+    "cost": "Free clinics and support; financial assistance for fees when available",
+    "phone": "(864) 513-6099"
+   },
+   {
+    "name": "Charleston Pro Bono Legal Services",
+    "type": "legal aid",
+    "url": "https://www.charlestonprobono.org/expungements",
+    "area_served": "Charleston County",
+    "what_they_offer": "Helps residents check expungement eligibility, understand their legal options, and prepare and file expungement petitions to clear eligible criminal records.",
+    "who_qualifies": "Charleston County residents with a household income at or below 80% of the Area Median Income.",
+    "cost": "Free",
+    "phone": "(843) 853-6456"
+   },
+   {
+    "name": "South Carolina Legal Services",
+    "type": "legal aid",
+    "url": "https://sclegal.org/brochures/overcoming-a-criminal-record-expungement/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free civil legal services, educational brochures, brief-service clinics, and representation to help residents obtain South Carolina expungements and pardons.",
+    "who_qualifies": "Financially eligible applicants, typically with household incomes at or below 125% of the federal poverty level (or up to 200% with a waiver), seeking expungements to access employment, housing, or public benefits.",
+    "cost": "Free",
+    "phone": "1-888-346-5592"
+   },
+   {
+    "name": "Time Served",
+    "type": "legal aid",
+    "url": "https://www.tsscnow.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers free legal advocacy and assistance with record expungements and pardons to help formerly incarcerated people rebuild stability.",
+    "who_qualifies": "Currently and formerly incarcerated individuals in South Carolina.",
+    "cost": "Free",
+    "phone": "(864) 546-5060"
+   },
+   {
+    "name": "Ministries of Hope",
+    "type": "nonprofit",
+    "url": "https://ministriesofhopesc.org/expungement",
+    "area_served": null,
+    "what_they_offer": "Provides virtual expungement and pardon clinic informational videos in partnership with South Carolina Legal Services and helps cover legal processing fees.",
+    "who_qualifies": "Eligible clinic attendees with South Carolina criminal records.",
+    "cost": "Pays up to 100% of legal processing fees for eligible attendees",
+    "phone": null
+   },
+   {
+    "name": "South Carolina Judicial Branch",
+    "type": "court self-help",
+    "url": "https://www.sccourts.org/media/gzgnq34i/faq_eng_expungementpardon.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Publishes official self-help FAQs explaining South Carolina expungement and pardon eligibility rules and how to apply for record destruction orders.",
+    "who_qualifies": null,
+    "cost": "Free information; no court fee to expunge non-convictions",
+    "phone": null
+   },
+   {
+    "name": "Sixth Judicial Circuit Solicitor's Office",
+    "type": "government programme",
+    "url": "https://www.scsolicitor6.org/expungement",
+    "area_served": "Chester and Fairfield Counties",
+    "what_they_offer": "Processes expungement orders directly for applicants without requiring a private attorney, waiving fees for eligible non-convictions.",
+    "who_qualifies": "Individuals with eligible arrests or convictions in the Sixth Judicial Circuit.",
+    "cost": "Free for non-convictions; $250 administrative fee, $35 clerk fee, and $25 SLED fee for convictions",
+    "phone": "(803) 377-1141"
+   },
+   {
+    "name": "Eleventh Judicial Circuit Solicitor's Office",
+    "type": "government programme",
+    "url": "https://solicitor11.sc.gov/expungements",
+    "area_served": "Edgefield, Lexington, McCormick, and Saluda Counties",
+    "what_they_offer": "Provides an expungement application packet to help determine eligibility and processes expungement requests through a dedicated coordinator.",
+    "who_qualifies": "Individuals whose eligible arrests occurred in Edgefield, Lexington, McCormick, or Saluda County.",
+    "cost": null,
+    "phone": "(803) 785-8037"
+   },
+   {
+    "name": "15th Judicial Circuit Solicitor's Office",
+    "type": "government programme",
+    "url": "https://horrycountysc.gov/departments/solicitor/faqs/",
+    "area_served": "Horry and Georgetown Counties",
+    "what_they_offer": "Provides downloadable expungement screening applications and processes expungement requests for qualifying local charges, though staff cannot give legal advice.",
+    "who_qualifies": "Individuals whose eligible charges were prosecuted in Horry or Georgetown County.",
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "DE": [
+   {
+    "name": "Delaware Office of Defense Services - Post Disposition Unit",
+    "type": "public defender",
+    "url": "https://ods.delaware.gov/expungements/",
+    "area_served": "Statewide",
+    "what_they_offer": "Reviews Delaware criminal records to check expungement and pardon eligibility, operates an expungement hotline and online screening form, and hosts free expungement clinics with attorneys. Its Appellate Division also represents youth and indigent adults in expungements and pardons.",
+    "who_qualifies": "Youth, indigent adults, and individuals with Delaware criminal records seeking eligibility screening.",
+    "cost": "Free",
+    "phone": "302-577-5142"
+   },
+   {
+    "name": "APEX Program - Delaware Department of Labor",
+    "type": "government programme",
+    "url": "https://labor.delaware.gov/apex/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides non-attorney one-on-one guidance through the pardon and expungement application process, help gathering documents and completing paperwork, and preparation classes for Board of Pardons hearings.",
+    "who_qualifies": "Individuals with Delaware offenses and no pending charges who either have never been convicted of an adult offense or have not been arrested, incarcerated, or on probation or parole in the past 3 years.",
+    "cost": null,
+    "phone": "302-233-6462 (Kent County), 302-333-7600 (Sussex County), 302-333-7605 (New Castle County)"
+   },
+   {
+    "name": "Delaware Volunteer Legal Services (DVLS)",
+    "type": "legal aid",
+    "url": "https://www.dvls.org/get-legal-help/",
+    "area_served": null,
+    "what_they_offer": "Volunteer attorneys review criminal background records to determine whether an individual is eligible for an expungement or a pardon.",
+    "who_qualifies": "Community members who have low incomes or are victims of domestic violence.",
+    "cost": "Free",
+    "phone": "302-478-8680 or 1-888-225-0582"
+   },
+   {
+    "name": "Clean Slate Delaware - ACLU of Delaware",
+    "type": "nonprofit",
+    "url": "https://www.aclu-de.org/csde/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides public guides and resources on Delaware's automated Clean Slate expungement process and co-hosts community expungement clinics with attorneys and pardon specialists.",
+    "who_qualifies": "Individuals with Delaware criminal records.",
+    "cost": null,
+    "phone": "(267) 338-9529"
+   },
+   {
+    "name": "Delaware Center for Justice",
+    "type": "nonprofit",
+    "url": "https://www.aclu-de.org/app/uploads/2023/10/csde_hub_one-pager.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides financial assistance to cover expungement fees and legal support for people reentering the community after incarceration.",
+    "who_qualifies": "Delawareans transitioning from incarceration.",
+    "cost": "Financial assistance for expungement costs",
+    "phone": null
+   },
+   {
+    "name": "Delaware State Courts - Expungement & Pardon Help",
+    "type": "court self-help",
+    "url": "https://www.courts.delaware.gov/help/expungements.aspx",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official self-help petition forms, instruction packets, and FAQs for filing adult and juvenile criminal record expungements in Superior Court and Family Court.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Delaware Board of Pardons",
+    "type": "government programme",
+    "url": "https://pardons.delaware.gov/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official eligibility information and application instructions for seeking a Delaware pardon, expungement, or commutation.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(302) 857-4602"
+   }
+  ],
+  "WY": [
+   {
+    "name": "Legal Aid of Wyoming, Inc.",
+    "type": "legal aid",
+    "url": "https://www.lawyoming.org/criminal-records-expungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides civil legal advice through a telephone hotline and extended legal representation for criminal record expungements, with a tribal advocate on staff for Wind River Indian Reservation members.",
+    "who_qualifies": "Low-income citizens of Wyoming who are screened and qualified.",
+    "cost": "Free",
+    "phone": "1-877-432-9955"
+   },
+   {
+    "name": "University of Wyoming College of Law Civil Legal Services Clinic",
+    "type": "law school clinic",
+    "url": "https://www.wyomingbar.org/for-the-public/hire-a-lawyer/modest-means-program/",
+    "area_served": "Statewide",
+    "what_they_offer": "A statewide law school clinic that assists Wyoming residents with civil legal matters, including criminal record expungements.",
+    "who_qualifies": "Wyoming residents who meet income qualification requirements.",
+    "cost": null,
+    "phone": "(307) 766-6416"
+   },
+   {
+    "name": "Wyoming Judicial Branch",
+    "type": "court self-help",
+    "url": "https://www.wyocourts.gov/legal-help-by-topic/expungements/",
+    "area_served": "Statewide",
+    "what_they_offer": "Official court self-help resource providing expungement forms, answers to common questions, and an overview of procedures and eligibility for sealing Wyoming criminal records.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "PA": [
+   {
+    "name": "Philadelphia Lawyers for Social Equity (PLSE)",
+    "type": "legal aid",
+    "url": "https://plsephilly.org/expungements/",
+    "area_served": "Philadelphia County",
+    "what_they_offer": "Conducts community record-clearing clinics and represents clients by reviewing, filing, and arguing expungement petitions in the Philadelphia Court of Common Pleas, as well as assisting with pardons.",
+    "who_qualifies": "People with household incomes below 200% of the federal poverty guidelines who have convictions in Philadelphia County (for expungements) or live in Philadelphia County (for pardons).",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Legal Aid of Southeastern Pennsylvania (LASP)",
+    "type": "legal aid",
+    "url": "https://www.lasp.org/record-clearing",
+    "area_served": "Bucks, Chester, Delaware, and Montgomery counties",
+    "what_they_offer": "Helps clients with expungements and Clean Slate record sealing through direct assistance, virtual and in-person clinics, and county-specific self-help guides.",
+    "who_qualifies": null,
+    "cost": "Free clinics",
+    "phone": "877-429-5994"
+   },
+   {
+    "name": "MidPenn Legal Services",
+    "type": "legal aid",
+    "url": "https://www.midpenn.org/what-we-do/services.html",
+    "area_served": "Adams, Bedford, Berks, Blair, Centre, Clearfield, Cumberland, Dauphin, Franklin, Fulton, Huntingdon, Juniata, Lancaster, Lebanon, Mifflin, Perry, Schuylkill, and York counties",
+    "what_they_offer": "Assists individuals in clearing criminal records through expungements, record sealing, and pardons under its Employment Law Project, with specialized expungement help for domestic and sexual violence survivors in select counties.",
+    "who_qualifies": "Eligible individuals in civil cases, including survivors of domestic and sexual violence in participating counties.",
+    "cost": "Free to eligible individuals",
+    "phone": "1-800-326-9177"
+   },
+   {
+    "name": "Community Forgiveness & Restoration Initiative (CFRI) – CFR Legal Clinic",
+    "type": "nonprofit",
+    "url": "https://cfriconnect.org/cfr-legal-clinic",
+    "area_served": "Philadelphia",
+    "what_they_offer": "Assists returning citizens with legal consultations, document preparation, and filing applications for expungement and criminal record sealing.",
+    "who_qualifies": "Returning citizens reentering society.",
+    "cost": "Free or low-cost consultations",
+    "phone": "(484) 787-2475"
+   },
+   {
+    "name": "Summit Legal Aid",
+    "type": "legal aid",
+    "url": "https://summitlegal.org/services/economic-security/removing-criminal-records/",
+    "area_served": "Washington County (for Pardon Project)",
+    "what_they_offer": "Works with clients to check criminal records and petition for full or partial expungements and record sealing, and participates in the Pardon Project of Washington County.",
+    "who_qualifies": "Eligible clients; the Washington County Pardon Project serves people living in or with a nonviolent record in Washington County who have been off probation or parole for over three years.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Montgomery County Public Defender Office",
+    "type": "public defender",
+    "url": "https://www.montgomerycountypa.gov/departments/montgomery-county-public-defender/criminal-record-expungement-clinic",
+    "area_served": "Montgomery County",
+    "what_they_offer": "Holds twice-monthly Zoom expungement clinics where advocates meet one-on-one with clients to check eligibility and assist with expunging or sealing closed juvenile and adult cases.",
+    "who_qualifies": "Current and former clients who were represented by the Montgomery County Public Defender Office on the closed cases they want expunged or sealed, with assessed fines and fees paid.",
+    "cost": null,
+    "phone": "610-278-3000"
+   },
+   {
+    "name": "Philadelphia Bar Association – Young Lawyers Division Expungement Clinic",
+    "type": "bar association",
+    "url": "https://philadelphiabar.org/?pg=YLDExpungement",
+    "area_served": "Philadelphia",
+    "what_they_offer": "Volunteer attorneys help eligible individuals get prior arrests and convictions expunged or sealed from public view.",
+    "who_qualifies": "Individuals who meet legal eligibility requirements for expungement or sealing.",
+    "cost": "Free",
+    "phone": "(215) 238-6300"
+   },
+   {
+    "name": "Allegheny County Office of the Public Defender – Project Reset",
+    "type": "public defender",
+    "url": "https://www.alleghenycounty.us/Government/Court-Related/Public-Defender/Project-Reset",
+    "area_served": "Allegheny County",
+    "what_they_offer": "Provides an expungement guide, answers questions by email about expungement and petition-based record sealing, and conducts targeted outreach to notify local residents of their eligibility.",
+    "who_qualifies": "Local Allegheny County residents.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "University of Pennsylvania Carey Law School – Criminal Record Expungement Project (C-REP)",
+    "type": "law school clinic",
+    "url": "https://www.law.upenn.edu/live/profiles/785-criminal-record-expungement-project-c-rep",
+    "area_served": "Philadelphia",
+    "what_they_offer": "Law school student volunteers partner with Philadelphia Lawyers for Social Equity to conduct client intake clinics, process applications, and file petitions to expunge and redact non-conviction records.",
+    "who_qualifies": "Low-income Philadelphians with criminal records.",
+    "cost": null,
+    "phone": "215.898.7483"
+   }
+  ],
+  "IN": [
+   {
+    "name": "Neighborhood Christian Legal Clinic",
+    "type": "legal aid",
+    "url": "https://www.nclegalclinic.org/expungement-help-desk",
+    "area_served": "Statewide",
+    "what_they_offer": "Operates an Expungement Help Desk that assists individuals with applying to clear criminal records under Indiana's Second Chance law, as well as offering periodic community screening workshops.",
+    "who_qualifies": "Individuals earning at or below 125% of the Federal Poverty Guidelines, with some flexibility for those slightly above.",
+    "cost": "Free",
+    "phone": "(317) 429-4131"
+   },
+   {
+    "name": "Indiana Legal Services",
+    "type": "legal aid",
+    "url": "https://www.indianalegalservices.org/expungement/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides legal advice and representation to expunge or seal criminal records in Indiana state courts, including services through its Bloomington Expungement Help Desk and Military Assistance Project.",
+    "who_qualifies": "People earning below 125% of the Federal Poverty Guidelines (up to 200% in some cases), including income-eligible veterans, who also meet asset and citizenship or immigration status rules.",
+    "cost": "Free",
+    "phone": "1-844-243-8570"
+   },
+   {
+    "name": "Indiana University Bloomington Student Legal Services",
+    "type": "legal aid",
+    "url": "https://studentlife.indiana.edu/care-advocacy/legal-services/services/index.html",
+    "area_served": "Bloomington",
+    "what_they_offer": "Licensed attorneys and legal interns provide confidential legal advice and assist eligible students with expunging criminal records.",
+    "who_qualifies": "Indiana University Bloomington students.",
+    "cost": "Free (covered by student activity fee; court fees are not covered)",
+    "phone": "812-855-7867"
+   },
+   {
+    "name": "Marion County Clerk’s Office – Juvenile Division",
+    "type": "court self-help",
+    "url": "https://www.indy.gov/activity/re-entry-resources",
+    "area_served": "Marion County",
+    "what_they_offer": "Provides expungement applications and procedural information for individuals seeking a court ruling to expunge juvenile court records.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(317) 327-8381"
+   },
+   {
+    "name": "Indiana Legal Help",
+    "type": "court self-help",
+    "url": "https://indianalegalhelp.org/expungement-frequently-asked-questions/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides online self-help information explaining Indiana criminal expungement eligibility rules, where to file petitions, and how to find local legal services programs.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "NJ": [
+   {
+    "name": "New Jersey Office of the Public Defender (NJOPD) Expungement Unit",
+    "type": "public defender",
+    "url": "https://www.nj.gov/defender/services/expungements/",
+    "area_served": "Statewide",
+    "what_they_offer": "Hosts free community expungement clinics where attorneys screen individuals for eligibility, help prepare expungement applications, and go to court on their behalf. They also offer workshops on pardons and clemency.",
+    "who_qualifies": "Eligible New Jersey residents seeking to clear their criminal records.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Volunteer Lawyers for Justice (VLJ) - ReLeSe Program",
+    "type": "legal aid",
+    "url": "https://www.vljnj.org/relese",
+    "area_served": "Statewide",
+    "what_they_offer": "Runs virtual monthly legal clinics to check expungement eligibility and help clients e-file pro se petitions. Complex cases are placed with pro bono attorneys for full representation, and volunteers also help answer objections.",
+    "who_qualifies": "Individuals with New Jersey criminal records who pass financial screening.",
+    "cost": "Free",
+    "phone": "(973) 645-1955"
+   },
+   {
+    "name": "Rutgers Law School Expungement Law Project",
+    "type": "law school clinic",
+    "url": "https://www.law.rutgers.edu/information-for/get-legal-help/expungement-law-project",
+    "area_served": "Statewide",
+    "what_they_offer": "Supervised law students provide pro bono legal representation to help clear New Jersey criminal records, as well as community information sessions and consultation clinics.",
+    "who_qualifies": "Low-income individuals seeking expungement of their New Jersey criminal history.",
+    "cost": "Free",
+    "phone": "856-225-2570"
+   },
+   {
+    "name": "NNJLS",
+    "type": "legal aid",
+    "url": "https://www.nnjls.org/expungements",
+    "area_served": null,
+    "what_they_offer": "Reviews criminal records to advise on expungement eligibility and files petitions with the court to seal dismissed cases, eligible convictions, or clean sweep conviction groups.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "South Jersey Legal Services, Inc. (SJLS) - The Expungement Project",
+    "type": "legal aid",
+    "url": "https://sjlslaw.org/the-expungement-project/",
+    "area_served": null,
+    "what_they_offer": "Staff and volunteer attorneys help clients obtain expungements of their New Jersey criminal records, excluding out-of-state and involuntary civil commitment records.",
+    "who_qualifies": "Income-eligible individuals whose New Jersey expungement cases meet the organization's board guidelines.",
+    "cost": null,
+    "phone": "1-800-496-4570"
+   },
+   {
+    "name": "Legal Services of New Jersey (LSNJ) - Reentry Project",
+    "type": "legal aid",
+    "url": "https://proxy.lsnj.org/rcenter/GetPublicDocument/Sites/LSNJ/Documents/Brochures/REPEnglishBrochure.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides civil legal assistance, individual representation, and educational guides for expungements, pardon applications, and correcting errors on criminal records and background checks.",
+    "who_qualifies": "People with limited income in New Jersey.",
+    "cost": "Free",
+    "phone": "1-888-576-5529"
+   },
+   {
+    "name": "New Jersey Courts (eCourts Expungement System)",
+    "type": "court self-help",
+    "url": "https://www.njcourts.gov/self-help/expunge-record",
+    "area_served": null,
+    "what_they_offer": "Provides a free online system to file expungement petitions, along with case number lookup tools, step-by-step user guides, instructional videos, and local court ombudsman support.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "HI": [
+   {
+    "name": "Hawaiʻi Criminal Justice Data Center (Department of the Attorney General)",
+    "type": "government programme",
+    "url": "https://ag.hawaii.gov/hcjdc/expungements/",
+    "area_served": "Statewide",
+    "what_they_offer": "State agency that processes applications to expunge non-conviction arrest records and qualifying conviction records. For orders granted on or after July 1, 2025, it automatically sends the expungement order to the Judiciary to seal or remove related court case records.",
+    "who_qualifies": "People arrested or charged with a crime in Hawaii without a resulting conviction (subject to statutory exclusions and waiting periods), or individuals with court orders for certain first-time drug or under-21 alcohol driving convictions.",
+    "cost": "$35 for a first-time expungement; $50 for a subsequent expungement",
+    "phone": "(808) 587-3348"
+   },
+   {
+    "name": "Beyond Guilt Hawaiʻi – William S. Richardson School of Law",
+    "type": "law school clinic",
+    "url": "https://www.hawaii.edu/news/2021/10/18/legal-clinic-unjust-sentencing/",
+    "area_served": null,
+    "what_they_offer": "Law school clinic started with the Hawaiʻi Innocence Project that offers free legal help with expungements, court case sealing, pardons, commutations, compassionate release, and parole. Law school students and staff also assist volunteer attorneys at free community expungement clinics.",
+    "who_qualifies": "Formerly or currently incarcerated individuals contesting unjust sentences or people seeking assistance with record clearing, clemency, drug offenses, or parole.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Legal Aid Society of Hawaii (LASH)",
+    "type": "legal aid",
+    "url": "https://secondchancestartguide.com/blog/hawaii-expungement-legal-aid",
+    "area_served": "All major islands",
+    "what_they_offer": "Provides free legal assistance with criminal record expungement cases through offices on all major islands following an application, income check, and case review.",
+    "who_qualifies": "Low-income residents who meet income eligibility limits, typically around 125% of the federal poverty guidelines.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Volunteer Legal Services Hawaiʻi (VLSH)",
+    "type": "legal aid",
+    "url": "https://secondchancestartguide.com/blog/hawaii-expungement-legal-aid",
+    "area_served": "Statewide",
+    "what_they_offer": "Coordinates volunteer pro bono attorneys to provide free legal advice and expungement assistance at periodic community clinics on Oʻahu and the neighbor islands.",
+    "who_qualifies": "Residents who meet income eligibility limits, typically around 125% of the federal poverty guidelines.",
+    "cost": "Free",
+    "phone": null
+   }
+  ],
+  "VT": [
+   {
+    "name": "Vermont Legal Aid and Legal Services Vermont",
+    "type": "legal aid",
+    "url": "https://www.vtlawhelp.org/expungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides online self-help guides on VTLawHelp.org explaining how to seal or expunge Vermont criminal records, as well as civil legal services and periodic community expungement clinics with attorneys.",
+    "who_qualifies": "Eligible Vermonters seeking civil legal services or attending partner clinics.",
+    "cost": "Free",
+    "phone": "800-889-2047"
+   },
+   {
+    "name": "Office of the Vermont Attorney General",
+    "type": "government programme",
+    "url": "https://ago.vermont.gov/blog/2025/12/18/criminal-record-clearing-clinic-set-january-15-brattleboro",
+    "area_served": "Statewide",
+    "what_they_offer": "Hosts periodic criminal record clearing clinics across Vermont where attorneys from the Attorney General's Office help prepare petitions to seal or expunge qualifying convictions and dismissed charges.",
+    "who_qualifies": "Members of the public with qualifying Vermont criminal convictions or dismissed charges who book an appointment in advance.",
+    "cost": "Free",
+    "phone": "802-828-3171"
+   },
+   {
+    "name": "Center for Justice Reform Clinic at Vermont Law and Graduate School",
+    "type": "law school clinic",
+    "url": "https://www.vermontlaw.edu/academics/clinics-and-externships/center-for-justice-reform-clinic",
+    "area_served": "Statewide",
+    "what_they_offer": "Law and graduate student clinicians work under attorney supervision to help individuals prepare and submit petitions to seal or expunge criminal convictions.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "(802) 831-1000"
+   },
+   {
+    "name": "South Royalton Legal Clinic at Vermont Law and Graduate School",
+    "type": "law school clinic",
+    "url": "https://www.vermontlaw.edu/academics/clinics-and-externships/south-royalton-legal-clinic",
+    "area_served": null,
+    "what_they_offer": "Student clinicians supervised by staff attorneys represent clients in civil legal matters, including helping veterans with criminal record expungement.",
+    "who_qualifies": "Eligible veterans who complete the clinic's intake screening process.",
+    "cost": "Free",
+    "phone": "802-831-1500"
+   },
+   {
+    "name": "Vermont Judiciary Resource and Access Center",
+    "type": "court self-help",
+    "url": "https://search.vermont211.org/search?query=FT-2800.1500&query_label=Criminal+Record+Expungement+Assistance&query_type=taxonomy",
+    "area_served": "Burlington",
+    "what_they_offer": "Helps people navigate the Vermont court system, fill out court forms, and handle administrative steps for criminal record expungement.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "8029511740"
+   },
+   {
+    "name": "Center for Restorative Justice",
+    "type": "nonprofit",
+    "url": "https://search.vermont211.org/search?query=FT-2800.1500&query_label=Criminal+Record+Expungement+Assistance&query_type=taxonomy",
+    "area_served": "Bennington",
+    "what_they_offer": "Offers guidance and hands-on assistance to people filing court petitions to clear their past criminal records.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "8024471595"
+   },
+   {
+    "name": "The Root Social Justice Center",
+    "type": "nonprofit",
+    "url": "https://www.vtlegalaid.org/news/bipoc-expungement-clinic-october-24",
+    "area_served": "Brattleboro",
+    "what_they_offer": "Partners with Vermont Legal Aid to host in-person clinics in Brattleboro where an attorney helps participants expunge Vermont criminal records.",
+    "who_qualifies": "Black, Indigenous, and People of Color (BIPOC) Vermonters seeking help with Vermont criminal charges.",
+    "cost": null,
+    "phone": "802-885-5181"
+   }
+  ],
+  "NE": [
+   {
+    "name": "Legal Aid of Nebraska",
+    "type": "legal aid",
+    "url": "https://legalaidofnebraska.org/what-we-do/programs/clean-slate.html",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free legal representation, periodic record-clearing clinics, and online step-by-step guides to help seal adult and juvenile records, set aside criminal convictions, and pursue pardons.",
+    "who_qualifies": "US citizens and lawful permanent residents with limited household income and assets (generally 125% of the federal poverty level, though exceptions apply for seniors 60+ and public clinics).",
+    "cost": "Free legal services (clients may have to pay court costs)",
+    "phone": "1.877.250.2016"
+   },
+   {
+    "name": "University of Nebraska College of Law - Nebraska Innocence Clinic & Clean Slate Project",
+    "type": "law school clinic",
+    "url": "https://law.unl.edu/innocence-clinics-clean-slate/",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers pro bono legal assistance and direct representation to set aside criminal convictions, obtain pardons, and seal adult and juvenile criminal records.",
+    "who_qualifies": "Qualifying Nebraskans, including veterans, non-veterans, and survivors of human trafficking.",
+    "cost": "Free (pro bono)",
+    "phone": "(402) 472-5618"
+   },
+   {
+    "name": "Nebraska Judicial Branch Self-Help Center",
+    "type": "court self-help",
+    "url": "https://nebraskajudicial.gov/self-help/criminal-record-rehabilitation",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides online self-help instructions, a Clean Slate Eligibility Questionnaire, and a guided form-completion tool for adult and juvenile record sealing, conviction set-asides, and pardons.",
+    "who_qualifies": null,
+    "cost": "Free online tools (small fees apply if ordering criminal history records)",
+    "phone": null
+   }
+  ],
+  "MD": [
+   {
+    "name": "Maryland Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.mdlab.org/free-legal-clinics/",
+    "area_served": "Statewide (Baltimore City and all 23 counties)",
+    "what_they_offer": "Provides free civil legal help for criminal record expungements, including eligibility reviews, same-day petition drafting at community clinics, and representation in expungement hearings through 12 offices.",
+    "who_qualifies": "Financially eligible low-income individuals and households (most clients have incomes at or below 125% of the federal poverty guidelines).",
+    "cost": "Free",
+    "phone": "1-888-465-2468"
+   },
+   {
+    "name": "Maryland Center for Legal Assistance (MCLA)",
+    "type": "legal aid",
+    "url": "https://www.mdcla.org/",
+    "area_served": "Statewide (via phone, live chat, and walk-in Help Centers across Maryland)",
+    "what_they_offer": "Provides legal advice and education through the Maryland Courts Help Centers to help self-represented individuals handle civil matters including criminal record expungements.",
+    "who_qualifies": "All people, regardless of means or background.",
+    "cost": "Free",
+    "phone": "410-260-1392"
+   },
+   {
+    "name": "Community Legal Services of Prince George's County",
+    "type": "legal aid",
+    "url": "https://www.peoples-law.org/referrals-help-expungements",
+    "area_served": "Statewide",
+    "what_they_offer": "Helps people complete expungement petitions through external clinic events, online intake, and legal representation.",
+    "who_qualifies": "All eligible Marylanders, regardless of income.",
+    "cost": "Free",
+    "phone": "800-574-0709 / 240-391-6370"
+   },
+   {
+    "name": "Maryland Volunteer Lawyers Service (MVLS)",
+    "type": "legal aid",
+    "url": "https://www.peoples-law.org/referrals-help-expungements",
+    "area_served": null,
+    "what_they_offer": "Provides legal assistance to individuals seeking expungement of their criminal record through online and telephone intake.",
+    "who_qualifies": "Individuals who meet specific income eligibility and geographical location requirements.",
+    "cost": null,
+    "phone": "410-547-6537 / 800-510-0050"
+   },
+   {
+    "name": "Civil Justice, Inc.",
+    "type": "nonprofit",
+    "url": "https://www.peoples-law.org/referrals-help-expungements",
+    "area_served": null,
+    "what_they_offer": "Operates a legal referral service connecting individuals with reduced-fee (low/mid-bono) attorneys for criminal record expungement help.",
+    "who_qualifies": "Low to moderate income individuals who may not qualify for Maryland Legal Aid or Maryland Volunteer Lawyers Service.",
+    "cost": "Low/mid-bono (not free)",
+    "phone": "443-853-1011"
+   },
+   {
+    "name": "HPRP",
+    "type": "legal aid",
+    "url": "https://www.hprplaw.org/get_legal_help/expungement",
+    "area_served": "Baltimore City, Montgomery County, and Prince George's County",
+    "what_they_offer": "Conducts community-based, hybrid, and telephone expungement intakes to determine if individuals can petition the court to remove criminal charges from their records.",
+    "who_qualifies": "Homeless and low-income persons with Maryland state criminal records.",
+    "cost": null,
+    "phone": "410.685.6589 / 410.387.3126"
+   },
+   {
+    "name": "Office of the Public Defender",
+    "type": "public defender",
+    "url": "https://opd.state.md.us/expungement",
+    "area_served": "Statewide (including Baltimore City and Prince George's County)",
+    "what_they_offer": "Provides expungement, record shielding, MVA expungement, and pardon resource manuals and information, as well as the Prince George's County CARE Program.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "1.877.430.5187"
+   }
+  ],
+  "IA": [
+   {
+    "name": "Iowa Legal Aid",
+    "type": "legal aid",
+    "url": "https://iowalegalaid.org/get-help/faq/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free legal representation and clinics across Iowa to help expunge eligible adult criminal and juvenile records, as well as help with court debt and driver's license barriers.",
+    "who_qualifies": "Low-income Iowans generally earning up to 125% of the federal poverty level (or up to 200% in some cases), veterans, people aged 60 or older, and survivors of domestic abuse.",
+    "cost": "Free",
+    "phone": "1-800-532-1275"
+   },
+   {
+    "name": "Des Moines Abolition Coalition and Des Moines Mutual Aid",
+    "type": "nonprofit",
+    "url": "https://iowamutualaid.org/expungement-program",
+    "area_served": null,
+    "what_they_offer": "Helps individuals expunge qualifying Iowa criminal records, such as dismissed or acquitted charges, from public view.",
+    "who_qualifies": "Available to anyone with qualifying Iowa criminal records.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Iowa Judicial Branch",
+    "type": "court self-help",
+    "url": "https://www.peopleslawiowa.org/index.php/research-topics/veterans/expungement-criminal-convictions",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides self-help court forms that individuals without a lawyer can file to request expungement of eligible criminal records.",
+    "who_qualifies": "People without an attorney seeking to expunge eligible court records.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Iowa State Bar Association",
+    "type": "bar association",
+    "url": "https://www.peopleslawiowa.org/index.php/research-topics/veterans/expungement-criminal-convictions",
+    "area_served": "Statewide",
+    "what_they_offer": "Operates Iowa Free Legal Answers for limited online pro bono legal advice and the Find-A-Lawyer directory of licensed attorneys who assist with expungements.",
+    "who_qualifies": "Users must complete online screening questions to qualify for Iowa Free Legal Answers; anyone can use the Find-A-Lawyer directory.",
+    "cost": "Free for qualifying Iowa Free Legal Answers users; $25 or less for up to 30 minutes of initial consultation through Find-A-Lawyer",
+    "phone": "(515) 243-3179"
+   },
+   {
+    "name": "University of Iowa Student Legal Services",
+    "type": "legal aid",
+    "url": "https://studentlegal.uiowa.edu/know-the-law/criminal-law/expungement",
+    "area_served": null,
+    "what_they_offer": "Provides legal guidance and consultations regarding Iowa criminal record expungements for university students.",
+    "who_qualifies": "University of Iowa students.",
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "AL": [
+   {
+    "name": "Legal Services Alabama",
+    "type": "legal aid",
+    "url": "https://legalservicesalabama.org/virtual-pro-bono-road-to-redemption-expungement-clinics-north-alabama/",
+    "area_served": "Statewide (all 67 counties)",
+    "what_they_offer": "Provides free legal representation, virtual and in-person expungement clinics, and criminal record sealing or expungement assistance for veterans.",
+    "who_qualifies": "Low-income Alabamians with eligible charges, as well as qualifying veterans who were discharged under conditions other than dishonorable or are at risk of homelessness.",
+    "cost": "Free",
+    "phone": "866 456 4995"
+   },
+   {
+    "name": "Volunteer Lawyers Birmingham",
+    "type": "legal aid",
+    "url": "https://www.vlbham.org/what-we-do/expungements",
+    "area_served": "Jefferson County",
+    "what_they_offer": "Offers expungement clinics, step-by-step client guides, and legal assistance to clear eligible criminal charges and misdemeanor convictions.",
+    "who_qualifies": "Low-income residents of Jefferson County who have a qualifying charge or conviction.",
+    "cost": "Free",
+    "phone": "205.250.5198"
+   },
+   {
+    "name": "University of Alabama School of Law Criminal Defense Clinic",
+    "type": "law school clinic",
+    "url": "https://law.ua.edu/academics/law-clinics/criminal-defense-clinic/",
+    "area_served": "Tuscaloosa and nearby areas (within 1 hour of the law school)",
+    "what_they_offer": "Law students under faculty supervision provide free legal help with expungements, minor offenses, eligibility screenings, and fee waiver motions.",
+    "who_qualifies": "People who cannot afford a lawyer with cases in a courthouse within one hour of the law school, excluding felony charges, incarcerated individuals unable to make bail, and people who already have a public defender.",
+    "cost": "Free",
+    "phone": "(205) 348-4960"
+   },
+   {
+    "name": "AlabamaLegalHelp.org",
+    "type": "legal aid",
+    "url": "https://www.alabamalegalhelp.org/resource/expungements-in-alabama",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online self-help guide explaining Alabama expungement eligibility, required records, and links to the expungement petition and fee-waiver forms.",
+    "who_qualifies": null,
+    "cost": "Free online information (filing and record fees apply unless waived via Affidavit of Substantial Hardship)",
+    "phone": "1-866-456-4995"
+   },
+   {
+    "name": "Alabama Law Enforcement Agency (ALEA)",
+    "type": "government programme",
+    "url": "https://www.alea.gov/criminal-record-expungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official information, instructions, and the form required to obtain a certified criminal history record needed before filing for expungement, along with links to court petition forms.",
+    "who_qualifies": null,
+    "cost": "$25 for the certified criminal history record",
+    "phone": null
+   },
+   {
+    "name": "Alabama Non-Violent Offenders (ANVO)",
+    "type": "nonprofit",
+    "url": "https://www.alhelp.org/service/list/?c=48",
+    "area_served": "Madison County",
+    "what_they_offer": "Helps non-violent offenders on a case-by-case basis to get Alabama or out-of-state arrest records expunged, apply for state pardons, and reinstate voting rights.",
+    "who_qualifies": "Non-violent offenders.",
+    "cost": null,
+    "phone": "256-288-3175"
+   },
+   {
+    "name": "Madison County Volunteer Lawyers",
+    "type": "legal aid",
+    "url": "https://www.hivlawandpolicy.org/sites/default/files/2025-12/A%20Directory%20of%20State-specific%20Record%20Clearing%20Resources%2C%20CHLP%202025.pdf",
+    "area_served": "Madison County",
+    "what_they_offer": "Listed in a directory of state-specific organizations providing free or low-cost criminal record clearing services.",
+    "who_qualifies": null,
+    "cost": "Free or low-cost",
+    "phone": "215-539-2275"
+   },
+   {
+    "name": "South Alabama Volunteer Lawyers",
+    "type": "legal aid",
+    "url": "https://www.hivlawandpolicy.org/sites/default/files/2025-12/A%20Directory%20of%20State-specific%20Record%20Clearing%20Resources%2C%20CHLP%202025.pdf",
+    "area_served": "South Alabama / Mobile",
+    "what_they_offer": "Listed in a directory of state-specific organizations providing free or low-cost criminal record clearing services.",
+    "who_qualifies": null,
+    "cost": "Free or low-cost",
+    "phone": "251-438-1102"
+   },
+   {
+    "name": "City of Birmingham Free Expungement Clinic",
+    "type": "government programme",
+    "url": "https://www.birminghamal.gov/events/2026-10-22free-expungement-clinic",
+    "area_served": "Birmingham",
+    "what_they_offer": "Hosts a free clinic with attorneys, court personnel, and partner legal groups to help residents clear eligible charges from their records by appointment.",
+    "who_qualifies": "Residents with eligible charges who complete a prescreen form in advance.",
+    "cost": "Free",
+    "phone": "(205) 250-5198"
+   }
+  ],
+  "WA": [
+   {
+    "name": "King County Bar Association – The Records Project",
+    "type": "bar association",
+    "url": "https://www.kcba.org/?pg=The-Records-Project",
+    "area_served": "King County",
+    "what_they_offer": "Provides free legal representation to help residents vacate eligible criminal convictions in King County.",
+    "who_qualifies": "King County residents with incomes at or below 200% of the federal poverty level who have at least one eligible conviction in King County.",
+    "cost": "Free",
+    "phone": "(206) 267-7085"
+   },
+   {
+    "name": "Northwest Justice Project (CLEAR Line)",
+    "type": "legal aid",
+    "url": "https://www.nwjustice.org/what-we-do/reentry/",
+    "area_served": "Statewide",
+    "what_they_offer": "Helps people vacate past criminal convictions including Blake drug possession convictions, reduce or eliminate legal financial obligations, and restore driver's licenses. Operates the statewide CLEAR legal hotline for screening and referrals outside King County (in King County, callers dial 211).",
+    "who_qualifies": "People with low incomes.",
+    "cost": null,
+    "phone": "1-888-201-1014"
+   },
+   {
+    "name": "Civil Survival Project",
+    "type": "nonprofit",
+    "url": "https://ocla.wa.gov/programs/re-entry-legal-services",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides reentry legal advice, self-help guides, community clinics, and case-by-case representation to vacate eligible criminal convictions, clear Blake drug possession convictions, and reduce legal financial obligations.",
+    "who_qualifies": "Individuals with reentry-related legal needs resulting from prior involvement with the criminal legal system.",
+    "cost": "Free consultation",
+    "phone": null
+   },
+   {
+    "name": "Clark County Volunteer Lawyers Program",
+    "type": "legal aid",
+    "url": "https://civilsurvival.org/guides/free-low-cost-support-for-vacating-records/",
+    "area_served": "Clark County",
+    "what_they_offer": "Offers one-on-one advising appointments and attorney paperwork support for self-represented individuals vacating records, with possible full representation on a case-by-case basis.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "360-695-5313"
+   },
+   {
+    "name": "Lavender Rights Project",
+    "type": "nonprofit",
+    "url": "https://civilsurvival.org/guides/free-low-cost-support-for-vacating-records/",
+    "area_served": "King County",
+    "what_they_offer": "Provides full legal representation to help clients vacate criminal records.",
+    "who_qualifies": "LGBTQ individuals seeking to vacate their criminal records.",
+    "cost": null,
+    "phone": "206-639-7955"
+   },
+   {
+    "name": "Tacomaprobono",
+    "type": "legal aid",
+    "url": "https://civilsurvival.org/guides/free-low-cost-support-for-vacating-records/",
+    "area_served": "Pierce County",
+    "what_they_offer": "Assists with civil legal matters including vacating records in Pierce County, with walk-in hours Monday through Thursday.",
+    "who_qualifies": "People who cannot afford to hire an attorney for a legal issue in Pierce County, regardless of where they live.",
+    "cost": null,
+    "phone": "253-572-5134"
+   },
+   {
+    "name": "Center for Justice",
+    "type": "nonprofit",
+    "url": "https://civilsurvival.org/guides/free-low-cost-support-for-vacating-records/",
+    "area_served": "Spokane County",
+    "what_they_offer": "Offers low-cost legal assistance with vacating adult convictions and sealing records in the Spokane County court system.",
+    "who_qualifies": "Individuals seeking to clear adult convictions or seal records in Spokane County courts.",
+    "cost": "$200 for Vacate and Expungement Assistance and $200 for Sealing Assistance (vouchers, scholarships, and sliding scale available)",
+    "phone": "509-835-5211"
+   },
+   {
+    "name": "Skagit Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.skagitlegalaid.org/legal-clinics-post-conviction",
+    "area_served": "Skagit, San Juan, Island, and Whatcom counties",
+    "what_they_offer": "Hosts rotating post-conviction clinics where volunteer attorneys review court records to check eligibility for vacating convictions and reducing or waiving legal financial obligations.",
+    "who_qualifies": "Anyone with convictions in Skagit, San Juan, or Island County (and Whatcom County under the state CRP partnership).",
+    "cost": "Free screening",
+    "phone": "(360) 230-8101"
+   },
+   {
+    "name": "Living with Conviction",
+    "type": "nonprofit",
+    "url": "https://opd.wa.gov/legal-assistance",
+    "area_served": "King, Pierce, Spokane, Clark, Cowlitz, and Wahkiakum counties",
+    "what_they_offer": "Provides legal information and post-conviction support regarding vacating drug possession charges, clearing eligible records, and addressing legal financial obligations.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "1-206-307-3028"
+   },
+   {
+    "name": "Gonzaga University School of Law – Juvenile Record Sealing Project",
+    "type": "law school clinic",
+    "url": "https://www.gonzaga.edu/school-of-law/clinic-centers/juvenile-record-sealing-project",
+    "area_served": "Spokane County",
+    "what_they_offer": "Helps eligible individuals seal juvenile court records in Spokane County.",
+    "who_qualifies": "People with eligible Spokane County juvenile records (excluding Rape 1, Rape 2, and Indecent Liberties with Forcible Compulsion) who have no open charges or active diversion, owe no restitution, and have completed the two- or five-year waiting period.",
+    "cost": "Free",
+    "phone": "(800) 986.9585"
+   },
+   {
+    "name": "Washington State Department of Commerce – Post-Conviction Legal Aid Program (CRP)",
+    "type": "government programme",
+    "url": "https://www.commerce.wa.gov/crp/crp-legal-assistance/",
+    "area_served": "Statewide",
+    "what_they_offer": "Funds regional legal aid and community partners across Washington (including Civil Survival, Skagit Legal Aid, Washington West African Center, Living with Conviction, Institute for Black Justice, Timberland Legal Aid, Seattle Clemency Project, and Washington Defender Association) to assist with vacating criminal records, reducing court fines, and restoring licenses.",
+    "who_qualifies": "People overcoming post-conviction barriers after involvement with the criminal legal system.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Washington Courts",
+    "type": "court self-help",
+    "url": "https://www.courts.wa.gov/newsinfo/content/GuideToCrimHistoryRecords_Brochure.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Publishes an informational guide explaining state laws and procedures for sealing and destroying juvenile and adult court records, vacating convictions, and deleting criminal history records.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Washington State Patrol – Criminal History Records Section",
+    "type": "government programme",
+    "url": "https://wsp.wa.gov/wp-content/uploads/2024/08/240040_Expungement_Checklist_R_7-24.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Processes mail-in requests to delete eligible nonconviction arrest and charge records from Washington State Patrol criminal history files.",
+    "who_qualifies": "People with nonconviction records after two years from a favorable disposition or three years from arrest/citation, provided they have no prior felony or gross misdemeanor convictions, no intervening arrests or charges, and the case was not a deferred prosecution.",
+    "cost": "Free",
+    "phone": "(360) 534-2000"
+   }
+  ],
+  "CT": [
+   {
+    "name": "Statewide Legal Services",
+    "type": "legal aid",
+    "url": "https://www.nhvnavigator.com/resources/ctlawhelp-free-guides-to-clearing-a-criminal-record",
+    "area_served": "Statewide",
+    "what_they_offer": "Operates a central legal aid hotline and provides plain-language guides via CTLawHelp on Clean Slate, cannabis erasure, pardons, and juvenile records. Screens callers and routes eligible residents to regional legal aid offices when an erasable record causes a job or housing denial.",
+    "who_qualifies": "Income-qualifying Connecticut residents who pass legal aid financial screening.",
+    "cost": "Free",
+    "phone": "(800) 453-3320"
+   },
+   {
+    "name": "Greater Hartford Legal Aid Pardon Equity Project",
+    "type": "legal aid",
+    "url": "https://www.jud.ct.gov/clinics/",
+    "area_served": "Greater Hartford",
+    "what_they_offer": "Provides legal consultations to determine pardon eligibility and offers assistance with pardon applications, reachable by phone or at pardons@ghla.org.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "860-541-5045"
+   },
+   {
+    "name": "Connecticut Legal Services",
+    "type": "legal aid",
+    "url": "https://www.jud.ct.gov/clinics/",
+    "area_served": "Throughout Connecticut except Greater Hartford and New Haven",
+    "what_they_offer": "Offers consultations with a lawyer to check pardon eligibility, assistance with pardon applications, and reentry legal guides.",
+    "who_qualifies": "Low-income Connecticut residents outside the Greater Hartford and New Haven areas.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "New Haven Legal Assistance Association",
+    "type": "legal aid",
+    "url": "https://www.nhvnavigator.com/resources/clean-slate-ct-record-expungement",
+    "area_served": "New Haven area",
+    "what_they_offer": "Provides legal screening and help with pardon applications as well as assistance when a conviction eligible for Clean Slate or cannabis erasure causes a housing or job denial.",
+    "who_qualifies": "Income-screened residents in the New Haven area, particularly those facing a housing or employment denial or deadline.",
+    "cost": "Free",
+    "phone": "(203) 946-4811"
+   },
+   {
+    "name": "New Haven Pardon Program",
+    "type": "nonprofit",
+    "url": "https://www.nhvnavigator.com/resources/clean-slate-ct-record-expungement",
+    "area_served": "New Haven",
+    "what_they_offer": "Provides hands-on assistance with completing Connecticut pardon applications via email at nhpardonprogram@gmail.com.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Connecticut Pardon Team, Inc.",
+    "type": "nonprofit",
+    "url": "https://www.connecticutpardonteam.org/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides non-legal information, tools, advice, and support to help individuals navigate the Board of Pardons and Paroles application process to seal or expunge convictions.",
+    "who_qualifies": "Individuals formerly convicted of a crime who have completed parole and/or probation and taken positive steps toward rehabilitation.",
+    "cost": null,
+    "phone": "(860) 823-1571"
+   },
+   {
+    "name": "Clean Slate Connecticut",
+    "type": "government programme",
+    "url": "https://portal.ct.gov/cleanslate",
+    "area_served": "Statewide",
+    "what_they_offer": "Administers automatic record erasure for eligible post-2000 criminal and cannabis convictions and provides step-by-step instructions and court petition forms (Form JD-CR-202) for pre-2000 convictions.",
+    "who_qualifies": "Individuals with eligible misdemeanors or low-level felonies who have completed their sentences and remained conviction-free for seven or ten years, or those with qualifying cannabis convictions.",
+    "cost": "Zero court filing fees; fee applies for requesting an official criminal history record",
+    "phone": null
+   },
+   {
+    "name": "Connecticut Judicial Branch Law Libraries",
+    "type": "court self-help",
+    "url": "https://www.jud.ct.gov/lawlib/law/criminal.htm",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides an online self-help portal with criminal case lookup tools, the Clean Slate erasure court petition form (Form JD-CR-202), erasure statutes, and links to legal aid guides.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "OK": [
+   {
+    "name": "Oklahoma City University School of Law - HEROES Clinic",
+    "type": "law school clinic",
+    "url": "https://law.okcu.edu/the-docket/heroes/",
+    "area_served": "Cleveland, Pottawatomie, Oklahoma, and Canadian Counties",
+    "what_they_offer": "Law students supervised by faculty and Legal Aid attorneys assess eligibility, draft expungement petitions, and represent clients to clear criminal records and waive court fines and fees.",
+    "who_qualifies": "Individuals whose arrests, charges, or convictions meet statutory expungement requirements, as well as people unable to pay outstanding court debt.",
+    "cost": "Services donated by student attorneys",
+    "phone": null
+   },
+   {
+    "name": "Still She Rises, Tulsa",
+    "type": "nonprofit",
+    "url": "https://stillsherises.org/",
+    "area_served": "North Tulsa",
+    "what_they_offer": "Provides holistic legal representation for expungement, criminal, municipal, parent defense, and court debt cases, and connects callers to other Tulsa legal resources when at capacity.",
+    "who_qualifies": "Low-income mothers in North Tulsa.",
+    "cost": null,
+    "phone": "(918) 392-0867"
+   },
+   {
+    "name": "Oklahoma State Bureau of Investigation (OSBI) - Clean Slate Initiative",
+    "type": "government programme",
+    "url": "https://oklahoma.gov/osbi/services/information-services-division/clean-slate-initiative.html",
+    "area_served": "Statewide",
+    "what_they_offer": "Operates Oklahoma's Clean Slate process and Expedited Clean Slate Portal to clear eligible criminal history records without a court petition, and provides guidance on processing petition-based expungements.",
+    "who_qualifies": "Individuals with Clean Slate-eligible Oklahoma criminal records that contain final disposition information.",
+    "cost": "Court record expungement is free; arrest record expungement by petition has a $150 OSBI processing fee",
+    "phone": "405-879-2641"
+   },
+   {
+    "name": "Urban League of Greater Oklahoma City Inc.",
+    "type": "nonprofit",
+    "url": "https://www.okbar.org/pro-bono-expungement-clinics-creating-second-chances/",
+    "area_served": null,
+    "what_they_offer": "Hosts an annual Expungement Expo every June where applicants submit their OSBI report to be screened by volunteer attorneys for pro bono expungement representation.",
+    "who_qualifies": null,
+    "cost": "Pro bono",
+    "phone": null
+   },
+   {
+    "name": "Criminal Justice and Mercy Ministries (CJAMM)",
+    "type": "nonprofit",
+    "url": "https://www.cjamm.org/legal-assistance/",
+    "area_served": "Statewide",
+    "what_they_offer": "Assists with record-clearing eligibility assessments, document preparation, and court filing guidance, and connects individuals with legal professionals who handle expungement and record sealing.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Oklahoma Indian Legal Services (OILS)",
+    "type": "legal aid",
+    "url": "https://oilsonline.org/services",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides legal assistance from attorneys on Native American legal matters, including criminal record expungement and sealing.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Project Commutation (JusticeLink)",
+    "type": "nonprofit",
+    "url": "https://www.projectcommutation.org/team",
+    "area_served": "Tulsa County and statewide",
+    "what_they_offer": "Provides an expungement attorney to help clients erase court records and clear OSBI background checks, alongside parole and commutation advocacy.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "NV": [
+   {
+    "name": "Legal Aid Center of Southern Nevada",
+    "type": "legal aid",
+    "url": "https://www.lacsn.org/practice-areas/consumer-rights-project/record-sealing",
+    "area_served": "Clark County",
+    "what_they_offer": "Provides free record sealing classes, forms, instructions, and one-on-one legal assistance through its Clean Slate Legal Assistance Program. Also helps eligible hotel and casino union workers and their families seal criminal records through the Culinary and Bartenders Unions Legal Service Fund Program.",
+    "who_qualifies": "Lower-income individuals with eligible records and no open cases or active warrants qualify, as do eligible Culinary Workers Union Local 226 and Bartenders Union Local 165 employees and their dependents.",
+    "cost": "Free legal services (court filing or application fees may apply)",
+    "phone": "702-386-1070, option 8"
+   },
+   {
+    "name": "Nevada Legal Services",
+    "type": "legal aid",
+    "url": "https://nevadalegalservices.org/five-things-to-know-about-sealing-nevada-criminal-records/",
+    "area_served": "Statewide",
+    "what_they_offer": "Offers weekly criminal record sealing classes in partnership with the UNLV William S. Boyd School of Law, along with self-help manuals. Also provides free legal advice and representation to help clients petition the court to seal past criminal records.",
+    "who_qualifies": "Community education classes are open to all, and legal advice and representation are available to eligible low-income Nevadans.",
+    "cost": "Free",
+    "phone": "702-386-0404"
+   },
+   {
+    "name": "UNLV William S. Boyd School of Law - Survivor Representation & Advocacy Clinic",
+    "type": "law school clinic",
+    "url": "https://law.unlv.edu/clinics/survivor-representation/our-work",
+    "area_served": null,
+    "what_they_offer": "Provides client-centered, trauma-informed legal representation for criminal record sealing, clemency, and pardon proceedings. Law students at the Boyd School of Law also teach free community classes on navigating the record sealing process in partnership with Nevada Legal Services.",
+    "who_qualifies": "Clinic representation is offered to people experiencing or at risk of experiencing traumatic violence, including intimate partner, gender-based, or state violence.",
+    "cost": "Free",
+    "phone": "702-895-2080"
+   }
+  ],
+  "ND": [
+   {
+    "name": "Legal Services of North Dakota",
+    "type": "legal aid",
+    "url": "https://lsnd.org/get-help/",
+    "area_served": "Statewide and three tribal nations",
+    "what_they_offer": "Provides civil legal aid to eligible residents, including assistance or referrals for record sealing and reentry barriers, as well as screening for the Volunteer Lawyers program. They do not represent incarcerated people or handle criminal defense.",
+    "who_qualifies": "Low-income North Dakotans (generally at or below 125% of the federal poverty level) and seniors age 60 or older who are U.S. citizens or have proof of eligible immigration status.",
+    "cost": "Free",
+    "phone": "1-800-634-5263 (Under age 60); 1-866-621-9886 (Age 60+)"
+   },
+   {
+    "name": "The F5 Project",
+    "type": "nonprofit",
+    "url": "https://secondchancestartguide.com/blog/north-dakota-record-sealing-legal-aid",
+    "area_served": "Fargo",
+    "what_they_offer": "Helps justice-impacted individuals navigate the record-sealing process and connects them with pro bono attorneys. They also offer reentry services including mentoring and employment support.",
+    "who_qualifies": "Justice-impacted individuals seeking reentry and record-sealing support.",
+    "cost": "Free or low-cost",
+    "phone": null
+   },
+   {
+    "name": "North Dakota Legal Self Help Center",
+    "type": "court self-help",
+    "url": "https://www.ndcourts.gov/Media/Default/Legal%20Resources/Legal%20Self%20Help/Other%20Forms/Expungement.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Publishes legal research guides on expunging criminal records, sealing criminal records, and sealing DUI records, along with court fee waiver forms and an official form to close older nonconviction records. The center cannot provide forms for conviction sealing or direct help with criminal court processes.",
+    "who_qualifies": "Self-represented individuals researching North Dakota state court processes.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "North Dakota Supreme Court Law Library",
+    "type": "court self-help",
+    "url": "https://www.ndcourts.gov/Media/Default/legal-resources/law-library/NDSCLL%20Expunge%20Seal%20Crim%20Recs.pdf",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides legal research guides and statutory references covering criminal record expungement, conviction sealing, and DUI record sealing in North Dakota.",
+    "who_qualifies": "Open to the judicial system, state agencies, bar members, and the public to the extent it does not compromise the library's primary purpose.",
+    "cost": null,
+    "phone": "(701) 328-4496"
+   }
+  ],
+  "MI": [
+   {
+    "name": "Lakeshore Legal Aid",
+    "type": "legal aid",
+    "url": "https://lakeshorelegalaid.org/expungement/",
+    "area_served": "Macomb, Oakland, and Wayne Counties",
+    "what_they_offer": "Provides legal assistance for expungements through scheduled clinics held across Macomb, Oakland, and Wayne Counties. Pre-registration is required to receive the clinic location and appointment time.",
+    "who_qualifies": "Residents of Macomb, Oakland, and Wayne Counties who meet Michigan's Clean Slate eligibility rules.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "University of Detroit Mercy School of Law Clinical Program",
+    "type": "law school clinic",
+    "url": "https://lawschool.udmercy.edu/academics/experiential-education/clinics.php",
+    "area_served": "Statewide, including Detroit and rural and tribal communities across the Upper and Lower Peninsulas",
+    "what_they_offer": "Law students, faculty, and volunteer attorneys run clinics and traveling expungement clinics to review Michigan criminal records, advise on eligibility, and help prepare applications to set aside convictions.",
+    "who_qualifies": "Individuals with eligible Michigan convictions under state waiting-period and felony-limit rules.",
+    "cost": "Free",
+    "phone": "313.596.0262"
+   },
+   {
+    "name": "Great Lakes Expungement Network (GLEN)",
+    "type": "nonprofit",
+    "url": "https://greatlakesexpungementnetwork.org/",
+    "area_served": "Michigan",
+    "what_they_offer": "Offers full-service expungement help, including eligibility screenings, community clinics with fingerprinting and application guidance, and volunteer attorneys who handle filing and courtroom representation.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Clean Slate GR (City of Grand Rapids)",
+    "type": "government programme",
+    "url": "https://www.grandrapidsmi.gov/departments/oversight-public-accountability/clean-slate-gr/",
+    "area_served": "Grand Rapids",
+    "what_they_offer": "Provides year-round assistance with filing expungements, along with attorney, notary, and fingerprinting services offered in collaboration with community partners.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "616-456-4502"
+   },
+   {
+    "name": "Safe & Just Michigan",
+    "type": "nonprofit",
+    "url": "https://www.nacdl.org/mapdata/Michigan-Expungement-Clinics-and-Resources",
+    "area_served": "Statewide",
+    "what_they_offer": "Works with partner organizations, volunteer attorneys, and law students to host expungement fairs across Michigan that help people petition the courts to clear convictions.",
+    "who_qualifies": null,
+    "cost": "Free or low-cost",
+    "phone": null
+   },
+   {
+    "name": "Legal Services of South Central Michigan (LSSCM)",
+    "type": "legal aid",
+    "url": "https://michiganlegalhelp.org/find-lawyer/legal-services-of-south-central-michigan-expungement-assistance",
+    "area_served": "Barry, Branch, Calhoun, Clinton, Eaton, Hillsdale, Ingham, Jackson, Lenawee, Livingston, Monroe, Shiawassee, and Washtenaw Counties",
+    "what_they_offer": "Provides legal advice and representation for expungement cases, with intake available online or by phone through the Counsel & Advocacy Law Line.",
+    "who_qualifies": "Low-income individuals, families, and older adults in the 13 Michigan counties served.",
+    "cost": "Free",
+    "phone": "(888) 783-8190"
+   },
+   {
+    "name": "Legal Aid of Western Michigan",
+    "type": "legal aid",
+    "url": "https://lawestmi.org/pro-bono-portal/expungement-resources/",
+    "area_served": "Allegan, Berrien, Cass, Ionia, Kalamazoo, Kent, Lake, Mason, Mecosta, Montcalm, Muskegon, Newaygo, Oceana, Osceola, Ottawa, St. Joseph, and Van Buren Counties",
+    "what_they_offer": "Connects clients with volunteer attorneys for expungement cases through its Pro Bono Program and provides Clean Slate forms, checklists, and guides.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "616-608-8056"
+   },
+   {
+    "name": "Michigan Department of Attorney General - Expungement Assistance",
+    "type": "government programme",
+    "url": "https://www.michigan.gov/ag/initiatives/expungement-assistance",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides official Clean Slate eligibility information, step-by-step instructions for filing set-aside petitions without an attorney, and announcements of expungement fairs.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "Detroit Justice Center",
+    "type": "nonprofit",
+    "url": "https://detroitjustice.org/legal-services/",
+    "area_served": "Detroit",
+    "what_they_offer": "Attorneys and Community Legal Advocates assist clients with record and traffic expungements, clearing warrants, and driver's license restoration.",
+    "who_qualifies": "Clients referred by partner organizations only; cannot assist with felonies, federal cases, out-of-state matters, or violent/assault misdemeanors.",
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "KY": [
+   {
+    "name": "Legal Aid of the Bluegrass",
+    "type": "legal aid",
+    "url": "https://lablaw.org/criminal-record-expungement",
+    "area_served": "Anderson, Bath, Boone, Bourbon, Boyd, Boyle, Bracken, Campbell, Carroll, Carter, Elliott, Fayette, Fleming, Franklin, Gallatin, Grant, Greenup, Harrison, Jessamine, Kenton, Lewis, Mason, Menifee, Mercer, Montgomery, Morgan, Nicholas, Owen, Pendleton, Robertson, Rowan, Scott, and Woodford counties",
+    "what_they_offer": "Provides legal representation for criminal record expungements and partners with Goodwill of Kentucky and the City of Lexington to offer expungement clinics.",
+    "who_qualifies": "People living at or near poverty who need a Kentucky criminal record expunged to obtain or improve employment or overcome housing barriers.",
+    "cost": "Free",
+    "phone": "859-431-8200"
+   },
+   {
+    "name": "Legal Aid Society",
+    "type": "legal aid",
+    "url": "https://yourlegalaid.org/resources",
+    "area_served": "Breckinridge, Bullitt, Grayson, Hardin, Henry, Jefferson, Larue, Marion, Meade, Nelson, Oldham, Shelby, Spencer, Trimble, and Washington counties",
+    "what_they_offer": "Hosts group educational sessions and expungement clinics with Goodwill Kentucky where attorneys review background records, and refers complex cases to specialized divisions for legal representation.",
+    "who_qualifies": "Individuals with charges in the 15-county service area who qualify for Legal Aid Society services.",
+    "cost": "Free",
+    "phone": "(502) 584-1254"
+   },
+   {
+    "name": "AppalReD Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.kyjustice.org/news/schedule-expungement-clinics-2026",
+    "area_served": "Adair, Bell, Breathitt, Casey, Clark, Clay, Clinton, Cumberland, Estill, Floyd, Garrard, Harlan, Jackson, Johnson, Knott, Knox, Laurel, Lawrence, Lincoln, Lee, Leslie, Letcher, Magoffin, Madison, Martin, McCreary, Monroe, Owsley, Perry, Pike, Powell, Pulaski, Rockcastle, Russell, Wayne, Whitley, and Wolfe counties",
+    "what_they_offer": "Participates in free expungement clinics where attorneys review background checks and advise on eligibility, and provides follow-up legal aid expungement services.",
+    "who_qualifies": "Participants with eligible criminal charges in its 37-county eastern and south-central Kentucky service area.",
+    "cost": "Free",
+    "phone": "(866) 277-5733"
+   },
+   {
+    "name": "Kentucky Legal Aid",
+    "type": "legal aid",
+    "url": "https://www.kyjustice.org/news/schedule-expungement-clinics-2026",
+    "area_served": "Allen, Ballard, Barren, Butler, Caldwell, Calloway, Carlisle, Christian, Crittenden, Daviess, Edmonson, Fulton, Graves, Green, Hancock, Hart, Henderson, Hickman, Hopkins, Livingston, Logan, Lyon, Marshall, McCracken, McLean, Metcalfe, Muhlenberg, Ohio, Simpson, Taylor, Todd, Trigg, Union, Warren, and Webster counties",
+    "what_they_offer": "Hosts free expungement clinics and provides attorneys to access and review criminal histories, check eligibility under Kentucky law, and help file expungement petitions.",
+    "who_qualifies": "Primarily serves low-income clients with criminal charges in its 35-county western and southern Kentucky service area.",
+    "cost": "Free",
+    "phone": "(270) 782-1924"
+   },
+   {
+    "name": "Goodwill Kentucky",
+    "type": "nonprofit",
+    "url": "https://goodwillky.org/expungements/",
+    "area_served": "Statewide except Boone, Boyd, Caldwell, Campbell, Carter, Crittenden, Daviess, Greenup, Henderson, Hopkins, Kenton, Lawrence, Lewis, Martin, McLean, and Union counties",
+    "what_they_offer": "Partners with Kentucky civil legal aid programs to host in-person and virtual expungement clinics, obtains unofficial background records ahead of clinic appointments, and covers expungement costs within its coverage area.",
+    "who_qualifies": "People with eligible charges located within Goodwill Kentucky's covered counties.",
+    "cost": "Covers expungement costs within its service area",
+    "phone": null
+   },
+   {
+    "name": "Kentucky Justice Online (Legal Aid Network of Kentucky)",
+    "type": "legal aid",
+    "url": "https://www.kyjustice.org/how-to-help-yourself/petition-for-expungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free online self-help guides, instructions, and interactive guided interviews to prepare expungement petitions for acquittals, dismissed charges, or failure to indict.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "City of Lexington Clean Slate Expungement Clinic",
+    "type": "government programme",
+    "url": "https://www.lexingtonky.gov/government/mayors-office/clean-slate-expungement-clinic",
+    "area_served": "Lexington",
+    "what_they_offer": "Hosts quarterly expungement clinics offering one-on-one sessions with volunteer and legal aid attorneys to help start the expungement process.",
+    "who_qualifies": null,
+    "cost": "Free",
+    "phone": "(859) 258-3123"
+   },
+   {
+    "name": "Louisville Urban League – Reily Reentry Project",
+    "type": "nonprofit",
+    "url": "https://lul.org/2025/04/01/criminal-record-expungement-facts/",
+    "area_served": "Jefferson County",
+    "what_they_offer": "Completes expungement paperwork and covers court and attorney fees to clear eligible criminal convictions.",
+    "who_qualifies": "Individuals with eligible Jefferson County convictions who enroll in any Louisville Urban League program.",
+    "cost": "Free (covers related court and attorney fees in exchange for program enrollment)",
+    "phone": null
+   }
+  ],
+  "NY": [
+   {
+    "name": "Legal Services of Long Island – Sealing Clinic",
+    "type": "legal aid",
+    "url": "https://legalservicesli.org/sealing-clinic/",
+    "area_served": "Hempstead, Islandia, and Riverhead",
+    "what_they_offer": "Staff access, review, and verify RAP sheets to determine eligibility for criminal record sealing and other re-entry services.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": "516-292-8100, 631-232-2400, 631-369-1112"
+   },
+   {
+    "name": "Community Service Society of New York – Next Door Project",
+    "type": "nonprofit",
+    "url": "https://www.cssny.org/programs/entry/the-next-door-project",
+    "area_served": "New York State (RAP sheet requests limited to the five boroughs of New York City)",
+    "what_they_offer": "Legal workers and attorneys request criminal records, correct RAP sheet errors, seal eligible cases, address open warrants, and apply for rehabilitation certificates.",
+    "who_qualifies": "Low-income New Yorkers with criminal records, with free record requests for those earning up to 200% of the federal poverty level.",
+    "cost": "Free",
+    "phone": "(212) 614-5441"
+   },
+   {
+    "name": "Legal Action Center (LAC)",
+    "type": "nonprofit",
+    "url": "https://www.lac.org/major-project/legal-help-for-new-yorkers-with-convictions",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides legal advice and representation to apply for New York record sealing, understand Clean Slate automatic sealing, get and fix RAP sheets, and apply for Certificates of Relief or Good Conduct.",
+    "who_qualifies": "New York State residents who have an arrest or conviction history.",
+    "cost": "Free",
+    "phone": "(212) 243-1313"
+   },
+   {
+    "name": "The Legal Aid Society – Case Closed Project",
+    "type": "legal aid",
+    "url": "https://legalaidnyc.org/programs-projects-units/case-closed-project/",
+    "area_served": "New York City (five boroughs)",
+    "what_they_offer": "Provides direct legal representation and community education for criminal record sealing, expungement, and vacating convictions related to human trafficking.",
+    "who_qualifies": "Low-income individuals whose criminal convictions occurred in the five boroughs of New York City.",
+    "cost": "Free",
+    "phone": "212-298-3120"
+   },
+   {
+    "name": "Legal Aid Society of Northeastern New York",
+    "type": "legal aid",
+    "url": "https://www.lasnny.org/re-entry-project/cases-we-handle/",
+    "area_served": "Albany, Amsterdam, Canton, Gloversville, Plattsburgh, and Saratoga Springs",
+    "what_they_offer": "Handles New York criminal record sealing under CPL 160.59, applications for Certificates of Relief from Disabilities and Good Conduct, and employment or licensing denials.",
+    "who_qualifies": "People living in poverty who meet statutory sealing criteria, including having no more than two convictions and at least ten crime-free years.",
+    "cost": null,
+    "phone": null
+   },
+   {
+    "name": "John Jay College Institute for Justice and Opportunity",
+    "type": "nonprofit",
+    "url": "https://justiceandopportunity.org/educational-pathways/legal-services/",
+    "area_served": null,
+    "what_they_offer": "Partners with a staff attorney to offer workshops and one-on-one legal help with sealing eligible convictions, requesting and fixing criminal records, and applying for rehabilitation certificates.",
+    "who_qualifies": "Institute program participants and current or prospective CUNY students and alumni with conviction records.",
+    "cost": "Free",
+    "phone": null
+   },
+   {
+    "name": "Brooklyn Defender Services (BDS)",
+    "type": "public defender",
+    "url": "https://bds.org/our-work/civil-justice",
+    "area_served": "Brooklyn",
+    "what_they_offer": "Helps clients seal eligible arrest records and provides reentry support and civil legal advocacy around employment, housing, and education.",
+    "who_qualifies": "Low-income Brooklyn residents and Brooklyn Defenders' clients who are legally entitled to record sealing.",
+    "cost": null,
+    "phone": "718-254-0700"
+   },
+   {
+    "name": "Legal Assistance of Western New York (LawNY) & Cornell Law School – Clean Slate Legal Clinic",
+    "type": "law school clinic",
+    "url": "https://career.cornell.edu/experiences/clean-slate-legal-clinic/",
+    "area_served": "Upstate and Western New York",
+    "what_they_offer": "Provides community education on the Clean Slate Act and helps people retrieve, review, correct, and seal criminal records, including drafting and filing legal motions.",
+    "who_qualifies": null,
+    "cost": null,
+    "phone": null
+   }
+  ],
+  "MS": [
+   {
+    "name": "Mississippi Center for Justice",
+    "type": "nonprofit",
+    "url": "https://mscenterforjustice.org/our-work/economic-justice/expungement/",
+    "area_served": "All 82 counties",
+    "what_they_offer": "Helps individuals gather court and arrest documents, drafts expungement petitions, orders, and fee-waiver motions for self-represented filing, and hosts expungement clinics. Acceptance of new online eligibility forms is temporarily paused while staff assist people already on the waitlist.",
+    "who_qualifies": "Anyone seeking to clear an eligible arrest, misdemeanor, or felony from their Mississippi record, including individuals experiencing financial hardship.",
+    "cost": "Free",
+    "phone": "(601) 352-2269"
+   },
+   {
+    "name": "Mississippi Volunteer Lawyers Project",
+    "type": "legal aid",
+    "url": "https://mvlp.org/clinics",
+    "area_served": "Statewide",
+    "what_they_offer": "Hosts self-representation legal clinics where volunteer attorneys provide legal advice, drafted pleadings, and court instructions for felony and misdemeanor expungements. Also offers an online expungement workshop and video.",
+    "who_qualifies": "Low- to moderate-income residents with income at or below 200% of the federal poverty level who bring required court records.",
+    "cost": "Free",
+    "phone": "601-960-9577"
+   },
+   {
+    "name": "Mission First Legal Aid Office",
+    "type": "legal aid",
+    "url": "https://www.msnd.uscourts.gov/legal-aid-resources-mississippi",
+    "area_served": "Hinds, Madison and Rankin Counties",
+    "what_they_offer": "Provides free civil legal assistance on a range of legal matters, including criminal record expungement.",
+    "who_qualifies": "Eligible residents in Hinds, Madison, and Rankin Counties.",
+    "cost": "Free",
+    "phone": "601-608-0056"
+   },
+   {
+    "name": "Mississippi Access to Justice Commission",
+    "type": "court self-help",
+    "url": "https://www.msatjc.org/criminal-record-expungement",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides self-help information on Mississippi expungement law and supports ExpungeMississippi.com with the Magnolia Bar Association to help users check eligibility, find free legal aid providers, and locate upcoming expungement clinics.",
+    "who_qualifies": "People who are handling their legal problems without a lawyer.",
+    "cost": "Free",
+    "phone": "601-974-0470"
+   }
+  ],
+  "AK": [
+   {
+    "name": "Alaska Legal Services Corporation",
+    "type": "legal aid",
+    "url": "https://www.alsc-law.org/apply/",
+    "area_served": "Statewide",
+    "what_they_offer": "Provides free civil legal aid across Alaska, including assistance with criminal record clearing, driver license restoration, and other reentry barriers. People seeking help can apply online, in person at local offices, or through a statewide toll-free intake phone line.",
+    "who_qualifies": "Low-income and vulnerable Alaskans, generally those with incomes at or below 125% of the federal poverty level (or up to 200% for certain case types).",
+    "cost": "Free",
+    "phone": "1-888-478-2572"
    }
   ]
  }
