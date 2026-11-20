@@ -1,13 +1,13 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import Hero from '../components/Hero.astro';
-import CityCard from '../components/CityCard.astro';
 import FAQSection from '../components/FAQSection.astro';
-import CallToAction from '../components/CallToAction.astro';
 import { cities } from '../data/cities';
 import { getAttorneysForCity, attorneys, getAttorneysByState } from '../data/attorneys';
 import { stateNames, stateSlug } from '../data/cities';
 import { helpStates } from '../data/freeHelp';
+import { guideTopics } from '../data/guides';
+import articles from '../data/articles.json';
 
 // Calculate actual attorney counts for each city
 const citiesWithActualCounts = cities.map(city => {
@@ -24,10 +24,12 @@ const states = Object.keys(stateNames)
   .sort((a, b) => a.name.localeCompare(b.name));
 const helpTotal = helpStates.reduce((n, st) => n + st.count, 0);
 
-// Get top 6 cities by population
+// Cities with the most listed attorneys
 const topCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0)
-  .sort((a, b) => b.population - a.population)
-  .slice(0, 6);
+  .sort((a, b) => b.attorneyCount - a.attorneyCount)
+  .slice(0, 12);
+const guides = [...guideTopics.map(t => ({ slug: t.slug, title: t.title, description: t.description })), ...(articles as any[]).map(a => ({ slug: a.slug, title: a.title, description: a.description }))];
+const titleCase = (s: string) => s.split(' ').map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(' ');
 ---
 
 <PageLayout 
@@ -35,123 +37,66 @@ const topCities = citiesWithActualCounts.filter(c => c.attorneyCount > 0)
   description={`Find attorneys who clear criminal records in ${states.length} states, free legal aid and clinics in every state, and each state's expungement rules in plain English.`}
 >
   <Hero 
-    title="Find an Expungement Attorney or Free Legal Help"
-    subtitle={`${attorneys.length} attorneys in ${states.length} states who clear criminal records, ${helpTotal} free legal aid programmes, and each state's rules in plain English.`}
+    title="Clear Your Criminal Record"
+    subtitle={`${attorneys.length} attorneys in ${states.length} states who handle expungement and record sealing, ${helpTotal} free legal aid programmes, and each state's rules in plain English.`}
     showSearch={false}
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
   />
-  
-  <section class="py-16 bg-white">
-    <div class="container">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
-        <a href="/states" class="p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
-          <h2 class="text-xl font-bold mb-2">Your State's Rules</h2>
-          <p class="text-gray-600">What can be cleared, how long you wait, and what the process is called where you live. Checked against official sources.</p>
-        </a>
-        <a href="/free-expungement-help" class="p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
-          <h2 class="text-xl font-bold mb-2">Free Legal Help</h2>
-          <p class="text-gray-600">{`${helpTotal} legal aid offices, law school clinics and court programmes, with who qualifies for each.`}</p>
-        </a>
-        <a href="/cities" class="p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
-          <h2 class="text-xl font-bold mb-2">Attorneys Near You</h2>
-          <p class="text-gray-600">{`${attorneys.length} law firms that handle expungement and record sealing, with what each one offers.`}</p>
-        </a>
-      </div>
 
-      <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6 text-center">Expungement by State</h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-          {states.map(st => (
-            <a href={`/states/${stateSlug(st.code)}`} class="flex items-center justify-between px-4 py-3 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
-              <span class="font-medium">{st.name}</span>
-              <span class="text-sm text-gray-500">{`${st.count}`}</span>
-            </a>
-          ))}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-16 bg-white">
-    <div class="container">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-4">How Expungement Can Help You</h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Expungement can open doors to better employment, housing, and educational opportunities by clearing eligible criminal records.
-        </p>
-      </div>
-      
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="text-center p-6">
-          <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Better Employment</h3>
-          <p class="text-gray-600">
-            Remove barriers to employment and open up new career opportunities that were previously out of reach.
-          </p>
-        </div>
-        
-        <div class="text-center p-6">
-          <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Housing Access</h3>
-          <p class="text-gray-600">
-            Improve your chances of securing housing by removing criminal records that often appear on background checks.
-          </p>
-        </div>
-        
-        <div class="text-center p-6">
-          <div class="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-            </svg>
-          </div>
-          <h3 class="text-xl font-bold mb-2">Educational Opportunities</h3>
-          <p class="text-gray-600">
-            Pursue higher education and professional certifications without the barrier of a criminal record.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="py-16 bg-gray-50">
-    <div class="container">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-4">Find Expungement Attorneys in Major Cities</h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Browse our directory of qualified expungement attorneys in cities across the United States.
-        </p>
-      </div>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {topCities.map(city => (
-          <CityCard
-            name={city.name}
-            state={city.state}
-            image={city.image}
-            attorneyCount={city.attorneyCount}
-            slug={city.seoSlug || city.slug}
-          />
+  <section class="py-12 md:py-16 bg-white">
+    <div class="container max-w-5xl">
+      <h2 class="!text-3xl !mb-2 text-center">Expungement Attorneys by City</h2>
+      <p class="text-lg text-gray-600 text-center mb-8">Each firm's listing shows what it can clear, whether the first consultation is free, and how to call.</p>
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {topCities.map(c => (
+          <a href={`/cities/${c.seoSlug || c.slug}`} class="flex items-center justify-between rounded-xl border border-gray-200 bg-white px-5 py-4 hover:border-secondary transition-colors">
+            <span>
+              <span class="block text-lg font-bold text-gray-900">{titleCase(c.name)}</span>
+              <span class="block text-sm text-gray-500">{stateNames[c.state] || c.state}</span>
+            </span>
+            <span class="text-right">
+              <span class="block text-2xl font-bold text-secondary leading-none">{c.attorneyCount}</span>
+              <span class="block text-xs text-gray-500 mt-1">attorneys</span>
+            </span>
+          </a>
         ))}
       </div>
-      
-      <div class="mt-12 text-center">
-        <a href="/cities" class="btn btn-primary mr-4">View All Cities</a>
-        <a href="/states" class="btn btn-secondary">Browse by State</a>
+      <div class="mt-6 text-center"><a href="/cities" class="text-secondary font-semibold">All cities →</a></div>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16 bg-gray-50 border-y border-gray-200">
+    <div class="container max-w-5xl">
+      <h2 class="!text-3xl !mb-2 text-center">Rules and Free Help by State</h2>
+      <p class="text-lg text-gray-600 text-center mb-8">What can be cleared, how long you wait, what it is called in your state, and attorneys and free legal aid there.</p>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        {states.map(st => (
+          <a href={`/states/${stateSlug(st.code)}`} class="flex items-center justify-between px-4 py-3 rounded-lg border border-gray-200 bg-white hover:border-secondary transition-colors">
+            <span class="font-medium">{st.name}</span>
+            <span class="text-sm text-gray-500">{`${st.count}`}</span>
+          </a>
+        ))}
+      </div>
+      <a href="/free-expungement-help" class="mt-8 block rounded-xl border border-emerald-200 bg-emerald-50 p-5 hover:border-emerald-400 transition-colors">
+        <span class="block text-lg font-bold text-emerald-900">Can't afford an attorney?</span>
+        <span class="block text-emerald-900/80 mt-1">{`${helpTotal} legal aid offices, law school clinics and court programmes that help for free, with who qualifies for each →`}</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="py-12 md:py-16 bg-white">
+    <div class="container max-w-5xl">
+      <h2 class="!text-3xl !mb-8 text-center">Guides</h2>
+      <div class="grid gap-3 md:grid-cols-2">
+        {guides.map(g => (
+          <a href={`/guides/${g.slug}`} class="block rounded-xl border border-gray-200 bg-white p-5 hover:border-secondary transition-colors">
+            <span class="block font-bold text-gray-900">{g.title}</span>
+            <span class="block text-sm text-gray-600 mt-1">{g.description}</span>
+          </a>
+        ))}
       </div>
     </div>
   </section>
-  
+
   <FAQSection limit={4} />
-  
-  <CallToAction />
 </PageLayout>

@@ -24,7 +24,7 @@ const citiesForAutocomplete = cities.map(city => ({
 }));
 ---
 
-<section class="relative py-20 md:py-32 overflow-hidden">
+<section class="relative py-14 md:py-24 overflow-hidden">
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img 
@@ -39,8 +39,8 @@ const citiesForAutocomplete = cities.map(city => ({
   <!-- Content -->
   <div class="container relative z-10 text-white">
     <div class="max-w-3xl mx-auto text-center">
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-lg">{title}</h1>
-      <p class="text-xl md:text-2xl mb-8 text-white drop-shadow-md">{subtitle}</p>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white drop-shadow-lg">{title}</h1>
+      <p class="text-lg md:text-2xl mb-6 text-white drop-shadow-md">{subtitle}</p>
       
       {showSearch && (
         <div class="bg-white rounded-lg shadow-xl p-5 mt-8 max-w-2xl mx-auto">
@@ -68,7 +68,7 @@ const citiesForAutocomplete = cities.map(city => ({
       )}
       
       <div class="mt-8">
-        <a href="/states" class="btn btn-secondary mr-4">Browse by State</a>
+        <a href="/cities" class="btn bg-white text-primary border-white hover:bg-gray-100 mr-3 mb-3">Find an attorney</a>{" "}
         <a href="/free-expungement-help" class="text-white border border-white hover:bg-white hover:text-primary transition-colors btn">Free Legal Help</a>
       </div>
     </div>

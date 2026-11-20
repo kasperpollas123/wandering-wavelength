@@ -1,11 +1,10 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
-import Hero from '../../components/Hero.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import CallToAction from '../../components/CallToAction.astro';
 import { cities, stateNames, stateSlug, stateExpungementInfo, stateLawSources, stateLawChecked } from '../../data/cities';
 import { getAttorneysByState, getAttorneysForCity, getCityForAttorney } from '../../data/attorneys';
 import { getHelpForState } from '../../data/freeHelp';
+import { badges, BADGE_CLASS, telHref, prettyPhone } from '../../data/attorneyFacts';
 import { getStateFacts, guideTopics, clearableLabel } from '../../data/guides';
 
 // One page for every state that has at least one attorney in the directory
@@ -44,23 +43,26 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
 ---
 
 <PageLayout title={title} description={description} canonicalURL={`/states/${stateSlug(code)}`}>
-  <Hero
-    title={`Expungement Attorneys in ${stateName}`}
-    subtitle={`${attorneys.length} attorneys who handle expungement and record sealing in ${stateName}, listed by city.`}
-    backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
-  />
+  <section class="bg-white border-b border-gray-200">
+    <div class="container pt-6 pb-8">
+      <Breadcrumbs items={[{ label: "States", href: "/states" }, { label: stateName }]} />
+      <h1 class="!text-3xl md:!text-4xl !mb-3 mt-4">{`Expungement in ${stateName}`}</h1>
+      <p class="text-lg text-gray-700 max-w-3xl">{`What can be cleared in ${stateName}, how long you wait, and ${attorneys.length} ${attorneys.length === 1 ? 'attorney' : 'attorneys'} who handle expungement and record sealing here${helpCount > 0 ? ', plus free legal help' : ''}.`}</p>
+      <div class="mt-5 flex flex-wrap gap-2 text-sm">
+        {lawInfo && <a href="#rules" class="rounded-full border border-gray-300 bg-white px-3 py-1.5 font-semibold text-gray-800">The rules</a>}
+        {(stateCities.length > 0 || towns.length > 0) && <a href="#attorneys" class="rounded-full border border-gray-300 bg-white px-3 py-1.5 font-semibold text-gray-800">{`Attorneys (${attorneys.length})`}</a>}
+        {helpCount > 0 && <a href={`/free-expungement-help/${stateSlug(code)}`} class="rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1.5 font-semibold text-emerald-900">{`Free help (${helpCount})`}</a>}
+      </div>
+    </div>
+  </section>
 
-  <div class="container py-8">
-    <Breadcrumbs items={[{ label: "States", href: "/states" }, { label: stateName }]} />
-  </div>
-
-  <section class="py-12 bg-white">
+  <section class="py-8 md:py-12">
     <div class="container">
       <div class="max-w-4xl mx-auto">
         {lawInfo && (
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-12">
-            <h2 class="text-2xl font-bold mb-4">Expungement Law in {stateName}</h2>
-            <p class="text-gray-700 mb-4">{lawInfo}</p>
+          <div id="rules" class="bg-white p-6 rounded-xl border border-gray-200 mb-10 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">{`The rules in ${stateName}`}</h2>
+            <p class="text-[17px] leading-relaxed text-gray-700 mb-4">{lawInfo}</p>
             <p class="text-sm text-gray-500">
               This is a general summary, not legal advice. Laws change, and eligibility depends on the details of a case. An attorney or a legal aid office in {stateName} can confirm what applies to you. Last checked {stateLawChecked}.
             </p>
@@ -80,7 +82,7 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
               {guideTopics.map(t => (
                 <a href={`/guides/${t.slug}#${stateSlug(code)}`} class="p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
-                  <h3 class="font-semibold mb-1">{t.short}</h3>
+                  <h3 class="!text-base font-semibold !mb-1">{t.short}</h3>
                   <p class="text-sm text-gray-700">{`Can be cleared: ${clearableLabel[facts[t.key].clearable]}`}</p>
                   {facts[t.key].wait && <p class="text-sm text-gray-600 mt-1">{facts[t.key].wait}</p>}
                 </a>
@@ -90,15 +92,15 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
         )}
 
         {helpCount > 0 && (
-          <a href={`/free-expungement-help/${stateSlug(code)}`} class="block p-6 mb-12 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
-            <h2 class="text-xl font-semibold mb-1">Free and Low-Cost Help in {stateName} →</h2>
-            <p class="text-gray-700">{helpCount} legal aid offices, law school clinics and other programmes, with who qualifies for each.</p>
+          <a href={`/free-expungement-help/${stateSlug(code)}`} class="block p-5 mb-10 rounded-xl border border-emerald-200 bg-emerald-50 hover:border-emerald-400 transition-colors">
+            <span class="block text-lg font-bold text-emerald-900">{`Can't afford an attorney? Free help in ${stateName} →`}</span>
+            <span class="block text-emerald-900/80 mt-1">{`${helpCount} legal aid ${helpCount === 1 ? 'office or clinic' : 'offices, clinics and programmes'}, with who qualifies for each.`}</span>
           </a>
         )}
 
         {stateCities.length > 0 && (
-          <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">{stateName} Cities</h2>
+          <div id="attorneys" class="mb-10 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">{`Attorneys by city in ${stateName}`}</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               {stateCities.map(c => (
                 <a href={`/cities/${c.seoSlug || c.slug}`} class="flex items-center p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
@@ -106,8 +108,8 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
                     <span class="text-blue-800 font-bold">{c.attorneyCount}</span>
                   </div>
                   <div>
-                    <h3 class="font-semibold">{c.name}, {c.state}</h3>
-                    <p class="text-sm text-gray-600">{c.attorneyCount} expungement {c.attorneyCount === 1 ? 'attorney' : 'attorneys'}</p>
+                    <h3 class="!text-base !mb-0 font-semibold">{`${c.name}, ${c.state}`}</h3>
+                    <p class="text-sm text-gray-600">{`${c.attorneyCount} ${c.attorneyCount === 1 ? 'attorney' : 'attorneys'}`}</p>
                   </div>
                   <div class="ml-auto"><span class="text-secondary">→</span></div>
                 </a>
@@ -117,19 +119,19 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
         )}
 
         {towns.length > 0 && (
-          <div class="mb-12">
-            <h2 class="text-2xl font-bold mb-6">{stateCities.length > 0 ? `Attorneys Elsewhere in ${stateName}` : `Expungement Attorneys in ${stateName}`}</h2>
+          <div id={stateCities.length > 0 ? undefined : 'attorneys'} class="mb-10 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">{stateCities.length > 0 ? `Attorneys Elsewhere in ${stateName}` : `Expungement Attorneys in ${stateName}`}</h2>
             <div class="space-y-6">
               {towns.map(town => (
                 <div>
-                  <h3 class="text-lg font-semibold mb-2">{town}</h3>
+                  <h3 class="!text-lg font-semibold !mb-2">{town}</h3>
                   <ul class="space-y-2">
                     {byTown[town].map(a => (
-                      <li class="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                        <a href={`/attorneys/${a.slug}`} class="font-medium text-primary hover:underline">{a.name}</a>
-                        <p class="text-sm text-gray-600">
-                          {a.address}{a.phone && ` · ${a.phone}`}{a.reviewCount > 0 && ` · ${a.rating} (${a.reviewCount} reviews)`}
-                        </p>
+                      <li class="p-4 bg-white rounded-xl border border-gray-200">
+                        <a href={`/attorneys/${a.slug}`} class="font-semibold text-gray-900">{a.name}</a>
+                        <p class="text-sm text-gray-600 mt-0.5">{[a.reviewCount > 0 && `★ ${a.rating} (${a.reviewCount})`, a.address].filter(Boolean).join(' · ')}</p>
+                        {badges(a).length > 0 && <div class="mt-2 flex flex-wrap gap-1">{badges(a).slice(0, 3).map(t => <span class={`rounded-full border px-2 py-0.5 text-[11px] font-medium ${BADGE_CLASS[t.tone]}`}>{t.label}</span>)}</div>}
+                        {a.phone && <a href={telHref(a.phone)} data-track="state-list" class="mt-2 inline-block text-sm font-semibold text-secondary">{`Call ${prettyPhone(a.phone)}`}</a>}
                       </li>
                     ))}
                   </ul>
@@ -146,9 +148,4 @@ const description = `${attorneys.length} attorneys in ${stateName} who handle ex
     </div>
   </section>
 
-  <CallToAction
-    title={`Ready to Clear Your Record in ${stateName}?`}
-    description="Contact an attorney to find out whether your record qualifies and what the process involves."
-    buttonText="Browse Cities"
-  />
 </PageLayout>
