@@ -12,6 +12,7 @@ import { guideTopics } from '../data/guides';
 import { attorneys } from '../data/attorneys';
 import { serviceLabels } from '../data/attorneyFacts';
 import recordChecks from '../data/recordChecks.json';
+import cfpb from '../data/cfpbComplaints.json';
 import { stateNames, stateSlug } from '../data/cities';
 
 interface Props { slug: string; }
@@ -30,10 +31,12 @@ const sections = article.sections.map((s: any) => ({
   id: idOf(article.headings?.[s.heading] || s.heading),
 }));
 const showRecordChecks = slug === 'how-to-get-a-copy-of-your-criminal-record';
+const showComplaints = slug === 'expunged-record-showing-on-background-check';
+const cfpbMax = Math.max(...cfpb.companies.flatMap(c => c.counts));
 const checks = showRecordChecks ? [...(recordChecks as any[])].filter(c => stateNames[c.state]).sort((a, b) => stateNames[a.state].localeCompare(stateNames[b.state])) : [];
 const fpKind = (f: string) => /^required/i.test(f) ? 'required' : /^not required/i.test(f) ? 'not' : /^optional/i.test(f) ? 'optional' : 'depends';
 const fpCount = (k: string) => checks.filter(c => fpKind(c.fingerprints || '') === k).length;
-const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(showRecordChecks ? [{ id: 'every-state', label: 'How to Get Your Record in Every State' }] : []), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
+const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(showRecordChecks ? [{ id: 'every-state', label: 'How to Get Your Record in Every State' }] : []), ...(showComplaints ? [{ id: 'complaints', label: 'How Often Do People Complain About Background Check Companies?' }] : []), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
 const words = JSON.stringify(article).split(/\s+/).length;
 const minutes = Math.max(3, Math.round(words / 230));
 
@@ -106,6 +109,34 @@ const gunFirms = attorneys.filter(a => serviceLabels(a, 12).includes('Gun rights
             )}
           </section>
         ))}
+
+        {showComplaints && (
+          <section id="complaints" class="mb-12 scroll-mt-24">
+            <h2 class="!text-2xl font-bold !mb-4">How Often Do People Complain About Background Check Companies?</h2>
+            <p class="text-[17px] leading-relaxed text-gray-700 mb-4">The Consumer Financial Protection Bureau keeps a public database of complaints about consumer reporting companies. <strong class="text-gray-900">{`From ${cfpb.publicRecordInaccurate.from} to ${cfpb.publicRecordInaccurate.to}, it received ${cfpb.publicRecordInaccurate.count.toLocaleString('en-US')} complaints in the category "public record information inaccurate".`}</strong> Most were about the three big credit bureaus, but employment screening companies are in there too, and complaints about three of the four below have risen sharply since 2024.</p>
+            <figure class="rounded-xl border border-gray-200 p-5 my-6">
+              <figcaption class="font-bold text-gray-900 mb-4">All complaints to the CFPB about four background check companies, by year</figcaption>
+              <div class="space-y-5">
+                {cfpb.companies.map(c => (
+                  <div>
+                    <p class="text-sm font-semibold text-gray-900 mb-2">{c.name}</p>
+                    <div class="space-y-1">
+                      {c.counts.map((n, i) => (
+                        <div class="flex items-center gap-2 text-xs text-gray-600">
+                          <span class="w-10 shrink-0">{`${cfpb.years[i]}${cfpb.years[i] === 2026 ? '*' : ''}`}</span>
+                          <span class="h-2.5 rounded-full bg-sky-500" style={`width:${Math.max(1, Math.round((n / cfpbMax) * 70))}%`}></span>
+                          <span>{n}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p class="text-xs text-gray-500 mt-4">{`*2026 is January 1 to November 20. These are all complaints about each company, not only about expunged records. Counts from the CFPB Consumer Complaint Database (public domain), retrieved ${cfpb.retrieved}. A complaint is one person's account; the CFPB does not verify every claim.`} <a href={cfpb.source} target="_blank" rel="noopener noreferrer" class="underline">Search the database</a></p>
+            </figure>
+            <p class="text-[17px] leading-relaxed text-gray-700">If an expunged or sealed record shows up on your report and the company won't fix it after a dispute, you can also file a complaint of your own at <a href="https://www.consumerfinance.gov/complaint/" target="_blank" rel="noopener noreferrer" class="text-secondary font-semibold">consumerfinance.gov/complaint</a>.</p>
+          </section>
+        )}
 
         {showRecordChecks && (
           <section id="every-state" class="mb-12 scroll-mt-24">

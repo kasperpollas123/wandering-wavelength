@@ -1,0 +1,12 @@
+{
+  "retrieved": "November 20, 2026",
+  "source": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+  "publicRecordInaccurate": { "count": 62888, "from": "January 1, 2023", "to": "November 20, 2026" },
+  "years": [2021, 2022, 2023, 2024, 2025, 2026],
+  "companies": [
+    { "name": "Checkr", "cfpbName": "Checkr, Inc", "counts": [119, 124, 153, 189, 470, 816] },
+    { "name": "First Advantage", "cfpbName": "FIRST ADVANTAGE CORPORATION", "counts": [114, 145, 162, 209, 352, 429] },
+    { "name": "HireRight", "cfpbName": "HireRight Solutions, Inc.", "counts": [29, 31, 34, 32, 92, 127] },
+    { "name": "Sterling", "cfpbName": "Sterling Infosystems Inc.", "counts": [34, 46, 50, 80, 77, 27] }
+  ]
+}

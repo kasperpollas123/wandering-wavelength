@@ -6,6 +6,7 @@ import { getAttorneysByState, getAttorneysForCity, getCityForAttorney } from '..
 import { getHelpForState } from '../../data/freeHelp';
 import { badges, BADGE_CLASS, telHref, prettyPhone } from '../../data/attorneyFacts';
 import { getStateFacts, guideTopics, clearableLabel } from '../../data/guides';
+import bjs from '../../data/bjsRecords2022.json';
 import { getStateCost, getGap, roundPeople, hostOf as costHost, costsChecked } from '../../data/stateCosts';
 
 // One page for every state that has at least one attorney in the directory
@@ -24,6 +25,8 @@ const helpCount = getHelpForState(code).length;
 const facts = getStateFacts(code);
 const cost = getStateCost(code);
 const gap = getGap(code);
+const rec: any = (bjs as any).states.find((x: any) => x.state === code);
+const fmt = (n: number | null | undefined) => (n == null ? null : n.toLocaleString('en-US'));
 
 // City pages in this state
 const stateCities = cities
@@ -90,6 +93,18 @@ const description = attorneys.length > 0 ? `${stateName} expungement rules in pl
               {cost.time && <div class="py-3 grid sm:grid-cols-3 gap-1"><dt class="font-semibold text-gray-900">How long it takes</dt><dd class="sm:col-span-2 text-gray-700">{cost.time}</dd></div>}
             </dl>
             <p class="text-sm text-gray-500 mt-4">{`Government fees only; an attorney's fee comes on top. ${cost.confidence === 'high' ? 'Confirmed' : 'Checked'} ${costsChecked} against official sources${cost.confidence === 'low' ? ', but the main fee could not be confirmed on an official page, so ask the court clerk' : ''}. Sources: `}{cost.sources.slice(0, 4).map((u, i) => <span>{i > 0 && ', '}<a href={u} target="_blank" rel="noopener noreferrer" class="underline">{costHost(u)}</a></span>)}</p>
+          </div>
+        )}
+
+        {rec && rec.subjects && (
+          <div class="mb-10 rounded-xl border border-gray-200 p-5">
+            <h2 class="!text-xl font-bold !mb-4">{`Criminal records in ${stateName}`}</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div><p class="text-3xl font-bold text-secondary leading-none">{fmt(rec.subjects)}</p><p class="text-sm text-gray-600 mt-1">people in the state's criminal history file at the end of 2022</p></div>
+              <div><p class="text-3xl font-bold text-emerald-700 leading-none">{fmt(rec.sealed) ?? '—'}</p><p class="text-sm text-gray-600 mt-1">{rec.sealed != null ? 'records sealed in 2022' : 'records sealed in 2022: not reported'}</p></div>
+              <div><p class="text-3xl font-bold text-emerald-700 leading-none">{fmt(rec.expunged) ?? '—'}</p><p class="text-sm text-gray-600 mt-1">{rec.expunged != null ? 'records expunged in 2022' : 'records expunged in 2022: not reported'}</p></div>
+            </div>
+            <p class="text-xs text-gray-500 mt-4">{'Source: '}<a href={(bjs as any).source.url} target="_blank" rel="noopener noreferrer" class="underline">Survey of State Criminal History Information Systems, 2022</a>{' (Bureau of Justice Statistics, published September 2024). The file can include people who have moved or died. Sealed and expunged figures count records, not people, and states define them differently.'}</p>
           </div>
         )}
 

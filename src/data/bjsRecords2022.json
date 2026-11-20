@@ -1,0 +1,544 @@
+{
+ "source": {
+  "title": "Survey of State Criminal History Information Systems, 2022",
+  "url": "https://bjs.ojp.gov/library/publications/survey-state-criminal-history-information-systems-2022",
+  "pdf_url": "https://www.ojp.gov/pdffiles1/bjs/grants/309360.pdf",
+  "ncj": "309360",
+  "authors": "Becki R. Goggins and Dennis A. DeBacco, SEARCH (BJS-funded grant report, award 15BJS-23-GK-00052-NCHI)",
+  "published": "2024-09-19",
+  "notes": [
+   "No CSV/XLS data-tables zip is offered on the BJS page; only the full-report PDF (65 pp). All figures read from the PDF tables.",
+   "Data are a snapshot as of December 31, 2022; survey fielded May-July 2023. All 50 states, DC and Guam responded; American Samoa, New Mexico, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands did not report (nr).",
+   "Subjects: Table 2 'Number of subjects (individual offenders) in state criminal history file, 2020 and 2022', column '2022 total' (manual + automated files). Numbers rounded to nearest 100. Counts only the criminal history file, not the master name index.",
+   "Sealed/expunged: Table 5a 'Record sealing and expungements, 2022 (continued)'. These are counts of RECORDS sealed/expunged by the repository in 2022, not subjects; no subject-level sealing/expungement counts exist in the report. Null where cell is blank, 'na' (not available), 'nr' (not reported), '-' (undefined in legend), state does not track, or state does not seal (footnote a).",
+   "Table 5 note: record sealing and expungement definitions and practices vary widely across the states. Sealed = restricted from public access, generally unavailable for employment/licensing but accessible on a limited basis; Expunged = all hard copy and electronic information destroyed.",
+   "Caveat (Note to readers): use caution in drawing comparisons between the results of earlier surveys and the data reported here; trend comparisons may not accurately reflect the status of each state's records.",
+   "Table 5a anomalies as printed: Alabama shows 844 expunged with a blank 'tracks expunged' cell; DC shows 'No' for tracking expungements but 615 in the count column. Cross-check: the 50 state+DC values extracted sum exactly to the Table 5a Total row (1,190,236 sealed; 414,056 expunged).",
+   "Report narrative (p.6): 'Twenty-six states, the District of Columbia, and Guam track the number of records that are sealed. In 2022, nearly 1.2 million records were sealed.' 'Thirty-four states and Guam track the number of records that are expunged. In 2022, over 414,000 records were expunged.'"
+  ]
+ },
+ "national": {
+  "scope": "Total row (50 states, DC, Guam reporting)",
+  "subjects_2022": 116447200,
+  "subjects_2020": 114376500,
+  "subjects_table": "Table 2 (rounded to nearest 100)",
+  "subjects_automated_2022": 111873100,
+  "subjects_manual_2022": 4574100,
+  "records_sealed_2022": 1190236,
+  "records_expunged_2022": 414056,
+  "sealed_expunged_table": "Table 5a",
+  "year": 2022
+ },
+ "states": [
+  {
+   "state": "AL",
+   "state_name": "Alabama",
+   "subjects": 1933800,
+   "sealed": 810,
+   "expunged": 844,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: (blank); Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "AK",
+   "state_name": "Alaska",
+   "subjects": 287700,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; count 'na'; Table 5a expunged: tracks expunged: Yes; count 'na'; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "AZ",
+   "state_name": "Arizona",
+   "subjects": 2123100,
+   "sealed": null,
+   "expunged": 3648,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "AR",
+   "state_name": "Arkansas",
+   "subjects": 881000,
+   "sealed": 5705,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; count shown as '-'; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "CA",
+   "state_name": "California",
+   "subjects": 12200900,
+   "sealed": 26182,
+   "expunged": 30458,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "CO",
+   "state_name": "Colorado",
+   "subjects": 1984800,
+   "sealed": 23548,
+   "expunged": 7145,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "CT",
+   "state_name": "Connecticut",
+   "subjects": 704900,
+   "sealed": null,
+   "expunged": 18678,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "DE",
+   "state_name": "Delaware",
+   "subjects": 295400,
+   "sealed": null,
+   "expunged": 2270,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "DC",
+   "state_name": "District of Columbia",
+   "subjects": 545300,
+   "sealed": null,
+   "expunged": 615,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; count blank; Table 5a expunged: tracks expunged: No (yet 615 printed); Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "FL",
+   "state_name": "Florida",
+   "subjects": 7539000,
+   "sealed": 2826,
+   "expunged": 7138,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; footnote b: 59,487 additional records were sealed automatically per statute; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "GA",
+   "state_name": "Georgia",
+   "subjects": 4679300,
+   "sealed": 410767,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "HI",
+   "state_name": "Hawaii",
+   "subjects": 630700,
+   "sealed": null,
+   "expunged": 4017,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "ID",
+   "state_name": "Idaho",
+   "subjects": 508000,
+   "sealed": null,
+   "expunged": 146,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "IL",
+   "state_name": "Illinois",
+   "subjects": 8186800,
+   "sealed": 11193,
+   "expunged": 29067,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "IN",
+   "state_name": "Indiana",
+   "subjects": 2010400,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 2 footnote a (manual vs automated counting correction); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "IA",
+   "state_name": "Iowa",
+   "subjects": 825800,
+   "sealed": null,
+   "expunged": 4471,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "KS",
+   "state_name": "Kansas",
+   "subjects": 1750500,
+   "sealed": 2831,
+   "expunged": 4,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "KY",
+   "state_name": "Kentucky",
+   "subjects": 1725000,
+   "sealed": null,
+   "expunged": 10893,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "LA",
+   "state_name": "Louisiana",
+   "subjects": 2605600,
+   "sealed": 3353,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: (blank); Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "ME",
+   "state_name": "Maine",
+   "subjects": 658700,
+   "sealed": 1231,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MD",
+   "state_name": "Maryland",
+   "subjects": 1689800,
+   "sealed": null,
+   "expunged": 36376,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; count blank; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MA",
+   "state_name": "Massachusetts",
+   "subjects": 1398100,
+   "sealed": 2644,
+   "expunged": 87,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MI",
+   "state_name": "Michigan",
+   "subjects": 2824400,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MN",
+   "state_name": "Minnesota",
+   "subjects": 1161500,
+   "sealed": 5603,
+   "expunged": 1055,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MS",
+   "state_name": "Mississippi",
+   "subjects": 775000,
+   "sealed": null,
+   "expunged": 3000,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MO",
+   "state_name": "Missouri",
+   "subjects": 1712400,
+   "sealed": 596,
+   "expunged": 69,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "MT",
+   "state_name": "Montana",
+   "subjects": 293900,
+   "sealed": 101,
+   "expunged": 215,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NE",
+   "state_name": "Nebraska",
+   "subjects": 505900,
+   "sealed": 13666,
+   "expunged": 1,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NV",
+   "state_name": "Nevada",
+   "subjects": 1060500,
+   "sealed": 1411,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NH",
+   "state_name": "New Hampshire",
+   "subjects": 595600,
+   "sealed": null,
+   "expunged": 3340,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NJ",
+   "state_name": "New Jersey",
+   "subjects": 2503200,
+   "sealed": null,
+   "expunged": 21584,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NM",
+   "state_name": "New Mexico",
+   "subjects": null,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); 2022 'nr' (not reported); 2020 total 1,332,300 (footnote b); Table 5a sealed: 'nr' (not reported); Table 5a expunged: 'nr' (not reported); Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NY",
+   "state_name": "New York",
+   "subjects": 8159600,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "NC",
+   "state_name": "North Carolina",
+   "subjects": 1999600,
+   "sealed": null,
+   "expunged": 71591,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "ND",
+   "state_name": "North Dakota",
+   "subjects": 262600,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "OH",
+   "state_name": "Ohio",
+   "subjects": 2754400,
+   "sealed": 10994,
+   "expunged": 9499,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "OK",
+   "state_name": "Oklahoma",
+   "subjects": 1178400,
+   "sealed": 2554,
+   "expunged": 2554,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "OR",
+   "state_name": "Oregon",
+   "subjects": 1375800,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "PA",
+   "state_name": "Pennsylvania",
+   "subjects": 3114600,
+   "sealed": 570701,
+   "expunged": 26588,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "RI",
+   "state_name": "Rhode Island",
+   "subjects": 132000,
+   "sealed": null,
+   "expunged": 11766,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 2 footnote d: large decrease due to vendor error in tallying records in previous cycles; Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "SC",
+   "state_name": "South Carolina",
+   "subjects": 2328000,
+   "sealed": 43272,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; count blank; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "SD",
+   "state_name": "South Dakota",
+   "subjects": 338600,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "TN",
+   "state_name": "Tennessee",
+   "subjects": 2233400,
+   "sealed": null,
+   "expunged": 90039,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "TX",
+   "state_name": "Texas",
+   "subjects": 17772800,
+   "sealed": 7612,
+   "expunged": 9540,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "UT",
+   "state_name": "Utah",
+   "subjects": 882700,
+   "sealed": 42155,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "VT",
+   "state_name": "Vermont",
+   "subjects": 263500,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "VA",
+   "state_name": "Virginia",
+   "subjects": 2551800,
+   "sealed": 120,
+   "expunged": 4127,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "WA",
+   "state_name": "Washington",
+   "subjects": 1830000,
+   "sealed": null,
+   "expunged": 2152,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "WV",
+   "state_name": "West Virginia",
+   "subjects": 757400,
+   "sealed": null,
+   "expunged": 1079,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: footnote a: state does not seal records; Table 5a expunged: tracks expunged: Yes; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "WI",
+   "state_name": "Wisconsin",
+   "subjects": 1674100,
+   "sealed": null,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: No; Table 5a expunged: tracks expunged: No; Table 5a counts are RECORDS, not subjects"
+  },
+  {
+   "state": "WY",
+   "state_name": "Wyoming",
+   "subjects": 239300,
+   "sealed": 361,
+   "expunged": null,
+   "year": 2022,
+   "table_refs": "subjects: Table 2 (Number of subjects (individual offenders) in state criminal history file, 2020 and 2022), '2022 total' column; sealed/expunged: Table 5a (Record sealing and expungements, 2022 (continued)), 'Number of records sealed in 2022' / 'Number of records expunged in 2022'",
+   "notes": "Table 2: subjects 2022 (rounded to nearest 100); Table 5a sealed: tracks sealed: Yes; Table 5a expunged: tracks expunged: No; count shown as '-'; Table 5a counts are RECORDS, not subjects"
+  }
+ ]
+}
