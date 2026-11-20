@@ -24,6 +24,7 @@ const sections = article.sections.map((s: any) => ({
   ...s,
   title: article.headings?.[s.heading] || s.heading,
   key: article.keys?.[s.heading] || null,
+  keyInText: Boolean(article.keys?.[s.heading] && (s.paragraphs || []).some((p: string) => p.includes(article.keys[s.heading]))),
   id: idOf(article.headings?.[s.heading] || s.heading),
 }));
 const toc = [...sections.map((s: any) => ({ id: s.id, label: s.title })), ...(article.next_steps?.length ? [{ id: 'next-steps', label: 'Next Steps' }] : [])];
@@ -63,8 +64,13 @@ const gunFirms = attorneys.filter(a => serviceLabels(a, 12).includes('Gun rights
         {sections.map((s: any) => (
           <section id={s.id} class="mb-12 scroll-mt-24">
             <h2 class="!text-2xl font-bold !mb-4">{s.title}</h2>
-            {s.key && <p class="text-[18px] font-semibold text-gray-900 mb-4 border-l-4 border-secondary pl-4">{s.key}</p>}
-            {(s.paragraphs || []).filter((p: string) => p !== s.key).map((p: string) => <p class="text-[17px] leading-relaxed text-gray-700 mb-4">{p}</p>)}
+            {s.key && !s.keyInText && <p class="text-[18px] font-semibold text-gray-900 mb-4 border-l-4 border-secondary pl-4">{s.key}</p>}
+            {(s.paragraphs || []).map((p: string) => {
+              const i = s.key ? p.indexOf(s.key) : -1;
+              return i >= 0
+                ? <p class="text-[17px] leading-relaxed text-gray-700 mb-4">{p.slice(0, i)}<strong class="text-gray-900">{s.key}</strong>{p.slice(i + s.key.length)}</p>
+                : <p class="text-[17px] leading-relaxed text-gray-700 mb-4">{p}</p>;
+            })}
             {charts[s.heading]?.type === 'steps' ? (
               <Steps title={charts[s.heading].title} steps={charts[s.heading].steps} source={charts[s.heading].source} />
             ) : s.bullets && s.bullets.length > 0 && (
@@ -82,7 +88,7 @@ const gunFirms = attorneys.filter(a => serviceLabels(a, 12).includes('Gun rights
                   <tbody>
                     {s.table.rows.map((row: string[]) => (
                       <tr class="border-b border-gray-100 align-top">
-                        {row.map((cell: string, i: number) => <td class={`p-3 text-gray-700 ${i === 0 ? 'font-medium whitespace-nowrap' : ''}`}>{cell}</td>)}
+                        {row.map((cell: string, i: number) => <td class={`p-3 text-gray-700 ${i === 0 ? `font-medium ${cell.length < 22 ? 'whitespace-nowrap' : 'min-w-[9rem]'}` : 'min-w-[10rem]'}`}>{cell}</td>)}
                       </tr>
                     ))}
                   </tbody>

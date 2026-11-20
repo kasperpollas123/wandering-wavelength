@@ -805,5 +805,312 @@
    "Once the result comes back, check that the errors are gone and ask the company to send the corrected report to the employer.",
    "If it still isn't fixed, you can complain to the CFPB or FTC and ask a legal aid office or attorney about your options. /free-expungement-help lists free legal aid by state, and /cities lists attorneys by city."
   ]
+ },
+ {
+  "slug": "traveling-with-a-criminal-record",
+  "title": "Traveling With a Criminal Record: Passports, Canada and Mexico",
+  "nav": "Traveling With a Record",
+  "description": "Can a felon get a passport or travel to Canada or Mexico? What the law says about passports, probation, DUIs at the Canadian border and coming home.",
+  "intro": [],
+  "lede": [
+   "Maybe there's a wedding in Toronto, a family trip to Cancún, or a job that needs you on the road. And somewhere in the back of your mind is the question of whether your record is going to follow you to the airport and get you turned around in front of everyone.",
+   "Here is the good news first: a criminal record on its own does not stop a US citizen from getting a passport, and it cannot keep a citizen from coming home. Most of the real roadblocks are narrower than people fear.",
+   "The places where a record does matter are specific. A few situations block a passport, probation and parole limit when you can leave, Canada is strict (especially about DUIs), and Mexico has the power to refuse entry but doesn't publish a list of crimes.",
+   "This guide walks through each of those using the actual laws and official pages, and it tells you plainly where the official sources were silent or contradicted each other."
+  ],
+  "takeaways": [
+   "A criminal record by itself is not a listed reason to deny a US passport. Open felony warrants, travel bans in probation or parole conditions, certain drug-trafficking convictions, child support arrears over $2,500 and large federal tax debts can be.",
+   "On probation, supervised release or parole, you need permission to leave the country, and federal officers are told to get the court's express consent first.",
+   "Canada can refuse entry for many US convictions, and a DUI on or after December 18, 2018 counts as serious criminality there. Deemed rehabilitation, criminal rehabilitation and a Temporary Resident Permit are the ways in.",
+   "Mexico's law lets officers refuse entry when a person's record threatens national or public security, but it lists no specific crimes and refusal is discretionary.",
+   "A US citizen with a record can't be refused re-entry to the US for that record, but an open warrant can still lead to arrest at the border."
+  ],
+  "sections": [
+   {
+    "heading": "Can I Get a Passport With a Felony?",
+    "paragraphs": [
+     "For most people, yes. No federal statute or regulation we read lists having a criminal record in general as a reason to deny a US passport. Instead, the passport rules (22 CFR 51.60) list specific situations, some where the State Department \"may not issue\" a passport and others where it \"may refuse.\"",
+     "Most of those situations are about where you are right now in the system, not what you did years ago: an open felony warrant, a court order or probation condition that bars you from leaving the country, or being in prison or on parole for certain drug crimes. A finished sentence for an ordinary felony is not on the list.",
+     "The same rules work in reverse. Under 22 CFR 51.62, the State Department \"may revoke or limit a passport\" if the holder is someone who could be denied one. When a passport is denied or revoked, it \"may issue a limited validity passport good only for direct return to the United States.\""
+    ]
+   },
+   {
+    "heading": "What Can Stop Me Getting a Passport?",
+    "paragraphs": [
+     "The one conviction-based rule that is mandatory is for drug offenses involving a border. Under 22 U.S.C. 2714, a passport \"may not be issued\" to someone convicted of a felony drug offense, federal or state, \"if the individual used a passport or otherwise crossed an international border in committing the offense.\" Any passport already issued to that person must be revoked. Drug misdemeanors can be covered too, but only if the Secretary of State decides to apply the rule to that person, and the law says it \"does not apply to an individual's first conviction for a misdemeanor which involves only possession of a controlled substance.\"",
+     "This drug bar is temporary. It lasts only while the person \"is imprisoned, or is legally required to be imprisoned,\" or \"is on parole or other supervised release after having been imprisoned as the result of that conviction.\" \"Imprisoned\" includes a halfway house, a treatment facility or similar place, full or part time. Passports can still be issued \"in emergency circumstances or for humanitarian reasons.\"",
+     "Other rules apply to people convicted of certain sex offenses. A \"covered sex offender\" can only get a passport book that carries a \"conspicuous identifier,\" and cannot get a passport card. A separate mandatory bar covers people convicted under 18 U.S.C. 2423 who used a passport or crossed a border in committing the offense, during the period the law covers.",
+     "Two money problems can also block a passport, and they catch many people with records by surprise because they have nothing to do with a conviction. First, a passport may not be issued if HHS has certified that you owe child support arrears above the amount set by law. That amount is more than $2,500 (42 U.S.C. 652(k)), lowered from $5,000 in 2006.",
+     "Federal tax debt works the same way. A \"seriously delinquent tax debt\" is, by statute, an assessed federal tax debt \"greater than $50,000,\" adjusted each year for inflation, with a lien or levy. The IRS lists the adjusted figure as $64,000 for 2025 and $66,000 for 2026. Debts being paid on time under an installment agreement or offer in compromise do not count.",
+     "If your application is caught by the tax rule, the IRS says the State Department holds it open for 90 days so you can pay or set up a payment plan. With an expedited request, the IRS can generally cut its 30-day decertification time to \"9-16 days.\"",
+     "We could not read the State Department's or HHS's own pages on child support and passports (both blocked our access), so the details of how to clear a child support hold are not covered here. Your state child support agency can tell you where you stand."
+    ],
+    "table": {
+     "headers": [
+      "Situation",
+      "Mandatory or discretionary",
+      "Source"
+     ],
+     "rows": [
+      [
+       "Felony drug conviction where a passport was used or a border was crossed, while in prison or on parole/supervised release",
+       "Mandatory (\"may not be issued\"), with emergency and humanitarian exceptions",
+       "22 U.S.C. 2714"
+      ],
+      [
+       "Outstanding federal, state or local felony arrest warrant",
+       "Discretionary (\"may refuse\")",
+       "22 CFR 51.60(b)(1), (b)(9)"
+      ],
+      [
+       "Court order, probation or parole condition that forbids leaving the US",
+       "Discretionary (\"may refuse\")",
+       "22 CFR 51.60(b)(2)"
+      ],
+      [
+       "Extradition request, federal felony subpoena, military order of restraint",
+       "Discretionary (\"may refuse\")",
+       "22 CFR 51.60(b)"
+      ],
+      [
+       "Covered sex offender",
+       "Passport book only, with a conspicuous identifier; no passport card",
+       "22 CFR 51.60(a)(4), (g)"
+      ],
+      [
+       "Child support arrears over $2,500, certified by HHS",
+       "Mandatory",
+       "22 CFR 51.60(a)(2); 42 U.S.C. 652(k)"
+      ],
+      [
+       "Seriously delinquent federal tax debt (over $66,000 for 2026, per the IRS)",
+       "Mandatory, with emergency and humanitarian exceptions",
+       "22 CFR 51.60(h)(2); 26 U.S.C. 7345"
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "Can I Leave the Country While on Probation or Parole?",
+    "paragraphs": [
+     "Not without permission, and for international travel the bar is higher. The standard federal condition reads: \"You must not knowingly leave the federal judicial district where you are authorized to reside without first getting permission from the court or the probation officer.\"",
+     "For trips abroad, federal guidance says \"Probation officers should seek the express consent of the court before granting a defendant permission to travel outside of the United States.\" Before asking the court, the officer is supposed to contact the destination country's consulate to check that you can meet its entry rules. If you are approved, you have to check in with your officer when you get back.",
+     "Federal parole is stricter on paper. The US Parole Commission requires \"specific advance approval\" for all foreign travel, and the written request \"must demonstrate a substantial need for such travel.\"",
+     "Two more things connect supervision to passports. A probation or parole condition that forbids leaving the US is itself a ground on which the State Department may refuse a passport. And people in prison or on parole for a felony drug conviction involving a border crossing cannot be issued one at all until that period ends."
+    ],
+    "bullets": [
+     "These are the federal rules. State probation and parole travel rules vary by state and were not researched for this guide, so ask your own officer how your state handles it.",
+     "Leaving without permission can be a violation of your supervision."
+    ]
+   },
+   {
+    "heading": "Can a Felon Travel to Canada?",
+    "paragraphs": [
+     "Canada is the strictest of the three places in this guide. Canada's immigration department (IRCC) says people who have \"committed or been convicted of a crime\" may be criminally inadmissible, which means they can be refused entry. Its examples include theft, assault, manslaughter, dangerous driving and \"driving while under the influence of drugs or alcohol.\"",
+     "Canada does not look at what your US conviction was called. It matches it to the closest Canadian offence, a process its enforcement manual calls \"equivalency,\" and then applies Canadian penalties. Two levels matter under the Immigration and Refugee Protection Act (IRPA):"
+    ],
+    "bullets": [
+     "Serious criminality (IRPA 36(1)(b)): a conviction for something that would be punishable in Canada by a maximum of at least 10 years in prison.",
+     "Criminality (IRPA 36(2)(b)): a conviction for something that would be an indictable offence in Canada.",
+     "An offence that Canada can prosecute either way \"is deemed to be an indictable offence, even if it has been prosecuted summarily\" (IRPA 36(3)(a)). In practice this means many offences treated as minor in the US can still count."
+    ]
+   },
+   {
+    "heading": "Can I Go to Canada With a DUI?",
+    "paragraphs": [
+     "A DUI is one of the most common reasons Americans are turned away at the Canadian border. IRCC says \"Tougher penalties for impaired driving came into effect on December 18, 2018,\" and a conviction can now make a person \"inadmissible to Canada for serious criminality, whether the crime happened in Canada or outside Canada.\" Justice Canada lists a maximum of 10 years in prison for alcohol- and drug-impaired driving, first through third offence.",
+     "The date of your offence matters. For an impaired driving offence before December 18, 2018, IRCC judges it \"based on the penalties in force at the time.\" Those older offences may count as criminality rather than serious criminality \"unless you received a prison sentence in Canada longer than 6 months.\"",
+     "That difference decides your options. A DUI on or after December 18, 2018 counts as serious criminality, so it cannot be \"deemed rehabilitated\" by the passage of time. For an older DUI, deemed rehabilitation may be possible \"if at least 10 years has passed since you completed your sentence.\" Either way, IRCC says: \"There is no guarantee that you'll be issued a TRP or be authorized to enter Canada.\""
+    ]
+   },
+   {
+    "heading": "How Can I Get Into Canada With a Criminal Record?",
+    "paragraphs": [
+     "There are three routes, and which one fits depends on how long ago your sentence ended and how serious Canada considers the offence.",
+     "Deemed rehabilitation needs no application. You may be deemed rehabilitated after \"10 years for one indictable offence\" or \"five years for two or more summary convictions,\" if the offence carries a maximum of \"less than 10 years\" in Canada. To ask at the border, IRCC's self-check requires one conviction in total, at least 10 years since every part of every sentence was finished (including fees, jail and restitution), an offence Canada does not consider serious, and no serious property damage, physical harm or weapon. Approval \"is not guaranteed.\"",
+     "Criminal rehabilitation is an application. You become eligible once at least five years have passed since both the end of your sentence (including probation) and the date of the act. You have to show you are rehabilitated and highly unlikely to reoffend, and processing can take \"over a year.\"",
+     "A Temporary Resident Permit (TRP) is for people who are still inadmissible, including those less than five years past their sentence. You need \"a compelling reason to enter or stay in Canada temporarily,\" and it is issued \"at the discretion of an officer\" when your need to enter outweighs the risk to Canadian society. For some minor offences (for example \"minor public mischief or theft\") where you \"served no jail time,\" a fee-free permit for one visit may be possible. It is not available for serious criminality, sexual offences, robbery, \"fraud of C$5,000,\" \"assault causing bodily harm\" or \"most offences related to driving while under the influence of alcohol or drugs, including cannabis.\"",
+     "The fees are not consistent across IRCC's own pages. IRCC's fee schedule, read on November 20, 2026, lists a TRP at C$246.25, but IRCC's help centre answer, updated November 3, 2026, still says the permit \"has a processing fee of C$200.\" The fee schedule gives no effective date. An official notice shows the TRP fee rose from C$200 to C$229.77 on December 1, 2023, and a news report (not an official notice) says the current amounts took effect December 1, 2025. Check the amount with IRCC before you pay."
+    ],
+    "table": {
+     "headers": [
+      "Fee",
+      "IRCC fee schedule (read Nov. 20, 2026)",
+      "Earlier official amounts"
+     ],
+     "rows": [
+      [
+       "Temporary Resident Permit",
+       "C$246.25 (IRCC help centre still says C$200)",
+       "C$200 before Dec. 1, 2023; C$229.77 from Dec. 1, 2023"
+      ],
+      [
+       "Rehabilitation, criminality",
+       "C$246.25",
+       "C$200 before Dec. 1, 2023; C$229.77 from Dec. 1, 2023"
+      ],
+      [
+       "Rehabilitation, serious criminality",
+       "C$1,231",
+       "C$1,000 before Dec. 1, 2023; C$1,148.87 from Dec. 1, 2023"
+      ],
+      [
+       "Authorization to return to Canada",
+       "C$492.50",
+       "Not stated in the sources read"
+      ]
+     ]
+    }
+   },
+   {
+    "heading": "Does an Expunged or Sealed Record Count in Canada?",
+    "paragraphs": [
+     "Possibly, and nothing official says otherwise. IRCC's public page does not mention US expungements or sealed records at all. For a pardon granted in another country, it tells people to check with the visa office serving their region whether it is valid in Canada.",
+     "IRCC's enforcement manual (dated 2015) says \"The effect of a foreign pardon does not automatically render the person admissible to Canada.\" Officers look at whether the pardon erases the conviction or \"merely recognize[s] that rehabilitation has taken place,\" and in the second case the person is still inadmissible and is expected to apply for rehabilitation.",
+     "The only relief Canadian law clearly names is a Canadian record suspension or an acquittal (IRPA 36(3)(b)). We found no official Canadian page that says how a US state expungement or sealing order is treated. Some immigration lawyers write about a court test for this, but we could not confirm it against IRCC's own text, so we are not relying on it here. If your record was expunged and you plan to go to Canada, asking the Canadian visa office or an immigration lawyer before the trip is the safer path."
+    ]
+   },
+   {
+    "heading": "Can a Felon Travel to Mexico?",
+    "paragraphs": [
+     "Often, yes, but refusal is possible. Mexico's immigration law (Ley de Migración, Article 43) says authorities \"podrán negar\" (may refuse) a visa, entry or permission to stay in a short list of cases. The first is when a person's record \"en México o en el extranjero\" (in Mexico or abroad) puts national or public security at risk. Others include not meeting the law's requirements, giving documents that are not authentic, and being subject to an express prohibition by a competent authority.",
+     "The law does not list specific crimes, and the word is \"may,\" not \"must.\" Officers can ask you for any information they need to decide.",
+     "A Mexican consulate's guidance for Canadians says entry may be refused to someone convicted of a serious crime, and gives examples such as manslaughter, terrorism, drug-related crimes, rape, human trafficking, extortion and tax fraud. The same page also mentions people \"facing criminal proceedings,\" but that reflects older wording of the law; secondary reports say Mexico's Supreme Court struck that part down, and we could not read the court's own statement to confirm it.",
+     "What we could not find: any official source saying Mexico systematically checks US visitors' criminal records, or listing which US convictions lead to refusal. We also could not read the Mexican Embassy's FAQ, Mexico's immigration institute pages on this topic, or the US State Department's Mexico page. So the honest answer is that refusal is possible and up to the officer, not automatic."
+    ]
+   },
+   {
+    "heading": "Can I Be Refused Re-Entry to the US With a Record?",
+    "paragraphs": [
+     "If you are a US citizen, your record is not a reason to keep you out. The federal rule (8 CFR 235.1(b)) is that a person claiming citizenship has to prove it to the officer, normally with a US passport, and the criminal grounds for refusing entry apply to \"aliens,\" meaning non-citizens. A CBP press release from 2014, now marked as archived, says \"a U.S. citizen will never be denied entry into the U.S.\" We did not find a current CBP policy page that says this in so many words.",
+     "Getting back in is not the same as walking free, though. In an April 2025 case, a US citizen crossing at the Hidalgo bridge was sent to secondary inspection, where database checks turned up a felony warrant, and CBP handed him to the county sheriff \"to await criminal proceedings.\" If there is any chance of an open warrant in your name, it is worth clearing it up before you travel.",
+     "Non-citizens, including green card holders, are in a different position, because the criminal grounds of inadmissibility can apply to them. That is outside what this guide covers, and an immigration attorney is the right person to ask before any trip."
+    ]
+   }
+  ],
+  "keys": {
+   "Can I Get a Passport With a Felony?": "No federal statute or regulation we read lists having a criminal record in general as a reason to deny a US passport.",
+   "What Can Stop Me Getting a Passport?": "The one conviction-based rule that is mandatory is for drug offenses involving a border.",
+   "Can I Leave the Country While on Probation or Parole?": "For trips abroad, federal guidance says \"Probation officers should seek the express consent of the court before granting a defendant permission to travel outside of the United States.\"",
+   "Can a Felon Travel to Canada?": "Canada does not look at what your US conviction was called.",
+   "Can I Go to Canada With a DUI?": "A DUI on or after December 18, 2018 counts as serious criminality, so it cannot be \"deemed rehabilitated\" by the passage of time.",
+   "How Can I Get Into Canada With a Criminal Record?": "The fees are not consistent across IRCC's own pages.",
+   "Does an Expunged or Sealed Record Count in Canada?": "We found no official Canadian page that says how a US state expungement or sealing order is treated.",
+   "Can a Felon Travel to Mexico?": "The law does not list specific crimes, and the word is \"may,\" not \"must.\"",
+   "Can I Be Refused Re-Entry to the US With a Record?": "If you are a US citizen, your record is not a reason to keep you out."
+  },
+  "next_steps": [
+   "Find out whether anything on the passport list applies to you right now: an open warrant, a travel condition in your probation or parole, child support arrears or a federal tax debt. Your probation officer, your state child support agency and the IRS can each tell you where you stand.",
+   "If you are under supervision, ask your probation or parole officer in writing about international travel well before you book anything.",
+   "Planning on Canada? Work out the date your sentence (including probation and fines) ended and the date of any DUI, then compare them to the deemed rehabilitation, criminal rehabilitation and TRP rules above. Confirm the current fee with IRCC before paying.",
+   "Look into clearing your record where you live. Our /states pages cover each state's rules, costs and attorneys, and /free-expungement-help lists free legal aid by state. Keep in mind that a US expungement may not settle things with Canada.",
+   "For DUI-specific timelines, see /guides/how-long-does-a-dui-stay-on-your-record, and for felonies, /guides/how-long-does-a-felony-stay-on-your-record."
+  ],
+  "sources": [
+   {
+    "label": "22 CFR 51.60: Denial and restriction of passports (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/22/51.60"
+   },
+   {
+    "label": "22 CFR 51.62: Revocation or limitation of passports (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/22/51.62"
+   },
+   {
+    "label": "22 U.S.C. 2714: Denial of passports for certain convicted drug traffickers (Cornell LII)",
+    "url": "https://www.law.cornell.edu/uscode/text/22/2714"
+   },
+   {
+    "label": "22 U.S.C. 2714a: Revocation or denial of passport for seriously delinquent tax debt (Cornell LII)",
+    "url": "https://www.law.cornell.edu/uscode/text/22/2714a"
+   },
+   {
+    "label": "42 U.S.C. 652: Child support arrears and passports (Cornell LII)",
+    "url": "https://www.law.cornell.edu/uscode/text/42/652"
+   },
+   {
+    "label": "26 U.S.C. 7345: Seriously delinquent tax debt (Cornell LII)",
+    "url": "https://www.law.cornell.edu/uscode/text/26/7345"
+   },
+   {
+    "label": "IRS: Revocation or denial of passport in case of certain unpaid taxes",
+    "url": "https://www.irs.gov/businesses/small-businesses-self-employed/revocation-or-denial-of-passport-in-case-of-certain-unpaid-taxes"
+   },
+   {
+    "label": "US Courts: Leaving the judicial district (probation and supervised release conditions)",
+    "url": "https://www.uscourts.gov/about-federal-courts/probation-and-pretrial-services/post-conviction-supervision/overview-probation-and-supervised-release-conditions/chapter-2-leaving-judicial-district-probation-and-supervised"
+   },
+   {
+    "label": "28 CFR 2.41: US Parole Commission travel approval (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/2.41"
+   },
+   {
+    "label": "IRCC: Overcome criminal convictions",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/admissibility-enforcement/overcome-criminal-convictions.html"
+   },
+   {
+    "label": "IRCC: Impaired driving and inadmissibility",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/admissibility-enforcement/overcome-criminal-convictions/impaired-driving.html"
+   },
+   {
+    "label": "IRCC: Deemed rehabilitation",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/admissibility-enforcement/overcome-criminal-convictions/deemed-rehabilitation.html"
+   },
+   {
+    "label": "IRCC: Temporary resident permit, who can apply",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/admissibility-enforcement/temporary-resident-permit/who-can-apply.html"
+   },
+   {
+    "label": "IRCC help centre: Can I enter Canada with a criminal record?",
+    "url": "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=143&top=8"
+   },
+   {
+    "label": "IRCC fee schedule",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/fees/schedule.html"
+   },
+   {
+    "label": "IRCC notice: Changes to inadmissibility fees (Nov. 29, 2023)",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-inadmissibility-fees.html"
+   },
+   {
+    "label": "CIC News: Canada increases select immigration fees (secondary source)",
+    "url": "https://www.cicnews.com/2025/12/canada-increases-select-immigration-fees-1262985.html"
+   },
+   {
+    "label": "Immigration and Refugee Protection Act, s. 36 (Justice Laws)",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/i-2.5/page-6.html"
+   },
+   {
+    "label": "IRCC enforcement manual ENF 3 (2015)",
+    "url": "https://www.canada.ca/content/dam/ircc/migration/ircc/english/resources/manuals/enf/enf03-eng.pdf"
+   },
+   {
+    "label": "Justice Canada: Impaired driving penalties",
+    "url": "https://www.justice.gc.ca/eng/cj-jp/sidl-rlcfa/"
+   },
+   {
+    "label": "Meurrens on Immigration: Expungements and inadmissibility (secondary, not verified)",
+    "url": "https://meurrensonimmigration.com/question-answer-expungements-and-inadmissibility-ir-05/"
+   },
+   {
+    "label": "Ley de Migración, Art. 43 (Cámara de Diputados)",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LMigra.pdf"
+   },
+   {
+    "label": "Consulate of Mexico in Vancouver: Criminal record",
+    "url": "https://consulmex.sre.gob.mx/vancouver/index.php/es/criminal-record"
+   },
+   {
+    "label": "8 CFR 235.1: Scope of examination (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/8/235.1"
+   },
+   {
+    "label": "CBP press release, Laredo (2014, archived)",
+    "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-officers-apprehend-prior-deport-subject-laredo-port-entry"
+   },
+   {
+    "label": "CBP press release, Hidalgo (April 2025)",
+    "url": "https://www.cbp.gov/newsroom/local-media-release/hidalgo-cbp-officers-apprehend-fugitive-sought-warrant-alleged"
+   }
+  ]
  }
 ]
