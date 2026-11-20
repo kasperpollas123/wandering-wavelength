@@ -88,7 +88,7 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 		
 		<!-- First-party visit statistics: page views, time on page and clicks on phone, website and
 		     free-help links. No cookies and nothing personal: a random ID per browser tab.
-		     Switched off until a receiving address is set in URL_ below. Visit /?exp_notrack=1 once to exclude your own browser. -->
+		     Visit /?exp_notrack=1 once to exclude your own browser. -->
 		<script is:inline>
 			(function () {
 				try {
@@ -98,9 +98,8 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 					if (flag === '1') localStorage.setItem('exp_notrack', '1');
 					if (flag === '0') localStorage.removeItem('exp_notrack');
 					if (localStorage.getItem('exp_notrack') === '1') return;
-					// Where the statistics are sent. Empty = switched off (nothing is sent anywhere).
-					var URL_ = '';
-					if (!URL_) return;
+					// Where the statistics are sent (a receiver on the sister site; stored apart from that site's own figures)
+					var URL_ = 'https://www.adultdaycarecenters.org/site/x';
 					var id = function () { try { return crypto.randomUUID(); } catch (e) { return Math.random().toString(36).slice(2) + Date.now().toString(36); } };
 					var visit = '', entry = false;
 					try { visit = sessionStorage.getItem('exp_visit') || ''; if (!visit) { visit = id(); sessionStorage.setItem('exp_visit', visit); entry = true; } } catch (e) { visit = id(); entry = true; }
@@ -108,8 +107,7 @@ const fullCanonicalURL = new URL(canonicalURL, Astro.site);
 					var send = function (d) {
 						try {
 							d.visit_id = visit; d.page_id = page; d.path = location.pathname;
-							var body = JSON.stringify(d);
-							if (!(navigator.sendBeacon && navigator.sendBeacon(URL_, new Blob([body], { type: 'text/plain' })))) fetch(URL_, { method: 'POST', body: body, keepalive: true, mode: 'no-cors' }).catch(function () {});
+							fetch(URL_ + '?d=' + encodeURIComponent(JSON.stringify(d)), { mode: 'no-cors', keepalive: true, credentials: 'omit' }).catch(function () {});
 						} catch (e) {}
 					};
 					var ref = '';
