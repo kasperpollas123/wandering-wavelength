@@ -5,6 +5,9 @@ import rcPagesData from './recordClearingPages.json';
 import reviewEvidenceData from './reviewEvidence.json';
 // Photos saved for firms added in November 2026, keyed "name|domain" (exact match, no guessing by name)
 import attorneyImagesData from './attorneyImages.json';
+// Short card texts for city pages, written separately from the profiles so the wording is not repeated
+import cardTextsData from './cardTexts.json';
+const cardTexts = cardTextsData as Record<string, string>;
 const attorneyImages = attorneyImagesData as Record<string, string>;
 // Firms listed because a client review on Google describes expungement or sealing work
 const reviewEvidence = new Set(reviewEvidenceData as string[]);
@@ -60,6 +63,7 @@ export interface Attorney {
   profile?: AttorneyProfile;
   rcPage?: RecordClearingPage;
   reviewEvidence?: boolean;
+  cardText?: string;
 }
 
 // Function to generate a random phone number
@@ -877,6 +881,7 @@ export function loadAttorneysFromJson(): Attorney[] {
             description: (profiles[`${listing.name}|${listing.domain || ''}`]?.description || '').split('\n')[0]
               || `${listing.name} is a law firm in ${cityName.split(' ').map((w: string) => w ? w.charAt(0).toUpperCase() + w.slice(1) : w).join(' ')}, ${stateName}.`,
             profile: profiles[`${listing.name}|${listing.domain || ''}`],
+            cardText: cardTexts[`${listing.name}|${listing.domain || ''}`],
             rcPage: rcPages[`${listing.name}|${listing.domain || ''}`],
             reviewEvidence: reviewEvidence.has(`${listing.name}|${listing.domain || ''}`),
             longDescription: uniqueDescription, // Use the unique description as the long description

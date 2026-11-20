@@ -46,7 +46,7 @@ function generateAttorneySchema(attorney: any) {
     "@id": new URL(`/attorneys/${attorney.slug}`, Astro.site).toString(),
     "name": attorney.name,
     ...(hasPhoto(attorney) ? { "image": new URL(attorney.image, Astro.site).toString() } : {}),
-    "description": summary(attorney, 250) || `${attorney.name} is a law firm in ${attorney.city}, ${attorney.state} that handles expungement and record sealing cases.`,
+    "description": attorney.cardText || summary(attorney, 250) || `${attorney.name} is a law firm in ${attorney.city}, ${attorney.state} that handles expungement and record sealing cases.`,
     ...(attorney.phone ? { "telephone": attorney.phone } : {}),
     ...(site ? { "url": site, "sameAs": [site] } : {}),
     "address": { "@type": "PostalAddress", ...parseAddress(attorney.address) },

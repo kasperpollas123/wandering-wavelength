@@ -41,7 +41,7 @@ const goodToKnow = [
   langs.length > 0 && `Languages: English, ${langs.join(', ')}`,
 ].filter(Boolean) as string[];
 
-const metaBase = summary(attorney, 150) || `${attorney.name} is a law firm in ${attorney.city}, ${stateName} listed for expungement and record sealing.`;
+const metaBase = attorney.cardText || summary(attorney, 150) || `${attorney.name} is a law firm in ${attorney.city}, ${stateName} listed for expungement and record sealing.`;
 const metaDescription = (metaBase.length < 105 ? `${metaBase} What it clears, fees and how to reach its ${attorney.city} office.` : metaBase).slice(0, 160);
 const fullTitle = `${attorney.name} - Expungement Attorney in ${attorney.city}, ${attorney.state}`;
 const pageTitle = fullTitle.length <= 65 ? fullTitle : `${attorney.name} | ${attorney.city}, ${attorney.state} Expungement`.length <= 65 ? `${attorney.name} | ${attorney.city}, ${attorney.state} Expungement` : `${attorney.name} | ${attorney.city}, ${attorney.state}`;

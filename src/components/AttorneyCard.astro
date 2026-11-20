@@ -1,14 +1,14 @@
 ---
 // Listing card, modelled on the adult day care directory's cards: enough facts to decide without clicking.
 import type { Attorney } from '../data/attorneys';
-import { badges, BADGE_CLASS, serviceLabels, summary, initials, hasPhoto, telHref, prettyPhone, prettyHost } from '../data/attorneyFacts';
+import { badges, BADGE_CLASS, serviceLabels, initials, hasPhoto, telHref, prettyPhone, prettyHost } from '../data/attorneyFacts';
 
 interface Props { attorney: Attorney; }
 const { attorney: a } = Astro.props;
 
 const tags = badges(a);
 const services = serviceLabels(a);
-const text = summary(a);
+const text = a.cardText || '';
 const photo = hasPhoto(a);
 const hasWebsite = a.website && a.website !== '#';
 const profileUrl = `/attorneys/${a.slug}`;
