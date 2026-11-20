@@ -1432,5 +1432,334 @@
     "url": "https://sos.wv.gov/media/346/download?inline="
    }
   ]
+ },
+ {
+  "slug": "expunged-vs-sealed-vs-pardoned",
+  "title": "What Do Expunged, Sealed and Pardoned Mean? (And How They Differ)",
+  "nav": "Expunged vs Sealed vs Pardoned",
+  "description": "Expunged, sealed, set aside or pardoned: what each does to your record, who can see it, who grants it, and why a pardon does not erase a conviction.",
+  "intro": [],
+  "lede": [
+   "Maybe a lawyer told you your record could be \"sealed,\" a friend said theirs was \"expunged,\" and a news story mentioned a pardon. The words get used as if they were the same, and when your job or housing depends on what shows up on a background check, the confusion is stressful.",
+   "Here is the reassuring part: these terms have real, checkable meanings, and once you know which one applies to you, it gets much easier to ask the right questions.",
+   "This guide explains, in plain terms, what expunged, sealed, set aside, nondisclosure, pardon, commutation and certificate of rehabilitation mean, using official court, state and federal sources. It includes a side-by-side table, the facts on federal pardons and federal records, and how a few states hand out pardons."
+  ],
+  "takeaways": [
+   "Expunged generally means destroyed or erased; sealed means the record still exists but is hidden from most people. The exact meaning varies by state, and some states, like California, have no true expungement.",
+   "A pardon is forgiveness, not erasure: the conviction and the pardon both stay on your record, except in states like Pennsylvania that expunge pardoned offenses.",
+   "The President can only pardon federal crimes (and D.C. Superior Court cases brought by the U.S. Attorney); state convictions need a state pardon.",
+   "There is no general federal expungement law. The main exception, 18 U.S.C. 3607(c), covers only certain first-time simple drug possession cases.",
+   "Federal pardon applicants generally wait at least five years after conviction or release from confinement, whichever is later."
+  ],
+  "sections": [
+   {
+    "heading": "What Does Expunged Mean?",
+    "paragraphs": [
+     "In everyday use, \"expunged\" means a record has been wiped out: destroyed or erased so it no longer exists in official files. That is the strongest form of record clearing, and it is also the one whose meaning changes the most from state to state.",
+     "Ohio's statute defines \"expunge\" to include destroying, deleting and erasing a record, in whatever physical or electronic form it takes, so that it cannot be retrieved. Illinois Legal Aid Online describes expungement as having records destroyed, and explains that law enforcement agencies erase or destroy an expunged record and cannot reopen it.",
+     "Even in Illinois, though, courts do not destroy their files. They must impound them instead, and \"the records cannot be accessed without a court order.\" So \"destroyed\" can mean destroyed by the police but locked away by the court.",
+     "Some states use the word loosely or not at all. The California courts' self-help site says plainly that \"true expungement does not exist in California,\" even though people often call the state's dismissal process an expungement. Arizona's set-aside law says the state Department of Public Safety \"may not redact or remove any part of the person's record.\"",
+     "Federal law has one narrow expungement statute, 18 U.S.C. 3607(c), covered below. Its order removes references to the arrest, the proceedings and the results from official records, and restores the person, \"in the contemplation of the law,\" to the status they had before the arrest. Even there, the Justice Department keeps a nonpublic record to check whether someone has already used the provision."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "What Does Sealed Mean, and How Is It Different From Expunged?",
+    "paragraphs": [
+     "Sealing usually means the record still exists but is hidden from most people. Illinois Legal Aid Online puts it simply: you can hide some charges \"from being seen by the general public. This is called sealing.\" The core difference from expungement: an expunged record is meant to be gone, while a sealed record is kept and access to it is limited.",
+     "Who can still look depends on the state. In New York, a conviction sealed under CPL 160.59 \"cannot be seen by anyone other than qualified state agencies and state and local law enforcement,\" with exceptions if you apply to be a police or peace officer, apply for a gun permit, or the information is needed for law enforcement. New York's 10-year sealing requires 10 years crime-free, no more than two convictions and no more than one felony, and \"Sex offenses, violent felonies and serious felonies are not eligible for sealing.\"",
+     "In Illinois, any employer that is required by law to run fingerprint background checks can see sealed felony records, and law enforcement, courts and certain agencies keep access too. Illinois Legal Aid Online also warns that federal agencies, such as immigration authorities, may still have access to expunged or sealed records, because \"state orders do not apply to federal databases.\"",
+     "Texas calls its version an order of nondisclosure. The Texas Office of Court Administration describes it as a court order that bars public entities, including courts, clerks, law enforcement and prosecutors, from disclosing certain criminal records. After the order, \"DPS has 10 business days to seal, not delete, the criminal history record information,\" and some agencies, including law enforcement, will still have access. The list of those agencies is in Texas Government Code 411.0765.",
+     "Sealing can also change what you have to say on applications. Texas says a nondisclosure order legally frees you from disclosing certain criminal history on job applications. Arizona's court self-service center says that if a judge grants a sealing petition under A.R.S. 13-911, you can state on employment, housing and financial aid or loan applications that you were never arrested for, charged with or convicted of that crime."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "What Do Set Aside, Dismissed and Vacated Mean?",
+    "paragraphs": [
+     "Set-aside, dismissal and vacatur change the outcome of a case without necessarily removing it from the record. The record usually stays, with a note that the conviction was set aside, dismissed or vacated.",
+     "In Arizona, a court can \"set aside the judgment of guilt\" and release the person \"from all penalties and disabilities resulting from the conviction.\" Afterward, court and criminal history records show that the conviction was set aside rather than showing a conviction, but the state annotates the record instead of removing anything.",
+     "California's dismissal under Penal Code 1203.4 is the process many people call \"expungement\" there. The conviction is \"withdrawn and set aside,\" but according to the Superior Court of Tulare County it does not remove the conviction from California or FBI criminal history records, does not seal the court file from public inspection, and the dismissal \"will continue to appear on your criminal history.\"",
+     "Washington's vacatur goes further. Under RCW 9.94A.640, the conviction is not included in the person's criminal history, the person is released from penalties and disabilities, and they \"may state that the offender has never been convicted of that crime.\" There is one limit: the law says nothing in that section prevents the use of the prior conviction in a later criminal prosecution."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "What Does a Pardon Mean, and Does It Clear Your Record?",
+    "paragraphs": [
+     "A pardon is forgiveness, not erasure. The U.S. Justice Department describes a pardon as \"an expression of the President's forgiveness,\" and Georgia's Board of Pardons and Paroles calls it \"an order of official forgiveness.\"",
+     "For a federal pardon, the Justice Department answers the record question directly: a pardon does not expunge or erase the conviction. \"Both the federal conviction as well as the pardon would both appear on your record.\" A 2006 opinion from the Justice Department's Office of Legal Counsel says a pardon removes the punitive legal consequences of a conviction but \"does not erase the conviction as a historical fact.\"",
+     "Georgia's board says the same about state pardons: \"A pardon does not expunge, remove, or erase crimes from a person's criminal record.\" There are exceptions. In Pennsylvania, \"As of June 11, 2024, records related to offenses pardoned by the Governor will be expunged without further action by the applicant.\" Whether other states link pardons to expungement in the same way could not be confirmed for this guide, so ask your state's pardon board.",
+     "A commutation is narrower than a pardon. The Justice Department says it reduces a sentence that is being served, wholly or partly, but \"does not change the fact of conviction, imply innocence, or remove civil disabilities\" that come with the conviction.",
+     "California also has a certificate of rehabilitation: a court order that says a person convicted of a felony has been rehabilitated. California's courts say it \"does not erase your criminal record,\" does not seal a record and does not restore gun rights. It is sent to the Governor and \"is considered an official application for a pardon from the governor.\""
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "How Do Expungement, Sealing, Pardons and the Rest Compare?",
+    "paragraphs": [
+     "The table below sums up the forms of relief covered in this guide. It uses only what the official and legal aid sources say; where the rules differ from state to state, it says so. Your state may use different names for the same thing, so check its exact rules."
+    ],
+    "table": {
+     "headers": [
+      "Relief",
+      "What it does to the record",
+      "Who can still see it",
+      "Who grants it"
+     ],
+     "rows": [
+      [
+       "Expunged",
+       "Varies by state. Ohio's statute and Illinois law enforcement: destroyed or erased. Illinois courts: impounded, not destroyed. Federal 3607(c): removed except a DOJ nonpublic record. California: true expungement does not exist.",
+       "Varies by state. In Illinois, court files only with a court order; federal agencies may still have access because state orders do not bind federal databases.",
+       "A court (the Justice Department calls expungement \"a judicial remedy\")."
+      ],
+      [
+       "Sealed",
+       "Record kept but hidden from the general public.",
+       "Varies by state. New York: qualified state agencies and law enforcement, plus police officer and gun permit applications. Illinois: law enforcement, courts, certain agencies and fingerprint-check employers.",
+       "Varies by state. In Arizona, a court on petition."
+      ],
+      [
+       "Set aside / dismissed / vacated",
+       "Arizona and California: record stays, annotated as set aside or dismissed. Washington vacatur: conviction left out of criminal history.",
+       "Arizona and California: the record remains visible with the annotation. Washington: the conviction can still be used in a later prosecution.",
+       "A court."
+      ],
+      [
+       "Nondisclosure (Texas)",
+       "Record sealed, not deleted, by DPS within 10 business days.",
+       "Law enforcement and other agencies listed in Texas Government Code 411.0765.",
+       "A court."
+      ],
+      [
+       "Pardon",
+       "Generally does not erase the record; conviction and pardon both appear. Exception: Pennsylvania governor's pardons lead to expungement.",
+       "Anyone who could see the record before.",
+       "Federal crimes: the President. State crimes: varies by state (governor, or an independent board in Georgia)."
+      ],
+      [
+       "Commutation",
+       "Reduces a sentence being served; conviction unchanged.",
+       "Anyone who could see the record before.",
+       "Federal: the President. State: varies by state."
+      ],
+      [
+       "Certificate of rehabilitation (California)",
+       "Does not erase or seal the record.",
+       "Anyone who could see the record before.",
+       "A California court; it then goes to the Governor as a pardon application."
+      ]
+     ]
+    },
+    "bullets": []
+   },
+   {
+    "heading": "Can the President Pardon State Crimes?",
+    "paragraphs": [
+     "No. The Constitution gives the President power to grant pardons \"for Offences against the United States,\" and the Justice Department says the President's clemency authority \"is limited to federal offenses\" and to offenses prosecuted by the U.S. Attorney for the District of Columbia in D.C. Superior Court.",
+     "For a state conviction, the Justice Department says to contact the authorities of the state where the conviction happened. It works the other way too: California's Governor \"cannot grant a pardon for a conviction from another state or a federal proceeding.\"",
+     "So a state conviction can only be pardoned by that state, and a federal conviction only by the President. If you have both, they are two separate applications."
+    ],
+    "bullets": []
+   },
+   {
+    "heading": "How Do Federal Pardons Work, and How Many Are Granted?",
+    "paragraphs": [
+     "Federal pardon petitions go to the Office of the Pardon Attorney at the Justice Department, using the forms on its website. Questions go to USPardon.Attorney@usdoj.gov.",
+     "There is a waiting period. Under 28 CFR 1.2, a pardon petition is not to be filed until at least five years after release from confinement, or, if there was no prison sentence, five years after the conviction. Generally, people on probation, parole or supervised release are not expected to apply. The Justice Manual puts it as five years after conviction or release, whichever is later.",
+     "A federal pardon is not a fast process, and there are no promises. The Justice Department notes \"there is no guarantee that an application submitted during an administration will be decided by that President.\"",
+     "The Pardon Attorney publishes clemency statistics by administration. The figures below are copied from that page. One caveat on Biden's 80 pardons: the page says it counts clemency warrants, and the 80 may not include people covered by his blanket proclamations pardoning simple marijuana possession. The page does not say either way, so that could not be confirmed. As of November 20, 2026, the page showed no figures for President Trump's second term."
+    ],
+    "table": {
+     "headers": [
+      "President",
+      "Pardon petitions received",
+      "Pardons granted",
+      "Commutation petitions received",
+      "Commutations granted"
+     ],
+     "rows": [
+      [
+       "Obama (2009-2017)",
+       "3,395",
+       "212",
+       "33,149",
+       "1,715"
+      ],
+      [
+       "Trump, first term (2017-2021)",
+       "1,969",
+       "144",
+       "10,109",
+       "94"
+      ],
+      [
+       "Biden (2021-2025)",
+       "1,666",
+       "80",
+       "13,201",
+       "4,165"
+      ]
+     ]
+    },
+    "bullets": []
+   },
+   {
+    "heading": "Can a Federal Conviction Be Expunged?",
+    "paragraphs": [
+     "In most cases, no. A federal court FAQ from the Central District of California says, \"Federal convictions cannot be expunged. However, you may apply for a Presidential Pardon.\" A 2020 Congressional Research Service report says \"few such laws exist at the federal level.\"",
+     "The Justice Department adds that expungement \"cannot be granted within the Department of Justice or by the President,\" and that anyone seeking expungement of a federal offense has to contact the court that convicted them.",
+     "The Congressional Research Service lists three main areas where federal law allows expungement: inaccurate records under the Privacy Act, records from an invalid, unlawful or unconstitutional process, and specific statutes. It also notes that federal appeals courts \"disagree on whether they have authority to consider equitable expungement claims,\" so where you were convicted can matter.",
+     "The clearest specific statute is 18 U.S.C. 3607(c). It is narrow:"
+    ],
+    "bullets": [
+     "It covers simple drug possession under 21 U.S.C. 844.",
+     "The person must have no prior drug conviction and no earlier 3607 disposition.",
+     "The person must complete pre-judgment probation of up to one year.",
+     "If the person was under 21 at the time of the offense, the court \"shall enter an expungement order\" on their application.",
+     "Afterward, the person is not guilty of perjury for not mentioning the arrest."
+    ]
+   },
+   {
+    "heading": "Who Grants Pardons for State Convictions?",
+    "paragraphs": [
+     "Each state decides, and the setup varies a lot. In some states the governor decides; in others a board does.",
+     "In Georgia, an independent board, the State Board of Pardons and Paroles, grants pardons, not the governor. Applicants must be crime-free for 5 years after finishing all sentences, or 10 years for sex-registry offenses. In fiscal year 2025 the board received 874 pardon and restoration-of-rights applications and granted 436 of all types, and denied 151 cases.",
+     "In Texas, the Governor makes the final decision but can only grant clemency on the written recommendation of a majority of the Board of Pardons and Paroles. The board recommends far fewer than it reviews: 3 of 108 noncapital clemency requests in fiscal year 2023 (3%), and 9 of 130 in fiscal year 2025 (7%).",
+     "In Pennsylvania, the Board of Pardons recommends clemency by majority vote (unanimously for life or death sentences), and the Governor may approve or reject it. In California, the Board of Parole Hearings investigates pardon applications, the Governor decides, and the Governor cannot pardon someone with more than one felony conviction without the California Supreme Court's approval."
+    ],
+    "bullets": [
+     "Georgia FY2025: 169 pardons without firearms restored",
+     "Georgia FY2025: 164 pardons with firearms restored",
+     "Georgia FY2025: 80 restorations of civil and political rights",
+     "Georgia FY2025: 23 restorations with firearms"
+    ]
+   }
+  ],
+  "keys": {
+   "What Does Expunged Mean?": "In everyday use, \"expunged\" means a record has been wiped out: destroyed or erased so it no longer exists in official files.",
+   "What Does Sealed Mean, and How Is It Different From Expunged?": "The core difference from expungement: an expunged record is meant to be gone, while a sealed record is kept and access to it is limited.",
+   "What Do Set Aside, Dismissed and Vacated Mean?": "The record usually stays, with a note that the conviction was set aside, dismissed or vacated.",
+   "What Does a Pardon Mean, and Does It Clear Your Record?": "A pardon is forgiveness, not erasure.",
+   "How Do Expungement, Sealing, Pardons and the Rest Compare?": "Your state may use different names for the same thing, so check its exact rules.",
+   "Can the President Pardon State Crimes?": "So a state conviction can only be pardoned by that state, and a federal conviction only by the President.",
+   "How Do Federal Pardons Work, and How Many Are Granted?": "Under 28 CFR 1.2, a pardon petition is not to be filed until at least five years after release from confinement, or, if there was no prison sentence, five years after the conviction.",
+   "Can a Federal Conviction Be Expunged?": "A federal court FAQ from the Central District of California says, \"Federal convictions cannot be expunged. However, you may apply for a Presidential Pardon.\"",
+   "Who Grants Pardons for State Convictions?": "Each state decides, and the setup varies a lot."
+  },
+  "next_steps": [
+   "Find out which form of relief your state offers and what it calls it on our state pages at /states.",
+   "If money is a worry, look up free legal aid in your state at /free-expungement-help, and see typical filing costs at /guides/expungement-cost-by-state.",
+   "If your record has already been cleared but still shows up, read /guides/expunged-record-showing-on-background-check.",
+   "If you are thinking about a pardon to restore firearm rights, read /guides/restoring-gun-rights-after-a-conviction, and for a federal conviction, check the five-year waiting period before contacting the Office of the Pardon Attorney.",
+   "Ask a local attorney or legal aid office which option fits your case; you can search by location at /cities."
+  ],
+  "sources": [
+   {
+    "label": "U.S. Department of Justice, Office of the Pardon Attorney: Frequently Asked Questions",
+    "url": "https://www.justice.gov/pardon/frequently-asked-questions"
+   },
+   {
+    "label": "U.S. Constitution, Article II, Section 2 (National Archives transcript)",
+    "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+   },
+   {
+    "label": "DOJ Office of Legal Counsel opinion on presidential pardons and expungement (2006)",
+    "url": "https://www.justice.gov/sites/default/files/olc/opinions/2006/08/31/pardonopfinal_0.pdf"
+   },
+   {
+    "label": "Office of the Pardon Attorney: Clemency Statistics",
+    "url": "https://www.justice.gov/pardon/clemency-statistics"
+   },
+   {
+    "label": "28 CFR 1.2, Eligibility for filing petition for pardon (Cornell LII)",
+    "url": "https://www.law.cornell.edu/cfr/text/28/1.2"
+   },
+   {
+    "label": "Justice Manual 9-140.000, Pardon Attorney",
+    "url": "https://www.justice.gov/jm/jm-9-140000-pardon-attorney"
+   },
+   {
+    "label": "18 U.S.C. 3607 (Cornell LII)",
+    "url": "https://www.law.cornell.edu/uscode/text/18/3607"
+   },
+   {
+    "label": "U.S. District Court, Central District of California: FAQ",
+    "url": "https://www.cacp.uscourts.gov/faq/general/30"
+   },
+   {
+    "label": "Congressional Research Service, Legal Sidebar LSB10413 (2020)",
+    "url": "https://crsreports.congress.gov/product/pdf/LSB/LSB10413"
+   },
+   {
+    "label": "Ohio Revised Code 2953.31",
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-2953.31"
+   },
+   {
+    "label": "Illinois Legal Aid Online: Expunging or sealing a criminal record",
+    "url": "https://www.illinoislegalaid.org/legal-information/expunging-or-sealing-criminal-record"
+   },
+   {
+    "label": "Illinois Legal Aid Online: After your expungement or sealing case is decided",
+    "url": "https://www.illinoislegalaid.org/legal-information/after-your-expungement-or-sealing-case-decided-common-questions"
+   },
+   {
+    "label": "California Courts Self-Help: Clean your record",
+    "url": "https://selfhelp.courts.ca.gov/clean-your-record"
+   },
+   {
+    "label": "California Courts Self-Help: Certificate of rehabilitation",
+    "url": "https://selfhelp.courts.ca.gov/clean-your-record/certificate-rehabilitation"
+   },
+   {
+    "label": "Superior Court of Tulare County: Petition for dismissal under PC 1203.4",
+    "url": "https://www.tulare.courts.ca.gov/petition-dismissal-under-pc-ss12034"
+   },
+   {
+    "label": "Office of the Governor of California: Pardons",
+    "url": "https://www.gov.ca.gov/clemency/pardons/"
+   },
+   {
+    "label": "Arizona Revised Statutes 13-905",
+    "url": "https://www.azleg.gov/ars/13/00905.htm"
+   },
+   {
+    "label": "Arizona Judicial Branch Self-Service Center: Criminal law forms",
+    "url": "https://www.azcourts.gov/selfservicecenter/Criminal-Law/Criminal-Law-Forms"
+   },
+   {
+    "label": "New York Department of State: Criminal records sealed after 10 years",
+    "url": "https://dos.ny.gov/criminal-records-sealed-after-10-years"
+   },
+   {
+    "label": "Texas Office of Court Administration: An Overview of Orders of Nondisclosure",
+    "url": "https://www.txcourts.gov/media/1438062/overview-of-orders-of-nondisclosure.pdf"
+   },
+   {
+    "label": "Revised Code of Washington 9.94A.640",
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=9.94A.640"
+   },
+   {
+    "label": "Georgia State Board of Pardons and Paroles, FY2025 Annual Report",
+    "url": "https://pap.georgia.gov/document/document/pardons-paroles-ar-2025-d12-1pdf/download"
+   },
+   {
+    "label": "Texas Board of Pardons and Paroles, FY2023 Annual Statistical Report",
+    "url": "https://www.tdcj.texas.gov/bpp/publications/FY_2023_Annual_Statistical_Report.pdf"
+   },
+   {
+    "label": "Texas Board of Pardons and Paroles, FY2025 Annual Statistical Report",
+    "url": "https://www.tdcj.texas.gov/bpp/publications/FY_2025_Annual_Statistical_Report.pdf"
+   },
+   {
+    "label": "Pennsylvania Board of Pardons: Frequently Asked Questions",
+    "url": "https://www.bop.pa.gov/application-process/Pages/Frequently-Asked-Questions.aspx"
+   },
+   {
+    "label": "Pennsylvania Board of Pardons: The process",
+    "url": "https://www.pa.gov/agencies/bop/process"
+   }
+  ]
  }
 ]
