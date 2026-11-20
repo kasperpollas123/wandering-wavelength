@@ -58,6 +58,9 @@ const checked = 'November 2026';
           <ul class="space-y-2">
             <li><a href="/free-expungement-help" class="text-primary hover:underline">Free and low-cost legal help by state</a></li>
             <li><a href="/states" class="text-primary hover:underline">Each state's record-clearing rules and attorneys</a></li>
+            {article.slug === 'expunged-record-showing-on-background-check' && (
+              <li><a href="https://www.consumeradvocates.org/findanattorney/" target="_blank" rel="noopener noreferrer" data-track="naca" class="text-primary hover:underline">National Association of Consumer Advocates: find a consumer attorney by state (filter by credit reporting)</a></li>
+            )}
           </ul>
         </div>
 
