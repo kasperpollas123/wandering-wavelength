@@ -5,10 +5,10 @@ switched on. Kasper's standing decision: no inquiries, lead forms or outreach un
 
 ## Market facts we checked ourselves (Google Ads keyword data, Nov 2026)
 - "expungement lawyer": about 27,100 US searches a month (seasonal: 40,500 in winter, 5,400 in Oct 2026);
-  advertisers bid about $24 to $174 per click.
-- "expungement attorney near me": about 720 a month, $18 to $141 per click.
-- "how much does an expungement cost": about 480 a month, $9 to $46 per click.
-- "expungement lawyer houston": about 140 a month, from about $32 per click.
+  advertisers bid about DKK 24 to 174 per click (about $3.50-25; the Ads account reports bids in DKK, corrected Nov 21).
+- "expungement attorney near me": about 720 a month, DKK 18 to 141 per click.
+- "how much does an expungement cost": about 480 a month, DKK 9 to 46 per click.
+- "expungement lawyer houston": about 140 a month, from about DKK 32 per click.
 High click prices mean law firms pay well for these visitors. Record clearing is mostly statewide paperwork,
 so one firm can serve a whole state.
 

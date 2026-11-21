@@ -23,15 +23,15 @@ Money: docs/money-research/new_angles_2026-11.md. Earlier work: docs/MONEY_NOTES
 | second chance apartments | 33,100 | n/a | housing for people with records; big, practical |
 | felony friendly jobs / jobs for felons | 22,200 / 18,100 | n/a | employment; huge demand |
 | fbi background check / identity history summary | 12,100 / 12,100 | 33-36 | own-record guide mentions it; a dedicated page could rank |
-| deferred adjudication | 12,100 | 14 | explainer + state rules; $61 bids |
+| deferred adjudication | 12,100 | 14 | explainer + state rules; bids up to DKK 61 |
 | can a felon get a passport | 18,100 | n/a | travel guide covers it; needs its own page/section title |
 | can a felon own a gun | 4,400 | 20 | gun-rights guide exists; check title targets this |
-| prop 47 (California) | 3,600 | 23 | $136 bids; California-specific |
+| prop 47 (California) | 3,600 | 23 | bids up to DKK 136; California-specific |
 | can a felon join the military | 2,900 | 2 | weak SERP (goarmy, reddit) |
 | can felons travel to canada | 2,400 | 2 | weak SERP; travel guide section |
 | clean slate act | 1,900 | 31 | state-by-state clean slate table |
 | expunge a misdemeanor / a dui | 1,900 / 1,300 | 27 / 0 | |
-| ban the box | 1,600 | 25 | NELP/NCSL rank; $136 bids |
+| ban the box | 1,600 | 25 | NELP/NCSL rank; bids up to DKK 136 |
 | how far back does a background check go | 1,600 | 0 | Checkr, reddit rank; fits CFPB/background guide |
 | set aside conviction | 880 | 2 | only court sites rank |
 KD 0 can also mean DataForSEO lacks data. Best fits for a record-clearing site: deferred adjudication, FBI identity
