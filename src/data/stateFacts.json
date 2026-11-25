@@ -78,7 +78,7 @@
    },
    "dui": {
     "clearable": "yes",
-    "wait": "About 10 years. The state petition form requires more than ten years since the first DWI conviction, plus completed sentence, paid costs and licence reinstatement requirements met.",
+    "wait": "About 10 years. The state petition form requires more than ten years since the first DWI conviction, plus completed sentence, paid costs and license reinstatement requirements met.",
     "note": "Applies to misdemeanor DWI. The statute ties the wait to the DWI lookback period, which was lengthened from 5 to 10 years in 2021."
    }
   },
@@ -112,7 +112,7 @@
    "remedy_name": "dismissal (set-aside) under Penal Code 1203.4",
    "non_conviction": "The Department of Justice automatically grants record relief for eligible arrests that did not lead to conviction; this limits disclosure but is not sealing. Petition-based arrest sealing was not confirmed.",
    "automatic": "Since July 2022 the Department of Justice grants automatic relief monthly for eligible arrests and convictions back to 1973; it limits disclosure but is not a dismissal or sealing.",
-   "dui_driving_record": "The DMV says a DUI stays on the driver record for 10 years and counts as a prior for 10 years from the earlier violation date. Commercial licence records are kept far longer.",
+   "dui_driving_record": "The DMV says a DUI stays on the driver record for 10 years and counts as a prior for 10 years from the earlier violation date. Commercial license records are kept far longer.",
    "sources": [
     "https://selfhelp.courts.ca.gov/clean-your-record",
     "https://california.public.law/codes/ca_penal_code_section_1203.4",
@@ -273,7 +273,7 @@
    "remedy_name": "record restriction",
    "non_conviction": "Arrests ending in dismissal or no prosecution are generally restricted; for arrests after July 1, 2013 this is often automatic. Court records must be sealed separately by petition.",
    "automatic": null,
-   "dui_driving_record": "For licence suspensions, DUIs within 5 years of each other count as repeat offenses (measured arrest to arrest). A fourth DUI within 10 years can be a felony.",
+   "dui_driving_record": "For license suspensions, DUIs within 5 years of each other count as repeat offenses (measured arrest to arrest). A fourth DUI within 10 years can be a felony.",
    "sources": [
     "https://gov.georgia.gov/document/2020-signed-legislation/sb-288/download",
     "https://dds.georgia.gov/chapter-1-continued",
@@ -763,7 +763,7 @@
    "dui": {
     "clearable": "yes",
     "wait": "Seven years from the first DUI with no later DUI or other criminal offense.",
-    "note": "A separate DUI statute says the court must seal the record. It does not apply to commercial licence holders, and prosecutors can still use it as a prior."
+    "note": "A separate DUI statute says the court must seal the record. It does not apply to commercial license holders, and prosecutors can still use it as a prior."
    }
   },
   "NE": {
@@ -789,7 +789,7 @@
    "dui": {
     "clearable": "some",
     "wait": "No set waiting period: after probation ends or the fine is paid.",
-    "note": "Set-aside only if the sentence was probation or a fine; not if jail was imposed. The record is not sealed, and the DUI still counts as a prior and for licence points."
+    "note": "Set-aside only if the sentence was probation or a fine; not if jail was imposed. The record is not sealed, and the DUI still counts as a prior and for license points."
    }
   },
   "NH": {
@@ -1326,7 +1326,7 @@
    "remedy_name": "expungement",
    "non_conviction": "On request by court petition, 180 days after the arrest or dismissal if no charges are pending. Not automatic.",
    "automatic": null,
-   "dui_driving_record": "A DUI conviction counts as a prior offense for 10 years, for both criminal penalties and licence suspension. How long it stays on the driving record itself was not confirmed.",
+   "dui_driving_record": "A DUI conviction counts as a prior offense for 10 years, for both criminal penalties and license suspension. How long it stays on the driving record itself was not confirmed.",
    "sources": [
     "https://www.wyocourts.gov/legal-help-by-topic/expungements/",
     "https://statutes.wyoleg.gov/NXT/gateway.dll/2025%20Wyoming%20Statutes/2025%20Titles/316/352/367",

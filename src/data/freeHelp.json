@@ -24,7 +24,7 @@
    },
    {
     "name": "Cobb Second Chance Desk",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.cobbcounty.gov/district-attorney/cobb-second-chance-desk",
     "area_served": "Cobb County",
     "what_they_offer": "Weekly help desk housed in the Cobb Circuit Defender's Office where an attorney reviews criminal histories, gives consultations, and helps fill out record restriction forms.",
@@ -34,7 +34,7 @@
    },
    {
     "name": "Augusta Judicial Circuit (AJC) Second Chance Desk",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.augustaga.gov/3142/Second-Chance-Desk",
     "area_served": "Burke and Richmond Counties",
     "what_they_offer": "Monthly help desk at the Augusta Public Library offering attorney criminal record reviews, consultations, and self-help assistance filling out pro se restriction and sealing forms.",
@@ -44,7 +44,7 @@
    },
    {
     "name": "Athens-Clarke County Second Chance Desk",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.accgov.com/SecondChanceDesk",
     "area_served": "Athens-Clarke and Oconee Counties",
     "what_they_offer": "Monthly help desk providing attorney reviews of criminal histories, consultations, and assistance completing pro se restriction and sealing forms.",
@@ -148,7 +148,7 @@
    },
    {
     "name": "Rhode Island Office of the Attorney General",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://riag.ri.gov/community-outreach/expungements",
     "area_served": null,
     "what_they_offer": "Helps residents evaluate criminal record expungement eligibility and complete forms through community outreach hours and periodic clinics, though online expungement requests are not currently accepted.",
@@ -292,7 +292,7 @@
    },
    {
     "name": "Arizona Reentry 2030",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://reentry2030.az.gov/criminal-record-sealing",
     "area_served": "Statewide",
     "what_they_offer": "State initiative offering information on Arizona record clearance laws, a free online record-sealing eligibility screening tool in partnership with Rasa Legal, and directory links to free legal aid organizations.",
@@ -546,7 +546,7 @@
    },
    {
     "name": "Virginia State Crime Commission",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://vscc.virginia.gov/sealing.asp",
     "area_served": "Statewide",
     "what_they_offer": "Provides official guides, FAQs, brochures, lists of eligible and excluded offenses, and links to request criminal history records and search court cases for record sealing.",
@@ -712,7 +712,7 @@
    },
    {
     "name": "Idaho State Police, Bureau of Criminal Identification",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://isp.idaho.gov/bci/criminal-history/",
     "area_served": "Statewide",
     "what_they_offer": "Provides an official expungement application and flow chart, and processes written requests to expunge fingerprints and non-conviction arrest records from the state criminal history repository.",
@@ -794,7 +794,7 @@
    },
    {
     "name": "Hennepin County Attorney's Office - Prosecutor-Led Expungement (PLE) Program",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.hennepinattorney.org/get-help/sealing-criminal-records/seal-criminal-records-info",
     "area_served": "Hennepin County",
     "what_they_offer": "Reviews and seals eligible conviction records directly on the applicant's behalf without requiring court filings or court appearances.",
@@ -804,7 +804,7 @@
    },
    {
     "name": "Anoka County Criminal Expungement Clinic",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.anokacountymn.gov/3570/Anoka-County-Criminal-Expungement-Clinic",
     "area_served": "Anoka County",
     "what_they_offer": "Holds monthly walk-in informational sessions on criminal expungement, supplies court forms, and provides attorney consultations supported by Central Minnesota Legal Services.",
@@ -906,7 +906,7 @@
    },
    {
     "name": "Knox County District Attorney's Office",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://dag.knoxcountytn.gov/community-resources/expungements/",
     "area_served": "Knox County",
     "what_they_offer": "Holds monthly in-person expungement screenings with an Assistant District Attorney and a court clerk to assist self-represented individuals with expungement applications, eligibility questions, and rights restoration.",
@@ -1058,7 +1058,7 @@
    },
    {
     "name": "San Jose State University - Record Clearance Project (RCP)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.sjsu.edu/rcp/docs/legal-services/english/RCP%20Brochure%205.1.26.pdf",
     "area_served": "Santa Clara County (court representation) and California (record reviews)",
     "what_they_offer": "Undergraduate legal clinic students working under attorney supervision conduct legal rights presentations, review criminal records to advise on clearing California convictions, and provide court representation in Santa Clara County.",
@@ -1182,7 +1182,7 @@
    },
    {
     "name": "Office of Broward State Attorney Harold F. Pryor",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://browardsao.com/seal-or-expunge-a-criminal-record/",
     "area_served": "Broward County",
     "what_they_offer": "Provides eligibility guidance, application assistance by phone, and periodic one-stop community workshops for arrest record sealing and expungement.",
@@ -1468,7 +1468,7 @@
    },
    {
     "name": "City of Boston — Project Opportunity (Black Male Advancement)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.boston.gov/departments/black-male-advancement/project-opportunity",
     "area_served": "Boston",
     "what_they_offer": "Connects residents with volunteer lawyers through Lawyers Clearinghouse for virtual CORI consultations and full representation on sealing or expungement petitions and hearings.",
@@ -1786,7 +1786,7 @@
    },
    {
     "name": "Leavenworth County Attorney's Office Expungement Day",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.leavenworthcounty.gov/government/county_attorney_s_office/expungement_day.php",
     "area_served": "Leavenworth County",
     "what_they_offer": "Annual program where the County Attorney's office reviews submitted expungement forms for eligibility and pairs applicants with volunteer local attorneys to answer questions and explain the process.",
@@ -1860,7 +1860,7 @@
    },
    {
     "name": "Jobs & Hope West Virginia",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://jobsandhope.wv.gov/free-expungement-clinic-bluefield-wv/",
     "area_served": "Statewide",
     "what_they_offer": "Employs transition agents across the state to help participants overcome barriers to employment and connects them with Legal Aid of West Virginia for criminal record expungement and free clinics.",
@@ -1954,7 +1954,7 @@
    },
    {
     "name": "Salt Lake County Office of Homelessness & Criminal Justice Reform",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.saltlakecounty.gov/ohcjr/expungement/",
     "area_served": "Salt Lake County",
     "what_they_offer": "Provides an online self-help Expungement Tool Kit with step-by-step guides and forms for petition-based expungements, traffic expungements, 402 conviction reductions, and court fee waivers.",
@@ -1974,7 +1974,7 @@
    },
    {
     "name": "Utah Bureau of Criminal Identification (BCI)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://bci.utah.gov/auto-expungements/",
     "area_served": "Statewide",
     "what_they_offer": "Processes automatic Clean Slate expungements with the Utah courts and provides expungement forms and official letters verifying expunged criminal history.",
@@ -1996,7 +1996,7 @@
    },
    {
     "name": "Durham Expunction & Restoration Program (DEAR)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.deardurham.org/",
     "area_served": "Durham County",
     "what_they_offer": "Provides legal help to expunge criminal charges and convictions, obtain Certificates of Relief, and restore suspended driver's licenses, along with monthly education workshops and intake.",
@@ -2232,7 +2232,7 @@
    },
    {
     "name": "Sixth Judicial Circuit Solicitor's Office",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.scsolicitor6.org/expungement",
     "area_served": "Chester and Fairfield Counties",
     "what_they_offer": "Processes expungement orders directly for applicants without requiring a private attorney, waiving fees for eligible non-convictions.",
@@ -2242,7 +2242,7 @@
    },
    {
     "name": "Eleventh Judicial Circuit Solicitor's Office",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://solicitor11.sc.gov/expungements",
     "area_served": "Edgefield, Lexington, McCormick, and Saluda Counties",
     "what_they_offer": "Provides an expungement application packet to help determine eligibility and processes expungement requests through a dedicated coordinator.",
@@ -2252,7 +2252,7 @@
    },
    {
     "name": "15th Judicial Circuit Solicitor's Office",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://horrycountysc.gov/departments/solicitor/faqs/",
     "area_served": "Horry and Georgetown Counties",
     "what_they_offer": "Provides downloadable expungement screening applications and processes expungement requests for qualifying local charges, though staff cannot give legal advice.",
@@ -2274,7 +2274,7 @@
    },
    {
     "name": "APEX Program - Delaware Department of Labor",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://labor.delaware.gov/apex/",
     "area_served": "Statewide",
     "what_they_offer": "Provides non-attorney one-on-one guidance through the pardon and expungement application process, help gathering documents and completing paperwork, and preparation classes for Board of Pardons hearings.",
@@ -2324,7 +2324,7 @@
    },
    {
     "name": "Delaware Board of Pardons",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://pardons.delaware.gov/",
     "area_served": "Statewide",
     "what_they_offer": "Provides official eligibility information and application instructions for seeking a Delaware pardon, expungement, or commutation.",
@@ -2584,7 +2584,7 @@
   "HI": [
    {
     "name": "Hawaiʻi Criminal Justice Data Center (Department of the Attorney General)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://ag.hawaii.gov/hcjdc/expungements/",
     "area_served": "Statewide",
     "what_they_offer": "State agency that processes applications to expunge non-conviction arrest records and qualifying conviction records. For orders granted on or after July 1, 2025, it automatically sends the expungement order to the Judiciary to seal or remove related court case records.",
@@ -2636,7 +2636,7 @@
    },
    {
     "name": "Office of the Vermont Attorney General",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://ago.vermont.gov/blog/2025/12/18/criminal-record-clearing-clinic-set-january-15-brattleboro",
     "area_served": "Statewide",
     "what_they_offer": "Hosts periodic criminal record clearing clinics across Vermont where attorneys from the Attorney General's Office help prepare petitions to seal or expunge qualifying convictions and dismissed charges.",
@@ -2894,7 +2894,7 @@
    },
    {
     "name": "Alabama Law Enforcement Agency (ALEA)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.alea.gov/criminal-record-expungement",
     "area_served": "Statewide",
     "what_they_offer": "Provides official information, instructions, and the form required to obtain a certified criminal history record needed before filing for expungement, along with links to court petition forms.",
@@ -2934,7 +2934,7 @@
    },
    {
     "name": "City of Birmingham Free Expungement Clinic",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.birminghamal.gov/events/2026-10-22free-expungement-clinic",
     "area_served": "Birmingham",
     "what_they_offer": "Hosts a free clinic with attorneys, court personnel, and partner legal groups to help residents clear eligible charges from their records by appointment.",
@@ -3046,7 +3046,7 @@
    },
    {
     "name": "Washington State Department of Commerce – Post-Conviction Legal Aid Program (CRP)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.commerce.wa.gov/crp/crp-legal-assistance/",
     "area_served": "Statewide",
     "what_they_offer": "Funds regional legal aid and community partners across Washington (including Civil Survival, Skagit Legal Aid, Washington West African Center, Living with Conviction, Institute for Black Justice, Timberland Legal Aid, Seattle Clemency Project, and Washington Defender Association) to assist with vacating criminal records, reducing court fines, and restoring licenses.",
@@ -3066,7 +3066,7 @@
    },
    {
     "name": "Washington State Patrol – Criminal History Records Section",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://wsp.wa.gov/wp-content/uploads/2024/08/240040_Expungement_Checklist_R_7-24.pdf",
     "area_served": "Statewide",
     "what_they_offer": "Processes mail-in requests to delete eligible nonconviction arrest and charge records from Washington State Patrol criminal history files.",
@@ -3138,7 +3138,7 @@
    },
    {
     "name": "Clean Slate Connecticut",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://portal.ct.gov/cleanslate",
     "area_served": "Statewide",
     "what_they_offer": "Administers automatic record erasure for eligible post-2000 criminal and cannabis convictions and provides step-by-step instructions and court petition forms (Form JD-CR-202) for pre-2000 convictions.",
@@ -3180,7 +3180,7 @@
    },
    {
     "name": "Oklahoma State Bureau of Investigation (OSBI) - Clean Slate Initiative",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://oklahoma.gov/osbi/services/information-services-division/clean-slate-initiative.html",
     "area_served": "Statewide",
     "what_they_offer": "Operates Oklahoma's Clean Slate process and Expedited Clean Slate Portal to clear eligible criminal history records without a court petition, and provides guidance on processing petition-based expungements.",
@@ -3336,7 +3336,7 @@
    },
    {
     "name": "Clean Slate GR (City of Grand Rapids)",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.grandrapidsmi.gov/departments/oversight-public-accountability/clean-slate-gr/",
     "area_served": "Grand Rapids",
     "what_they_offer": "Provides year-round assistance with filing expungements, along with attorney, notary, and fingerprinting services offered in collaboration with community partners.",
@@ -3376,7 +3376,7 @@
    },
    {
     "name": "Michigan Department of Attorney General - Expungement Assistance",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.michigan.gov/ag/initiatives/expungement-assistance",
     "area_served": "Statewide",
     "what_they_offer": "Provides official Clean Slate eligibility information, step-by-step instructions for filing set-aside petitions without an attorney, and announcements of expungement fairs.",
@@ -3458,7 +3458,7 @@
    },
    {
     "name": "City of Lexington Clean Slate Expungement Clinic",
-    "type": "government programme",
+    "type": "government program",
     "url": "https://www.lexingtonky.gov/government/mayors-office/clean-slate-expungement-clinic",
     "area_served": "Lexington",
     "what_they_offer": "Hosts quarterly expungement clinics offering one-on-one sessions with volunteer and legal aid attorneys to help start the expungement process.",

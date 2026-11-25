@@ -22,7 +22,7 @@ const description = `${orgs.length} legal aid offices and clinics that help clea
 <PageLayout title={title} description={description} canonicalURL={`/free-expungement-help/${stateSlug(code)}`}>
   <Hero
     title={`Free Expungement Help in ${stateName}`}
-    subtitle={`Legal aid offices, law school clinics and other programmes that help people in ${stateName} clear a criminal record for free or at low cost.`}
+    subtitle={`Legal aid offices, law school clinics and other programs that help people in ${stateName} clear a criminal record for free or at low cost.`}
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
   />
 
@@ -34,9 +34,9 @@ const description = `${orgs.length} legal aid offices and clinics that help clea
     <div class="container">
       <div class="max-w-4xl mx-auto">
         <p class="text-lg text-gray-700 mb-4">
-          Most free programmes have rules about who they can help. Many set an income limit, serve only certain counties, or take only certain kinds of cases. Check with the organisation before you rely on it, because clinic dates and intake rules change.
+          Most free programs have rules about who they can help. Many set an income limit, serve only certain counties, or take only certain kinds of cases. Check with the organization before you rely on it, because clinic dates and intake rules change.
         </p>
-        {helpChecked && <p class="text-sm text-gray-500 mb-10">Each entry comes from the organisation's own page or an official listing, checked {helpChecked}.</p>}
+        {helpChecked && <p class="text-sm text-gray-500 mb-10">Each entry comes from the organization's own page or an official listing, checked {helpChecked}.</p>}
 
         <div class="space-y-6 mb-12">
           {orgs.map(org => (
@@ -52,7 +52,7 @@ const description = `${orgs.length} legal aid offices and clinics that help clea
                 {org.phone && <li><span class="font-medium">Phone:</span>{` ${org.phone}`}</li>}
               </ul>
               <a href={org.url} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline font-medium break-all">
-                Go to the programme's page →
+                Go to the program's page →
               </a>
             </div>
           ))}
@@ -62,7 +62,7 @@ const description = `${orgs.length} legal aid offices and clinics that help clea
           <div class="p-6 rounded-lg border border-gray-200 mb-12">
             <h2 class="text-2xl font-bold mb-3">If You Don't Qualify for Free Help</h2>
             <p class="text-gray-700 mb-4">
-              If your income is over a programme's limit, the programme is full, or it doesn't take your kind of case, a private attorney is the other route. We list {`${attorneyCount} ${attorneyCount === 1 ? 'attorney' : 'attorneys'}`} in {stateName} who handle expungement and record sealing. Some publish their fees or offer a free first consultation.
+              If your income is over a program's limit, the program is full, or it doesn't take your kind of case, a private attorney is the other route. We list {`${attorneyCount} ${attorneyCount === 1 ? 'attorney' : 'attorneys'}`} in {stateName} who handle expungement and record sealing. Some publish their fees or offer a free first consultation.
             </p>
             <a href={`/states/${stateSlug(code)}`} class="btn btn-primary">Expungement Attorneys in {stateName}</a>
           </div>

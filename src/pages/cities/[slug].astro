@@ -22,7 +22,7 @@ const attorneys = getAttorneysForCity(city);
 const stateName = stateNames[city.state] || city.state;
 const helpOrgs = getHelpForState(city.state);
 const helpCount = helpOrgs.length;
-// Free programmes that name this city in their area or name (statewide ones are on the state's free help page)
+// Free programs that name this city in their area or name (statewide ones are on the state's free help page)
 const cityRe = new RegExp(`\\b${city.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
 const localHelp = helpOrgs.filter(o => cityRe.test(`${o.area_served || ''} ${o.name}`)).slice(0, 4);
 
@@ -110,7 +110,7 @@ const nearbyCitiesWithCounts = cities
       {localHelp.length > 0 && (
         <div class="mt-10 rounded-xl border border-emerald-200 bg-emerald-50 p-6">
           <h2 class="!text-xl !mb-2 font-bold text-emerald-900">{`Free help in ${cityName}`}</h2>
-          <p class="text-[15px] text-emerald-900/80 mb-4">{`If you can't afford an attorney, these programmes help people in ${cityName} for free or at low cost. Most have income limits.`}</p>
+          <p class="text-[15px] text-emerald-900/80 mb-4">{`If you can't afford an attorney, these programs help people in ${cityName} for free or at low cost. Most have income limits.`}</p>
           <ul class="space-y-3">
             {localHelp.map(o => (
               <li class="rounded-lg bg-white border border-emerald-100 p-4">
@@ -120,7 +120,7 @@ const nearbyCitiesWithCounts = cities
               </li>
             ))}
           </ul>
-          <a href={`/free-expungement-help/${stateSlug(city.state)}`} class="mt-4 inline-block font-semibold text-emerald-900">{`All ${helpCount} free programmes in ${stateName} →`}</a>
+          <a href={`/free-expungement-help/${stateSlug(city.state)}`} class="mt-4 inline-block font-semibold text-emerald-900">{`All ${helpCount} free programs in ${stateName} →`}</a>
         </div>
       )}
       <p class="mt-8 text-sm text-gray-500 max-w-3xl">Labels and summaries come from each firm's own website. Ratings are the firm's public review score. Confirm fees and details with the firm before you hire.</p>

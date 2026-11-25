@@ -10,12 +10,12 @@ const total = helpStates.reduce((n, s) => n + s.count, 0);
 
 <PageLayout
   title="Free Expungement Help by State | Legal Aid and Record Clearing Clinics"
-  description={`${total} legal aid offices, law school clinics and other programmes across ${helpStates.length} states that help clear a criminal record for free or at low cost.`}
+  description={`${total} legal aid offices, law school clinics and other programs across ${helpStates.length} states that help clear a criminal record for free or at low cost.`}
   canonicalURL="/free-expungement-help"
 >
   <Hero
     title="Free Expungement Help by State"
-    subtitle="Legal aid offices, law school clinics and public programmes that help people clear a criminal record for free or at low cost."
+    subtitle="Legal aid offices, law school clinics and public programs that help people clear a criminal record for free or at low cost."
     backgroundImage="/images/hero/p8bsykcxvdrme0cn7wer7hzwfm.webp"
   />
 
@@ -28,20 +28,20 @@ const total = helpStates.reduce((n, s) => n + s.count, 0);
       <div class="max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold mb-4">Where Free Help Comes From</h2>
         <ul class="list-disc pl-6 text-gray-700 space-y-2 mb-6">
-          <li><span class="font-medium">Legal aid organisations</span> give free legal help to people under an income limit, usually within a set group of counties.</li>
+          <li><span class="font-medium">Legal aid organizations</span> give free legal help to people under an income limit, usually within a set group of counties.</li>
           <li><span class="font-medium">Law school clinics</span> have students prepare cases under a supervising attorney, often during the school term only.</li>
-          <li><span class="font-medium">Public defender and court programmes</span> run in some counties and states, sometimes as one-day clinics.</li>
+          <li><span class="font-medium">Public defender and court programs</span> run in some counties and states, sometimes as one-day clinics.</li>
           <li><span class="font-medium">Court self-help resources</span> give forms and instructions for people who file on their own.</li>
         </ul>
         <p class="text-gray-700 mb-10">
-          Pick your state to see {total} programmes we found, with who each one helps and how to reach it. If none fits, each state page also links to private attorneys who handle these cases.
+          Pick your state to see {total} programs we found, with who each one helps and how to reach it. If none fits, each state page also links to private attorneys who handle these cases.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {helpStates.map(s => (
             <a href={`/free-expungement-help/${stateSlug(s.code)}`} class="flex items-center justify-between p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
               <span class="font-semibold">{s.name}</span>
-              <span class="text-sm text-gray-600">{`${s.count} ${s.count === 1 ? 'programme' : 'programmes'}`}</span>
+              <span class="text-sm text-gray-600">{`${s.count} ${s.count === 1 ? 'program' : 'programs'}`}</span>
             </a>
           ))}
         </div>
